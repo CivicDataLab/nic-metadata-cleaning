@@ -1,0 +1,21 @@
+
+KPI 1: % of rows with all mandatory fields filled = 100.00%
+
+KPI 2: % of values compliant with controlled vocabularies:
+  - cdos_state_ministry: [Skipped, no controlled vocab defined]
+  - sector: [Skipped, no controlled vocab defined]
+  - sector_resource: [Skipped, no controlled vocab defined]
+  - ministry_department: [Skipped, no controlled vocab defined]
+  - created: [Skipped, no controlled vocab defined]
+  - published: [Skipped, no controlled vocab defined]
+  - changed: [Skipped, no controlled vocab defined]
+  - resource_category: [Skipped, no controlled vocab defined]
+  - Duration of Date (from- to): [Skipped, no controlled vocab defined]
+  - govt_type: 100.00%
+  - Access Type (on dataset creation page): 0.00%
+  - frequency: 0.00%
+  - field_show_export: 0.00%
+  - field_from_api: 0.00%
+  - fied_resource_type: [Skipped, no controlled vocab defined]
+  - field_high_value_dataset: 0.00%
+  - is_api_available: 0.00%
