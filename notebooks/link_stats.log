@@ -1,0 +1,9 @@
+Link Statistics Log
+Generated on: 2025-08-25 06:22:53
+
+HTTP Response Code Counts:
+- 500: 36
+- 200: 17
+- Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')): 7
+- Error: HTTPSConnectionPool(host='nsdiindia.gov.in', port=443): Max retries exceeded with url: /nsdi-portal/AccessControl?data=Bhuvan-Andhra (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x725e492cffe0>, 'Connection to nsdiindia.gov.in timed out. (connect timeout=10)')): 1
+- 400: 2
