@@ -1,0 +1,272 @@
+csv_file,column,pii_flag,entity,score,person_phone_same_row
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,DATE_TIME,ABOUT PM,0.85,False
+2023_Q4.csv,QueryText,NRP,YOJNA,0.85,False
+2023_Q4.csv,QueryText,NRP,YOJNA,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,011 24300606,0.4,False
+2023_Q4.csv,QueryText,DATE_TIME,ABOUT PM,0.85,False
+2023_Q4.csv,QueryText,NRP,YOJNA,0.85,False
+2023_Q4.csv,Crop,PERSON,Pointed Gourd,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,DATE_TIME,ABOUT PM,0.85,False
+2023_Q4.csv,QueryText,NRP,YOJNA,0.85,False
+2023_Q4.csv,QueryText,DATE_TIME,ABOUT PM,0.85,False
+2023_Q4.csv,QueryText,NRP,YOJNA,0.85,False
+2023_Q4.csv,KccAns,DATE_TIME,25/02/2022,0.95,False
+2023_Q4.csv,KccAns,PERSON,"ELIGIBILITY STATUS
+Land Seeding :-  ",0.85,False
+2023_Q4.csv,KccAns,PERSON,Click,0.85,False
+2023_Q4.csv,KccAns,LOCATION,MM,0.85,False
+2023_Q4.csv,QueryText,NRP,YOJNA,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612-2230942,0.4,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,011-24300606,0.4,True
+2023_Q4.csv,QueryText,DATE_TIME,ABOUT PM,0.85,False
+2023_Q4.csv,QueryText,NRP,YOJNA,0.85,False
+2023_Q4.csv,QueryText,NRP,YOJNA,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,NRP,YOJNA,0.85,False
+2023_Q4.csv,KccAns,DATE_TIME,31/10/2019,0.6,True
+2023_Q4.csv,KccAns,DATE_TIME,10/06/2023,0.6,True
+2023_Q4.csv,KccAns,DATE_TIME,17/10/2022,0.6,True
+2023_Q4.csv,KccAns,DATE_TIME,18/01/2023,0.6,True
+2023_Q4.csv,KccAns,PHONE_NUMBER,7739668923,0.4,True
+2023_Q4.csv,KccAns,PHONE_NUMBER,5653562621,0.4,True
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001801551,0.4,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,Crop,PERSON,Banana,0.85,False
+2023_Q4.csv,QueryText,PERSON,krishi vigyan kendra,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,+91-8102372649,0.4,True
+2023_Q4.csv,Crop,PERSON,Banana,0.85,False
+2023_Q4.csv,Crop,PERSON,Bottle Gourd,0.85,False
+2023_Q4.csv,QueryText,NRP,YOJNA,0.85,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,NRP,YOJNA,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001800110,0.4,False
+2023_Q4.csv,QueryText,PERSON,Rice,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,011-24300606,0.4,True
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,9431818755,0.4,True
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Nidhi Yojna,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,011-24300606,0.4,True
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Nidhi Yojna,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612 2233555,0.4,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001800110,0.4,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,KccAns,URL,www.pmkisan.gov.in,0.5,False
+2023_Q4.csv,QueryText,LOCATION,Bihar,0.85,False
+2023_Q4.csv,KccAns,LOCATION,Bihar,0.85,False
+2023_Q4.csv,KccAns,DATE_TIME,18001800110,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001800110,0.75,False
+2023_Q4.csv,KccAns,US_BANK_NUMBER,18001800110,0.05,False
+2023_Q4.csv,KccAns,US_DRIVER_LICENSE,18001800110,0.01,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001801551,0.4,False
+2023_Q4.csv,KccAns,DATE_TIME,155261,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER, 011-24300606,0.4,False
+2023_Q4.csv,KccAns,US_BANK_NUMBER,24300606,0.05,False
+2023_Q4.csv,KccAns,US_DRIVER_LICENSE,155261,0.01,False
+2023_Q4.csv,KccAns,US_DRIVER_LICENSE,24300606,0.01,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,011-24300606,0.4,True
+2023_Q4.csv,KccAns,PHONE_NUMBER,011-23381092,0.4,True
+2023_Q4.csv,KccAns,PHONE_NUMBER,1800115526,0.4,True
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,PERSON,Diesel Subsidy,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001801551,0.4,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,99346 93130,0.4,False
+2023_Q4.csv,QueryText,PERSON,Mantri Krishi,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,DATE_TIME,ABOUT PM,0.85,False
+2023_Q4.csv,QueryText,NRP,YOJNA,0.85,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,Crop,NRP,French,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001801551,0.4,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,NRP,YOJNA,0.85,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,Crop,PERSON,Pointed Gourd,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001800110,0.4,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612-2233555,0.4,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,011-24300606,0.4,True
+2023_Q4.csv,KccAns,PHONE_NUMBER,011-23381092,0.4,True
+2023_Q4.csv,KccAns,PHONE_NUMBER,1800115526,0.4,True
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001801551,0.4,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,QueryText,PERSON,Rice,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Nidhi Yojna,0.85,False
+2023_Q4.csv,QueryText,NRP,YOJNA,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,1800-1800-110,0.4,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612- 2200693,0.4,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,Crop,PERSON,mung phalli,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,PERSON,Diesel Subsidy,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612-2233555,0.4,False
+2023_Q4.csv,KccAns,EMAIL_ADDRESS,dbtcellagri@gmail.com,1.0,False
+2023_Q4.csv,KccAns,URL,gmail.com,0.5,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612-2233555,0.4,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,PERSON,Seed Subsidy,0.85,False
+2023_Q4.csv,KccAns,URL,https://brbn.bihar.gov.in/Home/Demand,0.6,False
+2023_Q4.csv,Crop,NRP,Indian,0.85,False
+2023_Q4.csv,QueryText,NRP,YOJNA,0.85,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER, 011-24300606,0.4,True
+2023_Q4.csv,QueryText,PERSON,Bihar Rajya Fasal,0.85,False
+2023_Q4.csv,KccAns,URL,https://epacs.bih.nic.in/,0.6,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Nidhi Yojna,0.85,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Nidhi Yojna,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612-2233555,0.4,False
+2023_Q4.csv,QueryText,DATE_TIME,ABOUT PM,0.85,False
+2023_Q4.csv,QueryText,NRP,YOJNA,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,NRP,YOJNA,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,1800-1800-110,0.4,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612- 2200693,0.4,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,Category,NRP,Narcotics,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,Crop,PERSON,Bottle Gourd,0.85,False
+2023_Q4.csv,Category,NRP,Narcotics,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18003456185,0.4,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,9431818746,0.4,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Nidhi Yojna,0.85,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612 2233 555,0.4,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,LOCATION,paddy,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,PERSON,Weed Control,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER, 011-24300606,0.4,True
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Diesel Subsidy,0.85,False
+2023_Q4.csv,Crop,NRP,Indian,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001800110,0.4,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,06122233555,0.4,False
+2023_Q4.csv,QueryText,PERSON,Bihar Rajya Fasal,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001800110,0.4,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/BeneficiaryStatus_New.aspx,0.6,False
+2023_Q4.csv,Crop,PERSON,Beet Root,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,9661740160,0.4,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/,0.6,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612-2233555,0.4,False
+2023_Q4.csv,QueryText,NRP,YOJNA,0.85,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,PERSON,Diesel Subsidy,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612 2233 555,0.4,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,KccAns,PERSON,સમ્માન,0.85,False
+2023_Q4.csv,KccAns,LOCATION,ચેક,0.85,False
+2023_Q4.csv,KccAns,PERSON,કરવા,0.85,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/BeneficiaryStatus_New.aspx,0.6,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,9431818730,0.4,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,DATE_TIME,30-09-2023,0.6,True
+2023_Q4.csv,KccAns,PHONE_NUMBER,30-09-2023,0.4,True
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612-2233555,0.4,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,Category,NRP,Narcotics,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,URL,https://pmkisan.gov.in/KnowYour_Registration.aspx,0.6,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Nidhi Yojna,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,011-24300606,0.4,True
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612-2547066,0.4,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Lemon Plant,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Nidhi Yojna,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,011-24300606,0.4,True
+2023_Q4.csv,QueryText,LOCATION,PADDY,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
+2023_Q4.csv,QueryText,LOCATION,Weather,0.85,False
