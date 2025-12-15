@@ -106,15 +106,5 @@ will output:
 | 2023_Q4 | transcription | PHONE_NUMBER | 9876543210  | hi       |
 | 2023_Q4 | transcription | REG_ID       | BR259782384 | hi       |
 
----
 
-## **7. Design Principles**
 
-* No CLI arguments required (pure script execution).
-* Modular structure for quick replacement of language models or regex patterns.
-* Works seamlessly on bilingual or portal-extracted datasets.
-* Built for **offline runs** and **iterative testing** without changing the CLI interface.
-
----
-
-Would you like me to add a small diagram (data flow visual) and include it in this `.md` file? It can make the process clearer if you plan to show this to others.
