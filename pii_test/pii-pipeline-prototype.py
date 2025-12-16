@@ -1,3 +1,4 @@
+import argparse
 import re
 from pathlib import Path
 
@@ -6,6 +7,7 @@ from presidio_analyzer import AnalyzerEngine, EntityRecognizer, RecognizerResult
 from presidio_analyzer.nlp_engine import SpacyNlpEngine
 from presidio_anonymizer import AnonymizerEngine
 from transformers import pipeline
+
 
 
 class IndicNerRecognizer(EntityRecognizer):
@@ -98,7 +100,7 @@ phone_pattern = re.compile(
 )
 
 # Often appears in portal responses (e.g., 'BR259782384') – treat as a potential identifier.
-farmer_reg_pattern = re.compile(r"(?i)\b[a-z]{2}\s*[-/ ]?\s*\d{7,12}\b")
+farmer_reg_pattern = re.compile(r"(?i)\b[a-z]{2}\d{9}\b")
 
 KEEP = {
     "PERSON",
@@ -116,9 +118,9 @@ def detect_language(text: str) -> str:
     return "hi" if Hindi_RE.search(text or "") else "en"
 
 
-def regex_pii_matches(text: str) -> list[tuple[str, str]]:
-# regex for pii
-    matches: list[tuple[str, str]] = []
+def regex_pii_matches(text: str) -> list[tuple[str, str, int, int]]:
+    # regex for pii
+    matches: list[tuple[str, str, int, int]] = []
     patterns = (
         (aadhaar_pattern, "AADHAAR_NUMBER"),
         (pan_pattern, "PAN_NUMBER"),
@@ -133,7 +135,8 @@ def regex_pii_matches(text: str) -> list[tuple[str, str]]:
             # Canonicalize identifiers so variants (e.g., "br- 123", "BR 123") are consistent.
             if label == "FARMER_REGISTRATION_ID":
                 raw = re.sub(r"[\s\-/]+", "", raw).upper()
-            matches.append((label, raw))
+            start, end = m.span()
+            matches.append((label, raw, start, end))
     return matches
 
 
@@ -154,6 +157,35 @@ def analyze_multi_language(analyzer: AnalyzerEngine, text: str, languages: list[
         seen.add(key)
         unique.append(r)
     return unique
+
+
+def dedupe_recognizer_results(results: list[RecognizerResult]) -> list[RecognizerResult]:
+    seen = set()
+    unique: list[RecognizerResult] = []
+    for res in results:
+        key = (res.entity_type, res.start, res.end)
+        if key in seen:
+            continue
+        seen.add(key)
+        unique.append(res)
+    return unique
+
+
+def regex_matches_to_results(
+    regex_matches: list[tuple[str, str, int, int]]
+) -> list[RecognizerResult]:
+    result_objects: list[RecognizerResult] = []
+    for label, _, start, end in regex_matches:
+        result_objects.append(
+            RecognizerResult(
+                entity_type=label,
+                start=start,
+                end=end,
+                score=1.0,
+                analysis_explanation=None,
+            )
+        )
+    return result_objects
 
 
 
@@ -237,22 +269,70 @@ RUN_DEMO = False
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Detect and summarize PII content in CSV files.")
+    parser.add_argument(
+        "--csv-folder",
+        type=Path,
+        default=CSV_FOLDER,
+        help="Root folder (or single CSV file) to scan. (default: %(default)s)",
+    )
+    parser.add_argument(
+        "--max-rows",
+        type=int,
+        default=MAX_ROWS,
+        help="Maximum number of rows to scan from each CSV. (default: %(default)s)",
+    )
+    parser.add_argument(
+        "--batch-size",
+        type=int,
+        default=BATCH_SIZE,
+        help="Batch size for iterating rows. (default: %(default)s)",
+    )
+    parser.add_argument(
+        "--run-demo",
+        action="store_true",
+        default=RUN_DEMO,
+        help="Run the built-in analyzer demo snippet before processing files.",
+    )
+    parser.add_argument(
+        "--write-redacted-csv",
+        action="store_true",
+        help="Also write a copy of each CSV with detected PII redacted.",
+    )
+    parser.add_argument(
+        "--redact-person-number-only",
+        action="store_true",
+        help="When redacting, only redact rows that contain PERSON plus a numeric identifier (phone/Aadhaar/PAN/Farmer ID).",
+    )
+    args = parser.parse_args()
+
+    csv_folder: Path = args.csv_folder
+    max_rows: int = args.max_rows
+    batch_size: int = args.batch_size
+    write_redacted: bool = args.write_redacted_csv
+    redact_person_number_only: bool = args.redact_person_number_only
+    if redact_person_number_only and not write_redacted:
+        print(
+            "Warning: --redact-person-number-only has no effect without --write-redacted-csv."
+        )
+
     transformer_analyzer = build_analyzer(include_transformer_recognizer=True)
     presidio_analyzer = build_analyzer(include_transformer_recognizer=False)
+    anonymizer = AnonymizerEngine() if write_redacted else None
 
-    if RUN_DEMO:
+    if args.run_demo:
         run_demo(transformer_analyzer)
 
-    if not CSV_FOLDER.exists():
-        raise SystemExit(f"Path not found: {CSV_FOLDER}")
+    if not csv_folder.exists():
+        raise SystemExit(f"Path not found: {csv_folder}")
 
     # Allow pointing CSV_FOLDER directly at a single CSV file (no CLI args required).
-    if CSV_FOLDER.is_file() and CSV_FOLDER.suffix.lower() == ".csv":
-        csv_files = [CSV_FOLDER]
+    if csv_folder.is_file() and csv_folder.suffix.lower() == ".csv":
+        csv_files = [csv_folder]
     else:
-        csv_files = sorted(CSV_FOLDER.rglob("*.csv"))
+        csv_files = sorted(csv_folder.rglob("*.csv"))
     if not csv_files:
-        raise SystemExit(f"No CSV files discovered under {CSV_FOLDER}")
+        raise SystemExit(f"No CSV files discovered under {csv_folder}")
 
     all_detections_rows: list[dict[str, object]] = []
     all_presidio_rows: list[dict[str, object]] = []
@@ -294,8 +374,12 @@ if __name__ == "__main__":
                 df[c] = ""
             else:
                 df[c] = df[c].fillna("").astype(str)
+        if "PII_SUMMARY" not in df.columns:
+            df["PII_SUMMARY"] = ""
+        else:
+            df["PII_SUMMARY"] = df["PII_SUMMARY"].fillna("").astype(str)
 
-        rows_limit = min(MAX_ROWS, len(df))
+        rows_limit = min(max_rows, len(df))
         if rows_limit == 0:
             print("CSV is empty; skipping.")
             continue
@@ -305,9 +389,10 @@ if __name__ == "__main__":
         processed_rows = 0
         detections_rows: list[dict[str, object]] = []
         presidio_rows: list[dict[str, object]] = []
+        redacted_updates: dict[tuple[int, str], str] = {}
 
-        for batch_index, start in enumerate(range(0, rows_limit, BATCH_SIZE), start=1):
-            end = min(start + BATCH_SIZE, rows_limit)
+        for batch_index, start in enumerate(range(0, rows_limit, batch_size), start=1):
+            end = min(start + batch_size, rows_limit)
             batch_df = df.iloc[start:end]
             print(f"Batch {batch_index}: rows {start + 1}-{end}")
 
@@ -326,6 +411,19 @@ if __name__ == "__main__":
                 row_has_regid = False
                 row_person_phone_same_cell = False
                 row_pii_detected = False
+                row_entity_details: list[str] = []
+                row_entity_seen: set[tuple[str, str, str]] = set()
+                row_redactions: dict[str, str] = {}
+
+                def add_entity_detail(entity_type: str, snippet: str, column_name: str) -> None:
+                    snippet = (snippet or "").strip()
+                    if not snippet:
+                        return
+                    key = (entity_type, snippet, column_name)
+                    if key in row_entity_seen:
+                        return
+                    row_entity_seen.add(key)
+                    row_entity_details.append(f"{entity_type}: {snippet}")
 
                 for col in columns:
                     text = str(row.get(col) or "").strip()
@@ -355,6 +453,7 @@ if __name__ == "__main__":
 
                     filtered_results = [res for res in transformer_results if res.entity_type in KEEP]
                     regex_matches = regex_pii_matches(text)
+                    regex_result_objects = regex_matches_to_results(regex_matches)
                     if filtered_results or regex_matches:
                         detections += 1
 
@@ -365,11 +464,11 @@ if __name__ == "__main__":
                     person_detected = any(res.entity_type == "PERSON" for res in combined_results)
 
                     phone_detected = any(is_phone_entity(res.entity_type) for res in combined_results) or any(
-                        label == "PHONE_NUMBER" for label, _ in regex_matches
+                        label == "PHONE_NUMBER" for label, *_ in regex_matches
                     )
-                    aadhaar_detected = any(label == "AADHAAR_NUMBER" for label, _ in regex_matches)
-                    pan_detected = any(label == "PAN_NUMBER" for label, _ in regex_matches)
-                    regid_detected = any(label == "FARMER_REGISTRATION_ID" for label, _ in regex_matches)
+                    aadhaar_detected = any(label == "AADHAAR_NUMBER" for label, *_ in regex_matches)
+                    pan_detected = any(label == "PAN_NUMBER" for label, *_ in regex_matches)
+                    regid_detected = any(label == "FARMER_REGISTRATION_ID" for label, *_ in regex_matches)
 
                     person_phone_same_cell = person_detected and phone_detected
                     pii_detected_same_cell = person_phone_same_cell or aadhaar_detected or pan_detected or regid_detected
@@ -413,6 +512,7 @@ if __name__ == "__main__":
 
                     for res in filtered_results:
                         snippet = text[res.start : res.end]
+                        add_entity_detail(res.entity_type, snippet, col)
                         detections_rows.append(
                             {
                                 "pii_flag": res.entity_type,
@@ -423,7 +523,8 @@ if __name__ == "__main__":
                             }
                         )
 
-                    for label, snippet in regex_matches:
+                    for label, snippet, _, _ in regex_matches:
+                        add_entity_detail(label, snippet, col)
                         detections_rows.append(
                             {
                                 "pii_flag": label,
@@ -436,6 +537,7 @@ if __name__ == "__main__":
 
                     for res in presidio_filtered:
                         snippet = text[res.start : res.end]
+                        add_entity_detail(res.entity_type, snippet, col)
                         presidio_rows.append(
                             {
                                 "pii_flag": res.entity_type,
@@ -455,10 +557,57 @@ if __name__ == "__main__":
                             {"column": col, "text": text, "detections": snippets}
                         )
 
+                    if write_redacted:
+                        redacted_text = text
+                        redaction_results = combined_results + regex_result_objects
+                        if redaction_results and anonymizer is not None:
+                            try:
+                                deduped = dedupe_recognizer_results(redaction_results)
+                                if deduped:
+                                    anonymized = anonymizer.anonymize(
+                                        text=text,
+                                        analyzer_results=deduped,
+                                    )
+                                    redacted_text = anonymized.text
+                            except Exception as exc:
+                                print(
+                                    f"Failed to redact value in {csv_path.name} -> column '{col}': {exc}"
+                                )
+                        row_redactions[col] = redacted_text
+
+                summary = ""
+                if row_entity_details:
+                    summary = f"Number of PII entities: {len(row_entity_details)}, " + ", ".join(
+                        row_entity_details
+                    )
+                df.at[row_i, "PII_SUMMARY"] = summary
+                if write_redacted:
+                    row_has_number = row_has_phone or row_has_aadhaar or row_has_pan or row_has_regid
+                    row_person_with_number = row_has_person and row_has_number
+                    should_store_redactions = not redact_person_number_only or row_person_with_number
+                    if should_store_redactions:
+                        for col, value in row_redactions.items():
+                            redacted_updates[(row_i, col)] = value
+
         # Write annotated CSV (same rows + added PII flags/types).
         annotated_out = csv_path.with_name(f"{csv_path.stem}_pii_annotated.csv")
         df.to_csv(annotated_out, index=False)
         print(f"Annotated CSV written to {annotated_out}")
+
+        if write_redacted:
+            redacted_df = df.copy(deep=True)
+            for (row_idx, column_name), value in redacted_updates.items():
+                redacted_df.at[row_idx, column_name] = value
+            drop_flags = [
+                c
+                for c in bool_cols
+                if c not in {"HAS_PERSON", "HAS_PHONE_NUMBER"} and c in redacted_df.columns
+            ]
+            if drop_flags:
+                redacted_df = redacted_df.drop(columns=drop_flags)
+            redacted_out = csv_path.with_name(f"{csv_path.stem}_redacted.csv")
+            redacted_df.to_csv(redacted_out, index=False)
+            print(f"Redacted CSV written to {redacted_out}")
 
         print(
             f"Finished {csv_path} | rows scanned: {processed_rows} | "
@@ -502,7 +651,7 @@ if __name__ == "__main__":
                 print(sample)
 
     if all_detections_rows:
-        combined_output = CSV_FOLDER / "pii_detections_combined.csv"
+        combined_output = csv_folder / "pii_detections_combined.csv"
         combined_df = pd.DataFrame(all_detections_rows)[
             ["csv_file", "column", "pii_flag", "entity", "score", "person_phone_same_cell"]
         ]
@@ -512,7 +661,7 @@ if __name__ == "__main__":
         print("\nNo detections captured across all CSV files.")
 
     if all_presidio_rows:
-        presidio_output = CSV_FOLDER / "pii_presidio_detections.csv"
+        presidio_output = csv_folder / "pii_presidio_detections.csv"
         presidio_df = pd.DataFrame(all_presidio_rows)[
             ["csv_file", "column", "pii_flag", "entity", "score", "person_phone_same_cell"]
         ]
