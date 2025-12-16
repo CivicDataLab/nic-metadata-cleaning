@@ -34,6 +34,7 @@
 In addition to Presidio’s entities, regex detection is used for:
 
 * **Indian mobile numbers**: e.g., `^[6-9]\d{9}$`
+* **PAN Number**
 * **Portal registration IDs**: alphanumeric codes like `BR259782384`
 
 These supplement the analyzer results, ensuring entities embedded in hybrid text blocks are not missed.
