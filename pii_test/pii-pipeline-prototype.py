@@ -1,5 +1,7 @@
 import argparse
+import json
 import re
+from collections import defaultdict
 from pathlib import Path
 
 import pandas as pd
@@ -326,7 +328,12 @@ if __name__ == "__main__":
     if not csv_folder.exists():
         raise SystemExit(f"Path not found: {csv_folder}")
 
+    input_root = csv_folder if csv_folder.is_dir() else csv_folder.parent
+    output_root = input_root.parent / "output"
+    output_root.mkdir(parents=True, exist_ok=True)
+
     # Allow pointing CSV_FOLDER directly at a single CSV file (no CLI args required).
+    csv_folder_is_dir = csv_folder.is_dir()
     if csv_folder.is_file() and csv_folder.suffix.lower() == ".csv":
         csv_files = [csv_folder]
     else:
@@ -350,6 +357,23 @@ if __name__ == "__main__":
         if not columns:
             print("No eligible text columns found; skipping.")
             continue
+
+        if csv_folder_is_dir:
+            relative_dir = csv_path.parent.relative_to(csv_folder)
+        else:
+            relative_dir = Path(".")
+        output_dir = output_root / relative_dir
+        output_dir.mkdir(parents=True, exist_ok=True)
+
+        analytics = {
+            "csv_file": csv_path.name,
+            "rows_scanned": 0,
+            "rows_with_pii": 0,
+            "total_pii_entities": 0,
+            "pii_type_counts": defaultdict(int),
+            "person_number_same_cell_count": 0,
+            "person_number_same_row_count": 0,
+        }
 
         # Initialize per-row output columns (written back into the same CSV rows).
         bool_cols = [
@@ -412,6 +436,7 @@ if __name__ == "__main__":
                 row_person_phone_same_cell = False
                 row_pii_detected = False
                 row_entity_details: list[str] = []
+                row_entity_records: list[tuple[str, str]] = []
                 row_entity_seen: set[tuple[str, str, str]] = set()
                 row_redactions: dict[str, str] = {}
 
@@ -424,6 +449,7 @@ if __name__ == "__main__":
                         return
                     row_entity_seen.add(key)
                     row_entity_details.append(f"{entity_type}: {snippet}")
+                    row_entity_records.append((entity_type, snippet))
 
                 for col in columns:
                     text = str(row.get(col) or "").strip()
@@ -494,6 +520,7 @@ if __name__ == "__main__":
 
                     if person_phone_same_cell:
                         row_person_phone_same_cell = True
+                        analytics["person_number_same_cell_count"] += 1
 
                     if pii_detected_same_cell:
                         row_pii_detected = True
@@ -581,6 +608,14 @@ if __name__ == "__main__":
                         row_entity_details
                     )
                 df.at[row_i, "PII_SUMMARY"] = summary
+                analytics["rows_scanned"] = processed_rows
+                if row_entity_records:
+                    analytics["rows_with_pii"] += 1
+                    analytics["total_pii_entities"] += len(row_entity_records)
+                    for entity_type, _ in row_entity_records:
+                        analytics["pii_type_counts"][entity_type] += 1
+                if row_person_phone_same_cell:
+                    analytics["person_number_same_row_count"] += 1
                 if write_redacted:
                     row_has_number = row_has_phone or row_has_aadhaar or row_has_pan or row_has_regid
                     row_person_with_number = row_has_person and row_has_number
@@ -590,7 +625,7 @@ if __name__ == "__main__":
                             redacted_updates[(row_i, col)] = value
 
         # Write annotated CSV (same rows + added PII flags/types).
-        annotated_out = csv_path.with_name(f"{csv_path.stem}_pii_annotated.csv")
+        annotated_out = output_dir / f"{csv_path.stem}_pii_annotated.csv"
         df.to_csv(annotated_out, index=False)
         print(f"Annotated CSV written to {annotated_out}")
 
@@ -598,16 +633,34 @@ if __name__ == "__main__":
             redacted_df = df.copy(deep=True)
             for (row_idx, column_name), value in redacted_updates.items():
                 redacted_df.at[row_idx, column_name] = value
-            drop_flags = [
-                c
-                for c in bool_cols
-                if c not in {"HAS_PERSON", "HAS_PHONE_NUMBER"} and c in redacted_df.columns
+            drop_columns = [c for c in bool_cols if c in redacted_df.columns]
+            drop_columns += [
+                "PII_DETECTED",
+                "PII_TYPES",
+                "PII_TRIGGER_COLUMNS",
+                "PII_SUMMARY",
             ]
-            if drop_flags:
-                redacted_df = redacted_df.drop(columns=drop_flags)
-            redacted_out = csv_path.with_name(f"{csv_path.stem}_redacted.csv")
+            dedup_drop = sorted(set(drop_columns))
+            existing_drop = [c for c in dedup_drop if c in redacted_df.columns]
+            if existing_drop:
+                redacted_df = redacted_df.drop(columns=existing_drop)
+            redacted_out = output_dir / f"{csv_path.stem}_redacted.csv"
             redacted_df.to_csv(redacted_out, index=False)
             print(f"Redacted CSV written to {redacted_out}")
+
+        analytics_payload = {
+            "csv_file": analytics["csv_file"],
+            "rows_scanned": processed_rows,
+            "rows_with_pii": analytics["rows_with_pii"],
+            "total_pii_entities": analytics["total_pii_entities"],
+            "pii_type_counts": dict(sorted(analytics["pii_type_counts"].items())),
+            "person_number_same_cell_count": analytics["person_number_same_cell_count"],
+            "person_number_same_row_count": analytics["person_number_same_row_count"],
+        }
+        analytics_out = output_dir / f"{csv_path.stem}_pii_analytics.json"
+        with analytics_out.open("w", encoding="utf-8") as analytics_file:
+            json.dump(analytics_payload, analytics_file, ensure_ascii=False, indent=2)
+        print(f"Analytics JSON written to {analytics_out}")
 
         print(
             f"Finished {csv_path} | rows scanned: {processed_rows} | "
@@ -651,7 +704,7 @@ if __name__ == "__main__":
                 print(sample)
 
     if all_detections_rows:
-        combined_output = csv_folder / "pii_detections_combined.csv"
+        combined_output = output_root / "pii_detections_combined.csv"
         combined_df = pd.DataFrame(all_detections_rows)[
             ["csv_file", "column", "pii_flag", "entity", "score", "person_phone_same_cell"]
         ]
@@ -661,7 +714,7 @@ if __name__ == "__main__":
         print("\nNo detections captured across all CSV files.")
 
     if all_presidio_rows:
-        presidio_output = csv_folder / "pii_presidio_detections.csv"
+        presidio_output = output_root / "pii_presidio_detections.csv"
         presidio_df = pd.DataFrame(all_presidio_rows)[
             ["csv_file", "column", "pii_flag", "entity", "score", "person_phone_same_cell"]
         ]
