@@ -1,4 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:dcin="http://example.com/dcin#">
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcin="http://example.com/dcin#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:ex="https://example.com/vocab/">
   <rdf:Description rdf:about="https://www.data.gov.in/resource/variety-wise-daily-market-prices-data-commodity">
     <dc:title>Daily Wholesale Mandi Market Prices of Agricultural Commodities by Variety</dc:title>
