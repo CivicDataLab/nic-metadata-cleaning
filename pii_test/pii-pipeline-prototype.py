@@ -263,7 +263,7 @@ def run_demo(analyzer: AnalyzerEngine) -> None:
 
 
 CSV_FOLDER = Path(
-    "/home/aakash/NIC/metadata/nic-metadata-cleaning/pii_test/pii-test-sample-files/pii-test-example"
+    "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/pii_test/pii-test-sample-files/pii-test-example"
 )
 MAX_ROWS = 250
 BATCH_SIZE = 5
