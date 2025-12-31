@@ -1,0 +1,447 @@
+csv_file,column,pii_flag,entity,score,person_phone_same_cell
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई प्रधान,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,KccAns,PERSON,वसुधा केंद्र पर सम्पर्क करें,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई आपकी,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,011 24300606,0.4,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,Crop,PERSON,Pointed Gourd,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,KccAns,PERSON,रहे,0.85,False
+2023_Q4.csv,KccAns,PERSON,"ELIGIBILITY STATUS
+Land Seeding :-  ",0.85,False
+2023_Q4.csv,KccAns,PERSON,Click,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई अपने खाते,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,KccAns,PERSON,खाते,0.85,False
+2023_Q4.csv,KccAns,PERSON,करवाएं।  अन्यथा इंडियन,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई  Hexaconazole,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612-2230942,0.4,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,011-24300606,0.4,True
+2023_Q4.csv,KccAns,PERSON,निधि सेंटर का नंबर   ,0.85,True
+2023_Q4.csv,KccAns,PERSON,कृषि पदाधिकारी,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,7739668923,0.4,True
+2023_Q4.csv,KccAns,PHONE_NUMBER,5653562621,0.4,True
+2023_Q4.csv,KccAns,PERSON,का बैंक,0.85,True
+2023_Q4.csv,KccAns,PERSON,Click,0.85,True
+2023_Q4.csv,KccAns,PERSON,Aadhar,0.85,True
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,का अपेक्षित अधिकतम तापमान,0.85,False
+2023_Q4.csv,KccAns,PERSON,की संभावना है|,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001801551,0.4,True
+2023_Q4.csv,KccAns,PERSON,सकी,0.85,True
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना की,0.85,False
+2023_Q4.csv,Crop,PERSON,Banana,0.85,False
+2023_Q4.csv,QueryText,PERSON,krishi vigyan kendra,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,+91-8102372649,0.4,True
+2023_Q4.csv,KccAns,PERSON,"केवीके का नाम	बांका
+केवीके पता",0.85,True
+2023_Q4.csv,KccAns,PERSON,कृषि विज्ञान केन्द्र,0.85,True
+2023_Q4.csv,KccAns,PERSON,संपर्क,0.85,True
+2023_Q4.csv,Crop,PERSON,Banana,0.85,False
+2023_Q4.csv,Crop,PERSON,Bottle Gourd,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,हवा की,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,हवा की,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001800110,0.4,False
+2023_Q4.csv,QueryText,PERSON,Rice,0.85,False
+2023_Q4.csv,KccAns,PERSON,हल्की से मध्यम,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,होने की संभावना है अधिकतम तापमान,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई बीज अनुदान से जुड़ी,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,011-24300606,0.4,True
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,True
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,हवा की,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,का रजिस्ट्रेशन,0.85,False
+2023_Q4.csv,KccAns,PERSON,हैं-https://pmkisan.gov.in/KnowYour_Registration.aspx,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,रूप से बादल,0.85,False
+2023_Q4.csv,KccAns,PERSON,का अपेक्षित अधिकतम तापमान,0.85,False
+2023_Q4.csv,KccAns,PERSON,की संभावना है|,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,9431818755,0.4,True
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Nidhi Yojna,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई रजिस्ट्रेशन,0.85,False
+2023_Q4.csv,KccAns,PERSON,संपर्क करें,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,011-24300606,0.4,True
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,True
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Nidhi Yojna,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612 2233555,0.4,True
+2023_Q4.csv,KccAns,PERSON,भाई बेहतर,0.85,True
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001800110,0.4,False
+2023_Q4.csv,KccAns,PERSON,हल्की से मध्यम,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,होने की संभावना है,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,की संभावना,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,होने की संभावना है,0.85,False
+2023_Q4.csv,KccAns,PERSON,हवा की गति,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,का अपेक्षित अधिकतम तापमान,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001800110,0.75,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,हल्की से मध्यम,0.85,False
+2023_Q4.csv,KccAns,PERSON,होने की संभावना बनी,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,का अपेक्षित अधिकतम तापमान,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001801551,0.4,True
+2023_Q4.csv,KccAns,PERSON,सकी,0.85,True
+2023_Q4.csv,KccAns,PHONE_NUMBER, 011-24300606,0.4,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,011-24300606,0.4,True
+2023_Q4.csv,KccAns,PHONE_NUMBER,011-23381092,0.4,True
+2023_Q4.csv,KccAns,PHONE_NUMBER,1800115526,0.4,True
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,True
+2023_Q4.csv,KccAns,PERSON,हेल्प लाईन,0.85,True
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,हल्की से मध्यम,0.85,False
+2023_Q4.csv,KccAns,PERSON,होने की संभावना  है,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,हवा की,0.85,False
+2023_Q4.csv,QueryText,PERSON,Diesel Subsidy,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001801551,0.4,True
+2023_Q4.csv,KccAns,PERSON,सकी,0.85,True
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,हवा की,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,99346 93130,0.4,False
+2023_Q4.csv,QueryText,PERSON,Mantri Krishi,0.85,False
+2023_Q4.csv,KccAns,PERSON,अनानास,0.85,False
+2023_Q4.csv,KccAns,PERSON,प्याज इत्यादि,0.85,False
+2023_Q4.csv,KccAns,PERSON,इत्यादि,0.85,False
+2023_Q4.csv,KccAns,PERSON,शेडनेट हाउस इत्यादि,0.85,False
+2023_Q4.csv,KccAns,PERSON,गेहूं इत्यादि,0.85,False
+2023_Q4.csv,KccAns,PERSON,का लाभ लेने,0.85,False
+2023_Q4.csv,KccAns,PERSON,अथवा अनुदान की राशि,0.85,False
+2023_Q4.csv,KccAns,PERSON,हैं,0.85,False
+2023_Q4.csv,KccAns,PERSON,सकता है|,0.85,False
+2023_Q4.csv,KccAns,PERSON,का लाभ लेने की प्रक्रिया,0.85,False
+2023_Q4.csv,KccAns,PERSON,का लाभ लेने,0.85,False
+2023_Q4.csv,KccAns,PERSON,जा सकता है,0.85,False
+2023_Q4.csv,KccAns,PERSON,हैं,0.85,False
+2023_Q4.csv,KccAns,PERSON,होगा,0.85,False
+2023_Q4.csv,KccAns,PERSON,पर अनुदान देय,0.85,False
+2023_Q4.csv,KccAns,PERSON,गुणवत्ता का उत्पादन :-,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,खाते,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई आप,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001801551,0.4,True
+2023_Q4.csv,KccAns,PERSON,सकी,0.85,True
+2023_Q4.csv,KccAns,PERSON,भाई आप,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,होने की सम्भावना है,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई कॉपर,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई अपने खाते,0.85,False
+2023_Q4.csv,KccAns,PERSON,हैं,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,खाते,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,का रजिस्ट्रेशन,0.85,False
+2023_Q4.csv,KccAns,PERSON,हैं-https://pmkisan.gov.in/KnowYour_Registration.aspx,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,होने की संभावना है  तथा,0.85,False
+2023_Q4.csv,KccAns,PERSON,से बहने  की संभावना,0.85,False
+2023_Q4.csv,KccAns,PERSON,की संभावना,0.85,False
+2023_Q4.csv,KccAns,PERSON,हवा की दिशा,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई आप,0.85,False
+2023_Q4.csv,KccAns,PERSON,हैं,0.85,False
+2023_Q4.csv,Crop,PERSON,Pointed Gourd,0.85,False
+2023_Q4.csv,KccAns,PERSON,हल्की से मध्यम,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,होने की संभावना है,0.85,False
+2023_Q4.csv,KccAns,PERSON,की संभावना,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001800110,0.4,True
+2023_Q4.csv,KccAns,PERSON,हैं,0.85,True
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612-2233555,0.4,True
+2023_Q4.csv,KccAns,PERSON,----डी,0.85,True
+2023_Q4.csv,KccAns,PERSON,का दिन छोड़कर,0.85,True
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,हल्की से,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई  कॉपर ऑक्सीकॉलोराइड,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,011-24300606,0.4,True
+2023_Q4.csv,KccAns,PHONE_NUMBER,011-23381092,0.4,True
+2023_Q4.csv,KccAns,PHONE_NUMBER,1800115526,0.4,True
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,True
+2023_Q4.csv,KccAns,PERSON,हेल्प लाईन,0.85,True
+2023_Q4.csv,KccAns,PERSON,रूप से बादल,0.85,False
+2023_Q4.csv,KccAns,PERSON,का अपेक्षित अधिकतम तापमान,0.85,False
+2023_Q4.csv,KccAns,PERSON,की संभावना है|,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001801551,0.4,True
+2023_Q4.csv,KccAns,PERSON,सकी,0.85,True
+2023_Q4.csv,KccAns,PERSON,भाई आप,0.85,False
+2023_Q4.csv,QueryText,PERSON,Rice,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Nidhi Yojna,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,1800-1800-110,0.4,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612- 2200693,0.4,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,का रजिस्ट्रेशन,0.85,False
+2023_Q4.csv,KccAns,PERSON,हैं-https://pmkisan.gov.in/KnowYour_Registration.aspx,0.85,False
+2023_Q4.csv,Crop,PERSON,mung phalli,0.85,False
+2023_Q4.csv,KccAns,PERSON,का,0.85,False
+2023_Q4.csv,KccAns,PERSON,हवा की गति,0.85,False
+2023_Q4.csv,QueryText,PERSON,Diesel Subsidy,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612-2233555,0.4,True
+2023_Q4.csv,KccAns,PERSON,भाई डी,0.85,True
+2023_Q4.csv,KccAns,EMAIL_ADDRESS,dbtcellagri@gmail.com,1.0,True
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612-2233555,0.4,True
+2023_Q4.csv,KccAns,PERSON,भाई -डी,0.85,True
+2023_Q4.csv,KccAns,PERSON,मुख्यालय स्तर,0.85,True
+2023_Q4.csv,KccAns,PERSON,रूप से बादल,0.85,False
+2023_Q4.csv,KccAns,PERSON,का अपेक्षित अधिकतम तापमान,0.85,False
+2023_Q4.csv,KccAns,PERSON,की संभावना है|,0.85,False
+2023_Q4.csv,QueryText,PERSON,Seed Subsidy,0.85,False
+2023_Q4.csv,KccAns,PERSON,बीज अनुदान का आवेदन,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई आप,0.85,False
+2023_Q4.csv,KccAns,PERSON,की रसीद जो,0.85,False
+2023_Q4.csv,KccAns,PERSON,Cartap Hydrochloride,0.85,False
+2023_Q4.csv,KccAns,PERSON,हैं,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,होने की संभावना नहीं है,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER, 011-24300606,0.4,True
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,True
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,True
+2023_Q4.csv,QueryText,PERSON,Bihar Rajya Fasal,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Nidhi Yojna,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Nidhi Yojna,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई आप,0.85,False
+2023_Q4.csv,KccAns,PERSON,--बीज अनुदान से जुड़ी,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई आप  मल्टी,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612-2233555,0.4,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई सुबह,0.85,False
+2023_Q4.csv,KccAns,PERSON,संपर्क करें,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,1800-1800-110,0.4,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612- 2200693,0.4,False
+2023_Q4.csv,KccAns,PERSON,भाई आपकी,0.85,False
+2023_Q4.csv,KccAns,PERSON,ना,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई योजना,0.85,False
+2023_Q4.csv,KccAns,PERSON,मोबाइल,0.85,False
+2023_Q4.csv,KccAns,PERSON,वसुधा केंद्र पर सम्पर्क करें,0.85,False
+2023_Q4.csv,KccAns,PERSON,ऑफिसर या,0.85,False
+2023_Q4.csv,KccAns,PERSON,/लीटर,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,हल्की से मध्यम,0.85,False
+2023_Q4.csv,KccAns,PERSON,होने की संभावना बनी,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई प्रधान,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,हल्की से मध्यम,0.85,False
+2023_Q4.csv,KccAns,PERSON,होने की संभावना बनी,0.85,False
+2023_Q4.csv,Crop,PERSON,Bottle Gourd,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई मौसम,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,की संभावना है और,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18003456185,0.4,True
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,True
+2023_Q4.csv,KccAns,PHONE_NUMBER,9431818746,0.4,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,का अपेक्षित अधिकतम तापमान,0.85,False
+2023_Q4.csv,KccAns,PERSON,की संभावना है|,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,KccAns,PERSON,सीडिंग,0.85,False
+2023_Q4.csv,KccAns,PERSON,जारी होने,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,होने की संभावना है |आज का अधिकतम तापमान,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Nidhi Yojna,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,हवा की,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612 2233 555,0.4,True
+2023_Q4.csv,KccAns,PERSON,हैं,0.85,True
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई Acephate,0.85,False
+2023_Q4.csv,KccAns,PERSON,है|,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,की संभावना,0.85,False
+2023_Q4.csv,QueryText,PERSON,Weed Control,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER, 011-24300606,0.4,True
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,True
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,True
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,KccAns,PERSON,ऑफिसर या,0.85,False
+2023_Q4.csv,QueryText,PERSON,Diesel Subsidy,0.85,False
+2023_Q4.csv,KccAns,PERSON,हैं,0.85,False
+2023_Q4.csv,KccAns,PERSON,पोटाश -27,0.85,False
+2023_Q4.csv,KccAns,PERSON,/लीटर,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना की पंजीयन,0.85,False
+2023_Q4.csv,KccAns,PERSON,हैं  https://pmkisan.gov.in/KnowYour_Registration.aspx,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001800110,0.4,True
+2023_Q4.csv,KccAns,PERSON,हैं,0.85,True
+2023_Q4.csv,KccAns,PHONE_NUMBER,06122233555,0.4,True
+2023_Q4.csv,KccAns,PERSON,हैं,0.85,True
+2023_Q4.csv,QueryText,PERSON,Bihar Rajya Fasal,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,18001800110,0.4,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,का स्टेटस देखने,0.85,False
+2023_Q4.csv,KccAns,PERSON,हैं-https://pmkisan.gov.in/BeneficiaryStatus_New.aspx,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,Crop,PERSON,Beet Root,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,9661740160,0.4,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,हल्की से मध्यम,0.85,False
+2023_Q4.csv,KccAns,PERSON,होने की संभावना बनी,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि का भारत,0.85,False
+2023_Q4.csv,KccAns,PERSON,स्तर,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612-2233555,0.4,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,QueryText,PERSON,Diesel Subsidy,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612 2233 555,0.4,True
+2023_Q4.csv,KccAns,PERSON,हैं,0.85,True
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,बूंदा- बांदी से,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,होने की संभावना है,0.85,False
+2023_Q4.csv,KccAns,PERSON,का अपेक्षित अधिकतम,0.85,False
+2023_Q4.csv,KccAns,PERSON,की संभावना है|,0.85,False
+2023_Q4.csv,KccAns,PERSON,સમ્માન,0.85,False
+2023_Q4.csv,KccAns,PERSON,કરવા,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,9431818730,0.4,True
+2023_Q4.csv,KccAns,PERSON,विभु विद्यार्थी,0.85,True
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,हवा की,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई प्रधान,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,KccAns,PERSON,वसुधा केंद्र पर सम्पर्क करें,0.85,False
+2023_Q4.csv,KccAns,PERSON,की संभावना,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,रूप से बादल,0.85,False
+2023_Q4.csv,KccAns,PERSON,का अपेक्षित अधिकतम तापमान,0.85,False
+2023_Q4.csv,KccAns,PERSON,की संभावना है|,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,हल्की से मध्यम,0.85,False
+2023_Q4.csv,KccAns,PERSON,होने की संभावना बनी,0.85,False
+2023_Q4.csv,KccAns,PERSON,होने की संभावना है,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,30-09-2023,0.4,True
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,True
+2023_Q4.csv,KccAns,PERSON,हैं या,0.85,True
+2023_Q4.csv,KccAns,PERSON,माध्यम से अपने,0.85,True
+2023_Q4.csv,KccAns,PERSON,उपरांत अपना एवम 10,0.85,True
+2023_Q4.csv,KccAns,PERSON,का e-KYC,0.85,True
+2023_Q4.csv,KccAns,PERSON,हैं,0.85,True
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612-2233555,0.4,False
+2023_Q4.csv,KccAns,PERSON,रूप से बादल,0.85,False
+2023_Q4.csv,KccAns,PERSON,का अपेक्षित अधिकतम तापमान,0.85,False
+2023_Q4.csv,KccAns,PERSON,की संभावना है|,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,रूप से बादल,0.85,False
+2023_Q4.csv,KccAns,PERSON,का अपेक्षित अधिकतम तापमान,0.85,False
+2023_Q4.csv,KccAns,PERSON,की संभावना है|,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,हल्की से मध्यम,0.85,False
+2023_Q4.csv,KccAns,PERSON,होने की संभावना बनी,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,का अपेक्षित अधिकतम तापमान,0.85,False
+2023_Q4.csv,KccAns,PERSON,हल्की से मध्यम,0.85,False
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,होने की संभावना है अधिकतम तापमान,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,KccAns,PERSON,का रजिस्ट्रेशन,0.85,False
+2023_Q4.csv,KccAns,PERSON,हैं-https://pmkisan.gov.in/KnowYour_Registration.aspx,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Nidhi Yojna,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,011-24300606,0.4,True
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,True
+2023_Q4.csv,KccAns,PERSON,हेल्प लाईन,0.85,True
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,0612-2547066,0.4,True
+2023_Q4.csv,KccAns,PERSON,बिहार की कृषि वेबसाइट,0.85,True
+2023_Q4.csv,KccAns,PERSON,कृषि पदाधिकारी,0.85,True
+2023_Q4.csv,KccAns,PERSON,भाई,0.85,False
+2023_Q4.csv,KccAns,PERSON,हल्की से मध्यम,0.85,False
+2023_Q4.csv,KccAns,PERSON,होने की संभावना बनी,0.85,False
+2023_Q4.csv,KccAns,PERSON,भाई आप,0.85,False
+2023_Q4.csv,QueryText,PERSON,Kisan Samman,0.85,False
+2023_Q4.csv,QueryText,PERSON,Nidhi Yojna,0.85,False
+2023_Q4.csv,KccAns,PHONE_NUMBER,011-24300606,0.4,True
+2023_Q4.csv,KccAns,PERSON,निधि योजना,0.85,True
+2023_Q4.csv,KccAns,PERSON,हेल्प लाईन,0.85,True
+2023_Q4.csv,KccAns,PERSON,बारिश,0.85,False
+2023_Q4.csv,KccAns,PERSON,हवा की,0.85,False
+2023_Q4.csv,KccAns,PERSON,का भौतिक सत्यापन  करवा ले,0.85,False
+2023_Q4.csv,KccAns,PERSON,हल्की से मध्यम,0.85,False
