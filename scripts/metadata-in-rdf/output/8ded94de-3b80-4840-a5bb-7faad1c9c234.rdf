@@ -21,7 +21,7 @@
     <dcterms:modified>2025-10-15</dcterms:modified>
     <dc:type>Dataset</dc:type>
     <dc:format>text/csv</dc:format>
-    <dcterms:extent>1464(1.46 KB)</dcterms:extent>
+    <dcterms:extent>1464</dcterms:extent>
     <dc:rights>National Data Sharing and Accessibility Policy (NDSAP) (2012)</dc:rights>
     <dcterms:accessRights>Registered</dcterms:accessRights>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/dc/terms/Daily" />
