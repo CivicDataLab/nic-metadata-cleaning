@@ -1,0 +1,235 @@
+{
+  "Census and Surveys": [
+    "Annual Health Survey",
+    "Census",
+    "Civil Registration System",
+    "National Population Register",
+    "Sample Registration System",
+    "Socio-economic & Caste Census"
+  ],
+  "Census": [
+    "House listing and Housing Census",
+    "Population Enumerator"
+  ],
+  "Agriculture": [
+    "Agricultural Marketing",
+    "Dairying",
+    "Agricultural Produces",
+    "Agricultural Research & Extension",
+    "Animal Husbandry",
+    "Crops",
+    "Fertilizers",
+    "Horticulture",
+    "Irrigation",
+    "Organic farming",
+    "Plant Protection",
+    "Seeds",
+    "Soil and Water Conservation",
+    "Fisheries",
+    "Sericulture"
+  ],
+  "Animal Husbandry": [
+    "Fishery"
+  ],
+  "Art and Culture": [
+    "Archaeology",
+    "Dance",
+    "Festivals",
+    "Handicrafts",
+    "Heritage",
+    "Literature",
+    "Monuments",
+    "Music",
+    "Painting",
+    "Theatre"
+  ],
+  "Commerce": [
+    "Companies",
+    "Export",
+    "Import",
+    "SEZs",
+    "Trade promotion"
+  ],
+  "Parliament Of india": [
+    "Rajya Sabha",
+    "Lok Sabha"
+  ],
+  "Water and Sanitation": [
+    "Drinking Water",
+    "Sanitation"
+  ],
+  "Information and Communications": [
+    "Information and Technology",
+    "Post",
+    "Telecom"
+  ],
+  "Defence": [
+    "Air Force",
+    "Army",
+    "Navy",
+    "Para Military Forces"
+  ],
+  "Economy": [
+    "Prices",
+    "Macro Economy"
+  ],
+  "Education": [
+    "Adult Education",
+    "Elementary",
+    "Higher Education",
+    "Secondary"
+  ],
+  "Environment and Forest": [
+    "Bio-diversity",
+    "Biomedical Waste",
+    "Ecology",
+    "Forest",
+    "Forest Resources",
+    "Hazardous Waste",
+    "Industrial Air Pollution",
+    "Municipal Waste",
+    "Noise Pollution",
+    "Residential Air Pollution",
+    "Vehicular Air Pollution",
+    "Water Quality",
+    "Natural Resources",
+    "Sanitation",
+    "Wild life"
+  ],
+  "Water Resources": [
+    "Drinking Water",
+    "Ground Water",
+    "Surface Water"
+  ],
+  "Finance": [
+    "Banking",
+    "Economy",
+    "Revenue",
+    "Insurance",
+    "Pension Reforms"
+  ],
+  "Food": [
+    "Consumer Affairs",
+    "Consumer Cooperatives",
+    "Public Distribution"
+  ],
+  "Foreign Affairs": [
+    "Consulates",
+    "Embassy",
+    "NRI",
+    "Passport",
+    "Visa"
+  ],
+  "Governance and Administration": [
+    "Constitution",
+    "District Adminstration",
+    "Grievances",
+    "Local Government",
+    "Lok Sabha",
+    "Pensions",
+    "Rajya Sabha",
+    "State Legislative",
+    "Union/State Government Administration"
+  ],
+  "Health and Family welfare": [
+    "Family Welfare",
+    "Health"
+  ],
+  "Home Affairs and Enforcement": [
+    "Enforcement Organizations",
+    "Internal Security",
+    "Police"
+  ],
+  "Housing": [
+    "EWS Housing",
+    "Rural Housing",
+    "Urban Housing"
+  ],
+  "Industries": [
+    "Chemicals and Petrochemicals",
+    "Corportae governance",
+    "Cottage",
+    "Defence Products",
+    "Food Processing",
+    "Heavy",
+    "Insurance",
+    "Manufacturing",
+    "Medium",
+    "Micro",
+    "Petroleum and Natural Gas",
+    "Pharmaceuticals",
+    "Retail",
+    "Small Scale",
+    "Textiles",
+    "Tourism"
+  ],
+  "Textiles": [
+    "Sericulture"
+  ],
+  "Information and Broadcasting": [
+    "Broadcasting",
+    "Film",
+    "Print Media"
+  ],
+  "Infrastructure": [
+    "Bridges",
+    "Dams",
+    "Power",
+    "Roads"
+  ],
+  "Urban": [
+    "Development"
+  ],
+  "Judiciary": [
+    "District Court",
+    "High Court",
+    "Subordinate Court",
+    "Supreme Court"
+  ],
+  "Labour and Employment": [
+    "Employment",
+    "Organized Sector Workers",
+    "Unorganized Sector Workers"
+  ],
+  "Power and Energy": [
+    "Non Renewable",
+    "Renewable"
+  ],
+  "Rural": [
+    "Development",
+    "Land Resources",
+    "Panchayati Raj"
+  ],
+  "Science and Technology": [
+    "Atmospheric Science",
+    "Coastal & Island",
+    "Earth Sciences",
+    "Geo Technology",
+    "Marine Science",
+    "Polar Science",
+    "Research & Development"
+  ],
+  "Social Development": [
+    "Children",
+    "Disabled",
+    "Minority",
+    "Tribal",
+    "Women"
+  ],
+  "Transport": [
+    "Aviation",
+    "Metro",
+    "Railways",
+    "Road Transport",
+    "Water ways"
+  ],
+  "Travel and Tourism": [
+    "Lodging",
+    "Modes of Travel",
+    "Places"
+  ],
+  "Youth and Sports": [
+    "Games",
+    "Youth Affairs"
+  ]
+}
