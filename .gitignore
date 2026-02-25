@@ -2,3 +2,5 @@
 .venv
 pip
 /venv
+
+scripts/__pycache__/
