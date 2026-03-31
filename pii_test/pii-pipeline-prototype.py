@@ -297,7 +297,7 @@ if __name__ == "__main__":
         help="Run the built-in analyzer demo snippet before processing files.",
     )
     parser.add_argument(
-        "--write-redacted-csv",
+        "--generate-redacted",
         action="store_true",
         help="Also write a copy of each CSV with detected PII redacted.",
     )
@@ -311,11 +311,11 @@ if __name__ == "__main__":
     csv_folder: Path = args.csv_folder
     max_rows: int = args.max_rows
     batch_size: int = args.batch_size
-    write_redacted: bool = args.write_redacted_csv
+    write_redacted: bool = args.generate_redacted
     redact_person_number_only: bool = args.redact_person_number_only
     if redact_person_number_only and not write_redacted:
         print(
-            "Warning: --redact-person-number-only has no effect without --write-redacted-csv."
+            "Warning: --redact-person-number-only has no effect without --generate-redacted."
         )
 
     transformer_analyzer = build_analyzer(include_transformer_recognizer=True)
@@ -343,6 +343,7 @@ if __name__ == "__main__":
 
     all_detections_rows: list[dict[str, object]] = []
     all_presidio_rows: list[dict[str, object]] = []
+    all_analytics: list[dict[str, object]] = []
 
     for idx, csv_path in enumerate(csv_files, start=1):
         print(f"\n=== [{idx}/{len(csv_files)}] Processing {csv_path} ===")
@@ -624,11 +625,6 @@ if __name__ == "__main__":
                         for col, value in row_redactions.items():
                             redacted_updates[(row_i, col)] = value
 
-        # Write annotated CSV (same rows + added PII flags/types).
-        annotated_out = output_dir / f"{csv_path.stem}_pii_annotated.csv"
-        df.to_csv(annotated_out, index=False)
-        print(f"Annotated CSV written to {annotated_out}")
-
         if write_redacted:
             redacted_df = df.copy(deep=True)
             for (row_idx, column_name), value in redacted_updates.items():
@@ -648,7 +644,7 @@ if __name__ == "__main__":
             redacted_df.to_csv(redacted_out, index=False)
             print(f"Redacted CSV written to {redacted_out}")
 
-        analytics_payload = {
+        all_analytics.append({
             "csv_file": analytics["csv_file"],
             "rows_scanned": processed_rows,
             "rows_with_pii": analytics["rows_with_pii"],
@@ -656,11 +652,7 @@ if __name__ == "__main__":
             "pii_type_counts": dict(sorted(analytics["pii_type_counts"].items())),
             "person_number_same_cell_count": analytics["person_number_same_cell_count"],
             "person_number_same_row_count": analytics["person_number_same_row_count"],
-        }
-        analytics_out = output_dir / f"{csv_path.stem}_pii_analytics.json"
-        with analytics_out.open("w", encoding="utf-8") as analytics_file:
-            json.dump(analytics_payload, analytics_file, ensure_ascii=False, indent=2)
-        print(f"Analytics JSON written to {analytics_out}")
+        })
 
         print(
             f"Finished {csv_path} | rows scanned: {processed_rows} | "
@@ -703,6 +695,11 @@ if __name__ == "__main__":
             for sample in samples:
                 print(sample)
 
+    analytics_out = output_root / "pii_analytics.json"
+    with analytics_out.open("w", encoding="utf-8") as analytics_file:
+        json.dump(all_analytics, analytics_file, ensure_ascii=False, indent=2)
+    print(f"\nAnalytics JSON written to {analytics_out}")
+
     if all_detections_rows:
         combined_output = output_root / "pii_detections_combined.csv"
         combined_df = pd.DataFrame(all_detections_rows)[
@@ -713,12 +710,12 @@ if __name__ == "__main__":
     else:
         print("\nNo detections captured across all CSV files.")
 
-    if all_presidio_rows:
-        presidio_output = output_root / "pii_presidio_detections.csv"
-        presidio_df = pd.DataFrame(all_presidio_rows)[
-            ["csv_file", "column", "pii_flag", "entity", "score", "person_phone_same_cell"]
-        ]
-        presidio_df.to_csv(presidio_output, index=False)
-        print(f"Presidio analyzer detections written to {presidio_output}")
-    else:
-        print("No Presidio analyzer detections captured.")
+    # if all_presidio_rows:
+    #     presidio_output = output_root / "pii_presidio_detections.csv"
+    #     presidio_df = pd.DataFrame(all_presidio_rows)[
+    #         ["csv_file", "column", "pii_flag", "entity", "score", "person_phone_same_cell"]
+    #     ]
+    #     presidio_df.to_csv(presidio_output, index=False)
+    #     print(f"Presidio analyzer detections written to {presidio_output}")
+    # else:
+    #     print("No Presidio analyzer detections captured.")

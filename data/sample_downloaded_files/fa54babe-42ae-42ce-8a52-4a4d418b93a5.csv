@@ -1,1 +1,32 @@
-{"message":"You are not authorised to access this page, Download Token Expired."}
+Type,Vehicles Category,Type of Vehicles,Newly registered-2009-10,Newly registered-2010-11,Total registered as on 31st March-2010,Total registered as on 31st March-2011
+Transport,I. Multiaxled / Articulated Vehicles,Multiaxled / Articulated Vehicles,7847,7298,33308,37658
+Transport,II. Trucks & Lorries,Trucks & Lorries,10335,11416,104128,113012
+Transport,III. Light Motor Vehicles (Goods),Four Wheelers,18171,24760,79695,100740
+Transport,III. Light Motor Vehicles (Goods),Three Wheelers,6620,7112,51486,55648
+Transport,Total-III. Light Motor Vehicles (Goods),Total Light Motor Vehicles (Goods),24791,31872,131181,156388
+Transport,IV. Buses,Stage carriages,1676,2034,13319,13925
+Transport,IV. Buses,Contract carriages,364,371,1570,1940
+Transport,IV. Buses,Private service vehicles,604,620,4364,4367
+Transport,IV. Buses,Other buses,2008,2457,8871,11690
+Transport,Total-IV. Buses,Total Buses,4652,5482,28124,31922
+Transport,V. Taxis,Motor cabs,11046,11219,31783,39649
+Transport,V. Taxis,Maxi cabs,306,524,658,521
+Transport,V. Taxis,Other taxis,1891,1645,6188,7194
+Transport,Total- V. Taxis,Total Taxis,13243,13388,38629,47364
+Transport,VI. Light Motor Vehicles (Passengers),Three seaters,24612,25513,70323,87416
+Transport,VI. Light Motor Vehicles (Passengers),Four to six seaters,9422,8967,53383,58935
+Transport,Total- VI. Light Motor Vehicles (Passengers),Total Light Motor Vehicles (Passengers),34034,34480,123706,146351
+Transport,VII. Motor cycles on hire,Motor cycles on hire,0,54,NA,NA
+Transport,Total Transport(I to VII),Total Transport,94902,103990,459076,532695
+Non Transport,I. Two wheelers,Scooters,65291,90654,1467200,1532754
+Non Transport,I. Two wheelers,Mopeds,42701,35332,433653,449636
+Non Transport,I. Two wheelers,Motor cycles,1012756,1143564,7592824,8581460
+Non Transport,Total-I. Two wheelers,Total Two wheelers,1120748,1269550,9493677,10563850
+Non Transport,II. Cars,Cars,116706,127116,873251,984937
+Non Transport,III. Jeeps,Jeeps,25038,25575,159128,176398
+Non Transport,IV. Omni buses,Omni buses,3394,2586,18740,21559
+Non Transport,V. Tractors,Tractors,80123,83287,953959,978627
+Non Transport,VI. Trailers,Trailers,288,280,15373,15126
+Non Transport,VII. Other vehicles not covered,Other vehicles not covered,846,931,15145,14040
+Non Transport,Total Non Transport (I to VII),Total Non-Transport,1347143,1509325,11529273,12754537
+Transport + Non-transport,Grand Total (Transport + Non-Transport),Grand Total (Transport + Non-Transport),1442045,1613315,11988349,13287232

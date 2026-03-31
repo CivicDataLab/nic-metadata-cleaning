@@ -1,0 +1,16 @@
+[
+  {
+    "csv_file": "2023_Q4.csv",
+    "rows_scanned": 250,
+    "rows_with_pii": 212,
+    "total_pii_entities": 550,
+    "pii_type_counts": {
+      "EMAIL_ADDRESS": 1,
+      "FARMER_REGISTRATION_ID": 1,
+      "PERSON": 496,
+      "PHONE_NUMBER": 52
+    },
+    "person_number_same_cell_count": 30,
+    "person_number_same_row_count": 30
+  }
+]
