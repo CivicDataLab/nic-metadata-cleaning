@@ -1,0 +1,101 @@
+uuid,file_type,status,detail
+35985678-0d79-46b4-9ed6-6f13308a1d24,csv,skipped,field_resource_type is 5
+cef25fe2-9231-4128-8aec-2c948fedd43f,json,skipped,field_resource_type is 5
+5c2f62fe-5afa-4119-a499-fec9d604d5bd,csv,success,
+4dbe5667-7b6b-41d7-82af-211562424d9a,csv,skipped,field_resource_type is 5
+9ef84268-d588-465a-a308-a864a43d0070,csv,success,
+8b68ae56-84cf-4728-a0a6-1be11028dea7,csv,skipped,field_resource_type is 5
+0c2d45a3-d0b5-4053-bf9a-e00395319472,csv,skipped,field_resource_type is 5
+3b01bcb8-0b14-4abf-b6f2-c1bfd384ba69,csv,success,
+239ac3d0-f08d-40d0-b03c-9b7a426a62d5,csv,success,
+1fc2148c-fc41-46f5-a364-bdc03f77053f,csv,skipped,field_resource_type is 5
+7c568619-b9b4-40bb-b563-68c28c27a6c1,vnd.ms-excel,success,
+e1c37ff8-df5a-43b8-bca2-f77ba6d2ac58,csv,failed,Server error - Status: 500
+cf80173e-fece-439d-a0b1-6e9cb510593d,vnd.ms-excel,success,
+ade6e644-91b8-4d27-97ba-e8c42c48f278,csv,skipped,field_resource_type is 5
+8e0bd482-4aba-4d99-9cb9-ff124f6f1c2f,csv,success,
+98e76922-ab13-474e-9bce-78942583cd0e,csv,skipped,field_resource_type is 5
+07b59cc2-3489-4146-9700-c3acc817cf54,csv,success,
+13051d52-05c2-4130-9e7b-891bdde84076,csv,success,
+4554a3c8-74e3-4f93-8727-8fd92161e345,csv,skipped,field_resource_type is 5
+45787c4b-3210-4fd0-b120-63336e042370,csv,success,
+35be999b-0208-4354-b557-f6ca9a5355de,csv,failed,"SSL Certificate Error: HTTPSConnectionPool(host='aps.dac.gov.in', port=443): Max retries exceeded with url: /APY/apy.csv (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))"
+87f00a0c-c370-4e8c-90db-8a6cb219d25b,vnd.ms-excel,success,
+f17a1608-5f10-4610-bb50-a63c80d83974,csv,skipped,field_resource_type is 5
+71818d1a-c114-46cb-aa9b-56ed70d4bc4a,csv,success,
+d6ba7353-574c-4eee-a071-f02fe1f90de9,csv,success,
+9fed9e21-d687-4c24-aa6e-63cb24bb68d3,csv,success,
+f8cd85a1-f9b8-4ff1-b195-9f75c10eb338,csv,success,
+71efe46f-97dc-4c8d-8d74-059d03d62d27,zip,skipped,Unsupported format: zip
+af34a228-2b53-4044-89c9-5f73412d7823,csv,success,
+c5ac3c08-46a1-4940-83ef-a18d09799c48,csv,success,
+c3dfe7e6-0cfd-4ddb-8f79-9cb3695d9866,csv,success,
+d35d7fcb-5b89-4c08-b96f-dd4916453421,csv,success,
+98c433b1-9c86-40c7-baf4-d4eca5385698,csv,skipped,field_resource_type is 5
+78dab912-a409-46c1-a535-46d89920e905,vnd.ms-excel,success,
+52f9cf0d-2258-4005-a398-567935038654,vnd.ms-excel,success,
+722e2530-dcb1-4104-bd8f-5a0b22e68999,csv,success,
+8562bdac-58f1-40f3-9f32-b5f657e872a5,csv,success,
+31b78802-8c93-47a9-b08a-ba6e745b9da3,csv,success,
+b54b6b73-bbec-462a-a231-d447e5919578,csv,success,
+352b3616-9d3d-42e5-80af-7d21a2a53fab,csv,success,
+0dd21de0-1802-4660-9b91-42c683b4a5e1,csv,success,
+1d4d1c5a-feea-423b-be4f-c3636fdd1d82,csv,skipped,field_resource_type is 5
+8d3b6596-b09e-4077-aebf-425193185a5b,csv,success,
+0e8eb9ca-d814-4d42-be85-d8fb7f2bdd6b,csv,success,
+9ebb46ba-6d80-4280-9571-5c71fabe76ad,csv,success,
+0109e83b-3f74-4ff6-a173-b21ab04aeadf,csv,success,
+440dbca7-86ce-4bf6-b1af-83af2855757e,csv,success,
+6df1ecaa-5ebe-477d-9ffe-4e1b87dd71e3,csv,success,
+7b624b4a-1456-4945-80d0-dfb5e40ddcff,csv,success,
+ea7705e8-feed-440e-86a9-1b51afaa738c,csv,success,
+201b66f2-7fda-40b8-b613-ffb7789c4341,csv,success,
+ee03643a-ee4c-48c2-ac30-9f2ff26ab722,csv,skipped,field_resource_type is 5
+ae789703-638a-4942-b79e-17868103dec8,csv,success,
+fb44b68b-babb-4ba7-b2c7-ef334162c0ac,vnd.ms-excel,success,
+9fc0d6fc-18ef-4e2b-9df0-cc55e91f60b5,csv,success,
+d0419b03-b41b-4226-b48b-0bc92bf139f8,vnd.ms-excel,success,
+cdaf4155-5772-44da-9bff-3dae9e2ec01d,csv,success,
+bc8238a7-45f3-44ff-ad1e-a41a35044b51,csv,success,
+1790a138-a0cb-4b8e-ba44-39ab79aa1e25,vnd.ms-excel,success,
+027324ec-cf2b-4184-9d92-501bcf430e61,csv,success,
+b0da5264-7ce1-434e-9aeb-f4af61d1db9d,csv,success,
+82262974-8c41-4deb-8678-f7890095face,csv,success,
+bfd544af-b3fc-4695-a893-2dcba51b0129,csv,success,
+ebc8b47e-f85f-4fee-b549-26225a45eea0,zip,skipped,Unsupported format: zip
+29be0dc4-72e2-4e10-bfa7-0ac825c249c6,csv,success,
+7a82b08b-d7fe-4edb-82f7-216a1f1bed07,csv,success,
+6460c98e-55cb-456d-8a1d-dfca06a31fd3,csv,success,
+7a444d4c-319a-41e5-a6cc-6b1ff681c7c6,csv,skipped,field_resource_type is 5
+08d46edd-f960-43b9-912b-271e22836976,csv,success,
+7b054340-590c-4135-8797-71a160d0d240,csv,success,
+edd25cbd-ebf2-4658-b052-34a1b4cdc4f2,csv,success,
+e3c8c8ba-d947-4462-ba0e-5224dc52d104,json,failed,HTTP error - Status: 429
+955b3280-0762-46e8-b471-54c629f56905,csv,success,
+f9adeeab-582f-40d0-ad99-4405a074a742,csv,success,
+6c80df63-3bcb-4219-9f46-4340f2eb9c16,csv,success,
+44a5b1d7-a6f2-4fe1-9fe7-6fce9a086ab1,csv,success,
+e718d9ee-3e1d-4236-99ce-216955016c5a,WMS,skipped,Unsupported format: WMS
+5015c014-507e-4ddf-8051-2c92dd426d38,csv,success,
+6930ff9c-a471-4a66-b494-f170a7cfe4c6,vnd.ms-excel,success,
+4ad0cb5c-14ef-4d26-9ca8-7117f370bf97,geo+json,skipped,Unsupported format: geojson
+1586dfd7-fd1a-49af-8438-0b2687a4b673,vnd.ms-excel,success,
+28214a31-4a1e-44fd-b9c0-1f793b46775b,csv,success,
+cc473f03-4db1-4c34-949e-481bdb3da490,csv,success,
+23e696fe-e4d3-4d67-a489-e5caf62b2e43,csv,success,
+85e13b30-d9ce-41c1-aa39-4912626e526b,csv,success,
+afd0ccfc-cc56-4a4c-a0ab-de187670edfc,csv,success,
+a56b86d1-f00e-4ee4-ab08-5b5367b3fab2,csv,success,
+15150682-a9ed-475d-b0e3-67b292e90d22,csv,success,
+770c0005-f940-4743-8517-0c631fd51d13,json,failed,HTTP error - Status: 429
+5aa7cd83-f317-4145-8be8-f12b115ecfe7,csv,success,
+b07c82cf-083d-454a-9c57-bb45ccfbeac7,WMS,skipped,Unsupported format: WMS
+f8b33b29-887e-45a3-a33d-6849d26038e1,csv,success,
+1f8b7765-81bd-4e6d-bb56-948f8af314b6,WMS,skipped,Unsupported format: WMS
+fa54babe-42ae-42ce-8a52-4a4d418b93a5,csv,success,
+f338e1f1-b527-454e-b0ee-089f3de3f0fa,csv,success,
+7a73979e-66bd-4c70-b7fa-3a715cc7cdaf,zip,skipped,Unsupported format: zip
+463d908b-c03b-47d3-b5bb-33d584d27f65,csv,success,
+097021b9-5ef5-4d9e-814a-c5dd240d8400,csv,success,
+f29cc023-499c-44f2-8521-aaf21108f334,csv,success,
+79234c71-4659-4313-a52a-d73393de09aa,zip,skipped,Unsupported format: zip

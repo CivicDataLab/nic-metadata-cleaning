@@ -4,3 +4,6 @@ pip
 /venv
 
 scripts/__pycache__/
+
+/data/first_batch_datasets
+/data/first_batch_downloads
