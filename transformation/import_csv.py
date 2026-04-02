@@ -20,7 +20,7 @@ conn.from_df(df).create("raw_metadata")
 
 # Create the table with batch column
 conn.execute("""
-CREATE OR REPLACE TABLE raw_metadata_with_batch AS
+CREATE OR REPLACE TABLE raw_metadata AS
 SELECT *, 
        CAST((ROW_NUMBER() OVER (ORDER BY rowid) - 1) // 5000 AS INTEGER) + 1 AS batch
 FROM raw_metadata;
@@ -35,16 +35,16 @@ if __name__ == "__main__":
     
     # Show sample data
     print("\n✓ Sample data (first row with key columns):")
-    result = conn.execute("SELECT nid, uuid, title, batch FROM raw_metadata_with_batch LIMIT 1").fetchall()
+    result = conn.execute("SELECT nid, uuid, title, batch FROM raw_metadata LIMIT 1").fetchall()
     for row in result:
         print(f"  nid: {row[0]}, uuid: {row[1]}, title: {row[2]}, batch: {row[3]}")
     
-    total_count = conn.execute("SELECT COUNT(*) FROM raw_metadata_with_batch").fetchall()
+    total_count = conn.execute("SELECT COUNT(*) FROM raw_metadata").fetchall()
     print(f"\n✓ Total rows: {total_count[0][0]}")
     
     # Check batch distribution
     print("\n✓ Batch distribution:")
-    result = conn.execute("SELECT batch, COUNT(*) as count FROM raw_metadata_with_batch GROUP BY batch ORDER BY batch").fetchall()
+    result = conn.execute("SELECT batch, COUNT(*) as count FROM raw_metadata GROUP BY batch ORDER BY batch").fetchall()
     for row in result:
         print(f"  Batch {row[0]}: {row[1]} rows")
     
