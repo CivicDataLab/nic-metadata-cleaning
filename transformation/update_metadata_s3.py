@@ -6,10 +6,10 @@ import duckdb
 import tempfile
 from datetime import datetime
 
-# Configure logging
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Database and folder paths
+
 DB_PATH = "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db"
 
 # S3 configuration

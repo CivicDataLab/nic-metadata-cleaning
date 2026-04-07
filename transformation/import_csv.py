@@ -8,8 +8,7 @@ excel_file = '/home/aakash/NIC/Newfolder/ResourceList_DoFHW/ResourceList_Departm
 # Read Excel file with first row as headers (header=0 is default)
 df = pd.read_excel(excel_file, header=0)
 
-# Drop unnamed columns (empty columns)
-df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
+
 
 print("Column names after reading Excel:")
 print(df.columns.tolist())
