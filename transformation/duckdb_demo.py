@@ -1,23 +1,24 @@
 import duckdb
 
-conn = duckdb.connect("/home/aakash/NIC/Newfolder/nic-metadata-cleaning/utils/metadata.db")
+# DB_PATH = "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db"
+# OUTPUT_CSV = "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/dublin_core_metadata.csv"
 
-# #duckdb.read_csv('/home/aakash/NIC/Newfolder/nic-metadata-cleaning/nic_sample_dataset.csv')
+# conn = duckdb.connect(DB_PATH)
+# conn.execute(f"COPY dublin_core_metadata TO '{OUTPUT_CSV}' (HEADER, DELIMITER ',')")
+# row_count = conn.execute("SELECT COUNT(*) FROM dublin_core_metadata").fetchone()[0]
+# conn.close()
 
-
-# conn.execute("CREATE TABLE dataset AS FROM '/home/aakash/NIC/Newfolder/nic-metadata-cleaning/data/sample_datasets_metadata/nic_sample_dataset.csv';")
-
-# if __name__ == "__main__":
-
-#     # duckdb.read_csv('sample_datasets_metadata/nic_sample_dataset.csv')
-conn.execute("SHOW TABLES FROM METADATA;")
+# print(f"Exported {row_count} rows to {OUTPUT_CSV}")
 
 
 
-# conn = duckdb.connect("/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db")
-# result = conn.execute("SELECT * FROM raw_metadata LIMIT 1").description
+conn = duckdb.connect("/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db")
+result = conn.execute("SELECT * FROM llm_keyword_results LIMIT 10;")
+
+print(result)
 # columns = [desc[0] for desc in result]
 # print("Columns in raw_metadata_with_batch:", columns)
+
 
 
 # import duckdb
