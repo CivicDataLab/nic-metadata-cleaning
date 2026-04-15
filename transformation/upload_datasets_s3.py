@@ -4,6 +4,7 @@ from botocore.exceptions import ClientError
 import os
 import duckdb
 import csv
+from collections import defaultdict
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -18,122 +19,137 @@ S3_BUCKET = "nic-ogdp-datasets"
 S3_PREFIX = "downloaded-datasets/downloaded-datasets-mohfw"  # Base path in S3
 
 
-def get_batch_mapping():
-    """Query the database to get UUID to batch mapping."""
+def get_batches_from_db():
+    """Query the database to get batches with their UUIDs and total counts."""
     try:
         conn = duckdb.connect(DB_PATH)
         result = conn.execute("""
-            SELECT uuid, batch FROM raw_metadata_with_batch
+            SELECT batch, uuid FROM raw_metadata ORDER BY batch
         """).fetchall()
         conn.close()
-        
-        batch_mapping = {str(row[0]): row[1] for row in result}
-        logging.info(f"Loaded batch mapping for {len(batch_mapping)} datasets")
-        return batch_mapping
+
+        batches = defaultdict(set)
+        for batch, uuid in result:
+            batches[batch].add(str(uuid))
+
+        logging.info(f"Loaded {len(batches)} batches from database")
+        return batches
     except Exception as e:
         logging.error(f"Failed to query database: {e}")
         return {}
 
 
-def upload_file(file_path, bucket, object_name):
-    """Upload a file to S3 bucket."""
-    s3_client = boto3.client('s3')
-    try:
-        s3_client.upload_file(file_path, bucket, object_name)
-        logging.info(f"Uploaded {object_name} to s3://{bucket}")
-        return True
-    except ClientError as e:
-        logging.error(f"Failed to upload {object_name}: {e}")
-        return False
-
-
-def extract_uuid_from_filename(filename):
-    """Extract UUID from filename (UUID is the part before the extension)."""
-    return os.path.splitext(filename)[0]
-
-
-def get_processed_files():
-    """Load already-processed files from the log."""
-    processed = set()
+def get_uploaded_uuids_by_batch():
+    """Load successfully uploaded UUIDs grouped by batch from the log."""
+    uploaded = defaultdict(set)
     if os.path.exists(LOG_FILE_PATH):
         try:
             with open(LOG_FILE_PATH, 'r', newline='') as f:
                 reader = csv.DictReader(f)
                 for row in reader:
                     if row.get('status') == 'success':
-                        processed.add(row.get('filename', ''))
+                        batch = row.get('batch')
+                        uuid = row.get('uuid', '')
+                        if batch and uuid:
+                            uploaded[batch].add(uuid)
         except Exception as e:
             logging.warning(f"Could not read log file: {e}")
-    return processed
+    return uploaded
 
 
-def log_upload(filename, uuid, batch, status, detail=""):
+def upload_file(s3_client, file_path, bucket, object_name):
+    """Upload a file to S3 bucket."""
+    try:
+        s3_client.upload_file(file_path, bucket, object_name)
+        return True
+    except ClientError as e:
+        logging.error(f"Failed to upload {object_name}: {e}")
+        return False
+
+
+def log_upload(log_writer, filename, uuid, batch, status, detail=""):
     """Log upload attempt to CSV file."""
-    log_exists = os.path.exists(LOG_FILE_PATH)
-    with open(LOG_FILE_PATH, 'a', newline='') as f:
-        writer = csv.writer(f)
-        if not log_exists:
-            writer.writerow(['filename', 'uuid', 'batch', 'status', 'detail'])
-        writer.writerow([filename, uuid, batch, status, detail])
+    log_writer.writerow([filename, uuid, batch, status, detail])
+
+
+def build_filename_index(downloads_folder):
+    """Build a uuid -> filename map for all files in the downloads folder."""
+    index = {}
+    for filename in os.listdir(downloads_folder):
+        if os.path.isfile(os.path.join(downloads_folder, filename)):
+            uuid = os.path.splitext(filename)[0]
+            index[uuid] = filename
+    return index
 
 
 if __name__ == "__main__":
-    # Get batch mapping from database
-    batch_mapping = get_batch_mapping()
-    
-    if not batch_mapping:
-        logging.error("No batch mapping found. Exiting.")
+    # Load batch -> {uuids} from DB (one query, no repeated lookups)
+    db_batches = get_batches_from_db()
+
+    if not db_batches:
+        logging.error("No batch data found. Exiting.")
         exit(1)
-    
-    # Get already processed files
-    processed_files = get_processed_files()
-    
-    # Get list of files to upload (exclude only the log file)
+
+    # Load already-uploaded uuids per batch from the log (one pass)
+    uploaded_by_batch = get_uploaded_uuids_by_batch()
+
     if not os.path.exists(DOWNLOADS_FOLDER):
         logging.error(f"Downloads folder not found: {DOWNLOADS_FOLDER}")
         exit(1)
-    
-    files_to_upload = [f for f in os.listdir(DOWNLOADS_FOLDER) 
-                      if os.path.isfile(os.path.join(DOWNLOADS_FOLDER, f)) 
-                      and f != os.path.basename(LOG_FILE_PATH)]
-    
-    logging.info(f"Found {len(files_to_upload)} files to upload")
-    
+
+    # Build a uuid -> filename index once so we never re-scan the folder
+    uuid_to_file = build_filename_index(DOWNLOADS_FOLDER)
+    logging.info(f"Found {len(uuid_to_file)} files in downloads folder")
+
+    s3_client = boto3.client('s3')
     success_count = 0
     failed_count = 0
-    skipped_count = 0
-    
-    # Upload each file
-    for i, filename in enumerate(files_to_upload):
-        if filename in processed_files:
-            logging.info(f"Skipping {filename} (already uploaded)")
-            skipped_count += 1
-            continue
-        
-        uuid = extract_uuid_from_filename(filename)
-        batch = batch_mapping.get(uuid)
-        
-        if batch is None:
-            logging.warning(f"No batch found for {filename} (UUID: {uuid})")
-            log_upload(filename, uuid, "N/A", "failed", "UUID not found in batch mapping")
-            failed_count += 1
-            continue
-        
-        # Create S3 object path with batch folder structure
-        object_name = f"{S3_PREFIX}/batch_{batch}/{filename}"
-        file_path = os.path.join(DOWNLOADS_FOLDER, filename)
-        
-        # Upload file to S3
-        if upload_file(file_path, S3_BUCKET, object_name):
-            log_upload(filename, uuid, batch, "success")
-            success_count += 1
-            if (i + 1) % 100 == 0:
-                logging.info(f"Progress: {i + 1}/{len(files_to_upload)} files processed")
-        else:
-            log_upload(filename, uuid, batch, "failed", "Upload error")
-            failed_count += 1
-    
-    logging.info(f"\n✓ Upload complete:")
-    logging.info(f"  - {success_count} successful")
-    logging.info(f"  - {failed_count} failed")
-    logging.info(f"  - {skipped_count} skipped (already uploaded)")
+    skipped_batches = 0
+
+    log_exists = os.path.exists(LOG_FILE_PATH)
+    log_fh = open(LOG_FILE_PATH, 'a', newline='')
+    log_writer = csv.writer(log_fh)
+    if not log_exists:
+        log_writer.writerow(['filename', 'uuid', 'batch', 'status', 'detail'])
+
+    try:
+        for batch in sorted(db_batches.keys()):
+            batch_uuids = db_batches[batch]
+            already_uploaded = uploaded_by_batch.get(str(batch), set())
+
+            # Skip entire batch if all UUIDs are already logged as success
+            if batch_uuids <= already_uploaded:
+                logging.info(f"Batch {batch}: all {len(batch_uuids)} files already uploaded, skipping")
+                skipped_batches += 1
+                continue
+
+            pending = batch_uuids - already_uploaded
+            logging.info(f"Batch {batch}: {len(pending)} of {len(batch_uuids)} files to upload")
+
+            for uuid in pending:
+                filename = uuid_to_file.get(uuid)
+                if filename is None:
+                    logging.warning(f"Batch {batch}: no file found for UUID {uuid}")
+                    log_upload(log_writer, f"{uuid}.(missing)", uuid, batch, "failed", "File not found in downloads folder")
+                    failed_count += 1
+                    continue
+
+                object_name = f"{S3_PREFIX}/batch_{batch}/{filename}"
+                file_path = os.path.join(DOWNLOADS_FOLDER, filename)
+
+                if upload_file(s3_client, file_path, S3_BUCKET, object_name):
+                    log_upload(log_writer, filename, uuid, batch, "success")
+                    success_count += 1
+                else:
+                    log_upload(log_writer, filename, uuid, batch, "failed", "Upload error")
+                    failed_count += 1
+
+            log_fh.flush()
+            logging.info(f"Batch {batch}: done (running totals — success: {success_count}, failed: {failed_count})")
+    finally:
+        log_fh.close()
+
+    logging.info(f"\nUpload complete:")
+    logging.info(f"  - {skipped_batches} batches skipped (fully uploaded)")
+    logging.info(f"  - {success_count} files uploaded successfully")
+    logging.info(f"  - {failed_count} files failed")

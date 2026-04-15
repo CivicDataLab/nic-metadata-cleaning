@@ -51,6 +51,7 @@ RESULTS_TABLE = "llm_keyword_results"
 
 MODEL = "gpt-4.1-nano"
 POLL_INTERVAL = 60          # seconds between status checks
+MAX_CONCURRENT_BATCHES = 2  # OpenAI concurrent batch limit
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "text_generation")
 OUTPUT_CSV = os.path.join(OUTPUT_DIR, "llm_keyword_results.csv")
 
@@ -89,19 +90,22 @@ Semicolon-separated values in any field should be parsed individually.
   "generated_sponsored_keywords": "",
   "generated_theme": "",
   "hvd_category": "",
-  "confidence_score": 0.0,
-  "metadata_gaps": "",
-  "justification": ""
 }
 
 Return ONLY valid JSON. No markdown fences, no preamble.
 
 ## Field Specifications
 ### generated_title (10–20 words, Title Case)
-- Only modify if original is poorly named; otherwise keep as-is, don't generate title if only a small change is needed.
-- Expand - (KCC→Kisan Call Centre, RoC→Registrars of Companies).
-- Add geographic scope ("in India"/state) if unclear. Add temporal range if relevant.
-- No redundancy with catalog_title.
+- Compare your draft to the original: if you changed fewer than 3 substantive words (ignoring casing), return the original title with only casing fixed.
+- NEVER inject the sector_resource , ministry name, or catalog_title context into the title. Those fields exist separately — the title must not duplicate them.
+- If multiple datasets share the same title pattern (e.g. monthly reports differing only by month), apply the EXACT same transformation to each — do not vary phrasing, prepositions, or punctuation across the batch.
+- Expand well-known abbreviations (KCC → Kisan Call Centre, RoC → Registrars of Companies).
+- Add geographic scope ("in India" / state name) ONLY if genuinely unclear from context.
+- Add temporal range ONLY if absent from the original title.
+- Do not rephrase temporal markers unnecessarily (e.g., keep "upto March 2015-16" as "Up to March 2015-16" — do not change it to "as on", "as of", or put it in brackets).
+- No redundancy with catalog_title. 
+- Stop hallucinating.
+- Don't use 'Up To' or 'Upto' keep it standardized and use 'upto' instead.
 
 ### generated_description (40–60 words)
 - 2–3 sentences: what the dataset contains, its purpose/use cases, source ministry, geographic & temporal scope, granularity, and update frequency.
@@ -301,7 +305,7 @@ def load_rows(batch_number: int | None, limit: int | None) -> pd.DataFrame:
     query = f"SELECT {select} FROM {SOURCE_TABLE}"
     if batch_number is not None:
         query += f" WHERE batch = {batch_number}"
-    query += f" ORDER BY {', '.join(col)} OFFSET 3000"
+    query += f" ORDER BY {', '.join(col)} OFFSET 1500"
 
     if limit is not None:
         query += f" LIMIT {limit}"
@@ -310,6 +314,7 @@ def load_rows(batch_number: int | None, limit: int | None) -> pd.DataFrame:
     con.close()
     logging.info(f"Loaded {len(df)} rows from {SOURCE_TABLE}")
     return df
+
 
 
 def upload_requests(df: pd.DataFrame, suffix: str = "") -> str:
@@ -334,14 +339,14 @@ def upload_requests(df: pd.DataFrame, suffix: str = "") -> str:
 
 
 def submit_batch(file_id: str) -> str:
-    """Create the batch job, return batch_id."""
+
     batch = client.batches.create(
         input_file_id=file_id,
         endpoint="/v1/chat/completions",
         completion_window="24h",
         metadata={"project": "nic-metadata-cleaning", "model": MODEL},
     )
-    logging.info(f"Batch submitted → batch_id={batch.id}  status={batch.status}")
+    logging.info(f"Batch submitted - batch_id={batch.id}  status={batch.status}")
     return batch.id
 
 
@@ -352,9 +357,13 @@ def poll_batch(batch_id: str) -> object:
         batch = client.batches.retrieve(batch_id)
         counts = batch.request_counts
         logging.info(
-            f"[{batch_id}] status={batch.status}  "
+            f"[{batch_id}] status={batch.status} error_file_id={batch.error_file_id} "
             f"total={counts.total}  completed={counts.completed}  failed={counts.failed}"
         )
+        # if batch.status = "failed":
+        # logging.info(
+        #     f"total={counts.total}  completed={counts.completed}  failed={counts.failed}"
+
         if batch.status in terminal:
             return batch
         time.sleep(POLL_INTERVAL)
@@ -453,9 +462,6 @@ def merge_and_save(df: pd.DataFrame, results: dict[str, dict]) -> pd.DataFrame:
             "generated_sponsored_keywords": _list_to_str(r.get("generated_sponsored_keywords", [])),
             "generated_theme": r.get("generated_theme", ""),
             "hvd_category": r.get("hvd_category", ""),
-            "confidence_score": r.get("confidence_score", 0),
-            "metadata_gaps": r.get("metadata_gaps", ""),
-            "justification": r.get("justification", ""),
         })
 
     if not records:
@@ -476,7 +482,7 @@ def merge_and_save(df: pd.DataFrame, results: dict[str, dict]) -> pd.DataFrame:
         f"SELECT COUNT(*) FROM information_schema.tables WHERE table_name = '{RESULTS_TABLE}'"
     ).fetchone()[0]
     if table_exists:
-        con.execute(f"INSERT INTO {RESULTS_TABLE} SELECT * FROM results_df")
+        con.execute(f"INSERT INTO {RESULTS_TABLE} SELECT * FROM results_df" )
     else:
         con.execute(f"CREATE TABLE {RESULTS_TABLE} AS SELECT * FROM results_df")
     count = con.execute(f"SELECT COUNT(*) FROM {RESULTS_TABLE}").fetchone()[0]
@@ -524,8 +530,8 @@ def run_batch_job(
     """
     Full pipeline:
       1. Load rows from DB
-      2. Split into chunks and submit ALL to OpenAI simultaneously
-      3. Poll all batches concurrently
+      2. Split into chunks; submit up to MAX_CONCURRENT_BATCHES (2) at a time
+      3. Poll that window concurrently; wait for all to finish before the next window
       4. Download results and merge into CSV + DuckDB
     """
     df = load_rows(batch_number, limit)
@@ -536,23 +542,39 @@ def run_batch_job(
     chunks = [df.iloc[i:i + chunk_size] for i in range(0, len(df), chunk_size)]
     logging.info(f"Split {len(df)} rows into {len(chunks)} chunk(s) of up to {chunk_size}")
 
-    # Step 1 — submit all chunks at once
     all_batch_ids: list[str] = []
-    for idx, chunk in enumerate(chunks):
-        logging.info(f"Submitting chunk {idx + 1}/{len(chunks)} ({len(chunk)} rows)...")
-        batch_ids = _submit_with_autosplit(chunk, suffix=f"_chunk{idx + 1}")
-        all_batch_ids.extend(batch_ids)
+    all_results:   dict[str, dict] = {}
 
-    logging.info(f"All {len(all_batch_ids)} batch job(s) submitted: {all_batch_ids}")
+    # Process chunks in windows of MAX_CONCURRENT_BATCHES (2).
+    # Submit the window, wait for all to finish, then move on.
+    for window_start in range(0, len(chunks), MAX_CONCURRENT_BATCHES):
+        window = chunks[window_start : window_start + MAX_CONCURRENT_BATCHES]
+        window_ids: list[str] = []
 
-    # Step 2 — poll all concurrently
-    logging.info("Polling all batches in parallel...")
-    completed_batches = poll_all_batches(all_batch_ids)
+        for idx, chunk in enumerate(window):
+            global_idx = window_start + idx + 1
+            logging.info(
+                f"Submitting chunk {global_idx}/{len(chunks)} "
+                f"({len(chunk)} rows) — "
+                f"window {window_start // MAX_CONCURRENT_BATCHES + 1} ..."
+            )
+            batch_ids = _submit_with_autosplit(chunk, suffix=f"_chunk{global_idx}")
+            window_ids.extend(batch_ids)
 
-    # Step 3 — download and merge
-    all_results: dict[str, dict] = {}
-    for batch in completed_batches:
-        all_results.update(download_results(batch))
+        logging.info(
+            f"Window {window_start // MAX_CONCURRENT_BATCHES + 1}: "
+            f"{len(window_ids)} batch(es) in flight — polling until complete: {window_ids}"
+        )
+        completed = poll_all_batches(window_ids)
+
+        for batch in completed:
+            all_results.update(download_results(batch))
+
+        all_batch_ids.extend(window_ids)
+        logging.info(
+            f"Window {window_start // MAX_CONCURRENT_BATCHES + 1} done. "
+            f"Running total: {len(all_batch_ids)} batch(es) finished."
+        )
 
     merge_and_save(df, all_results)
     logging.info(f"All done. Total batch jobs: {len(all_batch_ids)}")

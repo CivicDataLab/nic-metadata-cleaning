@@ -1,4 +1,4 @@
-import duckdb
+# import duckdb
 
 # DB_PATH = "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db"
 # OUTPUT_CSV = "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/dublin_core_metadata.csv"
@@ -12,10 +12,10 @@ import duckdb
 
 
 
-conn = duckdb.connect("/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db")
-result = conn.execute("SELECT * FROM llm_keyword_results LIMIT 10;")
+# conn = duckdb.connect("/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db")
+# result = conn.execute("SELECT * FROM llm_keyword_results LIMIT 10;")
 
-print(result)
+# print(result)
 # columns = [desc[0] for desc in result]
 # print("Columns in raw_metadata_with_batch:", columns)
 
@@ -37,4 +37,51 @@ print(result)
 #             print(f"  {columns[j]}: {value}")
 
 # conn.close()
+
+
+import duckdb
+
+DB_PATH = "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db"
+CSV_PATH = "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/llm_keyword_results.csv"
+ROWS_TO_INSERT = 3000
+
+conn = duckdb.connect(DB_PATH)
+
+# Columns present in the DB table
+table_cols = {row[0] for row in conn.execute("DESCRIBE llm_keyword_results").fetchall()}
+
+# Columns present in the CSV
+csv_cols = [desc[0] for desc in conn.execute(f"SELECT * FROM read_csv('{CSV_PATH}', header=true, null_padding=true, parallel=false) LIMIT 0").description]
+
+# Columns that exist in both (preserve CSV order so SELECT aligns with INSERT)
+shared_cols = [c for c in csv_cols if c in table_cols]
+
+# Columns only in the table → supply NULL so every table column gets a value
+null_cols = [c for c in conn.execute("DESCRIBE llm_keyword_results").fetchall()
+             if c[0] not in set(shared_cols)]
+
+insert_cols = shared_cols + [c[0] for c in null_cols]
+select_exprs = shared_cols + [f"NULL AS {c[0]}" for c in null_cols]
+
+total_rows = conn.execute(f"SELECT COUNT(*) FROM read_csv('{CSV_PATH}', header=true, null_padding=true, parallel=false)").fetchone()[0]
+offset = max(0, total_rows - ROWS_TO_INSERT)
+
+count_before = conn.execute("SELECT COUNT(*) FROM llm_keyword_results").fetchone()[0]
+
+conn.execute(f"""
+    INSERT INTO llm_keyword_results ({', '.join(insert_cols)})
+    SELECT {', '.join(select_exprs)}
+    FROM read_csv('{CSV_PATH}', header=true, null_padding=true, parallel=false)
+    OFFSET {offset}
+""")
+
+count_after = conn.execute("SELECT COUNT(*) FROM llm_keyword_results").fetchone()[0]
+conn.close()
+
+print(f"Inserted {count_after - count_before} rows into llm_keyword_results")
+print(f"  CSV total rows : {total_rows}")
+print(f"  Offset applied : {offset}")
+print(f"  Shared columns : {shared_cols}")
+if null_cols:
+    print(f"  NULL-filled cols: {[c[0] for c in null_cols]}")
 
