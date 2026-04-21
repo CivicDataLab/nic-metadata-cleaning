@@ -1395,3 +1395,362 @@
 2026-04-15 09:29:06,773 : INFO - Appended 472 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/llm_keyword_results.csv
 2026-04-15 09:29:07,839 : INFO - Appended 472 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db::llm_keyword_results (total: 5957)
 2026-04-15 09:29:07,840 : INFO - All done. Total batch jobs: 1
+2026-04-16 18:12:31,671 : INFO - Loaded 0 rows from dublin_core_metadata
+2026-04-16 18:12:31,704 : WARNING - Nothing to process.
+2026-04-16 18:13:04,699 : INFO - Loaded 0 rows from dublin_core_metadata
+2026-04-16 18:13:04,699 : WARNING - Nothing to process.
+2026-04-16 18:18:26,151 : INFO - Loaded 1972 rows from dublin_core_metadata
+2026-04-16 18:18:26,153 : INFO - Split 1972 rows into 4 chunk(s) of up to 500
+2026-04-16 18:18:26,153 : INFO - Submitting chunk 1/4 (500 rows) — window 1 ...
+2026-04-16 18:18:26,464 : INFO - Wrote 500 requests to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_requests_20260416_181826_chunk1.jsonl
+2026-04-16 18:18:30,072 : INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2026-04-16 18:18:30,076 : INFO - Uploaded batch_requests_20260416_181826_chunk1.jsonl → file_id=file-K6EdPVwpZSYTg16vUuQtXA
+2026-04-16 18:19:41,780 : INFO - Loaded 34 rows from dublin_core_metadata
+2026-04-16 18:19:41,780 : INFO - Split 34 rows into 1 chunk(s) of up to 500
+2026-04-16 18:19:41,781 : INFO - Submitting chunk 1/1 (34 rows) — window 1 ...
+2026-04-16 18:19:41,791 : INFO - Wrote 34 requests to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_requests_20260416_181941_chunk1.jsonl
+2026-04-16 18:19:43,984 : INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2026-04-16 18:19:43,986 : INFO - Uploaded batch_requests_20260416_181941_chunk1.jsonl → file_id=file-Gum3iyEVQGC9dGhnBzBj8q
+2026-04-16 18:19:45,426 : INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2026-04-16 18:19:45,482 : INFO - Batch submitted - batch_id=batch_69e1284047ec8190a8a45bf53809eaf0  status=validating
+2026-04-16 18:19:45,482 : INFO - Window 1: 1 batch(es) in flight — polling until complete: ['batch_69e1284047ec8190a8a45bf53809eaf0']
+2026-04-16 18:19:45,840 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1284047ec8190a8a45bf53809eaf0 "HTTP/1.1 200 OK"
+2026-04-16 18:19:45,841 : INFO - [batch_69e1284047ec8190a8a45bf53809eaf0] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-16 18:20:46,987 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1284047ec8190a8a45bf53809eaf0 "HTTP/1.1 200 OK"
+2026-04-16 18:20:46,987 : INFO - [batch_69e1284047ec8190a8a45bf53809eaf0] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-16 18:21:47,391 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1284047ec8190a8a45bf53809eaf0 "HTTP/1.1 200 OK"
+2026-04-16 18:21:47,393 : INFO - [batch_69e1284047ec8190a8a45bf53809eaf0] status=in_progress error_file_id=None total=34  completed=0  failed=0
+2026-04-16 18:22:47,787 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1284047ec8190a8a45bf53809eaf0 "HTTP/1.1 200 OK"
+2026-04-16 18:22:47,788 : INFO - [batch_69e1284047ec8190a8a45bf53809eaf0] status=in_progress error_file_id=None total=34  completed=0  failed=0
+2026-04-16 18:23:48,402 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1284047ec8190a8a45bf53809eaf0 "HTTP/1.1 200 OK"
+2026-04-16 18:23:48,402 : INFO - [batch_69e1284047ec8190a8a45bf53809eaf0] status=in_progress error_file_id=None total=34  completed=0  failed=0
+2026-04-16 18:24:48,783 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1284047ec8190a8a45bf53809eaf0 "HTTP/1.1 200 OK"
+2026-04-16 18:24:48,784 : INFO - [batch_69e1284047ec8190a8a45bf53809eaf0] status=in_progress error_file_id=None total=34  completed=0  failed=0
+2026-04-16 18:25:49,732 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1284047ec8190a8a45bf53809eaf0 "HTTP/1.1 200 OK"
+2026-04-16 18:25:49,735 : INFO - [batch_69e1284047ec8190a8a45bf53809eaf0] status=in_progress error_file_id=None total=34  completed=0  failed=0
+2026-04-16 18:26:50,273 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1284047ec8190a8a45bf53809eaf0 "HTTP/1.1 200 OK"
+2026-04-16 18:26:50,276 : INFO - [batch_69e1284047ec8190a8a45bf53809eaf0] status=in_progress error_file_id=None total=34  completed=0  failed=0
+2026-04-16 18:31:50,034 : INFO - Loaded 34 rows from dublin_core_metadata
+2026-04-16 18:31:50,035 : INFO - Split 34 rows into 1 chunk(s) of up to 500
+2026-04-16 18:31:50,035 : INFO - Submitting chunk 1/1 (34 rows) — window 1 ...
+2026-04-16 18:31:50,046 : INFO - Wrote 34 requests to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_requests_20260416_183150_chunk1.jsonl
+2026-04-16 18:31:52,076 : INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2026-04-16 18:31:52,080 : INFO - Uploaded batch_requests_20260416_183150_chunk1.jsonl → file_id=file-DbS8wMnGvKwU12kgU5TTVr
+2026-04-16 18:31:52,523 : INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2026-04-16 18:31:52,531 : INFO - Batch submitted - batch_id=batch_69e12b1837ac819088a127be7dcfbe7d  status=validating
+2026-04-16 18:31:52,532 : INFO - Window 1: 1 batch(es) in flight — polling until complete: ['batch_69e12b1837ac819088a127be7dcfbe7d']
+2026-04-16 18:31:52,871 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e12b1837ac819088a127be7dcfbe7d "HTTP/1.1 200 OK"
+2026-04-16 18:31:52,872 : INFO - [batch_69e12b1837ac819088a127be7dcfbe7d] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-16 18:32:53,434 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e12b1837ac819088a127be7dcfbe7d "HTTP/1.1 200 OK"
+2026-04-16 18:32:53,436 : INFO - [batch_69e12b1837ac819088a127be7dcfbe7d] status=in_progress error_file_id=None total=34  completed=0  failed=0
+2026-04-16 18:33:53,806 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e12b1837ac819088a127be7dcfbe7d "HTTP/1.1 200 OK"
+2026-04-16 18:33:53,807 : INFO - [batch_69e12b1837ac819088a127be7dcfbe7d] status=in_progress error_file_id=None total=34  completed=0  failed=0
+2026-04-16 18:34:54,170 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e12b1837ac819088a127be7dcfbe7d "HTTP/1.1 200 OK"
+2026-04-16 18:34:54,171 : INFO - [batch_69e12b1837ac819088a127be7dcfbe7d] status=in_progress error_file_id=None total=34  completed=0  failed=0
+2026-04-16 18:35:54,539 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e12b1837ac819088a127be7dcfbe7d "HTTP/1.1 200 OK"
+2026-04-16 18:35:54,540 : INFO - [batch_69e12b1837ac819088a127be7dcfbe7d] status=in_progress error_file_id=None total=34  completed=0  failed=0
+2026-04-16 18:36:55,109 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e12b1837ac819088a127be7dcfbe7d "HTTP/1.1 200 OK"
+2026-04-16 18:36:55,110 : INFO - [batch_69e12b1837ac819088a127be7dcfbe7d] status=in_progress error_file_id=None total=34  completed=0  failed=0
+2026-04-16 18:37:55,478 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e12b1837ac819088a127be7dcfbe7d "HTTP/1.1 200 OK"
+2026-04-16 18:37:55,479 : INFO - [batch_69e12b1837ac819088a127be7dcfbe7d] status=in_progress error_file_id=None total=34  completed=0  failed=0
+2026-04-16 18:38:56,516 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e12b1837ac819088a127be7dcfbe7d "HTTP/1.1 200 OK"
+2026-04-16 18:38:56,526 : INFO - [batch_69e12b1837ac819088a127be7dcfbe7d] status=in_progress error_file_id=None total=34  completed=0  failed=0
+2026-04-16 18:39:56,978 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e12b1837ac819088a127be7dcfbe7d "HTTP/1.1 200 OK"
+2026-04-16 18:39:57,059 : INFO - [batch_69e12b1837ac819088a127be7dcfbe7d] status=in_progress error_file_id=None total=34  completed=0  failed=0
+2026-04-16 18:40:57,641 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e12b1837ac819088a127be7dcfbe7d "HTTP/1.1 200 OK"
+2026-04-16 18:40:57,643 : INFO - [batch_69e12b1837ac819088a127be7dcfbe7d] status=in_progress error_file_id=None total=34  completed=0  failed=0
+2026-04-16 18:41:58,203 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e12b1837ac819088a127be7dcfbe7d "HTTP/1.1 200 OK"
+2026-04-16 18:41:58,205 : INFO - [batch_69e12b1837ac819088a127be7dcfbe7d] status=in_progress error_file_id=None total=34  completed=0  failed=0
+2026-04-16 18:42:58,573 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e12b1837ac819088a127be7dcfbe7d "HTTP/1.1 200 OK"
+2026-04-16 18:42:58,575 : INFO - [batch_69e12b1837ac819088a127be7dcfbe7d] status=in_progress error_file_id=None total=34  completed=0  failed=0
+2026-04-16 18:43:58,979 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e12b1837ac819088a127be7dcfbe7d "HTTP/1.1 200 OK"
+2026-04-16 18:43:58,987 : INFO - [batch_69e12b1837ac819088a127be7dcfbe7d] status=in_progress error_file_id=None total=34  completed=25  failed=0
+2026-04-16 18:44:59,358 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e12b1837ac819088a127be7dcfbe7d "HTTP/1.1 200 OK"
+2026-04-16 18:44:59,359 : INFO - [batch_69e12b1837ac819088a127be7dcfbe7d] status=in_progress error_file_id=None total=34  completed=25  failed=0
+2026-04-16 18:45:59,761 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e12b1837ac819088a127be7dcfbe7d "HTTP/1.1 200 OK"
+2026-04-16 18:45:59,763 : INFO - [batch_69e12b1837ac819088a127be7dcfbe7d] status=in_progress error_file_id=None total=34  completed=32  failed=0
+2026-04-16 18:47:00,230 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e12b1837ac819088a127be7dcfbe7d "HTTP/1.1 200 OK"
+2026-04-16 18:47:00,230 : INFO - [batch_69e12b1837ac819088a127be7dcfbe7d] status=in_progress error_file_id=None total=34  completed=32  failed=0
+2026-04-16 18:48:00,739 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e12b1837ac819088a127be7dcfbe7d "HTTP/1.1 200 OK"
+2026-04-16 18:48:00,740 : INFO - [batch_69e12b1837ac819088a127be7dcfbe7d] status=in_progress error_file_id=None total=34  completed=32  failed=0
+2026-04-16 18:49:01,112 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e12b1837ac819088a127be7dcfbe7d "HTTP/1.1 200 OK"
+2026-04-16 18:49:01,113 : INFO - [batch_69e12b1837ac819088a127be7dcfbe7d] status=in_progress error_file_id=None total=34  completed=32  failed=0
+2026-04-16 18:50:01,485 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e12b1837ac819088a127be7dcfbe7d "HTTP/1.1 200 OK"
+2026-04-16 18:50:01,621 : INFO - [batch_69e12b1837ac819088a127be7dcfbe7d] status=in_progress error_file_id=None total=34  completed=33  failed=0
+2026-04-16 18:51:02,198 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e12b1837ac819088a127be7dcfbe7d "HTTP/1.1 200 OK"
+2026-04-16 18:51:02,199 : INFO - [batch_69e12b1837ac819088a127be7dcfbe7d] status=completed error_file_id=None total=34  completed=34  failed=0
+2026-04-16 18:51:03,807 : INFO - HTTP Request: GET https://api.openai.com/v1/files/file-Lq5tfmL9fnCZYKC9N15MG9/content "HTTP/1.1 200 OK"
+2026-04-16 18:51:03,808 : INFO - Retrying request to /files/file-Lq5tfmL9fnCZYKC9N15MG9/content in 0.490683 seconds
+2026-04-16 18:51:05,420 : INFO - HTTP Request: GET https://api.openai.com/v1/files/file-Lq5tfmL9fnCZYKC9N15MG9/content "HTTP/1.1 200 OK"
+2026-04-16 18:51:05,969 : INFO - Parsed 34 result(s) from output file
+2026-04-16 18:51:06,070 : INFO - Raw output saved to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_output_batch_69e12b1837ac819088a127be7dcfbe7d.jsonl
+2026-04-16 18:51:06,070 : INFO - Window 1 done. Running total: 1 batch(es) finished.
+2026-04-16 18:51:06,290 : INFO - Appended 34 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/llm_keyword_results.csv
+2026-04-16 18:51:07,821 : INFO - Appended 34 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db::llm_keyword_results (total: 5991)
+2026-04-16 18:51:07,821 : INFO - All done. Total batch jobs: 1
+2026-04-17 07:22:55,075 : INFO - Loaded 10 rows from dublin_core_metadata
+2026-04-17 07:22:55,109 : INFO - Split 10 rows into 1 chunk(s) of up to 500
+2026-04-17 07:22:55,110 : INFO - Submitting chunk 1/1 (10 rows) — window 1 ...
+2026-04-17 07:22:55,128 : INFO - Wrote 10 requests to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_requests_20260417_072255_chunk1.jsonl
+2026-04-17 07:22:58,561 : INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2026-04-17 07:22:58,564 : INFO - Uploaded batch_requests_20260417_072255_chunk1.jsonl → file_id=file-YUtb7jV6oWnHsPtEnhzyPf
+2026-04-17 07:22:59,572 : INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2026-04-17 07:22:59,683 : INFO - Batch submitted - batch_id=batch_69e1dfd2ab38819086dec5c7076a3bf3  status=validating
+2026-04-17 07:22:59,684 : INFO - Window 1: 1 batch(es) in flight — polling until complete: ['batch_69e1dfd2ab38819086dec5c7076a3bf3']
+2026-04-17 07:23:00,078 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1dfd2ab38819086dec5c7076a3bf3 "HTTP/1.1 200 OK"
+2026-04-17 07:23:00,081 : INFO - [batch_69e1dfd2ab38819086dec5c7076a3bf3] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-17 07:23:59,374 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1dfd2ab38819086dec5c7076a3bf3 "HTTP/1.1 200 OK"
+2026-04-17 07:23:59,380 : INFO - [batch_69e1dfd2ab38819086dec5c7076a3bf3] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-17 07:24:58,829 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1dfd2ab38819086dec5c7076a3bf3 "HTTP/1.1 200 OK"
+2026-04-17 07:24:58,834 : INFO - [batch_69e1dfd2ab38819086dec5c7076a3bf3] status=in_progress error_file_id=None total=10  completed=0  failed=0
+2026-04-17 07:25:58,762 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1dfd2ab38819086dec5c7076a3bf3 "HTTP/1.1 200 OK"
+2026-04-17 07:25:58,775 : INFO - [batch_69e1dfd2ab38819086dec5c7076a3bf3] status=in_progress error_file_id=None total=10  completed=3  failed=0
+2026-04-17 07:26:58,213 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1dfd2ab38819086dec5c7076a3bf3 "HTTP/1.1 200 OK"
+2026-04-17 07:26:58,216 : INFO - [batch_69e1dfd2ab38819086dec5c7076a3bf3] status=in_progress error_file_id=None total=10  completed=3  failed=0
+2026-04-17 07:27:57,268 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1dfd2ab38819086dec5c7076a3bf3 "HTTP/1.1 200 OK"
+2026-04-17 07:27:57,272 : INFO - [batch_69e1dfd2ab38819086dec5c7076a3bf3] status=in_progress error_file_id=None total=10  completed=9  failed=0
+2026-04-17 07:28:56,654 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1dfd2ab38819086dec5c7076a3bf3 "HTTP/1.1 200 OK"
+2026-04-17 07:28:56,656 : INFO - [batch_69e1dfd2ab38819086dec5c7076a3bf3] status=completed error_file_id=None total=10  completed=10  failed=0
+2026-04-17 07:28:57,807 : INFO - HTTP Request: GET https://api.openai.com/v1/files/file-2BVoEx7Nu1kXxSwBdhr86t/content "HTTP/1.1 200 OK"
+2026-04-17 07:28:57,810 : INFO - Parsed 10 result(s) from output file
+2026-04-17 07:28:57,810 : INFO - Raw output saved to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_output_batch_69e1dfd2ab38819086dec5c7076a3bf3.jsonl
+2026-04-17 07:28:57,811 : INFO - Window 1 done. Running total: 1 batch(es) finished.
+2026-04-17 07:28:58,093 : INFO - Appended 10 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/llm_keyword_results.csv
+2026-04-17 07:28:59,435 : INFO - Appended 10 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db::llm_keyword_results (total: 6001)
+2026-04-17 07:28:59,436 : INFO - All done. Total batch jobs: 1
+2026-04-17 07:32:11,460 : INFO - Loaded 10 rows from dublin_core_metadata
+2026-04-17 07:32:11,460 : INFO - Split 10 rows into 1 chunk(s) of up to 500
+2026-04-17 07:32:11,461 : INFO - Submitting chunk 1/1 (10 rows) — window 1 ...
+2026-04-17 07:32:11,463 : INFO - Wrote 10 requests to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_requests_20260417_073211_chunk1.jsonl
+2026-04-17 07:32:12,685 : INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2026-04-17 07:32:12,693 : INFO - Uploaded batch_requests_20260417_073211_chunk1.jsonl → file_id=file-RjNBKkg4TBjMCGUwrzTPRh
+2026-04-17 07:32:13,415 : INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2026-04-17 07:32:13,434 : INFO - Batch submitted - batch_id=batch_69e1e1fc8cdc81908927b6b75fc46b22  status=validating
+2026-04-17 07:32:13,435 : INFO - Window 1: 1 batch(es) in flight — polling until complete: ['batch_69e1e1fc8cdc81908927b6b75fc46b22']
+2026-04-17 07:32:13,788 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1e1fc8cdc81908927b6b75fc46b22 "HTTP/1.1 200 OK"
+2026-04-17 07:32:13,791 : INFO - [batch_69e1e1fc8cdc81908927b6b75fc46b22] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-17 07:33:13,119 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1e1fc8cdc81908927b6b75fc46b22 "HTTP/1.1 200 OK"
+2026-04-17 07:33:13,123 : INFO - [batch_69e1e1fc8cdc81908927b6b75fc46b22] status=in_progress error_file_id=None total=10  completed=8  failed=0
+2026-04-17 07:34:12,233 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1e1fc8cdc81908927b6b75fc46b22 "HTTP/1.1 200 OK"
+2026-04-17 07:34:12,233 : INFO - [batch_69e1e1fc8cdc81908927b6b75fc46b22] status=completed error_file_id=None total=10  completed=10  failed=0
+2026-04-17 07:34:13,092 : INFO - HTTP Request: GET https://api.openai.com/v1/files/file-EjLoESZwaBGvunp5Yf6VSg/content "HTTP/1.1 200 OK"
+2026-04-17 07:34:13,098 : INFO - Parsed 10 result(s) from output file
+2026-04-17 07:34:13,099 : INFO - Raw output saved to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_output_batch_69e1e1fc8cdc81908927b6b75fc46b22.jsonl
+2026-04-17 07:34:13,100 : INFO - Window 1 done. Running total: 1 batch(es) finished.
+2026-04-17 07:34:13,124 : INFO - Appended 10 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/llm_keyword_results.csv
+2026-04-17 07:34:14,410 : INFO - Appended 10 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db::llm_keyword_results (total: 6011)
+2026-04-17 07:34:14,410 : INFO - All done. Total batch jobs: 1
+2026-04-17 08:07:14,663 : INFO - Loaded 10 rows from dublin_core_metadata
+2026-04-17 08:07:14,733 : INFO - Split 10 rows into 1 chunk(s) of up to 500
+2026-04-17 08:07:14,734 : INFO - Submitting chunk 1/1 (10 rows) — window 1 ...
+2026-04-17 08:07:14,736 : INFO - Wrote 10 requests to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_requests_20260417_080714_chunk1.jsonl
+2026-04-17 08:07:17,245 : INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2026-04-17 08:07:17,247 : INFO - Uploaded batch_requests_20260417_080714_chunk1.jsonl → file_id=file-EBFgx4ntRN9iZ2fwRsdEQt
+2026-04-17 08:07:17,810 : INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2026-04-17 08:07:17,858 : INFO - Batch submitted - batch_id=batch_69e1ea357ee881908c408de850ba12ff  status=validating
+2026-04-17 08:07:17,858 : INFO - Window 1: 1 batch(es) in flight — polling until complete: ['batch_69e1ea357ee881908c408de850ba12ff']
+2026-04-17 08:07:18,250 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1ea357ee881908c408de850ba12ff "HTTP/1.1 200 OK"
+2026-04-17 08:07:18,250 : INFO - [batch_69e1ea357ee881908c408de850ba12ff] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-17 08:08:18,766 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1ea357ee881908c408de850ba12ff "HTTP/1.1 200 OK"
+2026-04-17 08:08:18,769 : INFO - [batch_69e1ea357ee881908c408de850ba12ff] status=in_progress error_file_id=None total=10  completed=9  failed=0
+2026-04-17 08:09:19,155 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1ea357ee881908c408de850ba12ff "HTTP/1.1 200 OK"
+2026-04-17 08:09:19,160 : INFO - [batch_69e1ea357ee881908c408de850ba12ff] status=completed error_file_id=None total=10  completed=10  failed=0
+2026-04-17 08:09:20,135 : INFO - HTTP Request: GET https://api.openai.com/v1/files/file-SyxWi7tyjMmjJWc3yc7Ujb/content "HTTP/1.1 200 OK"
+2026-04-17 08:09:20,142 : INFO - Parsed 10 result(s) from output file
+2026-04-17 08:09:20,144 : INFO - Raw output saved to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_output_batch_69e1ea357ee881908c408de850ba12ff.jsonl
+2026-04-17 08:09:20,145 : INFO - Window 1 done. Running total: 1 batch(es) finished.
+2026-04-17 08:09:20,299 : INFO - Appended 10 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/llm_keyword_results.csv
+2026-04-17 08:09:21,407 : INFO - Appended 10 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db::llm_keyword_results (total: 6021)
+2026-04-17 08:09:21,408 : INFO - All done. Total batch jobs: 1
+2026-04-17 08:20:49,563 : INFO - Loaded 24 rows from dublin_core_metadata
+2026-04-17 08:20:49,613 : INFO - Split 24 rows into 1 chunk(s) of up to 500
+2026-04-17 08:20:49,614 : INFO - Submitting chunk 1/1 (24 rows) — window 1 ...
+2026-04-17 08:20:49,624 : INFO - Wrote 24 requests to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_requests_20260417_082049_chunk1.jsonl
+2026-04-17 08:20:53,416 : INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2026-04-17 08:20:53,419 : INFO - Uploaded batch_requests_20260417_082049_chunk1.jsonl → file_id=file-KhyvxFhWmyFVAajtogNbvX
+2026-04-17 08:20:54,446 : INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2026-04-17 08:20:54,506 : INFO - Batch submitted - batch_id=batch_69e1ed65ab908190b7d9a52be36e6e9c  status=validating
+2026-04-17 08:20:54,506 : INFO - Window 1: 1 batch(es) in flight — polling until complete: ['batch_69e1ed65ab908190b7d9a52be36e6e9c']
+2026-04-17 08:20:54,845 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1ed65ab908190b7d9a52be36e6e9c "HTTP/1.1 200 OK"
+2026-04-17 08:20:54,846 : INFO - [batch_69e1ed65ab908190b7d9a52be36e6e9c] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-17 08:21:55,217 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1ed65ab908190b7d9a52be36e6e9c "HTTP/1.1 200 OK"
+2026-04-17 08:21:55,219 : INFO - [batch_69e1ed65ab908190b7d9a52be36e6e9c] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-17 08:22:55,594 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1ed65ab908190b7d9a52be36e6e9c "HTTP/1.1 200 OK"
+2026-04-17 08:22:55,599 : INFO - [batch_69e1ed65ab908190b7d9a52be36e6e9c] status=in_progress error_file_id=None total=24  completed=23  failed=0
+2026-04-17 08:23:56,019 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e1ed65ab908190b7d9a52be36e6e9c "HTTP/1.1 200 OK"
+2026-04-17 08:23:56,021 : INFO - [batch_69e1ed65ab908190b7d9a52be36e6e9c] status=completed error_file_id=None total=24  completed=24  failed=0
+2026-04-17 08:23:56,580 : INFO - HTTP Request: GET https://api.openai.com/v1/files/file-MGmu2MtKb6wPCsBQGKSweS/content "HTTP/1.1 200 OK"
+2026-04-17 08:23:57,134 : INFO - Parsed 24 result(s) from output file
+2026-04-17 08:23:57,135 : INFO - Raw output saved to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_output_batch_69e1ed65ab908190b7d9a52be36e6e9c.jsonl
+2026-04-17 08:23:57,135 : INFO - Window 1 done. Running total: 1 batch(es) finished.
+2026-04-17 08:23:57,336 : INFO - Appended 24 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/llm_keyword_results.csv
+2026-04-17 08:23:58,633 : INFO - Appended 24 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db::llm_keyword_results (total: 6045)
+2026-04-17 08:23:58,633 : INFO - All done. Total batch jobs: 1
+2026-04-17 11:10:29,742 : INFO - Loaded 360 rows from dublin_core_metadata
+2026-04-17 11:10:29,777 : INFO - Split 360 rows into 1 chunk(s) of up to 500
+2026-04-17 11:10:29,778 : INFO - Submitting chunk 1/1 (360 rows) — window 1 ...
+2026-04-17 11:10:29,886 : INFO - Wrote 360 requests to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_requests_20260417_111029_chunk1.jsonl
+2026-04-17 11:10:34,078 : INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2026-04-17 11:10:34,082 : INFO - Uploaded batch_requests_20260417_111029_chunk1.jsonl → file_id=file-XrE3igKpEeCtsp871rWZtP
+2026-04-17 11:10:34,883 : INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2026-04-17 11:10:34,935 : INFO - Batch submitted - batch_id=batch_69e2152a73a0819085f0a21278d8f7ed  status=validating
+2026-04-17 11:10:34,935 : INFO - Window 1: 1 batch(es) in flight — polling until complete: ['batch_69e2152a73a0819085f0a21278d8f7ed']
+2026-04-17 11:10:35,415 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e2152a73a0819085f0a21278d8f7ed "HTTP/1.1 200 OK"
+2026-04-17 11:10:35,419 : INFO - [batch_69e2152a73a0819085f0a21278d8f7ed] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-17 11:11:36,170 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e2152a73a0819085f0a21278d8f7ed "HTTP/1.1 200 OK"
+2026-04-17 11:11:36,174 : INFO - [batch_69e2152a73a0819085f0a21278d8f7ed] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-17 11:12:36,618 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e2152a73a0819085f0a21278d8f7ed "HTTP/1.1 200 OK"
+2026-04-17 11:12:36,621 : INFO - [batch_69e2152a73a0819085f0a21278d8f7ed] status=in_progress error_file_id=None total=360  completed=0  failed=0
+2026-04-17 11:13:37,184 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e2152a73a0819085f0a21278d8f7ed "HTTP/1.1 200 OK"
+2026-04-17 11:13:37,191 : INFO - [batch_69e2152a73a0819085f0a21278d8f7ed] status=in_progress error_file_id=None total=360  completed=26  failed=0
+2026-04-17 11:14:37,613 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e2152a73a0819085f0a21278d8f7ed "HTTP/1.1 200 OK"
+2026-04-17 11:14:37,615 : INFO - [batch_69e2152a73a0819085f0a21278d8f7ed] status=finalizing error_file_id=None total=360  completed=360  failed=0
+2026-04-17 11:15:38,198 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e2152a73a0819085f0a21278d8f7ed "HTTP/1.1 200 OK"
+2026-04-17 11:15:38,201 : INFO - [batch_69e2152a73a0819085f0a21278d8f7ed] status=completed error_file_id=None total=360  completed=360  failed=0
+2026-04-17 11:15:38,820 : INFO - HTTP Request: GET https://api.openai.com/v1/files/file-3jn4PV9Ui7d2Rb5sXA8qh6/content "HTTP/1.1 200 OK"
+2026-04-17 11:15:40,310 : INFO - Parsed 360 result(s) from output file
+2026-04-17 11:15:40,315 : INFO - Raw output saved to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_output_batch_69e2152a73a0819085f0a21278d8f7ed.jsonl
+2026-04-17 11:15:40,315 : INFO - Window 1 done. Running total: 1 batch(es) finished.
+2026-04-17 11:15:40,626 : INFO - Appended 360 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/llm_keyword_results.csv
+2026-04-17 11:15:42,426 : INFO - Appended 360 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db::llm_keyword_results (total: 6405)
+2026-04-17 11:15:42,427 : INFO - All done. Total batch jobs: 1
+2026-04-20 08:48:03,103 : INFO - Loaded 10 rows from dublin_core_metadata
+2026-04-20 08:48:03,128 : INFO - Split 10 rows into 1 chunk(s) of up to 500
+2026-04-20 08:48:03,129 : INFO - Submitting chunk 1/1 (10 rows) — window 1 ...
+2026-04-20 08:48:03,133 : INFO - Wrote 10 requests to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_requests_20260420_084803_chunk1.jsonl
+2026-04-20 08:48:05,159 : INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2026-04-20 08:48:05,161 : INFO - Uploaded batch_requests_20260420_084803_chunk1.jsonl → file_id=file-1EQaedUPLe8PAyibKoaZYs
+2026-04-20 08:48:06,342 : INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2026-04-20 08:48:06,349 : INFO - Batch submitted - batch_id=batch_69e5e84591708190a7cba6b0b8e532d5  status=validating
+2026-04-20 08:48:06,349 : INFO - Window 1: 1 batch(es) in flight — polling until complete: ['batch_69e5e84591708190a7cba6b0b8e532d5']
+2026-04-20 08:48:06,682 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e5e84591708190a7cba6b0b8e532d5 "HTTP/1.1 200 OK"
+2026-04-20 08:48:06,683 : INFO - [batch_69e5e84591708190a7cba6b0b8e532d5] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-20 08:49:07,846 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e5e84591708190a7cba6b0b8e532d5 "HTTP/1.1 200 OK"
+2026-04-20 08:49:07,849 : INFO - [batch_69e5e84591708190a7cba6b0b8e532d5] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-20 08:50:08,245 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e5e84591708190a7cba6b0b8e532d5 "HTTP/1.1 200 OK"
+2026-04-20 08:50:08,248 : INFO - [batch_69e5e84591708190a7cba6b0b8e532d5] status=in_progress error_file_id=None total=10  completed=4  failed=0
+2026-04-20 08:51:08,634 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e5e84591708190a7cba6b0b8e532d5 "HTTP/1.1 200 OK"
+2026-04-20 08:51:08,636 : INFO - [batch_69e5e84591708190a7cba6b0b8e532d5] status=completed error_file_id=None total=10  completed=10  failed=0
+2026-04-20 08:51:09,480 : INFO - HTTP Request: GET https://api.openai.com/v1/files/file-2Tc4bXeAu4daaN9XcS53u3/content "HTTP/1.1 200 OK"
+2026-04-20 08:51:09,496 : INFO - Parsed 10 result(s) from output file
+2026-04-20 08:51:09,497 : INFO - Raw output saved to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_output_batch_69e5e84591708190a7cba6b0b8e532d5.jsonl
+2026-04-20 08:51:09,497 : INFO - Window 1 done. Running total: 1 batch(es) finished.
+2026-04-20 08:51:09,648 : INFO - Appended 10 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/llm_keyword_results.csv
+2026-04-20 08:51:11,243 : INFO - Appended 10 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db::llm_keyword_results (total: 730)
+2026-04-20 08:51:11,243 : INFO - All done. Total batch jobs: 1
+2026-04-20 09:01:38,302 : INFO - Loaded 10 rows from dublin_core_metadata
+2026-04-20 09:01:38,369 : INFO - Split 10 rows into 1 chunk(s) of up to 500
+2026-04-20 09:01:38,369 : INFO - Submitting chunk 1/1 (10 rows) — window 1 ...
+2026-04-20 09:01:38,371 : INFO - Wrote 10 requests to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_requests_20260420_090138_chunk1.jsonl
+2026-04-20 09:01:43,172 : INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2026-04-20 09:01:43,175 : INFO - Uploaded batch_requests_20260420_090138_chunk1.jsonl → file_id=file-5ZX8yfvuYBeKj8LSkRTiJY
+2026-04-20 09:01:43,750 : INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2026-04-20 09:01:43,765 : INFO - Batch submitted - batch_id=batch_69e5eb7790688190af9b3ec8042515f5  status=validating
+2026-04-20 09:01:43,765 : INFO - Window 1: 1 batch(es) in flight — polling until complete: ['batch_69e5eb7790688190af9b3ec8042515f5']
+2026-04-20 09:01:44,097 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e5eb7790688190af9b3ec8042515f5 "HTTP/1.1 200 OK"
+2026-04-20 09:01:44,098 : INFO - [batch_69e5eb7790688190af9b3ec8042515f5] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-20 09:02:44,506 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e5eb7790688190af9b3ec8042515f5 "HTTP/1.1 200 OK"
+2026-04-20 09:02:44,512 : INFO - [batch_69e5eb7790688190af9b3ec8042515f5] status=in_progress error_file_id=None total=10  completed=3  failed=0
+2026-04-20 09:03:44,906 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e5eb7790688190af9b3ec8042515f5 "HTTP/1.1 200 OK"
+2026-04-20 09:03:44,908 : INFO - [batch_69e5eb7790688190af9b3ec8042515f5] status=completed error_file_id=None total=10  completed=10  failed=0
+2026-04-20 09:03:45,928 : INFO - HTTP Request: GET https://api.openai.com/v1/files/file-KEQtES3udVTFjoaFroSFiU/content "HTTP/1.1 200 OK"
+2026-04-20 09:03:45,931 : INFO - Parsed 10 result(s) from output file
+2026-04-20 09:03:45,932 : INFO - Raw output saved to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_output_batch_69e5eb7790688190af9b3ec8042515f5.jsonl
+2026-04-20 09:03:45,932 : INFO - Window 1 done. Running total: 1 batch(es) finished.
+2026-04-20 09:03:46,081 : INFO - Appended 10 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/llm_keyword_results.csv
+2026-04-20 09:03:47,697 : INFO - Appended 10 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db::llm_keyword_results (total: 740)
+2026-04-20 09:03:47,698 : INFO - All done. Total batch jobs: 1
+2026-04-20 11:55:15,196 : INFO - Loaded 10 rows from dublin_core_metadata
+2026-04-20 11:55:15,243 : INFO - Split 10 rows into 1 chunk(s) of up to 500
+2026-04-20 11:55:15,244 : INFO - Submitting chunk 1/1 (10 rows) — window 1 ...
+2026-04-20 11:55:15,247 : INFO - Wrote 10 requests to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_requests_20260420_115515_chunk1.jsonl
+2026-04-20 11:55:17,537 : INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2026-04-20 11:55:17,542 : INFO - Uploaded batch_requests_20260420_115515_chunk1.jsonl → file_id=file-JMQyuPnndFjovcKcdwaG8n
+2026-04-20 11:55:19,767 : INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2026-04-20 11:55:19,806 : INFO - Batch submitted - batch_id=batch_69e61425f1d481908595b4ed45d43a2e  status=validating
+2026-04-20 11:55:19,806 : INFO - Window 1: 1 batch(es) in flight — polling until complete: ['batch_69e61425f1d481908595b4ed45d43a2e']
+2026-04-20 11:55:20,143 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e61425f1d481908595b4ed45d43a2e "HTTP/1.1 200 OK"
+2026-04-20 11:55:20,144 : INFO - [batch_69e61425f1d481908595b4ed45d43a2e] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-20 11:56:20,531 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e61425f1d481908595b4ed45d43a2e "HTTP/1.1 200 OK"
+2026-04-20 11:56:20,533 : INFO - [batch_69e61425f1d481908595b4ed45d43a2e] status=in_progress error_file_id=None total=10  completed=0  failed=0
+2026-04-20 11:57:20,924 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e61425f1d481908595b4ed45d43a2e "HTTP/1.1 200 OK"
+2026-04-20 11:57:20,926 : INFO - [batch_69e61425f1d481908595b4ed45d43a2e] status=completed error_file_id=None total=10  completed=10  failed=0
+2026-04-20 11:57:21,655 : INFO - HTTP Request: GET https://api.openai.com/v1/files/file-U7V7RmWvM8giDnmMmbEVgy/content "HTTP/1.1 200 OK"
+2026-04-20 11:57:21,933 : INFO - Parsed 10 result(s) from output file
+2026-04-20 11:57:21,933 : INFO - Raw output saved to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_output_batch_69e61425f1d481908595b4ed45d43a2e.jsonl
+2026-04-20 11:57:21,933 : INFO - Window 1 done. Running total: 1 batch(es) finished.
+2026-04-20 11:57:22,085 : INFO - Appended 10 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/llm_keyword_results.csv
+2026-04-20 11:57:23,463 : INFO - Appended 10 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db::llm_keyword_results (total: 750)
+2026-04-20 11:57:23,464 : INFO - All done. Total batch jobs: 1
+2026-04-21 06:03:36,081 : INFO - Loaded 10 rows from dublin_core_metadata
+2026-04-21 06:03:36,124 : INFO - Split 10 rows into 1 chunk(s) of up to 500
+2026-04-21 06:03:36,124 : INFO - Submitting chunk 1/1 (10 rows) — window 1 ...
+2026-04-21 06:03:36,129 : INFO - Wrote 10 requests to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_requests_20260421_060336_chunk1.jsonl
+2026-04-21 06:03:38,853 : INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2026-04-21 06:03:38,857 : INFO - Uploaded batch_requests_20260421_060336_chunk1.jsonl → file_id=file-2nhMhq67Cb8puTJxR3fadA
+2026-04-21 06:03:40,042 : INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2026-04-21 06:03:40,080 : INFO - Batch submitted - batch_id=batch_69e7133aba20819080e7a2d3ae94a573  status=validating
+2026-04-21 06:03:40,114 : INFO - Window 1: 1 batch(es) in flight — polling until complete: ['batch_69e7133aba20819080e7a2d3ae94a573']
+2026-04-21 06:03:40,445 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e7133aba20819080e7a2d3ae94a573 "HTTP/1.1 200 OK"
+2026-04-21 06:03:40,446 : INFO - [batch_69e7133aba20819080e7a2d3ae94a573] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-21 06:04:40,993 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e7133aba20819080e7a2d3ae94a573 "HTTP/1.1 200 OK"
+2026-04-21 06:04:41,022 : INFO - [batch_69e7133aba20819080e7a2d3ae94a573] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-21 06:05:41,493 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e7133aba20819080e7a2d3ae94a573 "HTTP/1.1 200 OK"
+2026-04-21 06:05:41,495 : INFO - [batch_69e7133aba20819080e7a2d3ae94a573] status=in_progress error_file_id=None total=10  completed=4  failed=0
+2026-04-21 06:06:41,906 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e7133aba20819080e7a2d3ae94a573 "HTTP/1.1 200 OK"
+2026-04-21 06:06:41,909 : INFO - [batch_69e7133aba20819080e7a2d3ae94a573] status=in_progress error_file_id=None total=10  completed=7  failed=0
+2026-04-21 06:07:42,491 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e7133aba20819080e7a2d3ae94a573 "HTTP/1.1 200 OK"
+2026-04-21 06:07:42,496 : INFO - [batch_69e7133aba20819080e7a2d3ae94a573] status=completed error_file_id=None total=10  completed=10  failed=0
+2026-04-21 06:07:43,141 : INFO - HTTP Request: GET https://api.openai.com/v1/files/file-NudV5FzjsuJ2jwuKrDd1xM/content "HTTP/1.1 200 OK"
+2026-04-21 06:07:43,146 : INFO - Parsed 10 result(s) from output file
+2026-04-21 06:07:43,146 : INFO - Raw output saved to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_output_batch_69e7133aba20819080e7a2d3ae94a573.jsonl
+2026-04-21 06:07:43,147 : INFO - Window 1 done. Running total: 1 batch(es) finished.
+2026-04-21 06:07:43,715 : INFO - Appended 10 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/llm_keyword_results.csv
+2026-04-21 06:07:46,470 : INFO - Appended 10 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db::llm_keyword_results (total: 760)
+2026-04-21 06:07:46,471 : INFO - All done. Total batch jobs: 1
+2026-04-21 06:20:00,860 : INFO - Loaded 10 rows from dublin_core_metadata
+2026-04-21 06:20:00,883 : INFO - Split 10 rows into 1 chunk(s) of up to 500
+2026-04-21 06:20:00,883 : INFO - Submitting chunk 1/1 (10 rows) — window 1 ...
+2026-04-21 06:20:00,888 : INFO - Wrote 10 requests to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_requests_20260421_062000_chunk1.jsonl
+2026-04-21 06:20:02,662 : INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2026-04-21 06:20:02,667 : INFO - Uploaded batch_requests_20260421_062000_chunk1.jsonl → file_id=file-WszCf6t77QRDSkUicfvT6o
+2026-04-21 06:20:03,234 : INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2026-04-21 06:20:03,244 : INFO - Batch submitted - batch_id=batch_69e7171280108190b53eb560e9b05e86  status=validating
+2026-04-21 06:20:03,244 : INFO - Window 1: 1 batch(es) in flight — polling until complete: ['batch_69e7171280108190b53eb560e9b05e86']
+2026-04-21 06:20:03,571 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e7171280108190b53eb560e9b05e86 "HTTP/1.1 200 OK"
+2026-04-21 06:20:03,576 : INFO - [batch_69e7171280108190b53eb560e9b05e86] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-21 06:21:04,028 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e7171280108190b53eb560e9b05e86 "HTTP/1.1 200 OK"
+2026-04-21 06:21:04,069 : INFO - [batch_69e7171280108190b53eb560e9b05e86] status=in_progress error_file_id=None total=10  completed=8  failed=0
+2026-04-21 06:22:04,553 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e7171280108190b53eb560e9b05e86 "HTTP/1.1 200 OK"
+2026-04-21 06:22:04,556 : INFO - [batch_69e7171280108190b53eb560e9b05e86] status=completed error_file_id=None total=10  completed=10  failed=0
+2026-04-21 06:22:05,604 : INFO - HTTP Request: GET https://api.openai.com/v1/files/file-8wfgck6cZnNn14n1DM9bSB/content "HTTP/1.1 200 OK"
+2026-04-21 06:22:05,608 : INFO - Parsed 10 result(s) from output file
+2026-04-21 06:22:05,672 : INFO - Raw output saved to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_output_batch_69e7171280108190b53eb560e9b05e86.jsonl
+2026-04-21 06:22:05,672 : INFO - Window 1 done. Running total: 1 batch(es) finished.
+2026-04-21 06:22:05,896 : INFO - Appended 10 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/llm_keyword_results.csv
+2026-04-21 06:22:07,791 : INFO - Appended 10 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db::llm_keyword_results (total: 770)
+2026-04-21 06:22:07,792 : INFO - All done. Total batch jobs: 1
+2026-04-21 06:26:17,057 : INFO - Loaded 10 rows from dublin_core_metadata
+2026-04-21 06:26:17,093 : INFO - Split 10 rows into 1 chunk(s) of up to 500
+2026-04-21 06:26:17,094 : INFO - Submitting chunk 1/1 (10 rows) — window 1 ...
+2026-04-21 06:26:17,100 : INFO - Wrote 10 requests to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_requests_20260421_062617_chunk1.jsonl
+2026-04-21 06:26:20,159 : INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2026-04-21 06:26:20,162 : INFO - Uploaded batch_requests_20260421_062617_chunk1.jsonl → file_id=file-M3DKKsW8paVGcmrmQGFBnk
+2026-04-21 06:26:21,355 : INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2026-04-21 06:26:21,401 : INFO - Batch submitted - batch_id=batch_69e7188c114c81909bc57f3600838c00  status=validating
+2026-04-21 06:26:21,401 : INFO - Window 1: 1 batch(es) in flight — polling until complete: ['batch_69e7188c114c81909bc57f3600838c00']
+2026-04-21 06:26:21,727 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e7188c114c81909bc57f3600838c00 "HTTP/1.1 200 OK"
+2026-04-21 06:26:21,728 : INFO - [batch_69e7188c114c81909bc57f3600838c00] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-21 06:27:22,269 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e7188c114c81909bc57f3600838c00 "HTTP/1.1 200 OK"
+2026-04-21 06:27:22,297 : INFO - [batch_69e7188c114c81909bc57f3600838c00] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-21 06:28:22,792 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e7188c114c81909bc57f3600838c00 "HTTP/1.1 200 OK"
+2026-04-21 06:28:22,796 : INFO - [batch_69e7188c114c81909bc57f3600838c00] status=in_progress error_file_id=None total=10  completed=5  failed=0
+2026-04-21 06:29:23,233 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e7188c114c81909bc57f3600838c00 "HTTP/1.1 200 OK"
+2026-04-21 06:29:23,237 : INFO - [batch_69e7188c114c81909bc57f3600838c00] status=completed error_file_id=None total=10  completed=10  failed=0
+2026-04-21 06:29:24,107 : INFO - HTTP Request: GET https://api.openai.com/v1/files/file-FniVkNC9776Nbb5GU3Pq75/content "HTTP/1.1 200 OK"
+2026-04-21 06:29:24,110 : INFO - Parsed 10 result(s) from output file
+2026-04-21 06:29:24,111 : INFO - Raw output saved to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_output_batch_69e7188c114c81909bc57f3600838c00.jsonl
+2026-04-21 06:29:24,112 : INFO - Window 1 done. Running total: 1 batch(es) finished.
+2026-04-21 06:29:24,308 : INFO - Appended 10 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/llm_keyword_results.csv
+2026-04-21 06:29:26,084 : INFO - Appended 10 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db::llm_keyword_results (total: 780)
+2026-04-21 06:29:26,085 : INFO - All done. Total batch jobs: 1

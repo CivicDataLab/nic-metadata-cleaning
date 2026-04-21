@@ -27,7 +27,7 @@ FROM raw_metadata;
 
 if __name__ == "__main__":
     # Verify the fix
-    print("\n✓ Column names in raw_metadata after fix:")
+    print("\nColumn names in raw_metadata after fix:")
     columns = conn.execute("SELECT * FROM raw_metadata LIMIT 0").description
     col_names = [desc[0] for desc in columns]
     print(col_names)

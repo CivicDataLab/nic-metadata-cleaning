@@ -9,4 +9,7 @@ scripts/__pycache__/
 /data/first_batch_downloads
 *.db
 
+/transformation/token.json
+
 /transformation/metadata.db
+/transformation/token.json

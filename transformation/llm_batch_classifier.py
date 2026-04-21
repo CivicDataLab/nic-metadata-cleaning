@@ -1,21 +1,4 @@
-"""
-LLM Batch Classifier using OpenAI Batch API (gpt-5-nano).
 
-Flow:
-  1. Read rows from raw_metadata in DuckDB
-  2. Build a JSONL requests file (one chat completion per row, custom_id = nid)
-  3. Upload to OpenAI Files API
-  4. Submit a Batch job
-  5. Poll until completed / failed
-  6. Download output JSONL and parse by custom_id (nid)
-  7. Write results to DuckDB table + CSV
-
-Usage:
-  python llm_batch_classifier.py                   # all rows
-  python llm_batch_classifier.py --batch 1         # single batch partition
-  python llm_batch_classifier.py --limit 50        # quick test
-  python llm_batch_classifier.py --poll <batch_id> # resume polling an existing job
-"""
 
 import argparse
 import json
@@ -46,21 +29,21 @@ logging.basicConfig(
 
 
 DB_PATH = "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db"
-SOURCE_TABLE = "raw_metadata"
+SOURCE_TABLE = "dublin_core_metadata"
 RESULTS_TABLE = "llm_keyword_results"
 
-MODEL = "gpt-4.1-nano"
+MODEL = "gpt-4o-mini"
 POLL_INTERVAL = 60          # seconds between status checks
 MAX_CONCURRENT_BATCHES = 2  # OpenAI concurrent batch limit
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "text_generation")
 OUTPUT_CSV = os.path.join(OUTPUT_DIR, "llm_keyword_results.csv")
 
-# Fields pulled from raw_metadata for each request
+# Fields pulled from dublin_core_metadata for each request
 SOURCE_FIELDS = [
-    "nid", "Title", "catalog_title",
-    "note", "frequency", "govt_type", "granularity",
-    "ministry_department", "sector_resource",
-    "field_high_value_dataset",
+    "nid", "Title", "Relation[Catalog Title]",
+    "Note", "Accrual Periodicity", "Jurisdiction", "Coverage",
+    "Publisher[ministry_department]", "Subject[sector_resource]",
+    "High Value Dataset Category",
 ]
 
 
@@ -96,16 +79,20 @@ Return ONLY valid JSON. No markdown fences, no preamble.
 
 ## Field Specifications
 ### generated_title (10–20 words, Title Case)
-- Compare your draft to the original: if you changed fewer than 3 substantive words (ignoring casing), return the original title with only casing fixed.
-- NEVER inject the sector_resource , ministry name, or catalog_title context into the title. Those fields exist separately — the title must not duplicate them.
+- Compare your draft to the original: if you changed fewer than 2 substantive words (ignoring casing). 
+- NEVER inject the sector_resource, ministry name, or catalog_title context into the title. Those fields exist separately — the title must not duplicate them.
 - If multiple datasets share the same title pattern (e.g. monthly reports differing only by month), apply the EXACT same transformation to each — do not vary phrasing, prepositions, or punctuation across the batch.
-- Expand well-known abbreviations (KCC → Kisan Call Centre, RoC → Registrars of Companies).
+- These are titles for health and medical datasets published on India's Open Government Data (OGD) Exchange platform. Apply domain awareness when interpreting abbreviations and terminology.
+- Well-known medical and public health acronyms (TB, HIV, AIDS, NCD, ASHA, ANM, OPD, IPD, MCH, ANC, etc.) must remain fully uppercase — never apply Title Case to individual letters within an acronym.
+- Expand non-obvious abbreviations (KCC → Kisan Call Centre, RoC → Registrars of Companies), but do NOT expand standard medical acronyms — leave TB as TB, HIV as HIV, etc.
+- Preserve punctuation from the original title (e.g., commas, hyphens, colons) unless it is clearly erroneous.
 - Add geographic scope ("in India" / state name) ONLY if genuinely unclear from context.
 - Add temporal range ONLY if absent from the original title.
-- Do not rephrase temporal markers unnecessarily (e.g., keep "upto March 2015-16" as "Up to March 2015-16" — do not change it to "as on", "as of", or put it in brackets).
-- No redundancy with catalog_title. 
-- Stop hallucinating.
-- Don't use 'Up To' or 'Upto' keep it standardized and use 'upto' instead.
+- Do not rephrase temporal markers unnecessarily (e.g., keep "upto March 2015-16" as "upto March 2015-16" — do not change it to "as on", "as of", or put it in brackets).
+- No redundancy with catalog_title.
+- Do not hallucinate content not present in or clearly implied by the source metadata.
+- Change the title if title is less than 3-4 words or is too vague on its own
+- Think Deeply before changing the title, and if you decide to change it make sure it makes sense to other metadata fields and is not just a rephrasing of the original title. The title should be concise and informative, but not necessarily a full sentence. 
 
 ### generated_description (40–60 words)
 - 2–3 sentences: what the dataset contains, its purpose/use cases, source ministry, geographic & temporal scope, granularity, and update frequency.
@@ -119,11 +106,21 @@ Return ONLY valid JSON. No markdown fences, no preamble.
 ### generated_short_description (20–40 words)
 - 1–2 sentences. What + why. No technical details. For quick previews.
 
-### generated_keywords (comma-separated, 4–6 keywords)
-Rules: 1–2 words each | lowercase | singular form | no duplicates | no jargon/acronyms (no "api","hmis","dcat") | no ministry names | use India-relevant terms (mandi, monsoon, panchayat, etc.) when appropriate.
+### Enhanced Layman Keywords (`generated_keywords`)
+Produce 6–10 layman-friendly keywords:
+- Simple, everyday language — avoid jargon where possible, but retain well-known leyman medical terms (e.g., "tuberculosis", "AIDS", "coinfection") since these are meaningful to the target audience
+- 1–2 words each, lowercase, singular form, no punctuation
+- Avoid overly generic terms that add no search value — do NOT include words very common words like "health", "data", "india", "dataset"
+- Avoid ministry/department names
+- Prefer specific over broad: "coinfection" over "disease", "tuberculosis" over "illness", "patient" over "person"
+- Include relevant disease names, conditions, affected populations, and medical concepts directly present in or strongly implied by the title and description
+- Keywords are must
 
-### generated_sponsored_keywords (comma-separated, 3–5 keywords)
-Most relevant search terms directly tied to the dataset's core idea. Subset of what a user would naturally type. Same formatting rules as keywords. Ranked by relevance.
+### Sponsored Keywords (`generated_sponsored_keywords`)
+Produce 3–5 domain-specific / policy-aligned keywords (may be multi-word phrases):
+- Use official programme names, policy frameworks, or institutional terms (e.g., "AIDS control programme", "national tuberculosis elimination programme")
+- May include relevant acronyms where they are standard in the policy/health domain (e.g., "NACP", "RNTCP")
+- Avoid generic phrases like "government data" or "public health policy"
 
 ### generated_theme
 Map to SECTOR_VOCAB only. Format: "Sector; Sub-sector" pairs, comma-separated if multiple. Example: "Agriculture; Agricultural Marketing, Health and Family welfare; Health". If no sub-sector fits, use sector only. Never invent sectors outside the vocabulary.
@@ -198,12 +195,18 @@ You will receive metadata fields for a single dataset resource.
 
 ### 1. Enhanced Layman Keywords (`enhanced_keywords`)
 Produce 6–10 layman-friendly keywords:
-- Simple, everyday language — no jargon or acronyms
+- Simple, everyday language — avoid jargon where possible, but retain well-known medical terms (e.g., "tuberculosis", "AIDS", "coinfection") since these are meaningful to the target audience
 - 1–2 words each, lowercase, singular form, no punctuation
+- Avoid overly generic terms that add no search value — do NOT include words like "health", "data", "india", "report", "dataset", or "information"
 - Avoid ministry/department names
+- Prefer specific over broad: "coinfection" over "disease", "tuberculosis" over "illness", "patient" over "person"
+- Include relevant disease names, conditions, affected populations, and medical concepts directly present in or strongly implied by the title and description
 
 ### 2. Sponsored Keywords (`generated_sponsored_keywords`)
-Produce 3–5 domain-specific / policy-aligned keywords (may be multi-word phrases).
+Produce 3–5 domain-specific / policy-aligned keywords (may be multi-word phrases):
+- Use official programme names, policy frameworks, or institutional terms (e.g., "AIDS control programme", "national tuberculosis elimination programme")
+- May include relevant acronyms where they are standard in the policy/health domain (e.g., "NACP", "RNTCP")
+- Avoid generic phrases like "government data" or "public health policy"
 
 ### 3. Theme Classification (`generated_theme`)
 Pick 1–3 themes from: Agriculture, Education, Finance, Health, Transport,
@@ -251,14 +254,14 @@ def _hvd_flag(value) -> int:
 def build_user_content(row: dict) -> str:
     return (
         f"Title: {_clean(row.get('Title', ''))}\n"
-        f"Catalog Title: {_clean(row.get('catalog_title', ''))}\n"
-        f"Ministry_Department: {_clean(row.get('ministry_department', ''))}\n"
-        f"Sector_Resource: {_clean(row.get('sector_resource', ''))}\n"
-        f"Note: {_clean(row.get('note', ''))}\n"
-        f"Frequency: {_clean(row.get('frequency', ''))}\n"
-        f"Govt Type: {_clean(row.get('govt_type', ''))}\n"
-        f"Granularity: {_clean(row.get('granularity', ''))}\n"
-        f"HVD Flag: {_hvd_flag(row.get('field_high_value_dataset', 0))}"
+        f"Catalog Title: {_clean(row.get('Relation[Catalog Title]', ''))}\n"
+        f"Ministry_Department: {_clean(row.get('Publisher[ministry_department]', ''))}\n"
+        f"Sector_Resource: {_clean(row.get('Subject[sector_resource]', ''))}\n"
+        f"Note: {_clean(row.get('Note', ''))}\n"
+        f"Frequency: {_clean(row.get('Accrual Periodicity', ''))}\n"
+        f"Govt Type: {_clean(row.get('Jurisdiction', ''))}\n"
+        f"Granularity: {_clean(row.get('Coverage', ''))}\n"
+        f"HVD Flag: {_hvd_flag(row.get('High Value Dataset Category', 0))}"
     )
 
 
@@ -271,6 +274,7 @@ def build_request_line(row: dict) -> dict:
         "body": {
             "model": MODEL,
             "response_format": {"type": "json_object"},
+            "prompt_cache_retention": "24h",
             "messages": [
                 {"role": "system", "content": categorize_system_prompt},
                 {"role": "user", "content": build_user_content(row)},
@@ -304,8 +308,8 @@ def load_rows(batch_number: int | None, limit: int | None) -> pd.DataFrame:
 
     query = f"SELECT {select} FROM {SOURCE_TABLE}"
     if batch_number is not None:
-        query += f" WHERE batch = {batch_number}"
-    query += f" ORDER BY {', '.join(col)} OFFSET 1500"
+        query += f" WHERE batch = {batch_number}  AND dataset_merge = FALSE"
+        # query += f" OFFSET 10"
 
     if limit is not None:
         query += f" LIMIT {limit}"

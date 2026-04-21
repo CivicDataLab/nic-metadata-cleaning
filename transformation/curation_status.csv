@@ -1,0 +1,23 @@
+Metadata Curation Status Report
+Generated,2026-04-20 11:25:07
+
+Datasets & Collections,Count,%
+Total Datasets,206972,100.0%
+Mergeable Datasets,204925,99.0%
+Non-mergeable Datasets,2047,1.0%
+Total Collections,280,0.1%
+
+PII Testing,Count,%
+PII Tested,0,0.0%
+PII Detected,0,0.0%
+PII Clean,0,0.0%
+
+Metadata Enhancement,Count,%
+Metadata Enhanced,0,0.0%
+LLM Keywords Generated,740,36.2%
+
+Gap Fields Filled,Count,%
+Description Filled,0,0.0%
+Abstract Filled,0,0.0%
+Keywords Filled,0,0.0%
+
