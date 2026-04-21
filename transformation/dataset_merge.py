@@ -46,7 +46,7 @@ _STATE_ALT = "|".join(
     re.escape(s) for s in sorted(state_ut, key=len, reverse=True)
 )
 
-# ── Regex building blocks ──────────────────────────────────────────────────
+
 
 _MONTH = (
     r"(?:January|February|March|April|May|June|July|August|"
@@ -57,17 +57,22 @@ _YEAR = r"\d{4}"
 _YR = r"\d{4}(?:-\d{2,4})?"  # year or year-range  e.g. 2015-16
 
 
-# ── Title normalisation ───────────────────────────────────────────────────
-
 def normalize_title(title: str) -> str:
     """Strip temporal and geographic variable parts from a title."""
     t = title.strip()
-
-    # ── Pass 1: strip temporal suffixes (from end of string) ──────────
-
     changed = True
     while changed:
         prev = t
+
+        # "for Quarter N: MONTH YEAR to MONTH YEAR" (MOST SPECIFIC - must be first)
+        t = re.sub(
+            rf"\s+for\s+Quarter\s+\d+\s*:\s*{_MONTH}\s+{_YEAR}\s+to\s+{_MONTH}\s+{_YEAR}\s*$",
+            "", t, flags=re.I,
+        )
+        t = re.sub(
+            rf"\s+Quarter\s+\d+\s*:\s*{_MONTH}\s+{_YEAR}\s+to\s+{_MONTH}\s+{_YEAR}\s*$",
+            "", t, flags=re.I,
+        )
 
         # "upto MONTH-YEAR"
         t = re.sub(rf"\s+upto\s+{_MONTH}-{_YR}\s*$", "", t, flags=re.I)
@@ -87,7 +92,7 @@ def normalize_title(title: str) -> str:
         # "for MONTH-YEAR(-YY)?" (single month-year at end)
         t = re.sub(rf"\s+for\s+{_MONTH}-{_YR}\s*$", "", t, flags=re.I)
 
-        # "for MONTH YEAR to MONTH YEAR" (quarterly: "for Apr 2012 to Jun 2012")
+        # "for MONTH YEAR to MONTH YEAR" (generic: "for Apr 2012 to Jun 2012")
         t = re.sub(
             rf"\s+for\s+{_MONTH}\s+{_YEAR}\s+to\s+{_MONTH}\s+{_YEAR}\s*$",
             "", t, flags=re.I,
@@ -129,12 +134,14 @@ def normalize_title(title: str) -> str:
         # "- YEAR(-YY)?" or "- RHS YEAR"
         t = re.sub(rf"\s*-\s*(?:RHS\s+)?{_YR}\s*$", "", t)
 
-        # bare trailing " YEAR(-YY)?"
+        # bare trailing " YEAR(-YY)?" (MOST GENERAL - must be last among date rules)
         t = re.sub(rf"\s+{_YR}\s*$", "", t)
+
+        # dangling preposition (always last)
+        t = re.sub(r'\s+(?:for|of|in|during|from|and|&|to|at|by|with|upto)\s*$', '', t, flags=re.I)
 
         changed = t != prev
 
-    # ── Pass 2: strip geographic suffixes (state-list anchored) ───────
 
     changed = True
     while changed:
@@ -176,8 +183,6 @@ def normalize_title(title: str) -> str:
 
         changed = t != prev
 
-    # ── Pass 3: cleanup ──────────────────────────────────────────────
-
     t = re.sub(r"\s*\(All\)\s*$", "", t)          # leftover "(All)"
     t = re.sub(r"\s+", " ", t).strip()
     t = re.sub(r"\s*[-:,;&]\s*$", "", t).strip()   # trailing punctuation
@@ -186,15 +191,11 @@ def normalize_title(title: str) -> str:
     return t
 
 
-# ── Collection name overrides (optional, user-curated short names) ────────
-
 COLLECTION_NAME_OVERRIDES: dict[str, str] = {
     # key = normalised base (lowercase), value = preferred display name
     # "item-wise report": "Item-wise report",
 }
 
-
-# ── Core logic ────────────────────────────────────────────────────────────
 
 def _merge_into_parent(
     groups: dict[str, tuple[str, list[str]]],
@@ -253,6 +254,10 @@ def build_collection_map(conn: duckdb.DuckDBPyConnection) -> dict[str, str]:
 
     for (title,) in rows:
         base = normalize_title(title)
+
+
+        if len(base.split()) < 2 or len(base) < 8:
+            base = title   # treat as its own unique singleton
         key = base.lower()
         if key not in groups:
             groups[key] = (base, [])
