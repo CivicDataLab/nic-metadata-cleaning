@@ -1,5 +1,4 @@
-
-
+import argparse
 import duckdb
 
 
@@ -21,7 +20,8 @@ def create_metadata_enhancement_table(
     db_path: str = "metadata.db",
     source_table: str = "raw_metadata",
     target_table: str = "metadata_enhancement",
-    fields: list[str] | None = None
+    fields: list[str] | None = None,
+    batch: int | None = None,
 ) -> None:
 
     if fields is None:
@@ -58,10 +58,22 @@ def create_metadata_enhancement_table(
         # Build the SELECT statement
         fields_str = ", ".join([f'"{f}"' for f in fields])
         select_query = f"SELECT {fields_str} FROM {source_table}"
+        if batch is not None:
+            select_query += f" WHERE batch = {batch}"
 
-        # Create the new table
-        con.execute(f"CREATE TABLE {target_table} AS {select_query}")
-        print(f"[2/3] Created table {target_table} with {len(fields)} fields")
+        # Create or append to the target table
+        table_exists = con.execute(
+            f"SELECT COUNT(*) FROM information_schema.tables WHERE table_name = '{target_table}'"
+        ).fetchone()[0]
+
+        if batch is not None and table_exists:
+            con.execute(f"INSERT INTO {target_table} {select_query}")
+            print(f"[2/3] Appended batch {batch} to {target_table}")
+        else:
+            if table_exists:
+                con.execute(f"DROP TABLE {target_table}")
+            con.execute(f"CREATE TABLE {target_table} AS {select_query}")
+            print(f"[2/3] Created table {target_table} with {len(fields)} fields")
 
         # Verify the creation
         row_count = con.execute(f"SELECT COUNT(*) FROM {target_table}").fetchone()[0]
@@ -84,13 +96,18 @@ def create_metadata_enhancement_table(
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Create metadata enhancement table.")
+    parser.add_argument("--batch", type=int, default=None,
+                        help="Process only this batch number (appends to existing table)")
+    cli_args = parser.parse_args()
+
     DB_PATH = "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db"
 
 
     print(f"Fields to extract: {len(enhancement_fields)}")
     print()
 
-    create_metadata_enhancement_table(db_path=DB_PATH)
+    create_metadata_enhancement_table(db_path=DB_PATH, batch=cli_args.batch)
 
     # Quick preview
     try:

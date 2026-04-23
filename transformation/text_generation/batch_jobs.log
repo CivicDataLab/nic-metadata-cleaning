@@ -1754,3 +1754,33 @@
 2026-04-21 06:29:24,308 : INFO - Appended 10 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/llm_keyword_results.csv
 2026-04-21 06:29:26,084 : INFO - Appended 10 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db::llm_keyword_results (total: 780)
 2026-04-21 06:29:26,085 : INFO - All done. Total batch jobs: 1
+2026-04-21 06:46:29,158 : INFO - Loaded 360 rows from dublin_core_metadata
+2026-04-21 06:46:29,189 : INFO - Split 360 rows into 1 chunk(s) of up to 500
+2026-04-21 06:46:29,190 : INFO - Submitting chunk 1/1 (360 rows) — window 1 ...
+2026-04-21 06:46:29,354 : INFO - Wrote 360 requests to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_requests_20260421_064629_chunk1.jsonl
+2026-04-21 06:46:33,942 : INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2026-04-21 06:46:33,946 : INFO - Uploaded batch_requests_20260421_064629_chunk1.jsonl → file_id=file-GN4y3sWY7msJp9ZhvGNNe6
+2026-04-21 06:46:35,379 : INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2026-04-21 06:46:35,547 : INFO - Batch submitted - batch_id=batch_69e71d4a64248190b7abf3e6d73ef279  status=validating
+2026-04-21 06:46:35,548 : INFO - Window 1: 1 batch(es) in flight — polling until complete: ['batch_69e71d4a64248190b7abf3e6d73ef279']
+2026-04-21 06:46:35,898 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e71d4a64248190b7abf3e6d73ef279 "HTTP/1.1 200 OK"
+2026-04-21 06:46:35,900 : INFO - [batch_69e71d4a64248190b7abf3e6d73ef279] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-21 06:47:36,346 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e71d4a64248190b7abf3e6d73ef279 "HTTP/1.1 200 OK"
+2026-04-21 06:47:36,377 : INFO - [batch_69e71d4a64248190b7abf3e6d73ef279] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-04-21 06:48:36,799 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e71d4a64248190b7abf3e6d73ef279 "HTTP/1.1 200 OK"
+2026-04-21 06:48:36,800 : INFO - [batch_69e71d4a64248190b7abf3e6d73ef279] status=in_progress error_file_id=None total=360  completed=36  failed=0
+2026-04-21 06:49:37,248 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e71d4a64248190b7abf3e6d73ef279 "HTTP/1.1 200 OK"
+2026-04-21 06:49:37,250 : INFO - [batch_69e71d4a64248190b7abf3e6d73ef279] status=in_progress error_file_id=None total=360  completed=168  failed=0
+2026-04-21 06:50:37,739 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e71d4a64248190b7abf3e6d73ef279 "HTTP/1.1 200 OK"
+2026-04-21 06:50:37,743 : INFO - [batch_69e71d4a64248190b7abf3e6d73ef279] status=in_progress error_file_id=None total=360  completed=359  failed=0
+2026-04-21 06:51:38,222 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e71d4a64248190b7abf3e6d73ef279 "HTTP/1.1 200 OK"
+2026-04-21 06:51:38,224 : INFO - [batch_69e71d4a64248190b7abf3e6d73ef279] status=finalizing error_file_id=None total=360  completed=360  failed=0
+2026-04-21 06:52:38,690 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69e71d4a64248190b7abf3e6d73ef279 "HTTP/1.1 200 OK"
+2026-04-21 06:52:38,691 : INFO - [batch_69e71d4a64248190b7abf3e6d73ef279] status=completed error_file_id=None total=360  completed=360  failed=0
+2026-04-21 06:52:39,537 : INFO - HTTP Request: GET https://api.openai.com/v1/files/file-CHXy2ZM63rZsjJpGo7M12h/content "HTTP/1.1 200 OK"
+2026-04-21 06:52:40,544 : INFO - Parsed 360 result(s) from output file
+2026-04-21 06:52:40,547 : INFO - Raw output saved to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_output_batch_69e71d4a64248190b7abf3e6d73ef279.jsonl
+2026-04-21 06:52:40,548 : INFO - Window 1 done. Running total: 1 batch(es) finished.
+2026-04-21 06:52:40,878 : INFO - Appended 360 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/llm_keyword_results.csv
+2026-04-21 06:52:43,062 : INFO - Appended 360 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db::llm_keyword_results (total: 1140)
+2026-04-21 06:52:43,063 : INFO - All done. Total batch jobs: 1

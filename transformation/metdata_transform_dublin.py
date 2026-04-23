@@ -1,3 +1,4 @@
+import argparse
 import duckdb
 import pandas as pd
 
@@ -159,15 +160,25 @@ def load_to_duckdb(df: pd.DataFrame,
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Transform raw_metadata to Dublin Core format.")
+    parser.add_argument("--batch", type=int, default=None,
+                        help="Process only this batch number (appends to existing table)")
+    args = parser.parse_args()
+
     DB_PATH = "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db"
     SOURCE_TABLE = "raw_metadata"
     TARGET_TABLE = "dublin_core_metadata"
 
     # --- Read source table from existing DuckDB ---
     con = duckdb.connect(DB_PATH)
-    source_count = con.execute(f"SELECT COUNT(*) FROM {SOURCE_TABLE}").fetchone()[0]
-    print(f"Source: {source_count} rows in {DB_PATH}::{SOURCE_TABLE}\n")
-    df_ogd = con.execute(f"SELECT * FROM {SOURCE_TABLE}").fetchdf()
+    if args.batch is not None:
+        query = f"SELECT * FROM {SOURCE_TABLE} WHERE batch = {args.batch}"
+        df_ogd = con.execute(query).fetchdf()
+        print(f"Source: {len(df_ogd)} rows from {SOURCE_TABLE} (batch {args.batch})\n")
+    else:
+        source_count = con.execute(f"SELECT COUNT(*) FROM {SOURCE_TABLE}").fetchone()[0]
+        print(f"Source: {source_count} rows in {DB_PATH}::{SOURCE_TABLE}\n")
+        df_ogd = con.execute(f"SELECT * FROM {SOURCE_TABLE}").fetchdf()
     con.close()
 
     print("=" * 60)
@@ -186,8 +197,22 @@ if __name__ == "__main__":
     print("\nTransforming…")
     df_dc = transform_metadata(df_ogd)
 
-
-    load_to_duckdb(df_dc, db_path=DB_PATH, table_name=TARGET_TABLE)
+    if args.batch is not None:
+        # Append mode: insert into existing table (or create if first batch)
+        con = duckdb.connect(DB_PATH)
+        table_exists = con.execute(
+            f"SELECT COUNT(*) FROM information_schema.tables WHERE table_name = '{TARGET_TABLE}'"
+        ).fetchone()[0]
+        if table_exists:
+            con.execute(f"INSERT INTO {TARGET_TABLE} SELECT * FROM df_dc")
+            row_count = con.execute(f"SELECT COUNT(*) FROM {TARGET_TABLE}").fetchone()[0]
+            print(f"\n✓ Appended {len(df_dc)} rows (batch {args.batch}). Total: {row_count}")
+        else:
+            con.execute(f"CREATE TABLE {TARGET_TABLE} AS SELECT * FROM df_dc")
+            print(f"\n✓ Created {TARGET_TABLE} with {len(df_dc)} rows (batch {args.batch})")
+        con.close()
+    else:
+        load_to_duckdb(df_dc, db_path=DB_PATH, table_name=TARGET_TABLE)
 
     # --- Quick verification ---
     con = duckdb.connect(DB_PATH)

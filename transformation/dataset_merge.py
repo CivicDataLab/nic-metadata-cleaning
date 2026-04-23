@@ -10,6 +10,31 @@ are grouped into a collection. Two columns are set:
 The approach strips temporal and geographic parts from each Title
 to produce a normalised base. Titles with the same base form a collection.
 
+Changes from previous version
+──────────────────────────────
+Option A — Key normalisation + district heuristic removed
+  • _normalize_key() collapses surface variants before grouping:
+      - "State/UT wise" / "State/Ut-wise" / "State/UT-wise" → unified
+      - "centres" → "centre"  (plural/singular)
+      - spacing around parentheses
+  • The "for SINGLE_WORD" / bare-district heuristic has been removed from
+    the geographic loop. It was stripping meaningful type suffixes like
+    "for Sub Centres", "for PHCs", "for IPD Attendance", creating one giant
+    wrong collection instead of per-type collections.
+
+Option B — Fuzzy merge pass
+  • After regex normalisation, a union-find pass merges groups whose
+    _normalize_key() strings score >= FUZZY_THRESHOLD on token_sort_ratio.
+  • This catches residual surface variation that normalisation misses.
+  • Pairs differing on known contrasting words (rural/urban, male/female,
+    north/south …) are blocked from merging regardless of score.
+
+Quarter date pattern
+  • "for Quarter N: MONTH YEAR to MONTH YEAR" is now stripped before all
+    other date rules so the generic "for MONTH YEAR to MONTH YEAR" rule
+    cannot consume the date portion first and leave "Quarter N:" as a
+    stray fragment in the base.
+
 Usage:
   python dataset_merge.py                # apply to DB
   python dataset_merge.py --dry-run      # preview without writing
@@ -22,7 +47,11 @@ import duckdb
 DB_PATH = "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db"
 TABLE = "dublin_core_metadata"
 MERGE_THRESHOLD = 2
+FUZZY_THRESHOLD = 92   # token_sort_ratio; 92 merges surface variants without
+                       # merging genuinely different collections
 
+
+# ── geographic constants ──────────────────────────────────────────────────────
 
 state_ut = [
     "Andaman and Nicobar Islands", "A & N Islands", "A and N Islands",
@@ -47,6 +76,7 @@ _STATE_ALT = "|".join(
 )
 
 
+# ── date / time constants ─────────────────────────────────────────────────────
 
 _MONTH = (
     r"(?:January|February|March|April|May|June|July|August|"
@@ -54,21 +84,91 @@ _MONTH = (
     r"Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Oct|Nov|Dec)"
 )
 _YEAR = r"\d{4}"
-_YR = r"\d{4}(?:-\d{2,4})?"  # year or year-range  e.g. 2015-16
+_YR   = r"\d{4}(?:-\d{2,4})?"   # bare year or year-range e.g. 2015-16
 
+
+# ── contrasting word pairs that must NEVER be merged ─────────────────────────
+# If two normalised bases differ specifically on one of these pairs they
+# represent genuinely different datasets (e.g. rural hospitals != urban hospitals).
+
+_CONTRASTING_PAIRS: list[frozenset] = [
+    frozenset({"rural",     "urban"}),
+    frozenset({"male",      "female"}),
+    frozenset({"boys",      "girls"}),
+    frozenset({"north",     "south"}),
+    frozenset({"east",      "west"}),
+    frozenset({"central",   "peripheral"}),
+    frozenset({"public",    "private"}),
+    frozenset({"scheduled", "general"}),
+    frozenset({"sc",        "st"}),
+]
+
+
+# ── Option A helpers ──────────────────────────────────────────────────────────
+
+def _normalize_key(base: str) -> str:
+    """
+    Collapse surface variants before grouping so that titles differing only
+    in casing, separators, or plural/singular map to the same bucket key.
+
+    Applied to the already date/geo-stripped base string.
+    """
+    t = base.lower()
+
+    # "state/ut-wise" / "state/ut wise" / "state/Ut-wise" → canonical form
+    t = re.sub(r'state\s*/\s*u\.?t\.?\s*[-\u2013]?\s*wise', 'state/ut-wise', t)
+
+    # normalise spacing around parentheses: "centres(CHCs)" → "centres (chcs)"
+    t = re.sub(r'\s*\(\s*', ' (', t)
+    t = re.sub(r'\s*\)\s*', ') ', t)
+
+    # singular/plural: "centres" → "centre"
+    t = re.sub(r'\bcentres\b', 'centre', t)
+
+    # collapse whitespace and strip trailing punctuation artefacts
+    t = re.sub(r'\s+', ' ', t).strip()
+    t = re.sub(r'[\s\-:,;&]+$', '', t).strip()
+
+    return t
+
+
+def _has_contrasting_difference(a: str, b: str) -> bool:
+    """
+    Return True if keys a and b differ on a known contrasting word pair.
+    Such pairs must not be merged regardless of fuzzy score.
+    e.g. "in rural areas" vs "in urban areas" → True (block merge)
+    """
+    tokens_a = set(re.findall(r'\b\w+\b', a))
+    tokens_b = set(re.findall(r'\b\w+\b', b))
+    only_in_a = tokens_a - tokens_b
+    only_in_b = tokens_b - tokens_a
+    for pair in _CONTRASTING_PAIRS:
+        if only_in_a & pair and only_in_b & pair:
+            return True
+    return False
+
+
+# ── core normalisation ────────────────────────────────────────────────────────
 
 def normalize_title(title: str) -> str:
     """Strip temporal and geographic variable parts from a title."""
     t = title.strip()
+
+    # ── Pass 1: temporal stripping ────────────────────────────────────────────
     changed = True
     while changed:
         prev = t
 
-        # "for Quarter N: MONTH YEAR to MONTH YEAR" (MOST SPECIFIC - must be first)
+        # Quarter patterns MUST come before the generic "for MONTH YEAR to MONTH YEAR"
+        # rule, otherwise the generic rule eats the date portion first and leaves
+        # "for Quarter N:" as an unstrippable fragment.
+
+        # "for Quarter N: MONTH YEAR to MONTH YEAR"
         t = re.sub(
             rf"\s+for\s+Quarter\s+\d+\s*:\s*{_MONTH}\s+{_YEAR}\s+to\s+{_MONTH}\s+{_YEAR}\s*$",
             "", t, flags=re.I,
         )
+        # bare "Quarter N: MONTH YEAR to MONTH YEAR" (without leading "for")
         t = re.sub(
             rf"\s+Quarter\s+\d+\s*:\s*{_MONTH}\s+{_YEAR}\s+to\s+{_MONTH}\s+{_YEAR}\s*$",
             "", t, flags=re.I,
@@ -92,13 +192,13 @@ def normalize_title(title: str) -> str:
         # "for MONTH-YEAR(-YY)?" (single month-year at end)
         t = re.sub(rf"\s+for\s+{_MONTH}-{_YR}\s*$", "", t, flags=re.I)
 
-        # "for MONTH YEAR to MONTH YEAR" (generic: "for Apr 2012 to Jun 2012")
+        # "for MONTH YEAR to MONTH YEAR" (generic quarterly range)
         t = re.sub(
             rf"\s+for\s+{_MONTH}\s+{_YEAR}\s+to\s+{_MONTH}\s+{_YEAR}\s*$",
             "", t, flags=re.I,
         )
 
-        # "- MONTH YEAR to MONTH YEAR" (RCH style: "- April 2008 to December 2008")
+        # "- MONTH YEAR to MONTH YEAR" (RCH style)
         t = re.sub(
             rf"\s*-\s*{_MONTH}\s+{_YEAR}\s+to\s+{_MONTH}\s+{_YEAR}\s*$",
             "", t, flags=re.I,
@@ -134,14 +234,26 @@ def normalize_title(title: str) -> str:
         # "- YEAR(-YY)?" or "- RHS YEAR"
         t = re.sub(rf"\s*-\s*(?:RHS\s+)?{_YR}\s*$", "", t)
 
-        # bare trailing " YEAR(-YY)?" (MOST GENERAL - must be last among date rules)
+        # bare trailing " YEAR(-YY)?"  — MOST GENERAL, must be last among date rules
         t = re.sub(rf"\s+{_YR}\s*$", "", t)
 
-        # dangling preposition (always last)
-        t = re.sub(r'\s+(?:for|of|in|during|from|and|&|to|at|by|with|upto)\s*$', '', t, flags=re.I)
+        # dangling preposition left after temporal removal — always last in loop
+        # e.g. "Item-wise HMIS report of Haryana for" → strips the trailing "for"
+        # so the geographic loop can then match "of Haryana"
+        t = re.sub(
+            r'\s+(?:for|of|in|during|from|and|&|to|at|by|with|upto)\s*$',
+            '', t, flags=re.I,
+        )
 
         changed = t != prev
 
+    # ── Pass 2: geographic stripping ──────────────────────────────────────────
+    # NOTE: Only known State/UT names are stripped here.
+    # The previous "for SINGLE_WORD" bare-district heuristic has been removed
+    # because it incorrectly stripped meaningful type suffixes like
+    # "for Sub Centres", "for PHCs", "for IPD Attendance" etc.
+    # Residual multi-word district names are handled downstream by
+    # _merge_into_parent() and the fuzzy merge pass.
 
     changed = True
     while changed:
@@ -150,10 +262,10 @@ def normalize_title(title: str) -> str:
         # "(All) of STATE"
         t = re.sub(rf"\s*\(All\)\s+of\s+({_STATE_ALT})\s*$", "", t, flags=re.I)
 
-        # "in STATE" (RCH: "Indicators in A & N Islands")
+        # "in STATE"
         t = re.sub(rf"\s+in\s+({_STATE_ALT})\s*$", "", t, flags=re.I)
 
-        # "of the district DISTRICT (STATE)" (Annual Health Survey)
+        # "of the district DISTRICT (STATE)"
         t = re.sub(
             rf"\s+of\s+the\s+district\s+[^()]+\(\s*({_STATE_ALT})(?:\s+Old|\s+New)?\s*\)\s*$",
             "", t, flags=re.I,
@@ -171,25 +283,23 @@ def normalize_title(title: str) -> str:
             "", t, flags=re.I,
         )
 
-        # "of STATE" (safe: only strips the known state name at end)
+        # "of STATE"
         t = re.sub(rf"\s+of\s+({_STATE_ALT})\s*$", "", t, flags=re.I)
 
         # "for STATE"
         t = re.sub(rf"\s+for\s+({_STATE_ALT})\s*$", "", t, flags=re.I)
 
-        # "for SINGLE_WORD" at end — likely a bare district name
-        # (e.g. "Item-wise report for Baksa" after state was stripped)
-        t = re.sub(r"\s+for\s+\w+\s*$", "", t)
-
         changed = t != prev
 
-    t = re.sub(r"\s*\(All\)\s*$", "", t)          # leftover "(All)"
+    t = re.sub(r"\s*\(All\)\s*$", "", t)           # leftover "(All)"
     t = re.sub(r"\s+", " ", t).strip()
     t = re.sub(r"\s*[-:,;&]\s*$", "", t).strip()   # trailing punctuation
     t = re.sub(r"\s*\(\s*\)\s*$", "", t).strip()   # empty parens
 
     return t
 
+
+# ── collection building ───────────────────────────────────────────────────────
 
 COLLECTION_NAME_OVERRIDES: dict[str, str] = {
     # key = normalised base (lowercase), value = preferred display name
@@ -201,22 +311,17 @@ def _merge_into_parent(
     groups: dict[str, tuple[str, list[str]]],
 ) -> dict[str, tuple[str, list[str]]]:
     """
-    Second pass: merge "PREFIX for/of X" into "PREFIX" when PREFIX already
-    exists as a larger collection.
+    Pass 3 (post-regex): merge "PREFIX for/of X" into "PREFIX" when PREFIX
+    already exists as a larger collection.
 
-    This catches multi-word district names that weren't stripped in pass 1:
+    Catches multi-word district names not stripped in Pass 2:
       "Item-wise report for Karbi Anglong" → merges into "Item-wise report"
-      "Data Item Comparison Report of Nicobar" → merges into "Data Item Comparison Report"
-
-    Type suffixes like "for OPD attendance" are safe because their prefix
-    (e.g. "Range-wise Performance of Public Facilities") does NOT exist
-    as a standalone collection.
+      "Data Item Comparison Report of Nicobar" → merges into "Data Item..."
     """
-    merge_map: dict[str, str] = {}  # from_key → to_key
+    merge_map: dict[str, str] = {}
 
     for key, (canonical, titles) in groups.items():
-        # Try "PREFIX for X" and "PREFIX of X" patterns
-        m = re.match(r"^(.+?)\s+(?:for|of)\s+\S.+$", canonical, re.I)
+        m = re.match(r"^(.+)\s+(?:for|of)\s+\S.+$", canonical, re.I)
         if not m:
             continue
         parent_key = m.group(1).strip().lower()
@@ -224,11 +329,10 @@ def _merge_into_parent(
             if len(groups[parent_key][1]) > len(titles):
                 merge_map[key] = parent_key
 
-    # Apply merges
     result: dict[str, tuple[str, list[str]]] = {}
     for key, (canonical, titles) in groups.items():
         if key in merge_map:
-            continue  # will be folded into parent
+            continue
         result[key] = (canonical, list(titles))
 
     for from_key, to_key in merge_map.items():
@@ -237,34 +341,96 @@ def _merge_into_parent(
     return result
 
 
-def build_collection_map(conn: duckdb.DuckDBPyConnection) -> dict[str, str]:
+def _fuzzy_merge(
+    groups: dict[str, tuple[str, list[str]]],
+    threshold: int = FUZZY_THRESHOLD,
+) -> dict[str, tuple[str, list[str]]]:
+    """
+    Option B — fuzzy merge pass.
+
+    Groups whose _normalize_key() strings score >= threshold on
+    fuzz.token_sort_ratio() are merged. The smaller group is always folded
+    into the larger one so the canonical name comes from the most-represented
+    base string.
+
+    Groups that differ on a known contrasting word pair (rural/urban,
+    male/female, north/south …) are blocked from merging regardless of score.
+    """
+    from thefuzz import fuzz
+
+    keys = list(groups.keys())
+
+    # union-find with path compression
+    parent = {k: k for k in keys}
+
+    def find(x: str) -> str:
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    def union(a: str, b: str) -> None:
+        ra, rb = find(a), find(b)
+        if ra == rb:
+            return
+        # merge smaller into larger to preserve the most-common canonical name
+        if len(groups[ra][1]) >= len(groups[rb][1]):
+            parent[rb] = ra
+        else:
+            parent[ra] = rb
+
+    for i in range(len(keys)):
+        for j in range(i + 1, len(keys)):
+            if _has_contrasting_difference(keys[i], keys[j]):
+                continue   # e.g. rural vs urban — block regardless of score
+            if fuzz.token_sort_ratio(keys[i], keys[j]) >= threshold:
+                union(keys[i], keys[j])
+
+    result: dict[str, tuple[str, list[str]]] = {}
+    for key, (canonical, titles) in groups.items():
+        root = find(key)
+        if root not in result:
+            result[root] = (groups[root][0], [])
+        result[root][1].extend(titles)
+
+    return result
+
+
+def build_collection_map(conn: duckdb.DuckDBPyConnection,
+                         batch: int | None = None) -> dict[str, str]:
     """
     Returns {title: collection_name} for every distinct Title.
 
-    Titles that normalise to the same base share a collection name.
-    Two passes:
-      1. Regex normalisation (strip temporal + geographic parts)
-      2. Merge district-variant collections that share a prefix
+    Passes:
+      1. Regex normalisation — strip temporal + geographic parts
+      2. _merge_into_parent — fold leftover district-name variants
+      3. _fuzzy_merge — collapse surface variants (case, plural, separators)
     """
-    rows = conn.execute(f'SELECT DISTINCT "Title" FROM {TABLE}').fetchall()
+    query = f'SELECT DISTINCT "Title" FROM {TABLE}'
+    if batch is not None:
+        query += f" WHERE batch = {batch}"
+    rows = conn.execute(query).fetchall()
 
     # Pass 1: regex normalisation
-    # base_lower -> (canonical_base, [title, ...])
     groups: dict[str, tuple[str, list[str]]] = {}
 
     for (title,) in rows:
         base = normalize_title(title)
 
-
+        # guard against trivially short bases becoming false collections
         if len(base.split()) < 2 or len(base) < 8:
-            base = title   # treat as its own unique singleton
-        key = base.lower()
+            base = title   # treat original title as its own unique key
+
+        key = _normalize_key(base)   # Option A: surface-variant collapse
         if key not in groups:
             groups[key] = (base, [])
         groups[key][1].append(title)
 
-    # Pass 2: merge "PREFIX for X" into "PREFIX" when parent exists
+    # Pass 2: parent merge (multi-word district leftovers)
     groups = _merge_into_parent(groups)
+
+    # Pass 3: fuzzy merge (Option B)
+    groups = _fuzzy_merge(groups, threshold=FUZZY_THRESHOLD)
 
     # Build final mapping
     result: dict[str, str] = {}
@@ -274,6 +440,7 @@ def build_collection_map(conn: duckdb.DuckDBPyConnection) -> dict[str, str]:
             result[t] = name
 
     return result
+
 
 
 def apply(conn: duckdb.DuckDBPyConnection,
@@ -292,17 +459,14 @@ def apply(conn: duckdb.DuckDBPyConnection,
             f'ALTER TABLE {TABLE} ADD COLUMN dataset_merge BOOLEAN DEFAULT FALSE'
         )
 
-    # Build a DataFrame: title → collection_name
     mapping_df = pd.DataFrame(
         [(t, n) for t, n in collection_map.items()],
         columns=["title_key", "collection_name"],
     )
 
-    # Count rows per collection (using DB row count, not distinct title count)
     conn.execute("DROP TABLE IF EXISTS _tmp_coll_map")
     conn.execute("CREATE TEMP TABLE _tmp_coll_map AS SELECT * FROM mapping_df")
 
-    # Compute row counts per collection via join
     conn.execute(f"""
         UPDATE {TABLE} AS d
         SET "Collection" = m.collection_name
@@ -310,7 +474,6 @@ def apply(conn: duckdb.DuckDBPyConnection,
         WHERE d."Title" = m.title_key
     """)
 
-    # Set dataset_merge based on collection row count
     conn.execute(f"""
         UPDATE {TABLE}
         SET dataset_merge = (
@@ -324,7 +487,7 @@ def apply(conn: duckdb.DuckDBPyConnection,
 
 
 def print_summary(conn: duckdb.DuckDBPyConnection) -> None:
-    total = conn.execute(f"SELECT COUNT(*) FROM {TABLE}").fetchone()[0]
+    total  = conn.execute(f"SELECT COUNT(*) FROM {TABLE}").fetchone()[0]
     merged = conn.execute(
         f"SELECT COUNT(*) FROM {TABLE} WHERE dataset_merge = TRUE"
     ).fetchone()[0]
@@ -348,15 +511,14 @@ def print_summary(conn: duckdb.DuckDBPyConnection) -> None:
     print(f"  {'Collection':<65} {'Merge':>5} {'Rows':>8}")
     print(f"  {'-' * 80}")
     for name, merge, cnt in rows:
-        flag = "YES" if merge else "no"
+        flag    = "YES" if merge else "no"
         display = name if len(name) <= 64 else name[:61] + "..."
         print(f"  {display:<65} {flag:>5} {cnt:>8}")
 
-    # Spot-checks
     for pattern, label in [
-        ("%Item-wise report%", "Item-wise report"),
-        ("%Infant Mortality Rates%", "Infant Mortality Rates"),
-        ("%Data Item Comparison%", "Data Item Comparison"),
+        ("%Item-wise report%",      "Item-wise report"),
+        ("%Infant Mortality Rates%","Infant Mortality Rates"),
+        ("%Data Item Comparison%",  "Data Item Comparison"),
     ]:
         print(f"\n  Spot-check: {label}")
         sample = conn.execute(f"""
@@ -368,19 +530,19 @@ def print_summary(conn: duckdb.DuckDBPyConnection) -> None:
             print(f"    [{merge}] Collection={name}")
             print(f"         Title={title}")
 
-
-def main():
+def main() -> None:
     parser = argparse.ArgumentParser(
         description="Detect and flag mergeable dataset collections"
     )
     parser.add_argument("--dry-run", action="store_true",
                         help="Preview without modifying the database")
+    parser.add_argument("--batch", type=int, default=None,
+                        help="Process only this batch number")
     args = parser.parse_args()
 
     conn = duckdb.connect(DB_PATH)
-    collection_map = build_collection_map(conn)
+    collection_map = build_collection_map(conn, batch=args.batch)
 
-    # Summarise collections
     name_counts: dict[str, int] = {}
     for name in collection_map.values():
         name_counts[name] = name_counts.get(name, 0) + 1
@@ -393,7 +555,9 @@ def main():
 
     if args.dry_run:
         print(f"\n[DRY RUN] Top 40 collections:\n")
-        for name, cnt in sorted(name_counts.items(), key=lambda x: x[1], reverse=True)[:40]:
+        for name, cnt in sorted(
+            name_counts.items(), key=lambda x: x[1], reverse=True
+        )[:40]:
             flag = "MERGE" if cnt >= MERGE_THRESHOLD else "     "
             print(f"  [{cnt:>7}] {flag}  {name}")
         conn.close()
