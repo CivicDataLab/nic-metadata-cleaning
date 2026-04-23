@@ -52,8 +52,13 @@ def build_set_clause(alias: str, mapping: dict) -> str:
     return ",\n        ".join(parts)
 
 
-def main(dry_run: bool = False) -> None:
+def main(dry_run: bool = False, batch: int | None = None) -> None:
     con = duckdb.connect(DB_PATH)
+
+    batch_filter = ""
+    if batch is not None:
+        batch_filter = f" AND CAST(d.batch AS INTEGER) = {batch}"
+        print(f"Filtering to batch: {batch}")
 
     try:
         llm_count = con.execute("SELECT COUNT(*) FROM llm_keyword_results").fetchone()[0]
@@ -61,10 +66,11 @@ def main(dry_run: bool = False) -> None:
         print(f"llm_keyword_results rows : {llm_count}")
         print(f"dublin_core_metadata rows: {dc_count}")
 
-        matched = con.execute("""
+        matched = con.execute(f"""
             SELECT COUNT(*)
             FROM dublin_core_metadata d
             JOIN llm_keyword_results l ON CAST(d.nid AS VARCHAR) = l.nid
+            WHERE 1=1{batch_filter}
         """).fetchone()[0]
         print(f"Matched on nid           : {matched}")
 
@@ -85,27 +91,37 @@ def main(dry_run: bool = False) -> None:
         SET
             {set_clause}
         FROM llm_keyword_results AS l
-        WHERE CAST(d.nid AS VARCHAR) = l.nid
+        WHERE CAST(d.nid AS VARCHAR) = l.nid{batch_filter}
         """
         con.execute(update_llm_sql)
         print("\nLLM-generated fields updated.")
 
-        # ── 2. Set fixed License and Language for all rows ───────────────────
-        con.execute("""
-        UPDATE dublin_core_metadata
-        SET
-            "License"  = ?,
-            "Language" = ?
-        """, [GODL_LICENSE, DEFAULT_LANGUAGE])
+        # ── 2. Set fixed License and Language ────────────────────────────────
+        if batch is not None:
+            con.execute(f"""
+            UPDATE dublin_core_metadata
+            SET
+                "License"  = ?,
+                "Language" = ?
+            WHERE CAST(batch AS INTEGER) = {batch}
+            """, [GODL_LICENSE, DEFAULT_LANGUAGE])
+        else:
+            con.execute("""
+            UPDATE dublin_core_metadata
+            SET
+                "License"  = ?,
+                "Language" = ?
+            """, [GODL_LICENSE, DEFAULT_LANGUAGE])
         print(f"License set to : {GODL_LICENSE}")
         print(f"Language set to: {DEFAULT_LANGUAGE}")
 
         # ── 3. Set Relation[Access URL] = Identifier[landing_page] ──────────
-        con.execute("""
+        batch_where = f' AND CAST(batch AS INTEGER) = {batch}' if batch is not None else ''
+        con.execute(f"""
         UPDATE dublin_core_metadata
         SET "Relation[Access URL]" = "Identifier[landing_page]"
         WHERE "Identifier[landing_page]" IS NOT NULL
-          AND "Identifier[landing_page]" <> ''
+          AND "Identifier[landing_page]" <> ''{batch_where}
         """)
         print("Relation[Access URL] synced from Identifier[landing_page].")
 
@@ -125,6 +141,8 @@ def main(dry_run: bool = False) -> None:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Update dublin_core_metadata from llm_keyword_results.")
     parser.add_argument("--dry-run", action="store_true", help="Preview counts without writing changes.")
+    parser.add_argument("--batch", type=int, default=None,
+                        help="Update only rows from this batch number.")
     args = parser.parse_args()
-    main(dry_run=args.dry_run)
+    main(dry_run=args.dry_run, batch=args.batch)
 
