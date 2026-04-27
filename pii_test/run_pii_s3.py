@@ -5,6 +5,7 @@ import os
 import tempfile
 
 import boto3
+import duckdb
 import pandas as pd
 import torch
 from botocore.exceptions import ClientError
@@ -27,8 +28,9 @@ logging.basicConfig(
 
 S3_BUCKET = "nic-ogdp-datasets"
 S3_DATASET_PREFIX = "downloaded-datasets/downloaded-datasets-mohfw"
-S3_TRACKING_PREFIX = "metadata/pii_detection"
 S3_RESULTS_PREFIX = "pii-results"
+
+DB_PATH = "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db"
 
 
 # --- S3 helpers ---
@@ -37,57 +39,52 @@ def get_s3_client():
     return boto3.client("s3")
 
 
-def read_tracking_table(s3_client):
-    """Download the tracking parquet from S3 and return as DataFrame."""
-    # List parquet files under the tracking prefix
-    response = s3_client.list_objects_v2(
-        Bucket=S3_BUCKET, Prefix=S3_TRACKING_PREFIX + "/"
-    )
-    keys = [
-        obj["Key"]
-        for obj in response.get("Contents", [])
-        if obj["Key"].endswith(".parquet")
-    ]
-    if not keys:
-        raise FileNotFoundError(
-            f"No parquet files found at s3://{S3_BUCKET}/{S3_TRACKING_PREFIX}/"
-        )
-
-    # Use the first (or only) parquet file
-    tracking_key = keys[0]
-    logging.info(f"Reading tracking table from s3://{S3_BUCKET}/{tracking_key}")
-
-    with tempfile.NamedTemporaryFile(suffix=".parquet", delete=False) as tmp:
-        tmp_path = tmp.name
+def read_dublin_core_metadata():
+    """Read dublin_core_metadata from DuckDB."""
     try:
-        s3_client.download_file(S3_BUCKET, tracking_key, tmp_path)
-        df = pd.read_parquet(tmp_path)
-    finally:
-        os.unlink(tmp_path)
+        conn = duckdb.connect(DB_PATH)
+        df = conn.execute("SELECT uuid, batch FROM dublin_core_metadata").fetch_df()
+        conn.close()
+        logging.info(f"Read {len(df)} records from dublin_core_metadata")
+        return df
+    except Exception as e:
+        logging.error(f"Failed to read dublin_core_metadata: {e}")
+        raise
 
-    return df, tracking_key
 
-
-def write_tracking_table(s3_client, df, tracking_key):
-    """Upload updated tracking DataFrame back to S3."""
-    with tempfile.NamedTemporaryFile(suffix=".parquet", delete=False) as tmp:
-        tmp_path = tmp.name
+def update_dublin_core_metadata(df):
+    """Update dublin_core_metadata table with pii_tested and pii_detected flags."""
     try:
-        df.to_parquet(tmp_path, index=False)
-        s3_client.upload_file(tmp_path, S3_BUCKET, tracking_key)
-        logging.info(f"Updated tracking table at s3://{S3_BUCKET}/{tracking_key}")
-    finally:
-        os.unlink(tmp_path)
+        conn = duckdb.connect(DB_PATH)
+
+        # Ensure columns exist
+        conn.execute("ALTER TABLE dublin_core_metadata ADD COLUMN IF NOT EXISTS pii_tested BOOLEAN DEFAULT FALSE")
+        conn.execute("ALTER TABLE dublin_core_metadata ADD COLUMN IF NOT EXISTS pii_detected BOOLEAN DEFAULT FALSE")
+
+        # Update flags
+        for _, row in df.iterrows():
+            uuid = row['uuid']
+            pii_tested = row['pii_tested']
+            pii_detected = row['pii_detected']
+            conn.execute(
+                f"UPDATE dublin_core_metadata SET pii_tested={pii_tested}, pii_detected={pii_detected} WHERE uuid='{uuid}'"
+            )
+
+        conn.close()
+        logging.info(f"Updated {len(df)} records in dublin_core_metadata")
+    except Exception as e:
+        logging.error(f"Failed to update dublin_core_metadata: {e}")
+        raise
 
 
-def get_pending_uuids(tracking_df, batch=None):
-    """Get list of (uuid, batch) tuples where pii_tested is False or null."""
-    mask = tracking_df["pii_tested"].isna() | (tracking_df["pii_tested"] == False)
+def get_pending_uuids(dublin_df, batch=None):
+    """Get list of (uuid, batch) tuples from dublin_core_metadata."""
     if batch is not None:
-        mask = mask & (tracking_df["batch"] == batch)
+        pending = dublin_df[dublin_df["batch"] == batch]
+    else:
+        pending = dublin_df
 
-    pending = tracking_df.loc[mask, ["uuid", "batch"]]
-    return list(pending.itertuples(index=False, name=None))
+    return list(pending[["uuid", "batch"]].itertuples(index=False, name=None))
 
 
 def save_detection_results(s3_client, detections, batch):
@@ -250,18 +247,12 @@ def main():
 
     s3_client = get_s3_client()
 
-    # Read tracking table
-    tracking_df, tracking_key = read_tracking_table(s3_client)
-    logging.info(f"Tracking table: {len(tracking_df)} total records")
-
-    # Ensure columns exist
-    if "pii_tested" not in tracking_df.columns:
-        tracking_df["pii_tested"] = False
-    if "pii_detected" not in tracking_df.columns:
-        tracking_df["pii_detected"] = False
+    # Read dublin_core_metadata from DuckDB
+    dublin_df = read_dublin_core_metadata()
+    logging.info(f"Total records: {len(dublin_df)}")
 
     # Get pending files
-    pending = get_pending_uuids(tracking_df, batch=args.batch)
+    pending = get_pending_uuids(dublin_df, batch=args.batch)
     if not pending:
         logging.info("No pending files to process.")
         return
@@ -278,12 +269,11 @@ def main():
     pool.close()
     pool.join()
 
-    # Update tracking table and collect detections
+    # Collect results and detections
     pii_count = 0
     error_count = 0
     all_detections = {}  # batch -> list of detection dicts
-
-    tracking_df = tracking_df.set_index("uuid")
+    updates_for_db = []
 
     for result in results:
         uuid = result["uuid"]
@@ -294,10 +284,14 @@ def main():
             error_count += 1
             continue
 
-        tracking_df.at[uuid, "pii_tested"] = True
-        tracking_df.at[uuid, "pii_detected"] = result["pii_found"]
+        pii_found = result["pii_found"]
+        updates_for_db.append({
+            "uuid": uuid,
+            "pii_tested": True,
+            "pii_detected": pii_found,
+        })
 
-        if result["pii_found"]:
+        if pii_found:
             pii_count += 1
             logging.info(
                 f"PII found: {uuid} | types: {result['pii_types']} | "
@@ -307,12 +301,12 @@ def main():
         if result["detections"]:
             all_detections.setdefault(batch, []).extend(result["detections"])
 
-    tracking_df = tracking_df.reset_index()
+    # Update dublin_core_metadata in DuckDB
+    if updates_for_db:
+        updates_df = pd.DataFrame(updates_for_db)
+        update_dublin_core_metadata(updates_df)
 
-    # Write updated tracking table
-    write_tracking_table(s3_client, tracking_df, tracking_key)
-
-    # Save detailed detections per batch
+    # Save detailed detections per batch to S3
     for batch, detections in all_detections.items():
         save_detection_results(s3_client, detections, batch)
 
