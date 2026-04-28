@@ -241,11 +241,16 @@ def main():
     parser.add_argument("--batch", type=int, default=None, help="Process only this batch")
     parser.add_argument("--max-rows", type=int, default=250, help="Max rows to scan per CSV")
     parser.add_argument("--no-gpu", action="store_true", help="Disable GPU, use CPU only")
+    parser.add_argument("--worker-count", type=int, default=None, help="Number of workers for multiprocessing (optional, default: sequential)")
     args = parser.parse_args()
 
     use_gpu = not args.no_gpu and torch.cuda.is_available()
-    num_workers = mp.cpu_count()
-    logging.info(f"Workers: {num_workers} | GPU: {use_gpu} | Max rows: {args.max_rows}")
+    use_multiprocessing = args.worker_count is not None and args.worker_count > 0
+
+    if use_multiprocessing:
+        logging.info(f"Workers: {args.worker_count} | GPU: {use_gpu} | Max rows: {args.max_rows}")
+    else:
+        logging.info(f"Sequential processing (no multiprocessing) | GPU: {use_gpu} | Max rows: {args.max_rows}")
 
     s3_client = get_s3_client()
 
@@ -261,15 +266,26 @@ def main():
 
     logging.info(f"Processing {len(pending)} files...")
 
-    # Run with multiprocessing
-    pool = mp.Pool(
-        processes=num_workers,
-        initializer=_init_worker,
-        initargs=(use_gpu, args.max_rows),
-    )
-    results = pool.map(scan_file, pending)
-    pool.close()
-    pool.join()
+    if use_multiprocessing:
+        # Run with multiprocessing (spawn method for GPU safety)
+        if __name__ == '__main__':
+            mp.set_start_method('spawn', force=True)
+        pool = mp.Pool(
+            processes=args.worker_count,
+            initializer=_init_worker,
+            initargs=(use_gpu, args.max_rows),
+        )
+        results = pool.map(scan_file, pending)
+        pool.close()
+        pool.join()
+    else:
+        # Run sequentially without multiprocessing
+        global _analyzer, _max_rows
+        _max_rows = args.max_rows
+        device = "cuda" if use_gpu and torch.cuda.is_available() else "cpu"
+        _analyzer = build_analyzer(include_transformer_recognizer=True, device=device)
+        logging.info(f"Initialized analyzer (device={device})")
+        results = [scan_file(item) for item in pending]
 
     # Collect results and detections
     pii_count = 0
