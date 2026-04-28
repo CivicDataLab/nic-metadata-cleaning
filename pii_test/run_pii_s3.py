@@ -29,8 +29,9 @@ logging.basicConfig(
 S3_BUCKET = "nic-ogdp-datasets"
 S3_DATASET_PREFIX = "downloaded-datasets/downloaded-datasets-mohfw"
 S3_RESULTS_PREFIX = "pii-results"
+S3_METADATA_KEY = "metadata/CHANGEME/dublin_core_metadata.parquet"  # TODO: set correct path
 
-DB_PATH = "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db"
+DB_PATH = "transformation/metadata.db"
 
 
 # --- S3 helpers ---
@@ -43,7 +44,7 @@ def read_dublin_core_metadata():
     """Read dublin_core_metadata from DuckDB."""
     try:
         conn = duckdb.connect(DB_PATH)
-        df = conn.execute("SELECT uuid, batch FROM dublin_core_metadata").fetch_df()
+        df = conn.execute('SELECT "Identifier[UUID]" as uuid, batch FROM dublin_core_metadata').fetch_df()
         conn.close()
         logging.info(f"Read {len(df)} records from dublin_core_metadata")
         return df
@@ -57,17 +58,13 @@ def update_dublin_core_metadata(df):
     try:
         conn = duckdb.connect(DB_PATH)
 
-        # Ensure columns exist
-        conn.execute("ALTER TABLE dublin_core_metadata ADD COLUMN IF NOT EXISTS pii_tested BOOLEAN DEFAULT FALSE")
-        conn.execute("ALTER TABLE dublin_core_metadata ADD COLUMN IF NOT EXISTS pii_detected BOOLEAN DEFAULT FALSE")
-
         # Update flags
         for _, row in df.iterrows():
             uuid = row['uuid']
             pii_tested = row['pii_tested']
             pii_detected = row['pii_detected']
             conn.execute(
-                f"UPDATE dublin_core_metadata SET pii_tested={pii_tested}, pii_detected={pii_detected} WHERE uuid='{uuid}'"
+                f'UPDATE dublin_core_metadata SET pii_tested={pii_tested}, pii_detected={pii_detected} WHERE "Identifier[UUID]"=\'{uuid}\''
             )
 
         conn.close()
@@ -104,6 +101,22 @@ def save_detection_results(s3_client, detections, batch):
     finally:
         os.unlink(tmp_path)
 
+
+def upload_dublin_core_metadata(s3_client):
+    """Export dublin_core_metadata from DuckDB and upload to S3 as parquet."""
+    with tempfile.NamedTemporaryFile(suffix=".parquet", delete=False) as tmp:
+        tmp_path = tmp.name
+    try:
+        conn = duckdb.connect(DB_PATH)
+        conn.execute(f"COPY (SELECT * FROM dublin_core_metadata) TO '{tmp_path}' (FORMAT PARQUET)")
+        conn.close()
+        s3_client.upload_file(tmp_path, S3_BUCKET, S3_METADATA_KEY)
+        logging.info(f"Uploaded dublin_core_metadata to s3://{S3_BUCKET}/{S3_METADATA_KEY}")
+    except Exception as e:
+        logging.error(f"Failed to upload dublin_core_metadata: {e}")
+    finally:
+        if os.path.exists(tmp_path):
+            os.unlink(tmp_path)
 
 
 # Global analyzer, initialized once per worker process
@@ -174,17 +187,6 @@ def scan_file(args):
                 # Regex-based detection
                 regex_hits = regex_pii_matches(text)
 
-                # Check what was found
-                person_detected = any(r.entity_type == "PERSON" for r in filtered)
-                phone_detected = (
-                    any(is_phone_entity(r.entity_type) for r in filtered)
-                    or any(label == "PHONE_NUMBER" for label, *_ in regex_hits)
-                )
-                aadhaar_detected = any(label == "AADHAAR_NUMBER" for label, *_ in regex_hits)
-                pan_detected = any(label == "PAN_NUMBER" for label, *_ in regex_hits)
-                regid_detected = any(label == "FARMER_REGISTRATION_ID" for label, *_ in regex_hits)
-                email_detected = any(r.entity_type == "EMAIL_ADDRESS" for r in filtered)
-
                 # Record detections
                 for r in filtered:
                     snippet = text[r.start:r.end]
@@ -199,7 +201,7 @@ def scan_file(args):
                         "source": "presidio",
                     })
 
-                for label, snippet, start, end in regex_hits:
+                for label, snippet, _, _ in regex_hits:
                     pii_types_found.add(label)
                     detections.append({
                         "uuid": uuid,
@@ -309,6 +311,9 @@ def main():
     # Save detailed detections per batch to S3
     for batch, detections in all_detections.items():
         save_detection_results(s3_client, detections, batch)
+
+    # Upload updated dublin_core_metadata to S3
+    upload_dublin_core_metadata(s3_client)
 
     # Summary
     processed = len(results) - error_count
