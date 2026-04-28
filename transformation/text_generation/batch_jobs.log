@@ -1948,3 +1948,52 @@
 2026-04-28 10:13:10,908 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=0  failed=0
 2026-04-28 10:14:11,325 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
 2026-04-28 10:14:11,330 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=0  failed=0
+2026-04-28 10:15:11,734 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
+2026-04-28 10:15:11,735 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=0  failed=0
+2026-04-28 10:16:12,210 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
+2026-04-28 10:16:12,222 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=0  failed=0
+2026-04-28 10:17:12,689 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
+2026-04-28 10:17:12,729 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=0  failed=0
+2026-04-28 10:18:13,203 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
+2026-04-28 10:18:13,205 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=0  failed=0
+2026-04-28 10:19:13,670 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
+2026-04-28 10:19:13,674 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=0  failed=0
+2026-04-28 10:20:14,201 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
+2026-04-28 10:20:14,202 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=0  failed=0
+2026-04-28 10:21:14,630 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
+2026-04-28 10:21:14,632 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=0  failed=0
+2026-04-28 10:22:15,255 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
+2026-04-28 10:22:15,257 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=46  failed=0
+2026-04-28 10:23:15,686 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
+2026-04-28 10:23:15,688 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=46  failed=0
+2026-04-28 10:24:16,074 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
+2026-04-28 10:24:16,076 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=46  failed=0
+2026-04-28 10:25:16,591 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
+2026-04-28 10:25:16,592 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=46  failed=0
+2026-04-28 10:26:17,061 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
+2026-04-28 10:26:17,063 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=46  failed=0
+2026-04-28 10:27:17,535 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
+2026-04-28 10:27:17,536 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=46  failed=0
+2026-04-28 10:28:17,943 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
+2026-04-28 10:28:17,945 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=46  failed=0
+2026-04-28 10:29:18,355 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
+2026-04-28 10:29:18,356 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=46  failed=0
+2026-04-28 10:30:18,790 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
+2026-04-28 10:30:18,792 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=46  failed=0
+2026-04-28 10:31:19,161 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
+2026-04-28 10:31:19,164 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=46  failed=0
+2026-04-28 10:32:19,679 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
+2026-04-28 10:32:19,684 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=46  failed=0
+2026-04-28 10:33:20,186 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
+2026-04-28 10:33:20,193 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=46  failed=0
+2026-04-28 10:34:20,749 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
+2026-04-28 10:34:20,751 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=in_progress error_file_id=None total=50  completed=46  failed=0
+2026-04-28 10:35:21,253 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_69f08430c7f48190b52a8bbbcfc42104 "HTTP/1.1 200 OK"
+2026-04-28 10:35:21,256 : INFO - [batch_69f08430c7f48190b52a8bbbcfc42104] status=completed error_file_id=None total=50  completed=50  failed=0
+2026-04-28 10:35:22,110 : INFO - HTTP Request: GET https://api.openai.com/v1/files/file-MwU8vA7tV442NBNcLXZRK5/content "HTTP/1.1 200 OK"
+2026-04-28 10:35:22,817 : INFO - Parsed 50 result(s) from output file
+2026-04-28 10:35:22,905 : INFO - Raw output saved to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_output_batch_69f08430c7f48190b52a8bbbcfc42104.jsonl
+2026-04-28 10:35:22,905 : INFO - Window 2 done. Running total: 2 batch(es) finished.
+2026-04-28 10:35:23,209 : INFO - Appended 550 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/llm_keyword_results.csv
+2026-04-28 10:35:25,256 : INFO - Appended 550 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db::llm_keyword_results (total: 550)
+2026-04-28 10:35:25,258 : INFO - All done. Total batch jobs: 2
