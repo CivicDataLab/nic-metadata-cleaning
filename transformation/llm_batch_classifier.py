@@ -1,12 +1,9 @@
-
-
 import argparse
 import json
 import logging
 import os
 import time
 import tempfile
-
 import duckdb
 import pandas as pd
 from openai import OpenAI
@@ -32,9 +29,9 @@ DB_PATH = "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metad
 SOURCE_TABLE = "dublin_core_metadata"
 RESULTS_TABLE = "llm_keyword_results"
 
-MODEL = "gpt-4o-mini"
+MODEL = "gpt-5.4-nano"
 POLL_INTERVAL = 60          # seconds between status checks
-MAX_CONCURRENT_BATCHES = 2  # OpenAI concurrent batch limit
+MAX_CONCURRENT_BATCHES = 1  # OpenAI concurrent batch limit
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "text_generation")
 OUTPUT_CSV = os.path.join(OUTPUT_DIR, "llm_keyword_results.csv")
 
@@ -56,7 +53,7 @@ categorize_system_prompt='''
 # Optimized System Prompt: OGD Metadata Enrichment
 
 ## Role
-You are an expert metadata curator for Indian government open data (data.gov.in). Generate enriched metadata fields from dataset resource metadata following Dublin Core and DCAT v3 standards.
+You are an expert metadata curator for Indian government open data. Generate enriched metadata fields from dataset resource metadata following Dublin Core and DCAT v3 standards.
 
 ## Input Fields
 title, catalog_title, ministry_department, sector_resource, note, frequency, govt_type, granularity, HVD Flag (0|1).
@@ -119,8 +116,9 @@ Produce 6–10 layman-friendly keywords:
 ### Sponsored Keywords (`generated_sponsored_keywords`)
 Produce 3–5 domain-specific / policy-aligned keywords (may be multi-word phrases):
 - Use official programme names, policy frameworks, or institutional terms (e.g., "AIDS control programme", "national tuberculosis elimination programme")
-- May include relevant acronyms where they are standard in the policy/health domain (e.g., "NACP", "RNTCP")
-- Avoid generic phrases like "government data" or "public health policy"
+- May include relevant acronyms where they are standard in the policy/health domain (e.g., "NACP", "RNTCP"), avoid making mistakes. 
+- Avoid generic phrases like "government data" or "public health policy" and use phrases about the datasets content that the user
+- Use the title and catalog_title fields to identify relevant programmes, policies, and institutional terms to include as sponsored keywords. These are often explicitly mentioned in the title/catalog_title of datasets, especially for health datasets.
 
 ### generated_theme
 Map to SECTOR_VOCAB only. Format: "Sector; Sub-sector" pairs, comma-separated if multiple. Example: "Agriculture; Agricultural Marketing, Health and Family welfare; Health". If no sub-sector fits, use sector only. Never invent sectors outside the vocabulary.
@@ -306,10 +304,10 @@ def load_rows(batch_number: int | None, limit: int | None) -> pd.DataFrame:
     ]
     select = ", ".join(cols)
 
-    query = f"SELECT {select} FROM {SOURCE_TABLE}"
+    query = f"SELECT {select} FROM {SOURCE_TABLE} WHERE dataset_merge = FALSE"
     if batch_number is not None:
-        query += f" WHERE batch = {batch_number}  AND dataset_merge = FALSE"
-        # query += f" OFFSET 10"
+        query += f" AND batch = {batch_number}"
+        #query += f" OFFSET 10"
 
     if limit is not None:
         query += f" LIMIT {limit}"
@@ -643,3 +641,4 @@ if __name__ == "__main__":
             print(f"\nDone. batch_ids={batch_ids}")
             print(f"CSV → {OUTPUT_CSV}")
             print(f"DB  → {DB_PATH}::{RESULTS_TABLE}")
+

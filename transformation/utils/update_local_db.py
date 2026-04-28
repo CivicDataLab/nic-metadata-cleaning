@@ -7,7 +7,7 @@ import tempfile
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-DB_PATH = "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db"
+DB_PATH = "transformation/metadata.db"
 
 S3_BUCKET = "nic-ogdp-datasets"
 S3_PREFIX = "metadata"
