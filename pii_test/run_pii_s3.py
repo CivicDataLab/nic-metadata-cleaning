@@ -242,6 +242,7 @@ def main():
     parser.add_argument("--max-rows", type=int, default=250, help="Max rows to scan per CSV")
     parser.add_argument("--no-gpu", action="store_true", help="Disable GPU, use CPU only")
     parser.add_argument("--worker-count", type=int, default=None, help="Number of workers for multiprocessing (optional, default: sequential)")
+    parser.add_argument("--limit", type=int, default=None, help="Limit number of datasets to process (optional)")
     args = parser.parse_args()
 
     use_gpu = not args.no_gpu and torch.cuda.is_available()
@@ -263,6 +264,11 @@ def main():
     if not pending:
         logging.info("No pending files to process.")
         return
+
+    # Apply limit if specified
+    if args.limit is not None and args.limit > 0:
+        pending = pending[:args.limit]
+        logging.info(f"Limited to {args.limit} datasets")
 
     logging.info(f"Processing {len(pending)} files...")
 
