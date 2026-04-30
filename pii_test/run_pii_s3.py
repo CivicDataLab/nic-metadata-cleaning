@@ -3,7 +3,7 @@ import logging
 import multiprocessing as mp
 import os
 import tempfile
-
+from pii_filters import filter_detections
 import boto3
 import duckdb
 import pandas as pd
@@ -12,10 +12,11 @@ from botocore.exceptions import ClientError
 
 from pii_utils import (
     KEEP,
-    analyze_multi_language,
+    batch_analyze_cells,
     build_analyzer,
     detect_language,
     is_phone_entity,
+    keep_result,
     regex_pii_matches,
     select_detection_columns,
 )
@@ -121,13 +122,16 @@ def upload_dublin_core_metadata(s3_client):
 
 # Global analyzer, initialized once per worker process
 _analyzer = None
+_indic_recognizer = None
 _max_rows = 250
 
 
 def _init_worker(use_gpu, max_rows):
-    global _analyzer, _max_rows
+    global _analyzer, _indic_recognizer, _max_rows
     device = "cuda" if use_gpu and torch.cuda.is_available() else "cpu"
-    _analyzer = build_analyzer(include_transformer_recognizer=True, device=device)
+    _analyzer, _indic_recognizer = build_analyzer(
+        include_transformer_recognizer=True, device=device
+    )
     _max_rows = max_rows
     logging.info(f"Worker {os.getpid()} initialized (device={device})")
 
@@ -135,7 +139,7 @@ def _init_worker(use_gpu, max_rows):
 def scan_file(args):
     """Process one CSV file from S3. Returns a result dict."""
     uuid, batch = args
-    global _analyzer, _max_rows
+    global _analyzer, _indic_recognizer, _max_rows
 
     s3_key = f"{S3_DATASET_PREFIX}/batch_{batch}/{uuid}.csv"
     result = {
@@ -166,53 +170,57 @@ def scan_file(args):
         pii_types_found = set()
         detections = []
 
+        # Single-pass collection of all non-empty cells with their language.
+        cell_info = []
+        cell_text = {}
         for row_i in range(rows_limit):
             row = df.iloc[row_i]
             for col in columns:
                 text = str(row.get(col) or "").strip()
                 if not text:
                     continue
+                cell_info.append((row_i, col, text, detect_language(text)))
+                cell_text[(row_i, col)] = text
 
-                language = detect_language(text)
-                langs = [language] if language == "en" else [language, "en"]
+        # Batched IndicNER + spaCy/Presidio across all cells in this file.
+        try:
+            cache = batch_analyze_cells(cell_info, _analyzer, _indic_recognizer)
+        except Exception as exc:
+            logging.warning(f"Batch analysis failed for {uuid}: {exc}")
+            cache = {}
 
-                # Presidio + IndicNER analysis
-                try:
-                    analyzer_results = analyze_multi_language(_analyzer, text, langs)
-                except Exception:
-                    analyzer_results = []
+        for (row_i, col), analyzer_results in cache.items():
+            text = cell_text[(row_i, col)]
+            for r in analyzer_results:
+                if not keep_result(r, text):
+                    continue
+                snippet = text[r.start:r.end]
+                pii_types_found.add(r.entity_type)
+                detections.append({
+                    "uuid": uuid,
+                    "column": col,
+                    "row_index": row_i,
+                    "entity_type": r.entity_type,
+                    "entity_text": snippet,
+                    "score": r.score,
+                    "source": "presidio",
+                })
 
-                filtered = [r for r in analyzer_results if r.entity_type in KEEP]
+        # Regex pass remains per-cell (it's negligible cost and not GPU-bound).
+        for (row_i, col), text in cell_text.items():
+            for label, snippet, _, _ in regex_pii_matches(text):
+                pii_types_found.add(label)
+                detections.append({
+                    "uuid": uuid,
+                    "column": col,
+                    "row_index": row_i,
+                    "entity_type": label,
+                    "entity_text": snippet,
+                    "score": 1.0,
+                    "source": "regex",
+                })
 
-                # Regex-based detection
-                regex_hits = regex_pii_matches(text)
-
-                # Record detections
-                for r in filtered:
-                    snippet = text[r.start:r.end]
-                    pii_types_found.add(r.entity_type)
-                    detections.append({
-                        "uuid": uuid,
-                        "column": col,
-                        "row_index": row_i,
-                        "entity_type": r.entity_type,
-                        "entity_text": snippet,
-                        "score": r.score,
-                        "source": "presidio",
-                    })
-
-                for label, snippet, _, _ in regex_hits:
-                    pii_types_found.add(label)
-                    detections.append({
-                        "uuid": uuid,
-                        "column": col,
-                        "row_index": row_i,
-                        "entity_type": label,
-                        "entity_text": snippet,
-                        "score": 1.0,
-                        "source": "regex",
-                    })
-
+        detections = filter_detections(detections)
         result["rows_scanned"] = rows_limit
         result["pii_found"] = len(detections) > 0
         result["pii_types"] = list(pii_types_found)
@@ -286,10 +294,12 @@ def main():
         pool.join()
     else:
         # Run sequentially without multiprocessing
-        global _analyzer, _max_rows
+        global _analyzer, _indic_recognizer, _max_rows
         _max_rows = args.max_rows
         device = "cuda" if use_gpu and torch.cuda.is_available() else "cpu"
-        _analyzer = build_analyzer(include_transformer_recognizer=True, device=device)
+        _analyzer, _indic_recognizer = build_analyzer(
+            include_transformer_recognizer=True, device=device
+        )
         logging.info(f"Initialized analyzer (device={device})")
         results = [scan_file(item) for item in pending]
 

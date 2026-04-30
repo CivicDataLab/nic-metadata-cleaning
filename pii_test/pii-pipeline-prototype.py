@@ -1,11 +1,15 @@
 import argparse
 import json
+import logging
 import re
+import time
 from collections import defaultdict
 from pathlib import Path
 
+logger = logging.getLogger(__name__)
+
 import pandas as pd
-from presidio_analyzer import AnalyzerEngine, EntityRecognizer, RecognizerResult
+from presidio_analyzer import AnalyzerEngine, BatchAnalyzerEngine, EntityRecognizer, RecognizerResult
 from presidio_analyzer.nlp_engine import SpacyNlpEngine
 from presidio_anonymizer import AnonymizerEngine
 from transformers import pipeline
@@ -43,8 +47,10 @@ class IndicNerRecognizer(EntityRecognizer):
 
     def analyze(self, text, entities, nlp_artifacts=None):
         if not text:
+            logger.debug("IndicNerRecognizer.analyze called with empty text; skipping.")
             return []
 
+        logger.debug("IndicNerRecognizer.analyze: running pipe on text (len=%d)", len(text))
         outputs = self._pipe(text)
         results = []
 
@@ -68,6 +74,11 @@ class IndicNerRecognizer(EntityRecognizer):
                 )
             )
 
+        logger.debug(
+            "IndicNerRecognizer.analyze: found %d entities: %s",
+            len(results),
+            [(r.entity_type, text[r.start:r.end]) for r in results],
+        )
         return results
 
 
@@ -113,6 +124,13 @@ KEEP = {
     "FARMER_REGISTRATION_ID",
 }
 
+
+def _keep_result(res: RecognizerResult, text: str) -> bool:
+    if res.entity_type not in KEEP:
+        return False
+    if res.entity_type == "PERSON" and len(text[res.start:res.end].strip()) < 3:
+        return False
+    return True
 
 
 def detect_language(text: str) -> str:
@@ -231,7 +249,7 @@ def select_detection_columns(df: pd.DataFrame) -> list[str]:
     return selected
 
 
-def build_analyzer(include_transformer_recognizer: bool = True) -> AnalyzerEngine:
+def build_analyzer(include_transformer_recognizer: bool = True):
     models = [
         {"lang_code": "en", "model_name": "en_core_web_sm"},
         {"lang_code": "hi", "model_name": "xx_sent_ud_sm"},
@@ -241,9 +259,11 @@ def build_analyzer(include_transformer_recognizer: bool = True) -> AnalyzerEngin
         nlp_engine=nlp_engine,
         supported_languages=["en", "hi"],
     )
+    recognizer = None
     if include_transformer_recognizer:
-        analyzer.registry.add_recognizer(IndicNerRecognizer())
-    return analyzer
+        recognizer = IndicNerRecognizer()
+        analyzer.registry.add_recognizer(recognizer)
+    return analyzer, recognizer
 
 
 def run_demo(analyzer: AnalyzerEngine) -> None:
@@ -318,8 +338,9 @@ if __name__ == "__main__":
             "Warning: --redact-person-number-only has no effect without --generate-redacted."
         )
 
-    transformer_analyzer = build_analyzer(include_transformer_recognizer=True)
-    presidio_analyzer = build_analyzer(include_transformer_recognizer=False)
+    transformer_analyzer, indic_recognizer = build_analyzer(include_transformer_recognizer=True)
+    presidio_analyzer, _ = build_analyzer(include_transformer_recognizer=False)
+    batch_presidio = BatchAnalyzerEngine(analyzer_engine=presidio_analyzer)
     anonymizer = AnonymizerEngine() if write_redacted else None
 
     if args.run_demo:
@@ -332,6 +353,14 @@ if __name__ == "__main__":
     output_root = input_root.parent / "output"
     output_root.mkdir(parents=True, exist_ok=True)
 
+    log_path = output_root / "pii_pipeline.log"
+    _fh = logging.FileHandler(log_path, mode="a", encoding="utf-8")
+    _fh.setLevel(logging.DEBUG)
+    _fh.setFormatter(logging.Formatter("%(asctime)s %(levelname)-8s %(message)s"))
+    logger.addHandler(_fh)
+    logger.setLevel(logging.DEBUG)
+    logger.info("=== Pipeline started. Log: %s ===", log_path)
+
     # Allow pointing CSV_FOLDER directly at a single CSV file (no CLI args required).
     csv_folder_is_dir = csv_folder.is_dir()
     if csv_folder.is_file() and csv_folder.suffix.lower() == ".csv":
@@ -342,7 +371,6 @@ if __name__ == "__main__":
         raise SystemExit(f"No CSV files discovered under {csv_folder}")
 
     all_detections_rows: list[dict[str, object]] = []
-    all_presidio_rows: list[dict[str, object]] = []
     all_analytics: list[dict[str, object]] = []
 
     for idx, csv_path in enumerate(csv_files, start=1):
@@ -413,8 +441,86 @@ if __name__ == "__main__":
         samples: list[dict[str, object]] = []
         processed_rows = 0
         detections_rows: list[dict[str, object]] = []
-        presidio_rows: list[dict[str, object]] = []
         redacted_updates: dict[tuple[int, str], str] = {}
+
+        # Single-pass cell collection: (row_i, col, text, language)
+        cell_info: list[tuple[int, str, str, str]] = []
+        for _ri, _row in df.iloc[:rows_limit].iterrows():
+            for col in columns:
+                text = str(_row.get(col) or "").strip()
+                if text:
+                    cell_info.append((_ri, col, text, detect_language(text)))
+
+        hi_cells = [(_ri, c, t) for _ri, c, t, lang in cell_info if lang == "hi"]
+        en_cells = [(_ri, c, t) for _ri, c, t, lang in cell_info if lang == "en"]
+
+        # Batch IndicNER (Hindi texts only — model only supports "hi")
+        ner_cache: dict[tuple[int, str], list[RecognizerResult]] = {}
+        if hi_cells and indic_recognizer is not None:
+            ner_texts = [t for _, _, t in hi_cells]
+            indic_recognizer._pipe.tokenizer.model_max_length = 512
+            logger.info("IndicNER batch: %d texts, batch_size=32", len(ner_texts))
+            _t0 = time.time()
+            all_ner_outputs = indic_recognizer._pipe(ner_texts, batch_size=32)
+            logger.info("IndicNER batch: done in %.2fs", time.time() - _t0)
+            for (_ri, _rc, _text), ner_outputs in zip(hi_cells, all_ner_outputs):
+                results = []
+                for out in ner_outputs:
+                    label = out.get("entity_group") or out.get("entity")
+                    if label not in indic_recognizer._label_map:
+                        continue
+                    results.append(
+                        RecognizerResult(
+                            entity_type=indic_recognizer._label_map[label],
+                            start=int(out["start"]),
+                            end=int(out["end"]),
+                            score=float(out.get("score", 0.0)),
+                            analysis_explanation=None,
+                        )
+                    )
+                if results:
+                    logger.debug(
+                        "IndicNER row=%s col=%r -> %s",
+                        _ri, _rc,
+                        [(r.entity_type, _text[r.start:r.end]) for r in results],
+                    )
+                ner_cache[(_ri, _rc)] = results
+
+        # Batch Presidio / spaCy via BatchAnalyzerEngine.
+        # Hindi cells run twice: once as "hi" (Hindi spaCy model) and once as "en"
+        # so English-registered pattern recognizers (phone, email) still fire.
+        presidio_cache: dict[tuple[int, str], list[RecognizerResult]] = {}
+        logger.info("Presidio batch: %d EN cells, %d HI cells", len(en_cells), len(hi_cells))
+        for cells, lang in [(en_cells, "en"), (hi_cells, "hi"), (hi_cells, "en")]:
+            if not cells:
+                continue
+            texts_only = [t for _, _, t in cells]
+            logger.info("Presidio batch: analyze_iterator lang=%r, n=%d", lang, len(texts_only))
+            _t0 = time.time()
+            results_list = batch_presidio.analyze_iterator(texts_only, language=lang, batch_size=32)
+            _total = sum(len(r) for r in results_list)
+            logger.info(
+                "Presidio batch: lang=%r done in %.2fs, %d entities across %d cells",
+                lang, time.time() - _t0, _total, len(texts_only),
+            )
+            for (_ri, _rc, _text), cell_results in zip(cells, results_list):
+                presidio_cache.setdefault((_ri, _rc), []).extend(cell_results)
+                if cell_results:
+                    logger.debug(
+                        "Presidio lang=%r row=%s col=%r -> %s",
+                        lang, _ri, _rc,
+                        [(r.entity_type, _text[r.start:r.end]) for r in cell_results],
+                    )
+
+        for key in presidio_cache:
+            seen: set[tuple] = set()
+            deduped: list[RecognizerResult] = []
+            for r in presidio_cache[key]:
+                k = (r.entity_type, r.start, r.end)
+                if k not in seen:
+                    seen.add(k)
+                    deduped.append(r)
+            presidio_cache[key] = deduped
 
         for batch_index, start in enumerate(range(0, rows_limit, batch_size), start=1):
             end = min(start + batch_size, rows_limit)
@@ -458,33 +564,17 @@ if __name__ == "__main__":
                         continue
                     
                     language = detect_language(text)
-                    try:
-                        transformer_langs = [language] if language == "en" else [language, "en"]
-                        transformer_results = analyze_multi_language(
-                            transformer_analyzer, text, transformer_langs
-                        )
-                    except Exception as exc:
-                        print(f"Transformer analyzer failed on '{text}': {exc}")
-                        transformer_results = []
+                    transformer_results = ner_cache.get((row_i, col), [])
 
-                    try:
-                        # Many Presidio pattern recognizers (e.g., phone/email) are registered for English.
-                        # For mixed Hindi+English transcriptions, running both improves recall.
-                        presidio_langs = [language] if language == "en" else [language, "en"]
-                        presidio_results = analyze_multi_language(
-                            presidio_analyzer, text, presidio_langs
-                        )
-                    except Exception as exc:
-                        print(f"Presidio analyzer failed on '{text}': {exc}")
-                        presidio_results = []
+                    presidio_results = presidio_cache.get((row_i, col), [])
 
-                    filtered_results = [res for res in transformer_results if res.entity_type in KEEP]
+                    filtered_results = [res for res in transformer_results if _keep_result(res, text)]
                     regex_matches = regex_pii_matches(text)
                     regex_result_objects = regex_matches_to_results(regex_matches)
                     if filtered_results or regex_matches:
                         detections += 1
 
-                    presidio_filtered = [res for res in presidio_results if res.entity_type in KEEP]
+                    presidio_filtered = [res for res in presidio_results if _keep_result(res, text)]
 
                     # Combine keep-only recognizer outputs for flag logic.
                     combined_results = filtered_results + presidio_filtered
@@ -566,7 +656,7 @@ if __name__ == "__main__":
                     for res in presidio_filtered:
                         snippet = text[res.start : res.end]
                         add_entity_detail(res.entity_type, snippet, col)
-                        presidio_rows.append(
+                        detections_rows.append(
                             {
                                 "pii_flag": res.entity_type,
                                 "entity": snippet,
@@ -675,21 +765,6 @@ if __name__ == "__main__":
         else:
             print("No entities detected in sampled rows.")
 
-        if presidio_rows:
-            all_presidio_rows.extend(
-                [
-                    {
-                        "csv_file": csv_path.name,
-                        "pii_flag": row["pii_flag"],
-                        "entity": row["entity"],
-                        "column": row["column"],
-                        "score": row["score"],
-                        "person_phone_same_cell": row["person_phone_same_cell"],
-                    }
-                    for row in presidio_rows
-                ]
-            )
-
         if samples:
             print("Sample detections:")
             for sample in samples:
@@ -710,12 +785,3 @@ if __name__ == "__main__":
     else:
         print("\nNo detections captured across all CSV files.")
 
-    # if all_presidio_rows:
-    #     presidio_output = output_root / "pii_presidio_detections.csv"
-    #     presidio_df = pd.DataFrame(all_presidio_rows)[
-    #         ["csv_file", "column", "pii_flag", "entity", "score", "person_phone_same_cell"]
-    #     ]
-    #     presidio_df.to_csv(presidio_output, index=False)
-    #     print(f"Presidio analyzer detections written to {presidio_output}")
-    # else:
-    #     print("No Presidio analyzer detections captured.")
