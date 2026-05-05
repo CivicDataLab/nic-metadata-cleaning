@@ -13,3 +13,4 @@ scripts/__pycache__/
 
 /transformation/metadata.db
 /transformation/token.json
+pii_test/__pycache__
