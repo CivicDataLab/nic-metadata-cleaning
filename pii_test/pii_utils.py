@@ -1,8 +1,3 @@
-"""
-Shared PII detection utilities.
-Extracted from pii-pipeline-prototype.py for reuse across scripts.
-"""
-
 import logging
 import re
 
@@ -298,16 +293,38 @@ def batch_analyze_cells(
 
     # 2. Batched spaCy via Presidio's BatchAnalyzerEngine. Hindi cells are run
     # twice (hi + en) so English-registered pattern recognizers still fire.
-    batch_engine = BatchAnalyzerEngine(analyzer_engine=analyzer)
+    #
+    # IMPORTANT: A fresh BatchAnalyzerEngine must be created for each
+    # analyze_iterator call. thinc/CuPy converts spaCy GPU tensors via
+    # toDlpack(), which produces a one-time-use DLTensor capsule. Reusing
+    # the same BatchAnalyzerEngine instance across calls consumes the capsule
+    # on the first pass and raises "invalid capsule" on subsequent passes.
     for cells, lang in [(en_cells, "en"), (hi_cells, "hi"), (hi_cells, "en")]:
         if not cells:
             continue
         texts = [t for _, _, t in cells]
-        results_list = batch_engine.analyze_iterator(
-            texts, language=lang, batch_size=spacy_batch_size
-        )
-        for (rk, col, _t), cell_results in zip(cells, results_list):
-            cache.setdefault((rk, col), []).extend(cell_results)
+        try:
+            batch_engine = BatchAnalyzerEngine(analyzer_engine=analyzer)
+            results_list = batch_engine.analyze_iterator(
+                texts, language=lang, batch_size=spacy_batch_size
+            )
+            for (rk, col, _t), cell_results in zip(cells, results_list):
+                cache.setdefault((rk, col), []).extend(cell_results)
+        except Exception as exc:
+            logger.warning(
+                "BatchAnalyzerEngine failed for lang=%s (%s); "
+                "falling back to cell-by-cell analysis.",
+                lang, exc,
+            )
+            for rk, col, text in cells:
+                try:
+                    cell_results = analyzer.analyze(text=text, language=lang)
+                    cache.setdefault((rk, col), []).extend(cell_results)
+                except Exception as cell_exc:
+                    logger.debug(
+                        "Cell-level analysis failed (%s, %s, lang=%s): %s",
+                        rk, col, lang, cell_exc,
+                    )
 
     # 3. Dedup per cell on (entity_type, start, end).
     for key, items in cache.items():
