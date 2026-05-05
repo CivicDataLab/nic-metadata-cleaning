@@ -3,6 +3,7 @@ import logging
 import multiprocessing as mp
 import os
 import tempfile
+from datetime import datetime, timezone
 from pii_filters import filter_detections
 import boto3
 import duckdb
@@ -64,8 +65,9 @@ def update_dublin_core_metadata(df):
             uuid = row['uuid']
             pii_tested = row['pii_tested']
             pii_detected = row['pii_detected']
+            pii_test_timestamp = row['pii_test_timestamp']
             conn.execute(
-                f'UPDATE dublin_core_metadata SET pii_tested={pii_tested}, pii_detected={pii_detected} WHERE "Identifier[UUID]"=\'{uuid}\''
+                f'UPDATE dublin_core_metadata SET pii_tested={pii_tested}, pii_detected={pii_detected}, pii_test_timestamp=\'{pii_test_timestamp}\' WHERE "Identifier[UUID]"=\'{uuid}\''
             )
 
         conn.close()
@@ -440,6 +442,7 @@ def main():
             "uuid": uuid,
             "pii_tested": True,
             "pii_detected": pii_found,
+            "pii_test_timestamp": datetime.now(timezone.utc).isoformat(),
         })
 
         if pii_found:
