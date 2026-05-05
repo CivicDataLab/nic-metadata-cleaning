@@ -136,6 +136,91 @@ def _init_worker(use_gpu, max_rows):
     logging.info(f"Worker {os.getpid()} initialized (device={device})")
 
 
+def scan_local_file(path):
+    """Process a local CSV file. Returns a result dict."""
+    global _analyzer, _indic_recognizer, _max_rows
+
+    uuid = os.path.splitext(os.path.basename(path))[0]
+    result = {
+        "uuid": uuid,
+        "batch": None,
+        "pii_found": False,
+        "pii_types": [],
+        "entity_count": 0,
+        "rows_scanned": 0,
+        "detections": [],
+        "error": None,
+    }
+
+    try:
+        df = pd.read_csv(path)
+        columns = select_detection_columns(df)
+        if not columns:
+            return result
+
+        rows_limit = min(_max_rows, len(df))
+        pii_types_found = set()
+        detections = []
+
+        cell_info = []
+        cell_text = {}
+        for row_i in range(rows_limit):
+            row = df.iloc[row_i]
+            for col in columns:
+                text = str(row.get(col) or "").strip()
+                if not text:
+                    continue
+                cell_info.append((row_i, col, text, detect_language(text)))
+                cell_text[(row_i, col)] = text
+
+        try:
+            cache = batch_analyze_cells(cell_info, _analyzer, _indic_recognizer)
+        except Exception as exc:
+            logging.warning(f"Batch analysis failed for {uuid}: {exc}")
+            cache = {}
+
+        for (row_i, col), analyzer_results in cache.items():
+            text = cell_text[(row_i, col)]
+            for r in analyzer_results:
+                if not keep_result(r, text):
+                    continue
+                snippet = text[r.start:r.end]
+                pii_types_found.add(r.entity_type)
+                detections.append({
+                    "uuid": uuid,
+                    "column": col,
+                    "row_index": row_i,
+                    "entity_type": r.entity_type,
+                    "entity_text": snippet,
+                    "score": r.score,
+                    "source": "presidio",
+                })
+
+        for (row_i, col), text in cell_text.items():
+            for label, snippet, _, _ in regex_pii_matches(text):
+                pii_types_found.add(label)
+                detections.append({
+                    "uuid": uuid,
+                    "column": col,
+                    "row_index": row_i,
+                    "entity_type": label,
+                    "entity_text": snippet,
+                    "score": 1.0,
+                    "source": "regex",
+                })
+
+        detections = filter_detections(detections)
+        result["rows_scanned"] = rows_limit
+        result["pii_found"] = len(detections) > 0
+        result["pii_types"] = list(pii_types_found)
+        result["entity_count"] = len(detections)
+        result["detections"] = detections
+    except Exception as e:
+        result["error"] = str(e)
+
+    return result
+
+
 def scan_file(args):
     """Process one CSV file from S3. Returns a result dict."""
     uuid, batch = args
@@ -245,15 +330,48 @@ def scan_file(args):
 # --- Main ---
 
 def main():
+    global _analyzer, _indic_recognizer, _max_rows
     parser = argparse.ArgumentParser(description="Run PII detection on S3 datasets.")
     parser.add_argument("--batch", type=int, default=None, help="Process only this batch")
     parser.add_argument("--max-rows", type=int, default=250, help="Max rows to scan per CSV")
     parser.add_argument("--no-gpu", action="store_true", help="Disable GPU, use CPU only")
-    parser.add_argument("--worker-count", type=int, default=None, help="Number of workers for multiprocessing (optional, default: sequential)")
+    parser.add_argument("--worker-count", type=int, default= 1, help="Number of workers for multiprocessing (optional, default: sequential)")
     parser.add_argument("--limit", type=int, default=None, help="Limit number of datasets to process (optional)")
+    parser.add_argument("--path", type=str, default=None, help="Run PII detection on a local CSV file (skips S3/DuckDB)")
     args = parser.parse_args()
 
     use_gpu = not args.no_gpu and torch.cuda.is_available()
+
+    if args.path:
+        _max_rows = args.max_rows
+        device = "cuda" if use_gpu else "cpu"
+        _analyzer, _indic_recognizer = build_analyzer(
+            include_transformer_recognizer=True, device=device
+        )
+        logging.info(f"Initialized analyzer (device={device}) | Max rows: {args.max_rows}")
+        logging.info(f"Scanning local file: {args.path}")
+
+        result = scan_local_file(args.path)
+
+        if result["error"]:
+            logging.error(f"Error: {result['error']}")
+            return
+
+        logging.info("=" * 50)
+        logging.info(f"File: {args.path}")
+        logging.info(f"Rows scanned: {result['rows_scanned']}")
+        logging.info(f"PII found: {result['pii_found']}")
+        logging.info(f"PII types: {result['pii_types']}")
+        logging.info(f"Entity count: {result['entity_count']}")
+        logging.info("=" * 50)
+
+        if result["detections"]:
+            det_df = pd.DataFrame(result["detections"])
+            out_path = os.path.splitext(args.path)[0] + "_pii_detections.csv"
+            det_df.to_csv(out_path, index=False)
+            logging.info(f"Saved {len(result['detections'])} detections to {out_path}")
+        return
+
     use_multiprocessing = args.worker_count is not None and args.worker_count > 0
 
     if use_multiprocessing:
@@ -294,7 +412,6 @@ def main():
         pool.join()
     else:
         # Run sequentially without multiprocessing
-        global _analyzer, _indic_recognizer, _max_rows
         _max_rows = args.max_rows
         device = "cuda" if use_gpu and torch.cuda.is_available() else "cpu"
         _analyzer, _indic_recognizer = build_analyzer(
