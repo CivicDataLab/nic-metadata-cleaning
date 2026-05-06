@@ -3,14 +3,13 @@ import logging
 import multiprocessing as mp
 import os
 import tempfile
-from datetime import datetime, timezone
 from pii_filters import filter_detections
 import boto3
 import duckdb
 import pandas as pd
 import torch
 from botocore.exceptions import ClientError
-
+import re
 from pii_utils import (
     KEEP,
     batch_analyze_cells,
@@ -20,13 +19,16 @@ from pii_utils import (
     keep_result,
     regex_pii_matches,
     select_detection_columns,
+    RecognizerResult
 )
 
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S",
+    handlers=[logging.FileHandler("pii_test/pii_s3.log")],
 )
+logging.getLogger("presidio-analyzer").setLevel(logging.WARNING)
 
 S3_BUCKET = "nic-ogdp-datasets"
 S3_DATASET_PREFIX = "downloaded-datasets/downloaded-datasets-mohfw"
@@ -35,8 +37,29 @@ S3_METADATA_KEY = "metadata/CHANGEME/dublin_core_metadata.parquet"  # TODO: set 
 
 DB_PATH = "transformation/metadata.db"
 
+# Add to pii_utils.py
+FIELD_NAME_PATTERNS = [
+    re.compile(r"(?i)name\s+of\s+farmer\s*[\n:]\s*([A-Z][A-Z\s]{2,40})", re.MULTILINE),
+    re.compile(r"(?i)farmer\s+name\s*[\n:]\s*([A-Z][A-Z\s]{2,40})", re.MULTILINE),
+    re.compile(r"(?i)father[/\w]*\s+name\s*[\n:]\s*([A-Z][A-Z\s]{2,40})", re.MULTILINE),
+    re.compile(r"(?i)guardian\s+name\s*[\n:]\s*([A-Z][A-Z\s]{2,40})", re.MULTILINE),
+]
 
-# --- S3 helpers ---
+def extract_structured_names(text):
+    """Extract names from known KCC/PM-Kisan field label patterns."""
+    results = []
+    for pat in FIELD_NAME_PATTERNS:
+        for m in pat.finditer(text or ""):
+            name = m.group(1).strip()
+            if len(name) >= 3:
+                results.append(RecognizerResult(
+                    entity_type="PERSON",
+                    start=m.start(1),
+                    end=m.end(1),
+                    score=0.95,
+                    analysis_explanation=None,
+                ))
+    return results
 
 def get_s3_client():
     return boto3.client("s3")
@@ -65,10 +88,9 @@ def update_dublin_core_metadata(df):
             uuid = row['uuid']
             pii_tested = row['pii_tested']
             pii_detected = row['pii_detected']
-            pii_test_timestamp = row['pii_test_timestamp']
+            pii_test_timestamp = row['pii_test_timestamp']  
             conn.execute(
-                f'UPDATE dublin_core_metadata SET pii_tested={pii_tested}, pii_detected={pii_detected}, pii_test_timestamp=\'{pii_test_timestamp}\' WHERE "Identifier[UUID]"=\'{uuid}\''
-            )
+                f'UPDATE dublin_core_metadata SET pii_tested={pii_tested}, pii_detected={pii_detected}, pii_test_timestamp=\'{pii_test_timestamp}\' WHERE "Identifier[UUID]"=\'{uuid}\'')
 
         conn.close()
         logging.info(f"Updated {len(df)} records in dublin_core_metadata")
@@ -180,6 +202,12 @@ def scan_local_file(path):
         except Exception as exc:
             logging.warning(f"Batch analysis failed for {uuid}: {exc}")
             cache = {}
+
+        # Merge structured field extractions into cache per cell
+        for row_i, col, text in [(r, c, t) for r, c, t, _ in cell_info]:
+            structured = extract_structured_names(text)
+            if structured:
+                cache.setdefault((row_i, col), []).extend(structured)
 
         for (row_i, col), analyzer_results in cache.items():
             text = cell_text[(row_i, col)]
@@ -345,33 +373,97 @@ def main():
     use_gpu = not args.no_gpu and torch.cuda.is_available()
 
     if args.path:
-        _max_rows = args.max_rows
         device = "cuda" if use_gpu else "cpu"
-        _analyzer, _indic_recognizer = build_analyzer(
-            include_transformer_recognizer=True, device=device
-        )
-        logging.info(f"Initialized analyzer (device={device}) | Max rows: {args.max_rows}")
-        logging.info(f"Scanning local file: {args.path}")
 
-        result = scan_local_file(args.path)
+        if os.path.isdir(args.path):
+            csv_files = []
+            for dirpath, _, filenames in os.walk(args.path):
+                for fname in filenames:
+                    if fname.lower().endswith(".csv"):
+                        csv_files.append(os.path.join(dirpath, fname))
 
-        if result["error"]:
-            logging.error(f"Error: {result['error']}")
-            return
+            if not csv_files:
+                logging.info(f"No CSV files found under {args.path}")
+                return
 
-        logging.info("=" * 50)
-        logging.info(f"File: {args.path}")
-        logging.info(f"Rows scanned: {result['rows_scanned']}")
-        logging.info(f"PII found: {result['pii_found']}")
-        logging.info(f"PII types: {result['pii_types']}")
-        logging.info(f"Entity count: {result['entity_count']}")
-        logging.info("=" * 50)
+            if args.limit is not None and args.limit > 0:
+                csv_files = csv_files[:args.limit]
 
-        if result["detections"]:
-            det_df = pd.DataFrame(result["detections"])
-            out_path = os.path.splitext(args.path)[0] + "_pii_detections.csv"
-            det_df.to_csv(out_path, index=False)
-            logging.info(f"Saved {len(result['detections'])} detections to {out_path}")
+            logging.info(f"Found {len(csv_files)} CSV file(s) under {args.path}")
+
+            use_multiprocessing = args.worker_count > 1
+            if use_multiprocessing:
+                if __name__ == '__main__':
+                    mp.set_start_method('spawn', force=True)
+                pool = mp.Pool(
+                    processes=args.worker_count,
+                    initializer=_init_worker,
+                    initargs=(use_gpu, args.max_rows),
+                )
+                results = pool.map(scan_local_file, csv_files)
+                pool.close()
+                pool.join()
+            else:
+                _max_rows = args.max_rows
+                _analyzer, _indic_recognizer = build_analyzer(
+                    include_transformer_recognizer=True, device=device
+                )
+                logging.info(f"Initialized analyzer (device={device}) | Max rows: {args.max_rows}")
+                results = [scan_local_file(f) for f in csv_files]
+
+            pii_count = 0
+            error_count = 0
+            for path, result in zip(csv_files, results):
+                if result["error"]:
+                    logging.warning(f"Error on {path}: {result['error']}")
+                    error_count += 1
+                    continue
+
+                logging.info(
+                    f"File: {path} | Rows: {result['rows_scanned']} | "
+                    f"PII found: {result['pii_found']} | Types: {result['pii_types']} | "
+                    f"Entities: {result['entity_count']}"
+                )
+                if result["pii_found"]:
+                    pii_count += 1
+
+                if result["detections"]:
+                    det_df = pd.DataFrame(result["detections"])
+                    out_path = os.path.splitext(path)[0] + "_pii_detections.csv"
+                    det_df.to_csv(out_path, index=False)
+                    logging.info(f"Saved {len(result['detections'])} detections to {out_path}")
+
+            processed = len(results) - error_count
+            logging.info("=" * 50)
+            logging.info(f"Done. Processed: {processed} | PII found: {pii_count} | Errors: {error_count}")
+            logging.info("=" * 50)
+        else:
+            _max_rows = args.max_rows
+            _analyzer, _indic_recognizer = build_analyzer(
+                include_transformer_recognizer=True, device=device
+            )
+            logging.info(f"Initialized analyzer (device={device}) | Max rows: {args.max_rows}")
+            logging.info(f"Scanning local file: {args.path}")
+
+            result = scan_local_file(args.path)
+
+            if result["error"]:
+                logging.error(f"Error: {result['error']}")
+                return
+
+            logging.info("=" * 50)
+            logging.info(f"File: {args.path}")
+            logging.info(f"Rows scanned: {result['rows_scanned']}")
+            logging.info(f"PII found: {result['pii_found']}")
+            logging.info(f"PII types: {result['pii_types']}")
+            logging.info(f"Entity count: {result['entity_count']}")
+            logging.info("=" * 50)
+
+            if result["detections"]:
+                det_df = pd.DataFrame(result["detections"])
+                out_path = os.path.splitext(args.path)[0] + "_pii_detections.csv"
+                det_df.to_csv(out_path, index=False)
+                logging.info(f"Saved {len(result['detections'])} detections to {out_path}")
         return
 
     use_multiprocessing = args.worker_count is not None and args.worker_count > 0
@@ -442,7 +534,7 @@ def main():
             "uuid": uuid,
             "pii_tested": True,
             "pii_detected": pii_found,
-            "pii_test_timestamp": datetime.now(timezone.utc).isoformat(),
+            "pii_test_timestamp": datetime.now(timezone.utc).isoformat(),            
         })
 
         if pii_found:
