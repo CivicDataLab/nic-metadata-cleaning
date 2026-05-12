@@ -1,5 +1,6 @@
 import argparse
 import logging
+from datetime import datetime, timezone
 import multiprocessing as mp
 import os
 import tempfile
@@ -82,6 +83,8 @@ def update_dublin_core_metadata(df):
     """Update dublin_core_metadata table with pii_tested and pii_detected flags."""
     try:
         conn = duckdb.connect(DB_PATH)
+
+        conn.execute("ALTER TABLE dublin_core_metadata ADD COLUMN IF NOT EXISTS pii_test_timestamp TIMESTAMP")
 
         # Update flags
         for _, row in df.iterrows():
@@ -363,6 +366,8 @@ def main():
     global _analyzer, _indic_recognizer, _max_rows
     parser = argparse.ArgumentParser(description="Run PII detection on S3 datasets.")
     parser.add_argument("--batch", type=int, default=None, help="Process only this batch")
+    parser.add_argument("--iterate", type=int, nargs="?", const=-1, default=None, metavar="N",
+                        help="After --batch finishes, continue through subsequent batches. Optionally limit to N batches total (including the starting batch).")
     parser.add_argument("--max-rows", type=int, default=250, help="Max rows to scan per CSV")
     parser.add_argument("--no-gpu", action="store_true", help="Disable GPU, use CPU only")
     parser.add_argument("--worker-count", type=int, default= 1, help="Number of workers for multiprocessing (optional, default: sequential)")
@@ -475,95 +480,104 @@ def main():
 
     s3_client = get_s3_client()
 
-    # Read dublin_core_metadata from DuckDB
-    dublin_df = read_dublin_core_metadata()
-    logging.info(f"Total records: {len(dublin_df)}")
-
-    # Get pending files
-    pending = get_pending_uuids(dublin_df, batch=args.batch)
-    if not pending:
-        logging.info("No pending files to process.")
-        return
-
-    # Apply limit if specified
-    if args.limit is not None and args.limit > 0:
-        pending = pending[:args.limit]
-        logging.info(f"Limited to {args.limit} datasets")
-
-    logging.info(f"Processing {len(pending)} files...")
-
-    if use_multiprocessing:
-        # Run with multiprocessing (spawn method for GPU safety)
-        if __name__ == '__main__':
-            mp.set_start_method('spawn', force=True)
-        pool = mp.Pool(
-            processes=args.worker_count,
-            initializer=_init_worker,
-            initargs=(use_gpu, args.max_rows),
-        )
-        results = pool.map(scan_file, pending)
-        pool.close()
-        pool.join()
-    else:
-        # Run sequentially without multiprocessing
-        _max_rows = args.max_rows
+    # Initialize analyzer once (reused across batches when iterating)
+    if not use_multiprocessing:
         device = "cuda" if use_gpu and torch.cuda.is_available() else "cpu"
         _analyzer, _indic_recognizer = build_analyzer(
             include_transformer_recognizer=True, device=device
         )
+        _max_rows = args.max_rows
         logging.info(f"Initialized analyzer (device={device})")
-        results = [scan_file(item) for item in pending]
 
-    # Collect results and detections
-    pii_count = 0
-    error_count = 0
-    all_detections = {}  # batch -> list of detection dicts
-    updates_for_db = []
+    dublin_df = read_dublin_core_metadata()
+    logging.info(f"Total records: {len(dublin_df)}")
 
-    for result in results:
-        uuid = result["uuid"]
-        batch = result["batch"]
+    # Determine which batches to run
+    all_batch_nums = sorted(dublin_df["batch"].dropna().unique().astype(int).tolist())
+    if args.batch is not None and args.iterate is not None:
+        if args.batch not in all_batch_nums:
+            logging.error(f"Batch {args.batch} not found in data. Available: {all_batch_nums}")
+            return
+        batches_to_run = all_batch_nums[all_batch_nums.index(args.batch):]
+        if args.iterate > 0:
+            batches_to_run = batches_to_run[:args.iterate]
+    else:
+        batches_to_run = [args.batch]
 
-        if result["error"]:
-            logging.warning(f"Error on {uuid}: {result['error']}")
-            error_count += 1
+    for batch_num in batches_to_run:
+        logging.info(f"{'=' * 50}")
+        logging.info(f"Starting batch {batch_num}")
+
+        pending = get_pending_uuids(dublin_df, batch=batch_num)
+        if not pending:
+            logging.info(f"No pending files for batch {batch_num}, skipping.")
             continue
 
-        pii_found = result["pii_found"]
-        updates_for_db.append({
-            "uuid": uuid,
-            "pii_tested": True,
-            "pii_detected": pii_found,
-            "pii_test_timestamp": datetime.now(timezone.utc).isoformat(),            
-        })
+        if args.limit is not None and args.limit > 0:
+            pending = pending[:args.limit]
+            logging.info(f"Limited to {args.limit} datasets")
 
-        if pii_found:
-            pii_count += 1
-            logging.info(
-                f"PII found: {uuid} | types: {result['pii_types']} | "
-                f"entities: {result['entity_count']}"
+        logging.info(f"Processing {len(pending)} files...")
+
+        if use_multiprocessing:
+            if __name__ == '__main__':
+                mp.set_start_method('spawn', force=True)
+            pool = mp.Pool(
+                processes=args.worker_count,
+                initializer=_init_worker,
+                initargs=(use_gpu, args.max_rows),
             )
+            results = pool.map(scan_file, pending)
+            pool.close()
+            pool.join()
+        else:
+            results = [scan_file(item) for item in pending]
 
-        if result["detections"]:
-            all_detections.setdefault(batch, []).extend(result["detections"])
+        pii_count = 0
+        error_count = 0
+        all_detections = {}
+        updates_for_db = []
 
-    # Update dublin_core_metadata in DuckDB
-    if updates_for_db:
-        updates_df = pd.DataFrame(updates_for_db)
-        update_dublin_core_metadata(updates_df)
+        for result in results:
+            uuid = result["uuid"]
+            batch = result["batch"]
 
-    # Save detailed detections per batch to S3
-    for batch, detections in all_detections.items():
-        save_detection_results(s3_client, detections, batch)
+            if result["error"]:
+                logging.warning(f"Error on {uuid}: {result['error']}")
+                error_count += 1
+                continue
 
-    # Upload updated dublin_core_metadata to S3
-    upload_dublin_core_metadata(s3_client)
+            pii_found = result["pii_found"]
+            updates_for_db.append({
+                "uuid": uuid,
+                "pii_tested": True,
+                "pii_detected": pii_found,
+                "pii_test_timestamp": datetime.now(timezone.utc).isoformat(),
+            })
 
-    # Summary
-    processed = len(results) - error_count
-    logging.info("=" * 50)
-    logging.info(f"Done. Processed: {processed} | PII found: {pii_count} | Errors: {error_count}")
-    logging.info("=" * 50)
+            if pii_found:
+                pii_count += 1
+                logging.info(
+                    f"PII found: {uuid} | types: {result['pii_types']} | "
+                    f"entities: {result['entity_count']}"
+                )
+
+            if result["detections"]:
+                all_detections.setdefault(batch, []).extend(result["detections"])
+
+        if updates_for_db:
+            updates_df = pd.DataFrame(updates_for_db)
+            update_dublin_core_metadata(updates_df)
+
+        for batch, detections in all_detections.items():
+            save_detection_results(s3_client, detections, batch)
+
+        upload_dublin_core_metadata(s3_client)
+
+        processed = len(results) - error_count
+        logging.info("=" * 50)
+        logging.info(f"Batch {batch_num} done. Processed: {processed} | PII found: {pii_count} | Errors: {error_count}")
+        logging.info("=" * 50)
 
 
 if __name__ == "__main__":
