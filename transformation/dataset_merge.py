@@ -86,6 +86,16 @@ _MONTH = (
 _YEAR = r"\d{4}"
 _YR   = r"\d{4}(?:-\d{2,4})?"   # bare year or year-range e.g. 2015-16
 
+# Flexible MONTH-to-YEAR separator. Real OGD titles use any of:
+#   "February 2014"   (space)
+#   "February, 2014"  (comma + space)   ← most common in HMIS/RHS reports
+#   "February-2014"   (bare hyphen, no surrounding whitespace)
+# A character class covers all three uniformly: any run of whitespace, comma,
+# or hyphen. Earlier versions hard-coded "-" between MONTH and YEAR, so the
+# comma form went unmatched and "upto February" / "for February" leaked into
+# the collection base, fragmenting collections across states + months.
+_MY_SEP = r"[\s,\-]+"
+
 
 # ── contrasting word pairs that must NEVER be merged ─────────────────────────
 # If two normalised bases differ specifically on one of these pairs they
@@ -163,19 +173,19 @@ def normalize_title(title: str) -> str:
         # rule, otherwise the generic rule eats the date portion first and leaves
         # "for Quarter N:" as an unstrippable fragment.
 
-        # "for Quarter N: MONTH YEAR to MONTH YEAR"
+        # "for Quarter N: MONTH[, /-]YEAR to MONTH[, /-]YEAR"
         t = re.sub(
-            rf"\s+for\s+Quarter\s+\d+\s*:\s*{_MONTH}\s+{_YEAR}\s+to\s+{_MONTH}\s+{_YEAR}\s*$",
+            rf"\s+for\s+Quarter\s+\d+\s*:\s*{_MONTH}{_MY_SEP}{_YEAR}\s+to\s+{_MONTH}{_MY_SEP}{_YEAR}\s*$",
             "", t, flags=re.I,
         )
-        # bare "Quarter N: MONTH YEAR to MONTH YEAR" (without leading "for")
+        # bare "Quarter N: MONTH[, /-]YEAR to MONTH[, /-]YEAR" (without leading "for")
         t = re.sub(
-            rf"\s+Quarter\s+\d+\s*:\s*{_MONTH}\s+{_YEAR}\s+to\s+{_MONTH}\s+{_YEAR}\s*$",
+            rf"\s+Quarter\s+\d+\s*:\s*{_MONTH}{_MY_SEP}{_YEAR}\s+to\s+{_MONTH}{_MY_SEP}{_YEAR}\s*$",
             "", t, flags=re.I,
         )
 
-        # "upto MONTH-YEAR"
-        t = re.sub(rf"\s+upto\s+{_MONTH}-{_YR}\s*$", "", t, flags=re.I)
+        # "upto MONTH[, /-]YEAR"   (separator may be comma+space, space, or hyphen)
+        t = re.sub(rf"\s+upto\s+{_MONTH}{_MY_SEP}{_YR}\s*$", "", t, flags=re.I)
 
         # "for YEAR(-YY)? & YEAR(-YY)?" or "for YEAR(-YY)? and YEAR(-YY)?"
         t = re.sub(rf"\s+for\s+{_YR}\s*(?:&|and)\s*{_YR}\s*$", "", t, flags=re.I)
@@ -189,18 +199,37 @@ def normalize_title(title: str) -> str:
             "", t, flags=re.I,
         )
 
-        # "for MONTH-YEAR(-YY)?" (single month-year at end)
-        t = re.sub(rf"\s+for\s+{_MONTH}-{_YR}\s*$", "", t, flags=re.I)
-
-        # "for MONTH YEAR to MONTH YEAR" (generic quarterly range)
+        # "(MONTH to MONTH)"  e.g. "(April to June)", "(April to December)"
+        # RCH-style trailing period range. Stripped first so the inner "for the year"
+        # and bare-year rules below can then anchor at the new $.
         t = re.sub(
-            rf"\s+for\s+{_MONTH}\s+{_YEAR}\s+to\s+{_MONTH}\s+{_YEAR}\s*$",
+            rf"\s*\(\s*{_MONTH}\s+to\s+{_MONTH}\s*\)\s*$",
             "", t, flags=re.I,
         )
 
-        # "- MONTH YEAR to MONTH YEAR" (RCH style)
+        # "for the year YR (and|&) YR"   e.g. "for the year 2011-12 and 2010-11"
+        # MUST be its own rule: the existing "for YR (and|&) YR" pattern below does
+        # not allow the literal "the year" between "for" and the first year token.
         t = re.sub(
-            rf"\s*-\s*{_MONTH}\s+{_YEAR}\s+to\s+{_MONTH}\s+{_YEAR}\s*$",
+            rf"\s+for\s+the\s+year\s+{_YR}\s*(?:&|and)\s*{_YR}\s*$",
+            "", t, flags=re.I,
+        )
+
+        # "for the year YR"   single-year variant of the above
+        t = re.sub(rf"\s+for\s+the\s+year\s+{_YR}\s*$", "", t, flags=re.I)
+
+        # "for MONTH[, /-]YEAR(-YY)?" (single month-year at end; comma/space/hyphen sep)
+        t = re.sub(rf"\s+for\s+{_MONTH}{_MY_SEP}{_YR}\s*$", "", t, flags=re.I)
+
+        # "for MONTH[, /-]YEAR to MONTH[, /-]YEAR" (generic quarterly range)
+        t = re.sub(
+            rf"\s+for\s+{_MONTH}{_MY_SEP}{_YEAR}\s+to\s+{_MONTH}{_MY_SEP}{_YEAR}\s*$",
+            "", t, flags=re.I,
+        )
+
+        # "- MONTH[, /-]YEAR to MONTH[, /-]YEAR" (RCH style)
+        t = re.sub(
+            rf"\s*-\s*{_MONTH}{_MY_SEP}{_YEAR}\s+to\s+{_MONTH}{_MY_SEP}{_YEAR}\s*$",
             "", t, flags=re.I,
         )
 
@@ -288,6 +317,18 @@ def normalize_title(title: str) -> str:
 
         # "for STATE"
         t = re.sub(rf"\s+for\s+({_STATE_ALT})\s*$", "", t, flags=re.I)
+
+        # bare " STATE$"   (no preposition)   — MUST be last in this loop.
+        # Catches titles where a date pattern stripped the temporal tail and
+        # left a bare state name flush at the end, e.g.
+        #   "...Oral Pill Users All India for the year 2011-12 and 2010-11"
+        #     ↓ temporal: strip "for the year YR and YR"
+        #   "...Oral Pill Users All India"
+        #     ↓ this rule: strip bare "All India"
+        #   "...Oral Pill Users"
+        # Safe because _STATE_ALT is a closed list; a generic word like
+        # "centres" or "year" can never match.
+        t = re.sub(rf"\s+({_STATE_ALT})\s*$", "", t, flags=re.I)
 
         changed = t != prev
 
