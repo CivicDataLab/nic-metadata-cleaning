@@ -1,44 +1,3 @@
-"""
-Detect and flag mergeable datasets in dublin_core_metadata.
-
-Datasets with titles that differ only by state, district, date, or year
-are grouped into a collection. Two columns are set:
-
-  - Collection   : base name of the group (e.g. "Item-wise report")
-  - dataset_merge: TRUE if the collection has >= 2 rows
-
-The approach strips temporal and geographic parts from each Title
-to produce a normalised base. Titles with the same base form a collection.
-
-Changes from previous version
-──────────────────────────────
-Option A — Key normalisation + district heuristic removed
-  • _normalize_key() collapses surface variants before grouping:
-      - "State/UT wise" / "State/Ut-wise" / "State/UT-wise" → unified
-      - "centres" → "centre"  (plural/singular)
-      - spacing around parentheses
-  • The "for SINGLE_WORD" / bare-district heuristic has been removed from
-    the geographic loop. It was stripping meaningful type suffixes like
-    "for Sub Centres", "for PHCs", "for IPD Attendance", creating one giant
-    wrong collection instead of per-type collections.
-
-Option B — Fuzzy merge pass
-  • After regex normalisation, a union-find pass merges groups whose
-    _normalize_key() strings score >= FUZZY_THRESHOLD on token_sort_ratio.
-  • This catches residual surface variation that normalisation misses.
-  • Pairs differing on known contrasting words (rural/urban, male/female,
-    north/south …) are blocked from merging regardless of score.
-
-Quarter date pattern
-  • "for Quarter N: MONTH YEAR to MONTH YEAR" is now stripped before all
-    other date rules so the generic "for MONTH YEAR to MONTH YEAR" rule
-    cannot consume the date portion first and leave "Quarter N:" as a
-    stray fragment in the base.
-
-Usage:
-  python dataset_merge.py                # apply to DB
-  python dataset_merge.py --dry-run      # preview without writing
-"""
 
 import argparse
 import re
@@ -527,6 +486,70 @@ def apply(conn: duckdb.DuckDBPyConnection,
     conn.execute("DROP TABLE IF EXISTS _tmp_coll_map")
 
 
+_UPTO_RE = re.compile(rf"\bupto\s+{_MONTH}", re.I)
+_FOR_MONTH_RE = re.compile(rf"\bfor\s+{_MONTH}{_MY_SEP}{_YR}", re.I)
+
+
+def split_temporal_collections(
+    conn: duckdb.DuckDBPyConnection,
+    collections: list[str],
+) -> None:
+    """
+    For each named collection, split titles into a "(for)" and "(upto)"
+    sub-collection based on the temporal keyword in the original title.
+
+    "Item-wise report for April-2011-12"       → "Item-wise report (for)"
+    "Item-wise report Upto February-2018-19"   → "Item-wise report (upto)"
+
+    Titles with neither pattern keep the original collection name unchanged.
+    """
+    for collection in collections:
+        rows = conn.execute(
+            f'SELECT "Title" FROM {TABLE} WHERE "Collection" = ?',
+            [collection],
+        ).fetchall()
+
+        for_titles  = []
+        upto_titles = []
+        for (title,) in rows:
+            if _UPTO_RE.search(title):
+                upto_titles.append(title)
+            elif _FOR_MONTH_RE.search(title):
+                for_titles.append(title)
+
+        if not for_titles and not upto_titles:
+            continue
+
+        if for_titles:
+            import pandas as pd
+            df = pd.DataFrame(for_titles, columns=["t"])
+            conn.execute("DROP TABLE IF EXISTS _tmp_split")
+            conn.execute("CREATE TEMP TABLE _tmp_split AS SELECT * FROM df")
+            conn.execute(
+                f'UPDATE {TABLE} SET "Collection" = ? '
+                f'WHERE "Title" IN (SELECT t FROM _tmp_split)',
+                [f"{collection} (for)"],
+            )
+            conn.execute("DROP TABLE IF EXISTS _tmp_split")
+
+        if upto_titles:
+            import pandas as pd
+            df = pd.DataFrame(upto_titles, columns=["t"])
+            conn.execute("DROP TABLE IF EXISTS _tmp_split")
+            conn.execute("CREATE TEMP TABLE _tmp_split AS SELECT * FROM df")
+            conn.execute(
+                f'UPDATE {TABLE} SET "Collection" = ? '
+                f'WHERE "Title" IN (SELECT t FROM _tmp_split)',
+                [f"{collection} (upto)"],
+            )
+            conn.execute("DROP TABLE IF EXISTS _tmp_split")
+
+        print(
+            f"  Split '{collection}': "
+            f"{len(for_titles)} → (for), {len(upto_titles)} → (upto)"
+        )
+
+
 def print_summary(conn: duckdb.DuckDBPyConnection) -> None:
     total  = conn.execute(f"SELECT COUNT(*) FROM {TABLE}").fetchone()[0]
     merged = conn.execute(
@@ -579,6 +602,14 @@ def main() -> None:
                         help="Preview without modifying the database")
     parser.add_argument("--batch", type=int, default=None,
                         help="Process only this batch number")
+    parser.add_argument(
+        "--split-collections",
+        nargs="+",
+        default=["Item-wise report"],
+        metavar="COLLECTION",
+        help="Collections to split into (for) and (upto) sub-collections "
+             "(default: 'Item-wise report')",
+    )
     args = parser.parse_args()
 
     conn = duckdb.connect(DB_PATH)
@@ -606,6 +637,10 @@ def main() -> None:
 
     print("\nApplying to database...")
     apply(conn, collection_map)
+
+    print("\nSplitting temporal sub-collections...")
+    split_temporal_collections(conn, args.split_collections)
+
     print_summary(conn)
     conn.close()
     print("\nDone.")

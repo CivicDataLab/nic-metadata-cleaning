@@ -12,7 +12,6 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 DB_PATH = "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db"
 
-# S3 configuration
 S3_BUCKET = "nic-ogdp-datasets"
 S3_PREFIX = "metadata"  # Base path in S3
 
