@@ -1,3 +1,6 @@
+import argparse
+import csv
+import subprocess
 import duckdb
 from duckdb.sqltypes import UUID
 import pandas as pd
@@ -9,29 +12,30 @@ db_path = "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metad
 
 con = duckdb.connect(db_path)
 
+def get_headers_csv(path):
+    """Use subprocess head command to read first line of CSV efficiently."""
+    result = subprocess.run(['head', '-1', path], capture_output=True)
+    for encoding in ['utf-8', 'latin-1', 'iso-8859-1', 'cp1252']:
+        try:
+            line = result.stdout.decode(encoding).strip()
+            return next(csv.reader([line]))
+        except (UnicodeDecodeError, StopIteration):
+            continue
+    raise ValueError(f"Could not decode CSV headers with any encoding: {path}")
+
+
 def get_headers(path):
     try:
         if path.endswith('.xls') or path.endswith('.xlsx'):
-            header = pd.read_excel(path, nrows=0)
-        else:
-            encodings = ['utf-8', 'latin-1', 'iso-8859-1', 'cp1252']
-            header = None
-            for encoding in encodings:
-                try:
-                    header = pd.read_csv(path, nrows=0, encoding=encoding)
-                    break
-                except UnicodeDecodeError:
-                    continue
-            if header is None:
-                raise ValueError("Could not decode file with any encoding")
-        return header.columns.tolist()
+            return pd.read_excel(path, nrows=0).columns.tolist()
+        return get_headers_csv(path)
     except Exception as e:
         print(f"Invalid path given: {path} - {str(e)}")
         return []
 
 
 def create_path(batch):
-    query = f'SELECT "Identifier[UUID]", Format FROM dublin_core_metadata WHERE batch = {batch} AND dataset_merge IS FALSE'
+    query = f'SELECT "Identifier[UUID]", Format FROM dublin_core_metadata WHERE batch = {batch}'
     result = con.execute(query).fetchall()
     download_folder = "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/data/first_batch_downloads/"
     paths_dict = {}
@@ -57,7 +61,7 @@ def process_headers(paths_dict):
 
         for header in headers:
             original_header = header
-            cleaned_header = re.sub(r'[^a-zA-Z0-9_%.\s/]', '', header)
+            cleaned_header = re.sub(r'[^a-zA-Z0-9_%. /]', '', header)
             cleaned_headers.append(cleaned_header)
             if cleaned_header != original_header:
                 headers_cleaned = True
@@ -78,9 +82,17 @@ def update_db(result):
 
 
 if __name__ == "__main__":
-    total_batches = int(input("Enter number of batches to process: "))
+    parser = argparse.ArgumentParser(description="Process dataset headers for NIC metadata")
+    parser.add_argument("--batch", type=int, help="Specific batch number to process")
+    args = parser.parse_args()
 
-    for batch in range(1, total_batches+1):
+    if args.batch is not None:
+        batches = [args.batch]
+    else:
+        total_batches = int(input("Enter number of batches to process: "))
+        batches = range(1, total_batches + 1)
+
+    for batch in batches:
         print(f"Processing batch {batch}...")
         paths_dict = create_path(batch)
         result = process_headers(paths_dict)
