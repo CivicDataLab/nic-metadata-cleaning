@@ -4,6 +4,7 @@ import duckdb
 
 enhancement_fields = [
     "title",
+    "nid",
     "uuid",
     "catalog_title",
     "note",
@@ -55,11 +56,16 @@ def create_metadata_enhancement_table(
                 print("✗ Error: No valid fields to select. Aborting.")
                 return
 
-        # Build the SELECT statement
+        # Build the SELECT statement. Dedupe by uuid keeping the row with the
+        # highest batch (treat that as "latest"); ties broken by ctid-ish rowid.
         fields_str = ", ".join([f'"{f}"' for f in fields])
-        select_query = f"SELECT {fields_str} FROM {source_table}"
-        if batch is not None:
-            select_query += f" WHERE batch = {batch}"
+        where_clause = f"WHERE batch = {batch}" if batch is not None else ""
+        select_query = (
+            f"SELECT {fields_str} FROM {source_table} {where_clause} "
+            f"QUALIFY ROW_NUMBER() OVER ("
+            f"  PARTITION BY uuid ORDER BY batch DESC NULLS LAST"
+            f") = 1"
+        )
 
         # Create or append to the target table
         table_exists = con.execute(
@@ -67,8 +73,14 @@ def create_metadata_enhancement_table(
         ).fetchone()[0]
 
         if batch is not None and table_exists:
+            # Drop any pre-existing rows for uuids in this batch so the newer
+            # batch's records win over previously-appended ones.
+            con.execute(
+                f"DELETE FROM {target_table} WHERE uuid IN "
+                f"(SELECT uuid FROM {source_table} WHERE batch = {batch})"
+            )
             con.execute(f"INSERT INTO {target_table} {select_query}")
-            print(f"[2/3] Appended batch {batch} to {target_table}")
+            print(f"[2/3] Appended batch {batch} to {target_table} (replacing any existing uuids)")
         else:
             if table_exists:
                 con.execute(f"DROP TABLE {target_table}")

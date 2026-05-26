@@ -1,9 +1,12 @@
 import logging
+import re
 import boto3
 from botocore.exceptions import ClientError
 import os
 import duckdb
 import tempfile
+
+SNAPSHOT_PATTERN = re.compile(r"^\d{8}_\d{6}$")
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -26,12 +29,16 @@ def get_latest_snapshot_prefix(s3_client) -> str | None:
             Delimiter="/"
         )
         prefixes = [cp["Prefix"] for cp in response.get("CommonPrefixes", [])]
-        if not prefixes:
-            logging.error("No snapshot folders found in S3.")
+        snapshot_prefixes = [
+            p for p in prefixes
+            if SNAPSHOT_PATTERN.match(p[len(S3_PREFIX) + 1:].rstrip("/"))
+        ]
+        if not snapshot_prefixes:
+            logging.error("No timestamped snapshot folders found in S3.")
             return None
 
         # Folder names are timestamps (YYYYMMDD_HHMMSS), so lexicographic max = latest
-        latest = sorted(prefixes)[-1]
+        latest = sorted(snapshot_prefixes)[-1]
         logging.info(f"Latest snapshot: s3://{S3_BUCKET}/{latest}")
         return latest
     except ClientError as e:

@@ -56,6 +56,16 @@ _YR   = r"\d{4}(?:-\d{2,4})?"   # bare year or year-range e.g. 2015-16
 _MY_SEP = r"[\s,\-]+"
 
 
+# Public aliases so sibling modules (e.g. utils/title_components.py) can
+# reuse the same closed-list state regex and date primitives without
+# duplicating definitions that have been tuned against real titles.
+STATE_ALT  = _STATE_ALT
+MONTH_RE   = _MONTH
+YEAR_RE    = _YEAR
+YR_RE      = _YR
+MY_SEP_RE  = _MY_SEP
+
+
 # ── contrasting word pairs that must NEVER be merged ─────────────────────────
 # If two normalised bases differ specifically on one of these pairs they
 # represent genuinely different datasets (e.g. rural hospitals != urban hospitals).

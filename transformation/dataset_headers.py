@@ -27,7 +27,7 @@ def get_headers_csv(path):
 def get_headers(path):
     try:
         if path.endswith('.xls') or path.endswith('.xlsx'):
-            return pd.read_excel(path, nrows=0).columns.tolist()
+            return pd.read_excel(path, nrows=0, newline='').columns.tolist()
         return get_headers_csv(path)
     except Exception as e:
         print(f"Invalid path given: {path} - {str(e)}")

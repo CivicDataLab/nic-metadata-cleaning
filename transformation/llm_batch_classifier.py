@@ -76,7 +76,7 @@ Return ONLY valid JSON. No markdown fences, no preamble.
 
 ## Field Specifications
 ### generated_title (10–20 words, Title Case)
-- Compare your draft to the original: if you changed fewer than 2 substantive words (ignoring casing). 
+ONLY TRY TO ATTEMPT CHANGING WHEN ABSOLUTELY NECESSARY. Compare your draft to the original: if you changed fewer than 2 substantive words (ignoring casing). 
 - NEVER inject the sector_resource, ministry name, or catalog_title context into the title. Those fields exist separately — the title must not duplicate them.
 - If multiple datasets share the same title pattern (e.g. monthly reports differing only by month), apply the EXACT same transformation to each — do not vary phrasing, prepositions, or punctuation across the batch.
 - These are titles for health and medical datasets published on India's Open Government Data (OGD) Exchange platform. Apply domain awareness when interpreting abbreviations and terminology.
@@ -304,7 +304,7 @@ def load_rows(batch_number: int | None, limit: int | None) -> pd.DataFrame:
     ]
     select = ", ".join(cols)
 
-    query = f"SELECT {select} FROM {SOURCE_TABLE} WHERE dataset_merge = FALSE"
+    query = f"SELECT {select} FROM {SOURCE_TABLE} WHERE nid IS NOT NULL"
     if batch_number is not None:
         query += f" AND batch = {batch_number}"
         #query += f" OFFSET 10"

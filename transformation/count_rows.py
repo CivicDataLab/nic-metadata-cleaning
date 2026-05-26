@@ -11,6 +11,7 @@ Usage:
   python count_rows.py --batch 1         # only process rows where batch=1
   python count_rows.py --workers 8       # override CPU count
   python count_rows.py --data-dir PATH   # override data directory
+  python count_rows.py --recheck-low     # only recheck rows where row_count <= 5
 """
 
 import argparse
@@ -66,6 +67,7 @@ def main():
     parser.add_argument("--batch", type=int, default=None, help="Only process rows where batch=N")
     parser.add_argument("--workers", type=int, default=os.cpu_count(), help="Number of parallel workers")
     parser.add_argument("--data-dir", default=DEFAULT_DATA_DIR, help="Directory containing UUID CSV files")
+    parser.add_argument("--recheck-low", action="store_true", help="Only recheck rows where row_count <= 5")
     args = parser.parse_args()
 
     start = time.time()
@@ -79,6 +81,8 @@ def main():
         query = f'SELECT "Identifier[UUID]" FROM "{TABLE}" WHERE "Identifier[UUID]" IS NOT NULL'
         if args.batch is not None:
             query += f" AND batch = {args.batch}"
+        if args.recheck_low:
+            query += " AND row_count IS NOT NULL AND row_count <= 5"
         uuids = [row[0] for row in conn.execute(query).fetchall()]
 
         print(f"UUIDs to process : {len(uuids):,}")
