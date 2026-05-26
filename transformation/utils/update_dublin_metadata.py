@@ -60,16 +60,25 @@ def main(dry_run: bool = False, batch: int | None = None) -> None:
         batch_filter = f" AND CAST(d.batch AS INTEGER) = {batch}"
         print(f"Filtering to batch: {batch}")
 
+    # Dedupe llm_keyword_results by nid, keeping the latest-inserted row
+    # (highest rowid wins). Reused by both the match-count query and the
+    # UPDATE so the two stay consistent.
+    llm_dedup_sql = """
+        SELECT * FROM llm_keyword_results
+        QUALIFY ROW_NUMBER() OVER (PARTITION BY nid ORDER BY rowid DESC) = 1
+    """
+
     try:
         llm_count = con.execute("SELECT COUNT(*) FROM llm_keyword_results").fetchone()[0]
+        llm_unique = con.execute(f"SELECT COUNT(*) FROM ({llm_dedup_sql})").fetchone()[0]
         dc_count  = con.execute("SELECT COUNT(*) FROM dublin_core_metadata").fetchone()[0]
-        print(f"llm_keyword_results rows : {llm_count}")
+        print(f"llm_keyword_results rows : {llm_count} ({llm_unique} unique nids after dedup)")
         print(f"dublin_core_metadata rows: {dc_count}")
 
         matched = con.execute(f"""
             SELECT COUNT(*)
             FROM dublin_core_metadata d
-            JOIN llm_keyword_results l ON CAST(d.nid AS VARCHAR) = l.nid
+            JOIN ({llm_dedup_sql}) l ON CAST(d.nid AS VARCHAR) = l.nid
             WHERE 1=1{batch_filter}
         """).fetchone()[0]
         print(f"Matched on nid           : {matched}")
@@ -90,7 +99,7 @@ def main(dry_run: bool = False, batch: int | None = None) -> None:
         UPDATE dublin_core_metadata AS d
         SET
             {set_clause}
-        FROM llm_keyword_results AS l
+        FROM ({llm_dedup_sql}) AS l
         WHERE CAST(d.nid AS VARCHAR) = l.nid{batch_filter}
         """
         con.execute(update_llm_sql)

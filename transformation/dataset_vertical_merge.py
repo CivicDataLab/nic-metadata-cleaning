@@ -15,6 +15,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from dataset_merge import normalize_title
 from utils.dataset_headers import header_signature
+from utils.title_components import parse_title_components
 
 DB_PATH = Path(__file__).parent / "metadata.db"
 TABLE = "dublin_core_metadata"
@@ -44,6 +45,40 @@ def _group_name(titles: list[str]) -> str:
     if len(normalised) < 8 or len(normalised.split()) < 2:
         return canonical
     return normalised
+
+
+def classify_basis(members: list[tuple[str, str, str]]) -> str:
+    """
+    Classify why a merge group exists, given that all members already share
+    Collection + title_base + header_signature:
+
+      "temporal"   — one location, varies only in time
+      "geographic" — one time period, varies only in location
+      "both"       — varies on both axes
+      "unknown"    — components couldn't be parsed reliably
+
+    Location is the (district, state) tuple so same-named districts in
+    different states (e.g. "Adilabad of Andhra Pradesh Old" vs "Adilabad of
+    Telangana") count as distinct locations.
+    """
+    parsed = [parse_title_components(t) for _, t, _, _ in members]
+    locations = {
+        (p["district"], p["state"])
+        for p in parsed
+        if p["district"] or p["state"]
+    }
+    times = {p["time_period"] for p in parsed if p["time_period"]}
+
+    multi_loc  = len(locations) >= 2
+    multi_time = len(times) >= 2
+
+    if multi_loc and multi_time:
+        return "both"
+    if multi_time and len(locations) <= 1:
+        return "temporal"
+    if multi_loc and len(times) <= 1:
+        return "geographic"
+    return "unknown"
 
 
 def _disambiguate_names(groups: dict) -> None:
@@ -78,11 +113,21 @@ def build_groups(conn: duckdb.DuckDBPyConnection, batch: int | None = None) -> d
         }
       }
     """
+    columns = {
+        r[0]
+        for r in conn.execute(
+            f"SELECT column_name FROM information_schema.columns "
+            f"WHERE table_name = '{TABLE}'"
+        ).fetchall()
+    }
+
     query = f'''
         SELECT "Identifier[UUID]", "Title", "Collection", "Conforms To"
         FROM {TABLE}
         WHERE "Conforms To" IS NOT NULL AND "Conforms To" != ''
     '''
+    if "archive" in columns:
+        query += " AND archive IS NOT TRUE"
     if batch is not None:
         query += f" AND batch = {batch}"
 
@@ -93,7 +138,7 @@ def build_groups(conn: duckdb.DuckDBPyConnection, batch: int | None = None) -> d
     # semantically distinct titles (e.g. IPD vs OPD Attendance) into the
     # same Collection. Adding normalize_title() as a secondary key recovers
     # the pre-fuzzy distinction. Rows with NULL Collection are skipped.
-    by_key: dict[tuple[str, str, tuple[str, ...]], list[tuple[str, str, str]]] = defaultdict(list)
+    by_key: dict[tuple[str, str, tuple[str, ...]], list[tuple[str, str, str, str]]] = defaultdict(list)
     for uuid, title, collection, conforms in rows:
         if not collection:
             continue
@@ -101,20 +146,21 @@ def build_groups(conn: duckdb.DuckDBPyConnection, batch: int | None = None) -> d
         if not sig:
             continue
         title_base = normalize_title(title).lower()
-        by_key[(collection, title_base, sig)].append((uuid, title, collection))
+        by_key[(collection, title_base, sig)].append((uuid, title, collection, conforms or ""))
 
     groups: dict = {}
     for (collection, title_base, sig), members in by_key.items():
         if len(members) < MERGE_THRESHOLD:
             continue
         gid = _group_id(collection, title_base, sig)
-        titles = [t for _, t, _ in members]
+        titles = [t for _, t, _, _ in members]
         groups[gid] = {
             "name": _group_name(titles),
             "collection": collection,
             "title_base": title_base,
             "signature": sig,
             "members": members,
+            "merge_basis": classify_basis(members),
         }
     return groups
 
@@ -127,13 +173,14 @@ def apply_to_db(conn: duckdb.DuckDBPyConnection, groups: dict) -> None:
             f"WHERE table_name = '{TABLE}'"
         ).fetchall()
     }
-    for col in ("merge_group_id", "merge_group_name"):
+    for col in ("merge_group_id", "merge_group_name", "merge_basis"):
         if col not in existing:
             conn.execute(f'ALTER TABLE {TABLE} ADD COLUMN {col} VARCHAR')
 
     # Clear previous values so removed members don't keep a stale id
     conn.execute(
-        f'UPDATE {TABLE} SET merge_group_id = NULL, merge_group_name = NULL'
+        f'UPDATE {TABLE} SET merge_group_id = NULL, '
+        f'merge_group_name = NULL, merge_basis = NULL'
     )
 
     if not groups:
@@ -141,17 +188,21 @@ def apply_to_db(conn: duckdb.DuckDBPyConnection, groups: dict) -> None:
 
     rows = []
     for gid, g in groups.items():
-        for uuid, _title, _coll in g["members"]:
-            rows.append((uuid, gid, g["name"]))
+        for uuid, _title, _coll, _conforms in g["members"]:
+            rows.append((uuid, gid, g["name"], g["merge_basis"]))
 
-    mapping_df = pd.DataFrame(rows, columns=["uuid", "merge_group_id", "merge_group_name"])
+    mapping_df = pd.DataFrame(
+        rows,
+        columns=["uuid", "merge_group_id", "merge_group_name", "merge_basis"],
+    )
 
     conn.execute("DROP TABLE IF EXISTS _tmp_merge_map")
     conn.execute("CREATE TEMP TABLE _tmp_merge_map AS SELECT * FROM mapping_df")
     conn.execute(f'''
         UPDATE {TABLE} AS d
         SET merge_group_id   = m.merge_group_id,
-            merge_group_name = m.merge_group_name
+            merge_group_name = m.merge_group_name,
+            merge_basis      = m.merge_basis
         FROM _tmp_merge_map m
         WHERE d."Identifier[UUID]" = m.uuid
     ''')
@@ -223,10 +274,11 @@ def write_reports(groups: dict, out_dir: Path) -> tuple[Path, Path]:
     json_groups = []
     for gid, g in sorted(groups.items(), key=lambda kv: -len(kv[1]["members"])):
         members = g["members"]
-        sample_titles = list({t for _, t, _ in members})[:5]
+        sample_titles = list({t for _, t, _, _ in members})[:5]
         json_groups.append({
             "merge_group_id": gid,
             "merge_group_name": g["name"],
+            "merge_basis": g["merge_basis"],
             "collection": g["collection"],
             "signature_size": len(g["signature"]),
             "total_members": len(members),
@@ -243,10 +295,16 @@ def write_reports(groups: dict, out_dir: Path) -> tuple[Path, Path]:
 
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["merge_group_id", "merge_group_name", "Identifier[UUID]", "Title", "Collection"])
+        w.writerow([
+            "merge_group_id", "merge_group_name", "merge_basis",
+            "Identifier[UUID]", "Title", "Collection", "Conforms To",
+        ])
         for gid, g in groups.items():
-            for uuid, title, coll in g["members"]:
-                w.writerow([gid, g["name"], uuid, title, coll or ""])
+            for uuid, title, coll, conforms in g["members"]:
+                w.writerow([
+                    gid, g["name"], g["merge_basis"],
+                    uuid, title, coll or "", conforms or "",
+                ])
 
     return json_path, csv_path
 
@@ -255,10 +313,18 @@ def print_summary(conn: duckdb.DuckDBPyConnection, groups: dict) -> None:
     total_mergeable = sum(len(g["members"]) for g in groups.values())
     collections_with_groups = len({g["collection"] for g in groups.values()})
 
+    basis_counts = Counter(g["merge_basis"] for g in groups.values())
+
     print(f"\n{'=' * 70}")
     print(f"  Merge groups (>= {MERGE_THRESHOLD} members) : {len(groups):>10}")
     print(f"  Rows in any merge group              : {total_mergeable:>10}")
     print(f"  Collections with >=1 merge group     : {collections_with_groups:>10}")
+    print(
+        f"  By merge_basis  temporal: {basis_counts.get('temporal', 0):<6} "
+        f"geographic: {basis_counts.get('geographic', 0):<6} "
+        f"both: {basis_counts.get('both', 0):<6} "
+        f"unknown: {basis_counts.get('unknown', 0)}"
+    )
     print(f"{'=' * 70}")
 
     print(f"\n  Top 15 groups by size:\n")
@@ -282,8 +348,8 @@ def print_summary(conn: duckdb.DuckDBPyConnection, groups: dict) -> None:
         if not in_coll:
             continue
         ipd_members += len(in_coll)
-        has_ipd = any("IPD" in t for _, t, _ in in_coll)
-        has_opd = any("OPD" in t for _, t, _ in in_coll)
+        has_ipd = any("IPD" in t for _, t, _, _ in in_coll)
+        has_opd = any("OPD" in t for _, t, _, _ in in_coll)
         if has_ipd and has_opd:
             mixed += 1
         elif has_ipd:
