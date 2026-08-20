@@ -2,14 +2,16 @@
 .venv
 pip
 /venv
-
+pii_test/SCRIPT_UPDATE_PLAN.md
 scripts/__pycache__/
+pii_test/FP_ANALYSIS_ROUND2.md
 
 /data/first_batch_datasets
 /data/first_batch_downloads
 *.db
-
+transformation/metadata.db.bak-20260806
 /transformation/token.json
+pii_test/DETECTION_IMPROVEMENT_PLAN.md
 
 /transformation/metadata.db
 /transformation/token.json

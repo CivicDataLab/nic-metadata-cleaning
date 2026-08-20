@@ -1,0 +1,46 @@
+uuid,ministry,column,row_index,entity_type,entity_text,score,source
+1ac8c094-9950-4236-905b-f4ace212ed69,ministry-of-home-affairs-department-of-home-registrar-general-and-census-commissioner-india,Railway Station Name,0,PERSON,GADHI MANIKPUR,0.710053026676178,presidio
+1ac8c094-9950-4236-905b-f4ace212ed69,ministry-of-home-affairs-department-of-home-registrar-general-and-census-commissioner-india,Railway Station Name,1,PERSON,KUNDA HARNAMGANJ,0.8872240781784058,presidio
+339967d7-bae5-4eba-9dfb-3a7bf89c5637,ministry-of-fisheries-animal-husbandry-and-dairying,Parametars,1,PERSON,Second,0.6817775368690491,presidio
+339967d7-bae5-4eba-9dfb-3a7bf89c5637,ministry-of-fisheries-animal-husbandry-and-dairying,Parametars,2,PERSON,Third,0.9959557056427002,presidio
+11bc5c14-6304-4068-a90d-cfd83d935d9f,ministry-of-home-affairs,Vocational Trainning,47,PERSON,Cloth Khesh,0.7702603340148926,presidio
+11bc5c14-6304-4068-a90d-cfd83d935d9f,ministry-of-home-affairs,Vocational Trainning,69,PERSON,Cloth Wovener,0.9329596757888794,presidio
+11bc5c14-6304-4068-a90d-cfd83d935d9f,ministry-of-home-affairs,Vocational Trainning,71,PERSON,Carden Produce,0.85,presidio
+4ee34f1c-7be4-4e06-a5f9-702416a43b09,ministry-of-finance,Aggregator(s) appointed by PFRDA,9,PERSON,Bandhan Konnagar,0.8146564364433289,presidio
+4ee34f1c-7be4-4e06-a5f9-702416a43b09,ministry-of-finance,Aggregator(s) appointed by PFRDA,43,PERSON,Shree Kshetra Dharmsthala Rural Development Project,0.85,presidio
+4ee34f1c-7be4-4e06-a5f9-702416a43b09,ministry-of-finance,Aggregator(s) appointed by PFRDA,44,PERSON, Mahila Sewa Sahakari,0.793893039226532,presidio
+4ee34f1c-7be4-4e06-a5f9-702416a43b09,ministry-of-finance,Aggregator(s) appointed by PFRDA,44,PERSON,Shri Mahila Sewa Sahakari BankLtd,0.85,presidio
+812177f2-a216-4599-94dd-2445a5dd40ce,ministry-of-home-affairs,Particulars,8,PERSON,C. Yaba,0.7989822626113892,presidio
+812177f2-a216-4599-94dd-2445a5dd40ce,ministry-of-home-affairs,Particulars,9,PERSON,C. Bottle Syrup,0.85,presidio
+812177f2-a216-4599-94dd-2445a5dd40ce,ministry-of-home-affairs,Particulars,10,PERSON,D. NIL,0.7512984275817871,presidio
+812177f2-a216-4599-94dd-2445a5dd40ce,ministry-of-home-affairs,Particulars,11,PERSON,E. NIL,0.7515571713447571,presidio
+812177f2-a216-4599-94dd-2445a5dd40ce,ministry-of-home-affairs,Particulars,85,PERSON,Pist,0.85,presidio
+812177f2-a216-4599-94dd-2445a5dd40ce,ministry-of-home-affairs,Particulars,88,PERSON,Ak Amn,0.9770711660385132,presidio
+315702e3-a6f3-4c22-b39a-6f3ade468f48,ministry-of-home-affairs,Crime Head,48,PERSON, Ransom,0.7953440546989441,presidio
+7136aa0b-03a4-4b08-b6c0-e5cb578314e0,ministry-of-home-affairs-department-of-home-registrar-general-and-census-commissioner-india,Railway Station Name,0,PERSON,MANDI DABWALI,0.8365699052810669,presidio
+7136aa0b-03a4-4b08-b6c0-e5cb578314e0,ministry-of-home-affairs-department-of-home-registrar-general-and-census-commissioner-india,Bus Route Name,0,PERSON,MANDI DABWALI,0.8365699052810669,presidio
+84b44333-f0d1-4de9-bafb-965ea6b468d8,ministry-of-home-affairs,Crime Head (Col.1),7,PERSON,2.5.2 Assault,0.85,presidio
+59e2807c-dde3-4737-ac72-b7e1177a7d00,ministry-of-home-affairs-department-of-home-registrar-general-and-census-commissioner-india,Bus Route Name,9,PERSON,ZADGAON,0.85,presidio
+59e2807c-dde3-4737-ac72-b7e1177a7d00,ministry-of-home-affairs-department-of-home-registrar-general-and-census-commissioner-india,Bus Route Name,11,PERSON,KARLE,0.7129956483840942,presidio
+59e2807c-dde3-4737-ac72-b7e1177a7d00,ministry-of-home-affairs-department-of-home-registrar-general-and-census-commissioner-india,Bus Route Name,12,PERSON,KUWARBAV,0.85,presidio
+01de9173-8ab0-4b12-82cc-b1e064705385,ministry-of-home-affairs,Crime Heads,48,PERSON, Ransom,0.7953440546989441,presidio
+081e711b-6603-4903-b3bf-3426a740056e,ministry-of-home-affairs-department-of-home-registrar-general-and-census-commissioner-india,Railway Station Name,4,PERSON,Landhaura,0.85,presidio
+8bb6088c-2173-4d4e-9cbe-6053f1d3740f,ministry-of-home-affairs-department-of-home-registrar-general-and-census-commissioner-india,Bus Route Name,3,PERSON,Kamalnagar,0.85,presidio
+03023465-d9e8-4d6f-a615-b50af3de901c,ministry-of-home-affairs-department-of-home-registrar-general-and-census-commissioner-india,Bus Route Name,12,PERSON,MANAPAKKAM,0.85,presidio
+03023465-d9e8-4d6f-a615-b50af3de901c,ministry-of-home-affairs-department-of-home-registrar-general-and-census-commissioner-india,Railway Station Name,16,PERSON,NANDIVARAM GUDUVANCHERI,0.820816159248352,presidio
+03023465-d9e8-4d6f-a615-b50af3de901c,ministry-of-home-affairs-department-of-home-registrar-general-and-census-commissioner-india,Railway Station Name,34,PERSON,VELACHERI,0.7856848239898682,presidio
+03023465-d9e8-4d6f-a615-b50af3de901c,ministry-of-home-affairs-department-of-home-registrar-general-and-census-commissioner-india,Railway Station Name,71,PERSON,KARUNKUZHI,0.85,presidio
+03023465-d9e8-4d6f-a615-b50af3de901c,ministry-of-home-affairs-department-of-home-registrar-general-and-census-commissioner-india,Bus Route Name,71,PERSON,KARUNGUZHI,0.85,presidio
+6b35f568-86a6-456c-8342-0909a6481471,ministry-of-home-affairs,Crime Heads,48,PERSON, Ransom,0.7953440546989441,presidio
+0f98d898-78ea-497d-8be5-e5028158da6f,ministry-of-home-affairs,Causes of Accidental Deaths,19,PERSON,AnimalKilling/ Bitting,0.85,presidio
+c54acf87-6535-48fe-99d2-bc7f12c10d17,ministry-of-jal-shakti,Aggregate Evapotranspiration Volume (one thousand million cubic feet),60,PHONE_NUMBER,0.039892386,0.4,presidio
+b0afe511-4766-42c5-8e61-6f3b1a2ff758,ministry-of-home-affairs-department-of-home-registrar-general-and-census-commissioner-india,Bus Route Name,9,PERSON,Kodiyal,0.85,presidio
+a92f450e-594a-4bf3-bea4-be59fc15bbb3,ministry-of-fisheries-animal-husbandry-and-dairying,Items,0,PERSON,Frozen Shrimp,0.85,presidio
+a92f450e-594a-4bf3-bea4-be59fc15bbb3,ministry-of-fisheries-animal-husbandry-and-dairying,Items,1,PERSON,Frozen Shrimp,0.85,presidio
+a92f450e-594a-4bf3-bea4-be59fc15bbb3,ministry-of-fisheries-animal-husbandry-and-dairying,Items,2,PERSON,Cuttlefish/ Fillets,0.85,presidio
+a92f450e-594a-4bf3-bea4-be59fc15bbb3,ministry-of-fisheries-animal-husbandry-and-dairying,Items,3,PERSON,Cuttlefish/ Fillets,0.85,presidio
+a92f450e-594a-4bf3-bea4-be59fc15bbb3,ministry-of-fisheries-animal-husbandry-and-dairying,Items,4,PERSON,Frozen Squids,0.85,presidio
+a92f450e-594a-4bf3-bea4-be59fc15bbb3,ministry-of-fisheries-animal-husbandry-and-dairying,Items,5,PERSON,Frozen Squids,0.85,presidio
+42e875c9-0bda-431d-936c-61cd81d9e9f7,ministry-of-home-affairs,Crime Head Col. (2),16,PERSON, Ransom,0.7953445911407471,presidio
+ce6ba5e4-3917-4408-b4f0-022141e1b808,ministry-of-home-affairs,Crime Head,16,PERSON, Ransom,0.7953445911407471,presidio
+8aab0d11-03ea-43bb-91f4-794d23f176d5,ministry-of-home-affairs,Crime Head (Col.2),10,PERSON, Ransom,0.7951476573944092,presidio
