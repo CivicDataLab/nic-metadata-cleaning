@@ -1,0 +1,204 @@
+"""
+Build the cross-dataset frequency blocklist used by pii_filters.
+
+The premise: a personal name is confined to the dataset that is about that
+person. Of the 304 genuine names in the reference VC directory
+(581bc9f5-1559-4e4e-bb0d-78bb3d1c9974), 300 appear in exactly one dataset and
+none in more than three. A value that turns up in dozens of unrelated
+ministries' files is a category, not a person -- "Dacoity" appears in 584.
+
+This counts, for every normalised PERSON value in the detection tables, how
+many distinct datasets it was seen in, and writes ``count<TAB>value`` for
+every value seen in at least two. pii_filters rejects anything above
+CROSS_DATASET_MAX outright and uses the smaller counts to decide the
+dataset-level flag.
+
+Three things to know before trusting the output:
+
+(a) Detections stored before the switch to word-level NER aggregation are
+    subword fragments ("Robb", "lerks", "HUNJHUNUN"). Fragments in the list
+    are inert rather than harmful -- they can no longer be produced -- but the
+    list only becomes fully effective once regenerated from a clean re-scan.
+    Regenerate it again after the remaining 74% of the corpus is scanned.
+(b) A very common real name could eventually cross the threshold in a corpus
+    holding many genuine rosters. The rejection is applied at the
+    detection-filter level with its own traceable reason
+    ("cross-dataset-common") precisely so this can be audited, and the
+    threshold revisited against the labelled set.
+(c) Datasets known to hold genuine names are excluded from the counts, so the
+    blocklist cannot be poisoned by the real names in them.
+
+Usage:
+    python pii_test/build_frequency_blocklist.py             # writes gazetteer/cross_dataset_common.txt
+    python pii_test/build_frequency_blocklist.py --min-datasets 5
+    python pii_test/build_frequency_blocklist.py --stats     # what it would remove from the current table
+"""
+
+import argparse
+import collections
+import logging
+import os
+import sys
+from datetime import date
+
+import duckdb
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from pii_filters import CROSS_DATASET_MAX, normalize_entity_text  # noqa: E402
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
+
+DB_PATH = "transformation/metadata.db"
+DETECTIONS_TABLE = "pii_detections_lot2"
+# The pre-reset snapshot. Its filters were weaker, so it covers far more
+# datasets (14,901 vs 2,435) and gives the frequency count a wider view of
+# what recurs across the corpus.
+DETECTIONS_BASELINE = "pii_detections_lot2_baseline"
+OUTPUT_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                           "gazetteer", "cross_dataset_common.txt")
+
+# Datasets whose PERSON values are known to be real people. Their names must
+# not contribute to the frequency counts -- see caveat (c) above.
+KNOWN_GENUINE_UUIDS = (
+    "581bc9f5-1559-4e4e-bb0d-78bb3d1c9974",   # university VC directory
+)
+
+# Values shorter than this are never written: at that length a blocklist entry
+# collides with real name particles and initials.
+MIN_VALUE_LENGTH = 4
+
+# Counts below this are not worth storing -- a value seen in one dataset is
+# the default assumption anyway (see pii_filters.cross_dataset_frequency).
+MIN_STORED_COUNT = 2
+
+
+def count_datasets_per_value(conn, tables, exclude_uuids):
+    """{normalised PERSON value: number of distinct datasets it appears in}."""
+    placeholders = ", ".join("?" for _ in exclude_uuids)
+    selects = "\n  UNION\n".join(
+        f'  SELECT DISTINCT uuid, entity_text FROM {t}\n'
+        f"  WHERE entity_type = 'PERSON' AND uuid NOT IN ({placeholders})"
+        for t in tables
+    )
+    rows = conn.execute(selects, list(exclude_uuids) * len(tables)).fetchall()
+
+    counts = collections.Counter()
+    for _uuid, text in rows:
+        normalized = normalize_entity_text(text)
+        if len(normalized) >= MIN_VALUE_LENGTH:
+            counts[normalized] += 1
+    logging.info(f"{len(rows):,} distinct (dataset, value) pairs -> "
+                 f"{len(counts):,} distinct values")
+    return counts
+
+
+def existing_tables(conn, wanted):
+    present = {t[0] for t in conn.execute("SHOW TABLES").fetchall()}
+    found = [t for t in wanted if t in present]
+    for missing in (t for t in wanted if t not in present):
+        logging.warning(f"{missing} does not exist -- skipping it as a source")
+    if not found:
+        raise SystemExit("No detection tables to count from")
+    return found
+
+
+def write_blocklist(path, counts, threshold, tables):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    stored = sorted(((n, v) for v, n in counts.items() if n >= MIN_STORED_COUNT),
+                    key=lambda item: (-item[0], item[1]))
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write("# Generated by pii_test/build_frequency_blocklist.py -- "
+                 "do not edit by hand.\n")
+        fh.write(f"# Snapshot: {date.today().isoformat()}   "
+                 f"Source tables: {', '.join(tables)}\n")
+        fh.write(f"# Rejection threshold at generation time: "
+                 f"CROSS_DATASET_MAX = {threshold} "
+                 f"(a value is rejected when it appears in more than "
+                 f"{threshold} datasets).\n")
+        fh.write(f"# Excluded as known-genuine: {', '.join(KNOWN_GENUINE_UUIDS)}\n")
+        fh.write("# Format: <dataset count><TAB><normalised value>. Values with a\n"
+                 "# count of 1 are omitted; pii_filters assumes 1 for anything absent.\n")
+        for n, value in stored:
+            fh.write(f"{n}\t{value}\n")
+
+    rejected = sum(1 for n, _ in stored if n > threshold)
+    logging.info(f"Wrote {len(stored):,} values to {path} "
+                 f"({rejected:,} above the threshold of {threshold})")
+    return stored
+
+
+def report_distribution(counts, threshold):
+    buckets = [(1, 1), (2, 3), (4, 10), (11, 50), (51, 10 ** 9)]
+    logging.info("Values by number of datasets they appear in:")
+    for low, high in buckets:
+        n = sum(1 for c in counts.values() if low <= c <= high)
+        label = f"{low}" if low == high else (f">{low - 1}" if high > 10 ** 6
+                                              else f"{low}-{high}")
+        logging.info(f"  appears in {label:>6} dataset(s): {n:>7,} values"
+                     f"{'   <- rejected' if low > threshold else ''}")
+
+
+def report_stats(conn, counts, threshold, table):
+    """How much of the current detection table the blocklist would remove."""
+    rows = conn.execute(f"""
+        SELECT entity_text, COUNT(*) FROM {table}
+        WHERE entity_type = 'PERSON' GROUP BY 1
+    """).fetchall()
+    total = removed = 0
+    top = []
+    for text, n in rows:
+        total += n
+        if counts.get(normalize_entity_text(text), 0) > threshold:
+            removed += n
+            top.append((n, text))
+    if not total:
+        logging.warning(f"{table} holds no PERSON detections")
+        return
+    logging.info(f"Against {table}: would remove {removed:,} of {total:,} "
+                 f"PERSON detections ({100 * removed / total:.1f}%)")
+    logging.info("Largest removals:")
+    for n, text in sorted(top, reverse=True)[:15]:
+        logging.info(f"  {n:>7,}  {text!r}")
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Build the cross-dataset frequency blocklist.")
+    parser.add_argument("--out", default=OUTPUT_PATH, help="Output path")
+    parser.add_argument("--min-datasets", type=int, default=CROSS_DATASET_MAX,
+                        metavar="N",
+                        help="Reject a value appearing in more than N datasets. "
+                             "Recorded in the file header; pii_filters applies "
+                             "its own CROSS_DATASET_MAX at load time, so change "
+                             "both together.")
+    parser.add_argument("--stats", action="store_true",
+                        help="Also report what the list removes from the current table")
+    args = parser.parse_args()
+
+    if not os.path.exists(DB_PATH):
+        raise SystemExit(f"Database not found: {DB_PATH} (run from the repo root)")
+    if args.min_datasets != CROSS_DATASET_MAX:
+        logging.warning(
+            f"--min-datasets {args.min_datasets} differs from "
+            f"pii_filters.CROSS_DATASET_MAX ({CROSS_DATASET_MAX}); the filter "
+            f"will apply {CROSS_DATASET_MAX} until that constant is changed too")
+
+    conn = duckdb.connect(DB_PATH, read_only=True)
+    try:
+        tables = existing_tables(conn, [DETECTIONS_TABLE, DETECTIONS_BASELINE])
+        counts = count_datasets_per_value(conn, tables, KNOWN_GENUINE_UUIDS)
+        report_distribution(counts, args.min_datasets)
+        write_blocklist(args.out, counts, args.min_datasets, tables)
+        if args.stats:
+            report_stats(conn, counts, args.min_datasets, DETECTIONS_TABLE)
+    finally:
+        conn.close()
+
+
+if __name__ == "__main__":
+    main()
