@@ -1,6 +1,7 @@
 import logging
 import os
 import re
+import warnings
 
 import pandas as pd
 from presidio_analyzer import (
@@ -11,6 +12,7 @@ from presidio_analyzer import (
 )
 from presidio_analyzer.nlp_engine import SpacyNlpEngine, NerModelConfiguration
 from transformers import pipeline as hf_pipeline
+from transformers.pipelines.token_classification import TokenClassificationPipeline
 
 logger = logging.getLogger(__name__)
 
@@ -40,6 +42,71 @@ SPACY_LABELS_TO_IGNORE = [
 ]
 
 
+def _trim_span(text, start, end):
+    """Shrink [start, end) past whitespace at either edge."""
+    while start < end and text[start].isspace():
+        start += 1
+    while end > start and text[end - 1].isspace():
+        end -= 1
+    return start, end
+
+
+class WordAwareTokenClassificationPipeline(TokenClassificationPipeline):
+    """TokenClassificationPipeline with a correct word boundary for SentencePiece.
+
+    To merge subword tokens back into words, the pipeline needs to know which
+    tokens continue the previous word. For WordPiece/BPE it reads the
+    tokenizer\'s ``continuing_subword_prefix`` (BERT\'s ``##``). XLM-R and MuRIL
+    are SentencePiece Unigram models: they mark word *starts* with U+2581 and
+    have no continuing prefix, so upstream falls back to guessing --
+
+        is_subword = start > 0 and " " not in sentence[start - 1 : start + 1]
+
+    -- and emits ``UserWarning: Tokenizer does not support real words, using
+    fallback heuristic`` once per batch. Two things are wrong with the guess:
+
+    1. It tests for an ASCII space only. KCC advisory cells are newline-
+       delimited field labels, and a newline is not a space, so every field
+       after a name was judged a continuation of it.
+    2. More fundamentally, a SentencePiece word-start token *absorbs the
+       whitespace before it*: the token spanning "\\nPara" of
+       "...RAHUL KUMAR\\nParasrampur" starts at the newline, so
+       ``sentence[start - 1]`` reads the "R" that ends KUMAR -- one character
+       too far left, on a token that plainly begins a word.
+
+    Together those turned a cell whose per-token predictions are exactly right
+    (RAHUL KUMAR / Parasrampur / DEVENDRA SINGH, all at 0.96-1.00) into two
+    run-on spans, " Farmer\\nRAHUL" at 0.40 and " SINGH\\nMobile" at 0.65 --
+    the second of which is a real name pushed *below*
+    pii_filters.PERSON_SCORE_FLOOR by a tokenization artefact.
+
+    The rule below reads the token\'s own first character instead of the one
+    before it, which is what SentencePiece itself means by a word start.
+    Everything else -- the aggregation strategies, the label grouping -- is
+    upstream\'s, unchanged.
+    """
+
+    def gather_pre_entities(self, sentence, *args, **kwargs):
+        # *args/**kwargs: the upstream signature has gained parameters
+        # (word_ids, word_to_chars_map) across releases, and this override
+        # cares about none of them.
+        with warnings.catch_warnings():
+            # The fallback runs and warns inside super() before we correct it.
+            warnings.simplefilter("ignore", UserWarning)
+            pre_entities = super().gather_pre_entities(sentence, *args, **kwargs)
+
+        for pre in pre_entities:
+            start = pre["start"]
+            if start is None:
+                continue
+            pre["is_subword"] = not (
+                start == 0
+                or sentence[start].isspace()
+                or sentence[start - 1].isspace()
+            )
+        return pre_entities
+
+
 class HfNerPipeline:
     """Batched HuggingFace token-classification wrapper for GPU NER.
 
@@ -57,6 +124,14 @@ class HfNerPipeline:
     # The word-level strategies (first/max/average) need a fast tokenizer,
     # which both models have. "average" is the one that de-fragments *and*
     # deflates the scores back to something a threshold can act on.
+    #
+    # Re-checked after WordAwareTokenClassificationPipeline fixed the word
+    # boundary, since correct grouping changes what each strategy is worth.
+    # "average" is still the only one that discriminates: it separates
+    # "JHUNJHUNUN" (a village mislabelled PER, 0.46) from "RAHUL KUMAR"
+    # (0.83), with PERSON_SCORE_FLOOR sitting between them. "max" returns
+    # 0.95-1.00 for both -- a max over subwords saturates -- and "first"
+    # additionally keeps trailing punctuation ("Ram Prasad,").
     AGGREGATION_STRATEGY = "average"
 
     def __init__(self, model_name, device="cpu", max_length=512):
@@ -71,6 +146,7 @@ class HfNerPipeline:
                 aggregation_strategy=self.AGGREGATION_STRATEGY,
                 device=device,
                 torch_dtype=dtype,
+                pipeline_class=WordAwareTokenClassificationPipeline,
             )
         except Exception as exc:
             raise RuntimeError(
@@ -90,20 +166,32 @@ class HfNerPipeline:
         outputs = self._pipe([texts[i] for i in order], batch_size=batch_size)
         results = [None] * len(texts)
         for i, out in zip(order, outputs):
-            results[i] = self._to_results(out)
+            results[i] = self._to_results(out, texts[i])
         return results
 
-    def _to_results(self, outputs):
+    def _to_results(self, outputs, text=""):
         results = []
         for out in outputs:
             label = out.get("entity_group") or out.get("entity")
             if label not in self._label_map:
                 continue
+            start, end = int(out["start"]), int(out["end"])
+            if text:
+                # A SentencePiece word-start token absorbs the whitespace
+                # before it, so spans arrive with it attached ("\\nParasrampur")
+                # and a lone U+2581 at a line break is a real token with a
+                # whitespace-only span -- which surfaces as a PERSON whose
+                # text is "" at score 1.00. Trim to the content; drop what is
+                # left with none. Downstream this is what makes entity_text
+                # and pii_filters\' cell-coverage ratio exact.
+                start, end = _trim_span(text, start, end)
+                if start >= end:
+                    continue
             results.append(
                 RecognizerResult(
                     entity_type=self._label_map[label],
-                    start=int(out["start"]),
-                    end=int(out["end"]),
+                    start=start,
+                    end=end,
                     score=float(out.get("score", 0.0)),
                     analysis_explanation=None,
                 )
@@ -698,6 +786,42 @@ def build_analyzer(include_transformer_recognizer=True, device="cpu"):
     return analyzer, gpu_ner
 
 
+def resolve_overlaps(results):
+    """Reduce overlapping same-type spans over one text to the best of each.
+
+    Three passes look at every cell -- the HF NER models, spaCy via Presidio,
+    and run_pii_s3\'s structured field-label patterns -- and they routinely
+    find the same name with different boundaries. Deduplicating on an exact
+    (type, start, end) key, which is all this used to do, keeps every one of
+    them: the PM-Kisan block in the KCC sample reported "RAHUL KUMAR" at 0.95
+    from the field-label pattern *and* "RAHUL KUMAR\\nAddress" at 0.85 from
+    spaCy, which is one person counted twice, once with the next field label
+    attached.
+
+    Highest score wins; the shorter span breaks a tie, since the tighter
+    boundary is the one that has not absorbed a neighbour. Different entity
+    types are resolved independently -- "Village Rampur" being a LOCATION does
+    not stop a PERSON overlapping it -- and the original order is restored so
+    output stays stable.
+    """
+    order = {id(r): i for i, r in enumerate(results)}
+    by_type = {}
+    for r in results:
+        by_type.setdefault(r.entity_type, []).append(r)
+
+    kept = []
+    for candidates in by_type.values():
+        accepted = []
+        for r in sorted(candidates,
+                        key=lambda r: (-r.score, r.end - r.start, order[id(r)])):
+            if any(r.start < a.end and a.start < r.end for a in accepted):
+                continue
+            accepted.append(r)
+        kept.extend(accepted)
+
+    return sorted(kept, key=lambda r: order[id(r)])
+
+
 def batch_analyze_cells(
     cell_info,
     analyzer,
@@ -754,16 +878,10 @@ def batch_analyze_cells(
             exc, sum(1 for v in per_text.values() if v),
         )
 
-    # 3. Dedup per unique text on (entity_type, start, end), then fan out
-    #    to every cell that contained that text.
+    # 3. Resolve each unique text\'s results down to one span per region,
+    #    then fan out to every cell that contained that text.
     for t, results in per_text.items():
-        seen = set()
-        deduped = []
-        for r in results:
-            k = (r.entity_type, r.start, r.end)
-            if k not in seen:
-                seen.add(k)
-                deduped.append(r)
+        deduped = resolve_overlaps(results)
         if not deduped:
             continue
         for cell_key in text_cells[t]:

@@ -574,31 +574,58 @@ def _column_keeps(values):
     return keep
 
 
-def filter_column_context(detections):
-    """Drop PERSON detections that their own column's statistics contradict.
+def filter_column_context(detections, cardinality_by_column=None):
+    """Drop PERSON detections that their own column contradicts.
+
+    Three questions, cheapest first: is this column a roster at all
+    (cardinality), does the value sit in its cell the way a name sits in one
+    (cell context), and does the value repeat like a label (the column\'s own
+    distribution)?
 
     Non-PERSON detections pass through: they come from regexes with structural
     constraints, and a repeated email address is still an email address.
     """
+    ratios = cardinality_by_column or {}
+
+    def categorical(column):
+        # A column of 23 crop names over 250 rows is a controlled vocabulary,
+        # and "French Bean" is one of its terms rather than somebody called
+        # French. evaluate_dataset_flag has always known this; until now it
+        # knew it one line too late to remove the detection.
+        ratio = ratios.get(column)
+        return ratio is not None and ratio <= NAME_LIKE_CARDINALITY_RATIO
+
+    def judged(d):
+        return d["entity_type"] == "PERSON" and d.get("source") != "regex"
+
+    surviving = [d for d in detections
+                 if not judged(d)
+                 or (not categorical(d["column"]) and survives_cell_context(d))]
+
     by_column = {}
-    for d in detections:
-        if d["entity_type"] == "PERSON" and d.get("source") != "regex":
+    for d in surviving:
+        if judged(d):
             by_column.setdefault(d["column"], []).append(d["entity_text"])
 
     keeps = {col: _column_keeps(vals) for col, vals in by_column.items()}
-    return [d for d in detections
-            if d["entity_type"] != "PERSON" or d.get("source") == "regex"
-            or keeps[d["column"]](d["entity_text"])]
+    return [d for d in surviving
+            if not judged(d) or keeps[d["column"]](d["entity_text"])]
 
 
-def filter_detections(detections):
+def filter_detections(detections, cardinality_by_column=None):
     """Drop detections the filters reject.
 
     Two passes: the stateless per-detection filters, then the column-aware
     pass over what survives. Single entry point, so every caller gets both.
+
+    The cell-context keys are stripped from the survivors -- they exist to be
+    read by the filters and would otherwise turn up as columns in every
+    exported detections CSV.
     """
     kept = [d for d in detections if filter_detection(d)]
-    return filter_column_context(kept)
+    kept = filter_column_context(kept, cardinality_by_column)
+    return [{k: v for k, v in d.items() if k not in CELL_CONTEXT_KEYS}
+            for d in kept]
 
 
 # --- Dataset-level flag ---
@@ -637,6 +664,71 @@ PERSONAL_PHONE_KINDS = {"mobile"}
 # hits are certainly a repeated category -- but above it they are not
 # necessarily people, which is why this is only the first of three tests.
 NAME_LIKE_CARDINALITY_RATIO = 0.5
+
+# --- Free-text context ---
+#
+# A PERSON detection that *is* its cell and a PERSON detection that is nine
+# characters out of an 1,800-character advisory are not the same claim. The
+# second is a span the model cut out of running prose, and in the KCC export
+# every one of those was scheme boilerplate: " Samman" out of "Pradhan Mantri
+# Kisan Samman Nidhi Yojna", "छिड़काव करे|" out of a spraying instruction,
+# "करण नरेंद्र" out of a list of wheat cultivars. What separates the two real
+# names buried in the very same column is not their shape -- "RAHUL KUMAR" and
+# "करण नरेंद्र" are equally name-shaped -- but what precedes them:
+# "Name Of Farmer\nRAHUL KUMAR", "कटिहार, श्री दिनकर प्रसाद सिंह". So inside
+# prose a name has to be introduced.
+
+# Below this share of its cell a PERSON detection is a fragment of running
+# text rather than the cell's value, and needs a naming cue to survive.
+FRAGMENT_COVERAGE = 0.5
+
+# Cells this short are labels and codes, not prose. A detection inside one is
+# not a fragment however small its share, so the cue is not required -- which
+# is what keeps short "Surname, Firstname" cells intact.
+MIN_PROSE_CELL_LEN = 40
+
+# How far back of the span to look for the cue. Long enough for
+# "Father/Spouse/Guardian Name:", short enough that the "श्रीमान जी" opening a
+# 190-character advisory does not license a name 100 characters later.
+NAME_CUE_WINDOW = 48
+
+# Relationship and honorific words that introduce a name in running text.
+_LATIN_NAME_CUE_RE = re.compile(
+    r"\b(?:name|s/o|d/o|w/o|c/o|shri|sri|smt|kum|mr|mrs|ms|dr|prof)\b",
+    re.IGNORECASE)
+# Matched as substrings, not with \b: a word boundary is defined by \w, and
+# Devanagari matras are not \w, so "\bश्री\b" would never match at all.
+_DEVANAGARI_NAME_CUES = (
+    "नाम", "श्री", "श्रीमती", "कुमारी", "पुत्र", "पुत्री", "पत्नी", "पिता",
+)
+
+# Keys run_pii_s3 attaches for the rules above. They are filter inputs, not
+# results, so filter_detections strips them off the survivors and nothing
+# downstream has to know they existed.
+CELL_CONTEXT_KEYS = ("cell_len", "left_context")
+
+
+def _is_introduced_name(detection):
+    """Whether a naming cue sits just before this span in its cell."""
+    context = (detection.get("left_context") or "")[-NAME_CUE_WINDOW:]
+    if _LATIN_NAME_CUE_RE.search(context):
+        return True
+    return any(cue in context for cue in _DEVANAGARI_NAME_CUES)
+
+
+def survives_cell_context(detection):
+    """True to keep a PERSON detection given where it sits in its cell.
+
+    Detections carrying no cell context are passed through: the rule is
+    evidence-based, and a caller that did not supply the evidence must not
+    have its detections silently dropped.
+    """
+    cell_len = detection.get("cell_len")
+    if not cell_len or cell_len <= MIN_PROSE_CELL_LEN:
+        return True
+    if len(detection["entity_text"]) / cell_len >= FRAGMENT_COVERAGE:
+        return True
+    return _is_introduced_name(detection)
 
 # Cross-dataset frequency bar for corroboration. Stricter than
 # CROSS_DATASET_MAX, which governs individual detections: a column whose
@@ -1016,6 +1108,65 @@ if __name__ == "__main__":
         ("Notes", ["Rahul Kumar"] * 3 + ["Amar Singh"], 4,
          "a value repeated 3 of 4 times survives -- too few to judge a share"),
     ]
+    # Where a PERSON span sits inside its cell, and whether its column is a
+    # roster at all. Both taken from the KCC advisory export -- the cells are
+    # the real ones, truncated only where length is not the point.
+    print()
+    kcc_answer = (" जिन किसान का बैंक खाता एवं NPCI से नहीं जुड़ा है वैसे किसान "
+                  "तुरंत पोस्ट ऑफिस जा कर खाता खुलवाएं |\n\nRegistration NO.\n"
+                  "BR259782384\nName Of Farmer\nRAHUL KUMAR\nAddress\n"
+                  "Parasrampur\nFather/Spouse/Guardian Name:\nDEVENDRA SINGH\n"
+                  "Mobile No\n7739668923\n")
+    query_text = "Query Related to Pradhan Mantri Kisan Samman Nidhi Yojna "
+    advisory = ("किसान भाई  बैगन के फसल में तना और फल छेदक किट के नियंत्रण के लिए "
+                "इमामेक्टिन बेंजोएट 5% SG 4 ग्राम प्रति 10 लीटर पानी में घोल बनाकर "
+                "छिड़काव  करे| ")
+    cell_context_cases = [
+        (kcc_answer, "RAHUL KUMAR", True,
+         "0.8% of its cell, but introduced by 'Name Of Farmer'"),
+        (kcc_answer, "DEVENDRA SINGH", True,
+         "introduced by 'Father/Spouse/Guardian Name:'"),
+        (" कटिहार, श्री दिनकर प्रसाद सिंह                      9431818755 ",
+         "दिनकर प्रसाद सिंह", True, "introduced by the honorific श्री"),
+        (query_text, "Samman", False, "a fragment of scheme boilerplate"),
+        (query_text, "Query Related", False,
+         "23% of the cell and nothing introduces it"),
+        (advisory, "छिड़काव  करे|", False, "a fragment of a spraying instruction"),
+        ("गेहूं की- डीबीडबल्यू 303 (करण वैष्णवी), करण नरेंद्र आदि किस्में बोयें",
+         "करण नरेंद्र", False, "a wheat cultivar listed among cultivars"),
+        ("Rahul Kumar", "Rahul Kumar", True, "the whole of a short cell"),
+        ("Kumar, Rahul (Bihar)", "Rahul", True,
+         "a short cell is a label, not prose -- no cue required"),
+    ]
+    for cell, entity, expected, why in cell_context_cases:
+        start = cell.index(entity)
+        detection = {"column": "KccAns", "entity_type": "PERSON",
+                     "entity_text": entity, "score": 0.85, "source": "presidio",
+                     "cell_len": len(cell),
+                     "left_context": cell[max(0, start - 64):start]}
+        got = survives_cell_context(detection)
+        ok = got == expected
+        failures += not ok
+        print(f"{'yes' if ok else 'NO ':<4} cell-context {entity[:22]!r:26} "
+              f"-> {str(got):<5} ({why})")
+
+    print()
+    cardinality_cases = [
+        ("Crop", ["French Bean", "Beet Root"], {"Crop": 0.09}, 0,
+         "23 crop names over 250 rows is a vocabulary, not a roster"),
+        ("Crop", ["French Bean", "Beet Root"], {}, 2,
+         "an unmeasured column is not judged categorical"),
+        ("Member Name", ["Rahul Kumar", "Amar Singh"], {"Member Name": 0.98}, 2,
+         "an all-distinct roster is untouched"),
+    ]
+    for column, values, ratios, expected, why in cardinality_cases:
+        kept = len(filter_column_context(_person_column(column, values), ratios))
+        ok = kept == expected
+        failures += not ok
+        print(f"{'yes' if ok else 'NO ':<4} cardinality  {column!r:14} "
+              f"{len(values)} -> {kept} (expected {expected}; {why})")
+
+    print()
     for column, values, expected, _why in column_context_cases:
         kept = len(filter_column_context(_person_column(column, values)))
         ok = kept == expected
@@ -1076,7 +1227,8 @@ if __name__ == "__main__":
         print(f"{'yes' if ok else 'NO ':<4} {label:<52} -> {flagged} ({reason})")
 
     print()
-    total = (len(test_cases) + len(phone_cases) + len(aadhaar_cases)
+    total = (len(cell_context_cases) + len(cardinality_cases)
+             + len(test_cases) + len(phone_cases) + len(aadhaar_cases)
              + len(column_cases) + len(script_cases) + len(phone_cases)
              + len(column_context_cases) + len(flag_cases))
     print(f"{total - failures}/{total} passed, {failures} failed")

@@ -24,6 +24,7 @@ from pii_utils import (
     list_ministry_csv_keys,
     list_ministry_folders,
     regex_pii_matches,
+    resolve_overlaps,
     select_detection_columns,
     RecognizerResult
 )
@@ -66,28 +67,53 @@ LOT2_DETECTIONS_BASE_KEY = "pii-results-lot2/pii_detections"
 
 DB_PATH = "transformation/metadata.db"
 
-# Add to pii_utils.py
+# Field labels the PM-Kisan registration block pastes into KCC answers, where
+# the value on the next line is a name whatever the model thinks of it.
+#
+# The case-insensitivity is scoped to the *label*. Written as a leading
+# "(?i)" it also applied to the capture group, so "[A-Z][A-Z\s]{2,40}" --
+# meant to read one line of an ALL-CAPS name -- matched any letters and any
+# whitespace, newlines included, and ran on through the rest of the record:
+# "RAHUL KUMAR\\nAddress\\nParasrampur\\nDate of R". The capture is now
+# confined to a single line by excluding the newline from its character class.
+#
+# The separator is optional because the block is not consistently formatted:
+# "Name Of Farmer\\nRAHUL KUMAR" and "Name Of Farmer MD ALAM" and
+# "Address :Pachdahi" all occur. Requiring a newline or a colon missed the
+# third form, and what filled the gap was spaCy\'s looser reading of the same
+# text ("Farmer MD ALAM\\nAddress").
 FIELD_NAME_PATTERNS = [
-    re.compile(r"(?i)name\s+of\s+farmer\s*[\n:]\s*([A-Z][A-Z\s]{2,40})", re.MULTILINE),
-    re.compile(r"(?i)farmer\s+name\s*[\n:]\s*([A-Z][A-Z\s]{2,40})", re.MULTILINE),
-    re.compile(r"(?i)father[/\w]*\s+name\s*[\n:]\s*([A-Z][A-Z\s]{2,40})", re.MULTILINE),
-    re.compile(r"(?i)guardian\s+name\s*[\n:]\s*([A-Z][A-Z\s]{2,40})", re.MULTILINE),
+    re.compile(r"(?i:name\s+of\s+farmer)\s*:?\s*([A-Za-z][A-Za-z .]{2,40})"),
+    re.compile(r"(?i:farmer\s+name)\s*:?\s*([A-Za-z][A-Za-z .]{2,40})"),
+    re.compile(r"(?i:father[/\w]*\s+name)\s*:?\s*([A-Za-z][A-Za-z .]{2,40})"),
+    re.compile(r"(?i:guardian\s+name)\s*:?\s*([A-Za-z][A-Za-z .]{2,40})"),
 ]
 
+
 def extract_structured_names(text):
-    """Extract names from known KCC/PM-Kisan field label patterns."""
+    """Extract names from known KCC/PM-Kisan field label patterns.
+
+    Spans are de-duplicated: "Father/Spouse/Guardian Name:" is matched by both
+    the father and the guardian pattern, which otherwise emits the same name
+    twice and doubles its weight in every column statistic downstream.
+    """
     results = []
+    seen = set()
     for pat in FIELD_NAME_PATTERNS:
         for m in pat.finditer(text or ""):
-            name = m.group(1).strip()
-            if len(name) >= 3:
-                results.append(RecognizerResult(
-                    entity_type="PERSON",
-                    start=m.start(1),
-                    end=m.end(1),
-                    score=0.95,
-                    analysis_explanation=None,
-                ))
+            start, end = m.span(1)
+            while end > start and text[end - 1].isspace():
+                end -= 1
+            if end - start < 3 or (start, end) in seen:
+                continue
+            seen.add((start, end))
+            results.append(RecognizerResult(
+                entity_type="PERSON",
+                start=start,
+                end=end,
+                score=0.95,
+                analysis_explanation=None,
+            ))
     return results
 
 def log_column_selection(uuid, columns, skipped):
@@ -188,6 +214,11 @@ def write_folder_summary(out_path, root, paths, results):
 
 
 FOLDER_DETECTIONS_FILENAME = "pii_detections.csv"
+
+# Characters of a cell kept before each span, for the naming-cue rule in
+# pii_filters. Wider than NAME_CUE_WINDOW so the filter, not the caller, owns
+# how far back it looks.
+CELL_CONTEXT_CHARS = 64
 
 
 def write_folder_detections(root, paths, results, filename=FOLDER_DETECTIONS_FILENAME):
@@ -496,11 +527,16 @@ def scan_local_file(path):
             cache = {}
             result["degraded"] = True
 
-        # Merge structured field extractions into cache per cell
+        # Merge structured field extractions into cache per cell. These
+        # arrive after batch_analyze_cells has already resolved overlaps
+        # among its own passes, so the affected cells are resolved again --
+        # a field-label name and spaCy\'s looser reading of the same name are
+        # exactly the pair that needs it.
         for row_i, col, text in [(r, c, t) for r, c, t, _ in cell_info]:
             structured = extract_structured_names(text)
             if structured:
-                cache.setdefault((row_i, col), []).extend(structured)
+                key = (row_i, col)
+                cache[key] = resolve_overlaps(cache.get(key, []) + structured)
 
         for (row_i, col), analyzer_results in cache.items():
             text = cell_text[(row_i, col)]
@@ -516,6 +552,10 @@ def scan_local_file(path):
                     "entity_text": snippet,
                     "score": r.score,
                     "source": "presidio",
+                    # Where the span sits in its cell. filter_detections reads
+                    # these and strips them, so they never reach an export.
+                    "cell_len": len(text),
+                    "left_context": text[max(0, r.start - CELL_CONTEXT_CHARS):r.start],
                 })
 
         for (row_i, col), text in cell_text.items():
@@ -530,8 +570,8 @@ def scan_local_file(path):
                     "source": "regex",
                 })
 
-        detections = filter_detections(detections)
         cardinality = {col: column_cardinality_ratio(df[col], rows_limit) for col in columns}
+        detections = filter_detections(detections, cardinality)
         pii_found, flag_reason = evaluate_dataset_flag(detections, cardinality)
 
         result["rows_scanned"] = rows_limit
@@ -615,6 +655,10 @@ def _scan_s3_csv(s3_client, uuid, s3_key):
                     "entity_text": snippet,
                     "score": r.score,
                     "source": "presidio",
+                    # Where the span sits in its cell. filter_detections reads
+                    # these and strips them, so they never reach an export.
+                    "cell_len": len(text),
+                    "left_context": text[max(0, r.start - CELL_CONTEXT_CHARS):r.start],
                 })
 
         # Regex pass remains per-cell (it's negligible cost and not GPU-bound).
@@ -630,12 +674,12 @@ def _scan_s3_csv(s3_client, uuid, s3_key):
                     "source": "regex",
                 })
 
-        detections = filter_detections(detections)
+        cardinality = {col: column_cardinality_ratio(df[col], rows_limit) for col in columns}
+        detections = filter_detections(detections, cardinality)
 
         # Every surviving detection is still recorded; the flag is a stricter,
         # separate question -- one PERSON hit in a repeated-value column is
         # not evidence that this dataset carries personal data.
-        cardinality = {col: column_cardinality_ratio(df[col], rows_limit) for col in columns}
         pii_found, flag_reason = evaluate_dataset_flag(detections, cardinality)
 
         return {
