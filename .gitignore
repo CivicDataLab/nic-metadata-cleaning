@@ -22,5 +22,5 @@ pii_test/pii_service/*.log
 pii_test/pii_service/*.pid
 pii_test/pii_service/*.sock
 # Labelled PII test sample from S3 (pii-test-sample.zip) -- real PII, 671MB
-pii_test/pii-test-sample/
+
 pii_test/FP_ANALYSIS_ROUND3.md

@@ -1,0 +1,105 @@
+file,column,row_index,entity_type,entity_text,score,source
+msme - andra pradesh.csv,CommunicationAddress,3,PERSON,Sanjeev Gandhi,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,11,PERSON,ALI AKBAR TAILORS,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,13,PERSON,Mahaboob Basha,0.8344045877456665,presidio
+msme - andra pradesh.csv,EnterpriseName,14,PERSON,BALAJI KANNEPAREDDY,0.7488853931427002,presidio
+msme - andra pradesh.csv,EnterpriseName,15,PERSON,Priya Traders,0.7718899250030518,presidio
+msme - andra pradesh.csv,CommunicationAddress,16,PERSON,Rajeev Gandi Colony,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,24,PERSON,SR PURAM,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,28,PERSON,Sholinghur to Pallipet Road,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,31,PERSON,KARIM THULLABAD,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,32,PERSON,Virata Puram,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,32,PERSON,Virata Puram,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,33,PERSON,SREE UDHAYA BHANU TRANSPORT,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,37,PERSON," SASI KIRAN,",0.7186876535415649,presidio
+msme - andra pradesh.csv,CommunicationAddress,45,PERSON,pujarivari palli,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,46,PERSON,G ESHVAR REDDY,0.9830916523933411,presidio
+msme - andra pradesh.csv,EnterpriseName,50,PERSON,SHAIK AHAMAD BASHA,0.8185450434684753,presidio
+msme - andra pradesh.csv,EnterpriseName,52,PERSON,P HASSAN KHAN,0.9979679584503174,presidio
+msme - andra pradesh.csv,EnterpriseName,52,PERSON,HASSAN KHAN,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,53,PERSON,Chandra Mohan,0.9998315572738647,presidio
+msme - andra pradesh.csv,EnterpriseName,54,PERSON,Venkata Muruga Sai Transport,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,54,PERSON,ATHI KAYALA NAIDU STREET,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,64,PERSON,Kvb puram,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,66,PERSON,Apparao Thota,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,66,PERSON,Apparao Thota,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,66,PERSON,Apparao Thota,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,67,PERSON,KARVETI NAGAR,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,69,PERSON,"GOVINDA REDDY PALLE,",0.7095006108283997,presidio
+msme - andra pradesh.csv,CommunicationAddress,69,PERSON,"GOVINDA REDDY PALLE,",0.7123556137084961,presidio
+msme - andra pradesh.csv,EnterpriseName,72,PERSON,SHAIK IMTIYAZ,0.7510533332824707,presidio
+msme - andra pradesh.csv,EnterpriseName,73,PERSON,PILLAI MANJU,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,73,PERSON,PILLAI MANJU,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,75,PERSON, chitti babu,0.8024793863296509,presidio
+msme - andra pradesh.csv,EnterpriseName,75,PERSON,chitti babu,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,89,PERSON,P Sreedhar,0.8556244373321533,presidio
+msme - andra pradesh.csv,CommunicationAddress,89,PERSON,Nellepalle Mitta,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,89,PERSON,Nellepalle Mitta,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,89,PERSON,Nellepalle Mitta,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,93,PERSON,SREE MANJUNATHA,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,93,PERSON,Kotha Peta,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,98,PERSON,SAI BABA TEMPLE,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,99,PERSON,Shaik Abdul Kalam,0.8412866592407227,presidio
+msme - andra pradesh.csv,CommunicationAddress,99,PERSON, Shaik Abdul,0.7509221434593201,presidio
+msme - andra pradesh.csv,CommunicationAddress,99,PERSON,Shaik Abdul Kalam,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,99,PERSON,Sivaji Nagar,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,101,PERSON,Nurish Rajak shaik,0.7650620341300964,presidio
+msme - andra pradesh.csv,EnterpriseName,101,PERSON,Nurish Rajak,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,103,PERSON,Lakshmi Transport,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,105,PERSON,K t. Road,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,112,PERSON,S CHANDRA SEKHAR,0.8689274191856384,presidio
+msme - andra pradesh.csv,CommunicationAddress,113,PERSON,LENIN NAGAR,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,116,PERSON,R MANI KUMAR,0.9467867612838745,presidio
+msme - andra pradesh.csv,CommunicationAddress,116,PERSON,GUTTAKINDA PALLI,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,117,PERSON,MUNISEKHAR KUMAR,0.8719302415847778,presidio
+msme - andra pradesh.csv,EnterpriseName,117,PERSON,MUNISEKHAR KUMAR T,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,121,PERSON,Sree Tejeswi Milk Depo,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,121,PERSON,Narayana Puram,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,124,PERSON,SREE KANAKADURGA TRANSPORT,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,125,PERSON,SURA SUDHARSHANA BABU,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,127,PERSON,K CHITHRA,0.9913729429244995,presidio
+msme - andra pradesh.csv,EnterpriseName,128,PERSON,JAI SHANKAR,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,130,PERSON,CHALLA VENKATESH,0.9164474010467529,presidio
+msme - andra pradesh.csv,EnterpriseName,138,PERSON,JALLA LOKANATH,0.7885494232177734,presidio
+msme - andra pradesh.csv,EnterpriseName,139,PERSON, NAGABHUSHANAM NAIDU,0.9028778672218323,presidio
+msme - andra pradesh.csv,EnterpriseName,141,PERSON,M KANITHKAR,0.9989984035491943,presidio
+msme - andra pradesh.csv,EnterpriseName,147,PERSON,PEMMINETI VENKATESWARLU,0.8873768448829651,presidio
+msme - andra pradesh.csv,EnterpriseName,149,PERSON,TALARI KIRAN KUMAR,0.8334459662437439,presidio
+msme - andra pradesh.csv,EnterpriseName,151,PERSON, Dilli Babu,0.7513822913169861,presidio
+msme - andra pradesh.csv,CommunicationAddress,151,PERSON,Monabotu palli,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,153,PERSON,VINJAM VILL,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,154,PERSON,T S Lokesh Babu,0.9169384241104126,presidio
+msme - andra pradesh.csv,CommunicationAddress,154,PERSON,lokesh babu,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,159,PERSON,RAVI ENTERPRISES SALES,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,160,PERSON,RADHA KRISHNA STONE CRUSHER,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,169,PERSON, BHARATH KUMAR REDDY,0.8868828415870667,presidio
+msme - andra pradesh.csv,EnterpriseName,169,PERSON,KUMAR REDDY,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,170,PERSON,JAI NAGAR,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,170,PERSON,KAJOOR GUDUPALLE,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,171,PERSON,VIJAY TRANSPORTS,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,177,PERSON,MK NAIDU COLONY,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,179,PERSON,Jangam Lokesh,0.751380980014801,presidio
+msme - andra pradesh.csv,EnterpriseName,180,PERSON, SANDEEP REDDY,0.8127279281616211,presidio
+msme - andra pradesh.csv,CommunicationAddress,181,PERSON," THIMMASANIPALLI, MAPAKSHI,",0.6976602077484131,presidio
+msme - andra pradesh.csv,EnterpriseName,183,PERSON,M S KRISHNAREDDY,0.9860969185829163,presidio
+msme - andra pradesh.csv,EnterpriseName,185,PERSON,SRI BALAJI,0.985873818397522,presidio
+msme - andra pradesh.csv,EnterpriseName,192,PERSON,Sri Venkateswara,0.9920108914375305,presidio
+msme - andra pradesh.csv,EnterpriseName,194,PERSON,ramakrishna naik,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,195,PERSON, P BHARATHI,0.9460262656211853,presidio
+msme - andra pradesh.csv,EnterpriseName,202,PERSON,Sree vari,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,204,PERSON,Venkateshwara Fashions,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,205,PERSON,G MOHAN,0.9992396831512451,presidio
+msme - andra pradesh.csv,CommunicationAddress,206,PERSON,Valasapalle Panchayath,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,208,PERSON,KRISHNA MURTHY,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,208,PERSON," SN PURAM,",0.685614287853241,presidio
+msme - andra pradesh.csv,CommunicationAddress,208,PERSON,RAJIV NAGR,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,208,PERSON,RAVIJ NAGR,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,211,PERSON,PEMMA SURENDRA REDDY,0.8072356581687927,presidio
+msme - andra pradesh.csv,EnterpriseName,221,PERSON, VENKATRAMI REDDY,0.9132865071296692,presidio
+msme - andra pradesh.csv,CommunicationAddress,233,PERSON," KADIRINATHUNIKOTA, KADIRINATHUNIKOTA,",0.7135659456253052,presidio
+msme - andra pradesh.csv,CommunicationAddress,236,PERSON,INDIRA NAGAR,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,237,PERSON,RAJIV NAGAR,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,237,PERSON,RAJIV NAGAR,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,241,PERSON,SIRI DHANYALU MILLET MALT,0.7101972103118896,presidio
+msme - andra pradesh.csv,EnterpriseName,245,PERSON,GIRISH ENTREPRISESS,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,247,PERSON,TELLAMEKALA PRAVEEN KUMAR,0.7549250721931458,presidio

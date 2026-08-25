@@ -1,0 +1,11 @@
+file,label,rows_scanned,pii_found,pii_flag_reason,entity_count,pii_types,columns_scanned,columns_skipped,degraded,error
+pii-false-postive/msme - andra pradesh.csv,pii-false-postive,250,True,"name-like PERSON columns: CommunicationAddress (cardinality 1.00, 100% name-shaped), EnterpriseName (cardinality 0.99, 100% name-shaped)",104,PERSON,3,6,False,
+pii-permissible/former_mem_Eng_Jan_2016.csv,pii-permissible,250,True,regex-verified EMAIL_ADDRESS in Email ID,2742,"EMAIL_ADDRESS,PERSON",15,14,False,
+pii-permissible/former_mem_Eng_Nov_2017.csv,pii-permissible,250,True,regex-verified EMAIL_ADDRESS in Email ID,2803,"EMAIL_ADDRESS,PERSON",15,14,False,
+pii-permissible/former_members_hindi_Jan_2016.xls,pii-permissible,250,True,regex-verified EMAIL_ADDRESS in Email ID,648,"EMAIL_ADDRESS,PERSON",14,15,False,
+pii-permissible/former_members_hindi_nov_2017.xls,pii-permissible,250,True,regex-verified EMAIL_ADDRESS in Email ID,635,"EMAIL_ADDRESS,PERSON",14,15,False,
+pii-present/2023_Q4.csv,pii-present,250,True,"regex-verified EMAIL_ADDRESS,FARMER_REGISTRATION_ID,PHONE_NUMBER in KccAns",68,"EMAIL_ADDRESS,FARMER_REGISTRATION_ID,PERSON,PHONE_NUMBER",3,10,False,
+pii-present/Annual Health Survey - Woman Schedule (Section-I) of the district Allahabad (Uttar Pradesh).csv,pii-present,250,False,no detections,0,,3,194,False,
+pii-present/Annual Health Survey - Woman Schedule (Section-I) of the district Almora (Uttarakhand).csv,pii-present,250,False,no detections,0,,14,183,False,
+pii-present/Annual Health Survey - Woman Schedule (Section-I) of the district Ambedkar Nagar (Uttar Pradesh).csv,pii-present,250,False,no detections,0,,3,194,False,
+"pii-present/Combined Household Houselist Information under Annual Health Survey in Tehri Garhwal, Uttarakhand.csv",pii-present,250,False,no detections,0,,2,96,False,
