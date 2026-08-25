@@ -1,0 +1,33 @@
+# systemd unit for the PII scan service. Install (needs sudo):
+#   sudo cp pii_test/pii_service/pii-scan.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now pii-scan
+#
+# Serves on a unix socket at /run/pii-scan/gunicorn.sock, owned
+# ubuntu:www-data mode 0660, so nginx can reach it and nothing else can.
+[Unit]
+Description=PII scan web service (gunicorn)
+After=network.target
+
+[Service]
+User=ubuntu
+# Primary group of the process, and therefore the group that owns the
+# socket gunicorn creates. www-data is nginx's user on Ubuntu; change it if
+# nginx runs as something else (check: ps -o user= -C nginx).
+Group=www-data
+WorkingDirectory=/home/ubuntu/nic-metadata-cleaning
+# systemd creates /run/pii-scan (tmpfs, recreated each boot) and removes it
+# when the service stops, so a stale socket can never outlive the process.
+RuntimeDirectory=pii-scan
+RuntimeDirectoryMode=0750
+Environment=PII_SERVICE_BIND=unix:/run/pii-scan/gunicorn.sock
+# Environment=PII_SERVICE_DEVICE=cpu     # uncomment to leave the GPU alone
+ExecStart=/home/ubuntu/nic-metadata-cleaning/.venv/bin/gunicorn -c pii_test/pii_service/gunicorn.conf.py app:app
+ExecReload=/bin/kill -s HUP $MAINPID
+Restart=on-failure
+RestartSec=5
+# graceful_timeout is 300s; give systemd a little more before SIGKILL.
+TimeoutStopSec=310
+
+[Install]
+WantedBy=multi-user.target

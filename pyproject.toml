@@ -89,6 +89,11 @@ dependencies = [
     "wordcloud==1.9.4",
     "wrapt==1.17.2",
     "xmltodict==0.12.0",
+    "fastapi>=0.128.1",
+    "uvicorn>=0.52.4",
+    "python-multipart>=0.0.32",
+    "gunicorn>=26.1.0",
+    "uvicorn-worker>=0.4.0",
 ]
 
 [tool.uv.sources]
