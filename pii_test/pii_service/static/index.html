@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PII Scan</title>
+<style>
+  :root { --ink:#1a1d21; --mut:#6a7480; --line:#dde3ea; --ok:#0a7a3d; --bad:#b42318; --accent:#0b57d0; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;
+         color:var(--ink); background:#f6f8fa; }
+  main { max-width:680px; margin:3rem auto; padding:0 1rem; }
+  h1 { font-size:1.4rem; margin:0 0 .25rem; }
+  .sub { color:var(--mut); margin:0 0 1.5rem; font-size:.92rem; }
+  form, #result { background:#fff; border:1px solid var(--line); border-radius:10px;
+         padding:1.25rem; margin-bottom:1rem; }
+  label { display:block; font-size:.85rem; color:var(--mut); margin-bottom:.3rem; }
+  input[type=file] { width:100%; padding:.5rem; border:1px dashed var(--line);
+         border-radius:8px; background:#fafbfc; }
+  .row { display:flex; gap:1rem; margin-top:1rem; align-items:flex-end; flex-wrap:wrap; }
+  input[type=number] { width:9rem; padding:.45rem .6rem; border:1px solid var(--line);
+         border-radius:8px; font:inherit; }
+  button { padding:.55rem 1.4rem; border:0; border-radius:8px; background:var(--accent);
+         color:#fff; font:inherit; font-weight:600; cursor:pointer; }
+  button:disabled { background:#9db6e4; cursor:default; }
+  #status { margin:.9rem 0 0; font-size:.92rem; color:var(--mut); min-height:1.4em; }
+  #result { display:none; }
+  .flag { font-weight:700; }
+  .flag.ok  { color:var(--ok); }
+  .flag.bad { color:var(--bad); }
+  table { border-collapse:collapse; width:100%; margin:.75rem 0; font-size:.92rem; }
+  td { padding:.35rem .5rem; border-top:1px solid var(--line); vertical-align:top; }
+  td:first-child { color:var(--mut); white-space:nowrap; width:11rem; }
+  .links a { display:inline-block; margin:.25rem 1.25rem 0 0; color:var(--accent);
+         font-weight:600; text-decoration:none; }
+  .links a:hover { text-decoration:underline; }
+</style>
+</head>
+<body>
+<main>
+  <h1>PII Scan</h1>
+  <p class="sub">Upload a CSV; it runs through the LOT&nbsp;2 detection pipeline
+    (column selection, NER, filters) and the detections come back as a CSV.
+    Results are deleted after 6 hours.</p>
+
+  <form id="form">
+    <label for="file">CSV file (max 100&nbsp;MB)</label>
+    <input type="file" id="file" accept=".csv" required>
+    <div class="row">
+      <div>
+        <label for="maxrows">Rows to scan (max 50,000)</label>
+        <input type="number" id="maxrows" min="1" max="50000" value="50000">
+      </div>
+      <button id="go" type="submit">Scan</button>
+    </div>
+    <p id="status"></p>
+  </form>
+
+  <section id="result">
+    <div id="flag"></div>
+    <table id="summary"></table>
+    <div class="links">
+      <a id="dl-det" download>Download detections.csv</a>
+      <a id="dl-sum" download>Download summary.json</a>
+    </div>
+  </section>
+</main>
+
+<script>
+"use strict";
+const $ = id => document.getElementById(id);
+const form = $("form"), status_ = $("status"), result = $("result");
+let timer = null;
+
+form.addEventListener("submit", async ev => {
+  ev.preventDefault();
+  clearInterval(timer);
+  result.style.display = "none";
+  $("go").disabled = true;
+
+  const body = new FormData();
+  body.append("file", $("file").files[0]);
+  body.append("max_rows", $("maxrows").value || 50000);
+
+  try {
+    status_.textContent = "Uploading…";
+    const res = await fetch("/scan", { method: "POST", body });
+    if (!res.ok) throw new Error((await res.json()).detail || res.statusText);
+    poll((await res.json()).job_id, Date.now());
+  } catch (err) {
+    fail(err.message);
+  }
+});
+
+function poll(jobId, started) {
+  timer = setInterval(async () => {
+    let job;
+    try {
+      const res = await fetch("/jobs/" + jobId);
+      if (!res.ok) throw new Error((await res.json()).detail || res.statusText);
+      job = await res.json();
+    } catch (err) { return fail(err.message); }
+
+    const secs = Math.round((Date.now() - started) / 1000);
+    if (job.status === "queued") {
+      status_.textContent = job.model_loaded
+        ? "Queued — position " + job.queue_position
+        : "Queued — models are still loading (about a minute)";
+    } else if (job.status === "running") {
+      status_.textContent = "Scanning… " + secs + "s";
+    } else if (job.status === "error") {
+      fail(job.error);
+    } else if (job.status === "done") {
+      clearInterval(timer);
+      $("go").disabled = false;
+      status_.textContent = "Done in " + secs + "s.";
+      render(jobId, job.summary);
+    }
+  }, 1000);
+}
+
+function render(jobId, s) {
+  const flag = $("flag");
+  flag.className = "flag " + (s.pii_found ? "bad" : "ok");
+  flag.textContent = s.pii_found
+    ? "PII flagged: " + (s.pii_flag_reason || "")
+    : "No PII flagged" + (s.pii_flag_reason ? " (" + s.pii_flag_reason + ")" : "");
+
+  const skipped = (s.columns_skipped || []).map(c => Array.isArray(c) ? c[0] : c);
+  const rows = [
+    ["File", s.filename],
+    ["Rows scanned", s.rows_scanned.toLocaleString() + " (cap " + s.max_rows.toLocaleString() + ")"],
+    ["Detections kept", s.entity_count.toLocaleString()],
+    ["Entity types", (s.pii_types || []).join(", ") || "—"],
+    ["Columns scanned", (s.columns_scanned || []).join(", ") || "—"],
+    ["Columns skipped", skipped.join(", ") || "—"],
+    ["Scan time", s.scan_seconds + "s" + (s.degraded ? " (degraded: NER failed, regex only)" : "")],
+  ];
+  $("summary").innerHTML = rows.map(([k, v]) =>
+    "<tr><td>" + k + "</td><td>" + esc(String(v)) + "</td></tr>").join("");
+  $("dl-det").href = "/jobs/" + jobId + "/detections.csv";
+  $("dl-sum").href = "/jobs/" + jobId + "/summary.json";
+  result.style.display = "block";
+}
+
+function fail(message) {
+  clearInterval(timer);
+  $("go").disabled = false;
+  status_.textContent = "Failed: " + message;
+}
+
+const esc = t => t.replace(/[&<>"']/g,
+  ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
+</script>
+</body>
+</html>

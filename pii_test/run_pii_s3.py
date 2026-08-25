@@ -12,6 +12,7 @@ import torch
 from botocore.exceptions import ClientError
 import re
 from pii_utils import (
+    COLUMN_SAMPLE_ROWS,
     KEEP,
     LOT2_S3_ROOT_PREFIX,
     batch_analyze_cells,
@@ -110,13 +111,114 @@ def get_s3_client():
     return boto3.client("s3")
 
 
-def read_csv_robust(path):
+# Tabular formats the local --path scan understands. Excel is not incidental
+# here: the Lok Sabha member directories ship as .xls, and a format that is
+# silently skipped looks identical to one that was scanned and found clean.
+TABULAR_EXTENSIONS = (".csv", ".xls", ".xlsx")
+
+
+def read_row_limit(max_rows):
+    """How many rows to actually read off disk.
+
+    Only the first ``max_rows`` rows are ever scanned, but the column
+    heuristics sample up to COLUMN_SAMPLE_ROWS rows independently -- so
+    reading fewer than that would quietly change which columns get skipped.
+    """
+    return max(max_rows, COLUMN_SAMPLE_ROWS)
+
+
+def read_csv_robust(path, nrows=None):
     """Read a CSV, falling back for non-UTF-8 exports (0xa0 etc. are common
     in Windows-1252 files on data.gov.in)."""
     try:
-        return pd.read_csv(path)
+        return pd.read_csv(path, nrows=nrows)
     except UnicodeDecodeError:
-        return pd.read_csv(path, encoding="cp1252", encoding_errors="replace")
+        return pd.read_csv(path, encoding="cp1252", encoding_errors="replace",
+                           nrows=nrows)
+
+
+def read_tabular(path, nrows=None):
+    """Read a CSV or Excel file, reading at most ``nrows`` data rows.
+
+    Bounding the read is what makes a folder of real datasets scannable: the
+    largest file in the test corpus is 490MB, of which only the first
+    --max-rows rows are ever looked at.
+    """
+    if os.path.splitext(path)[1].lower() in (".xls", ".xlsx"):
+        try:
+            return pd.read_excel(path, nrows=nrows)
+        except ImportError as exc:
+            # .xls needs xlrd, .xlsx needs openpyxl. Say which, rather than
+            # letting a missing optional dependency read as a corrupt file.
+            raise RuntimeError(
+                f"Cannot read {os.path.basename(path)}: {exc}. "
+                "Install the Excel engine with: pip install xlrd openpyxl"
+            ) from exc
+    return read_csv_robust(path, nrows=nrows)
+
+
+def write_folder_summary(out_path, root, paths, results):
+    """One row per file scanned in a folder run.
+
+    ``label`` is the immediate parent folder name. The test corpus encodes
+    the expected answer that way (pii-present / pii-permissible /
+    pii-false-postive), so the summary is directly gradeable without the
+    caller having to join anything back together.
+    """
+    rows = []
+    for path, result in zip(paths, results):
+        rel = os.path.relpath(path, root)
+        parent = os.path.dirname(rel)
+        rows.append({
+            "file": rel,
+            "label": parent.split(os.sep)[0] if parent else "",
+            "rows_scanned": result["rows_scanned"],
+            "pii_found": result["pii_found"],
+            "pii_flag_reason": result.get("pii_flag_reason"),
+            "entity_count": result["entity_count"],
+            "pii_types": ",".join(result["pii_types"]),
+            "columns_scanned": len(result.get("columns_scanned") or []),
+            "columns_skipped": len(result.get("columns_skipped") or []),
+            "degraded": result.get("degraded", False),
+            "error": result["error"],
+        })
+    pd.DataFrame(rows).to_csv(out_path, index=False)
+    logging.info(f"Wrote folder summary for {len(rows)} file(s) to {out_path}")
+    return rows
+
+
+FOLDER_DETECTIONS_FILENAME = "pii_detections.csv"
+
+
+def write_folder_detections(root, paths, results, filename=FOLDER_DETECTIONS_FILENAME):
+    """Write one consolidated detections CSV per folder scanned.
+
+    A folder run is a comparison between folders, so the detections are
+    grouped the same way -- one file per folder rather than one per input,
+    which otherwise scatters a CSV beside every dataset. Each row carries the
+    source file so a consolidated view stays traceable back to it.
+    """
+    by_folder = {}
+    for path, result in zip(paths, results):
+        if not result["detections"]:
+            continue
+        rel = os.path.relpath(path, root)
+        folder = os.path.dirname(os.path.join(root, rel)) or root
+        for det in result["detections"]:
+            by_folder.setdefault(folder, []).append(
+                {"file": os.path.basename(path), **det})
+
+    written = []
+    for folder, detections in sorted(by_folder.items()):
+        out_path = os.path.join(folder, filename)
+        det_df = pd.DataFrame(detections)
+        # "uuid" is the filename stem for local scans -- redundant next to
+        # the explicit file column, and confusing in a folder-level export.
+        det_df = det_df.drop(columns=["uuid"], errors="ignore")
+        det_df.to_csv(out_path, index=False)
+        logging.info(f"Saved {len(detections)} detections to {out_path}")
+        written.append((out_path, len(detections)))
+    return written
 
 
 def read_dublin_core_metadata():
@@ -363,7 +465,7 @@ def scan_local_file(path):
     }
 
     try:
-        df = read_csv_robust(path)
+        df = read_tabular(path, nrows=read_row_limit(_max_rows))
         columns, skipped_columns = select_detection_columns(df, return_skipped=True)
         log_column_selection(uuid, columns, skipped_columns)
         result["columns_scanned"] = columns
@@ -461,7 +563,7 @@ def _scan_s3_csv(s3_client, uuid, s3_key):
             tmp_path = tmp.name
         s3_client.download_file(S3_BUCKET, s3_key, tmp_path)
 
-        df = read_csv_robust(tmp_path)
+        df = read_csv_robust(tmp_path, nrows=read_row_limit(_max_rows))
         columns, skipped_columns = select_detection_columns(df, return_skipped=True)
         log_column_selection(uuid, columns, skipped_columns)
         if not columns:
@@ -761,7 +863,12 @@ def main():
                         help="Worker processes; 1 = single process (recommended on one GPU). "
                              "Each extra worker loads its own copy of the models.")
     parser.add_argument("--limit", type=int, default=None, help="Limit number of datasets to process (optional)")
-    parser.add_argument("--path", type=str, default=None, help="Run PII detection on a local CSV file (skips S3/DuckDB)")
+    parser.add_argument("--path", type=str, default=None,
+                        help="Run PII detection on a local file or, if a directory, on every "
+                             f"{'/'.join(TABULAR_EXTENSIONS)} file under it recursively (skips S3/DuckDB)")
+    parser.add_argument("--summary-out", type=str, default=None, metavar="CSV",
+                        help="Folder runs only: write a per-file summary (verdict, reason, "
+                             "entity count) to this CSV, labelled by parent folder.")
     parser.add_argument("--lot2", action="store_true",
                         help="Run LOT 2: scan datasets directly from the per-ministry S3 folders under "
                              "downloaded-datasets/ (skipping downloaded-datasets-mohfw/ and ogdp-sample-datasets/), "
@@ -781,20 +888,31 @@ def main():
         device = "cuda" if use_gpu else "cpu"
 
         if os.path.isdir(args.path):
+            # A folder run writes its results back into the folder it scanned,
+            # so without this the second run treats the first run's output as
+            # input -- detections of detections, and a summary row for the
+            # summary itself.
+            generated = {FOLDER_DETECTIONS_FILENAME}
+            if args.summary_out:
+                generated.add(os.path.basename(args.summary_out))
+
             csv_files = []
-            for dirpath, _, filenames in os.walk(args.path):
-                for fname in filenames:
-                    if fname.lower().endswith(".csv"):
+            for dirpath, _, filenames in sorted(os.walk(args.path)):
+                for fname in sorted(filenames):
+                    if fname in generated or fname.endswith("_pii_detections.csv"):
+                        continue
+                    if fname.lower().endswith(TABULAR_EXTENSIONS):
                         csv_files.append(os.path.join(dirpath, fname))
 
             if not csv_files:
-                logging.info(f"No CSV files found under {args.path}")
+                logging.info(
+                    f"No {'/'.join(TABULAR_EXTENSIONS)} files found under {args.path}")
                 return
 
             if args.limit is not None and args.limit > 0:
                 csv_files = csv_files[:args.limit]
 
-            logging.info(f"Found {len(csv_files)} CSV file(s) under {args.path}")
+            logging.info(f"Found {len(csv_files)} data file(s) under {args.path}")
 
             use_multiprocessing = args.worker_count > 1
             if use_multiprocessing:
@@ -827,16 +945,16 @@ def main():
                 logging.info(
                     f"File: {path} | Rows: {result['rows_scanned']} | "
                     f"PII found: {result['pii_found']} | Types: {result['pii_types']} | "
-                    f"Entities: {result['entity_count']}"
+                    f"Entities: {result['entity_count']} | "
+                    f"reason: {result.get('pii_flag_reason')}"
                 )
                 if result["pii_found"]:
                     pii_count += 1
 
-                if result["detections"]:
-                    det_df = pd.DataFrame(result["detections"])
-                    out_path = os.path.splitext(path)[0] + "_pii_detections.csv"
-                    det_df.to_csv(out_path, index=False)
-                    logging.info(f"Saved {len(result['detections'])} detections to {out_path}")
+            write_folder_detections(args.path, csv_files, results)
+
+            if args.summary_out:
+                write_folder_summary(args.summary_out, args.path, csv_files, results)
 
             processed = len(results) - error_count
             logging.info("=" * 50)

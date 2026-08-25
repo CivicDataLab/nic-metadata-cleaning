@@ -27,15 +27,29 @@ Two jobs:
 import logging
 import os
 import re
+import unicodedata
 
 logger = logging.getLogger(__name__)
 
 GAZETTEER_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "gazetteer")
 GAZETTEER_PATH = os.path.join(GAZETTEER_DIR, "place_names.txt")
 
-_PUNCT_RE = re.compile(r"[^\w\s]", re.UNICODE)
+# Unicode combining marks -- Devanagari matras and the virama, Gujarati and
+# Tamil vowel signs, Latin diacritics. Python's re does not count these as \w
+# (they are categories Mn/Mc, not L*), so a punctuation class written as
+# [^\w\s] treats every matra as punctuation and replaces it with a space.
+# That shattered "दिनकर प्रसाद सिंह" into seven fragments -- "द नकर प रस द स ह"
+# -- which made every Devanagari value fail looks_like_person_name and made
+# the token-based organisation and phrase rules unreachable in Indic scripts.
+_COMBINING_MARKS = "".join(
+    chr(c) for c in list(range(0x0300, 0x0E00)) + list(range(0x1AB0, 0x1B00))
+    + list(range(0x1DC0, 0x1E00)) + list(range(0x20D0, 0x2100))
+    if unicodedata.category(chr(c))[0] == "M"
+)
+_PUNCT_RE = re.compile(r"[^\w\s" + re.escape(_COMBINING_MARKS) + r"]", re.UNICODE)
 _WS_RE = re.compile(r"\s+")
 _DEVANAGARI_RE = re.compile(r"[ऀ-ॿ]")
+_DIGIT_RE = re.compile(r"\d")
 
 
 def normalize_entity_text(text):
@@ -401,15 +415,71 @@ def filter_person_detection(entity_text, score, source="presidio"):
         if stopword_ratio >= 0.5:
             return False
 
-    # 3. Closed-vocabulary and place-name rejection
+    # 3. Digits -- a person's name does not contain one. This is what removes
+    #    the coded survey identifiers ("W05UT_091104700040203") that the
+    #    Annual Health Survey files put in a plain "SN" column, and the crop
+    #    variety codes ("RAJ 3077", "RAJ-4120") in the KCC advisory answers.
+    #    Measured on the Lok Sabha member directories it costs nothing: the
+    #    40 true-set values it touches are NER span run-ons ("Akali Dal
+    #    1958-60", "Eleventh Lok Sabha1996-98Member"), not names.
+    if _DIGIT_RE.search(text):
+        return False
+
+    # 4. Closed-vocabulary and place-name rejection
     if rejection_reason(text) is not None:
         return False
 
-    # 4. Score floor -- NER path only; see PERSON_SCORE_FLOOR.
+    # 5. Score floor -- NER path only; see PERSON_SCORE_FLOOR.
     if score < PERSON_SCORE_FLOOR:
         return False
 
     return True
+
+
+# --- Indian numbering plan (DoT / TRAI) ---
+#
+# Toll-free and short-code prefixes. A number in these ranges is published by
+# construction -- it is printed on the scheme leaflet -- so it is a contact
+# point, not a personal one. The KCC advisory answers are full of them:
+# 18001800110 and 18001801551 are the Kisan Call Centre, 155261 is the PM-Kisan
+# helpline.
+INSTITUTIONAL_PREFIXES = ("1800", "1860", "1861", "180", "155", "108", "112")
+
+# National trunk prefix plus a 2-4 digit STD code. Also published contact
+# points in this corpus (011-24300606 is the Ministry of Agriculture,
+# 0612-2233555 the Bihar agriculture department), but unlike a toll-free
+# number a landline *can* be someone's home, so this is a demotion rather
+# than a rejection -- see PERSONAL_PHONE_ENTITIES.
+_STD_LANDLINE_RE = re.compile(r"^0\d{9,10}$")
+# A subscriber mobile: exactly 10 digits opening 6-9. No Indian mobile series
+# begins 0-5, which is what rejects the 10-digit "5653562621".
+_MOBILE_RE = re.compile(r"^[6-9]\d{9}$")
+
+
+def phone_digits(entity_text):
+    """Digits of a phone match, with any country code stripped."""
+    digits = re.sub(r"\D", "", entity_text or "")
+    for cc in ("0091", "91"):
+        if digits.startswith(cc) and len(digits) - len(cc) >= 10:
+            return digits[len(cc):]
+    return digits
+
+
+def classify_phone_number(entity_text):
+    """"mobile", "landline", "institutional" or None if it is not a number.
+
+    The distinction matters because PHONE_NUMBER is trusted to flag a dataset
+    on a single hit, and 44 of the 58 phone numbers in the KCC sample are
+    helplines and government office lines quoted inside advisory answers.
+    """
+    digits = phone_digits(entity_text)
+    if any(digits.startswith(p) for p in INSTITUTIONAL_PREFIXES):
+        return "institutional"
+    if _MOBILE_RE.match(digits):
+        return "mobile"
+    if _STD_LANDLINE_RE.match(digits):
+        return "landline"
+    return None
 
 
 def filter_phone_detection(entity_text, source="presidio"):
@@ -417,11 +487,16 @@ def filter_phone_detection(entity_text, source="presidio"):
 
     Presidio's own phone recognizer matches bare integers, so a column of
     school counts headed "Schools having Functional Mobile Phones ..." yields
-    "169938" as a phone number. Indian numbers are 10 digits, 12 with the
-    country code; anything outside that is a count, not a phone.
+    "169938" as a phone number. Requiring the match to fit some slot in the
+    national numbering plan is a tighter test than the old 10-13 digit count,
+    and it is what rejects a 10-digit aggregate that happens to open with 5.
+
+    Toll-free and short-code numbers are dropped rather than demoted. There is
+    no case in which 1800-180-1551 is somebody's personal number -- the range
+    exists to be published -- so unlike a landline it carries no information
+    that a reviewer would want back.
     """
-    digits = sum(c.isdigit() for c in entity_text or "")
-    return 10 <= digits <= 13
+    return classify_phone_number(entity_text) in ("mobile", "landline")
 
 
 def filter_detection(detection):
@@ -438,9 +513,92 @@ def filter_detection(detection):
     return True
 
 
+# --- Column-aware filtering ---
+#
+# Everything above judges one detection at a time, with no view of the column
+# it came from or of the other detections in it. That is what let "Farmer"
+# through 62 times: the KCC advisory export has a QueryText column whose values
+# are call-centre dropdown labels, and "Farmer asked query on Weather" appears
+# in 60 of 250 sampled rows. Each occurrence is individually plausible; sixty
+# identical ones are not sixty people.
+#
+# The column statistics were already being computed -- run_pii_s3 builds a
+# cardinality map one line after filtering -- but only to decide the dataset
+# flag, never to remove a detection. This pass closes that gap.
+
+# A value holding more than this share of its column's PERSON detections is a
+# repeated label, not a person. On the Lok Sabha member directories no true
+# name reaches 5% of its column; in KCC QueryText "Farmer" holds 44%.
+MAX_VALUE_SHARE_OF_COLUMN = 0.05
+
+# Below this many detections a column has no distribution to speak of and the
+# share test is not applied -- three values would each hold 33%.
+MIN_COLUMN_DETECTIONS = 20
+
+# looks_like_person_name requires two tokens, which is right for a full-name
+# column and wrong for a "First Name" column. Where this share of a column's
+# distinct values are single tokens, treat the column as mononymic and let
+# single tokens through rather than emptying it.
+MONONYM_COLUMN_SHARE = 0.6
+
+
+def _column_keeps(values):
+    """Which of one column's PERSON values survive the column's own statistics.
+
+    Returns a predicate over the value text. Split out from
+    filter_column_context so the two rules stay readable side by side.
+    """
+    total = len(values)
+    counts = {}
+    for v in values:
+        counts[v] = counts.get(v, 0) + 1
+
+    distinct = list(counts)
+    single_token = sum(1 for v in distinct
+                       if len(normalize_entity_text(v).split()) == 1)
+    mononymic = distinct and single_token / len(distinct) >= MONONYM_COLUMN_SHARE
+
+    def keep(value):
+        if (total >= MIN_COLUMN_DETECTIONS
+                and counts[value] / total > MAX_VALUE_SHARE_OF_COLUMN):
+            return False
+        if looks_like_person_name(value):
+            return True
+        # A mononymic column is allowed single tokens, but still not the
+        # things a shape test exists to catch -- digits are already gone by
+        # here, so this only re-admits a bare alphabetic token.
+        return bool(mononymic
+                    and len(normalize_entity_text(value).split()) == 1
+                    and _LETTER_ONLY_RE.match(normalize_entity_text(value)))
+
+    return keep
+
+
+def filter_column_context(detections):
+    """Drop PERSON detections that their own column's statistics contradict.
+
+    Non-PERSON detections pass through: they come from regexes with structural
+    constraints, and a repeated email address is still an email address.
+    """
+    by_column = {}
+    for d in detections:
+        if d["entity_type"] == "PERSON" and d.get("source") != "regex":
+            by_column.setdefault(d["column"], []).append(d["entity_text"])
+
+    keeps = {col: _column_keeps(vals) for col, vals in by_column.items()}
+    return [d for d in detections
+            if d["entity_type"] != "PERSON" or d.get("source") == "regex"
+            or keeps[d["column"]](d["entity_text"])]
+
+
 def filter_detections(detections):
-    """Drop detections the filters reject."""
-    return [d for d in detections if filter_detection(d)]
+    """Drop detections the filters reject.
+
+    Two passes: the stateless per-detection filters, then the column-aware
+    pass over what survives. Single entry point, so every caller gets both.
+    """
+    kept = [d for d in detections if filter_detection(d)]
+    return filter_column_context(kept)
 
 
 # --- Dataset-level flag ---
@@ -454,15 +612,26 @@ def filter_detections(detections):
 #   EMAIL_ADDRESS   Presidio's recognizer; format-constrained.
 #   PAN_NUMBER      Fixed 5-alpha/4-digit/1-alpha layout.
 #   FARMER_REG_ID   2-alpha/9-digit layout, no check digit.
-#   PHONE_NUMBER    Length and leading digit only -- the weakest member, and
-#                   the one that produced the sole false flag in the
-#                   1,000-dataset sample (a 10-digit aggregate volume in
-#                   "Aggregate Evapotranspiration Volume"). Worth a corroboration
-#                   rule of its own before the corpus-wide run.
+#   PHONE_NUMBER    Numbering-plan slot only -- the weakest member, and the
+#                   one that produced the sole false flag in the 1,000-dataset
+#                   sample (a 10-digit aggregate volume in "Aggregate
+#                   Evapotranspiration Volume"). It is now qualified: see
+#                   PERSONAL_PHONE_KINDS.
 HIGH_PRECISION_ENTITIES = {
     "PHONE_NUMBER", "EMAIL_ADDRESS", "AADHAAR_NUMBER",
     "PAN_NUMBER", "FARMER_REGISTRATION_ID",
 }
+
+# Which phone numbers are allowed to flag a dataset by themselves. A toll-free
+# or short-code number is published by construction, and an STD landline
+# quoted in an advisory answer is an office. Both stay in the detection table
+# -- a landline can be someone's home, and suppressing it outright would lose
+# that -- but neither carries a dataset flag on its own.
+#
+# In the KCC sample this is the difference between flagging on 58 phone
+# numbers, 44 of them helplines and ministry switchboards, and flagging on the
+# 14 that are actually subscriber mobiles.
+PERSONAL_PHONE_KINDS = {"mobile"}
 
 # A column of real names is nearly all-distinct. Below this ratio, PERSON
 # hits are certainly a repeated category -- but above it they are not
@@ -478,10 +647,25 @@ FLAG_MAX_MEDIAN_FREQUENCY = 1
 # Share of sampled values that must look like a person's name.
 FLAG_MIN_NAME_SHAPE = 0.5
 
-# 2-4 alphabetic tokens, no digits. Honorifics and initials ("Dr. P.M.
+# 2-5 alphabetic tokens, no digits. Honorifics and initials ("Dr. P.M.
 # Mohan") survive because normalize_entity_text turns the punctuation into
 # spaces, and the token cap is generous enough to absorb them.
-_NAME_SHAPE_RE = re.compile(r"^[^\W\d_]+(?:\s+[^\W\d_]+){1,3}$", re.UNICODE)
+#
+# The cap is 5 rather than 4 because Hindi stacks honorifics where English
+# uses one: "स्व. श्रीमती कॉर्नेलिया बाई साल्वे" is five tokens before the name
+# even starts. On the Lok Sabha member directories that one token buys 5.8
+# points of recall (79.9% -> 85.7% of true name detections) for 0.9 points of
+# precision on the KCC false positives.
+#
+# _LETTER spells out what [^\W\d_] alone cannot: combining marks are not \w in
+# Python's re, so a bare letter class rejects every Devanagari word for its
+# matras. Same root cause as the _PUNCT_RE note above.
+_LETTER = r"(?:[^\W\d_]|[" + re.escape(_COMBINING_MARKS) + r"])"
+_NAME_SHAPE_RE = re.compile(
+    rf"^{_LETTER}+(?:\s+{_LETTER}+){{1,4}}$", re.UNICODE)
+# The same letter class over a single token, for the mononym exemption in
+# filter_column_context.
+_LETTER_ONLY_RE = re.compile(rf"^{_LETTER}+$", re.UNICODE)
 
 
 def looks_like_person_name(text):
@@ -504,6 +688,18 @@ def _median(values):
     if len(ordered) % 2:
         return ordered[mid]
     return (ordered[mid - 1] + ordered[mid]) / 2
+
+
+def _flags_on_its_own(detection):
+    """Whether one high-precision detection may set the dataset flag alone.
+
+    Only PHONE_NUMBER is qualified; every other member of
+    HIGH_PRECISION_ENTITIES carries structure that a published contact point
+    cannot fake.
+    """
+    if detection["entity_type"] != "PHONE_NUMBER":
+        return True
+    return classify_phone_number(detection["entity_text"]) in PERSONAL_PHONE_KINDS
 
 
 def evaluate_dataset_flag(detections, cardinality_by_column=None):
@@ -545,8 +741,9 @@ def evaluate_dataset_flag(detections, cardinality_by_column=None):
     cardinality_by_column = cardinality_by_column or {}
 
     high_precision = [d for d in detections
-                      if d["entity_type"] in HIGH_PRECISION_ENTITIES
-                      or d.get("source") == "regex"]
+                      if (d["entity_type"] in HIGH_PRECISION_ENTITIES
+                          or d.get("source") == "regex")
+                      and _flags_on_its_own(d)]
     if high_precision:
         types = sorted({d["entity_type"] for d in high_precision})
         columns = sorted({d["column"] for d in high_precision})
@@ -752,6 +949,80 @@ if __name__ == "__main__":
             failures += not ok
             print(f"{'yes' if ok else 'NO ':<4} column {column!r:52} -> {decision} ({reason})")
 
+    # Devanagari normalisation. Combining marks are not \w in Python's re, so
+    # the old punctuation class shattered every matra into a space.
+    print()
+    script_cases = [
+        ("दिनकर प्रसाद सिंह", 3, True, "3-token Hindi name, was 7 fragments"),
+        ("स्व. श्रीमती कॉर्नेलिया बाई साल्वे", 5, True,
+         "stacked honorifics -- the case the token cap was widened to 5 for"),
+        ("माध्यम", 1, False, "single Hindi word is not name-shaped"),
+        ("G.L.Puram", 3, True, "initials still split on punctuation"),
+        ("Dr. P.M. Mohan", 4, True, "English honorific plus initials"),
+    ]
+    for text, tokens, shaped, _why in script_cases:
+        n = normalize_entity_text(text)
+        ok = len(n.split()) == tokens and looks_like_person_name(text) == shaped
+        failures += not ok
+        print(f"{'yes' if ok else 'NO ':<4} normalise {text!r:40} -> "
+              f"{len(n.split())} token(s), shaped={looks_like_person_name(text)}")
+
+    # Numbering plan. 44 of the 58 phone numbers in the KCC sample are
+    # helplines and ministry switchboards quoted inside advisory answers.
+    print()
+    phone_cases = [
+        ("7739668923", "mobile", True, "the genuine one in the KCC sample"),
+        ("+91-8102372649", "mobile", True, "country code stripped"),
+        ("99346 93130", "mobile", True, "printed with a space"),
+        ("18001800110", "institutional", False, "Kisan Call Centre toll-free"),
+        ("1800-1800-110", "institutional", False, "same number, hyphenated"),
+        ("155261", "institutional", False, "PM-Kisan short code"),
+        ("011-24300606", "landline", True, "Ministry of Agriculture -- kept, but demoted"),
+        ("0612-2233555", "landline", True, "Bihar agriculture department"),
+        ("5653562621", None, False, "10 digits opening 5 -- no such mobile series"),
+        ("169938", None, False, "a school count, not a phone"),
+    ]
+    for text, kind, kept, _why in phone_cases:
+        got = classify_phone_number(text)
+        ok = got == kind and filter_phone_detection(text) == kept
+        failures += not ok
+        print(f"{'yes' if ok else 'NO ':<4} phone {text!r:18} -> {str(got):14} "
+              f"kept={filter_phone_detection(text)}")
+
+    # Column-aware pass. These are the rules that need more than one detection
+    # to decide, so each case is a whole column.
+    print()
+    def _person_column(column, values):
+        return [{"column": column, "entity_type": "PERSON", "entity_text": v,
+                 "score": 0.85, "source": "presidio"} for v in values]
+
+    column_context_cases = [
+        ("QueryText", ["Farmer"] * 62 + ["Weather"] * 60
+         + ["Rahul Kumar", "Amar Singh", "दिनकर प्रसाद सिंह"], 3,
+         "boilerplate label repeated 60x is not 60 people"),
+        ("Member Name",
+         [f"Shri {first} {last}" for first in
+          ("Amar", "Rahul", "Suresh", "Vijay", "Mohan", "Arun", "Kiran", "Deepak")
+          for last in ("Kumar", "Singh", "Sharma", "Yadav", "Patel")], 40,
+         "an all-distinct roster is untouched"),
+        ("First Name", ["Alphonse", "Devi", "Chauhan", "Ghanshyam", "Dave",
+                        "Indira", "Ramesh", "Sunita", "Kavita", "Mohan",
+                        "Priya", "Rajesh", "Anita", "Vijay", "Suresh",
+                        "Meena", "Arun", "Geeta", "Kiran", "Deepa",
+                        "Nidhi"], 21,
+         "mononym column keeps single tokens rather than emptying"),
+        ("Notes", ["Rahul Kumar", "Farmer", "Amar Singh"], 2,
+         "under 20 detections the share test is skipped, but shape still applies"),
+        ("Notes", ["Rahul Kumar"] * 3 + ["Amar Singh"], 4,
+         "a value repeated 3 of 4 times survives -- too few to judge a share"),
+    ]
+    for column, values, expected, _why in column_context_cases:
+        kept = len(filter_column_context(_person_column(column, values)))
+        ok = kept == expected
+        failures += not ok
+        print(f"{'yes' if ok else 'NO ':<4} column-context {column!r:14} "
+              f"{len(values):>3} -> {kept:>3} (expected {expected})")
+
     # Dataset-level flag. The frequency map is injected per case so these stay
     # deterministic regardless of what the generated blocklist currently holds.
     print()
@@ -806,7 +1077,8 @@ if __name__ == "__main__":
 
     print()
     total = (len(test_cases) + len(phone_cases) + len(aadhaar_cases)
-             + len(column_cases) + len(flag_cases))
+             + len(column_cases) + len(script_cases) + len(phone_cases)
+             + len(column_context_cases) + len(flag_cases))
     print(f"{total - failures}/{total} passed, {failures} failed")
     for label, names in sorted(GAZETTEERS.items()):
         print(f"gazetteer {label:<12} {len(names):>6,} entries")
