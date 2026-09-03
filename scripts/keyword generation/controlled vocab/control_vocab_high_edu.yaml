@@ -1,0 +1,364 @@
+- facet: topic
+  category: Higher Education
+  patterns: ['Higher Education', 'Higher Education Institutions', 'Higher Education Capacity', 'Higher Education Participation', 'Higher Education Planning']
+  generic: [education, universities, colleges, students]
+
+- facet: topic
+  category: School Education
+  patterns: ['School Education', 'School Education Institutions', 'School Education Enrolment', 'School Education Statistics']
+  generic: [school, education, students, schooling]
+
+- facet: topic
+  category: Universities
+  patterns: ['Universities', 'Number of Universities', 'List of All Universities', 'University Institutions', 'University Types']
+  generic: [universities, higher, education, institutions]
+
+- facet: topic
+  category: Colleges
+  patterns: ['Colleges', 'Number of Colleges', 'Number of Different Types of Colleges', 'List of Colleges', 'College Institutions']
+  generic: [colleges, higher, education, institutions]
+
+- facet: topic
+  category: Standalone Institutions
+  patterns: ['Standalone Institutions', 'Stand Alone Institutions', 'Stand-Alone Institutions', 'Standalone Colleges', 'Standalone Institutes']
+  generic: [standalone, institutions, education, colleges]
+
+- facet: topic
+  category: AICTE Approved Institutes
+  patterns: ['AICTE Approved Institutes', 'AICTE Approved PGDM Institutes', 'AICTE Approved Post Diploma Institutes', 'AICTE Approved MBA and Other Institutes']
+  generic: [aicte, institutes, education, approval]
+
+- facet: topic
+  category: University and College Capacity
+  patterns: ['Number of Universities', 'Number of Colleges', 'College per Lakh Population', 'Average Enrolment per College', 'Higher Education Capacity']
+  generic: [universities, colleges, capacity, education]
+
+- facet: topic
+  category: Institutional Distribution
+  patterns: ['State-wise Number of Institutions', 'State-Wise Number of Institutions', 'Number of Institutions by State', 'Districts by Ranges of Number of Colleges']
+  generic: [institutions, states, districts, education]
+
+- facet: topic
+  category: Institutional Management
+  patterns: ['Institutions by Management', 'Distribution of Schools by Management', 'Percentage Distribution of Schools by Management', 'Management-wise Number of Institutions']
+  generic: [management, institutions, schools, education]
+
+- facet: topic
+  category: Institutional Recognition
+  patterns: ['Recognition', 'Number of Colleges by Recognition', 'State-wise Number of Colleges by Recognition', 'Recognition Status']
+  generic: [recognition, colleges, institutions, education]
+
+- facet: topic
+  category: Institutional Specialization
+  patterns: ['Institutions by Specialization', 'Number of Institutions by Specialization', 'State and Specialisation-Wise Number of Universities']
+  generic: [specialization, institutions, universities, education]
+
+- facet: topic
+  category: University Affiliations
+  patterns: ['Institutions Attached with University', 'Type-Wise Number of Institutions Attached with University', 'Management-Wise Number of Institutions Attached with University', 'Universities and Attached Institutions']
+  generic: [universities, affiliation, institutions, education]
+
+- facet: topic
+  category: Distance Education
+  patterns: ['Distance Education', 'Distance Education Mode', 'Distance Mode', 'Distance Learning', 'Universities Offering Distance Education Mode']
+  generic: [distance, education, universities, students]
+
+- facet: topic
+  category: Self-Financing Education
+  patterns: ['Self-Financing Mode', 'Self-Financing Institutions', 'Student Enrolment in Self-Financing Mode', 'Gender Ratio in Self-Financing Mode']
+  generic: [financing, education, institutions, students]
+
+- facet: topic
+  category: Student Enrolment
+  patterns: ['Student Enrolment', 'Student Enrollment', 'Enrolment at Various Levels', 'Enrolment in Various Types of Schools', 'State-wise Enrolment']
+  generic: [students, enrolment, education, participation]
+
+- facet: topic
+  category: Higher Education Enrolment
+  patterns: ['Higher Education Enrolment', 'Enrolment in Universities', 'Enrolment in Colleges', 'Enrolment in Stand Alone Institutions', 'Higher Education Participation']
+  generic: [higher, education, students, enrolment]
+
+- facet: topic
+  category: School Enrolment
+  patterns: ['Enrolment in School Education', 'Enrolment in Various Types of Schools', 'Enrolment in School Education of All Categories Students', 'School Education Enrolment']
+  generic: [school, students, enrolment, education]
+
+- facet: topic
+  category: Open School Education
+  patterns: ['Open School Education', 'Enrolment in Open Schools', 'Enrolment in Open School Education', 'Open School Examination']
+  generic: [open, school, education, students]
+
+- facet: topic
+  category: Student Intake
+  patterns: ['Intake and Student Enrolment', '1st Year Intake', 'First-Year Student Enrolment', 'Institution-wise Intake and Student Enrolment']
+  generic: [intake, students, admissions, enrolment]
+
+- facet: topic
+  category: Programme-wise Enrolment
+  patterns: ['Programme-wise Enrolment', 'Programme-Wise Student Enrolment', 'Programme-wise Male and Female Student Enrolment', 'Foreign Students in Different Programmes']
+  generic: [programmes, students, enrolment, education]
+
+- facet: topic
+  category: Discipline-wise Enrolment
+  patterns: ['Discipline-wise Enrolment', 'Discipline Group and Level-wise Student Enrolment', 'Major Disciplines and Subjects', 'UGC Faculty Group and Level Wise Student Enrolment']
+  generic: [discipline, students, enrolment, education]
+
+- facet: topic
+  category: Undergraduate Education
+  patterns: ['Undergraduate Enrolment', 'Undergraduate Level', 'Undergraduate Enrolment in Major Disciplines and Subjects', 'UG Enrolment']
+  generic: [undergraduate, students, education, enrolment]
+
+- facet: topic
+  category: Postgraduate Education
+  patterns: ['Post Graduate Level', 'Post Graduate Enrolment', 'Ph.D., M.Phil. and Post Graduate Level', 'Postgraduate Education']
+  generic: [postgraduate, students, education, enrolment]
+
+- facet: topic
+  category: PhD and MPhil Education
+  patterns: ['Ph.D.', 'M.Phil.', 'Ph.D., M.Phil. and Post Graduate Level', 'Doctoral Enrolment']
+  generic: [phd, mphil, research, education]
+
+- facet: topic
+  category: Foreign Students
+  patterns: ['Foreign Student Enrolment', 'Foreign Students Enrollment', 'Foreign Students in Different Programmes', 'Country-Wise Foreign Students', 'State-Wise Foreign Student Enrolment']
+  generic: [foreign, students, international, enrolment]
+
+- facet: topic
+  category: Student Gender Ratio
+  patterns: ['Gender Ratio', 'Gender Ratio for Students', 'State and Level-wise Gender Ratio', 'Programme-Wise Gender Ratio', 'Institution and Category-wise Gender Ratio']
+  generic: [gender, students, parity, education]
+
+- facet: topic
+  category: Male and Female Student Enrolment
+  patterns: ['Male and Female Student Enrolment', 'Male and Female Student Enrollment', 'Category-Wise Male and Female Student Enrolment', 'Institution and Level-wise Male and Female Student Enrolment']
+  generic: [students, gender, enrolment, education]
+
+- facet: topic
+  category: Gender Parity
+  patterns: ['Gender Parity Index', 'Gender Parity Index (GPI)', 'GPI for Higher Classes', 'Class-wise Gender Parity Index']
+  generic: [gender, parity, education, GPI]
+
+- facet: topic
+  category: Girls Enrolment
+  patterns: ['Percentage of Girls Enrolment', 'Girls per Hundred Boys', 'Class-wise Girls per Hundred Boys', 'Female Enrolment']
+  generic: [girls, gender, enrolment, education]
+
+- facet: topic
+  category: Scheduled Caste Education
+  patterns: ['Scheduled Caste', 'SC Students', 'Enrolment in School Education of Scheduled Caste', 'Gross Enrolment Ratio of Scheduled Caste', 'Gender Parity Index of Scheduled Caste']
+  generic: [scheduled, caste, students, education,SC]
+
+- facet: topic
+  category: Scheduled Tribe Education
+  patterns: ['Scheduled Tribe', 'ST Students', 'Enrolment in School Education of Scheduled Tribe', 'Gross Enrolment Ratio of Scheduled Tribe', 'Gender Parity Index of Scheduled Tribe']
+  generic: [scheduled, tribe, students, education,ST]
+
+- facet: topic
+  category: Minority Education
+  patterns: ['Minority Students', 'Minority Community', 'Minority Institutions', 'Enrolment in Minority Community', 'Teachers Among Minority']
+  generic: [minority, students, education, inclusion]
+
+- facet: topic
+  category: Persons with Disabilities Education
+  patterns: ['Persons with Disabilities', 'PWD', 'CWSN', 'Children With Special Needs', 'Enrolment of CWSN Students']
+  generic: [disability, students, education, PWD,CWSN]
+
+- facet: topic
+  category: Rural Education
+  patterns: ['Rural Area Schools', 'Rural Institutions', 'Rural Area Enrolment', 'State-Wise Number of Rural Institutions', 'Gross Enrolment Ratio for Rural Area']
+  generic: [rural, education, schools, students]
+
+- facet: topic
+  category: Urban Education
+  patterns: ['Urban Institutions', 'Urban Area Schools', 'State-Wise Number of Institutions for Urban']
+  generic: [urban, education, institutions, schools]
+
+- facet: topic
+  category: Education Institutions
+  patterns: ['Number of Institutions', 'Number of School Education Institutions', 'Educational Institutions', 'All Education Institutions']
+  generic: [institutions, education, schools, colleges]
+
+- facet: topic
+  category: Teachers
+  patterns: ['Number of Teachers', 'Teachers by Type of School', 'Teachers in Various Types of Schools', 'Male and Female Teachers']
+  generic: [teachers, faculty, education, workforce]
+
+- facet: topic
+  category: Teaching Workforce
+  patterns: ['Teaching Staff', 'Teaching Staff in Position', 'Teaching Workforce', 'Teacher Strength', 'Teaching Staff Strength']
+  generic: [teachers, workforce, staffing, education]
+
+- facet: topic
+  category: Non-Teaching Staff
+  patterns: ['Non-Teaching Staff', 'Non-Teaching Staff by Social Category', 'Male and Female Non-Teaching Staff', 'Non-Teaching Staff in Position']
+  generic: [nonteaching, staff, workforce, education]
+
+- facet: topic
+  category: Teacher Gender Distribution
+  patterns: ['Male and Female Teachers', 'Female Teachers per Hundred Male Teachers', 'Female Teachers Per Hundred Male Teachers', 'Male and Female Teacher Strength']
+  generic: [teachers, gender, workforce, education]
+
+- facet: topic
+  category: Teacher Social Categories
+  patterns: ['Teachers Among Social Categories', 'Teachers Among Minority', 'Teachers Among Persons with Disabilities', 'Category-Wise Male and Female Teachers']
+  generic: [teachers, social, categories, workforce]
+
+- facet: topic
+  category: Teacher Staffing Strength
+  patterns: ['Sanctioned Strength and Teaching Staff in Position', 'Post Wise Sanctioned Strength', 'State Wise Sanctioned Strength', 'Teaching Staff in Position']
+  generic: [teachers, staff, sanctioned, workforce]
+
+- facet: topic
+  category: Teacher Training
+  patterns: ['Trained Teachers', 'Percentage of Trained Teachers', 'Enrollment of Teachers in Training Schools', 'Teacher Training']
+  generic: [teachers, training, education, workforce]
+
+- facet: topic
+  category: Pupil Teacher Ratio
+  patterns: ['Pupil Teacher Ratio', 'Pupil-Teacher Ratio', 'State/UT and School-wise Pupil Teacher Ratio', 'Teachers, Enrolment and Pupil-Teacher Ratio']
+  generic: [pupil, teacher, ratio, education]
+
+- facet: topic
+  category: Gross Enrolment Ratio
+  patterns: ['Gross Enrolment Ratio', 'Gross Enrolment Ratio (GER)', 'Class-wise Gross Enrolment Ratio', 'GER for Higher Classes']
+  generic: [enrolment, education, participation, GER]
+
+- facet: topic
+  category: Dropout Rates
+  patterns: ['Dropout Rates', 'Class-wise Dropout Rates', 'Dropout Rates in Classes I-V', 'Dropout Rates in Classes I-VIII and I-X']
+  generic: [dropout, students, retention, education]
+
+- facet: topic
+  category: Student Retention
+  patterns: ['Student Retention', 'Students Movement from Class X Onwards', 'Dropout Rates', 'Student Progression']
+  generic: [students, retention, progression, education]
+
+- facet: topic
+  category: Student Progression
+  patterns: ['Students Movement from Class X Onwards', 'Student Movement', 'Education Progression', 'Transition Outcomes']
+  generic: [students, progression, education, transition]
+
+- facet: topic
+  category: Examination Results
+  patterns: ['Examination Results', 'High School Examination Results', 'Higher Secondary Examination Results', 'Open School Examination Results']
+  generic: [examination, results, students, education]
+
+- facet: topic
+  category: Examination Pass Percentage
+  patterns: ['Examination Pass Percentage', 'High School Examination Pass Percentage', 'Higher Secondary Examination Pass Percentage', 'Pass Percentage']
+  generic: [examination, results, students, education]
+
+- facet: topic
+  category: High School Education
+  patterns: ['High School Examination', 'High School Examination Results', 'High School Examination Pass Percentage', 'High School Education']
+  generic: [highschool, examination, students, education]
+
+- facet: topic
+  category: Higher Secondary Education
+  patterns: ['Higher Secondary Examination', 'Higher Secondary Examination Results', 'Higher/Senior Secondary Examination', 'Higher Secondary Education']
+  generic: [secondary, higher, examination, education]
+
+- facet: topic
+  category: Open School Examination
+  patterns: ['High School Open Examination Board', 'Higher Secondary Open School Examination Board', 'Open School Examination Board Results', 'Results of High School Examination of Open School']
+  generic: [open, school, examination, results]
+
+- facet: topic
+  category: Education Outcomes
+  patterns: ['Examination Results', 'Pass Percentage', 'Out-Turn', 'Learning Outcomes', 'Academic Performance']
+  generic: [education, outcomes, performance, students]
+
+- facet: topic
+  category: Out-Turn
+  patterns: ['Out-Turn', 'Out Turn', 'Level-Wise Out-Turn in Institutions', 'Higher Education Output']
+  generic: [outturn, graduates, education, performance]
+
+- facet: topic
+  category: Education Finance
+  patterns: ['Education Expenditure', 'Budgeted Revenue Account Expenditure on Education', 'Education Finance', 'Education Spending']
+  generic: [education, finance, expenditure, budget]
+
+- facet: topic
+  category: Education Loans
+  patterns: ['Education Loan', 'Students Availing Education Loan', 'Institution Wise Number of Students Availing Education Loan', 'State Wise Number of Students Availing Education Loan']
+  generic: [education, loans, students, finance]
+
+- facet: topic
+  category: Institutional Finance
+  patterns: ['Physical and Financial Progress', 'Financial Implementation', 'Fund Utilization', 'Financial Achievements']
+  generic: [finance, institutions, funding, education]
+
+- facet: topic
+  category: NBA Progress
+  patterns: ['NBA Physical and Financial Progress', 'National Board for Accreditation', 'NBA Initiatives', 'NBA Scheme']
+  generic: [nba, accreditation, progress, education]
+
+- facet: topic
+  category: Accreditation
+  patterns: ['Accreditation', 'National Board for Accreditation', 'NBA', 'Accreditation Initiatives']
+  generic: [accreditation, nba, quality, education]
+
+- facet: topic
+  category: Institutional Performance
+  patterns: ['Physical and Financial Progress', 'Performance Tracking', 'Academic Performance', 'Higher Education Output']
+  generic: [performance, institutions, education, monitoring]
+
+- facet: topic
+  category: Education Policy and Planning
+  patterns: ['Education Planning', 'Policy Planning', 'Planning and Monitoring', 'Policy Analysis', 'Policy Review']
+  generic: [education, planning, policy, monitoring]
+
+- facet: topic
+  category: Education Access
+  patterns: ['Education Access', 'Access and Participation', 'Higher Education Access', 'School Education Access']
+  generic: [education, access, students, participation]
+
+- facet: topic
+  category: International Education Comparison
+  patterns: ['International Comparison of Key Educational Parameters', 'International Comparison', 'Cross-Country Educational Comparison', 'International Educational Parameters']
+  generic: [education, international, comparison, benchmarking]
+
+- facet: topic
+  category: Technical Education
+  patterns: ['Technical Institutes', 'Technical, Industrial, Arts and Craft Institutes', 'Technical Education']
+  generic: [technical, education, institutes, training]
+
+- facet: topic
+  category: Industrial Education
+  patterns: ['Industrial Institutes', 'Technical, Industrial, Arts and Craft Institutes', 'Industrial Education']
+  generic: [industrial, education, institutes, training]
+
+- facet: topic
+  category: Arts and Craft Education
+  patterns: ['Arts and Craft Institutes', 'Technical, Industrial, Arts and Craft Institutes', 'Arts and Craft Education']
+  generic: [arts, craft, institutes, education]
+
+- facet: topic
+  category: Elementary Education
+  patterns: ['Elementary Education', 'Class I', 'EGS/AIE Centres', 'Early Education Access']
+  generic: [elementary, education, schools, students]
+
+- facet: topic
+  category: EGS AIE Centres
+  patterns: ['EGS/AIE Centres', 'EGS/AIE Centres (ISCED-1)', 'Elementary Education Centres']
+  generic: [EGS, AIE, elementary, education,ISCED]
+
+- facet: topic
+  category: Historical Education Statistics
+  patterns: ['Back Series of Enrollment', 'Enrolment from 1950-51', 'Gross Enrolment Ratio from 1950-51', 'Gender Parity Index from 1950-51']
+  generic: [education, historical, trends]
+
+- facet: topic
+  category: Education Data Quality
+  patterns: ['Category-wise Student Enrolment Data Not Maintained', 'Remarks Recorded by Institutions', 'Data Not Maintained', 'Institutional Remarks']
+  generic: [education, data, quality, institutions]
+
+- facet: topic
+  category: Institutional Administration
+  patterns: ['Details of Heads of Institutions', 'Remarks Recorded by Institutions', 'Institutional Profiling', 'Education Administration']
+  generic: [institutions, administration, education, management,profiling]
+
+- facet: topic
+  category: Institutional Listings
+  patterns: ['List of All Universities', 'List of Standalone Institutions', 'State-Wise List of Universities', 'State-Wise List of Stand-Alone Institutions']
+  generic: [institutions, universities, colleges, education]

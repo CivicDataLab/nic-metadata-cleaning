@@ -1,0 +1,144 @@
+- facet: topic
+  category: shipping
+  patterns: ['shipping', 'indian shipping', 'overseas shipping']
+  generic: [shipping, maritime, vessel, fleet]
+
+- facet: topic
+  category: ports
+  patterns: ['port', 'major port', 'non-major port', 'port trust']
+  generic: [port, maritime,dock]
+
+- facet: topic
+  category: waterways
+  patterns: ['waterway', 'waterways', 'national waterway', 'national waterways']
+  generic: [waterway, inland, navigation, transport]
+
+- facet: topic
+  category: cargo
+  patterns: ['cargo', 'cargo movement', 'cargo traffic']
+  generic: [cargo, freight, logistics, transport]
+
+- facet: topic
+  category: traffic
+  patterns: ['traffic handled', 'port traffic', 'traffic']
+  generic: [traffic, throughput, cargo, port]
+
+- facet: topic
+  category: commodity
+  patterns: ['commodity-wise', 'commodity wise', 'principal commodity']
+  generic: [commodity, cargo, freight, trade]
+
+- facet: topic
+  category: fleet
+  patterns: ['fleet', 'indian fleet', 'coastal fleet', 'overseas fleet']
+  generic: [fleet, vessel, shipping, maritime]
+
+- facet: topic
+  category: vessels
+  patterns: ['vessel', 'vessels', 'ship', 'ships']
+  generic: [vessel, ship, fleet, maritime]
+
+- facet: topic
+  category: tonnage
+  patterns: ['tonnage', 'gross tonnage', 'dwt', 'grt']
+  generic: [tonnage, cargo, vessel, shipping]
+
+- facet: topic
+  category: capacity
+  patterns: ['capacity', 'port capacity']
+  generic: [vessel, ship, cargo, port]
+
+- facet: topic
+  category: utilisation
+  patterns: ['utilisation', 'utilization', 'capacity utilisation']
+  generic: [vessel, ship, cargo, port]
+
+- facet: topic
+  category: turnaround
+  patterns: ['turn round time', 'turnaround time', 'trt']
+  generic: [turnaround, efficiency, port, operations]
+
+- facet: topic
+  category: berth
+  patterns: ['berth', 'berthing', 'berth-day', 'pre-berthing']
+  generic: [berth, docking, port, operations]
+
+- facet: topic
+  category: logistics
+  patterns: ['logistics', 'logistic']
+  generic: [ cargo, freight, transport]
+
+- facet: topic
+  category: maritime
+  patterns: ['maritime', 'marine transport']
+  generic: [maritime, shipping, port, vessel]
+
+- facet: topic
+  category: inland_waterways
+  patterns: ['inland waterway', 'inland waterways']
+  generic: [inland, waterway, navigation, cargo]
+
+- facet: topic
+  category: dg_shipping
+  patterns: ['directorate general of shipping', 'd.g. shipping', 'dg shipping']
+  generic: [shipping, dg,shipping, maritime, fleet]
+
+- facet: topic
+  category: mumbai_port
+  patterns: ['mumbai port']
+  generic: [mumbai, port, cargo, shipping]
+
+- facet: topic
+  category: jnpt
+  patterns: ['jawahar lal nehru port', 'jawaharlal nehru port', 'jnpt']
+  generic: [jnpt, port, cargo, shipping]
+
+- facet: topic
+  category: mormugao_port
+  patterns: ['mormugao port']
+  generic: [mormugao, port, cargo, shipping]
+
+- facet: topic
+  category: cochin_port
+  patterns: ['cochin port']
+  generic: [cochin, port, cargo, shipping]
+
+- facet: topic
+  category: chennai_port
+  patterns: ['chennai port']
+  generic: [chennai, port, cargo, shipping]
+
+- facet: topic
+  category: kamarajar_port
+  patterns: ['kamarajar port']
+  generic: [kamarajar, port, cargo, shipping]
+
+- facet: topic
+  category: deen_dayal_port
+  patterns: ['kandla port', 'deen dayal port', 'deendayal port']
+  generic: [deendayal, port, cargo, shipping]
+
+- facet: topic
+  category: paradip_port
+  patterns: ['paradip port']
+  generic: [paradip, port, cargo, shipping]
+
+- facet: topic
+  category: visakhapatnam_port
+  patterns: ['visakhapatnam port', 'vishakhapatnam port']
+  generic: [visakhapatnam, port, cargo, shipping]
+
+- facet: topic
+  category: kolkata_port
+  patterns: ['kolkata port', 'haldia port', 'smp kolkata']
+  generic: [kolkata, haldia, port, cargo]
+
+- facet: topic
+  category: voc_port
+  patterns: ['v.o chidambaranar port', 'v.o.c port', 'voc port']
+  generic: [voc, port, cargo, shipping]
+
+- facet: topic
+  category: new_mangalore_port
+  patterns: ['new mangalore port']
+  generic: [mangalore, port, cargo, shipping]

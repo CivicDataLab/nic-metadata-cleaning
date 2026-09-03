@@ -1,0 +1,337 @@
+- facet: topic
+  category: School Teachers
+  patterns: ['Teachers', 'Teacher Details', 'Teacher Data', 'Teachers by Gender', 'School Teachers']
+  generic: [teachers, teaching, education, staffing]
+
+- facet: topic
+  category: Teacher Qualifications
+  patterns: ['Academic Qualification', 'Professional Qualification', 'Academic and Professional Qualification', 'Teacher Qualification', 'Qualification']
+  generic: [qualification, academic, professional, training]
+
+- facet: topic
+  category: Teaching Classes
+  patterns: ['Classes Taught', 'Class Taught', 'Classes', 'Teaching Classes']
+  generic: [classes, teaching, instruction, education]
+
+- facet: topic
+  category: School Category
+  patterns: ['School Category', 'School Categories', 'Category of School', 'School Type']
+  generic: [school, category, education, institutions]
+
+- facet: topic
+  category: School Management
+  patterns: ['School Management', 'School Management Details', 'Management', 'School Category and Management']
+  generic: [management, school, administration, education]
+
+- facet: topic
+  category: Teacher Gender
+  patterns: ['Gender', 'Teachers by Gender', 'Teacher Gender']
+  generic: [gender, teachers, education, staffing]
+
+- facet: topic
+  category: UDISE
+  patterns: ['UDISE', 'UDISE plus', 'UDISE Plus Data', 'UDISE Plus']
+  generic: [UDISE, education, schools, teachers]
+
+- facet: topic
+  category: School Sanitation
+  patterns: ['Schools with Girls Toilet', 'Schools with Boys Toilet', 'Girls Toilet', 'Boys Toilet', 'Toilet Facility']
+  generic: [school, sanitation, toilets, hygiene]
+
+- facet: topic
+  category: School Electricity
+  patterns: ['Percentage of Schools with Electricity', 'Schools with Electricity', 'Electricity Facility', 'Electricity in Schools']
+  generic: [school, electricity, infrastructure, facilities]
+
+- facet: topic
+  category: Digital Infrastructure
+  patterns: ['Percentage of Schools with Computers', 'Schools with Computers', 'Computer Facility', 'Computers in Schools']
+  generic: [school, computers, digital, technology]
+
+- facet: topic
+  category: Drinking Water
+  patterns: ['Percentage of Schools with Drinking Water Facility', 'Schools with Drinking Water Facility', 'Drinking Water Facility', 'Water Facility in Schools']
+  generic: [school, water, drinking, sanitation]
+
+- facet: topic
+  category: School Dropout
+  patterns: ['Drop-Out Rate', 'Dropout Rate', 'Drop-Out Rate in School Education', 'Dropout Rates in School Education']
+  generic: [dropout, school, students, retention]
+
+- facet: topic
+  category: Gross Enrolment
+  patterns: ['Gross Enrolment Ratio', 'Gross Enrollment Ratio', 'GER', 'Gross Enrolment Ratio in School Education']
+  generic: [enrolment, students, education, GER]
+
+- facet: topic
+  category: Student Enrolment
+  patterns: ['Enrolment by Location, School Management, School Category and Social Category', 'Enrolment by Location', 'School Enrolment', 'Enrolment by School Management', 'Enrolment by Social Category']
+  generic: [enrolment, students, schools, education]
+
+- facet: topic
+  category: Social Category Enrolment
+  patterns: ['Enrolment by Social Category', 'Social Category Enrolment', 'Enrolment by Location, School Management, School Category and Social Category', 'Enrolment by School and Social Category']
+  generic: [enrolment, social, categories, equity]
+
+- facet: topic
+  category: School Management
+  patterns: ['School Management', 'Enrolment by School Management', 'Schools by School Management', 'School Management and Category']
+  generic: [school, management, institutions, education]
+
+- facet: topic
+  category: School Category
+  patterns: ['School Category', 'Enrolment by School Category', 'School Management and School Category', 'School Management and Category']
+  generic: [school, category, institutions, education]
+
+- facet: topic
+  category: School Location
+  patterns: ['Enrolment by Location', 'Location, School Management, School Category and Social Category', 'School Location', 'Location-wise Enrolment']
+  generic: [location, schools, enrolment, education]
+
+- facet: topic
+  category: School Infrastructure
+  patterns: ['Schools by Infrastructure and Facilities', 'Schools by Availability of Infrastructure and Facilities', 'Infrastructure and Facilities', 'Availability of Infrastructure and Facilities']
+  generic: [school, infrastructure, facilities, education]
+
+- facet: topic
+  category: Teacher Profile
+  patterns: ['Teachers by Gender, Academic Qualification, Professional Qualification, Classes Taught, School Category', 'Teachers by Gender, Academic Qualification, Professional Qualification, Classes Taught, School Category and Management', 'Teachers by Gender, Academic Qualification, Professional Qualification, Classes Taught, School Category and School Management']
+  generic: [teachers, gender, qualifications, education]
+
+- facet: topic
+  category: Teacher Gender
+  patterns: ['Teachers by Gender', 'Teacher Gender', 'Teachers by Gender, Academic Qualification, Professional Qualification', 'Male and Female Teachers']
+  generic: [teachers, gender, male, female]
+
+- facet: topic
+  category: Teacher Qualification
+  patterns: ['Academic Qualification', 'Professional Qualification', 'Teachers by Gender, Academic Qualification, Professional Qualification', 'Teacher Qualification']
+  generic: [teachers, academic, professional, qualification]
+
+- facet: topic
+  category: Classes Taught
+  patterns: ['Classes Taught', 'Teachers by Gender, Academic Qualification, Professional Qualification, Classes Taught', 'Teacher Classes', 'Classes Taught by Teachers']
+  generic: [teachers, classes, teaching, education]
+
+- facet: topic
+  category: Teacher Management
+  patterns: ['Teacher Management', 'School Management', 'Teachers by School Management', 'Teachers by Gender, Academic Qualification, Professional Qualification, Classes Taught, School Category and School Management']
+  generic: [teachers, management, schools, staffing]
+
+- facet: topic
+  category: Teacher School Category
+  patterns: ['Teacher School Category', 'Teachers by School Category', 'Teachers by Gender, Academic Qualification, Professional Qualification, Classes Taught, School Category', 'Teachers by School Category and Management']
+  generic: [teachers, schools, category, education]
+
+- facet: topic
+  category: UDISE Education Data
+  patterns: ['UDISE plus', 'UDISE+', 'UDISE Plus', 'UDISE Data']
+  generic: [UDISE, education, schools, statistics]
+- facet: topic
+  category: School Infrastructure
+  patterns: ['School Infrastructure', 'Infrastructure', 'Infrastructure and Facilities', 'Infrastructure Facilities', 'Availability of Infrastructure and Facilities']
+  generic: [infrastructure, schools, facilities, education]
+
+- facet: topic
+  category: School Facilities
+  patterns: ['School Facilities', 'Facilities', 'Infrastructure and Facilities', 'Availability of Facilities', 'Facilities Availability']
+  generic: [facilities, schools, infrastructure, education]
+
+- facet: topic
+  category: School Management
+  patterns: ['School Management', 'Management', 'School Management and Category', 'Management and Category']
+  generic: [management, schools, governance, education]
+
+- facet: topic
+  category: School Category
+  patterns: ['School Category', 'School Categories', 'Category', 'School Management and Category', 'School Management and School Category']
+  generic: [category, schools, education, classification]
+
+- facet: topic
+  category: School Readiness
+  patterns: ['School Readiness', 'School Readiness and Service Delivery', 'School Readiness and Governance Structures']
+  generic: [readiness, schools, education, services]
+
+- facet: topic
+  category: School Services
+  patterns: ['School Education Services', 'Education Services', 'Service Delivery', 'School Service Delivery']
+  generic: [services, education, schools, delivery]
+
+- facet: topic
+  category: Education Planning
+  patterns: ['Education Planning', 'Planning', 'School Education Planning', 'Planning and Monitoring']
+  generic: [planning, education, schools, policy]
+
+- facet: topic
+  category: Education Monitoring
+  patterns: ['Education Monitoring', 'Monitoring', 'Planning and Monitoring', 'School Education Monitoring']
+  generic: [monitoring, education, schools, planning]
+
+- facet: topic
+  category: Resource Allocation
+  patterns: ['Resource Allocation', 'Allocation', 'Planning and Resource Allocation', 'Education Resource Allocation']
+  generic: [resources, allocation, education, planning]
+
+- facet: topic
+  category: School Governance
+  patterns: ['School Governance', 'Governance Structures', 'School Management and Governance', 'Governance']
+  generic: [governance, schools, management, education]
+
+- facet: topic
+  category: School Classification
+  patterns: ['School Classification', 'Classification', 'Category-wise Classification', 'School Category']
+  generic: [classification, category, schools, education]
+
+- facet: topic
+  category: UDISE
+  patterns: ['UDISE', 'UDISE plus', 'UDISE Plus', 'UDISE Data']
+  generic: [UDISE, schools, education, data]
+- facet: topic
+  category: School Infrastructure
+  patterns: ['School Infrastructure', 'Infrastructure', 'Infrastructure and Facilities', 'Infrastructure Facilities', 'Availability of Infrastructure and Facilities', 'Education Infrastructure']
+  generic: [school, infrastructure, education, facilities]
+
+- facet: topic
+  category: School Facilities
+  patterns: ['School Facilities', 'Facilities', 'School Infrastructure and Facilities', 'Availability of Facilities', 'Facilities Availability', 'Facility Coverage']
+  generic: [school, facilities, infrastructure, education]
+
+- facet: topic
+  category: School Management
+  patterns: ['School Management', 'Management', 'School Management Type', 'Types of School Management', 'Management Type']
+  generic: [school, management, education, governance]
+
+- facet: topic
+  category: School Category
+  patterns: ['School Category', 'School Categories', 'Category', 'School Management and Category', 'School Management and School Category']
+  generic: [school, category, education, classification]
+
+- facet: topic
+  category: Education Level
+  patterns: ['Level of School Education', 'Level of Education', 'Education Level', 'Levels of School Education', 'Elementary and Secondary Education']
+  generic: [education, level, school, secondary]
+
+- facet: topic
+  category: School Readiness
+  patterns: ['School Readiness', 'School Readiness and Service Delivery', 'School Readiness and Classification', 'School Readiness and Governance Structures']
+  generic: [school, readiness, education, services]
+
+- facet: topic
+  category: School Governance
+  patterns: ['School Governance', 'Governance', 'Governance Structures', 'School Management and Governance', 'Education Governance']
+  generic: [school, governance, management, education]
+
+- facet: topic
+  category: Education Services
+  patterns: ['School Education Services', 'Education Services', 'School Services', 'Service Delivery', 'Education Service Delivery']
+  generic: [education, services, school, delivery]
+
+- facet: topic
+  category: Education Planning
+  patterns: ['Education Planning', 'School Education Planning', 'Planning', 'Education Infrastructure Planning', 'Planning and Monitoring']
+  generic: [education, planning, school, infrastructure]
+
+- facet: Education Monitoring
+  category: Education Monitoring
+  patterns: ['Education Monitoring', 'School Education Monitoring', 'Monitoring', 'Planning and Monitoring', 'Policy Monitoring']
+  generic: [education, monitoring, school, policy]
+
+- facet: topic
+  category: Education Policy
+  patterns: ['Education Policy', 'Policy Decisions', 'Policy Analysis', 'Policy Monitoring', 'School Education Policy']
+  generic: [education, policy, school, analysis]
+
+- facet: topic
+  category: Resource Allocation
+  patterns: ['Resource Allocation', 'Education Resource Allocation', 'Planning and Resource Allocation', 'Resource Gaps']
+  generic: [resource, allocation, education, planning]
+
+- facet: topic
+  category: School Classification
+  patterns: ['School Classification', 'Classification', 'School Category Classification', 'Category-wise Classification']
+  generic: [school, classification, category, education]
+
+- facet: topic
+  category: School Types
+  patterns: ['School Types', 'Types of Schools', 'School Type', 'Comparing School Types', 'School Availability']
+  generic: [school, types, category, education]
+
+- facet: topic
+  category: Student Enrolment
+  patterns: ['Student Enrolment', 'Enrolment of Students', 'Enrolment', 'Student Enrollment', 'Enrolment by School Management']
+  generic: [students, enrolment, school, education]
+
+- facet: topic
+  category: Student Participation
+  patterns: ['Student Participation', 'Participation Patterns', 'Participation by Gender', 'Student Participation Patterns']
+  generic: [students, participation, gender, education]
+
+- facet: topic
+  category: Teachers
+  patterns: ['Number of Teachers', 'Teachers', 'Teacher Counts', 'Teachers by Management', 'Teachers by School Category', 'Teachers by Classes Taught']
+  generic: [teachers, school, management, education]
+
+- facet: topic
+  category: Teacher Staffing
+  patterns: ['Staffing Analysis', 'Teacher Staffing', 'Staffing', 'Teachers by Management and Classes Taught']
+  generic: [teachers, staffing, school, management]
+
+- facet: topic
+  category: Teacher Management
+  patterns: ['Teacher Management', 'Teachers by Management', 'Management and Classes Taught', 'Teachers by School Management']
+  generic: [teachers, management, school, education]
+
+- facet: topic
+  category: Education Performance
+  patterns: ['Performance Assessment', 'Education Performance', 'Performance Grading', 'Domain-wise Scores and Grades', 'Performance Index']
+  generic: [education, performance, assessment, scores]
+
+- facet: topic
+  category: Education Assessment
+  patterns: ['Education Assessment', 'Performance Assessment', 'Assessment', 'Scores and Grades', 'Domain-wise Scores']
+  generic: [education, assessment, performance, scores]
+
+- facet: topic
+  category: Comparative Education Analysis
+  patterns: ['Comparative Analysis', 'Comparative Analysis Across Regions', 'Comparative Analysis Across States', 'Comparing School Types', 'Regional Comparison']
+  generic: [education, analysis, comparison, regions]
+
+- facet: topic
+  category: Education Administration
+  patterns: ['School Education Administration', 'Education Administration', 'School Administration', 'Administration']
+  generic: [education, administration, school, management]
+
+- facet: topic
+  category: School Availability
+  patterns: ['School Availability', 'Availability of Schools', 'Number of Schools', 'Schools by Level', 'Schools by Management']
+  generic: [school, availability, education, management]
+
+- facet: topic
+  category: School Affiliation
+  patterns: ['Affiliation Board', 'School Affiliation', 'Schools by Affiliation Board', 'Affiliation and Level of School Education']
+  generic: [school, affiliation, board, education]
+
+- facet: topic
+  category: Government Schools
+  patterns: ['Government Schools', 'Government School', 'Government Management', 'Schools under Government Management']
+  generic: [government, schools, management, education]
+
+- facet: topic
+  category: Government Aided Schools
+  patterns: ['Government Aided Schools', 'Government Aided School', 'Government-aided Schools']
+  generic: [government, aided, schools, education]
+
+- facet: topic
+  category: Private Schools
+  patterns: ['Private Unaided Schools', 'Private Unaided Recognized Schools', 'Private Schools', 'Private School Management']
+  generic: [private, schools, management, education]
+
+- facet: topic
+  category: Recognized Schools
+  patterns: ['Recognized Schools', 'Private Unaided Recognized Schools', 'Recognized School']
+  generic: [recognized, schools, private, education]
+
+- facet: topic
+  category: UDISE
+  patterns: ['UDISE', 'UDISE Plus', 'UDISE+', 'UDISE Data', 'UDISE Statistics']
+  generic: [UDISE, schools, education, data]

@@ -1,0 +1,565 @@
+- facet: topic
+  category: CBSE
+  patterns: ['cbse', 'central board of secondary education']
+  generic: [CBSE, examination, education, board]
+  sponsored: [Class 10, Class 12 result, performance]
+
+- facet: topic
+  category: Class10_results
+  patterns: ['class x', 'class 10', 'secondary school examination']
+  generic: [secondary, examination, result, student]
+  sponsored: [Class 10, CBSE, board, pass]
+
+- facet: topic
+  category: Class12_results
+  patterns: ['class xii', 'class 12', 'senior school certificate', 'higher secondary examination']
+  generic: [higher,secondary, examination, result, student]
+  sponsored: [Class 12 CBSE, board, pass]
+
+- facet: topic
+  category: UDISE
+  patterns: ['udise', 'udise plus', 'unified district information system for education']
+  generic: [UDISE, school, education, statistics]
+  sponsored: [district, management, enrolment, infrastructure]
+
+- facet: topic
+  category: AISHE
+  patterns: ['aishe', 'all india survey on higher education']
+  generic: [AISHE, higher,education, survey, statistics]
+  sponsored: [college, university, enrolment, institution]
+
+- facet: topic
+  category: AISES
+  patterns: ['aises', 'all india school education survey']
+  generic: [AISES, school, survey, education]
+  sponsored: [NCERT, institution, statistics, schooling]
+
+- facet: topic
+  category: AICTE
+  patterns: ['aicte', 'all india council for technical education']
+  generic: [AICTE, technical, institute, education]
+  sponsored: [engineering, diploma, MBA, PGDM]
+
+- facet: topic
+  category: PGI
+  patterns: ['pgi', 'performance grading index', 'district score', 'scores and grades']
+  generic: [PGI, performance, assessment, education,index]
+  sponsored: [grading, ranking, indicator, quality]
+
+- facet: topic
+  category: NSQF
+  patterns: ['nsqf', 'national skills qualification framework', 'vocational courses']
+  generic: [NSQF, vocational, skill, education]
+  sponsored: [training, certification, employability, technical]
+
+- facet: topic
+  category: schools
+  patterns: ['school', 'schools']
+  generic: [school, education, institution, schooling]
+  sponsored: [primary, secondary, management, category]
+
+- facet: topic
+  category: colleges
+  patterns: ['college', 'colleges']
+  generic: [college, highereducation, institution, education]
+  sponsored: [undergraduate, postgraduate, AISHE, university]
+
+- facet: topic
+  category: universities
+  patterns: ['university', 'universities']
+  generic: [university, highereducation, institution, education]
+  sponsored: [AISHE, research, campus, degree]
+
+- facet: topic
+  category: institution
+  patterns: ['institution', 'institutions', 'institute', 'institutes']
+  generic: [institution, education, organization, establishment]
+  sponsored: [school, college, university, AICTE]
+
+- facet: topic
+  category: examination
+  patterns: ['examination', 'exam', 'board examination']
+  generic: [examination, assessment, education, student]
+  sponsored: [board, marks, result, performance]
+
+- facet: topic
+  category: results
+  patterns: ['result', 'results', 'result statistics', 'pass percentage']
+  generic: [result, examination, performance, statistics]
+  sponsored: [pass, board, marks, CBSE]
+- facet: topic
+  category: enrolment
+  patterns: ['enrolment', 'enrollment', 'student enrolment']
+  generic: [enrolment, student, education, school]
+  sponsored: [admission, participation, UDISE, statistics]
+
+- facet: topic
+  category: admissions
+  patterns: ['admission', 'new admission', 'pre-school experience']
+  generic: [admission, student, school, education]
+  sponsored: [Class1, preschool, intake, enrolment]
+
+- facet: topic
+  category: age_group
+  patterns: ['age group', 'age-group', 'age specific', 'age and class']
+  generic: [agegroup, student, education, enrolment]
+  sponsored: [ASER, demographic, schoolage, children]
+
+- facet: topic
+  category: gender
+  patterns: ['gender', 'boys', 'girls', 'male', 'female']
+  generic: [gender, student, education, school]
+  sponsored: [girls, boys, parity, inclusion]
+
+- facet: topic
+  category: social_category
+  patterns: ['social category', 'scheduled caste', 'scheduled tribe', 'other backward class', 'obc', 'minority']
+  generic: [socialcategory, inclusion, student, education]
+  sponsored: [SC, ST, OBC, minority]
+
+- facet: topic
+  category: CWSN
+  patterns: ['cwsn', 'children with special needs', 'special needs']
+  generic: [CWSN, inclusion, student, education]
+  sponsored: [disability, accessibility, inclusive, support]
+
+- facet: topic
+  category: gifted_students
+  patterns: ['gifted children', 'nurturance camp', 'mentor']
+  generic: [gifted, student, education, talent]
+  sponsored: [mentor, excellence, learning, innovation]
+
+- facet: topic
+  category: teachers
+  patterns: ['teacher', 'teachers']
+  generic: [teacher, education, school, staffing]
+  sponsored: [faculty, workforce, UDISE, teaching]
+
+- facet: topic
+  category: teacher_qualification
+  patterns: ['academic qualification', 'professional qualification', 'trained teachers', 'qualification']
+  generic: [teacher, qualification, education, training]
+  sponsored: [faculty, certification, degree, professional]
+
+- facet: topic
+  category: classes_taught
+  patterns: ['classes taught', 'class taught']
+  generic: [teacher, classroom, education, school]
+  sponsored: [instruction, teaching, faculty, curriculum]
+
+- facet: topic
+  category: non_teaching_staff
+  patterns: ['non-teaching', 'non teaching staff']
+  generic: [staff, administration, school, education]
+  sponsored: [support, personnel, workforce, institution]
+
+- facet: topic
+  category: school_management
+  patterns: ['management', 'government', 'government aided', 'private unaided', 'all types of management']
+  generic: [management, school, institution, education]
+  sponsored: [government, private, aided, ownership]
+
+- facet: topic
+  category: school_category
+  patterns: ['school category', 'primary', 'upper primary', 'secondary', 'higher secondary']
+  generic: [schoolcategory, school, education, level]
+  sponsored: [primary, upperprimary, secondary, highersecondary]
+
+- facet: topic
+  category: affiliation
+  patterns: ['affiliation board', 'board affiliation']
+  generic: [affiliation, board, school, education]
+  sponsored: [CBSE, StateBoard, ICSE, recognition]
+
+- facet: topic
+  category: anganwadi
+  patterns: ['anganwadi', 'awc', 'pre-primary section']
+  generic: [AWC, anganwadi, preschool, education]
+  sponsored: [ICDS, earlychildhood, preprimary, childcare]
+- facet: topic
+  category: infrastructure
+  patterns: ['infrastructure', 'school infrastructure', 'availability of infrastructure', 'infrastructure and facilities']
+  generic: [infrastructure, school, facility, education]
+  sponsored: [building, amenities, UDISE, institution]
+
+- facet: topic
+  category: facilities
+  patterns: ['facilities', 'facility', 'availability of facilities']
+  generic: [facility, school, infrastructure, education]
+  sponsored: [amenities, services, campus, UDISE]
+
+- facet: topic
+  category: electricity
+  patterns: ['electricity', 'functional electricity']
+  generic: [electricity, infrastructure, school, utility]
+  sponsored: [power, electrification, energy, facility]
+
+- facet: topic
+  category: drinking_water
+  patterns: ['drinking water', 'functional drinking water', 'water facility', 'major source of drinking water']
+  generic: [drinkingwater, school, infrastructure, facility]
+  sponsored: [water, sanitation, hygiene, utility]
+
+- facet: topic
+  category: toilets
+  patterns: ['toilet', 'functional toilet', 'boys toilet', 'girls toilet']
+  generic: [toilet, sanitation, school, infrastructure]
+  sponsored: [hygiene, facility, boys, girls]
+
+- facet: topic
+  category: girls_toilets
+  patterns: ['girls toilet', 'functional girls toilet']
+  generic: [girlstoilet, sanitation, school, infrastructure]
+  sponsored: [girls, hygiene, accessibility, facility]
+
+- facet: topic
+  category: boys_toilets
+  patterns: ['boys toilet', 'functional boys toilet']
+  generic: [boystoilet, sanitation, school, infrastructure]
+  sponsored: [boys, hygiene, accessibility, facility]
+
+- facet: topic
+  category: CWSN_facilities
+  patterns: ['cwsn friendly toilet', 'children with special needs friendly toilet', 'ramps', 'ramps with handrails']
+  generic: [CWSN, accessibility, infrastructure, school]
+  sponsored: [inclusive, disability, ramp, toilet]
+
+- facet: topic
+  category: handwash
+  patterns: ['hand wash', 'handwash']
+  generic: [handwash, hygiene, sanitation, school]
+  sponsored: [cleanliness, health, facility, water]
+
+- facet: topic
+  category: library
+  patterns: ['library', 'book bank', 'reading corner']
+  generic: [library, books, school, education]
+  sponsored: [reading, literacy, learning, resources]
+
+- facet: topic
+  category: digital_library
+  patterns: ['digital library']
+  generic: [digitallibrary, ICT, school, education]
+  sponsored: [ebooks, technology, learning, digital]
+
+- facet: topic
+  category: ICT
+  patterns: ['ict', 'ict labs', 'functional ict labs']
+  generic: [ICT, technology, school, education]
+  sponsored: [computer, digital, laboratory, innovation]
+
+- facet: topic
+  category: computers
+  patterns: ['computer', 'functional computer', 'desktop', 'pc', 'personal computer']
+  generic: [computer, ICT, school, technology]
+  sponsored: [desktop, hardware, digital, laboratory]
+
+- facet: topic
+  category: internet
+  patterns: ['internet', 'internet facility']
+  generic: [internet, ICT, connectivity, school]
+  sponsored: [broadband, digital, online, technology]
+
+- facet: topic
+  category: smart_classroom
+  patterns: ['smart classroom', 'digital board', 'smart board', 'virtual classroom', 'smart tv']
+  generic: [smartclassroom, ICT, digital, school]
+  sponsored: [teaching, innovation, classroom, technology]
+
+- facet: topic
+  category: devices
+  patterns: ['laptop', 'notebook', 'tablet', 'projector', 'mobile phones']
+  generic: [device, ICT, technology, school]
+  sponsored: [digital, hardware, teaching, equipment]
+
+- facet: topic
+  category: science_laboratory
+  patterns: ['science lab', 'integrated science lab']
+  generic: [laboratory, science, school, education]
+  sponsored: [experiment, practical, STEM, facility]
+
+- facet: topic
+  category: solar
+  patterns: ['solar panel']
+  generic: [solar, renewable, energy, school]
+  sponsored: [green, sustainability, electricity, infrastructure]
+
+- facet: topic
+  category: kitchen_garden
+  patterns: ['kitchen garden']
+  generic: [kitchengarden, school, environment, education]
+  sponsored: [nutrition, gardening, sustainability, agriculture]
+
+- facet: topic
+  category: rainwater_harvesting
+  patterns: ['rain water harvesting', 'rainwater harvesting']
+  generic: [rainwater, conservation, infrastructure, school]
+  sponsored: [water, sustainability, environment, harvesting]
+
+- facet: topic
+  category: medical_checkup
+  patterns: ['medical check-up', 'medical checkups', 'medical check']
+  generic: [health, medical, school, student]
+  sponsored: [screening, wellness, healthcare, hygiene]
+
+- facet: topic
+  category: co_curricular
+  patterns: ['co-curricular activity room', 'arts and crafts room']
+  generic: [cocurricular, activity, school, education]
+  sponsored: [arts, crafts, extracurricular, creativity]
+- facet: topic
+  category: GER
+  patterns: ['gross enrolment ratio', '\bger\b']
+  generic: [GER, enrolment, education, participation]
+  sponsored: [access, indicator, school, statistics]
+
+- facet: topic
+  category: NER
+  patterns: ['net enrolment rate', '\bner\b']
+  generic: [NER, enrolment, education, participation]
+  sponsored: [access, indicator, school, statistics]
+
+- facet: topic
+  category: ANER
+  patterns: ['adjusted net enrolment rate', '\baner\b']
+  generic: [ANER, enrolment, education, participation]
+  sponsored: [indicator, adjusted, school, statistics]
+
+- facet: topic
+  category: ASER
+  patterns: ['age specific enrolment rate', '\baser\b']
+  generic: [ASER, enrolment, education, agegroup]
+  sponsored: [indicator, participation, student, statistics]
+
+- facet: topic
+  category: GPI
+  patterns: ['gender parity index', '\bgpi\b']
+  generic: [GPI, gender, education, equality]
+  sponsored: [girls, boys, parity, indicator]
+
+- facet: topic
+  category: PTR
+  patterns: ['pupil teacher ratio', '\bptr\b']
+  generic: [PTR, teacher, student, education]
+  sponsored: [ratio, staffing, classroom, indicator]
+
+- facet: topic
+  category: promotion_rate
+  patterns: ['promotion rate']
+  generic: [promotion, education, student, progression]
+  sponsored: [advancement, performance, indicator, school]
+
+- facet: topic
+  category: repetition_rate
+  patterns: ['repetition rate']
+  generic: [repetition, education, student, progression]
+  sponsored: [repeat, indicator, retention, school]
+
+- facet: topic
+  category: transition_rate
+  patterns: ['transition rate']
+  generic: [transition, education, student, progression]
+  sponsored: [schooling, advancement, indicator, continuity]
+
+- facet: topic
+  category: retention_rate
+  patterns: ['retention rate']
+  generic: [retention, education, student, progression]
+  sponsored: [continuation, indicator, school, participation]
+
+- facet: topic
+  category: dropout_rate
+  patterns: ['dropout rate']
+  generic: [dropout, education, student, retention]
+  sponsored: [discontinuation, participation, indicator, school]
+
+- facet: topic
+  category: population_projection
+  patterns: ['population projection', 'projected population', 'projection by age group']
+  generic: [population, projection, demographic, statistics]
+  sponsored: [forecast, agegroup, census, planning]
+
+- facet: topic
+  category: UIDAI
+  patterns: ['uidai']
+  generic: [UIDAI, Aadhaar, identity, education]
+  sponsored: [authentication, identity, student, digital]
+
+- facet: topic
+  category: Aadhaar
+  patterns: ['aadhaar', 'aadhar received', 'authenticated']
+  generic: [Aadhaar, student, identity, education]
+  sponsored: [UIDAI, authentication, digital, verification]
+
+- facet: topic
+  category: learning_outcomes
+  patterns: ['learning outcome', 'learning outcomes', 'hard spots in learning outcomes']
+  generic: [learning, outcome, assessment, education]
+  sponsored: [achievement, competency, evaluation, quality]
+
+- facet: topic
+  category: assessment
+  patterns: ['assessment', 'criterion referenced', 'assessment items']
+  generic: [assessment, evaluation, education, learning]
+  sponsored: [testing, competency, learningoutcomes, performance]
+
+- facet: topic
+  category: academic_enrichment
+  patterns: ['academic enrichment', 'peer learning', 'teaching aids', 'orientation on cyber safety', 'psycho-social', 'created teaching aids']
+  generic: [learning, teaching, education, school]
+  sponsored: [innovation, pedagogy, classroom, development]
+
+- facet: topic
+  category: vocational_education
+  patterns: ['vocational courses', 'vocational education', 'nsqf']
+  generic: [vocational, skill, education, training]
+  sponsored: [NSQF, employability, certification, technical]
+
+- facet: topic
+  category: district_score
+  patterns: ['district score']
+  generic: [district, score, performance, education]
+  sponsored: [ranking, indicator, PGI, assessment]
+
+- facet: topic
+  category: highlights
+  patterns: ['highlights', 'national highlights', 'data highlights']
+  generic: [highlights, statistics, education, summary]
+  sponsored: [overview, report, indicator, UDISE]
+
+- facet: topic
+  category: distribution
+  patterns: ['distribution of schools', 'distribution of enrolments', 'distribution of teachers']
+  generic: [distribution, school, enrolment, teacher]
+  sponsored: [statistics, management, category, UDISE]
+
+- facet: topic
+  category: affiliation_board
+  patterns: ['affiliation board']
+  generic: [board, affiliation, school, education]
+  sponsored: [CBSE, StateBoard, ICSE, recognition]
+
+- facet: topic
+  category: performance_indicators
+  patterns: ['performance indicators', 'parameters', 'indicator']
+  generic: [indicator, performance, education, statistics]
+  sponsored: [benchmark, monitoring, evaluation, quality]
+- facet: topic
+  category: higher_education
+  patterns: ['higher education', 'highereducation']
+  generic: [highereducation, college, university, education]
+  sponsored: [AISHE, degree, institution, academics]
+
+- facet: topic
+  category: undergraduate
+  patterns: ['undergraduate', 'under graduate', 'ug']
+  generic: [undergraduate, student, degree, education]
+  sponsored: [bachelor, college, programme, enrolment]
+
+- facet: topic
+  category: postgraduate
+  patterns: ['postgraduate', 'post graduate', 'pg']
+  generic: [postgraduate, student, degree, education]
+  sponsored: [master, college, programme, enrolment]
+
+- facet: topic
+  category: doctoral
+  patterns: ['ph.d', 'phd', 'doctorate', 'doctoral']
+  generic: [doctoral, research, student, education]
+  sponsored: [PhD, scholar, thesis, university]
+
+- facet: topic
+  category: MPhil
+  patterns: ['m.phil', 'mphil']
+  generic: [MPhil, research, student, education]
+  sponsored: [postgraduate, dissertation, university, scholar]
+
+- facet: topic
+  category: degree_programmes
+  patterns: ['degree programme', 'degree program', 'programme', 'program']
+  generic: [programme, degree, curriculum, education]
+  sponsored: [course, undergraduate, postgraduate, academics]
+
+- facet: topic
+  category: disciplines
+  patterns: ['discipline', 'discipline-wise', 'subject', 'specialisation', 'specialization']
+  generic: [discipline, programme, education, subject]
+  sponsored: [engineering, science, arts, commerce]
+
+- facet: topic
+  category: foreign_students
+  patterns: ['foreign student', 'international student', 'overseas student']
+  generic: [foreign, student, highereducation, enrolment]
+  sponsored: [international, mobility, country, AISHE]
+
+- facet: topic
+  category: faculty
+  patterns: ['faculty', 'teaching faculty']
+  generic: [faculty, teacher, highereducation, institution]
+  sponsored: [professor, lecturer, academics, university]
+
+- facet: topic
+  category: research
+  patterns: ['research', 'research publication', 'research project']
+  generic: [research, university, highereducation, innovation]
+  sponsored: [publication, scholar, funding, laboratory]
+
+- facet: topic
+  category: technical_education
+  patterns: ['technical education', 'engineering education', 'polytechnic']
+  generic: [technical, engineering, education, institute]
+  sponsored: [AICTE, diploma, technology, engineering]
+
+- facet: topic
+  category: diploma
+  patterns: ['diploma', 'post diploma']
+  generic: [diploma, technical, education, programme]
+  sponsored: [polytechnic, AICTE, certification, institute]
+
+- facet: topic
+  category: PGDM
+  patterns: ['pgdm']
+  generic: [PGDM, management, education, programme]
+  sponsored: [MBA, business, AICTE, institute]
+
+- facet: topic
+  category: MBA
+  patterns: ['mba', 'master of business administration']
+  generic: [MBA, management, education, postgraduate]
+  sponsored: [business, PGDM, AICTE, programme]
+
+- facet: topic
+  category: engineering
+  patterns: ['engineering', 'engineer']
+  generic: [engineering, technical, education, institute]
+  sponsored: [AICTE, technology, innovation, degree]
+
+- facet: topic
+  category: medical_education
+  patterns: ['medical education', 'medical college']
+  generic: [medical, education, college, healthcare]
+  sponsored: [doctor, MBBS, institution, training]
+
+- facet: topic
+  category: institution_type
+  patterns: ['government college', 'private college', 'government university', 'private university', 'institution type']
+  generic: [institution, management, education, ownership]
+  sponsored: [government, private, autonomous, aided]
+
+- facet: topic
+  category: institution_density
+  patterns: ['college per lakh', 'institution per lakh', 'density']
+  generic: [institution, accessibility, education, statistics]
+  sponsored: [coverage, availability, AISHE, planning]
+
+- facet: topic
+  category: responding_institutions
+  patterns: ['responding colleges', 'responding institutions']
+  generic: [institution, survey, response, AISHE]
+  sponsored: [coverage, reporting, participation, statistics]
+
+- facet: topic
+  category: university_type
+  patterns: ['central university', 'state university', 'deemed university', 'private university', 'open university']
+  generic: [university, highereducation, institution, classification]
+  sponsored: [central, state, deemed, private]

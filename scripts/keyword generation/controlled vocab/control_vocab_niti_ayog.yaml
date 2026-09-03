@@ -1,0 +1,11 @@
+controlled vocab for this
+
+single word, like distance education should be distance , edication
+
+go through this content in a thorough way and provide a yaml in the same format
+
+facet: topic
+category: First-Time Job Seekers
+patterns: ['Never Worked Before', 'Non-Workers Seeking/Available for Work and Never Worked Before', 'Non-workers Seeking/Available for Work and Those Who Never Worked Before']
+generic: [employment, jobseekers, labour, workforce]
+also capitalize abbreviations like MNREGA,PMKVY

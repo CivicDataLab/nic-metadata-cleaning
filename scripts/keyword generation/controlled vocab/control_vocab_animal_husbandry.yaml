@@ -1,0 +1,263 @@
+- facet: topic
+  category: livestock_insurance
+  patterns: ['livestock insurance', 'insurance scheme', 'animals insured', 'insured animals']
+  generic: [livestock, insurance, animals, scheme]
+
+- facet: topic
+  category: clean_milk_production
+  patterns: ['clean milk production', 'cmp scheme', 'cmp']
+  generic: [milk, dairy, CMP, scheme]
+
+- facet: topic
+  category: dairy_entrepreneurship
+  patterns: ['dairy entrepreneurship development scheme', 'dairy entrepreneurship', 'deds']
+  generic: [dairy, entrepreneurship, assistance, scheme,DEDS]
+
+- facet: topic
+  category: dairy_development
+  patterns: ['integrated development of dairy sector', 'iddp', 'dairy development', 'dairy sector']
+  generic: [dairy, development, milk, scheme,IIDP]
+
+- facet: topic
+  category: cooperatives
+  patterns: ['assistance to cooperatives', 'cooperative', 'cooperatives scheme']
+  generic: [cooperative, assistance, dairy, scheme]
+
+- facet: topic
+  category: livestock_population
+  patterns: ['livestock population', 'livestock census', 'growth pattern of livestock', 'total livestock']
+  generic: [livestock, census, population, animals]
+
+- facet: topic
+  category: livestock_diseases
+  patterns: ['livestock diseases', 'disease incidence', 'species-wise incidence']
+  generic: [disease, livestock, animal, health]
+
+- facet: topic
+  category: milk_production
+  patterns: ['milk production', 'milk estimates', 'milk availability', 'per capita milk']
+  generic: [milk, dairy, production, cattle]
+
+- facet: topic
+  category: egg_production
+  patterns: ['egg production', 'egg availability', 'per capita eggs', 'duck egg']
+  generic: [egg, poultry, production, ducks]
+
+- facet: topic
+  category: meat_production
+  patterns: ['meat production', 'goat meat', 'buffalo meat', 'cattle meat', 'sheep meat']
+  generic: [meat, livestock, production, animals]
+
+- facet: topic
+  category: wool_production
+  patterns: ['wool production', 'production of wool']
+  generic: [wool, sheep, production, livestock]
+
+- facet: topic
+  category: fish_production
+  patterns: ['fish production', 'fish seed', 'fisheries', 'fishery']
+  generic: [fish, fishery, seed, aquaculture]
+
+- facet: topic
+  category: livestock_projects
+  patterns: ['national dairy plan', 'ndp phase', 'financial details of projects', 'project']
+  generic: [dairy, finance, NDP]
+
+- facet: topic
+  category: scheme_finance
+  patterns: ['outlay', 'expenditure', 'plan allocation', 'financial achievement', 'financial progress', 'physical achievement', 'unit cost', 'pattern of assistance']
+  generic: [finance, expenditure, allocation, scheme]
+
+- facet: topic
+  category: livestock_equipment
+  patterns: ['equipments used', 'equipment used', 'livestock equipment']
+  generic: [equipment, livestock, infrastructure, census]
+
+- facet: topic
+  category: animal_ownership
+  patterns: ['households owning animals', 'household enterprises owning animals', 'non-households enterprises', 'institutions owning animals']
+  generic: [households, livestock, ownership, poultry]
+
+- facet: topic
+  category: stray_animals
+  patterns: ['stray cattle', 'stray dogs', 'number of stray']
+  generic: [stray, cattle, dogs, animals]
+
+- facet: topic
+  category: livestock_density
+  patterns: ['per thousand households']
+  generic: [livestock, households, census]
+
+- facet: topic
+  category: bovines
+  patterns: ['bovines', 'bovines by sex']
+  generic: [bovines, cattle, livestock, census]
+
+- facet: topic
+  category: cattle
+  patterns: ['details of cattle', 'cattle by age', 'cattle by sex', 'cattle by use']
+  generic: [cattle, livestock, census, animals]
+
+- facet: topic
+  category: buffaloes
+  patterns: ['details of buffaloes', 'buffaloes by age', 'buffaloes by sex', 'buffalo']
+  generic: [buffalo, livestock, dairy, animals]
+
+- facet: topic
+  category: goats
+  patterns: ['details of goats', 'goat']
+  generic: [goats, livestock, animals, census]
+
+- facet: topic
+  category: sheep
+  patterns: ['details of sheep', 'sheep by age', 'crossbred sheep', 'indigenous sheep']
+  generic: [sheep, livestock, wool, census]
+
+- facet: topic
+  category: pigs
+  patterns: ['details of pigs', 'pig']
+  generic: [pigs, livestock, animals, census]
+
+- facet: topic
+  category: poultry
+  patterns: ['backyard poultry', 'poultry birds', 'hatcheries', 'fowls', 'ducks', 'turkey']
+  generic: [poultry, birds, hatchery, fowls,duck,turkey]
+
+- facet: topic
+  category: horses
+  patterns: ['horses and ponies', 'horses', 'ponies']
+  generic: [horses, ponies, livestock, census]
+
+- facet: topic
+  category: camels
+  patterns: ['details of camels', 'camels']
+  generic: [camels, livestock, census, animals]
+
+- facet: topic
+  category: yaks
+  patterns: ['details of yaks', 'yaks']
+  generic: [yaks, livestock, census, animals]
+
+- facet: topic
+  category: mithun
+  patterns: ['details of mithun', 'mithun']
+  generic: [mithun, livestock, census, animals]
+
+- facet: topic
+  category: mules_donkeys
+  patterns: ['mules and donkeys', 'mules', 'donkeys']
+  generic: [mules, donkeys, livestock, census]
+
+- facet: topic
+  category: companion_animals
+  patterns: ['dogs rabbits and elephants', 'dogs', 'rabbits', 'elephants']
+  generic: [dogs, rabbits, elephants, animals]
+- facet: topic
+  category: aquaculture
+  patterns: ['aquaculture', 'brackishwater aquaculture', 'area under culture', 'area developed for aquaculture']
+  generic: [aquaculture, fisheries, culture, production]
+
+- facet: topic
+  category: shrimp
+  patterns: ['shrimp', 'scampi']
+  generic: [shrimp, scampi, aquaculture, fisheries]
+
+- facet: topic
+  category: fisheries
+  patterns: ['fish', 'fish production', 'fisheries']
+  generic: [fisheries, fish, production, aquaculture]
+
+- facet: topic
+  category: cifnet
+  patterns: ['cifnet', 'central institute of fisheries nautical and engineering training']
+  generic: [cifnet, training, fisheries, institute]
+
+- facet: topic
+  category: overseas_training
+  patterns: ['overseas candidates', 'overseas training']
+  generic: [training, overseas, capacity, fisheries]
+
+- facet: topic
+  category: wholesale_price_index
+  patterns: ['wholesale price', 'wholesale prices', 'wpi']
+  generic: [wpi, prices, inflation, commodities]
+
+- facet: topic
+  category: gross_value_added
+  patterns: ['gross value added', 'gva']
+  generic: [gva, economy, value, agriculture]
+
+- facet: topic
+  category: crop_sector
+  patterns: ['crop sector', 'crops']
+  generic: [crops, agriculture, cultivation, production]
+
+- facet: topic
+  category: veterinary
+  patterns: ['veterinary institution', 'veterinary institutions']
+  generic: [veterinary, animalhealth, institutions, livestock]
+
+- facet: topic
+  category: farms
+  patterns: ['state farms', 'farm infrastructure']
+  generic: [farms, infrastructure, agriculture, livestock]
+
+- facet: topic
+  category: administrative_units
+  patterns: ['districts', 'sub-districts', 'towns', 'villages', 'administrative units']
+  generic: [districts, villages, towns, census]
+
+- facet: topic
+  category: poverty
+  patterns: ['below poverty line', 'poverty line', 'bpl']
+  generic: [poverty, bpl, population, welfare]
+
+- facet: topic
+  category: animal_farming
+  patterns: ['animal farming', 'allied services']
+  generic: [livestock, farming, employment, allied]
+
+- facet: topic
+  category: operational_holdings
+  patterns: ['operational holdings', 'holding size', 'holdings']
+  generic: [holdings, land, agriculture, census]
+
+- facet: topic
+  category: literacy
+  patterns: ['literacy rate', 'literacy']
+  generic: [literacy, education, population, census]
+
+- facet: topic
+  category: consumer_price_index
+  patterns: ['consumer price index', 'cpi']
+  generic: [cpi, inflation, prices, index]
+
+- facet: topic
+  category: industrial_workers
+  patterns: ['industrial workers']
+  generic: [industrial, workers, labour, cpi]
+
+- facet: topic
+  category: agricultural_labourers
+  patterns: ['agricultural labourers', 'agricultural laborers']
+  generic: [labourers, agriculture, workers, cpi]
+
+- facet: topic
+  category: monthly_per_capita_expenditure
+  patterns: ['monthly per capita expenditure', 'mpce']
+  generic: [mpce, expenditure, consumption, households]
+
+- facet: topic
+  category: consumption
+  patterns: ['consumption item', 'consumption']
+  generic: [consumption, expenditure, households, nss]
+
+- facet: topic
+  category: nss
+  patterns: ['nss rounds', 'nss']
+  generic: [nss, survey, households, statistics]
+
+- facet: topic
+  category: agriculture_census
+  patterns: ['agriculture census']
+  generic: [census, agriculture, holdings, land]
