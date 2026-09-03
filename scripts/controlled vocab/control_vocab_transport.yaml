@@ -1,0 +1,698 @@
+- facet: topic
+  category: road_transport
+  patterns: ['road transport', 'road transportation', 'road transport sector']
+  generic: [transport, roads, mobility, infrastructure]
+
+- facet: transportation
+  category: road
+  patterns: ['road', 'roads', 'road network', 'road transport']
+  generic: [roads, transport, infrastructure, mobility]
+
+- facet: transportation
+  category: highways
+  patterns: ['highway', 'highways', 'road highways']
+  generic: [highways, roads, transport, infrastructure]
+
+- facet: transportation
+  category: national_highways
+  patterns: ['National Highway', 'National Highways', 'NH']
+  generic: [national, highway, roads, infrastructure]
+
+- facet: transportation
+  category: state_highways
+  patterns: ['State Highway', 'State Highways']
+  generic: [ highway, road, infrastructure]
+
+- facet: transportation
+  category: district_roads
+  patterns: ['district roads', 'district road']
+  generic: [district , roads, infrastructure, transport]
+
+- facet: transportation
+  category: rural_roads
+  patterns: ['rural roads', 'rural road']
+  generic: [rural , roads, connectivity, infrastructure]
+
+- facet: transportation
+  category: municipal_roads
+  patterns: ['municipal roads', 'municipal road']
+  generic: [municipal , urban, roads, infrastructure, transport]
+
+- facet: transportation
+  category: port_roads
+  patterns: ['port roads', 'major port roads', 'minor port roads']
+  generic: [port , roads, ports, infrastructure]
+
+- facet: transportation
+  category: railway_roads
+  patterns: ['railway roads', 'railway road']
+  generic: [railway , roads, railways, infrastructure]
+
+- facet: transportation
+  category: border_roads
+  patterns: ['Border Roads', 'Border Roads Organisation', 'BRO roads']
+  generic: [border , roads, infrastructure, connectivity]
+
+- facet: transportation
+  category: PWD_roads
+  patterns: ['PWD roads', 'Public Works Department roads', 'other PWD roads']
+  generic: [PWD, roads, infrastructure, transport]
+
+- facet: transportation
+  category: panchayati_raj_roads
+  patterns: ['Panchayati Raj roads', 'Panchayati Raj road']
+  generic: [panchayati, raj, rural, roads, infrastructure]
+
+- facet: transportation
+  category: PMGSY
+  patterns: ['PMGSY', 'Pradhan Mantri Gram Sadak Yojana', 'PMGSY roads']
+  generic: [PMGSY, rural, roads, connectivity, infrastructure]
+
+- facet: transportation
+  category: project_roads
+  patterns: ['project roads', 'project road']
+  generic: [project, roads, infrastructure, transport]
+
+- facet: transportation
+  category: military_roads
+  patterns: ['Military Engineering Service roads', 'MES roads', 'military roads']
+  generic: [military, roads, infrastructure, connectivity]
+
+- facet: transportation
+  category: forest_roads
+  patterns: ['Forest Department roads', 'forest roads']
+  generic: [forest, roads, infrastructure, connectivity]
+
+- facet: transportation
+  category: irrigation_roads
+  patterns: ['Irrigation Department roads', 'irrigation roads']
+  generic: [irrigation, roads, infrastructure, transport]
+
+- facet: transportation
+  category: electricity_department_roads
+  patterns: ['Electricity Department roads', 'electricity department road']
+  generic: [electricity, roads, infrastructure, transport]
+
+- facet: transportation
+  category: coal_mines_roads
+  patterns: ['Coal Mines Department roads', 'coal mines roads']
+  generic: [coal, mines, roads, infrastructure, transport]
+
+- facet: transportation
+  category: industrial_roads
+  patterns: ['SAIL roads', 'NMDC roads', 'roads under SAIL and NMDC']
+  generic: [industrial, road, infrastructure, transport]
+
+- facet: infrastructure
+  category: road_length
+  patterns: ['road length', 'length of roads', 'road lengths']
+  generic: [ length, road, infrastructure, connectivity]
+
+- facet: infrastructure
+  category: road_surface
+  patterns: ['surface type', 'type of surface', 'road surface']
+  generic: [ surface, road, infrastructure, construction]
+
+- facet: infrastructure
+  category: lane_type
+  patterns: ['lane type', 'type of lane', 'lanes']
+  generic: [lanes, highways, roads, infrastructure]
+
+- facet: infrastructure
+  category: road_connectivity
+  patterns: ['road connectivity', 'connectivity', 'road network']
+  generic: [connectivity, roads, infrastructure, transport]
+
+- facet: infrastructure
+  category: bridges
+  patterns: ['bridges', 'bridge', 'road bridges']
+  generic: [bridges, roads, infrastructure, transport]
+
+- facet: vehicle
+  category: motor_vehicles
+  patterns: ['motor vehicles', 'motor vehicle', 'vehicles']
+  generic: [vehicles, transport, mobility, roads]
+
+- facet: vehicle
+  category: vehicle_registration
+  patterns: ['registered motor vehicles', 'vehicle registration', 'registered vehicles']
+  generic: [vehicles, registration, transport, mobility]
+
+- facet: vehicle
+  category: vehicle_production
+  patterns: ['motor vehicle production', 'vehicle production', 'production of motor vehicles']
+  generic: [vehicles, production, automobiles, manufacturing]
+
+- facet: vehicle
+  category: vehicle_sales
+  patterns: ['motor vehicle sales', 'vehicle sales', 'sales of motor vehicles']
+  generic: [vehicles, sales, automobiles, market]
+
+- facet: vehicle
+  category: vehicle_exports
+  patterns: ['vehicle exports', 'motor vehicle exports', 'exports of motor vehicles']
+  generic: [vehicles, exports, automobiles, trade]
+
+- facet: vehicle
+  category: vehicle_imports
+  patterns: ['vehicle imports', 'motor vehicle imports', 'imports of motor vehicles']
+  generic: [vehicles, imports, automobiles, trade]
+
+- facet: vehicle
+  category: buses
+  patterns: ['buses', 'bus', 'public buses', 'bus transport']
+  generic: [buses, public, road, transport, mobility]
+
+- facet: vehicle
+  category: trucks
+  patterns: ['trucks', 'truck', 'goods vehicles']
+  generic: [trucks, goods, transport, freight, vehicles]
+
+- facet: vehicle
+  category: cars
+  patterns: ['cars', 'car', 'cars/jeeps/taxis']
+  generic: [cars, vehicles, transport, mobility]
+
+- facet: vehicle
+  category: jeeps
+  patterns: ['jeeps', 'jeep']
+  generic: [jeeps, vehicles, transport, mobility]
+
+- facet: vehicle
+  category: taxis
+  patterns: ['taxis', 'taxi']
+  generic: [taxis, vehicles, transport, mobility]
+
+- facet: vehicle
+  category: auto_rickshaws
+  patterns: ['auto rickshaws', 'auto rickshaw']
+  generic: [auto, rickshaw, vehicles, transport, mobility]
+
+- facet: vehicle
+  category: vehicle_categories
+  patterns: ['vehicle categories', 'category-wise vehicles', 'type of vehicles']
+  generic: [vehicles, categories, transport, mobility]
+
+- facet: vehicle
+  category: transport_vehicles
+  patterns: ['transport vehicles', 'transport category vehicles']
+  generic: [vehicles, transport, road, transport, mobility]
+
+- facet: vehicle
+  category: non_transport_vehicles
+  patterns: ['non-transport vehicles', 'non transport vehicles']
+  generic: [vehicles, non-transport, registration, mobility]
+
+- facet: licensing
+  category: driving_licences
+  patterns: ['driving licences', 'drivers licences', 'licences in force']
+  generic: [driving, licence, drivers, transport, regulation]
+
+- facet: licensing
+  category: driver
+  patterns: ['drivers', 'driver', 'drivers and conductors']
+  generic: [drivers, transport, road, safety, mobility]
+
+- facet: licensing
+  category: conductor
+  patterns: ['conductors', 'conductor']
+  generic: [conductors, public, transport, buses]
+
+- facet: public_transport
+  category: SRTU
+  patterns: ['SRTU', 'SRTUs', 'State Road Transport Undertakings']
+  generic: [SRTU, public, transport, buses, road, transport]
+
+- facet: public_transport
+  category: PSRTU
+  patterns: ['PSRTU', 'PSRTUs', 'Public Sector Road Transport Undertakings']
+  generic: [PSRTU, public, transport, buses, road, transport]
+
+- facet: public_transport
+  category: public_bus_transport
+  patterns: ['public bus transport', 'passenger bus transport', 'public sector road transport bus']
+  generic: [public, transport, buses, passenger, road, transport]
+
+- facet: operations
+  category: physical_performance
+  patterns: ['physical performance', 'operational performance', 'physical performance indicators']
+  generic: [ operation, transport, efficiency]
+
+- facet: operations
+  category: financial_performance
+  patterns: ['financial performance', 'financial parameters', 'financial performance of SRTUs']
+  generic: [financial, revenue, cost, transport]
+
+- facet: operations
+  category: operational_performance
+  patterns: ['operational performance', 'transport operations', 'operational indicators']
+  generic: [operation, performance, transport, efficiency]
+
+- facet: operations
+  category: fleet
+  patterns: ['fleet', 'fleet strength', 'vehicles held']
+  generic: [fleet, vehicles, transport, operation]
+
+- facet: operations
+  category: fleet_utilisation
+  patterns: ['fleet utilisation', 'fleet utilization', 'vehicle utilisation']
+  generic: [fleet, utilization, vehicles, transport]
+
+- facet: operations
+  category: routes
+  patterns: ['routes operated', 'routes', 'route length', 'average route distance']
+  generic: [routes, transport, distance, operations]
+
+- facet: operations
+  category: route_length
+  patterns: ['route length', 'length of routes', 'average route distance']
+  generic: [route, length, routes, transport, distance]
+
+- facet: operations
+  category: passenger_transport
+  patterns: ['passenger transport', 'passenger movement', 'passenger bus transport']
+  generic: [passenger, transport, buses, mobility]
+
+- facet: operations
+  category: freight_transport
+  patterns: ['freight transport', 'freight movement', 'goods transport']
+  generic: [freight, good, transport, road, transport]
+
+- facet: operations
+  category: goods_transport
+  patterns: ['goods transport', 'goods movement', 'goods vehicles']
+  generic: [goods, transport, freight]
+
+- facet: operations
+  category: passenger_movement
+  patterns: ['passenger movement', 'passenger traffic']
+  generic: [passenger, movement, transport, mobility]
+
+- facet: operations
+  category: freight_movement
+  patterns: ['freight movement', 'freight traffic']
+  generic: [freight, movement, transport]
+
+- facet: operations
+  category: kilometres
+  patterns: ['kilometres operated', 'effective kilometres', 'vehicle kilometres']
+  generic: [kilometre, transport, operation, Km]
+
+- facet: operations
+  category: fuel_consumption
+  patterns: ['fuel consumption', 'consumption of HSD', 'consumption of petrol']
+  generic: [fuel, consumption, transport, efficiency]
+
+- facet: operations
+  category: tyre_consumption
+  patterns: ['tyre consumption', 'tyres', 'tyre usage']
+  generic: [tyre, transport, maintenance, operation]
+
+- facet: finance
+  category: revenue
+  patterns: ['revenue', 'revenue realised', 'revenue realized', 'road transport revenue']
+  generic: [revenue, transport, finance, government]
+
+- facet: finance
+  category: expenditure
+  patterns: ['expenditure', 'revenue expenditure', 'capital expenditure']
+  generic: [expenditure, finance, transport, government]
+
+- facet: finance
+  category: cost
+  patterns: ['cost', 'total cost', 'cost components', 'cost per kilometre']
+  generic: [cost, transport, finance, efficiency]
+
+- facet: finance
+  category: profit
+  patterns: ['profit', 'profit/loss', 'profitability']
+  generic: [profit, finance, transport, performance]
+
+- facet: finance
+  category: return
+  patterns: ['rate of return', 'rates of return', 'return on capital']
+  generic: [return, finance, transport, performance]
+
+- facet: finance
+  category: capital
+  patterns: ['capital employed', 'capital', 'capital investment']
+  generic: [capital, finance, transport, investment]
+
+- facet: finance
+  category: transport_revenue
+  patterns: ['revenue from road transport', 'road transport revenue']
+  generic: [revenue, road, transport, taxes, finance]
+
+- facet: taxation
+  category: motor_vehicle_tax
+  patterns: ['motor vehicle tax', 'motor vehicle taxes', 'taxes on motor vehicles']
+  generic: [motor, vehicle, tax, revenue, transport]
+
+- facet: taxation
+  category: transport_tax
+  patterns: ['transport tax', 'road transport taxation', 'taxes on passenger and goods']
+  generic: [tax, transport, revenue, government]
+
+- facet: taxation
+  category: fees
+  patterns: ['fees', 'motor vehicle fees', 'permit fees']
+  generic: [fees, transport, revenue, permits]
+
+- facet: permits
+  category: national_permit
+  patterns: ['National Permit', 'National Permit Account', 'national permit fees']
+  generic: [national permit, permits, transport, fees]
+
+- facet: permits
+  category: permit
+  patterns: ['permit', 'permits', 'permit account']
+  generic: [permit, transport, regulation, fees]
+
+- facet: safety
+  category: road_accidents
+  patterns: ['road accidents', 'road accident', 'motor vehicle accidents']
+  generic: [ accidents, road, safety, vehicles, transport]
+
+- facet: safety
+  category: fatal_accidents
+  patterns: ['fatal accidents', 'fatal road accidents']
+  generic: [fatal accidents, road, safety, accidents, transport]
+
+- facet: safety
+  category: accident_rate
+  patterns: ['accident rate', 'accident rates']
+  generic: [accidents, rate, road, safety, transport]
+
+- facet: safety
+  category: casualties
+  patterns: ['casualties', 'persons killed', 'persons injured']
+  generic: [casualties,  accidents, road, safety, injuries]
+
+- facet: safety
+  category: injuries
+  patterns: ['persons injured', 'injured', 'injuries in accidents']
+  generic: [injuries, accidents, road, safety, casualties]
+
+- facet: safety
+  category: fatalities
+  patterns: ['persons killed', 'killed in accidents', 'road accident deaths']
+  generic: [fatalities, accidents, road, safety, deaths]
+
+- facet: safety
+  category: accident_causes
+  patterns: ['causes of accidents', 'primary causes of accidents', 'cause of accident']
+  generic: [accidents, causes, road, safety, transport]
+
+- facet: safety
+  category: speeding
+  patterns: ['exceeding lawful speed', 'speeding', 'lawful speed limit']
+  generic: [speeding, accidents, road, safety, drivers]
+
+- facet: safety
+  category: alcohol_drugs
+  patterns: ['alcohol/drugs', 'alcohol or drugs', 'alcohol/drug-related accidents']
+  generic: [alcohol, drugs, accidents, road, safety]
+
+- facet: safety
+  category: overloading
+  patterns: ['overloading', 'over loading']
+  generic: [overloading, accidents, road, safety, freight]
+
+- facet: safety
+  category: overcrowding
+  patterns: ['overcrowding', 'over crowding']
+  generic: [overcrowding, accidents, road ,safety, passengers]
+
+- facet: safety
+  category: load_protruding
+  patterns: ['load protruding', 'protruding load']
+  generic: [load, accidents, road, safety, freight]
+
+- facet: safety
+  category: pedestrian
+  patterns: ['pedestrian', 'pedestrian fault', 'pedestrian fault accidents']
+  generic: [pedestrian, accidents, road, safety, mobility]
+
+- facet: safety
+  category: driver_education
+  patterns: ['drivers educational qualification', 'driver education', 'educational qualification of drivers']
+  generic: [drivers, education, road, safety, accidents]
+
+- facet: safety
+  category: accident_time
+  patterns: ['time interval of day', 'time of day', 'accident time']
+  generic: [accidents, time, road, safety, trends]
+
+- facet: safety
+  category: accident_month
+  patterns: ['month-wise road accidents', 'monthly road accidents', 'seasonal road accidents']
+  generic: [accidents, monthly, road, safety, trends]
+
+- facet: safety
+  category: urban_accidents
+  patterns: ['urban road accidents', 'road accidents in urban areas']
+  generic: [urban, accidents, road, safety, cities]
+
+- facet: safety
+  category: rural_accidents
+  patterns: ['rural road accidents', 'road accidents in rural areas']
+  generic: [rural, accidents, road, safety, transport]
+
+- facet: safety
+  category: vehicle_accidents
+  patterns: ['accidents involving buses', 'accidents involving cars', 'auto rickshaw accidents']
+  generic: [vehicles, accidents, road, safety, transport]
+
+- facet: mobility
+  category: urban_transport
+  patterns: ['urban transport', 'metropolitan transport', 'million-plus cities']
+  generic: [urban, mobility, cities, transport]
+
+- facet: mobility
+  category: metropolitan_cities
+  patterns: ['metropolitan cities', 'million-plus cities', 'million plus cities']
+  generic: [cities, urban, transport, mobility, vehicles]
+
+- facet: mobility
+  category: motor_vehicle_population
+  patterns: ['motor vehicles and population', 'registered motor vehicles and population']
+  generic: [vehicles, population, mobility, transport]
+
+- facet: trade
+  category: vehicle_trade
+  patterns: ['imports and exports of motor vehicles', 'motor vehicle trade', 'vehicle imports and exports']
+  generic: [vehicles, trade, imports, exports]
+
+- facet: trade
+  category: vehicle_accessories
+  patterns: ['motor vehicle accessories', 'vehicle accessories']
+  generic: [vehicles, accessories, automobiles, trade]
+
+- facet: policy
+  category: transport_planning
+  patterns: ['transport planning', 'road transport planning', 'mobility planning']
+  generic: [transport, planning, roads, mobility]
+
+- facet: policy
+  category: road_safety
+  patterns: ['road safety', 'road safety planning', 'road safety monitoring']
+  generic: [road, safety, accidents, transport, mobility]
+
+- facet: policy
+  category: enforcement
+  patterns: ['enforcement', 'traffic enforcement', 'road safety enforcement']
+  generic: [enforcement, road, safety, transport, regulation]
+
+- facet: organization
+  category: MoRTH
+  patterns: ['Ministry of Road Transport and Highways', 'MoRTH']
+  generic: [MoRTH, roads, highways, transport]
+
+- facet: organization
+  category: SRTU
+  patterns: ['SRTU', 'SRTUs', 'State Road Transport Undertakings']
+  generic: [SRTU, public, buses, transport]
+
+- facet: organization
+  category: PSRTU
+  patterns: ['PSRTU', 'PSRTUs', 'Public Sector Road Transport Undertakings']
+  generic: [PSRTU, public, buses, transport]
+
+- facet: organization
+  category: PWD
+  patterns: ['PWD', 'Public Works Department']
+  generic: [PWD, roads, infrastructure, government]
+
+- facet: organization
+  category: BRO
+  patterns: ['BRO', 'Border Roads Organisation', 'Border Roads Organization']
+  generic: [BRO, border, roads, infrastructure, defence]
+
+- facet: organization
+  category: PMGSY
+  patterns: ['PMGSY', 'Pradhan Mantri Gram Sadak Yojana']
+  generic: [PMGSY, rural, roads, connectivity, infrastructure]
+
+- facet: organization
+  category: SAIL
+  patterns: ['SAIL', 'Steel Authority of India Limited']
+  generic: [SAIL, roads, industry, infrastructure]
+
+- facet: organization
+  category: NMDC
+  patterns: ['NMDC', 'National Mineral Development Corporation']
+  generic: [NMDC, roads, mining, infrastructure]
+- facet: vehicle
+  category: motor_vehicles
+  patterns: ['motor vehicle', 'motor vehicles', 'motor production']
+  generic: [motor, vehicles, production, automobiles]
+
+- facet: vehicle
+  category: motorcycles
+  patterns: ['motorcycle', 'motorcycles', 'motor cycles', 'motor cycle']
+  generic: [motorcycles, vehicles, imports, transport]
+
+- facet: vehicle
+  category: station_wagons
+  patterns: ['station wagon', 'station wagons']
+  generic: [station-wagons, vehicles, registration, transport]
+
+- facet: vehicle
+  category: diesel_engines
+  patterns: ['diesel engine', 'diesel engines']
+  generic: [diesel, engines, production, vehicles]
+
+- facet: vehicle
+  category: storage_batteries
+  patterns: ['storage battery', 'storage batteries', 'batteries']
+  generic: [batteries, storage, vehicles, production]
+
+- facet: vehicle
+  category: engine_life
+  patterns: ['average life of engine', 'life of a new engine', 'engine life']
+  generic: [engine, lifespan, maintenance, vehicles]
+
+- facet: vehicle
+  category: battery_life
+  patterns: ['average life of battery', 'battery life', 'life of battery']
+  generic: [battery, lifespan, maintenance, vehicles]
+
+- facet: finance
+  category: receipts
+  patterns: ['receipts', 'receipts from fees', 'fee receipts']
+  generic: [receipts, fees, revenue, finance]
+
+- facet: petroleum
+  category: crude_imports
+  patterns: ['petroleum crude imports', 'import of petroleum crude', 'crude imports']
+  generic: [petroleum, crude, imports, refining]
+
+- facet: petroleum
+  category: refinery_production
+  patterns: ['refinery production', 'refinery production of petroleum', 'refinery output']
+  generic: [refinery, production, petroleum, fuel]
+
+- facet: petroleum
+  category: crude_throughput
+  patterns: ['refinery crude throughput', 'crude throughput', 'crude processed']
+  generic: [refinery, throughput, crude, petroleum]
+
+- facet: petroleum
+  category: petroleum_products
+  patterns: ['petroleum products production', 'production of petroleum products', 'petroleum products']
+  generic: [petroleum, products, production, refinery]
+
+- facet: petroleum
+  category: diesel_consumption
+  patterns: ['high speed diesel', 'High Speed Diesel consumption', 'HSD consumption']
+  generic: [diesel, HSD, consumption, industry]
+
+- facet: petroleum
+  category: HSD
+  patterns: ['HSD', 'High Speed Diesel']
+  generic: [HSD, diesel, petroleum, fuel]
+
+- facet: economy
+  category: population
+  patterns: ['population growth', 'decennial population growth', 'rural and urban population']
+  generic: [population, growth, rural, urban]
+
+- facet: economy
+  category: GDP
+  patterns: ['Gross Domestic Product', 'GDP', 'domestic product']
+  generic: [GDP, economy, income, production]
+
+- facet: economy
+  category: national_income
+  patterns: ['National Income', 'national income']
+  generic: [income, economy, GDP, national]
+
+- facet: energy
+  category: energy_consumption
+  patterns: ['energy consumption', 'consumption of energy', 'energy use']
+  generic: [energy, consumption, fuels, sectors]
+
+- facet: transportation
+  category: transport_GVA
+  patterns: ['transport services in GVA', 'transport services in Gross Value Added', 'transport GVA']
+  generic: [transport, GVA, services, economy]
+
+- facet: transportation
+  category: transport_modes
+  patterns: ['modes of transport', 'different modes of transport', 'transport modes']
+  generic: [transport, modes, services, mobility]
+
+- facet: transportation
+  category: railway_electrification
+  patterns: ['railway electrification', 'electrification of railways', 'electrified railways']
+  generic: [railways, electrification, infrastructure, transport]
+
+- facet: transportation
+  category: railway_import_substitution
+  patterns: ['import substitution by railways', 'railway import substitution', 'import substitution']
+  generic: [railways, import, substitution, transport]
+
+- facet: maritime
+  category: ports
+  patterns: ['ports', 'major ports', 'minor ports', 'major and minor ports']
+  generic: [ports, maritime, infrastructure, transport]
+
+- facet: maritime
+  category: navigational_aids
+  patterns: ['navigational aids', 'navigation aids', 'navigational aid at ports']
+  generic: [navigation, port, maritime, infrastructure]
+
+- facet: maritime
+  category: dock_workers
+  patterns: ['dock workers', 'dock worker', 'registered dock workers']
+  generic: [dock, worker, port, employment]
+
+- facet: maritime
+  category: port_employment
+  patterns: ['employment at ports', 'port employment', 'employment in ports']
+  generic: [ports, employment, workers, maritime]
+
+- facet: maritime
+  category: shipbuilding
+  patterns: ['ship building', 'shipbuilding', 'ship building capacity']
+  generic: [ship,building, maritime]
+
+- facet: maritime
+  category: shipbuilding_capacity
+  patterns: ['ship building capacity', 'shipbuilding capacity', 'maximum ship size']
+  generic: [ship,building, maritime, industry]
+
+- facet: trade
+  category: foreign_trade
+  patterns: ['foreign trade', 'India foreign trade', 'foreign trade trends']
+  generic: [trade, exports, imports, economy]
+
+- facet: trade
+  category: imports
+  patterns: ['imports', 'import', 'import substitution']
+  generic: [imports, trade, transport, economy]
+
+- facet: trade
+  category: exports
+  patterns: ['exports', 'export', 'foreign exports']
+  generic: [exports, trade, transport, economy]

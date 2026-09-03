@@ -1,0 +1,141 @@
+- facet: topic
+  category: imports
+  patterns: ['import', 'imports', 'import data']
+  generic: [imports, trade, commodities ]
+
+- facet: topic
+  category:   export
+  patterns: ['export', '  export', 'export data']
+  generic: [  export, trade, commodities ]
+
+- facet: topic
+  category: trade
+  patterns: ['trade', 'import export', 'export import']
+  generic: [trade, commerce,   export, imports]
+
+- facet: topic
+  category: commodities
+  patterns: ['commodity', 'commodities', 'principal commodity']
+  generic: [commodities, products, goods, trade]
+
+- facet: topic
+  category: 
+  patterns: ['country wise', 'country-wise', 'partner country']
+  generic: [  international, trade, markets]
+
+- facet: topic
+  category: import_policy
+  patterns: ['import policy']
+  generic: [policy, imports, compliance, customs]
+
+- facet: topic
+  category: hs_codes
+  patterns: ['itc hs', 'itc (hs)', 'hs code', 'harmonized system']
+  generic: [ hs, classification, customs, tariff]
+
+- facet: topic
+  category: classification
+  patterns: ['classification', 'product classification', 'trade classification']
+  generic: [classification, products, customs, trade]
+
+- facet: topic
+  category: iem
+  patterns: ['iem', 'industrial entrepreneurs memorandum']
+  generic: [iem, industries, filings, approvals]
+
+- facet: topic
+  category: industrial_undertakings
+  patterns: ['industrial undertaking', 'industrial undertakings']
+  generic: [industry, manufacturing, enterprises, production]
+
+- facet: topic
+  category: investment
+  patterns: ['investment proposal', 'investment proposals']
+  generic: [investment, proposals, industry, projects]
+
+- facet: topic
+  category: implementation
+  patterns: ['implemented', 'implementation', 'commencement of commercial production']
+  generic: [implementation, production, industry, projects]
+
+- facet: topic
+  category: manufacturing
+  patterns: ['manufacturing']
+  generic: [manufacturing, industry, production, factories]
+
+- facet: topic
+  category: licensing
+  patterns: ['industrial license', 'industrial licences', 'loi', 'dil']
+  generic: [licensing, approvals, industry, compliance]
+
+- facet: topic
+  category: dipp
+  patterns: ['dipp']
+  generic: [dipp, industry, approvals ]
+
+- facet: topic
+  category: dpiit
+  patterns: ['dpiit', 'department for promotion of industry and internal trade']
+  generic: [dpiit, industry, commerce ]
+
+- facet: topic
+  category: wholesale_price_index
+  patterns: ['wholesale price index', 'wpi']
+  generic: [wpi, inflation, prices, index]
+
+- facet: topic
+  category: inflation
+  patterns: ['inflation', 'price movements']
+  generic: [inflation, prices, economy, index]
+
+- facet: topic
+  category: prices
+  patterns: ['price index', 'price']
+  generic: [prices, inflation, economy, wholesale]
+
+- facet: topic
+  category:  port
+  patterns: ['port', 'sea port', 'airport', 'air cargo', 'icd', 'land port', 'cfs']
+  generic: [ port,export, trade]
+
+- facet: topic
+  category:  airport
+  patterns: ['airport', 'air cargo', 'air port']
+  generic: [ airport, export, aviation]
+
+- facet: topic
+  category: icd
+  patterns: ['icd']
+  generic: [icd,  export, inland]
+
+- facet: topic
+  category: customs
+  patterns: ['customs']
+  generic: [customs, compliance, trade, imports]
+
+- facet: topic
+  category: logistics
+  patterns: ['cargo', 'shipment', 'logistics']
+  generic: [transport, trade,   export]
+
+- facet: topic
+  category: statewise
+  patterns: ['state-wise', 'state wise']
+  generic: [ industry, investment]
+
+- facet: topic
+  category: industrywise
+  patterns: ['industry-wise', 'industry wise']
+  generic: [industry, sectors, manufacturing, investment]
+
+- facet: topic
+  category: yearwise
+  patterns: ['year-wise', 'year wise']
+  generic: [annual, trends, industry, investment]
+
+- facet: topic
+  category: monthly
+  patterns: ['monthly']
+  generic: [ trends, monitoring  ]
+
+  # 43,69,109

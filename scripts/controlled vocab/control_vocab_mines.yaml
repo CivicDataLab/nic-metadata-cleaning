@@ -1,0 +1,319 @@
+- facet: topic
+  category: mining
+  patterns: ['mining', 'mining sector', 'mining activities', 'mining operations']
+  generic: [mining, minerals, industry, resources]
+
+- facet: topic
+  category: minerals
+  patterns: ['mineral', 'minerals', 'mineral resources', 'mineral sector']
+  generic: [mineral, mining, resources, industry]
+
+- facet: topic
+  category: mineral_resources
+  patterns: ['mineral resources', 'mineral resource', 'resources']
+  generic: [mineral, resources, mining, reserves]
+
+- facet: topic
+  category: mineral_reserves
+  patterns: ['mineral reserves', 'resource reserves', 'reserves']
+  generic: [mineral, reserves, resources, mining]
+
+- facet: topic
+  category: resource_reserves
+  patterns: ['resource reserves', 'resources and reserves', 'resource and reserve']
+  generic: [resources, reserves, mineral, mining]
+
+- facet: topic
+  category: mineral_production
+  patterns: ['mineral production', 'production of minerals', 'production and value of minerals']
+  generic: [production, mineral, mining, industry]
+
+- facet: topic
+  category: mineral_value
+  patterns: ['value of minerals', 'mineral value', 'production and value']
+  generic: [mineral, value, production, mining]
+
+- facet: topic
+  category: mining_lease
+  patterns: ['mining lease', 'mining leases', 'lease distribution', 'mining lease distribution']
+  generic: [mining, lease, minerals, allocation]
+
+- facet: topic
+  category: lease_distribution
+  patterns: ['lease distribution', 'distribution of mining leases', 'mining lease distribution']
+  generic: [lease, mining, distribution, minerals]
+
+- facet: topic
+  category: lease_expiry
+  patterns: ['expiry of mining leases', 'mining lease expiry', 'lease expiry']
+  generic: [mining, lease, expiry, renewal]
+
+- facet: topic
+  category: lease_allocation
+  patterns: ['lease allocation', 'mining lease allocation', 'allocation of mining leases']
+  generic: [mining, lease, allocation, minerals]
+
+- facet: topic
+  category: mining_registration
+  patterns: ['mining registration', 'registration status', 'registrations under Rule 45']
+  generic: [mining, registration, compliance, regulation]
+
+- facet: topic
+  category: MCDR
+  patterns: ['MCDR', 'Mineral Conservation and Development Rules', 'Mineral Conservation and Development Rules, 1988', 'MCDR, 2017']
+  generic: [MCDR, mining, regulation, minerals]
+
+- facet: topic
+  category: MCDR_Rule_45
+  patterns: ['Rule 45', 'MCDR Rule 45', 'registration under Rule 45', 'registrations under Rule 45']
+  generic: [Rule 45, MCDR, registration, compliance]
+
+- facet: topic
+  category: mineral_conservation
+  patterns: ['mineral conservation', 'conservation of minerals']
+  generic: [mineral, conservation, mining, resources]
+
+- facet: topic
+  category: mining_compliance
+  patterns: ['compliance', 'compliance monitoring', 'regulatory compliance', 'compliance review']
+  generic: [compliance, mining, regulation, MCDR]
+
+- facet: topic
+  category: mining_regulation
+  patterns: ['mining regulation', 'mining regulations', 'regulatory requirements', 'regulatory monitoring']
+  generic: [mining, regulation, compliance, MCDR]
+
+- facet: topic
+  category: mining_administration
+  patterns: ['administration of MCDR', 'mining administration', 'administration of mineral conservation']
+  generic: [mining, administration, MCDR, regulation]
+
+- facet: topic
+  category: geological_mapping
+  patterns: ['geological maps', 'geological mapping', 'geological map', 'quadrangle geological maps']
+  generic: [geology, maps, mining, minerals]
+
+- facet: topic
+  category: geological_survey
+  patterns: ['Geological Survey', 'geological survey', 'geological studies']
+  generic: [geology, survey, minerals, resources]
+
+- facet: topic
+  category: mineral_deposits
+  patterns: ['mineral deposits', 'ore deposits', 'deposits in India', 'deposit locations']
+  generic: [mineral, deposits, geology, mining]
+
+- facet: topic
+  category: mineral_exploration
+  patterns: ['mineral exploration', 'exploration', 'exploration planning']
+  generic: [exploration, mineral, geology, mining]
+
+- facet: topic
+  category: resource_assessment
+  patterns: ['resource assessment', 'mineral resource assessment', 'resource mapping']
+  generic: [resources, assessment, minerals, mining]
+
+- facet: topic
+  category: seismotectonics
+  patterns: ['seismotectonic', 'seismotectonic atlas', 'seismotectonic features']
+  generic: [seismotectonic, geology, earthquake, atlas]
+
+- facet: topic
+  category: mining_trade
+  patterns: ['mineral trade', 'mining trade', 'trade analysis', 'trade trends']
+  generic: [trade, minerals, mining, exports]
+
+- facet: topic
+  category: exports
+  patterns: ['exports', 'mineral exports', 'ore exports', 'metal exports']
+  generic: [exports, minerals, trade, mining]
+
+- facet: topic
+  category: imports
+  patterns: ['imports', 'mineral imports', 'ore imports', 'metal imports']
+  generic: [imports, minerals, trade, mining]
+
+- facet: topic
+  category: re_export
+  patterns: ['re-export', 're-exports', 'including re-export', 'including re-exports']
+  generic: [export, re-export, minerals, trade]
+
+- facet: topic
+  category: ores
+  patterns: ['ore', 'ores', 'ores and minerals']
+  generic: [ore, minerals, mining, resources]
+
+- facet: topic
+  category: metals
+  patterns: ['metal', 'metals', 'metals and alloys']
+  generic: [metals, alloys, mining, industry]
+
+- facet: topic
+  category: alloys
+  patterns: ['alloy', 'alloys', 'metals and alloys']
+  generic: [alloys, metals, industry, mining]
+
+- facet: topic
+  category: fuel_minerals
+  patterns: ['fuel minerals', 'fuel and MCDR minerals']
+  generic: [fuel, minerals, mining, production]
+
+- facet: topic
+  category: minor_minerals
+  patterns: ['minor minerals', 'minor mineral']
+  generic: [minor, minerals, mining, resources]
+
+- facet: topic
+  category: atomic_minerals
+  patterns: ['atomic minerals', 'atomic mineral']
+  generic: [atomic, minerals, mining, resources]
+
+- facet: topic
+  category: coal
+  patterns: ['coal']
+  generic: [coal, mining, fuel, minerals]
+
+- facet: topic
+  category: lignite
+  patterns: ['lignite']
+  generic: [lignite, coal, mining, fuel]
+
+- facet: topic
+  category: petroleum
+  patterns: ['petroleum']
+  generic: [petroleum, fuel, minerals, mining]
+
+- facet: topic
+  category: natural_gas
+  patterns: ['natural gas']
+  generic: [natural gas, fuel, mining, resources]
+
+- facet: topic
+  category: bauxite
+  patterns: ['bauxite', 'aluminum deposits', 'aluminium deposits']
+  generic: [bauxite, aluminum, mineral, deposits]
+
+- facet: topic
+  category: baryte
+  patterns: ['baryte', 'barite']
+  generic: [baryte, mineral, deposits, mining]
+
+- facet: topic
+  category: copper
+  patterns: ['copper', 'copper deposits']
+  generic: [copper, mineral, deposits, mining]
+
+- facet: topic
+  category: diamond
+  patterns: ['diamond', 'diamond deposits']
+  generic: [diamond, mineral, deposits, mining]
+
+- facet: topic
+  category: gold
+  patterns: ['gold', 'gold deposits']
+  generic: [gold, mineral, deposits, mining]
+
+- facet: topic
+  category: iron_ore
+  patterns: ['iron ore', 'iron ore deposits']
+  generic: [iron, ore, mineral, mining]
+
+- facet: topic
+  category: lead_zinc
+  patterns: ['lead-zinc', 'lead zinc', 'lead-zinc ore', 'lead and zinc']
+  generic: [lead, zinc, ore, mining]
+
+- facet: topic
+  category: manganese
+  patterns: ['manganese', 'manganese ore', 'manganese ore deposits']
+  generic: [manganese, ore, mineral, mining]
+
+- facet: topic
+  category: chromite
+  patterns: ['chromite', 'chromite resources']
+  generic: [chromite, mineral, resources, mining]
+
+- facet: topic
+  category: mineral_inventory
+  patterns: ['mineral inventory', 'National Mineral Inventory', 'NMI']
+  generic: [mineral, inventory, resources, mining]
+
+- facet: topic
+  category: mineral_maps
+  patterns: ['mineral map', 'mineral maps', 'mineral mapping']
+  generic: [mineral, maps, geology, resources]
+
+- facet: topic
+  category: mining_performance
+  patterns: ['performance of Indian Bureau of Mines', 'Indian Bureau of Mines performance', 'performance']
+  generic: [mining, performance, administration, minerals]
+
+- facet: topic
+  category: five_year_plan
+  patterns: ['Five Year Plan', 'Eleventh Five Year Plan', 'Twelfth Five Year Plan']
+  generic: [planning, mining, government, development]
+
+- facet: topic
+  category: mining_policy
+  patterns: ['mining policy', 'policy planning', 'policy analysis']
+  generic: [mining, policy, planning, minerals]
+
+- facet: topic
+  category: mining_planning
+  patterns: ['mining planning', 'resource planning', 'mineral planning']
+  generic: [mining, planning, minerals, resources]
+
+- facet: topic
+  category: state_wise
+  patterns: ['state-wise', 'state wise', 'state-wise summary', 'by state']
+  generic: [state, mining, minerals, geography]
+
+- facet: topic
+  category: area_wise
+  patterns: ['area-wise', 'area wise', 'by area']
+  generic: [area, mining, lease, geography]
+
+- facet: topic
+  category: mineral_wise
+  patterns: ['mineral-wise', 'mineral wise', 'by mineral']
+  generic: [mineral, mining, classification, lease]
+
+- facet: topic
+  category: central_level
+  patterns: ['central-level', 'central level', 'central government']
+  generic: [central, government, mining, administration]
+
+- facet: topic
+  category: geological_atlas
+  patterns: ['atlas', 'geological atlas', 'digital atlas']
+  generic: [atlas, geology, maps, minerals]
+
+- facet: acronym
+  category: MCDR
+  patterns: ['MCDR', 'Mineral Conservation and Development Rules']
+  generic: [MCDR, mining, regulation, minerals]
+
+- facet: acronym
+  category: IBM
+  patterns: ['IBM', 'Indian Bureau of Mines']
+  generic: [IBM, mining, minerals, government]
+
+- facet: acronym
+  category: GSI
+  patterns: ['GSI', 'Geological Survey of India']
+  generic: [GSI, geology, minerals, survey]
+
+- facet: acronym
+  category: NMI
+  patterns: ['NMI', 'National Mineral Inventory']
+  generic: [NMI, mineral, inventory, resources]
+
+- facet: acronym
+  category: DGCIS
+  patterns: ['DGCI&S', 'DGCIS', 'DGCI & S']
+  generic: [DGCIS, trade, exports, imports]
+
+- facet: acronym
+  category: MMDR
+  patterns: ['MM(D&R)', 'MMDR', 'Mines and Minerals Development and Regulation']
+  generic: [MMDR, mining, regulation, minerals]

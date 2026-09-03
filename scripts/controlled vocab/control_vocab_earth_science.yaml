@@ -1,0 +1,134 @@
+- facet: topic
+  category: rainfall
+  patterns: ['rainfall', 'precipitation', 'monsoon rainfall', 'rainfall departure', 'rainfall normal', 'area weighted rainfall']
+  generic: [rainfall, precipitation, monsoon, hydrology]
+
+- facet: topic
+  category: temperature
+  patterns: ['temperature', 'mean temperature', 'maximum temperature', 'minimum temperature']
+  generic: [temperature, climate, heat, climatology]
+
+- facet: topic
+  category: monsoon
+  patterns: ['monsoon', 'southwest monsoon', 'northeast monsoon', 'pre-monsoon', 'post-monsoon']
+  generic: [monsoon, seasonal, rainfall, climate]
+
+- facet: topic
+  category: cyclone
+  patterns: ['cyclone', 'cyclonic storm', 'severe cyclonic storm', 'cyclone frequency']
+  generic: [cyclone, storm, weather, disaster]
+
+- facet: topic
+  category: cyclonic_disturbance
+  patterns: ['cyclonic disturbance', 'disturbance', 'cyclonic disturbances']
+  generic: [disturbance, cyclone, storm, weather]
+
+- facet: topic
+  category: depression
+  patterns: ['depression', 'deep depression']
+  generic: [depression, storm, cyclone, weather]
+
+- facet: topic
+  category: weather_forecast
+  patterns: ['weather forecast', 'forecast', 'forecasting', 'model forecast']
+  generic: [forecast, weather, meteorology]
+
+- facet: topic
+  category: meteorology
+  patterns: ['meteorology', 'meteorological', 'meteorological subdivision']
+  generic: [meteorology, weather, atmosphere, climate]
+
+- facet: topic
+  category: climate
+  patterns: ['climate', 'climate monitoring', 'climatology', 'climate trend']
+  generic: [climate, trends, environment]
+
+- facet: topic
+  category: atmospheric_science
+  patterns: ['atmospheric science', 'atmospheric', 'atmosphere']
+  generic: [atmosphere, meteorology, climate, weather]
+
+- facet: topic
+  category: ocean
+  patterns: ['ocean', 'indian ocean', 'ocean information system', 'ocean data']
+  generic: [ocean, marine, coastal, oceanography]
+
+- facet: topic
+  category: marine
+  patterns: ['marine', 'marine science', 'coastal', 'coastal waters']
+  generic: [marine, coastal, ocean, fisheries]
+
+- facet: topic
+  category: ocean_monitoring
+  patterns: ['ocean monitoring', 'coastal ocean monitoring', 'ocean observation']
+  generic: [ ocean, marine, observations]
+
+- facet: topic
+  category: ocean_forecasting
+  patterns: ['ocean prediction', 'ocean forecasting', 'prediction system']
+  generic: [forecast, ocean, marine]
+
+- facet: topic
+  category: argo
+  patterns: ['argo', 'argo float', 'indian ocean argo']
+  generic: [argo, floats, ocean, observations]
+
+- facet: topic
+  category: incois
+  patterns: ['incois', 'indian national centre for ocean information services']
+  generic: [incois, ocean, marine, forecast]
+
+- facet: topic
+  category: ncmrwf
+  patterns: ['ncmrwf', 'ncmrwf forecast']
+  generic: [ncmrwf, forecast, weather, model]
+
+- facet: topic
+  category: bay_of_bengal
+  patterns: ['bay of bengal', 'bob']
+  generic: [bengal, cyclone, ocean, marine,bay]
+
+- facet: topic
+  category: arabian_sea
+  patterns: ['arabian sea']
+  generic: [arabian, cyclone, sea, marine]
+
+- facet: topic
+  category: land_basin
+  patterns: ['land basin']
+  generic: [land, cyclone, basin, weather]
+
+- facet: topic
+  category: earth_sciences
+  patterns: ['earth sciences', 'ministry of earth sciences']
+  generic: [earth, geoscience, climate, environment]
+
+- facet: topic
+  category: hydrology
+  patterns: ['hydrology', 'hydrological']
+  generic: [hydrology, water, rainfall, resources]
+
+- facet: topic
+  category: climatology
+  patterns: ['climatology', 'climatological']
+  generic: [climatology, climate, weather, temperature]
+
+- facet: topic
+  category: coastal
+  patterns: ['coastal', 'coastal waters']
+  generic: [coastal, marine, shoreline, ocean]
+
+- facet: topic
+  category: storm
+  patterns: ['storm', 'storms', 'severe storm']
+  generic: [storm, cyclone, weather, disaster]
+
+- facet: topic
+  category: rainfall_anomaly
+  patterns: ['departure from normal', 'rainfall departure', 'departure']
+  generic: [anomaly, rainfall, deviation, monsoon]
+
+- facet: topic
+  category: meteorological_subdivision
+  patterns: ['meteorological subdivision', 'meteorological subdivisions']
+  generic: [subdivision, meteorological, rainfall, climate]

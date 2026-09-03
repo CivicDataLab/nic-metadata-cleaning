@@ -1,0 +1,74 @@
+- facet: topic
+  category: coal
+  patterns: ['monthly coal statement', 'coal statement', 'coal stock', 'coal availability', 'coal supply', 'coal consumption']
+  generic: [coal, thermal, fuel, power]
+
+- facet: topic
+  category: thermal_power
+  patterns: ['thermal power station', 'thermal power stations', 'thermal generation']
+  generic: [thermal, station, electricity, generation]
+
+- facet: topic
+  category: power_generation
+  patterns: ['monthly power generation', 'power generation', 'program generation', 'actual generation', 'generation']
+  generic: [generation, electricity, power, capacity]
+
+- facet: topic
+  category: installed_capacity
+  patterns: ['installed capacity', 'generation capacity']
+  generic: [capacity, generation, infrastructure, electricity]
+
+- facet: topic
+  category: peak_demand
+  patterns: ['peak demand', 'monthly peak demand']
+  generic: [demand, peak, electricity, grid]
+
+- facet: topic
+  category: peak_met
+  patterns: ['peak met', 'demand and peak met', 'peak demand and peak met']
+  generic: [peak, supply, demand, grid]
+
+- facet: topic
+  category: power_supply
+  patterns: ['power supply', 'power supply position', 'electricity supply']
+  generic: [power, supply, electricity, grid]
+
+- facet: topic
+  category: electricity
+  patterns: ['electricity', 'electric power', 'power sector']
+  generic: [electricity, power, energy, grid]
+
+- facet: topic
+  category: grid
+  patterns: ['grid', 'grid planning', 'load forecasting', 'demand supply balance']
+  generic: [grid, transmission, demand, supply]
+
+- facet: topic
+  category: transmission
+  patterns: ['transmission losses', 'transmission']
+  generic: [transmission, losses, grid, electricity]
+
+- facet: topic
+  category: energy
+  patterns: ['energy', 'energy planning']
+  generic: [energy, power, electricity, generation]
+
+- facet: topic
+  category: generation_performance
+  patterns: ['actual generation', 'program generation', 'generation performance']
+  generic: [generation, performance, electricity, output]
+
+- facet: topic
+  category: fuel
+  patterns: ['fuel availability', 'fuel supply', 'fuel stock']
+  generic: [fuel, coal, thermal, power]
+
+- facet: topic
+  category: central_electricity_authority
+  patterns: ['central electricity authority', 'cea']
+  generic: [cea, electricity, power]
+
+- facet: topic
+  category: ministry_of_power
+  patterns: ['ministry of power']
+  generic: [ power, energy]

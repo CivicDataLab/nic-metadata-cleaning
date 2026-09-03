@@ -1,0 +1,5304 @@
+- facet: topic
+  category: smart_city
+  patterns: ['smart city', 'smart cities mission']
+  generic: [smart]
+
+- facet: topic
+  category: city_profile
+  patterns: ['city profile', 'demographic profile', 'smart city profile']
+  generic: [city, profile, demographic, urban]
+
+- facet: topic
+  category: census
+  patterns: ['census', 'census 2011', 'house listing', 'housing census']
+  generic: [census, population, households, housing]
+
+- facet: topic
+  category: households
+  patterns: ['household profile', 'households', 'household data']
+  generic: [households, population, house, demographics]
+
+- facet: topic
+  category: housing
+  patterns: ['housing details', 'housing infrastructure', 'housing and slums', 'slum housing']
+  generic: [house, slums, households, infrastructure]
+
+- facet: topic
+  category: slums
+  patterns: ['slum population', 'slum housing', 'housing and slums']
+  generic: [slums, house, population, urban]
+
+- facet: topic
+  category: water_supply
+  patterns: ['water supply', 'water supply status', 'water connections', 'water treatment plant']
+  generic: [water, supply, treatment, connections]
+
+- facet: topic
+  category: drinking_water
+  patterns: ['drinking water', 'drinking water data', 'drinking water supply']
+  generic: [drinking, water, supply, quality]
+
+- facet: topic
+  category: sanitation
+  patterns: ['sanitation', 'public toilets', 'sewerage network']
+  generic: [sanitation, toilets, sewerage, hygiene]
+
+- facet: topic
+  category: solid_waste
+  patterns: ['solid waste', 'solid waste management', 'waste management']
+  generic: [waste, sanitation, collection, disposal]
+
+- facet: topic
+  category: waste_collection
+  patterns: ['waste collection', 'door to door collection', 'D2D collection', 'garbage collection']
+  generic: [waste, collection, garbage, sanitation]
+
+- facet: topic
+  category: waste_segregation
+  patterns: ['waste segregation', 'solid waste segregation']
+  generic: [waste, segregation, sanitation, recycling]
+
+- facet: topic
+  category: waste_processing
+  patterns: ['waste processing', 'solid waste processing']
+  generic: [waste, processing, sanitation, recycling]
+
+- facet: topic
+  category: waste_disposal
+  patterns: ['waste disposal', 'solid waste disposal']
+  generic: [waste, disposal, sanitation, landfill]
+
+- facet: topic
+  category: waste_equipment
+  patterns: ['waste collection equipment', 'solid waste collection equipment']
+  generic: [waste, equipment, collection, sanitation]
+
+- facet: topic
+  category: waste_vehicles
+  patterns: ['waste collection vehicle', 'solid waste collection vehicle', 'waste collection vehicles']
+  generic: [waste, vehicles, collection, sanitation]
+
+- facet: topic
+  category: waste_bins
+  patterns: ['solid waste bins', 'community bins', 'waste bins']
+  generic: [waste, bins, collection, sanitation]
+
+- facet: topic
+  category: waste_revenue
+  patterns: ['solid waste collection revenue', 'waste collection revenue']
+  generic: [waste, revenue, collection, finance]
+
+- facet: topic
+  category: waste_expenditure
+  patterns: ['waste management revenue expenditure', 'solid waste expenditure']
+  generic: [waste, expenditure, finance, sanitation]
+
+- facet: topic
+  category: waste_efficiency
+  patterns: ['solid waste management efficiency', 'SWM efficiency']
+  generic: [waste, efficiency, sanitation, performance]
+
+- facet: topic
+  category: roads
+  patterns: ['roads', 'road infrastructure', 'road condition', 'conditions of roads']
+  generic: [roads, transport, infrastructure, mobility]
+
+- facet: topic
+  category: road_safety
+  patterns: ['road safety', 'injuries and fatalities', 'road injuries', 'road fatalities']
+  generic: [roads, safety, accidents, transport]
+
+- facet: topic
+  category: public_transport
+  patterns: ['public transport', 'public transport access', 'public transport accessibility']
+  generic: [transport, buses, mobility, accessibility]
+
+- facet: topic
+  category: transport_mode
+  patterns: ['transport mode share', 'public transport mode share']
+  generic: [transport, mobility, buses, travel]
+
+- facet: topic
+  category: buses
+  patterns: ['number of buses', 'buses', 'bus service providers', 'bus trips']
+  generic: [buses, transport, mobility, travel]
+
+- facet: topic
+  category: bus_earnings
+  patterns: ['earnings from bus trips', 'bus trip earnings', 'earnings on inter city bus trips']
+  generic: [buses, earnings, transport, revenue]
+
+- facet: topic
+  category: vehicle_registration
+  patterns: ['vehicle registrations', 'vehicle registration']
+  generic: [vehicles, registration, transport, mobility]
+
+- facet: topic
+  category: intersections
+  patterns: ['signalized intersections', 'intersections', 'signalized junctions']
+  generic: [intersections, traffic, roads, safety]
+
+- facet: topic
+  category: parking
+  patterns: ['parking lots', 'parking']
+  generic: [parking, transport, traffic, mobility]
+
+- facet: topic
+  category: footpaths
+  patterns: ['unobstructed footpath', 'footpaths']
+  generic: [footpaths, walking, mobility, accessibility]
+
+- facet: topic
+  category: public_amenities
+  patterns: ['public amenities', 'public amenities data']
+  generic: [amenities, services, facilities, urban]
+
+- facet: topic
+  category: community_facilities
+  patterns: ['community facilities', 'community hall facilities']
+  generic: [community, facilities, amenities, services]
+
+- facet: topic
+  category: citizen_services
+  patterns: ['citizen facilitation center', 'citizen facilitation centers', 'citizen facilities']
+  generic: [citizen, services, facilities]
+
+- facet: topic
+  category: health
+  patterns: ['health infrastructure', 'health infrastructure catalog', 'health services']
+  generic: [health, medical, hospitals, infrastructure]
+
+- facet: topic
+  category: diseases
+  patterns: ['diseases', 'disease data', 'disease records']
+  generic: [disease, health, medical, patients]
+
+- facet: topic
+  category: mortality
+  patterns: ['mortality rate', 'monthly mortality rate']
+  generic: [mortality, health, population, deaths]
+
+- facet: topic
+  category: medical_infrastructure
+  patterns: ['medical infrastructure', 'ward-wise medical infrastructure']
+  generic: [medical, health, hospitals, infrastructure]
+
+- facet: topic
+  category: medical_education
+  patterns: ['medical college', 'PG seats', 'postgraduate seats']
+  generic: [medical, education, college, seats]
+
+- facet: topic
+  category: education
+  patterns: ['education data', 'education', 'elementary education', 'secondary education']
+  generic: [education, schools, students, learning]
+
+- facet: topic
+  category: higher_education
+  patterns: ['higher education', 'postgraduate education', 'PG admissions']
+  generic: [education, college, students, admissions]
+
+- facet: topic
+  category: environment
+  patterns: ['environment', 'environment indicators', 'natural features', 'natural landscape']
+  generic: [environment, ecology, landscape, pollution]
+
+- facet: topic
+  category: air_quality
+  patterns: ['air quality', 'air quality index', 'AQI', 'ambient air quality']
+  generic: [air, quality, pollution, environment]
+
+- facet: topic
+  category: air_pollution
+  patterns: ['air pollution', 'vehicular air pollution', 'industrial air pollution', 'residential air pollution']
+  generic: [pollution, air, environment, health]
+
+- facet: topic
+  category: pollutants
+  patterns: ['SO2', 'PM2.5', 'PM10', 'NO2', 'O3', 'lead', 'nickel', 'heavy metals']
+  generic: [pollution, air, metals, environment]
+
+- facet: topic
+  category: rainfall
+  patterns: ['rainfall data', 'monthly rainfall']
+  generic: [rainfall, weather, climate, water]
+
+- facet: topic
+  category: natural_landscape
+  patterns: ['natural landscape', 'natural features']
+  generic: [landscape, nature, environment, ecology]
+
+- facet: topic
+  category: cultural_heritage
+  patterns: ['cultural heritage', 'heritage data', 'heritage inventory']
+  generic: [heritage, culture, monuments, tourism]
+
+- facet: topic
+  category: parks
+  patterns: ['parks', 'park budget', 'open spaces']
+  generic: [parks, recreation, green, spaces]
+
+- facet: topic
+  category: open_spaces
+  patterns: ['open spaces', 'open spaces development']
+  generic: [spaces, parks, recreation, urban]
+
+- facet: topic
+  category: electricity
+  patterns: ['electricity', 'electricity supply', 'electricity status', 'electricity consumption']
+  generic: [electricity, power, energy, supply]
+
+- facet: topic
+  category: renewable_energy
+  patterns: ['renewable energy', 'renewable energy resources']
+  generic: [renewable, energy, power, electricity]
+
+- facet: topic
+  category: fossil_fuel
+  patterns: ['fossil fuel consumption', 'fossil fuel use']
+  generic: [fossil, fuel, energy, consumption]
+
+- facet: topic
+  category: street_lighting
+  patterns: ['street lights', 'street lighting', 'LED street lights']
+  generic: [lighting, streets, energy, infrastructure]
+
+- facet: topic
+  category: digital_access
+  patterns: ['digital access', 'digital availability']
+  generic: [digital, access, technology, connectivity]
+
+- facet: topic
+  category: digital_payments
+  patterns: ['digital payments', 'cashless payments']
+  generic: [digital, payments, finance, technology]
+
+- facet: topic
+  category: iccc
+  patterns: ['ICCC', 'integrated command communication centre', 'integrated command and control centre']
+  generic: [ICCC,  services, technology]
+
+- facet: topic
+  category: governance
+  patterns: ['governance', 'local government', 'development authority']
+  generic: [ administration, services]
+
+- facet: topic
+  category: voters
+  patterns: ['registered voters', 'voter registration']
+  generic: [voters, elections,  population]
+
+- facet: topic
+  category: crime
+  patterns: ['crime data', 'crimes', 'crime cases']
+  generic: [crime, police, safety, security]
+
+- facet: topic
+  category: police
+  patterns: ['police stations', 'police station']
+  generic: [police, security, crime, safety]
+
+- facet: topic
+  category: fire_safety
+  patterns: ['fire safety equipment', 'fire safety']
+  generic: [fire, safety, equipment, emergency]
+
+- facet: topic
+  category: unemployment
+  patterns: ['unemployment rate', 'unemployment']
+  generic: [unemployment, employment, labour, workforce]
+
+- facet: topic
+  category: finance
+  patterns: ['financial health', 'financial performance', 'municipal finance']
+  generic: [finance, revenue, budget, expenditure]
+
+- facet: topic
+  category: property_tax
+  patterns: ['property tax', 'property tax records']
+  generic: [property, tax, revenue, finance]
+
+- facet: topic
+  category: water_tax
+  patterns: ['water tax', 'water tax details']
+  generic: [water, tax, revenue, finance]
+
+- facet: topic
+  category: water_revenue
+  patterns: ['water works department revenue', 'water works revenue']
+  generic: [water, revenue, finance, supply]
+
+- facet: topic
+  category: vat_gst
+  patterns: ['VAT and GST', 'VAT & GST', 'GST collection', 'VAT collection']
+  generic: [GST, VAT, tax, revenue]
+
+- facet: topic
+  category: consumption
+  patterns: ['city consumption', 'energy consumption']
+  generic: [consumption, energy, electricity, urban]
+
+- facet: topic
+  category: employment
+  patterns: ['employment', 'labour market', 'workforce']
+  generic: [employment, labour, workforce, jobs]
+
+- facet: topic
+  category: children
+  patterns: ['children facilities', 'child facilities']
+  generic: [children, facilities, services, welfare]
+
+- facet: topic
+  category: social_development
+  patterns: ['social development', 'social services']
+  generic: [social, welfare, services]
+
+- facet: topic
+  category: disaster_response
+  patterns: ['COVID-19 lockdown', 'lockdown violations', 'food and shelter distribution']
+  generic: [COVID, lockdown, relief, emergency]
+
+- facet: topic
+  category: covid19
+  patterns: ['COVID-19', 'COVID-19 patients', 'COVID-19 positive']
+  generic: [COVID, patients, health, disease]
+
+- facet: topic
+  category: relief
+  patterns: ['food and shelter distribution', 'lockdown relief', 'relief distribution']
+  generic: [relief, food, shelter, emergency]
+
+- facet: topic
+  category: smart_infrastructure
+  patterns: ['infrastructure distribution', 'urban infrastructure', 'basic infrastructure']
+  generic: [infrastructure, urban, roads, services]
+
+- facet: topic
+  category: urban_development
+  patterns: ['urban development', 'urban development report', 'urban development initiatives']
+  generic: [urban, infrastructure, city]
+
+- facet: topic
+  category: neighbourhood
+  patterns: ['ITC Neighbourhood', 'neighbourhood data', 'neighborhood data']
+  generic: [neighbourhood, urban, households, ITC]
+
+# Geography
+
+- facet: geography
+  category: bihar
+  patterns: ['Bihar']
+  generic: [Bihar]
+
+- facet: geography
+  category: andhra_pradesh
+  patterns: ['Andhra Pradesh']
+  generic: [Andhra Pradesh]
+
+- facet: geography
+  category: arunachal_pradesh
+  patterns: ['Arunachal Pradesh']
+  generic: [Arunachal Pradesh]
+
+- facet: geography
+  category: assam
+  patterns: ['Assam']
+  generic: [Assam]
+
+- facet: geography
+  category: andaman_nicobar
+  patterns: ['Andaman and Nicobar Islands', 'Andaman & Nicobar Islands']
+  generic: [Andaman, Nicobar]
+
+- facet: geography
+  category: patna
+  patterns: ['Patna']
+  generic: [Patna]
+
+- facet: geography
+  category: bhagalpur
+  patterns: ['Bhagalpur']
+  generic: [Bhagalpur]
+
+- facet: geography
+  category: bihar_sharif
+  patterns: ['Bihar Sharif']
+  generic: [Bihar, Sharif]
+
+- facet: geography
+  category: muzaffarpur
+  patterns: ['Muzaffarpur']
+  generic: [Muzaffarpur]
+
+- facet: geography
+  category: kakinada
+  patterns: ['Kakinada']
+  generic: [Kakinada]
+
+- facet: geography
+  category: tirupati
+  patterns: ['Tirupati']
+  generic: [Tirupati]
+
+- facet: geography
+  category: visakhapatnam
+  patterns: ['Visakhapatnam']
+  generic: [Visakhapatnam]
+
+- facet: geography
+  category: amaravati
+  patterns: ['Amaravati']
+  generic: [Amaravati]
+
+- facet: geography
+  category: pasighat
+  patterns: ['Pasighat']
+  generic: [Pasighat]
+
+- facet: geography
+  category: guwahati
+  patterns: ['Guwahati']
+  generic: [Guwahati]
+
+- facet: geography
+  category: port_blair
+  patterns: ['Port Blair']
+  generic: [Port Blair]
+- facet: topic
+  category: household
+  patterns: ['household profile', 'households', 'household data', 'house listing and housing census']
+  generic: [household, households, population, housing]
+
+- facet: topic
+  category: demographic_profile
+  patterns: ['demographic profile', 'demographics', 'urban demographic profile', 'city profile', 'city profile based on national population register']
+  generic: [demographics, population]
+
+- facet: topic
+  category: census
+  patterns: ['census', 'census 2011', 'house listing and housing census', 'decadal census', 'decadal census demographic profile']
+  generic: [census, population, households, demographics]
+
+- facet: topic
+  category: slum
+  patterns: ['slum housing', 'slum population', 'slums', 'housing and slums', 'slum housing and population']
+  generic: [slums, house, population, urban]
+
+- facet: topic
+  category: housing
+  patterns: ['housing', 'housing infrastructure', 'housing and basic infrastructure', 'basic facilities', 'housing infrastructure data']
+  generic: [house, infrastructure, urban, facilities]
+
+- facet: topic
+  category: infrastructure
+  patterns: ['infrastructure', 'basic infrastructure', 'infrastructure distribution', 'basic facilities']
+  generic: [infrastructure, urban, facilities]
+
+- facet: topic
+  category: establishments
+  patterns: ['establishments distribution', 'establishments']
+  generic: [establishments, urban, distribution]
+
+- facet: topic
+  category: area_bifurcation
+  patterns: ['area bifurcation', 'neighborhood area bifurcation', 'area bifurcation data']
+  generic: [area, bifurcation, mapping, neighbourhood]
+
+- facet: topic
+  category: neighbourhood
+  patterns: ['ITC Neighbourhood', 'neighbourhood', 'neighborhood']
+  generic: [neighbourhood, urban, area, community]
+
+- facet: topic
+  category: community_facilities
+  patterns: ['community facilities', 'community facility', 'community facilities data']
+  generic: [community, facilities, services, infrastructure]
+
+- facet: topic
+  category: public_amenities
+  patterns: ['public amenities', 'public amenities data']
+  generic: [amenities, facilities, services, urban]
+
+- facet: topic
+  category: citizen_facilitation
+  patterns: ['citizen facilitation center', 'citizen facilitation centre', 'citizen facilitation centers', 'citizen facilities']
+  generic: [citizen, services, facilities]
+
+- facet: topic
+  category: citizen_services
+  patterns: ['citizen services', 'citizen centric services', 'citizen services and schemes', 'services through ICCC']
+  generic: [citizen, services,  schemes]
+
+- facet: topic
+  category: children_facilities
+  patterns: ['children facilities', 'children facilities provision', 'children facilities provisions']
+  generic: [children, facilities, services, welfare]
+
+- facet: topic
+  category: child_welfare
+  patterns: ['child welfare centres', 'counselling centres', 'child adoption', 'juvenile justice']
+  generic: [children, welfare, counselling, justice]
+
+- facet: topic
+  category: early_childhood
+  patterns: ['early childhood development facilities', 'early childhood development']
+  generic: [children, facilities, welfare]
+
+- facet: topic
+  category: anganwadi
+  patterns: ['anganwadi', 'anganwadi and creches']
+  generic: [anganwadi, children, nutrition, welfare]
+
+- facet: topic
+  category: icds
+  patterns: ['ICDS staff', 'Integrated Child Development Services']
+  generic: [ICDS, children, staff, welfare]
+
+- facet: topic
+  category: pension
+  patterns: ['pension details', 'pension']
+  generic: [pension, beneficiaries, welfare, finance]
+
+- facet: topic
+  category: education
+  patterns: ['education data', 'education', 'secondary education']
+  generic: [education, schools, students, learning]
+
+- facet: topic
+  category: midday_meal
+  patterns: ['mid day meal', 'midday meal', 'mid-day meal']
+  generic: [education, nutrition, children, schools]
+
+- facet: topic
+  category: health
+  patterns: ['health infrastructure', 'healthcare facilities', 'health infrastructure data', 'medical infrastructure']
+  generic: [health, healthcare, medical, facilities]
+
+- facet: topic
+  category: medical_infrastructure
+  patterns: ['medical infrastructure', 'medical infrastructure data']
+  generic: [medical, health, infrastructure, facilities]
+
+- facet: topic
+  category: hospitals
+  patterns: ['hospitals', 'hospital details', 'hospitals location', 'hospital coverage']
+  generic: [hospitals, health, medical, facilities]
+
+- facet: topic
+  category: hospital_covid
+  patterns: ['hospital with COVID beds', 'COVID beds', 'wardwise COVID beds', 'hospital with lab facility']
+  generic: [hospitals, COVID, beds, healthcare]
+
+- facet: topic
+  category: clinics
+  patterns: ['clinics', 'clinic data', 'health clinics']
+  generic: [clinics, health, healthcare, facilities]
+
+- facet: topic
+  category: diseases
+  patterns: ['diseases', 'disease data', 'infectious disease data', 'disease records']
+  generic: [disease, health, medical, patients]
+
+- facet: topic
+  category: infectious_disease
+  patterns: ['infectious disease', 'infectious diseases']
+  generic: [disease, infectious, health, medical]
+
+- facet: topic
+  category: vector_borne_disease
+  patterns: ['vector borne diseases', 'vector-borne diseases']
+  generic: [disease, vector, health, infection]
+
+- facet: topic
+  category: water_borne_disease
+  patterns: ['water borne diseases', 'water-borne diseases']
+  generic: [disease, water, health, infection]
+
+- facet: topic
+  category: mortality
+  patterns: ['mortality rate', 'mortality']
+  generic: [mortality, health, deaths, population]
+
+- facet: topic
+  category: immunisation
+  patterns: ['immunisation', 'immunization', 'immunisation coverage', 'immunization coverage']
+  generic: [immunization, vaccination, health, children]
+
+- facet: topic
+  category: covid
+  patterns: ['COVID-19', 'COVID', 'COVID cases', 'COVID vaccination']
+  generic: [COVID, health, disease, vaccination]
+
+- facet: topic
+  category: covid_vaccination
+  patterns: ['COVID vaccination', 'COVID vaccination centres', 'COVID vaccination centers', 'bifurcation of COVID vaccination']
+  generic: [COVID, vaccination, immunization, health]
+
+- facet: topic
+  category: quarantine
+  patterns: ['quarantine facilities', 'ward wise quarantine facility']
+  generic: [quarantine, COVID, health, facilities]
+
+- facet: topic
+  category: air_quality
+  patterns: ['air quality', 'air quality levels', 'AQI', 'Air Quality Index']
+  generic: [air, quality, AQI, pollution]
+
+- facet: topic
+  category: air_pollution
+  patterns: ['air pollution', 'vehicular air pollution', 'environment air quality']
+  generic: [air, pollution, environment, vehicles]
+
+- facet: topic
+  category: air_pollutants
+  patterns: ['PM2.5', 'PM10', 'NO2', 'SO2', 'NO', 'NOX', 'NH3', 'CO', 'O3', 'benzene', 'toluene', 'oxylene']
+  generic: [pollution, air, pollutants, environment]
+
+- facet: topic
+  category: environment
+  patterns: ['environment', 'environment data', 'environment pollutants']
+  generic: [environment, pollution, ecology, climate]
+
+- facet: topic
+  category: natural_landscape
+  patterns: ['natural landscape', 'natural landscapes', 'natural feature data', 'natural features']
+  generic: [landscape, nature, environment, ecology]
+
+- facet: topic
+  category: rainfall
+  patterns: ['rainfall', 'monthly rainfall', 'rainy days']
+  generic: [rainfall, weather, climate, water]
+
+- facet: topic
+  category: water_supply
+  patterns: ['water supply', 'water supply data', 'water supply coverage', 'water supply distribution']
+  generic: [water, supply, distribution, infrastructure]
+
+- facet: topic
+  category: water_connections
+  patterns: ['water supply connections', 'water connections']
+  generic: [water, connections, supply, infrastructure]
+
+- facet: topic
+  category: water_consumption
+  patterns: ['water consumption', 'water usage']
+  generic: [water, consumption, usage, supply]
+
+- facet: topic
+  category: water_revenue
+  patterns: ['water revenue', 'water revenue data']
+  generic: [water, revenue, finance, supply]
+
+- facet: topic
+  category: water_tax
+  patterns: ['water tax', 'water tax records']
+  generic: [water, tax, revenue, finance]
+
+- facet: topic
+  category: water_treatment
+  patterns: ['water treatment plants', 'water treatment plant']
+  generic: [water, treatment, plants, supply]
+
+- facet: topic
+  category: sewerage
+  patterns: ['sewerage', 'sewerage treatment plants', 'sewerage treatment']
+  generic: [sewerage, sanitation, water, treatment]
+
+- facet: topic
+  category: sanitation
+  patterns: ['sanitation', 'water and sanitization']
+  generic: [sanitation, hygiene, water, services]
+
+- facet: topic
+  category: public_toilets
+  patterns: ['public toilets', 'public toilet data', 'public toilets coverage']
+  generic: [toilets, sanitation, hygiene, facilities]
+
+- facet: topic
+  category: solid_waste
+  patterns: ['solid waste', 'solid waste management', 'municipal solid waste', 'waste management']
+  generic: [waste, sanitation, municipal, environment]
+
+- facet: topic
+  category: waste_generated
+  patterns: ['solid waste generated', 'waste generated']
+  generic: [waste, generation, sanitation, environment]
+
+- facet: topic
+  category: waste_collection
+  patterns: ['solid waste collection', 'waste collection', 'D2D collection', 'door to door collection']
+  generic: [waste, collection, sanitation, municipal]
+
+- facet: topic
+  category: waste_collection_coverage
+  patterns: ['D2D collection coverage', 'door-to-door collection coverage', 'municipal solid waste collection coverage', 'solid waste management household coverage']
+  generic: [waste, collection, coverage, sanitation]
+
+- facet: topic
+  category: waste_collection_revenue
+  patterns: ['solid waste collection revenue', 'waste collection revenue', 'solid waste management revenue collection', 'door2door collection revenue']
+  generic: [waste, collection, revenue, sanitation]
+
+- facet: topic
+  category: waste_processing
+  patterns: ['solid waste processing', 'solid waste processing data', 'waste processing']
+  generic: [waste, processing, sanitation, recycling]
+
+- facet: topic
+  category: waste_disposal
+  patterns: ['solid waste disposal', 'solid waste disposal data', 'waste disposal']
+  generic: [waste, disposal, sanitation, landfill]
+
+- facet: topic
+  category: waste_segregation
+  patterns: ['solid waste segregation', 'solid waste ward-wise segregation', 'ward-wise segregation', 'waste segregation']
+  generic: [waste, segregation, sanitation, recycling]
+
+- facet: topic
+  category: waste_recycling
+  patterns: ['solid waste recycled', 'waste recycled', 'recycling']
+  generic: [waste, recycling, environment, processing]
+
+- facet: topic
+  category: waste_bins
+  patterns: ['bins and community bins', 'community bins', 'waste bins', 'bins ward wise']
+  generic: [waste, bins, collection, sanitation]
+
+- facet: topic
+  category: waste_collection_vehicles
+  patterns: ['waste collection vehicle', 'waste collection vehicles', 'solid waste collection vehicles']
+  generic: [waste, vehicles, collection, sanitation]
+
+- facet: topic
+  category: waste_dumping
+  patterns: ['dumping grounds', 'waste dumping grounds']
+  generic: [waste, dumping, disposal, sanitation]
+
+- facet: topic
+  category: waste_efficiency
+  patterns: ['solid waste management efficiency', 'waste management efficiency']
+  generic: [waste, efficiency, sanitation, performance]
+
+- facet: topic
+  category: waste_expenditure
+  patterns: ['waste management revenue expenditure', 'waste management expenditure', 'solid waste management expenditure']
+  generic: [waste, expenditure, finance, sanitation]
+
+- facet: topic
+  category: roads
+  patterns: ['roads', 'roads data', 'road infrastructure']
+  generic: [roads, infrastructure, transport, mobility]
+
+- facet: topic
+  category: road_condition
+  patterns: ['road conditions', 'road condition', 'condition of roads', 'road condition report']
+  generic: [roads, condition, infrastructure, maintenance]
+
+- facet: topic
+  category: road_safety
+  patterns: ['road safety', 'road safety data', 'road safety trends']
+  generic: [roads, safety, accidents, transport]
+
+- facet: topic
+  category: road_accidents
+  patterns: ['road accidents', 'traffic accidents', 'fatal road crash', 'road crash']
+  generic: [roads, accidents, traffic, safety]
+
+- facet: topic
+  category: injuries_fatalities
+  patterns: ['injuries and fatalities', 'fatalities', 'fatalities due to traffic accidents']
+  generic: [injuries, fatalities, accidents, safety]
+
+- facet: topic
+  category: intersections
+  patterns: ['intersections', 'signalized intersections', 'signalised intersections', 'intersections and junctions']
+  generic: [intersections, traffic, roads, mobility]
+
+- facet: topic
+  category: traffic_lights
+  patterns: ['traffic lights', 'traffic lights integrated with ICCC']
+  generic: [traffic, lights, ICCC, mobility]
+
+- facet: topic
+  category: parking
+  patterns: ['parking lots', 'parking']
+  generic: [parking, transport, traffic, mobility]
+
+- facet: topic
+  category: footpaths
+  patterns: ['unobstructed footpath', 'footpaths']
+  generic: [footpaths, walking, mobility, accessibility]
+
+- facet: topic
+  category: road_length
+  patterns: ['road length', 'length of roads']
+  generic: [roads, infrastructure, transport, mobility]
+
+- facet: topic
+  category: public_transport
+  patterns: ['public transport', 'public transport access', 'access to public transport', 'public transport accessibility']
+  generic: [transport, mobility, accessibility, buses]
+
+- facet: topic
+  category: transport_mode_share
+  patterns: ['public transport mode share', 'transport mode share', 'mode share']
+  generic: [transport, mobility, buses, travel]
+
+- facet: topic
+  category: buses
+  patterns: ['number of buses', 'buses', 'buses in public transport']
+  generic: [buses, transport, mobility, travel]
+
+- facet: topic
+  category: bus_earnings
+  patterns: ['earnings from bus trips', 'bus trip earnings', 'bus trips earning', 'earnings from bus trips']
+  generic: [buses, earnings, transport, revenue]
+
+- facet: topic
+  category: vehicle_registration
+  patterns: ['vehicle registrations', 'vehicle registration', 'RTO registration data', 'RTO registrations', 'registered vehicles']
+  generic: [vehicles, registration, transport, mobility]
+
+- facet: topic
+  category: registered_voters
+  patterns: ['registered voters', 'number of voters', 'voters', 'municipal corporation elections']
+  generic: [voters, elections,  population]
+
+- facet: topic
+  category: unemployment
+  patterns: ['unemployment rate', 'unemployment']
+  generic: [unemployment, employment, labour, workforce]
+
+- facet: topic
+  category: worker_participation
+  patterns: ['worker participation ratio', 'worker participation']
+  generic: [workers, employment, labour, workforce]
+
+- facet: topic
+  category: crime
+  patterns: ['crimes', 'crime data', 'crime records']
+  generic: [crime, police, safety, security]
+
+- facet: topic
+  category: crime_categorization
+  patterns: ['crime categorization', 'crime categories']
+  generic: [crime, categorization, police, safety]
+
+- facet: topic
+  category: fir
+  patterns: ['registered FIR', 'FIR']
+  generic: [FIR, crime, police, security]
+
+- facet: topic
+  category: police
+  patterns: ['police stations', 'police department', 'police personnel']
+  generic: [police, security, crime, administration]
+
+- facet: topic
+  category: police_challans
+  patterns: ['challans issued by police department', 'police challans', 'challans issued']
+  generic: [police, challans, enforcement, safety]
+
+- facet: topic
+  category: police_personnel
+  patterns: ['personnel of police department', 'police personnel', 'police personnel tenure']
+  generic: [police, personnel, staffing, administration]
+
+- facet: topic
+  category: property_tax
+  patterns: ['property tax', 'property tax data', 'property tax collection']
+  generic: [property, tax, revenue, finance]
+
+- facet: topic
+  category: circle_rate
+  patterns: ['circle rate', 'circle rates', 'housing circle rates']
+  generic: [property, valuation, house, land]
+
+- facet: topic
+  category: vat
+  patterns: ['VAT collection', 'VAT']
+  generic: [VAT, tax, revenue, collection]
+
+- facet: topic
+  category: gst
+  patterns: ['GST collection', 'GST registered persons', 'GST registration']
+  generic: [GST, tax, revenue, registration]
+
+- facet: topic
+  category: vat_gst
+  patterns: ['VAT and GST', 'VAT & GST', 'VAT and GST collection', 'VAT and GST Silvassa']
+  generic: [VAT, GST, tax, revenue]
+
+- facet: topic
+  category: excise
+  patterns: ['excise collection', 'excise revenue']
+  generic: [excise, revenue, taxation, collection]
+
+- facet: topic
+  category: financial_health
+  patterns: ['financial health', 'financial health data']
+  generic: [finance, revenue, budget, expenditure]
+
+- facet: topic
+  category: municipal_finance
+  patterns: ['municipal budget', 'municipal finance', 'MC total receipts', 'taxes']
+  generic: [municipal, finance, budget, revenue]
+
+- facet: topic
+  category: digital_payments
+  patterns: ['digital payments', 'digital payment', 'digital payments monthly data']
+  generic: [digital, payments, finance, technology]
+
+- facet: topic
+  category: digital_access
+  patterns: ['digital access', 'digital availability', 'digital services availability', 'digital availability for smart cities']
+  generic: [digital, access, services, technology]
+
+- facet: topic
+  category: digital_receipts
+  patterns: ['digital receipt data', 'digital receipts']
+  generic: [digital, receipts, revenue, services]
+
+- facet: topic
+  category: financial_literacy
+  patterns: ['financial literacy campaign', 'financial literacy']
+  generic: [finance, literacy, awareness, inclusion]
+
+- facet: topic
+  category: electricity
+  patterns: ['electricity', 'electricity data', 'electricity supply']
+  generic: [electricity, power, energy, supply]
+
+- facet: topic
+  category: electricity_consumption
+  patterns: ['electricity consumption', 'city electricity consumption', 'city consumption', 'electricity-FY']
+  generic: [electricity, consumption, energy, power]
+
+- facet: topic
+  category: electricity_demand
+  patterns: ['electricity demand']
+  generic: [electricity, demand, energy, power]
+
+- facet: topic
+  category: renewable_energy
+  patterns: ['renewable energy', 'renewable energy information']
+  generic: [renewable, energy, power, electricity]
+
+- facet: topic
+  category: fossil_fuel
+  patterns: ['fossil fuel consumption', 'fossil fuel']
+  generic: [fossil, fuel, energy, consumption]
+
+- facet: topic
+  category: street_lighting
+  patterns: ['street lights', 'streetlights', 'street lighting', 'street lighting in public parks']
+  generic: [lighting, streets, energy, infrastructure]
+
+- facet: topic
+  category: led_lighting
+  patterns: ['streetlight LED', 'LED streetlights', 'LED street light']
+  generic: [LED, lighting, streets, energy]
+
+- facet: topic
+  category: parks
+  patterns: ['parks', 'public parks', 'gardens', 'playgrounds']
+  generic: [parks, gardens, recreation, green]
+
+- facet: topic
+  category: open_spaces
+  patterns: ['open spaces', 'open spaces development']
+  generic: [spaces, parks, recreation, urban]
+
+- facet: topic
+  category: open_spaces_budget
+  patterns: ['budget for open spaces development', 'open spaces budget', 'municipal budget allocation for open spaces and parks', 'municipal budget for public art and parks']
+  generic: [budget, parks, spaces, urban]
+
+- facet: topic
+  category: cultural_heritage
+  patterns: ['cultural heritage', 'cultural heritage of', 'heritage']
+  generic: [heritage, culture, monuments, tourism]
+
+- facet: topic
+  category: tourism
+  patterns: ['hotel occupancy', 'hotel occupancy and revenue', 'hotels']
+  generic: [tourism, hotels, occupancy, revenue]
+
+- facet: topic
+  category: restaurants
+  patterns: ['restaurants', 'food vending dhabas', 'dhabas']
+  generic: [restaurants, food, tourism, services]
+
+- facet: topic
+  category: religious_amenities
+  patterns: ['religious amenities', 'religious facilities']
+  generic: [religious, amenities, facilities, community]
+
+- facet: topic
+  category: media
+  patterns: ['media periodicals', 'media tabloid', 'newspaper sale', 'newspaper sales', 'print media']
+  generic: [media, newspaper, periodicals, circulation]
+
+- facet: topic
+  category: building_permission
+  patterns: ['building permission', 'building approvals', 'building approval', 'building permits']
+  generic: [building, construction, house, planning]
+
+- facet: topic
+  category: land_conversion
+  patterns: ['conversion to NA', 'town plan conversion', 'conversion to non-agricultural']
+  generic: [land, conversion, urban, planning]
+
+- facet: topic
+  category: governance
+  patterns: ['governance', 'governance in Chandigarh']
+  generic: [ administration, services]
+
+- facet: topic
+  category: iccc
+  patterns: ['ICCC', 'Integrated Command and Control Centre', 'Integrated Command Communication Centre', 'CCTV integrated with ICCC']
+  generic: [ICCC,  technology, services]
+
+- facet: topic
+  category: cctv
+  patterns: ['CCTV cameras', 'CCTV integrated with ICCC', 'number of CCTV cameras']
+  generic: [CCTV, surveillance, security, ICCC]
+
+- facet: topic
+  category: sampark
+  patterns: ['Sampark Centers', 'Sampark Centres']
+  generic: [Sampark, citizen, services]
+
+- facet: topic
+  category: food_distribution
+  patterns: ['food distribution', 'food and shelter distribution']
+  generic: [food, distribution, relief, welfare]
+
+- facet: topic
+  category: quarantine
+  patterns: ['quarantine facilities', 'quarantine facility']
+  generic: [quarantine, health, COVID, facilities]
+
+
+# Geography
+
+- facet: geography
+  category: chandigarh
+  patterns: ['Chandigarh']
+  generic: [Chandigarh]
+
+- facet: geography
+  category: raipur
+  patterns: ['Raipur']
+  generic: [Raipur]
+
+- facet: geography
+  category: bilaspur
+  patterns: ['Bilaspur']
+  generic: [Bilaspur]
+
+- facet: geography
+  category: atalnagar
+  patterns: ['Atalnagar', 'Atal Nagar', 'Atalanagar', 'Naya Raipur']
+  generic: [Atalnagar, Naya, Raipur]
+
+- facet: geography
+  category: diu
+  patterns: ['Diu']
+  generic: [Diu]
+
+- facet: geography
+  category: silvassa
+  patterns: ['Silvassa']
+  generic: [Silvassa]
+
+- facet: geography
+  category: delhi
+  patterns: ['Delhi', 'NDMC', 'NDMC Area']
+  generic: [Delhi, NDMC]
+
+- facet: geography
+  category: ndmc
+  patterns: ['NDMC', 'NDMC Area', 'New Delhi Municipal Council']
+  generic: [NDMC, Delhi]
+
+- facet: geography
+  category: chhattisgarh
+  patterns: ['Chhattisgarh']
+  generic: [Chhattisgarh]
+
+- facet: geography
+  category: dadra_nagar_haveli_daman_diu
+  patterns: ['Daman and Diu', 'Dadra and Nagar Haveli', 'Dadra and Nagar Haveli and Daman and Diu']
+  generic: [Daman, Diu, Dadra, Nagar]
+
+- facet: geography
+  category: smart_cities
+  patterns: ['Smart Cities Mission', 'Smart Cities']
+  generic: [smart, cities, urban]
+
+
+# Institutions / programmes
+
+- facet: organization
+  category: smart_cities_mission
+  patterns: ['Smart Cities Mission', 'Smart City Mission']
+  generic: [smart, cities, mission, urban]
+
+- facet: organization
+  category: iccc
+  patterns: ['ICCC', 'Integrated Command and Control Centre']
+  generic: [ICCC]
+
+- facet: organization
+  category: police_department
+  patterns: ['Police Department', 'police department']
+  generic: [police, department, security, administration]
+
+- facet: organization
+  category: rto
+  patterns: ['RTO', 'RTO registration']
+  generic: [RTO, registration, vehicles, transport]
+
+- facet: organization
+  category: ndmc
+  patterns: ['NDMC', 'New Delhi Municipal Council']
+  generic: [NDMC, Delhi, municipal]
+
+- facet: organization
+  category: icds
+  patterns: ['ICDS', 'Integrated Child Development Services']
+  generic: [ICDS, children, welfare, services]
+- facet: topic
+  category: property_tax
+  patterns: ['property tax', 'property tax collection', 'property tax demand', 'property tax records']
+  generic: [property, tax, revenue, collection]
+
+- facet: topic
+  category: water
+  patterns: ['water supply', 'water collection', 'water revenue', 'water charges', 'water meter charges', 'water supplied', 'water sanitation']
+  generic: [water, supply, revenue, services]
+
+- facet: topic
+  category: water_revenue
+  patterns: ['water revenue', 'water charges collection', 'water meter charges collection', 'water collection']
+  generic: [water, revenue, charges, collection]
+
+- facet: topic
+  category: water_supply
+  patterns: ['water supply', 'water supplied', 'water supply status', 'water supply coverage']
+  generic: [water, supply, coverage, services]
+
+- facet: topic
+  category: sanitation
+  patterns: ['sanitation', 'water and sanitation', 'water sanitation']
+  generic: [sanitation, hygiene, water, services]
+
+- facet: topic
+  category: solid_waste
+  patterns: ['solid waste', 'solid waste management', 'SWM', 'waste management']
+  generic: [waste, sanitation, municipal, environment]
+
+- facet: topic
+  category: waste_collection
+  patterns: ['waste collection', 'garbage collection', 'solid waste collection', 'D2D collection', 'door-to-door collection']
+  generic: [waste, collection, sanitation, municipal]
+
+- facet: topic
+  category: waste_processing
+  patterns: ['solid waste processing', 'waste processing', 'solid waste management processing']
+  generic: [waste, processing, sanitation, environment]
+
+- facet: topic
+  category: waste_disposal
+  patterns: ['solid waste disposal', 'waste disposal', 'solid waste management disposal']
+  generic: [waste, disposal, sanitation, environment]
+
+- facet: topic
+  category: waste_segregation
+  patterns: ['solid waste segregation', 'waste segregation', 'solid waste management segregation']
+  generic: [waste, segregation, sanitation, recycling]
+
+- facet: topic
+  category: waste_collection_revenue
+  patterns: ['solid waste collection revenue', 'waste collection revenue', 'door-to-door solid waste collection revenue']
+  generic: [waste, collection, revenue, sanitation]
+
+- facet: topic
+  category: waste_vehicles
+  patterns: ['waste collection vehicle', 'waste collection vehicles', 'solid waste management vehicle', 'solid waste management vehicles']
+  generic: [waste, vehicles, collection, sanitation]
+
+- facet: topic
+  category: waste_bins
+  patterns: ['bins', 'community bins', 'bins and community bins', 'ward wise bins']
+  generic: [waste, bins, collection, sanitation]
+
+- facet: topic
+  category: waste_expenditure
+  patterns: ['waste management revenue expenditure', 'waste management expenditure', 'solid waste management expenditure']
+  generic: [waste, expenditure, finance, sanitation]
+
+- facet: topic
+  category: waste_efficiency
+  patterns: ['solid waste management efficiency', 'waste management efficiency']
+  generic: [waste, efficiency, sanitation, performance]
+
+- facet: topic
+  category: health
+  patterns: ['health infrastructure', 'health centers', 'health centre', 'urban health centers', 'diseases', 'disease details']
+  generic: [health, healthcare, medical, services]
+
+- facet: topic
+  category: health_infrastructure
+  patterns: ['health infrastructure', 'healthcare infrastructure', 'medical infrastructure']
+  generic: [health, medical, infrastructure, facilities]
+
+- facet: topic
+  category: diseases
+  patterns: ['diseases', 'disease details', 'disease information', 'disease data']
+  generic: [disease, health, medical, patients]
+
+- facet: topic
+  category: birth_registration
+  patterns: ['birth registration', 'birth registration data', 'birth certificates', 'birth certificate issuance']
+  generic: [birth, registration, certificates, population]
+
+- facet: topic
+  category: death_registration
+  patterns: ['death registration', 'death registration data', 'death certificates', 'death certificate issuance']
+  generic: [death, registration, certificates, mortality]
+
+- facet: topic
+  category: vital_statistics
+  patterns: ['birth and death statistics', 'birth statistics', 'death statistics', 'vital events']
+  generic: [birth, death, population, demographics]
+
+- facet: topic
+  category: education
+  patterns: ['educational institute', 'educational institutes', 'school details', 'municipal schools', 'school board']
+  generic: [education, schools, students, institutes]
+
+- facet: topic
+  category: households
+  patterns: ['household details', 'households', 'household profile', 'household data']
+  generic: [household, house, population, demographics]
+
+- facet: topic
+  category: housing
+  patterns: ['housing', 'housing details', 'housing profile', 'housing infrastructure']
+  generic: [house, households, infrastructure, urban]
+
+- facet: topic
+  category: slums
+  patterns: ['slum housing', 'slum population', 'housing and slum population', 'housing slums', 'slum households']
+  generic: [slums, house, population, urban]
+
+- facet: topic
+  category: population
+  patterns: ['population', 'population data', 'population figures', 'population growth', 'population density']
+  generic: [population, demographics, census, urban]
+
+- facet: topic
+  category: census
+  patterns: ['Census 2011', 'Census 2001', 'Census 1991', 'Census 1981', 'Census 1971', 'Census 1961']
+  generic: [census, population, demographics, households]
+
+- facet: topic
+  category: demographic_profile
+  patterns: ['demographic profile', 'demographic data', 'sex ratio', 'population density', 'growth rate']
+  generic: [demographics, population, density, growth]
+
+- facet: topic
+  category: scheduled_caste
+  patterns: ['Scheduled Caste', 'SC population', 'Scheduled Caste population']
+  generic: [SC, population, census, demographics]
+
+- facet: topic
+  category: scheduled_tribe
+  patterns: ['Scheduled Tribe', 'ST population', 'Scheduled Tribe population']
+  generic: [ST, population, census, demographics]
+
+- facet: topic
+  category: literacy
+  patterns: ['literacy', 'male literacy', 'female literacy', 'literacy rate']
+  generic: [literacy, education, population, demographics]
+
+- facet: topic
+  category: workforce
+  patterns: ['main workers', 'occupational classification', 'workers', 'occupation']
+  generic: [workers, employment, occupation, labour]
+
+- facet: topic
+  category: crime
+  patterns: ['crimes', 'crime data', 'crime records']
+  generic: [crime, police, safety, security]
+
+- facet: topic
+  category: elections
+  patterns: ['election data', 'ward wise election', 'municipal elections']
+  generic: [elections, voters,  democracy]
+
+- facet: topic
+  category: grievances
+  patterns: ['grievances', 'grievance addressed', 'grievances addressed', 'complaint statistics', 'complaint resolution']
+  generic: [grievances, complaints, citizen, services]
+
+- facet: topic
+  category: citizen_services
+  patterns: ['citizen services', 'citizen facilitation', 'citizen facilitation centers', 'citizen facilitation centres']
+  generic: [citizen, services, facilities]
+
+- facet: topic
+  category: public_amenities
+  patterns: ['public amenities', 'community facilities', 'public facilities', 'citizen facilities']
+  generic: [amenities, facilities, citizen, services]
+
+- facet: topic
+  category: community_facilities
+  patterns: ['community facilities', 'community halls', 'community hall', 'party plots']
+  generic: [community, facilities, recreation, services]
+
+- facet: topic
+  category: libraries
+  patterns: ['library', 'libraries', 'reading rooms']
+  generic: [library, education, reading, facilities]
+
+- facet: topic
+  category: auditoriums
+  patterns: ['auditorium', 'auditoriums', 'auditorium booking', 'community hall booking']
+  generic: [auditorium, booking, facilities, recreation]
+
+- facet: topic
+  category: fire_services
+  patterns: ['fire stations', 'fire station', 'fire services']
+  generic: [fire, emergency, safety, services]
+
+- facet: topic
+  category: roads
+  patterns: ['roads', 'road transport', 'road infrastructure', 'condition of roads']
+  generic: [roads, transport, infrastructure, mobility]
+
+- facet: topic
+  category: road_condition
+  patterns: ['condition of roads', 'road condition', 'road maintenance']
+  generic: [roads, condition, maintenance, infrastructure]
+
+- facet: topic
+  category: intersections
+  patterns: ['intersections', 'intersection details', 'junctions']
+  generic: [intersections, roads, traffic, mobility]
+
+- facet: topic
+  category: public_transport
+  patterns: ['public transport', 'public transport access', 'public transport accessibility', 'public transport mode share']
+  generic: [transport, mobility, accessibility, buses]
+
+- facet: topic
+  category: buses
+  patterns: ['buses', 'number of buses', 'city buses', 'bus details', 'bus trips']
+  generic: [buses, transport, mobility, travel]
+
+- facet: topic
+  category: bus_revenue
+  patterns: ['earnings from bus trips', 'earning bus trips', 'bus trip earnings']
+  generic: [buses, earnings, transport, revenue]
+
+- facet: topic
+  category: bus_stops
+  patterns: ['bus stand', 'bus stands', 'bus stops', 'BRTS', 'BRTS bus stops']
+  generic: [buses, stops, BRTS, transport]
+
+- facet: topic
+  category: vehicle_registration
+  patterns: ['vehicle registration', 'vehicle registrations', 'vehicle registration details', 'registered vehicles']
+  generic: [vehicles, registration, transport, mobility]
+
+- facet: topic
+  category: vehicle_tax
+  patterns: ['vehicle tax', 'vehicle tax collection', 'tax collected from vehicles']
+  generic: [vehicles, tax, revenue, transport]
+
+- facet: topic
+  category: street_lighting
+  patterns: ['street lights', 'street lighting', 'streetlights']
+  generic: [lighting, streets, infrastructure, energy]
+
+- facet: topic
+  category: electricity
+  patterns: ['electricity', 'electricity data', 'electricity supply', 'electricity consumption']
+  generic: [electricity, energy, power, supply]
+
+- facet: topic
+  category: digital_access
+  patterns: ['digital access', 'digital availability', 'digital connectivity']
+  generic: [digital, access, connectivity, technology]
+
+- facet: topic
+  category: digital_payments
+  patterns: ['digital payments', 'digital payment', 'digital payment statistics', 'digital payment details']
+  generic: [digital, payments, finance, technology]
+
+- facet: topic
+  category: finance
+  patterns: ['financial health', 'financial health indicators', 'revenue', 'income', 'expense', 'expenditure']
+  generic: [finance, revenue, income, expenditure]
+
+- facet: topic
+  category: municipal_finance
+  patterns: ['municipal finance', 'municipal revenue', 'municipal budget', 'revenue income expense']
+  generic: [municipal, finance, revenue, budget]
+
+- facet: topic
+  category: vat_gst
+  patterns: ['VAT', 'GST', 'VAT and GST', 'VAT & GST', 'VAT and GST collection']
+  generic: [VAT, GST, tax, revenue]
+
+- facet: topic
+  category: professional_tax
+  patterns: ['Profession Tax', 'Professional Tax', 'Profession Tax EC', 'Profession Tax RC', 'EC Registration', 'RC Registration', 'Profession Tax collection']
+  generic: [profession, tax, registration, revenue]
+
+- facet: topic
+  category: governance
+  patterns: ['governance', 'local governance', 'municipal governance', 'urban governance']
+  generic: [ municipal, administration]
+
+- facet: topic
+  category: city_profile
+  patterns: ['city profile', 'city profile data', 'city indicators']
+  generic: [city, profile, urban]
+
+- facet: topic
+  category: natural_features
+  patterns: ['natural features', 'natural feature data', 'natural landscape']
+  generic: [natural, landscape, environment, ecology]
+
+- facet: topic
+  category: open_spaces
+  patterns: ['open spaces', 'public spaces', 'open space development']
+  generic: [open, spaces, urban, recreation]
+
+- facet: geography
+  category: surat
+  patterns: ['Surat', 'Surat City', 'Surat Municipal Corporation', 'SMC']
+  generic: [Surat, Gujarat, city, municipal]
+
+- facet: geography
+  category: rajkot
+  patterns: ['Rajkot', 'Rajkot Municipal Corporation', 'RMC']
+  generic: [Rajkot, Gujarat, city, municipal]
+
+- facet: geography
+  category: vadodara
+  patterns: ['Vadodara', 'Vadodara city']
+  generic: [Vadodara, Gujarat, city, municipal]
+
+- facet: geography
+  category: dahod
+  patterns: ['Dahod', 'Dahod Gujarat', 'Dahod district']
+  generic: [Dahod, Gujarat, city, district]
+
+- facet: geography
+  category: gujarat
+  patterns: ['Gujarat', 'Gujarat State']
+  generic: [Gujarat, urban]
+
+- facet: geography
+  category: ward
+  patterns: ['ward wise', 'ward-wise', 'wardwise', 'ward level']
+  generic: [ward, locality, municipal, city]
+
+- facet: geography
+  category: zone
+  patterns: ['zone wise', 'zone-wise', 'zonewise', 'zone level']
+  generic: [zone, locality, municipal, city]
+
+- facet: geography
+  category: smart_cities
+  patterns: ['Smart Cities Mission', 'Smart Cities', 'Smart City Mission']
+  generic: [smart, cities, urban]
+
+- facet: organization
+  category: ministry_housing_urban_affairs
+  patterns: ['Ministry of Housing and Urban Affairs', 'MoHUA']
+  generic: [house, urban, ministry]
+
+- facet: organization
+  category: surat_municipal_corporation
+  patterns: ['Surat Municipal Corporation', 'SMC']
+  generic: [Surat, municipal, corporation]
+
+- facet: organization
+  category: rajkot_municipal_corporation
+  patterns: ['Rajkot Municipal Corporation', 'RMC']
+  generic: [Rajkot, municipal, corporation]
+- facet: topic
+  category: crime
+  patterns: ['crime', 'crimes', 'crime data', 'crime records', 'police records']
+  generic: [crime, police, safety, security]
+
+- facet: topic
+  category: road_safety
+  patterns: ['road safety', 'road safety data', 'road safety report']
+  generic: [road, safety, traffic, mobility]
+
+- facet: topic
+  category: roads
+  patterns: ['roads', 'road status', 'road condition', 'conditions of roads', 'length of roads']
+  generic: [roads, transport, infrastructure, mobility]
+
+- facet: topic
+  category: intersections
+  patterns: ['intersections', 'signalized intersections', 'operational signalized intersections', 'intersection data']
+  generic: [intersections, traffic, roads, mobility]
+
+- facet: topic
+  category: parking
+  patterns: ['parking lots', 'parking lot', 'parking']
+  generic: [parking, transport, mobility, traffic]
+
+- facet: topic
+  category: water_supply
+  patterns: ['water supply', 'water supply status', 'water supplied', 'water consumption', 'water connections']
+  generic: [water, supply, consumption, services]
+
+- facet: topic
+  category: water_revenue
+  patterns: ['water revenue', 'water revenue data', 'water revenue collection', 'water charges']
+  generic: [water, revenue, charges, collection]
+
+- facet: topic
+  category: water_consumption
+  patterns: ['water consumption', 'city water consumption', 'water use']
+  generic: [water, consumption, demand, supply]
+
+- facet: topic
+  category: sewerage
+  patterns: ['sewerage', 'sewerage connections', 'sewerage infrastructure']
+  generic: [sewerage, sanitation, water, infrastructure]
+
+- facet: topic
+  category: sanitation
+  patterns: ['sanitation', 'water and sanitation', 'water sanitation', 'public toilets']
+  generic: [sanitation, hygiene, water, services]
+
+- facet: topic
+  category: public_toilets
+  patterns: ['public toilets', 'public toilet', 'toilet facilities', 'Swachhta Survekshan']
+  generic: [toilets, sanitation, hygiene, facilities]
+
+- facet: topic
+  category: solid_waste
+  patterns: ['solid waste', 'solid waste management', 'waste management', 'SWM']
+  generic: [waste, sanitation, municipal, environment]
+
+- facet: topic
+  category: waste_collection
+  patterns: ['waste collection', 'solid waste collection', 'door to door collection', 'D2D collection', 'D2D collection coverage']
+  generic: [waste, collection, sanitation, municipal]
+
+- facet: topic
+  category: waste_collection_efficiency
+  patterns: ['waste collection efficiency', 'solid waste collection efficiency', 'collection efficiency']
+  generic: [waste, collection, efficiency, sanitation]
+
+- facet: topic
+  category: waste_segregation
+  patterns: ['solid waste segregation', 'waste segregation', 'ward wise segregation', 'solid waste management segregation']
+  generic: [waste, segregation, sanitation, recycling]
+
+- facet: topic
+  category: waste_processing
+  patterns: ['solid waste processing', 'waste processing', 'solid waste management processing']
+  generic: [waste, processing, sanitation, environment]
+
+- facet: topic
+  category: waste_disposal
+  patterns: ['solid waste disposal', 'waste disposal', 'solid waste management disposal']
+  generic: [waste, disposal, sanitation, environment]
+
+- facet: topic
+  category: waste_recycling
+  patterns: ['waste recycling', 'solid waste recycling', 'recycling']
+  generic: [waste, recycling, environment, sanitation]
+
+- facet: topic
+  category: waste_bins
+  patterns: ['waste bins', 'bins', 'community bins', 'bins and community bins', 'ward wise bins']
+  generic: [waste, bins, collection, sanitation]
+
+- facet: topic
+  category: waste_collection_equipment
+  patterns: ['waste collection equipment', 'solid waste collection equipment', 'collection equipments']
+  generic: [waste, equipment, collection, sanitation]
+
+- facet: topic
+  category: waste_collection_vehicles
+  patterns: ['waste collection vehicle', 'waste collection vehicles', 'solid waste collection vehicle', 'solid waste management collection vehicles']
+  generic: [waste, vehicles, collection, sanitation]
+
+- facet: topic
+  category: waste_revenue
+  patterns: ['solid waste management revenue', 'waste collection revenue', 'solid waste collection revenue', 'waste collection charge', 'D2D collection revenue']
+  generic: [waste, revenue, collection, finance]
+
+- facet: topic
+  category: waste_expenditure
+  patterns: ['waste management revenue expenditure', 'solid waste management revenue expenditure', 'waste management expenditure']
+  generic: [waste, expenditure, finance, sanitation]
+
+- facet: topic
+  category: waste_efficiency
+  patterns: ['solid waste management efficiency', 'waste management efficiency']
+  generic: [waste, efficiency, sanitation, performance]
+
+- facet: topic
+  category: housing
+  patterns: ['housing', 'housing data', 'housing profile', 'housing infrastructure', 'housing conditions']
+  generic: [house, households, infrastructure, urban]
+
+- facet: topic
+  category: slums
+  patterns: ['slum', 'slums', 'slum population', 'slum housing', 'housing and slum population', 'housing and slums']
+  generic: [slums, house, population, urban]
+
+- facet: topic
+  category: households
+  patterns: ['households', 'household profile', 'household data', 'household census', 'house listing']
+  generic: [households, house, population, demographics]
+
+- facet: topic
+  category: city_profile
+  patterns: ['city profile', 'city profile data', 'D01 City Profile']
+  generic: [city, profile, demographic, urban]
+
+- facet: topic
+  category: demographic_profile
+  patterns: ['demographic profile', 'demographic data', 'population profile']
+  generic: [demographic, population, census, urban]
+
+- facet: topic
+  category: population
+  patterns: ['population', 'population data', 'population profile', 'population count']
+  generic: [population, demographics, census, urban]
+
+- facet: topic
+  category: health
+  patterns: ['health', 'health data', 'health services', 'health facilities']
+  generic: [health, healthcare, medical, services]
+
+- facet: topic
+  category: health_infrastructure
+  patterns: ['health infrastructure', 'healthcare infrastructure', 'health facilities', 'hospital details', 'hospital infrastructure']
+  generic: [health, hospital, infrastructure, facilities]
+
+- facet: topic
+  category: hospitals
+  patterns: ['hospital details', 'hospital details with location', 'ward wise hospital details']
+  generic: [hospital, health, facilities, location]
+
+- facet: topic
+  category: diseases
+  patterns: ['diseases', 'disease data', 'disease details', 'disease information']
+  generic: [disease, health, medical, patients]
+
+- facet: topic
+  category: mortality
+  patterns: ['mortality', 'mortality rate', 'mortality data', 'annual mortality data']
+  generic: [mortality, death, health, population]
+
+- facet: topic
+  category: covid
+  patterns: ['COVID', 'COVID containment zone', 'COVID infrastructure', 'quarantine facilities']
+  generic: [COVID, health, pandemic, containment]
+
+- facet: topic
+  category: quarantine
+  patterns: ['quarantine facilities', 'quarantine', 'COVID quarantine']
+  generic: [quarantine, COVID, health, facilities]
+
+- facet: topic
+  category: containment_zones
+  patterns: ['COVID containment zone', 'containment zones', 'COVID containment']
+  generic: [COVID, containment, health, zones]
+
+- facet: topic
+  category: electricity
+  patterns: ['electricity', 'electricity supply', 'electricity supply status', 'city consumption']
+  generic: [electricity, energy, power, supply]
+
+- facet: topic
+  category: air_quality
+  patterns: ['air quality', 'air pollution', 'ambient air pollution', 'air quality report']
+  generic: [air, pollution, environment, quality]
+
+- facet: topic
+  category: air_pollution
+  patterns: ['air pollution', 'residential air pollution', 'vehicular air pollution', 'industrial air pollution']
+  generic: [air, pollution, environment, emissions]
+
+- facet: topic
+  category: environment
+  patterns: ['environment', 'environment data', 'environment report', 'environmental data']
+  generic: [environment, pollution, ecology, sustainability]
+
+- facet: topic
+  category: natural_landscape
+  patterns: ['natural landscape', 'natural landscape data', 'natural features']
+  generic: [natural, landscape, environment, ecology]
+
+- facet: topic
+  category: public_transport
+  patterns: ['public transport', 'public transport access', 'public transport accessibility', 'transportation']
+  generic: [transport, mobility, accessibility, services]
+
+- facet: topic
+  category: buses
+  patterns: ['buses', 'number of buses', 'bus services', 'bus operations']
+  generic: [buses, transport, mobility, services]
+
+- facet: topic
+  category: bus_earnings
+  patterns: ['earnings from bus trips', 'earnings from buses', 'bus earnings', 'bus revenue', 'earnings and bus trips']
+  generic: [buses, earnings, revenue, transport]
+
+- facet: topic
+  category: vehicle_registration
+  patterns: ['vehicle registration', 'vehicle registrations', 'vehicle registration data', 'vehicle registration count', 'vehicles registered']
+  generic: [vehicles, registration, transport, mobility]
+
+- facet: topic
+  category: street_lighting
+  patterns: ['street lights', 'street lighting', 'street light status', 'streetlights']
+  generic: [lighting, streets, infrastructure, energy]
+
+- facet: topic
+  category: digital_access
+  patterns: ['digital availability', 'digital availability status', 'digital access', 'digital readiness']
+  generic: [digital, access, connectivity, technology]
+
+- facet: topic
+  category: digital_payments
+  patterns: ['digital payments', 'digital payment', 'digital payment data', 'digital payment activity']
+  generic: [digital, payments, finance, technology]
+
+- facet: topic
+  category: property_tax
+  patterns: ['property tax', 'property tax data', 'property tax records', 'property tax report']
+  generic: [property, tax, revenue, municipal]
+
+- facet: topic
+  category: circle_rate
+  patterns: ['circle rate', 'circle rates', 'property circle rate']
+  generic: [property, valuation, rates, housing]
+
+- facet: topic
+  category: vat_gst
+  patterns: ['VAT', 'GST', 'VAT and GST', 'VAT & GST', 'VAT and GST collection']
+  generic: [VAT, GST, tax, revenue]
+
+- facet: topic
+  category: finance
+  patterns: ['financial health', 'financial health data', 'financial performance', 'municipal finance']
+  generic: [finance, revenue, expenditure, municipal]
+
+- facet: topic
+  category: governance
+  patterns: ['governance', 'urban governance', 'local governance', 'governance status']
+  generic: [ administration, municipal]
+
+- facet: topic
+  category: citizen_services
+  patterns: ['citizen services', 'citizen facilities', 'citizen facilitation', 'citizen facilitation centers']
+  generic: [citizen, services, facilities]
+
+- facet: topic
+  category: public_amenities
+  patterns: ['public amenities', 'public facilities', 'public amenities data']
+  generic: [amenities, facilities, citizen, services]
+
+- facet: topic
+  category: community_facilities
+  patterns: ['community facilities', 'community facility', 'community infrastructure']
+  generic: [community, facilities, services, urban]
+
+- facet: topic
+  category: education
+  patterns: ['education', 'education data', 'educational data', 'secondary education']
+  generic: [education, schools, students, learning]
+
+- facet: topic
+  category: unemployment
+  patterns: ['unemployment', 'unemployment rate', 'unemployment data']
+  generic: [unemployment, employment, labour, workforce]
+
+- facet: topic
+  category: open_spaces
+  patterns: ['open spaces', 'open space', 'open spaces development', 'open space development']
+  generic: [open, spaces, urban, recreation]
+
+- facet: topic
+  category: cultural_heritage
+  patterns: ['cultural heritage', 'cultural heritage data', 'heritage assets', 'heritage tourism facilities']
+  generic: [heritage, culture, tourism, monuments]
+
+- facet: topic
+  category: tourism
+  patterns: ['tourism', 'heritage tourism', 'tourism facilities']
+  generic: [tourism, heritage, visitors, culture]
+
+- facet: topic
+  category: infrastructure
+  patterns: ['infrastructure', 'infrastructure distribution', 'urban infrastructure', 'basic infrastructure']
+  generic: [infrastructure, urban, facilities]
+
+- facet: topic
+  category: building_approval
+  patterns: ['building plan approval', 'building plan approvals', 'building approval']
+  generic: [building, approval, construction, municipal]
+
+- facet: topic
+  category: iccc
+  patterns: ['ICCC', 'Integrated Command and Control Centre', 'services through ICCC']
+  generic: [ICCC]
+
+- facet: topic
+  category: cctv
+  patterns: ['CCTV', 'CCTV details', 'CCTV infrastructure', 'CCTV coverage']
+  generic: [CCTV, surveillance, safety, security]
+
+- facet: topic
+  category: police
+  patterns: ['police stations', 'police station', 'police infrastructure']
+  generic: [police, stations, safety, security]
+
+- facet: topic
+  category: children_facilities
+  patterns: ['children facilities', 'children facilities provision', 'child facilities']
+  generic: [children, facilities, services, welfare]
+
+- facet: topic
+  category: abattoir
+  patterns: ['abattoir', 'modern abattoir facilities', 'abattoir facilities']
+  generic: [abattoir, sanitation, facilities, municipal]
+
+- facet: topic
+  category: neighborhood
+  patterns: ['ITC Neighborhood', 'ITC Neighbourhood', 'neighborhood', 'neighbourhood']
+  generic: [neighborhood, urban, community]
+
+- facet: geography
+  category: srinagar
+  patterns: ['Srinagar', 'Srinagar City']
+  generic: [Srinagar, Jammu, Kashmir, city]
+
+- facet: geography
+  category: jammu
+  patterns: ['Jammu', 'Jammu City', 'Jammu city']
+  generic: [Jammu, Kashmir]
+
+- facet: geography
+  category: ranchi
+  patterns: ['Ranchi', 'Ranchi City']
+  generic: [Ranchi, Jharkhand]
+
+- facet: geography
+  category: shimla
+  patterns: ['Shimla', 'Shimla City']
+  generic: [Shimla, Himachal]
+
+- facet: geography
+  category: dharamshala
+  patterns: ['Dharamshala', 'Dharamshala City']
+  generic: [Dharamshala, Himachal]
+
+- facet: geography
+  category: faridabad
+  patterns: ['Faridabad', 'Faridabad City']
+  generic: [Faridabad, Haryana]
+
+- facet: geography
+  category: karnal
+  patterns: ['Karnal', 'Karnal City']
+  generic: [Karnal, Haryana]
+
+- facet: geography
+  category: jammu_kashmir
+  patterns: ['Jammu and Kashmir', 'Jammu & Kashmir', 'Jammu Kashmir']
+  generic: [Jammu, Kashmir]
+
+- facet: geography
+  category: himachal_pradesh
+  patterns: ['Himachal Pradesh']
+  generic: [Himachal, Pradesh]
+
+- facet: geography
+  category: jharkhand
+  patterns: ['Jharkhand']
+  generic: [Jharkhand, Ranchi]
+
+- facet: geography
+  category: haryana
+  patterns: ['Haryana']
+  generic: [Haryana, Faridabad]
+
+- facet: geography
+  category: ward
+  patterns: ['ward wise', 'ward-wise', 'wardwise', 'ward level']
+  generic: [ward, locality, municipal, city]
+
+- facet: geography
+  category: municipal_corporation
+  patterns: ['Municipal Corporation', 'MC jurisdiction', 'Municipal Corporation jurisdiction']
+  generic: [municipal, corporation, city]
+
+- facet: geography
+  category: smart_cities
+  patterns: ['Smart Cities Mission', 'Smart Cities', 'Smart City Mission']
+  generic: [smart, cities, urban]
+- facet: topic
+  category: air_quality
+  patterns: ['air quality', 'air quality parameters', 'air pollution', 'air quality data']
+  generic: [air, pollution, environment, quality]
+
+- facet: topic
+  category: air_pollution
+  patterns: ['air pollution', 'residential air pollution', 'vehicular air pollution', 'industrial air pollution', 'advance pollutants']
+  generic: [air, pollution, emissions, environment]
+
+- facet: topic
+  category: pollutants
+  patterns: ['SO2', 'S02', 'PM2.5', 'PM10', 'NO2', 'O3', 'pollutants', 'advance pollutants']
+  generic: [pollution, pollutants, air, environment]
+
+- facet: topic
+  category: crime
+  patterns: ['crime', 'crimes', 'crime statistics', 'crime records', 'number of crimes recorded']
+  generic: [crime, police, safety, security]
+
+- facet: topic
+  category: electricity
+  patterns: ['electricity', 'electricity consumption', 'electric supply', 'electricity supply', 'city consumption']
+  generic: [electricity, energy, power, consumption]
+
+- facet: topic
+  category: electricity_consumption
+  patterns: ['electricity consumption', 'city electricity consumption', 'electricity consumption by sub-sector', 'monthly electricity consumption']
+  generic: [electricity, energy, consumption, demand]
+
+- facet: topic
+  category: open_spaces
+  patterns: ['open spaces', 'open space', 'open spaces development', 'budget for open spaces development']
+  generic: [open, spaces, urban]
+
+- facet: topic
+  category: mortality
+  patterns: ['mortality', 'mortality rate', 'mortality rate data', 'monthly mortality rate']
+  generic: [mortality, death, health, population]
+
+- facet: topic
+  category: households
+  patterns: ['households', 'household profile', 'household census', 'house listing', 'house listing and housing census']
+  generic: [households, house, population, demographics]
+
+- facet: topic
+  category: demographic_profile
+  patterns: ['demographic profile', 'demographic data', 'population profile']
+  generic: [demographic, population, census, urban]
+
+- facet: topic
+  category: housing
+  patterns: ['housing', 'housing data', 'housing conditions', 'housing infrastructure']
+  generic: [house, households, infrastructure, urban]
+
+- facet: topic
+  category: slums
+  patterns: ['slum', 'slums', 'slum population', 'slum housing', 'housing and slums', 'housing and slum population']
+  generic: [slums, house, population, urban]
+
+- facet: topic
+  category: cultural_heritage
+  patterns: ['cultural heritage', 'cultural heritage data', 'heritage', 'heritage assets', 'heritage documentation']
+  generic: [heritage, culture, monuments, tourism]
+
+- facet: topic
+  category: buses
+  patterns: ['buses', 'number of buses', 'bus transport', 'bus transport details']
+  generic: [buses, transport, mobility, public]
+
+- facet: topic
+  category: bus_trips
+  patterns: ['bus trips', 'earnings from bus trips', 'earnings bus trips']
+  generic: [buses, trips, earnings, transport]
+
+- facet: topic
+  category: public_transport
+  patterns: ['public transport', 'public transport access', 'public transport accessibility', 'public transport mode share']
+  generic: [transport, mobility, accessibility, public]
+
+- facet: topic
+  category: transportation
+  patterns: ['transportation', 'transportation data', 'road transport', 'road transport records']
+  generic: [transport, mobility, roads, infrastructure]
+
+- facet: topic
+  category: vehicle_registration
+  patterns: ['vehicle registrations', 'vehicle registration', 'number of vehicles registered', 'vehicles registered']
+  generic: [vehicles, registration, transport, mobility]
+
+- facet: topic
+  category: intersections
+  patterns: ['intersections', 'junctions and intersections', 'signalized intersections', 'intersection data']
+  generic: [intersections, traffic, roads, mobility]
+
+- facet: topic
+  category: traffic
+  patterns: ['traffic', 'traffic data', 'traffic management', 'traffic lights', 'traffic signals']
+  generic: [traffic, mobility, roads, transport]
+
+- facet: topic
+  category: road_safety
+  patterns: ['road safety', 'road safety statistics', 'road safety data', 'injuries and fatalities']
+  generic: [road, safety, accidents, transport]
+
+- facet: topic
+  category: roads
+  patterns: ['roads', 'road data', 'road infrastructure', 'road condition', 'condition of roads']
+  generic: [roads, infrastructure, transport, mobility]
+
+- facet: topic
+  category: water
+  patterns: ['water', 'water supply', 'water status', 'water services']
+  generic: [water, supply, services, urban]
+
+- facet: topic
+  category: water_supply
+  patterns: ['water supply', 'water supply coverage', 'drinking water', 'water connections', 'category wise connection details']
+  generic: [water, supply, connections, services]
+
+- facet: topic
+  category: water_consumption
+  patterns: ['water consumption', 'water usage', 'water use', 'per-capita water use']
+  generic: [water, consumption, demand, supply]
+
+- facet: topic
+  category: water_revenue
+  patterns: ['water revenue', 'water revenue data', 'water tax', 'water tax billed', 'water tax collected']
+  generic: [water, revenue, tax, billing]
+
+- facet: topic
+  category: sanitation
+  patterns: ['sanitation', 'water and sanitation', 'sanitation services', 'urban sanitation']
+  generic: [sanitation, water, hygiene, services]
+
+- facet: topic
+  category: public_toilets
+  patterns: ['public toilets', 'public toilet', 'toilet data']
+  generic: [toilets, sanitation, hygiene, facilities]
+
+- facet: topic
+  category: solid_waste
+  patterns: ['solid waste', 'solid waste management', 'waste management', 'SWM']
+  generic: [waste, sanitation, municipal, environment]
+
+- facet: topic
+  category: waste_generated
+  patterns: ['solid waste generated', 'waste generated', 'waste generation']
+  generic: [waste, generation, sanitation, municipal]
+
+- facet: topic
+  category: waste_collection
+  patterns: ['waste collection', 'solid waste collection', 'door-to-door collection', 'D2D collection', 'D2D collection coverage']
+  generic: [waste, collection, sanitation, municipal]
+
+- facet: topic
+  category: waste_segregation
+  patterns: ['solid waste segregation', 'waste segregation', 'ward wise segregation', 'source segregation']
+  generic: [waste, segregation, sanitation, recycling]
+
+- facet: topic
+  category: waste_processing
+  patterns: ['solid waste processing', 'waste processing', 'solid waste processing data']
+  generic: [waste, processing, sanitation, recycling]
+
+- facet: topic
+  category: waste_disposal
+  patterns: ['solid waste disposal', 'waste disposal', 'solid waste disposable', 'disposal data']
+  generic: [waste, disposal, sanitation, landfill]
+
+- facet: topic
+  category: waste_recycling
+  patterns: ['waste recycled', 'solid waste recycled', 'recycling']
+  generic: [waste, recycling, environment, sanitation]
+
+- facet: topic
+  category: waste_collection_vehicle
+  patterns: ['waste collection vehicle', 'waste collection vehicles', 'solid waste management vehicle', 'vehicle deployment']
+  generic: [waste, vehicles, collection, sanitation]
+
+- facet: topic
+  category: waste_equipment
+  patterns: ['solid waste management equipment', 'waste management equipment', 'collection equipment']
+  generic: [waste, equipment, collection, sanitation]
+
+- facet: topic
+  category: waste_bins
+  patterns: ['bins', 'community bins', 'bins and community bins', 'ward wise data on bins']
+  generic: [waste, bins, collection, sanitation]
+
+- facet: topic
+  category: waste_efficiency
+  patterns: ['solid waste management efficiency', 'waste management efficiency', 'D2D collection efficiency']
+  generic: [waste, efficiency, collection, sanitation]
+
+- facet: topic
+  category: waste_revenue
+  patterns: ['solid waste collection revenue', 'solid waste management revenue', 'D2D collection revenue']
+  generic: [waste, revenue, collection, municipal]
+
+- facet: topic
+  category: waste_expenditure
+  patterns: ['waste management revenue expenditure', 'revenue expenditure', 'waste management expenditure']
+  generic: [waste, expenditure, finance, sanitation]
+
+- facet: topic
+  category: health
+  patterns: ['health', 'health data', 'health services', 'urban health']
+  generic: [health, healthcare, medical, services]
+
+- facet: topic
+  category: health_infrastructure
+  patterns: ['health infrastructure', 'health infrastructure data', 'health facilities']
+  generic: [health, healthcare, infrastructure, facilities]
+
+- facet: topic
+  category: diseases
+  patterns: ['diseases', 'disease data', 'diseases data', 'disease information']
+  generic: [disease, health, medical, healthcare]
+
+- facet: topic
+  category: education
+  patterns: ['education', 'education data', 'education indicators', 'elementary education', 'secondary education']
+  generic: [education, schools, students, learning]
+
+- facet: topic
+  category: property_tax
+  patterns: ['property tax', 'property tax data', 'property tax records']
+  generic: [property, tax, revenue, municipal]
+
+- facet: topic
+  category: vat_gst
+  patterns: ['VAT', 'GST', 'VAT and GST', 'VAT & GST', 'VAT and GST collection']
+  generic: [VAT, GST, tax, revenue]
+
+- facet: topic
+  category: financial_health
+  patterns: ['financial health', 'financial health data', 'financial performance']
+  generic: [finance, revenue, expenditure, municipal]
+
+- facet: topic
+  category: governance
+  patterns: ['governance', 'governance statistics', 'governance data', 'local governance']
+  generic: [ administration, municipal]
+
+- facet: topic
+  category: citizen_services
+  patterns: ['citizen services', 'citizen facilities', 'citizen facilitation', 'citizen facilitation center', 'citizen facilitation centre']
+  generic: [citizen, services,  facilities]
+
+- facet: topic
+  category: complaints
+  patterns: ['complaint status', 'complaints', 'complaint dashboard', 'grievance']
+  generic: [complaints, grievance, citizen, services]
+
+- facet: topic
+  category: digital_availability
+  patterns: ['digital availability', 'digital availability of services', 'digital access', 'digital services']
+  generic: [digital, access, services, technology]
+
+- facet: topic
+  category: digital_payments
+  patterns: ['digital payments', 'digital payment', 'digital payment data', 'digital payment activity']
+  generic: [digital, payments, finance, technology]
+
+- facet: topic
+  category: iccc
+  patterns: ['ICCC', 'services through ICCC', 'Integrated Command and Control Centre']
+  generic: [ICCC,  services, technology]
+
+- facet: topic
+  category: cctv
+  patterns: ['CCTV', 'CCTV camera coverage', 'CCTV coverage']
+  generic: [CCTV, surveillance, safety, security]
+
+- facet: topic
+  category: police
+  patterns: ['police stations', 'police station', 'police coverage']
+  generic: [police, safety, security, stations]
+
+- facet: topic
+  category: street_lighting
+  patterns: ['street lights', 'street lighting', 'street light']
+  generic: [lighting, streets, infrastructure, electricity]
+
+- facet: topic
+  category: unemployment
+  patterns: ['unemployment', 'unemployment rate', 'unemployment data']
+  generic: [unemployment, employment, labour, workforce]
+
+- facet: topic
+  category: work_participation
+  patterns: ['work participation ratio', 'work participation']
+  generic: [employment, labour, workforce, participation]
+
+- facet: topic
+  category: registered_voters
+  patterns: ['registered voters', 'registered voter', 'voter registration']
+  generic: [voters, elections, demographics]
+
+- facet: topic
+  category: rainfall
+  patterns: ['rainfall', 'monthly rainfall', 'rainy days']
+  generic: [rainfall, weather, climate, water]
+
+- facet: topic
+  category: environment
+  patterns: ['environment', 'environment data', 'environment report', 'environment indicators']
+  generic: [environment, pollution, climate, ecology]
+
+- facet: topic
+  category: natural_landscape
+  patterns: ['natural landscape', 'natural features', 'natural landscape data']
+  generic: [natural, landscape, environment, ecology]
+
+- facet: topic
+  category: infrastructure
+  patterns: ['infrastructure', 'infrastructure distribution', 'basic infrastructure']
+  generic: [infrastructure, urban, facilities]
+
+- facet: topic
+  category: public_amenities
+  patterns: ['public amenities', 'public amenities data', 'public facilities']
+  generic: [amenities, facilities, citizen, services]
+
+- facet: topic
+  category: community_facilities
+  patterns: ['community facilities', 'community facility', 'community infrastructure']
+  generic: [community, facilities, services, urban]
+
+- facet: topic
+  category: children_facilities
+  patterns: ['children facilities', 'children facilities provision', 'child facilities']
+  generic: [children, facilities, services, welfare]
+
+- facet: topic
+  category: city_profile
+  patterns: ['city profile', 'city profile data']
+  generic: [city, profile, demographic, urban]
+
+- facet: topic
+  category: neighborhood
+  patterns: ['ITC Neighbourhood', 'ITC Neighborhood', 'neighbourhood', 'neighborhood']
+  generic: [neighborhood, urban, community]
+
+- facet: topic
+  category: area_bifurcation
+  patterns: ['area bifurcation', 'area bifurcation data', 'spatial delineation']
+  generic: [area,  spatial, urban]
+
+- facet: geography
+  category: bengaluru
+  patterns: ['Bengaluru', 'Bangalore', 'Bengaluru City', 'Bangalore City']
+  generic: [Bengaluru, Bangalore, Karnataka, city]
+
+- facet: geography
+  category: belagavi
+  patterns: ['Belagavi', 'Belgaum']
+  generic: [Belagavi, Karnataka]
+
+- facet: geography
+  category: tumakuru
+  patterns: ['Tumakuru', 'Tumakuru City']
+  generic: [Tumakuru, Karnataka]
+
+- facet: geography
+  category: hubballi_dharwad
+  patterns: ['Hubballi-Dharwad', 'Hubballi Dharwad', 'Hubli Dharwad', 'Hubli-Dharwad']
+  generic: [Hubballi, Dharwad, Karnataka, city]
+
+- facet: geography
+  category: davanagere
+  patterns: ['Davanagere', 'Davanagere City', 'Davanagere District']
+  generic: [Davanagere, Karnataka]
+
+- facet: geography
+  category: shivamogga
+  patterns: ['Shivamogga', 'Shimoga']
+  generic: [Shivamogga, Karnataka]
+
+- facet: geography
+  category: mangaluru
+  patterns: ['Mangaluru', 'Mangalore']
+  generic: [Mangaluru, Mangalore, Karnataka, city]
+
+- facet: geography
+  category: kochi
+  patterns: ['Kochi']
+  generic: [Kochi, Kerala]
+
+- facet: geography
+  category: thiruvananthapuram
+  patterns: ['Thiruvananthapuram', 'Trivandrum']
+  generic: [Thiruvananthapuram, Trivandrum, Kerala, city]
+
+- facet: geography
+  category: karnataka
+  patterns: ['Karnataka']
+  generic: [Karnataka, urban]
+
+- facet: geography
+  category: kerala
+  patterns: ['Kerala']
+  generic: [Kerala, urban]
+
+- facet: geography
+  category: ward
+  patterns: ['ward wise', 'ward-wise', 'wardwise', 'ward level']
+  generic: [ward, locality, municipal, city]
+
+- facet: geography
+  category: district
+  patterns: ['district', 'district level', 'district granularity']
+  generic: [district,  administration, region]
+
+- facet: geography
+  category: municipal_corporation
+  patterns: ['Municipal Corporation', 'municipal corporation jurisdiction']
+  generic: [municipal, corporation, city]
+
+- facet: geography
+  category: smart_cities
+  patterns: ['Smart Cities Mission', 'Smart Cities', 'Smart City Mission']
+  generic: [smart, cities, urban]
+- facet: topic
+  category: air_quality
+  patterns: ['air quality', 'air quality data', 'air quality environment', 'air pollution']
+  generic: [air, pollution, environment, quality]
+
+- facet: topic
+  category: pollutants
+  patterns: ['SO2', 'S02', 'PM2.5', 'PM10', 'NO2', 'O3']
+  generic: [pollution, pollutants, air, environment]
+
+- facet: topic
+  category: crime
+  patterns: ['crime', 'crimes', 'crime data', 'crime records', 'crimes reported']
+  generic: [crime, police, safety, security]
+
+- facet: topic
+  category: road_safety
+  patterns: ['road safety', 'injuries and fatalities', 'road injuries', 'fatalities']
+  generic: [road, safety, accidents, transport]
+
+- facet: topic
+  category: traffic
+  patterns: ['traffic', 'traffic data', 'traffic management']
+  generic: [traffic, mobility, transport, roads]
+
+- facet: topic
+  category: intersections
+  patterns: ['intersections', 'signalized intersections', 'junctions', 'intersection']
+  generic: [intersections, traffic, roads, mobility]
+
+- facet: topic
+  category: roads
+  patterns: ['roads', 'road information', 'road condition', 'condition of roads', 'road infrastructure']
+  generic: [roads, infrastructure, transport, mobility]
+
+- facet: topic
+  category: buses
+  patterns: ['buses', 'number of buses', 'bus data', 'bus services', 'bus fleet']
+  generic: [buses, transport, mobility, public]
+
+- facet: topic
+  category: bus_trips
+  patterns: ['bus trips', 'earnings from bus trips', 'bus trip earnings']
+  generic: [buses, trips, revenue, transport]
+
+- facet: topic
+  category: bus_routes
+  patterns: ['bus routes', 'bus route name', 'route number', 'route waypoints', 'bus route waypoint']
+  generic: [buses, routes, transport, mobility]
+
+- facet: topic
+  category: public_transport
+  patterns: ['public transport', 'public transport access', 'public transport accessibility', 'public transport mode share']
+  generic: [transport, mobility, accessibility, public]
+
+- facet: topic
+  category: vehicle_registration
+  patterns: ['vehicle registrations', 'vehicle registration', 'registered vehicles', 'vehicle count']
+  generic: [vehicles, registration, transport, mobility]
+
+- facet: topic
+  category: vehicle_revenue
+  patterns: ['vehicle registration revenue', 'registration revenue']
+  generic: [vehicles, revenue, registration, transport]
+
+- facet: topic
+  category: water
+  patterns: ['water', 'water data', 'water services', 'water status']
+  generic: [water, supply, services, urban]
+
+- facet: topic
+  category: water_supply
+  patterns: ['water supply', 'water supply coverage', 'water supply connection', 'water supply distribution', 'drinking water']
+  generic: [water, supply, connections, services]
+
+- facet: topic
+  category: water_consumption
+  patterns: ['water consumption', 'daily water consumption', 'water usage']
+  generic: [water, consumption, demand, supply]
+
+- facet: topic
+  category: water_tax
+  patterns: ['water tax', 'water tax data', 'water tax records']
+  generic: [water, tax, revenue, billing]
+
+- facet: topic
+  category: water_revenue
+  patterns: ['water revenue', 'water revenue data', 'water revenue records']
+  generic: [water, revenue, tax, billing]
+
+- facet: topic
+  category: water_sanitation
+  patterns: ['water and sanitation', 'water and sanitation status', 'water sanitation']
+  generic: [water, sanitation, services, hygiene]
+
+- facet: topic
+  category: sewage
+  patterns: ['sewage', 'sewage expenditure', 'water and sewage']
+  generic: [sewage, water, sanitation, infrastructure]
+
+- facet: topic
+  category: solid_waste
+  patterns: ['solid waste', 'solid waste management', 'SWM', 'waste management']
+  generic: [waste, sanitation, municipal, environment]
+
+- facet: topic
+  category: waste_generated
+  patterns: ['solid waste generated', 'waste generated', 'waste generation']
+  generic: [waste, generation, sanitation, municipal]
+
+- facet: topic
+  category: waste_collection
+  patterns: ['solid waste collection', 'waste collection', 'collection coverage', 'D2D collection', 'door-to-door collection']
+  generic: [waste, collection, sanitation, municipal]
+
+- facet: topic
+  category: waste_segregation
+  patterns: ['solid waste segregation', 'waste segregation', 'ward-wise segregation', 'ward wise segregation']
+  generic: [waste, segregation, sanitation, recycling]
+
+- facet: topic
+  category: waste_processing
+  patterns: ['solid waste processing', 'waste processing', 'solid waste processing data']
+  generic: [waste, processing, sanitation, recycling]
+
+- facet: topic
+  category: waste_disposal
+  patterns: ['solid waste disposal', 'waste disposal', 'solid waste disposal data']
+  generic: [waste, disposal, sanitation, landfill]
+
+- facet: topic
+  category: waste_collection_vehicle
+  patterns: ['waste collection vehicle', 'waste collection vehicles', 'solid waste collection vehicle']
+  generic: [waste, vehicles, collection, sanitation]
+
+- facet: topic
+  category: waste_collection_equipment
+  patterns: ['waste collection equipment', 'solid waste collection equipment', 'collection equipment']
+  generic: [waste, equipment, collection, sanitation]
+
+- facet: topic
+  category: waste_bins
+  patterns: ['bins', 'community bins', 'bins and community bins', 'ward wise data for bins']
+  generic: [waste, bins, collection, sanitation]
+
+- facet: topic
+  category: waste_efficiency
+  patterns: ['solid waste management efficiency', 'waste management efficiency', 'SWM efficiency']
+  generic: [waste, efficiency, collection, sanitation]
+
+- facet: topic
+  category: waste_revenue
+  patterns: ['solid waste collection revenue', 'solid waste revenue', 'D2D collection revenue', 'waste collection revenue']
+  generic: [waste, revenue, collection, municipal]
+
+- facet: topic
+  category: waste_expenditure
+  patterns: ['solid waste management expenditure', 'SWM expenditure', 'waste management expenditure', 'waste management revenue expenditure']
+  generic: [waste, expenditure, finance, sanitation]
+
+- facet: topic
+  category: public_toilets
+  patterns: ['public toilets', 'public toilet', 'public toilet coverage']
+  generic: [toilets, sanitation, hygiene, facilities]
+
+- facet: topic
+  category: health
+  patterns: ['health', 'health data', 'health records', 'health services']
+  generic: [health, healthcare, medical, services]
+
+- facet: topic
+  category: health_infrastructure
+  patterns: ['health infrastructure', 'health facilities', 'health infrastructure data']
+  generic: [health, healthcare, infrastructure, facilities]
+
+- facet: topic
+  category: hospitals
+  patterns: ['hospitals', 'hospital details', 'hospital coverage', 'location of hospitals']
+  generic: [hospitals, healthcare, health, facilities]
+
+- facet: topic
+  category: nursing_homes
+  patterns: ['nursing homes', 'location of nursing homes']
+  generic: [healthcare, hospitals, nursing, facilities]
+
+- facet: topic
+  category: doctors
+  patterns: ['doctors', 'distribution of doctors', 'doctor distribution']
+  generic: [doctors, health, healthcare, workforce]
+
+- facet: topic
+  category: opd
+  patterns: ['OPD', 'OPD registrations', 'outpatient registrations', 'outpatient services']
+  generic: [OPD, healthcare, patients, hospitals]
+
+- facet: topic
+  category: diseases
+  patterns: ['diseases', 'disease data', 'disease records', 'disease infected', 'disease counts']
+  generic: [disease, health, medical, healthcare]
+
+- facet: topic
+  category: water_borne_diseases
+  patterns: ['water borne diseases', 'water-borne diseases', 'water borne disease']
+  generic: [disease, water, health, sanitation]
+
+- facet: topic
+  category: mortality
+  patterns: ['mortality', 'mortality rate', 'mortality rate data']
+  generic: [mortality, death, health, population]
+
+- facet: topic
+  category: covid19
+  patterns: ['COVID-19', 'COVID', 'COVID positive', 'COVID cases', 'coronavirus']
+  generic: [COVID, health, pandemic, disease]
+
+- facet: topic
+  category: vaccination
+  patterns: ['vaccination', 'vaccination count', 'vaccination coverage', 'vaccination centres', 'vaccination centers']
+  generic: [vaccination, immunization, health, COVID]
+
+- facet: topic
+  category: covid_vaccination
+  patterns: ['COVID vaccination', 'COVID vaccination centres', 'COVID vaccination centers', 'vaccination combined']
+  generic: [COVID, vaccination, immunization, health]
+
+- facet: topic
+  category: demographic_profile
+  patterns: ['demographic profile', 'demographic profile data', 'demographic data', 'population profile']
+  generic: [demographic, population, census, urban]
+
+- facet: topic
+  category: city_profile
+  patterns: ['city profile', 'city profile data', 'city demographic profile']
+  generic: [city, profile, demographic, urban]
+
+- facet: topic
+  category: households
+  patterns: ['households', 'household profile', 'household demographic profile', 'household data']
+  generic: [households, house, population, demographics]
+
+- facet: topic
+  category: housing
+  patterns: ['housing', 'housing data', 'housing profile', 'housing details']
+  generic: [house, households, infrastructure, urban]
+
+- facet: topic
+  category: slums
+  patterns: ['slum', 'slums', 'slum population', 'slum housing', 'housing and slum population']
+  generic: [slums, house, population, urban]
+
+- facet: topic
+  category: unemployment
+  patterns: ['unemployment', 'unemployment rate', 'unemployment rate details']
+  generic: [unemployment, employment, labour, workforce]
+
+- facet: topic
+  category: registered_voters
+  patterns: ['registered voters', 'registered voter', 'voter registration', 'parliament registered voters']
+  generic: [voters, elections, demographics]
+
+- facet: topic
+  category: governance
+  patterns: ['governance', 'governance report', 'governance data']
+  generic: [ administration, municipal]
+
+- facet: topic
+  category: citizen_facilities
+  patterns: ['citizen facilities', 'citizen facility', 'citizen service access']
+  generic: [citizen, facilities, services]
+
+- facet: topic
+  category: citizen_facilitation
+  patterns: ['citizen facilitation center', 'citizen facilitation centre', 'CFC', 'facilitation center']
+  generic: [citizen, services,  facilities]
+
+- facet: topic
+  category: public_amenities
+  patterns: ['public amenities', 'public amenities data', 'public facilities']
+  generic: [amenities, facilities, citizen, services]
+
+- facet: topic
+  category: community_facilities
+  patterns: ['community facilities', 'community facility', 'community facilities data']
+  generic: [community, facilities, services, urban]
+
+- facet: topic
+  category: children_facilities
+  patterns: ['children facilities', 'children facilities provision', 'child facilities']
+  generic: [children, facilities, welfare, services]
+
+- facet: topic
+  category: education
+  patterns: ['education', 'education data', 'education details', 'education indicators']
+  generic: [education, schools, students, learning]
+
+- facet: topic
+  category: colleges
+  patterns: ['college', 'colleges', 'college institutes', 'autonomous college']
+  generic: [colleges, education, institutes, students]
+
+- facet: topic
+  category: social_schemes
+  patterns: ['social scheme beneficiaries', 'social schemes', 'scheme beneficiaries']
+  generic: [welfare, schemes, beneficiaries, social]
+
+- facet: topic
+  category: property_tax
+  patterns: ['property tax', 'property tax data', 'property tax records', 'property tax collection']
+  generic: [property, tax, revenue, municipal]
+
+- facet: topic
+  category: circle_rate
+  patterns: ['circle rate', 'circle rates']
+  generic: [property, valuation, registration, realty]
+
+- facet: topic
+  category: vat_gst
+  patterns: ['VAT', 'GST', 'VAT and GST', 'VAT & GST', 'VAT and GST collection']
+  generic: [VAT, GST, tax, revenue]
+
+- facet: topic
+  category: financial_health
+  patterns: ['financial health', 'financial health data', 'financial health indicators', 'financial performance']
+  generic: [finance, revenue, expenditure, municipal]
+
+- facet: topic
+  category: municipal_budget
+  patterns: ['municipal budget', 'municipal budget details', 'budget details']
+  generic: [budget, finance, municipal, revenue]
+
+- facet: topic
+  category: capital_expenditure
+  patterns: ['capital expenditure', 'CapEx', 'capital expenditure percentage']
+  generic: [capital, expenditure, budget, finance]
+
+- facet: topic
+  category: expenditure
+  patterns: ['expenditure', 'annual expenditure', 'financial expenditure']
+  generic: [expenditure, finance, budget, spending]
+
+- facet: topic
+  category: open_spaces
+  patterns: ['open spaces', 'open space', 'open spaces development']
+  generic: [open, spaces, urban]
+
+- facet: topic
+  category: parks
+  patterns: ['parks', 'public parks', 'parks and gardens', 'parks and gardens city profile']
+  generic: [parks, gardens, green, urban]
+
+- facet: topic
+  category: gardens
+  patterns: ['gardens', 'public gardens', 'parks and gardens']
+  generic: [gardens, parks, green, environment]
+
+- facet: topic
+  category: trees
+  patterns: ['tree count', 'trees', 'tree data', 'green cover']
+  generic: [trees, green, environment, urban]
+
+- facet: topic
+  category: natural_landscape
+  patterns: ['natural landscape', 'natural features', 'natural landscape data']
+  generic: [natural, landscape, environment, ecology]
+
+- facet: topic
+  category: environment
+  patterns: ['environment', 'environment data', 'environment details']
+  generic: [environment, pollution, climate, ecology]
+
+- facet: topic
+  category: renewable_energy
+  patterns: ['renewable energy', 'renewable energy data']
+  generic: [renewable, energy, electricity, environment]
+
+- facet: topic
+  category: electricity
+  patterns: ['electricity', 'electricity data', 'city electricity consumption', 'electricity consumption']
+  generic: [electricity, energy, power, consumption]
+
+- facet: topic
+  category: street_lighting
+  patterns: ['street lights', 'street lighting', 'lighting in street', 'street lights details']
+  generic: [lighting, streets, infrastructure, electricity]
+
+- facet: topic
+  category: infrastructure
+  patterns: ['infrastructure', 'infrastructure distribution', 'urban infrastructure']
+  generic: [infrastructure, urban, facilities]
+
+- facet: topic
+  category: road_flyover
+  patterns: ['roads and flyovers', 'road and flyover expenditure', 'flyovers']
+  generic: [roads, flyovers, infrastructure, transport]
+
+- facet: topic
+  category: stormwater
+  patterns: ['stormwater', 'storm water', 'stormwater expenditure']
+  generic: [stormwater, drainage, water, infrastructure]
+
+- facet: topic
+  category: digital_availability
+  patterns: ['digital availability', 'digital access', 'digital service readiness']
+  generic: [digital, access, services, technology]
+
+- facet: topic
+  category: digital_payments
+  patterns: ['digital payments', 'digital payment', 'digital payment data']
+  generic: [digital, payments, finance, technology]
+
+- facet: topic
+  category: police
+  patterns: ['police station', 'police stations', 'police station list', 'location of police station']
+  generic: [police, safety, security, law]
+
+- facet: topic
+  category: emergency_management
+  patterns: ['disaster management', 'disaster management helpline', 'emergency preparedness']
+  generic: [disaster, emergency, safety, response]
+
+- facet: topic
+  category: grievance
+  patterns: ['grievance', 'grievance helpline', 'complaints', 'complaint']
+  generic: [grievance, complaints, citizen, services]
+
+- facet: topic
+  category: fire_incidents
+  patterns: ['fire incidents', 'fire and other incidents', 'fire incidents data']
+  generic: [fire, incidents, safety, emergency]
+
+- facet: topic
+  category: cultural_heritage
+  patterns: ['cultural heritage', 'heritage data', 'heritage information']
+  generic: [heritage, culture, tourism, conservation]
+
+- facet: topic
+  category: hotels_restaurants
+  patterns: ['hotels and restaurants', 'hotel', 'restaurants', 'hospitality']
+  generic: [hotels, restaurants, tourism, hospitality]
+
+- facet: topic
+  category: sports
+  patterns: ['sports complex', 'sports facilities', 'sports']
+  generic: [sports, recreation, facilities, urban]
+
+- facet: topic
+  category: registration
+  patterns: ['registration details', 'registration data', 'registered entities']
+  generic: [registration, records, administration]
+
+- facet: topic
+  category: area_bifurcation
+  patterns: ['area bifurcation', 'area bifurcation data', 'administrative boundaries']
+  generic: [area,  spatial, administration]
+
+- facet: topic
+  category: itc_neighborhood
+  patterns: ['ITC Neighborhood', 'ITC Neighbourhood', 'ITC Demographics']
+  generic: [neighborhood, urban, community]
+
+- facet: geography
+  category: pune
+  patterns: ['Pune', 'Pune City', 'Pune district']
+  generic: [Pune, Maharashtra]
+
+- facet: geography
+  category: nagpur
+  patterns: ['Nagpur', 'Nagpur City', 'Nagpur district']
+  generic: [Nagpur, Maharashtra]
+
+- facet: geography
+  category: aurangabad
+  patterns: ['Aurangabad', 'Chhatrapati Sambhajinagar']
+  generic: [Aurangabad, Maharashtra]
+
+- facet: geography
+  category: pimpri_chinchwad
+  patterns: ['Pimpri Chinchwad', 'Pimpri-Chinchwad', 'Pimpri Chinchwad urban area']
+  generic: [Pimpri, Chinchwad, Maharashtra]
+
+- facet: geography
+  category: solapur
+  patterns: ['Solapur', 'Solapur City']
+  generic: [Solapur, Maharashtra]
+
+- facet: geography
+  category: thane
+  patterns: ['Thane', 'Thane City', 'Thane District']
+  generic: [Thane, Maharashtra]
+
+- facet: geography
+  category: kalyan_dombivli
+  patterns: ['Kalyan Dombivli', 'Kalyan-Dombivli', 'Kalyan Dombivli City']
+  generic: [Kalyan, Dombivli, Maharashtra]
+
+- facet: geography
+  category: ujjain
+  patterns: ['Ujjain', 'Ujjain City']
+  generic: [Ujjain, MP]
+
+- facet: geography
+  category: bhopal
+  patterns: ['Bhopal', 'Bhopal City']
+  generic: [Bhopal, MP]
+
+- facet: geography
+  category: indore
+  patterns: ['Indore', 'Indore City']
+  generic: [Indore, MP]
+
+- facet: geography
+  category: gwalior
+  patterns: ['Gwalior', 'Gwalior City']
+  generic: [Gwalior, MP]
+
+- facet: geography
+  category: jabalpur
+  patterns: ['Jabalpur', 'Jabalpur City']
+  generic: [Jabalpur,MP]
+
+- facet: geography
+  category: sagar
+  patterns: ['Sagar', 'Sagar City', 'Sagar District']
+  generic: [Sagar,MP]
+
+- facet: geography
+  category: satna
+  patterns: ['Satna', 'Satna City']
+  generic: [Satna, MP]
+
+- facet: geography
+  category: a1zawl
+  patterns: ['Aizawl', 'Aizawl City']
+  generic: [Aizawl, Mizoram]
+
+- facet: geography
+  category: shillong
+  patterns: ['Shillong', 'Shillong City']
+  generic: [Shillong, Meghalaya]
+
+- facet: geography
+  category: kavaratti
+  patterns: ['Kavaratti']
+  generic: [Kavaratti, Lakshadweep]
+
+- facet: geography
+  category: maharashtra
+  patterns: ['Maharashtra']
+  generic: [Maharashtra]
+
+- facet: geography
+  category: madhya_pradesh
+  patterns: ['Madhya Pradesh', 'MP']
+  generic: [MP]
+
+- facet: geography
+  category: mizoram
+  patterns: ['Mizoram']
+  generic: [Mizoram]
+
+- facet: geography
+  category: meghalaya
+  patterns: ['Meghalaya']
+  generic: [Meghalaya]
+
+- facet: geography
+  category: ward
+  patterns: ['ward wise', 'ward-wise', 'wardwise', 'ward level']
+  generic: [ward, locality, municipal, city]
+
+- facet: geography
+  category: district
+  patterns: ['district', 'district level', 'district granularity']
+  generic: [district, administration, region]
+
+- facet: geography
+  category: neighborhood
+  patterns: ['neighborhood', 'neighbourhood', 'neighborhood level', 'neighbourhood level']
+  generic: [neighborhood, locality, urban, community]
+
+- facet: geography
+  category: smart_cities
+  patterns: ['Smart Cities Mission', 'Smart Cities', 'Smart City Mission']
+  generic: [smart, cities, urban]
+- facet: topic
+  category: solid_waste
+  patterns: ['solid waste', 'solid waste management', 'SWM', 'waste management']
+  generic: [waste, sanitation, municipal, environment, SWM]
+
+- facet: topic
+  category: waste_generation
+  patterns: ['solid waste generated', 'waste generated', 'waste generation']
+  generic: [waste, generation, sanitation, municipal, SWM]
+
+- facet: topic
+  category: waste_collection
+  patterns: ['solid waste collection', 'waste collection', 'door to door collection', 'D2D collection', 'D2D']
+  generic: [waste, collection, sanitation, municipal, SWM, D2D]
+
+- facet: topic
+  category: waste_segregation
+  patterns: ['solid waste segregation', 'waste segregation']
+  generic: [waste, segregation, sanitation, recycling, SWM]
+
+- facet: topic
+  category: waste_processing
+  patterns: ['solid waste processing', 'waste processing']
+  generic: [waste, processing, sanitation, recycling, SWM]
+
+- facet: topic
+  category: waste_disposal
+  patterns: ['solid waste disposal', 'waste disposal', 'solid waste disposal methods', 'disposal technique']
+  generic: [waste, disposal, sanitation, landfill, SWM]
+
+- facet: topic
+  category: waste_collection_vehicle
+  patterns: ['solid waste collection vehicle', 'solid waste collection vehicles', 'waste collection vehicle']
+  generic: [waste, vehicle, collection, sanitation, SWM]
+
+- facet: topic
+  category: waste_collection_equipment
+  patterns: ['solid waste collection equipment', 'waste collection equipment', 'collection equipment']
+  generic: [waste, equipment, collection, sanitation, SWM]
+
+- facet: topic
+  category: waste_revenue
+  patterns: ['solid waste collection revenue', 'solid waste management revenue', 'solid waste management revenue generation', 'D2D collection revenue']
+  generic: [waste, revenue, collection, municipal, SWM, D2D]
+
+- facet: topic
+  category: waste_expenditure
+  patterns: ['waste management revenue expenditure', 'waste management expenditure', 'solid waste expenditure']
+  generic: [waste, expenditure, finance, municipal, SWM]
+
+- facet: topic
+  category: waste_efficiency
+  patterns: ['solid waste management efficiency', 'waste management efficiency']
+  generic: [waste, efficiency, sanitation, municipal, SWM]
+
+- facet: topic
+  category: water_supply
+  patterns: ['water supply', 'water supply data', 'water distribution network', 'drinking water']
+  generic: [water, supply, distribution, services]
+
+- facet: topic
+  category: water_consumption
+  patterns: ['water consumption', 'water usage']
+  generic: [water, consumption, demand, supply]
+
+- facet: topic
+  category: water_tax
+  patterns: ['water tax', 'water tax records']
+  generic: [water, tax, revenue, billing]
+
+- facet: topic
+  category: water_sanitation
+  patterns: ['water and sanitation', 'water sanitation', 'sanitation']
+  generic: [water, sanitation, hygiene, services]
+
+- facet: topic
+  category: toilets
+  patterns: ['public toilets', 'public toilet', 'community toilets', 'bio toilets', 'toilets availability']
+  generic: [toilets, sanitation, hygiene, facilities]
+
+- facet: topic
+  category: roads
+  patterns: ['roads', 'road infrastructure', 'roads data', 'condition of roads']
+  generic: [roads, infrastructure, transport, mobility]
+
+- facet: topic
+  category: road_safety
+  patterns: ['road safety', 'road safety data', 'injuries and fatalities']
+  generic: [roads, safety, accidents, transport]
+
+- facet: topic
+  category: intersections
+  patterns: ['intersections', 'signalized intersections', 'traffic square']
+  generic: [traffic, intersections, roads, mobility]
+
+- facet: topic
+  category: traffic
+  patterns: ['traffic', 'traffic management', 'speed violation', 'speed violations']
+  generic: [traffic, roads, safety, mobility]
+
+- facet: topic
+  category: footpaths
+  patterns: ['footpath', 'footpaths', 'footpath availability', 'footpath width', 'sidewalk']
+  generic: [footpath, roads, accessibility, mobility]
+
+- facet: topic
+  category: public_transport
+  patterns: ['public transport', 'public transport access', 'public transport accessibility', 'public transport mode share']
+  generic: [transport, mobility, accessibility, transit, PT]
+
+- facet: topic
+  category: transport_mode
+  patterns: ['mode of transport', 'transport mode', 'mode share']
+  generic: [transport, mobility, transit, travel]
+
+- facet: topic
+  category: buses
+  patterns: ['buses', 'bus fleet', 'city bus fleet', 'bus operations']
+  generic: [buses, transport, mobility, transit, PT]
+
+- facet: topic
+  category: bus_trips
+  patterns: ['bus trips', 'earning bus trips', 'earnings from bus trips', 'passenger count from bus trips']
+  generic: [buses, trips, transport, revenue, PT]
+
+- facet: topic
+  category: bus_stops
+  patterns: ['bus stop', 'bus stops', 'bus stop details']
+  generic: [buses, stops, transport, mobility, PT]
+
+- facet: topic
+  category: vehicle_registration
+  patterns: ['vehicle registration', 'vehicle registrations', 'number of vehicle registrations']
+  generic: [vehicles, registration, transport, mobility]
+
+- facet: topic
+  category: IPT
+  patterns: ['IPT', 'IPT fuel usage', 'IPT ownership', 'intermediate public transport']
+  generic: [IPT, transport, fuel, ownership, mobility]
+
+- facet: topic
+  category: electricity
+  patterns: ['electricity', 'electricity data', 'electricity consumption', 'electricity status']
+  generic: [electricity, energy, power, consumption]
+
+- facet: topic
+  category: electricity_infrastructure
+  patterns: ['electric sub stations', 'electric substations', 'sub stations', 'electric substation']
+  generic: [electricity, infrastructure, power, energy]
+
+- facet: topic
+  category: street_lighting
+  patterns: ['street lights', 'street lighting', 'streetlight', 'smart streetlight']
+  generic: [lighting, streets, infrastructure, electricity]
+
+- facet: topic
+  category: renewable_energy
+  patterns: ['renewable energy', 'renewable energy linked']
+  generic: [renewable, energy, electricity, environment]
+
+- facet: topic
+  category: air_quality
+  patterns: ['air quality', 'ambient air quality', 'air pollution', 'industrial air pollution']
+  generic: [air, pollution, environment, quality]
+
+- facet: topic
+  category: environment
+  patterns: ['environment', 'environment data', 'environmental data']
+  generic: [environment, pollution, ecology, natural]
+
+- facet: topic
+  category: natural_features
+  patterns: ['natural features', 'natural landscape', 'natural landscape data']
+  generic: [natural, landscape, environment]
+
+- facet: topic
+  category: health
+  patterns: ['health', 'health data', 'health services']
+  generic: [health, healthcare, medical, services]
+
+- facet: topic
+  category: health_infrastructure
+  patterns: ['health infrastructure', 'health facilities']
+  generic: [health, healthcare, infrastructure, facilities]
+
+- facet: topic
+  category: diseases
+  patterns: ['diseases', 'disease data', 'disease records']
+  generic: [disease, health, medical, healthcare]
+
+- facet: topic
+  category: mortality
+  patterns: ['mortality', 'mortality rate']
+  generic: [mortality, death, health, population]
+
+- facet: topic
+  category: animal_health
+  patterns: ['dogs vaccinated', 'dog vaccination', 'animal vaccination']
+  generic: [dogs, vaccination, animals, health]
+
+- facet: topic
+  category: housing
+  patterns: ['housing', 'housing data', 'housing statistics', 'housing typology']
+  generic: [house, households, infrastructure, urban]
+
+- facet: topic
+  category: slums
+  patterns: ['slum', 'slums', 'slum housing', 'slum population', 'housing and slum population']
+  generic: [slums, house, population, urban]
+
+- facet: topic
+  category: households
+  patterns: ['households', 'household profile', 'household statistics', 'household details', 'household size']
+  generic: [households, house, population, demographics]
+
+- facet: topic
+  category: housing_amenities
+  patterns: ['housing amenities', 'extra housing amenities', 'basic housing infrastructure']
+  generic: [house, amenities, infrastructure, services]
+
+- facet: topic
+  category: demographics
+  patterns: ['demographic profile', 'demographic data', 'demography']
+  generic: [demographics, population, census, urban]
+
+- facet: topic
+  category: city_profile
+  patterns: ['city profile', 'city profile data', 'ULB profile', 'urban local body profile']
+  generic: [city, profile, urban, demographics, ULB]
+
+- facet: topic
+  category: unemployment
+  patterns: ['unemployment rate', 'unemployment']
+  generic: [unemployment, employment, labour, workforce]
+
+- facet: topic
+  category: workforce
+  patterns: ['work participation rate', 'workforce', 'workforce participation']
+  generic: [workforce, employment, labour, population]
+
+- facet: topic
+  category: voters
+  patterns: ['registered voters', 'registered voter', 'voter registration']
+  generic: [voters, elections, demographics]
+
+- facet: topic
+  category: digital_access
+  patterns: ['digital access', 'digital availability', 'digital infrastructure']
+  generic: [digital, access, connectivity, technology, ICT]
+
+- facet: topic
+  category: digital_payments
+  patterns: ['digital payments', 'digital payment']
+  generic: [digital, payments, finance, technology]
+
+- facet: topic
+  category: wifi
+  patterns: ['WiFi', 'Wi-Fi', 'WiFi data usage', 'Wi-Fi user registration']
+  generic: [WiFi, digital, connectivity, internet]
+
+- facet: topic
+  category: online_services
+  patterns: ['citizen services available online', 'services available online', 'e-governance', 'e governance', 'online services']
+  generic: [digital,  services, citizen, e-governance]
+
+- facet: topic
+  category: infrastructure
+  patterns: ['infrastructure', 'infrastructure distribution', 'basic infrastructure']
+  generic: [infrastructure, urban, facilities]
+
+- facet: topic
+  category: property_tax
+  patterns: ['property tax', 'property tax data', 'property tax records']
+  generic: [property, tax, revenue, municipal]
+
+- facet: topic
+  category: water_revenue
+  patterns: ['water revenue', 'water tax revenue']
+  generic: [water, revenue, tax, municipal]
+
+- facet: topic
+  category: VAT_GST
+  patterns: ['VAT', 'GST', 'VAT and GST', 'VAT & GST', 'VAT / GST', 'Goods and Services Tax', 'Value Added Tax']
+  generic: [VAT, GST, tax, revenue]
+
+- facet: topic
+  category: financial_health
+  patterns: ['financial health', 'financial health report', 'financial performance']
+  generic: [finance, revenue, expenditure, municipal]
+
+- facet: topic
+  category: municipal_finance
+  patterns: ['municipal finance', 'municipal revenue', 'revenue generation', 'revenue expenditure']
+  generic: [municipal, finance, revenue, expenditure, ULB]
+
+- facet: topic
+  category: open_spaces
+  patterns: ['open spaces', 'open space', 'open spaces development']
+  generic: [open, spaces, urban]
+
+- facet: topic
+  category: parks_gardens
+  patterns: ['parks', 'gardens', 'parks and gardens']
+  generic: [parks, gardens, green, environment]
+
+- facet: topic
+  category: community_facilities
+  patterns: ['community facilities', 'community facility']
+  generic: [community, facilities, services, urban]
+
+- facet: topic
+  category: civic_amenities
+  patterns: ['civic amenities', 'public amenities', 'public facilities']
+  generic: [amenities, facilities, civic, services]
+
+- facet: topic
+  category: citizen_facilities
+  patterns: ['citizen facilities', 'citizen facility', 'citizen applications', 'citizen facilitation center', 'citizen facilitation centre']
+  generic: [citizen, facilities, services]
+
+- facet: topic
+  category: police
+  patterns: ['police station', 'police stations', 'police station location']
+  generic: [police, safety, security, law]
+
+- facet: topic
+  category: crime
+  patterns: ['crime', 'crimes', 'crime records', 'crime record', 'crime rate']
+  generic: [crime, police, safety, security]
+
+- facet: topic
+  category: fire
+  patterns: ['fire incidents', 'fire stations', 'fire incident']
+  generic: [fire, emergency, safety, disaster]
+
+- facet: topic
+  category: disaster
+  patterns: ['disaster events', 'disaster management', 'disaster risk']
+  generic: [disaster, emergency, safety, risk]
+
+- facet: topic
+  category: jail
+  patterns: ['jail capacity', 'jail', 'correctional infrastructure']
+  generic: [jail, correctional, security, infrastructure]
+
+- facet: topic
+  category: governance
+  patterns: ['governance', 'governance profile', 'ULB', 'Urban Local Body', 'urban local bodies']
+  generic: [ administration, municipal, ULB]
+
+- facet: topic
+  category: trade_license
+  patterns: ['trade license', 'trade license records', 'licensing status']
+  generic: [license, trade, business, municipal]
+
+- facet: topic
+  category: certificates
+  patterns: ['residential certificate', 'residential certificates', 'birth certificate', 'death certificate']
+  generic: [certificate, registration, citizen, administration]
+
+- facet: topic
+  category: vital_registration
+  patterns: ['birth and death certificate', 'birth and death certificates', 'birth registration', 'death registration']
+  generic: [birth, death, registration, population]
+
+- facet: topic
+  category: education
+  patterns: ['education', 'education data', 'education details']
+  generic: [education, schools, students, learning]
+
+- facet: topic
+  category: libraries
+  patterns: ['libraries', 'library']
+  generic: [libraries, education, information, facilities]
+
+- facet: topic
+  category: culture
+  patterns: ['cultural heritage', 'cultural heritage places', 'heritage places']
+  generic: [culture, heritage, tourism, conservation]
+
+- facet: topic
+  category: tourism
+  patterns: ['tourist places', 'tourism', 'tourist place']
+  generic: [tourism, travel, heritage, places]
+
+- facet: topic
+  category: religious_places
+  patterns: ['religious places', 'religious place']
+  generic: [religious, places, culture, facilities]
+
+- facet: topic
+  category: recreational_facilities
+  patterns: ['recreational facilities', 'social recreational cultural facilities', 'auditoriums']
+  generic: [recreation, culture, facilities, community]
+
+- facet: topic
+  category: courier
+  patterns: ['courier services', 'courier service']
+  generic: [courier, services, logistics, communication]
+
+- facet: topic
+  category: industry_banking
+  patterns: ['industry and banking', 'industry', 'banking']
+  generic: [industry, banking, economy, finance]
+
+- facet: topic
+  category: livelihoods
+  patterns: ['street vendors', 'street vendor', 'Street Vendors Day', 'NULM', 'National Urban Livelihoods Mission']
+  generic: [ vendors, employment, urban, NULM]
+
+- facet: topic
+  category: SHG
+  patterns: ['SHGs', 'SHG', 'Self-Help Groups', 'Self Help Groups', 'self help groups', 'DAY NULM']
+  generic: [SHG, livelihoods, women, community, NULM]
+
+- facet: topic
+  category: women_services
+  patterns: ['women helpline', 'women helpline information']
+  generic: [women, helpline, safety, services]
+
+- facet: topic
+  category: connectivity
+  patterns: ['connectivity', 'urban connectivity', 'digital connectivity']
+  generic: [connectivity, transport, digital, infrastructure]
+
+- facet: topic
+  category: parking
+  patterns: ['MLCP', 'MLCP facilities', 'multi level car parking', 'multi-level car parking']
+  generic: [MLCP, parking, mobility, infrastructure]
+
+- facet: topic
+  category: religious
+  patterns: ['religious places', 'religious place']
+  generic: [religious, culture, places, community]
+
+- facet: topic
+  category: smart_cities
+  patterns: ['Smart Cities Mission', 'Smart Cities', 'Smart City Mission', 'SCM']
+  generic: [smart, city, urban, SCM]
+
+- facet: geography
+  category: kohima
+  patterns: ['Kohima', 'Kohima City', 'Kohima District']
+  generic: [Kohima, Nagaland]
+
+- facet: geography
+  category: bhubaneswar
+  patterns: ['Bhubaneswar', 'Bhubaneswar City']
+  generic: [Bhubaneswar, Odisha]
+
+- facet: geography
+  category: jalandhar
+  patterns: ['Jalandhar', 'Jalandhar City']
+  generic: [Jalandhar, Punjab]
+
+- facet: geography
+  category: amritsar
+  patterns: ['Amritsar', 'Amritsar City']
+  generic: [Amritsar, Punjab]
+
+- facet: geography
+  category: rourkela
+  patterns: ['Rourkela', 'Rourkela City', 'Rourkela District']
+  generic: [Rourkela, Odisha]
+
+- facet: geography
+  category: puducherry
+  patterns: ['Puducherry', 'Pondicherry']
+  generic: [Puducherry]
+
+- facet: geography
+  category: ludhiana
+  patterns: ['Ludhiana', 'Ludhiana City']
+  generic: [Ludhiana, Punjab]
+
+- facet: geography
+  category: nagaland
+  patterns: ['Nagaland']
+  generic: [Nagaland]
+
+- facet: geography
+  category: odisha
+  patterns: ['Odisha', 'Orissa']
+  generic: [Odisha]
+
+- facet: geography
+  category: punjab
+  patterns: ['Punjab']
+  generic: [Punjab]
+
+- facet: geography
+  category: ward
+  patterns: ['ward wise', 'ward-wise', 'wardwise', 'ward level']
+  generic: [ward, locality, municipal, city]
+
+- facet: geography
+  category: neighbourhood
+  patterns: ['ITC Neighbourhood', 'ITC Neighborhood', 'ITC Neighbourhood 1', 'ITC Neighbourhood 2', 'ITC Neighbourhood 3']
+  generic: [neighbourhood, neighborhood, locality, urban,ITC]
+- facet: topic
+  category: road_safety
+  patterns: ['injuries and fatalities', 'road incidents', 'road safety', 'fatalities', 'road injuries']
+  generic: [road, safety, injuries, fatalities, accidents]
+
+- facet: topic
+  category: crime
+  patterns: ['crime', 'crimes data', 'crimes', 'crime recorded', 'number of crimes']
+  generic: [crime, crimes, police, safety, security]
+
+- facet: topic
+  category: digital_access
+  patterns: ['digital access', 'digital availability', 'digital access data']
+  generic: [digital, access, connectivity, internet]
+
+- facet: topic
+  category: digital_payments
+  patterns: ['digital payments', 'digital payment']
+  generic: [digital, payments, finance, technology]
+
+- facet: topic
+  category: solid_waste
+  patterns: ['solid waste', 'solid waste management', 'SWM', 'waste management']
+  generic: [solid, waste, management, sanitation, SWM]
+
+- facet: topic
+  category: waste_segregation
+  patterns: ['solid waste segregation', 'waste segregation', 'ward-wise segregation', 'ward wise segregation']
+  generic: [waste, segregation, sanitation, SWM, ward]
+
+- facet: topic
+  category: waste_processing
+  patterns: ['solid waste processing', 'waste processing', 'solid waste processed']
+  generic: [waste, processing, sanitation, SWM]
+
+- facet: topic
+  category: waste_disposal
+  patterns: ['solid waste disposal', 'waste disposal', 'dumping grounds']
+  generic: [waste, disposal, dumping, sanitation, SWM]
+
+- facet: topic
+  category: waste_collection
+  patterns: ['solid waste collection', 'waste collection', 'D2D collection', 'door-to-door collection', 'door to door collection']
+  generic: [waste, collection, sanitation, SWM, D2D]
+
+- facet: topic
+  category: waste_collection_coverage
+  patterns: ['D2D collection coverage', 'door-to-door collection coverage', 'household coverage', 'solid waste household coverage']
+  generic: [waste, collection, coverage, households, SWM, D2D]
+
+- facet: topic
+  category: waste_collection_revenue
+  patterns: ['solid waste collection revenue', 'solid waste D2D collection revenue', 'D2D collection revenue']
+  generic: [waste, collection, revenue, finance, SWM, D2D]
+
+- facet: topic
+  category: waste_collection_vehicle
+  patterns: ['waste collection vehicle', 'solid waste collection vehicle', 'waste collection vehicles']
+  generic: [waste, vehicle, collection, fleet, SWM]
+
+- facet: topic
+  category: waste_bins
+  patterns: ['bins', 'community bins', 'community bin', 'bins and community bins', 'ward wise bins']
+  generic: [waste, bins, collection, sanitation, SWM]
+
+- facet: topic
+  category: waste_efficiency
+  patterns: ['solid waste management efficiency', 'waste management efficiency', 'SWM efficiency']
+  generic: [waste, efficiency, management, sanitation, SWM]
+
+- facet: topic
+  category: waste_finance
+  patterns: ['waste management revenue expenditure', 'waste management expenditure', 'waste management revenue']
+  generic: [waste, finance, revenue, expenditure, SWM]
+
+- facet: topic
+  category: sanitation
+  patterns: ['sanitation', 'sanitation data', 'sanitation services']
+  generic: [sanitation, hygiene, waste, services]
+
+- facet: topic
+  category: public_toilets
+  patterns: ['public toilets', 'public toilet', 'toilet facilities', 'free and paid toilet facilities']
+  generic: [toilets, sanitation, hygiene, facilities]
+
+- facet: topic
+  category: water_consumption
+  patterns: ['water consumption', 'water usage']
+  generic: [water, consumption, usage, supply]
+
+- facet: topic
+  category: water_revenue
+  patterns: ['water revenue', 'water revenue data', 'water tax', 'water charges']
+  generic: [water, revenue, tax, finance]
+
+- facet: topic
+  category: water_treatment
+  patterns: ['water treatment plant', 'water treatment', 'water treatment infrastructure']
+  generic: [water, treatment, plant, supply, infrastructure]
+
+- facet: topic
+  category: electricity
+  patterns: ['electricity', 'electricity consumption', 'city consumption', 'power consumption']
+  generic: [electricity, power, energy, consumption]
+
+- facet: topic
+  category: street_lighting
+  patterns: ['street lights', 'streetlights', 'street lights data', 'lighting in streets', 'street lighting']
+  generic: [street, lights, electricity, infrastructure]
+
+- facet: topic
+  category: public_lighting
+  patterns: ['lighting in public parks', 'lighting in gardens', 'lighting in open spaces', 'public lighting']
+  generic: [lighting, parks, gardens, open, spaces]
+
+- facet: topic
+  category: roads
+  patterns: ['roads', 'road infrastructure', 'condition of roads', 'roads data']
+  generic: [roads, infrastructure, transport, mobility]
+
+- facet: topic
+  category: traffic
+  patterns: ['traffic', 'traffic management', 'traffic information']
+  generic: [traffic, mobility, roads, transport]
+
+- facet: topic
+  category: intersections
+  patterns: ['traffic intersections', 'signalized intersections', 'signalised intersections']
+  generic: [traffic, intersections, signals, roads]
+
+- facet: topic
+  category: public_transport
+  patterns: ['public transport', 'public transport access', 'public transport accessibility']
+  generic: [transport, mobility, transit, accessibility]
+
+- facet: topic
+  category: transport_mode
+  patterns: ['public transport mode', 'public transport mode share', 'mode share', 'transport mode']
+  generic: [transport, mode, mobility, transit]
+
+- facet: topic
+  category: buses
+  patterns: ['buses', 'number of buses', 'bus data', 'bus fleet']
+  generic: [buses, bus, transport, mobility, fleet]
+
+- facet: topic
+  category: bus_trips
+  patterns: ['bus trips', 'earnings from bus trips', 'earnings from bus trip']
+  generic: [bus, trips, earnings, revenue, transport]
+
+- facet: topic
+  category: vehicle_registration
+  patterns: ['vehicle registrations', 'vehicle registration', 'registered vehicles']
+  generic: [vehicle, registration, transport, mobility]
+
+- facet: topic
+  category: parking
+  patterns: ['parking lots', 'parking facilities', 'parking lot', 'parking']
+  generic: [parking, vehicles, transport, mobility]
+
+- facet: topic
+  category: housing
+  patterns: ['housing', 'housing profile', 'housing data', 'housing and basic infrastructure']
+  generic: [house, households, infrastructure, urban]
+
+- facet: topic
+  category: slum_housing
+  patterns: ['slum housing', 'slum population', 'housing and slum population', 'slum housing and population']
+  generic: [slum, house, population, urban]
+
+- facet: topic
+  category: EWS_housing
+  patterns: ['EWS housing', 'EWS', 'economically weaker section housing']
+  generic: [EWS, house, urban]
+
+- facet: topic
+  category: households
+  patterns: ['households', 'household data', 'household profile', 'household counts']
+  generic: [households, house, population, demographics]
+
+- facet: topic
+  category: circle_rate
+  patterns: ['circle rate', 'circle rates', 'property valuation', 'land rates']
+  generic: [circle, rate, property, land]
+
+- facet: topic
+  category: city_profile
+  patterns: ['city profile', 'city profile data', 'city profile and basic facilities']
+  generic: [city, profile, urban, facilities]
+
+- facet: topic
+  category: demographic_profile
+  patterns: ['demographic profile', 'demographic data', 'demographics']
+  generic: [demographic, population, census, city]
+
+- facet: topic
+  category: unemployment
+  patterns: ['unemployment rate', 'unemployment']
+  generic: [unemployment, employment, labour, workforce]
+
+- facet: topic
+  category: labour_participation
+  patterns: ['work participation ratio', 'labour participation ratio', 'labor participation ratio', 'workforce participation']
+  generic: [labour, workforce, employment, participation]
+
+- facet: topic
+  category: health
+  patterns: ['health', 'health data', 'health conditions']
+  generic: [health, healthcare, medical, disease]
+
+- facet: topic
+  category: health_infrastructure
+  patterns: ['health infrastructure', 'medical infrastructure', 'health facilities']
+  generic: [health, medical, infrastructure, facilities]
+
+- facet: topic
+  category: hospital
+  patterns: ['hospital details', 'hospitals', 'hospital infrastructure']
+  generic: [hospital, health, medical, facilities]
+
+- facet: topic
+  category: quarantine
+  patterns: ['quarantine facilities', 'quarantine facility']
+  generic: [quarantine, COVID, health, facilities]
+
+- facet: topic
+  category: covid
+  patterns: ['COVID', 'COVID-19', 'COVID patients', 'COVID patient cases', 'COVID cases']
+  generic: [COVID, coronavirus, patients, cases, health]
+
+- facet: topic
+  category: disease
+  patterns: ['diseases', 'disease data', 'disease in', 'disease cases']
+  generic: [disease, health, medical, healthcare]
+
+- facet: topic
+  category: mortality
+  patterns: ['mortality rate', 'mortality rate data']
+  generic: [mortality, death, health, population]
+
+- facet: topic
+  category: air_quality
+  patterns: ['air quality', 'SO2', 'S02', 'PM2.5', 'PM10', 'NO2', 'O3', 'pollutant levels']
+  generic: [air, quality, pollution, PM10, PM2.5, SO2, NO2, O3]
+
+- facet: topic
+  category: air_pollution
+  patterns: ['air pollution', 'residential air pollution', 'vehicular air pollution', 'pollutant concentration']
+  generic: [air, pollution, vehicular, environment, PM10]
+
+- facet: topic
+  category: rainfall
+  patterns: ['rainfall', 'rain days', 'number of rain days']
+  generic: [rainfall, climate, weather]
+
+- facet: topic
+  category: environment
+  patterns: ['environment', 'environment profile', 'environmental data']
+  generic: [environment, ecology, pollution, natural]
+
+- facet: topic
+  category: natural_landscape
+  patterns: ['natural landscape', 'natural landscape data', 'natural landscape features']
+  generic: [natural, landscape, environment]
+
+- facet: topic
+  category: natural_features
+  patterns: ['natural features', 'natural feature']
+  generic: [natural, features, environment]
+
+- facet: topic
+  category: cultural_heritage
+  patterns: ['cultural heritage', 'cultural heritage records', 'heritage profile', 'heritage data']
+  generic: [culture, heritage, archaeology, conservation]
+
+- facet: topic
+  category: education
+  patterns: ['education data', 'education', 'education indicators']
+  generic: [education, schools, students, learning]
+
+- facet: topic
+  category: community_facilities
+  patterns: ['community facilities', 'community facility']
+  generic: [community, facilities, services, urban]
+
+- facet: topic
+  category: public_amenities
+  patterns: ['public amenities', 'public amenities data', 'public facilities']
+  generic: [public, amenities, facilities, services]
+
+- facet: topic
+  category: citizen_facilities
+  patterns: ['citizen facilities', 'citizen facility', 'citizen facilitation center', 'citizen facilitation centre']
+  generic: [citizen, facilities, services]
+
+- facet: topic
+  category: governance
+  patterns: ['governance', 'governance report', 'governance data']
+  generic: [ administration, municipal]
+
+- facet: topic
+  category: ULB_finance
+  patterns: ['financial health of ULB', 'financial health', 'Urban Local Bodies', 'ULB']
+  generic: [ULB, municipal, finance, revenue]
+
+- facet: topic
+  category: financial_health
+  patterns: ['financial health', 'financial health data', 'financial performance']
+  generic: [finance, revenue, expenditure]
+
+- facet: topic
+  category: VAT_GST
+  patterns: ['VAT', 'GST', 'VAT & GST', 'VAT and GST', 'VAT and GST collection', 'GST collection']
+  generic: [VAT, GST, tax, revenue]
+
+- facet: topic
+  category: property_tax
+  patterns: ['property tax', 'property tax data', 'property tax records']
+  generic: [property, tax, revenue, municipal]
+
+- facet: topic
+  category: open_spaces
+  patterns: ['open spaces', 'open space', 'open spaces data']
+  generic: [open, spaces, urban, amenities]
+
+- facet: topic
+  category: parks_gardens
+  patterns: ['parks', 'gardens', 'parks and gardens', 'green area']
+  generic: [parks, gardens, green, environment]
+
+- facet: topic
+  category: beautification
+  patterns: ['area beautification', 'beautification data']
+  generic: [beautification, urban]
+
+- facet: topic
+  category: children_facilities
+  patterns: ['children facilities', 'children facilities provision', 'facilities for children']
+  generic: [children, facilities, amenities, community]
+
+- facet: topic
+  category: industries
+  patterns: ['industries', 'industry', 'district industries centre', 'industrial']
+  generic: [industry, economy, business]
+
+- facet: topic
+  category: milk_procurement
+  patterns: ['milk procurement', 'dairy procurement']
+  generic: [milk, dairy, procurement, agriculture]
+
+- facet: topic
+  category: registered_voters
+  patterns: ['registered voters', 'registered voter', 'voter registration']
+  generic: [voters, election, electoral, population]
+
+- facet: topic
+  category: police
+  patterns: ['police stations', 'police station', 'police station details']
+  generic: [police, station, law, security]
+
+- facet: topic
+  category: CCTV
+  patterns: ['CCTV', 'CCTV cameras', 'CCTV surveillance', 'CCTV camera coverage']
+  generic: [CCTV, surveillance, security, safety]
+
+- facet: topic
+  category: ICCC
+  patterns: ['ICCC', 'Integrated Command and Control Centre', 'CCTV integrated with ICCC']
+  generic: [ICCC, surveillance, smart]
+
+- facet: topic
+  category: smart_poles
+  patterns: ['smart poles', 'smart pole']
+  generic: [smart, poles, infrastructure, technology]
+
+- facet: topic
+  category: VMD
+  patterns: ['Variable Message Display', 'Variable Message Displays', 'VMD']
+  generic: [VMD, display, information, traffic]
+
+- facet: topic
+  category: emergency_call_box
+  patterns: ['emergency call box', 'emergency call boxes']
+  generic: [emergency, call, safety, assistance]
+
+- facet: topic
+  category: helpline
+  patterns: ['helpline numbers', 'helpline', 'helpline information']
+  generic: [helpline, emergency, services]
+
+- facet: topic
+  category: smart_city_services
+  patterns: ['Smart Tracks', 'smart city service tracking', 'smart city services']
+  generic: [smart, city, services, tracking]
+
+- facet: geography
+  category: kota
+  patterns: ['Kota', 'Kota City', 'Kota Rajasthan']
+  generic: [Kota, Rajasthan]
+
+- facet: geography
+  category: ajmer
+  patterns: ['Ajmer', 'Ajmer City', 'Ajmer Rajasthan']
+  generic: [Ajmer, Rajasthan]
+
+- facet: geography
+  category: jaipur
+  patterns: ['Jaipur', 'Jaipur City', 'Jaipur Rajasthan']
+  generic: [Jaipur, Rajasthan]
+
+- facet: geography
+  category: udaipur
+  patterns: ['Udaipur', 'Udaipur City', 'Udaipur Rajasthan']
+  generic: [Udaipur, Rajasthan]
+
+- facet: geography
+  category: namchi
+  patterns: ['Namchi', 'Namchi City', 'Namchi Sikkim']
+  generic: [Namchi, Sikkim]
+
+- facet: geography
+  category: gangtok
+  patterns: ['Gangtok', 'Gangtok City', 'Gangtok Sikkim']
+  generic: [Gangtok, Sikkim]
+
+- facet: geography
+  category: rajasthan
+  patterns: ['Rajasthan']
+  generic: [Rajasthan]
+
+- facet: geography
+  category: sikkim
+  patterns: ['Sikkim']
+  generic: [Sikkim]
+
+- facet: geography
+  category: ward
+  patterns: ['ward-wise', 'ward wise', 'wardwise', 'ward level']
+  generic: [ward, locality, municipal, city]
+
+- facet: geography
+  category: neighbourhood
+  patterns: ['ITC Neighbourhood', 'ITC Neighborhood', 'Neighbourhood 1', 'Neighbourhood 2', 'Neighbourhood 3', 'ITC Neighbourhood 1', 'ITC Neighbourhood 2', 'ITC Neighbourhood 3']
+  generic: [ITC, neighbourhood, neighborhood, locality, urban]
+
+- facet: geography
+  category: smart_cities
+  patterns: ['Smart Cities Mission', 'Smart Cities', 'Smart City Mission', 'SCM']
+  generic: [smart, cities, urban, SCM]
+- facet: topic
+  category: solid_waste_management
+  patterns: ['solid waste', 'solid waste management', 'SWM', 'waste management']
+  generic: [waste, solid, SWM, sanitation, municipal]
+
+- facet: topic
+  category: waste_collection
+  patterns: ['waste collection', 'solid waste collection', 'D2D collection', 'door-to-door collection', 'door to door collection', 'D2D']
+  generic: [waste, collection, SWM, sanitation, D2D]
+
+- facet: topic
+  category: waste_collection_coverage
+  patterns: ['D2D collection coverage', 'door-to-door collection coverage', 'waste collection coverage', 'household coverage', 'basic household coverage']
+  generic: [waste, collection, coverage, household, D2D]
+
+- facet: topic
+  category: waste_collection_revenue
+  patterns: ['solid waste collection revenue', 'D2D collection revenue', 'solid waste D2D collection revenue']
+  generic: [waste, collection, revenue, SWM, D2D]
+
+- facet: topic
+  category: waste_collection_vehicles
+  patterns: ['waste collection vehicle', 'waste collection vehicles', 'solid waste collection vehicle', 'waste collection vehicle data']
+  generic: [waste, vehicle, collection, fleet, SWM]
+
+- facet: topic
+  category: waste_collection_equipment
+  patterns: ['waste collection equipment', 'solid waste collection equipment', 'collection equipment']
+  generic: [waste, equipment, collection, SWM]
+
+- facet: topic
+  category: waste_segregation
+  patterns: ['waste segregation', 'solid waste segregation', 'ward-wise segregation', 'ward wise segregation', 'segregation at source']
+  generic: [waste, segregation, SWM, sanitation, ward]
+
+- facet: topic
+  category: waste_processing
+  patterns: ['waste processing', 'solid waste processing', 'SWM processing', 'processed waste']
+  generic: [waste, processing, SWM, sanitation]
+
+- facet: topic
+  category: waste_disposal
+  patterns: ['waste disposal', 'solid waste disposal', 'open dumping', 'dumping grounds', 'open dumping grounds']
+  generic: [waste, disposal, dumping, SWM, sanitation]
+
+- facet: topic
+  category: waste_recycling
+  patterns: ['waste recycling', 'solid waste recycled', 'recycled waste', 'recycling']
+  generic: [waste, recycling, SWM, environment]
+
+- facet: topic
+  category: waste_efficiency
+  patterns: ['solid waste management efficiency', 'waste management efficiency', 'SWM efficiency']
+  generic: [waste, efficiency, SWM, performance]
+
+- facet: topic
+  category: waste_finance
+  patterns: ['solid waste management revenue', 'solid waste management expenditure', 'waste management revenue', 'waste management expenditure', 'revenue and expenditure']
+  generic: [waste, revenue, expenditure, SWM, finance]
+
+- facet: topic
+  category: water_supply
+  patterns: ['water supply', 'water supply status', 'water supply details', 'water supply distribution', 'drinking water']
+  generic: [water, supply, drinking, distribution]
+
+- facet: topic
+  category: water_supply_coverage
+  patterns: ['water supply coverage', 'coverage of water supply', 'water supply connections', 'coverage of water supply connections']
+  generic: [water, supply, coverage, connections]
+
+- facet: topic
+  category: water_consumption
+  patterns: ['water consumption', 'water usage', 'water consumption per capita']
+  generic: [water, consumption, usage, supply]
+
+- facet: topic
+  category: water_continuity
+  patterns: ['water supply continuity', 'continuity of water supply', 'water continuity']
+  generic: [water, supply, continuity, service]
+
+- facet: topic
+  category: water_tax
+  patterns: ['water tax', 'water tax records']
+  generic: [water, tax, revenue, municipal]
+
+- facet: topic
+  category: water_revenue
+  patterns: ['water revenue', 'water revenue data', 'water charges']
+  generic: [water, revenue, finance, municipal]
+
+- facet: topic
+  category: sanitation
+  patterns: ['sanitation', 'water and sanitation', 'sanitation services']
+  generic: [sanitation, hygiene, water, services]
+
+- facet: topic
+  category: public_toilets
+  patterns: ['public toilets', 'public toilet', 'toilet availability', 'public toilet coverage']
+  generic: [toilets, sanitation, hygiene, facilities]
+
+- facet: topic
+  category: sewerage
+  patterns: ['sewerage', 'sewerage details', 'sewerage treatment', 'sewerage treatment plants', 'STP']
+  generic: [sewerage, wastewater, sanitation, STP]
+
+- facet: topic
+  category: wastewater
+  patterns: ['wastewater', 'wastewater management', 'sewage treatment']
+  generic: [wastewater, sewage, treatment, sanitation]
+
+- facet: topic
+  category: public_transport
+  patterns: ['public transport', 'public transport access', 'public transport accessibility']
+  generic: [transport, mobility, transit, accessibility]
+
+- facet: topic
+  category: transport_accessibility
+  patterns: ['transport accessibility', 'public transport accessibility', 'accessibility assessment']
+  generic: [transport, accessibility, mobility, transit]
+
+- facet: topic
+  category: transport_mode_share
+  patterns: ['public transport mode share', 'transport mode share', 'mode share']
+  generic: [transport, mode, mobility, transit]
+
+- facet: topic
+  category: buses
+  patterns: ['buses', 'number of buses', 'bus fleet', 'bus data']
+  generic: [buses, transport, mobility, fleet]
+
+- facet: topic
+  category: bus_trips
+  patterns: ['bus trips', 'earnings from bus trips', 'earning bus trip']
+  generic: [bus, trips, earnings, transport]
+
+- facet: topic
+  category: vehicle_registration
+  patterns: ['vehicle registrations', 'vehicle registration', 'registered vehicles']
+  generic: [vehicle, registration, transport, mobility]
+
+- facet: topic
+  category: roads
+  patterns: ['roads', 'road infrastructure', 'road data']
+  generic: [roads, infrastructure, transport, mobility]
+
+- facet: topic
+  category: road_safety
+  patterns: ['road safety', 'road safety data', 'injuries and fatalities', 'pedestrian fatalities', 'traffic-related injuries']
+  generic: [road, safety, injuries, fatalities]
+
+- facet: topic
+  category: traffic
+  patterns: ['traffic', 'traffic management', 'traffic lights', 'traffic infrastructure']
+  generic: [traffic, mobility, transport, roads]
+
+- facet: topic
+  category: intersections
+  patterns: ['intersections', 'traffic intersections', 'signalized intersections', 'signalised intersections']
+  generic: [traffic, intersections, signals, roads]
+
+- facet: topic
+  category: metro
+  patterns: ['metro rail', 'Chennai Metro Rail', 'metro transport']
+  generic: [metro, rail, transport, mobility]
+
+- facet: topic
+  category: pedestrian_infrastructure
+  patterns: ['footpath', 'unobstructed footpath', 'pedestrian infrastructure', 'walkability']
+  generic: [footpath, pedestrian, walkability, mobility]
+
+- facet: topic
+  category: health
+  patterns: ['health', 'health data', 'healthcare']
+  generic: [health, healthcare, medical]
+
+- facet: topic
+  category: health_infrastructure
+  patterns: ['health infrastructure', 'hospital infrastructure', 'healthcare infrastructure']
+  generic: [health, hospital, infrastructure, healthcare]
+
+- facet: topic
+  category: hospitals
+  patterns: ['hospitals', 'hospital', 'hospitals and nursing homes', 'nursing homes']
+  generic: [hospital, healthcare, medical, facilities]
+
+- facet: topic
+  category: healthcare_facilities
+  patterns: ['healthcare facilities', 'health care facilities', 'ITC healthcare facilities', 'ITC health care facilities']
+  generic: [healthcare, facilities, health, medical]
+
+- facet: topic
+  category: diseases
+  patterns: ['diseases', 'disease data', 'disease-related data']
+  generic: [disease, health, medical, healthcare]
+
+- facet: topic
+  category: mortality
+  patterns: ['mortality', 'mortality rate', 'death rate']
+  generic: [mortality, death, health, population]
+
+- facet: topic
+  category: birth_rate
+  patterns: ['birth rate', 'birth rates']
+  generic: [birth, population, demographics, health]
+
+- facet: topic
+  category: child_protection
+  patterns: ['child abuse', 'missing children', 'cases of abuse', 'abuse and missing children']
+  generic: [children, abuse, protection, safety]
+
+- facet: topic
+  category: environment
+  patterns: ['environment', 'environment data', 'environmental data']
+  generic: [environment, ecology, pollution]
+
+- facet: topic
+  category: air_quality
+  patterns: ['air quality', 'air quality data', 'pollutant levels', 'advance pollutants', 'advance pollutant']
+  generic: [air, quality, pollution, pollutants]
+
+- facet: topic
+  category: air_pollution
+  patterns: ['air pollution', 'residential air pollution', 'vehicular air pollution']
+  generic: [air, pollution, environment, pollutants]
+
+- facet: topic
+  category: pollutants
+  patterns: ['SO2', 'S02', 'PM2.5', 'PM10', 'NO2', 'O3']
+  generic: [pollution, air, pollutants, environment]
+
+- facet: topic
+  category: rainfall
+  patterns: ['rainfall', 'total rainfall', 'monthly rainfall', 'rainy days', 'rain days']
+  generic: [rainfall, rain, climate, weather]
+
+- facet: topic
+  category: natural_landscape
+  patterns: ['natural landscape', 'natural landscape data', 'natural features']
+  generic: [natural, landscape, environment, geography]
+
+- facet: topic
+  category: cultural_heritage
+  patterns: ['cultural heritage', 'heritage', 'heritage records', 'heritage profile']
+  generic: [heritage, culture, conservation, tourism]
+
+- facet: topic
+  category: electricity
+  patterns: ['electricity', 'electricity data', 'electricity consumption', 'electricity status', 'city consumption']
+  generic: [electricity, power, energy, consumption]
+
+- facet: topic
+  category: electricity_consumption
+  patterns: ['electricity consumption', 'electricity consumption by sub-sector', 'LT consumption', 'low tension consumption']
+  generic: [electricity, consumption, energy, power]
+
+- facet: topic
+  category: renewable_energy
+  patterns: ['renewable energy', 'renewable energy profile']
+  generic: [renewable, energy, electricity, sustainability]
+
+- facet: topic
+  category: infrastructure
+  patterns: ['infrastructure', 'infrastructure distribution', 'infrastructure coverage']
+  generic: [infrastructure, urban, facilities]
+
+- facet: topic
+  category: street_lighting
+  patterns: ['street lights', 'street light', 'street lighting', 'streetlights']
+  generic: [street, lights, lighting, infrastructure]
+
+- facet: topic
+  category: public_space_lighting
+  patterns: ['park lighting', 'garden lighting', 'open space lighting', 'street public park garden and open space lighting']
+  generic: [lighting, parks, gardens, public]
+
+- facet: topic
+  category: open_spaces
+  patterns: ['open spaces', 'open space', 'open spaces development']
+  generic: [open, spaces, urban, public]
+
+- facet: topic
+  category: parks
+  patterns: ['parks', 'gardens', 'parks and gardens', 'municipal park facilities', 'park facilities']
+  generic: [parks, gardens, green, amenities]
+
+- facet: topic
+  category: public_amenities
+  patterns: ['public amenities', 'public amenities data', 'public facilities']
+  generic: [public, amenities, facilities, services]
+
+- facet: topic
+  category: community_facilities
+  patterns: ['community facilities', 'community facility']
+  generic: [community, facilities, services, urban]
+
+- facet: topic
+  category: housing
+  patterns: ['housing', 'housing profile', 'housing data', 'housing conditions']
+  generic: [house, households, urban, infrastructure]
+
+- facet: topic
+  category: slums
+  patterns: ['slum housing', 'slum population', 'housing and slums', 'housing and slum population']
+  generic: [slum, house, population, urban]
+
+- facet: topic
+  category: households
+  patterns: ['households', 'household data', 'household profile', 'household coverage']
+  generic: [household, house, population, demographics]
+
+- facet: topic
+  category: population
+  patterns: ['population', 'wardwise population', 'population data']
+  generic: [population, demographics, census, urban]
+
+- facet: topic
+  category: demographics
+  patterns: ['demographics', 'demographic profile', 'demographic data', 'ITC demographics']
+  generic: [demographics, population, households, census]
+
+- facet: topic
+  category: city_profile
+  patterns: ['city profile', 'city profile data', 'city profile annual']
+  generic: [city, profile, urban, demographics]
+
+- facet: topic
+  category: financial_health
+  patterns: ['financial health', 'financial performance', 'municipal financial health']
+  generic: [finance, financial, revenue, expenditure]
+
+- facet: topic
+  category: property_tax
+  patterns: ['property tax', 'property tax records', 'property tax collection']
+  generic: [property, tax, revenue, municipal]
+
+- facet: topic
+  category: VAT_GST
+  patterns: ['VAT', 'GST', 'VAT & GST', 'VAT and GST', 'VAT and GST collection', 'GST collection']
+  generic: [VAT, GST, tax, revenue]
+
+- facet: topic
+  category: municipal_budget
+  patterns: ['municipal budget', 'budget', 'budget for open spaces development', 'budget O&M']
+  generic: [budget, municipal, finance, expenditure]
+
+- facet: topic
+  category: operations_maintenance
+  patterns: ['O&M', 'operations and maintenance', 'operation and maintenance']
+  generic: [O&M, maintenance, operations, municipal]
+
+- facet: topic
+  category: digital_access
+  patterns: ['digital access', 'digital availability', 'digital accessibility']
+  generic: [digital, access, connectivity, technology]
+
+- facet: topic
+  category: digital_services
+  patterns: ['digital services', 'digital service availability', 'service availability']
+  generic: [digital, services, availability, technology]
+
+- facet: topic
+  category: digital_payments
+  patterns: ['digital payments', 'digital payment', 'digital transactions']
+  generic: [digital, payments, finance, transactions]
+
+- facet: topic
+  category: governance
+  patterns: ['governance', 'governance data', 'governance report']
+  generic: [ administration, municipal]
+
+- facet: topic
+  category: citizen_facilities
+  patterns: ['citizen facilities', 'citizen facility', 'citizen facilitation center', 'citizen facilitation centers', 'citizen facilitation centre']
+  generic: [citizen, facilities, services]
+
+- facet: topic
+  category: ICCC
+  patterns: ['ICCC', 'Integrated Command and Control Centre', 'Integrated Command and Control Center', 'services through ICCC']
+  generic: [ICCC, command, control, smart]
+
+- facet: topic
+  category: smart_city_services
+  patterns: ['Smart City', 'Smart Cities Mission', 'smart city services', 'services through ICCC']
+  generic: [smart, city, services, urban]
+
+- facet: topic
+  category: crime
+  patterns: ['crime', 'crimes', 'crimes recorded', 'crime records']
+  generic: [crime, police, safety, security]
+
+- facet: topic
+  category: police
+  patterns: ['police station', 'police stations', 'police station details']
+  generic: [police, station, law, security]
+
+- facet: topic
+  category: CCTV
+  patterns: ['CCTV', 'CCTV cameras', 'CCTV camera coverage']
+  generic: [CCTV, surveillance, security, safety]
+
+- facet: topic
+  category: fire_safety
+  patterns: ['fire station', 'fire stations', 'fire response']
+  generic: [fire, safety, emergency, station]
+
+- facet: topic
+  category: emergency_services
+  patterns: ['emergency services', 'emergency facilities', 'emergency response']
+  generic: [emergency, safety, services, response]
+
+- facet: topic
+  category: education
+  patterns: ['education', 'education data', 'education records']
+  generic: [education, schools, students, learning]
+
+- facet: topic
+  category: unemployment
+  patterns: ['unemployment', 'unemployment rate']
+  generic: [unemployment, employment, labour, workforce]
+
+- facet: topic
+  category: employment
+  patterns: ['employment', 'labour', 'workforce', 'work participation ratio']
+  generic: [employment, labour, workforce, jobs]
+
+- facet: topic
+  category: circle_rate
+  patterns: ['circle rate', 'circle rates']
+  generic: [circle, rate, property, valuation]
+
+- facet: topic
+  category: property
+  patterns: ['property', 'property valuation', 'property tax']
+  generic: [property, valuation, tax, municipal]
+
+- facet: topic
+  category: building_approvals
+  patterns: ['building approvals', 'building approval', 'construction approvals']
+  generic: [building, approvals, construction, urban]
+
+- facet: topic
+  category: area_bifurcation
+  patterns: ['area bifurcation', 'area-wise segmentation', 'area segmentation']
+  generic: [area, bifurcation,  planning]
+
+- facet: topic
+  category: registered_voters
+  patterns: ['registered voters', 'registered voter', 'voter registration']
+  generic: [voters, election, electoral, population]
+
+- facet: topic
+  category: ITC_neighbourhood
+  patterns: ['ITC Neighbourhood', 'ITC neighbourhood', 'ITC demographics', 'ITC healthcare facilities', 'ITC health care facilities', 'ITC open dumping grounds', 'ITC unobstructed footpath']
+  generic: [ITC, neighbourhood, urban, smart]
+
+- facet: topic
+  category: smart_infrastructure
+  patterns: ['smart infrastructure', 'smart city infrastructure', 'smart city services']
+  generic: [smart, infrastructure, technology, urban]
+
+- facet: geography
+  category: smart_cities
+  patterns: ['Smart Cities Mission', 'Smart Cities', 'Smart City Mission', 'SCM']
+  generic: [smart, cities, urban, SCM]
+
+- facet: geography
+  category: chennai
+  patterns: ['Chennai']
+  generic: [Chennai, Tamil Nadu, city]
+
+- facet: geography
+  category: tirunelveli
+  patterns: ['Tirunelveli']
+  generic: [Tirunelveli, Tamil Nadu, city]
+
+- facet: geography
+  category: tiruppur
+  patterns: ['Tiruppur']
+  generic: [Tiruppur, Tamil Nadu, city]
+
+- facet: geography
+  category: coimbatore
+  patterns: ['Coimbatore']
+  generic: [Coimbatore, Tamil Nadu, city]
+
+- facet: geography
+  category: salem
+  patterns: ['Salem']
+  generic: [Salem, Tamil Nadu, city]
+
+- facet: geography
+  category: madurai
+  patterns: ['Madurai']
+  generic: [Madurai, Tamil Nadu, city]
+
+- facet: geography
+  category: agartala
+  patterns: ['Agartala']
+  generic: [Agartala, Tripura, city]
+
+- facet: geography
+  category: karimnagar
+  patterns: ['Karimnagar']
+  generic: [Karimnagar, Telangana, city]
+
+- facet: geography
+  category: warangal
+  patterns: ['Warangal', 'Greater Warangal']
+  generic: [Warangal, Telangana, city]
+
+- facet: geography
+  category: tiruchirappalli
+  patterns: ['Tiruchirappalli', 'Trichy']
+  generic: [Tiruchirappalli, Tamil Nadu, city]
+
+- facet: geography
+  category: erode
+  patterns: ['Erode']
+  generic: [Erode, Tamil Nadu, city]
+
+- facet: geography
+  category: vellore
+  patterns: ['Vellore']
+  generic: [Vellore, Tamil Nadu, city]
+
+- facet: geography
+  category: thoothukudi
+  patterns: ['Thoothukudi', 'Tuticorin']
+  generic: [Thoothukudi, Tamil Nadu, city]
+
+- facet: geography
+  category: thanjavur
+  patterns: ['Thanjavur']
+  generic: [Thanjavur, Tamil Nadu, city]
+
+- facet: geography
+  category: tamil_nadu
+  patterns: ['Tamil Nadu']
+  generic: [Tamil Nadu]
+
+- facet: geography
+  category: telangana
+  patterns: ['Telangana']
+  generic: [Telangana]
+
+- facet: geography
+  category: tripura
+  patterns: ['Tripura']
+  generic: [Tripura]
+
+- facet: geography
+  category: ward
+  patterns: ['ward', 'ward-wise', 'ward wise', 'wardwise', 'ward-level']
+  generic: [ward, municipal, locality, city]
+
+- facet: geography
+  category: neighbourhood
+  patterns: ['neighbourhood', 'neighborhood', 'ITC Neighbourhood', 'ITC Neighborhood']
+  generic: [neighbourhood, locality, urban, ITC]
+
+- facet: acronym
+  category: SWM
+  patterns: ['SWM', 'Solid Waste Management']
+  generic: [SWM, waste, sanitation]
+
+- facet: acronym
+  category: D2D
+  patterns: ['D2D', 'door-to-door', 'door to door']
+  generic: [D2D, collection, waste]
+
+- facet: acronym
+  category: ICCC
+  patterns: ['ICCC', 'Integrated Command and Control Centre', 'Integrated Command and Control Center']
+  generic: [ICCC, command, control]
+
+- facet: acronym
+  category: VAT
+  patterns: ['VAT', 'Value Added Tax']
+  generic: [VAT, tax, revenue]
+
+- facet: acronym
+  category: GST
+  patterns: ['GST', 'Goods and Services Tax']
+  generic: [GST, tax, revenue]
+
+- facet: acronym
+  category: CCTV
+  patterns: ['CCTV', 'CCTV cameras']
+  generic: [CCTV, surveillance, security]
+
+- facet: acronym
+  category: O&M
+  patterns: ['O&M', 'Operations and Maintenance']
+  generic: [O&M, maintenance, operations]
+
+- facet: acronym
+  category: STP
+  patterns: ['STP', 'Sewerage Treatment Plant', 'Sewerage Treatment Plants']
+  generic: [STP, sewerage, wastewater]
+
+- facet: acronym
+  category: PM10
+  patterns: ['PM10']
+  generic: [PM10, pollution, air]
+
+- facet: acronym
+  category: PM2.5
+  patterns: ['PM2.5']
+  generic: [PM2.5, pollution, air]
+
+- facet: acronym
+  category: SO2
+  patterns: ['SO2', 'S02']
+  generic: [SO2, pollution, air]
+
+- facet: acronym
+  category: NO2
+  patterns: ['NO2']
+  generic: [NO2, pollution, air]
+
+- facet: acronym
+  category: O3
+  patterns: ['O3']
+  generic: [O3, pollution, air]
+- facet: topic
+  category: smart_cities
+  patterns: ['Smart Cities Mission', 'Smart Cities', 'Smart City Mission', 'SCM']
+  generic: [smart, cities, urban, SCM]
+
+- facet: topic
+  category: solid_waste_management
+  patterns: ['solid waste management', 'solid waste', 'SWM', 'waste management']
+  generic: [solid, waste, management, SWM, sanitation]
+
+- facet: topic
+  category: waste_collection
+  patterns: ['waste collection', 'solid waste collection', 'waste collected', 'collection services']
+  generic: [waste, collection, SWM, sanitation]
+
+- facet: topic
+  category: waste_generation
+  patterns: ['solid waste generated', 'waste generated', 'waste generation']
+  generic: [waste, generated, generation, SWM]
+
+- facet: topic
+  category: waste_processing
+  patterns: ['solid waste processing', 'waste processing', 'processed waste', 'waste processing facilities']
+  generic: [waste, processing, SWM, facilities]
+
+- facet: topic
+  category: waste_disposal
+  patterns: ['solid waste disposal', 'waste disposal', 'waste disposal data']
+  generic: [waste, disposal, SWM, sanitation]
+
+- facet: topic
+  category: waste_segregation
+  patterns: ['solid waste segregation', 'waste segregation', 'ward-wise segregation', 'ward wise segregation', 'segregation at source']
+  generic: [waste, segregation, SWM, ward]
+
+- facet: topic
+  category: D2D_collection
+  patterns: ['D2D', 'D2D collection', 'door-to-door collection', 'door to door collection']
+  generic: [D2D, collection, waste, SWM]
+
+- facet: topic
+  category: D2D_collection_coverage
+  patterns: ['D2D collection coverage', 'door-to-door collection coverage', 'collection coverage']
+  generic: [D2D, coverage, collection, SWM]
+
+- facet: topic
+  category: waste_collection_revenue
+  patterns: ['solid waste collection revenue', 'waste collection revenue', 'D2D collection revenue']
+  generic: [waste, collection, revenue, D2D]
+
+- facet: topic
+  category: waste_management_revenue
+  patterns: ['solid waste management revenue', 'waste management revenue', 'waste management revenue expenditure']
+  generic: [SWM, waste, revenue, expenditure]
+
+- facet: topic
+  category: waste_collection_vehicles
+  patterns: ['waste collection vehicle', 'waste collection vehicles', 'solid waste collection vehicle', 'secondary waste collection vehicle']
+  generic: [waste, vehicle, collection, fleet]
+
+- facet: topic
+  category: waste_collection_equipment
+  patterns: ['solid waste collection equipment', 'waste collection equipment', 'collection equipment']
+  generic: [waste, equipment, collection, SWM]
+
+- facet: topic
+  category: bins
+  patterns: ['bins', 'community bins', 'community bin', 'bins and community bins']
+  generic: [bins, waste, collection, SWM]
+
+- facet: topic
+  category: landfill
+  patterns: ['landfill', 'landfill site', 'landfillsite', 'landfill sites']
+  generic: [landfill, waste, disposal, SWM]
+
+- facet: topic
+  category: remediation
+  patterns: ['remediation site', 'remediation sites', 'waste remediation']
+  generic: [remediation, waste, environment, SWM]
+
+- facet: topic
+  category: wet_waste
+  patterns: ['wet waste', 'wet waste treatment plant', 'wet waste treatment']
+  generic: [wet, waste, treatment, SWM]
+
+- facet: topic
+  category: construction_demolition_waste
+  patterns: ['Construction & Demolition Waste', 'Construction and Demolition Waste', 'C&D Waste', 'C&D']
+  generic: [C&D, waste, construction, demolition]
+
+- facet: topic
+  category: recycled_waste
+  patterns: ['recycled solid waste', 'recycled waste', 'waste recycling']
+  generic: [recycled, waste, recycling, SWM]
+
+- facet: topic
+  category: street_sweeping
+  patterns: ['street sweeping', 'street sweeping data']
+  generic: [street, sweeping, sanitation, SWM]
+
+- facet: topic
+  category: SWM_efficiency
+  patterns: ['solid waste management efficiency', 'SWM efficiency', 'waste management efficiency']
+  generic: [SWM, efficiency, waste, performance]
+
+- facet: topic
+  category: SWM_workers
+  patterns: ['workers engaged for solid waste management', 'SWM workers', 'waste management workers']
+  generic: [SWM, workers, waste, collection]
+
+- facet: topic
+  category: household_SWM_coverage
+  patterns: ['household coverage for solid waste management', 'household waste coverage', 'SWM household coverage']
+  generic: [SWM, household, coverage, waste]
+
+- facet: topic
+  category: water_supply
+  patterns: ['water supply', 'drinking water', 'water supply services', 'water supply connections']
+  generic: [water, supply, drinking, services]
+
+- facet: topic
+  category: water_consumption
+  patterns: ['water consumption', 'water usage', 'water consumption data']
+  generic: [water, consumption, usage, supply]
+
+- facet: topic
+  category: water_revenue
+  patterns: ['water revenue', 'water revenue data', 'water charges']
+  generic: [water, revenue, charges, finance]
+
+- facet: topic
+  category: water_tax
+  patterns: ['water tax', 'water tax data']
+  generic: [water, tax, revenue, water]
+
+- facet: topic
+  category: water_charges
+  patterns: ['annual water charges', 'water charges', 'water charge']
+  generic: [water, charges, revenue, finance]
+
+- facet: topic
+  category: water_supply_connections
+  patterns: ['water supply connections', 'coverage of water supply connections', 'water connection coverage']
+  generic: [water, connections, coverage, supply]
+
+- facet: topic
+  category: water_sanitation
+  patterns: ['water and sanitation', 'water & sanitation', 'water and sanitation services', 'water and sanitation details']
+  generic: [water, sanitation, services, hygiene]
+
+- facet: topic
+  category: sanitation
+  patterns: ['sanitation', 'sanitation services', 'urban sanitation']
+  generic: [sanitation, hygiene, water, services]
+
+- facet: topic
+  category: public_toilets
+  patterns: ['public toilet', 'public toilets', 'public toilet coverage', 'public toilets coverage']
+  generic: [toilets, sanitation, hygiene, facilities]
+
+- facet: topic
+  category: sewerage
+  patterns: ['sewerage', 'sewerage services', 'sewage']
+  generic: [sewerage, sewage, sanitation, water]
+
+- facet: topic
+  category: public_transport
+  patterns: ['public transport', 'public transport access', 'public transport accessibility']
+  generic: [transport, public, mobility, accessibility]
+
+- facet: topic
+  category: transport_accessibility
+  patterns: ['public transport accessibility', 'transport accessibility', 'transport access']
+  generic: [transport, accessibility, mobility, public]
+
+- facet: topic
+  category: transport_mode_share
+  patterns: ['public transport mode share', 'transport mode share', 'mode share']
+  generic: [transport, mode, mobility, public]
+
+- facet: topic
+  category: buses
+  patterns: ['buses', 'number of buses', 'bus details', 'bus fleet']
+  generic: [buses, bus, transport, mobility]
+
+- facet: topic
+  category: bus_trips
+  patterns: ['bus trips', 'earnings from bus trips', 'earnings by bus trip', 'earnings from bus trip']
+  generic: [bus, trips, earnings, transport]
+
+- facet: topic
+  category: bus_stands
+  patterns: ['bus stand', 'bus stand location', 'bus stands']
+  generic: [bus, stand, transport]
+
+- facet: topic
+  category: vehicle_registrations
+  patterns: ['vehicle registrations', 'vehicle registration', 'registered vehicles', 'vehicle registration data']
+  generic: [vehicle, registration, transport, mobility]
+
+- facet: topic
+  category: roads
+  patterns: ['roads', 'road infrastructure', 'road infrastructure status', 'road data']
+  generic: [roads, infrastructure, transport, mobility]
+
+- facet: topic
+  category: road_condition
+  patterns: ['road condition', 'condition of roads', 'road condition assessment']
+  generic: [roads, condition, infrastructure, transport]
+
+- facet: topic
+  category: road_safety
+  patterns: ['road safety', 'road safety data', 'injuries and fatalities']
+  generic: [road, safety, injuries, fatalities]
+
+- facet: topic
+  category: traffic
+  patterns: ['traffic', 'traffic management', 'traffic lights', 'traffic infrastructure']
+  generic: [traffic, mobility, transport, roads]
+
+- facet: topic
+  category: intersections
+  patterns: ['intersections', 'intersection detail', 'signalized intersections', 'signalised intersections']
+  generic: [intersections, traffic, signals, roads]
+
+- facet: topic
+  category: flyovers
+  patterns: ['flyover', 'flyovers', 'flyover details']
+  generic: [flyover, roads, infrastructure, transport]
+
+- facet: topic
+  category: railway
+  patterns: ['railway station', 'railway stations']
+  generic: [railway, station, transport, connectivity]
+
+- facet: topic
+  category: parking
+  patterns: ['parking lots', 'parking lot', 'parking']
+  generic: [parking, transport, mobility, infrastructure]
+
+- facet: topic
+  category: bicycle_sharing
+  patterns: ['public bicycle sharing', 'bicycle sharing', 'bike sharing']
+  generic: [bicycle, sharing, mobility, transport]
+
+- facet: topic
+  category: electricity
+  patterns: ['electricity', 'electricity detail', 'electricity data']
+  generic: [electricity, power, energy, infrastructure]
+
+- facet: topic
+  category: electricity_consumption
+  patterns: ['city consumption', 'electricity consumption', 'city power consumption']
+  generic: [electricity, consumption, power, energy]
+
+- facet: topic
+  category: digital_access
+  patterns: ['digital access', 'digital availability', 'digital accessibility']
+  generic: [digital, access, availability, connectivity]
+
+- facet: topic
+  category: digital_payments
+  patterns: ['digital payment', 'digital payments', 'digital payment data', 'digital payment details']
+  generic: [digital, payments, transactions, technology]
+
+- facet: topic
+  category: financial_health
+  patterns: ['financial health', 'financial health indicators', 'financial performance']
+  generic: [financial, health, finance, performance]
+
+- facet: topic
+  category: municipal_finance
+  patterns: ['municipal finance', 'municipal financial health', 'financial health data']
+  generic: [municipal, finance, revenue, expenditure]
+
+- facet: topic
+  category: property_tax
+  patterns: ['property tax', 'property tax data', 'property tax records', 'property tax department']
+  generic: [property, tax, revenue, municipal]
+
+- facet: topic
+  category: VAT_GST
+  patterns: ['VAT', 'GST', 'VAT and GST', 'VAT & GST', 'VAT GST collection']
+  generic: [VAT, GST, tax, revenue]
+
+- facet: topic
+  category: circle_rate
+  patterns: ['circle rate', 'circle rates', 'circlerate']
+  generic: [circle, rate, property, valuation]
+
+- facet: topic
+  category: housing
+  patterns: ['housing', 'housing profile', 'housing information', 'housing and basic information']
+  generic: [house, households, urban]
+
+- facet: topic
+  category: housing_infrastructure
+  patterns: ['housing and basic infrastructure', 'housing and basic information', 'basic infrastructure']
+  generic: [house, infrastructure, urban]
+
+- facet: topic
+  category: slums
+  patterns: ['slum housing', 'slum population', 'housing and slums', 'housing and slum population', 'slum housing and population']
+  generic: [slum, house, population, urban]
+
+- facet: topic
+  category: households
+  patterns: ['households', 'household profile', 'households profile', 'wardwise households']
+  generic: [household, house, population, demographics]
+
+- facet: topic
+  category: demographics
+  patterns: ['demographic profile', 'demographics', 'demographic data', 'demographic information']
+  generic: [demographic, population, households, census]
+
+- facet: topic
+  category: city_profile
+  patterns: ['city profile', 'city profile data', 'city profile series']
+  generic: [city, profile, urban, demographics]
+
+- facet: topic
+  category: area_bifurcation
+  patterns: ['area bifurcation', 'area-wise bifurcation', 'area bifurcation data']
+  generic: [area, bifurcation, planning]
+
+- facet: topic
+  category: infrastructure
+  patterns: ['infrastructure', 'infrastructure distribution', 'infrastructure status']
+  generic: [infrastructure, urban, facilities]
+
+- facet: topic
+  category: commercial_areas
+  patterns: ['commercial areas', 'commercial area']
+  generic: [commercial, areas, urban, planning]
+
+- facet: topic
+  category: residential_areas
+  patterns: ['residential area', 'residential areas']
+  generic: [residential, house, urban, planning]
+
+- facet: topic
+  category: open_spaces
+  patterns: ['open spaces', 'open space', 'open spaces data']
+  generic: [open, spaces, urban, public]
+
+- facet: topic
+  category: open_space_development
+  patterns: ['open spaces development', 'open space development', 'budget for open spaces development']
+  generic: [open, spaces, budget]
+
+- facet: topic
+  category: parks
+  patterns: ['parks', 'park', 'parks and gardens', 'ITC Neighbourhood Area under Parks']
+  generic: [parks, gardens, green, urban]
+
+- facet: topic
+  category: street_lighting
+  patterns: ['street lights', 'street light', 'street lighting', 'streetlights']
+  generic: [street, lights, lighting, infrastructure]
+
+- facet: topic
+  category: public_amenities
+  patterns: ['public amenities', 'public amenities data', 'public facilities']
+  generic: [public, amenities, facilities, services]
+
+- facet: topic
+  category: community_facilities
+  patterns: ['community facilities', 'community facility', 'community facilities detail']
+  generic: [community, facilities, services, urban]
+
+- facet: topic
+  category: citizen_facilities
+  patterns: ['citizen facilities', 'citizen facilitation center', 'citizen facilitation centre', 'citizen facilitation centers']
+  generic: [citizen, facilities, services]
+
+- facet: topic
+  category: children_facilities
+  patterns: ['children facilities', 'children facilities provision', 'child facilities']
+  generic: [children, facilities, services, urban]
+
+- facet: topic
+  category: health
+  patterns: ['health', 'health data', 'health statistics']
+  generic: [health, healthcare, medical]
+
+- facet: topic
+  category: health_infrastructure
+  patterns: ['health infrastructure', 'health infrastructure catalog', 'health infrastructure data']
+  generic: [health, healthcare, infrastructure, medical]
+
+- facet: topic
+  category: hospitals
+  patterns: ['hospitals', 'hospital', 'hospitals and nursing homes', 'nursing homes']
+  generic: [hospital, healthcare, medical, facilities]
+
+- facet: topic
+  category: diseases
+  patterns: ['diseases', 'disease data', 'disease detail', 'diseases detail']
+  generic: [disease, health, medical, healthcare]
+
+- facet: topic
+  category: mortality
+  patterns: ['mortality rate', 'mortality', 'death rate']
+  generic: [mortality, death, health, population]
+
+- facet: topic
+  category: unemployment
+  patterns: ['unemployment rate', 'unemployment']
+  generic: [unemployment, employment, labour, workforce]
+
+- facet: topic
+  category: education
+  patterns: ['education', 'education data', 'education statistics']
+  generic: [education, schools, students, learning]
+
+- facet: topic
+  category: registered_voters
+  patterns: ['registered voters', 'registered voter', 'registered voters data']
+  generic: [voters, election, electoral, population]
+
+- facet: topic
+  category: crime
+  patterns: ['crime', 'crimes', 'crime data', 'crimes data']
+  generic: [crime, police, safety, security]
+
+- facet: topic
+  category: police
+  patterns: ['police stations', 'police station', 'police station data']
+  generic: [police, station, law, security]
+
+- facet: topic
+  category: fire_safety
+  patterns: ['fire station', 'fire stations', 'fire safety']
+  generic: [fire, safety, emergency, station]
+
+- facet: topic
+  category: environment
+  patterns: ['environment', 'environment data', 'environmental information', 'environment indicators']
+  generic: [environment, ecology, pollution, climate]
+
+- facet: topic
+  category: air_quality
+  patterns: ['air quality', 'air quality data', 'air quality levels', 'air quality parameters']
+  generic: [air, quality, pollution, environment]
+
+- facet: topic
+  category: air_pollution
+  patterns: ['air pollution', 'residential air pollution', 'vehicular air pollution', 'air pollution monitoring']
+  generic: [air, pollution, environment, pollutants]
+
+- facet: topic
+  category: AQI
+  patterns: ['AQI', 'Air Quality Index', 'air quality index']
+  generic: [AQI, air, quality, pollution]
+
+- facet: topic
+  category: pollutants
+  patterns: ['SO2', 'S02', 'PM2.5', 'PM10', 'NO2', 'O3']
+  generic: [SO2, PM2.5, PM10, NO2, O3]
+
+- facet: topic
+  category: noise_pollution
+  patterns: ['noise levels', 'noise pollution', 'noise']
+  generic: [noise, pollution, environment, levels]
+
+- facet: topic
+  category: natural_landscape
+  patterns: ['natural landscape', 'natural landscape data', 'natural features']
+  generic: [natural, landscape, environment]
+
+- facet: topic
+  category: cultural_heritage
+  patterns: ['cultural heritage', 'cultural heritage survey', 'heritage', 'heritage assets']
+  generic: [heritage, culture, conservation, tourism]
+
+- facet: topic
+  category: landmarks
+  patterns: ['city landmarks', 'landmarks', 'city landmark']
+  generic: [landmarks, city, heritage, tourism]
+
+- facet: topic
+  category: markets
+  patterns: ['vegetable and fruit market', 'fruit market', 'vegetable market', 'markets']
+  generic: [market, vegetables, fruit, trade]
+
+- facet: topic
+  category: governance
+  patterns: ['governance', 'governance detail', 'urban governance']
+  generic: [ administration, municipal]
+
+- facet: topic
+  category: trade_license
+  patterns: ['trade license', 'trade license records', 'renewal of trade license']
+  generic: [trade, license, business, municipal]
+
+- facet: topic
+  category: birth_certificate
+  patterns: ['birth certificate', 'online registration for birth certificate', 'birth registration']
+  generic: [birth, certificate, registration]
+
+- facet: topic
+  category: death_certificate
+  patterns: ['death certificate', 'online registration for death certificate', 'death registration']
+  generic: [death, certificate, registration]
+
+- facet: topic
+  category: property_title
+  patterns: ['record of title certificate', 'online registration of record of title certificate', 'title certificate']
+  generic: [property, title, certificate, registration]
+
+- facet: topic
+  category: digital_governance
+  patterns: ['online registration', 'digital services', 'digital governance']
+  generic: [digital,  services, registration]
+
+- facet: topic
+  category: ICCC
+  patterns: ['ICCC', 'Integrated Command and Control Centre', 'Integrated Command and Control Center', 'services through ICCC']
+  generic: [ICCC]
+
+- facet: topic
+  category: CCTV
+  patterns: ['CCTV', 'CCTV cameras', 'CCTV camera']
+  generic: [CCTV, surveillance, security, safety]
+
+- facet: topic
+  category: COVID19
+  patterns: ['COVID-19', 'COVID 19', 'COVID-19 patients', 'COVID-19 cases', 'COVID beds']
+  generic: [COVID-19, pandemic, health, cases]
+
+- facet: topic
+  category: COVID19_vaccination
+  patterns: ['COVID-19 vaccination', 'COVID vaccination', 'vaccination centers', 'vaccination centres']
+  generic: [COVID-19, vaccination, health, centres]
+
+- facet: topic
+  category: COVID19_quarantine
+  patterns: ['quarantine facilities', 'quarantine facility', 'ward-wise quarantine facilities']
+  generic: [COVID-19, quarantine, health, facilities]
+
+- facet: topic
+  category: COVID19_hotspots
+  patterns: ['COVID-19 hotspot', 'hotspot areas', 'hotspot containment areas', 'hotspot data']
+  generic: [COVID-19, hotspot, containment, health]
+
+- facet: topic
+  category: COVID19_hospitals
+  patterns: ['COVID beds', 'ward wise COVID beds', 'COVID hospital']
+  generic: [COVID-19, beds, hospital, health]
+
+- facet: topic
+  category: food_shelter
+  patterns: ['food and shelter distribution', 'food distribution', 'shelter distribution']
+  generic: [food, shelter, distribution, COVID-19]
+
+- facet: topic
+  category: city_boundary
+  patterns: ['city boundary', 'municipal boundary', 'city boundary map', 'municipal boundary map']
+  generic: [city, boundary, map]
+
+- facet: topic
+  category: ward_boundaries
+  patterns: ['ward boundaries', 'ward boundary', 'COVID-19 boundary ward map']
+  generic: [ward, boundary, map]
+
+- facet: topic
+  category: action_area
+  patterns: ['Action Area', 'Action Area Wise', 'Action Area Wise Water Supply']
+  generic: [Action, water, supply, planning]
+
+- facet: topic
+  category: diesel_loaders
+  patterns: ['diesel loaders illegally plying', 'diesel loaders', 'illegally plying']
+  generic: [diesel, loaders, vehicles, traffic]
+
+- facet: topic
+  category: auto_rickshaws
+  patterns: ['non-permit auto rickshaw', 'auto rickshaw', 'non-permit vehicles']
+  generic: [auto, rickshaw, permit, transport]
+
+- facet: topic
+  category: traffic_violations
+  patterns: ['vehicles violating model condition', 'vehicle violations', 'traffic violations', 'model condition violations']
+  generic: [vehicles, violations, traffic, transport]
+
+- facet: geography
+  category: Uttar_Pradesh
+  patterns: ['Uttar Pradesh', 'UP']
+  generic: [Uttar Pradesh, UP]
+
+- facet: geography
+  category: West_Bengal
+  patterns: ['West Bengal', 'WB']
+  generic: [West Bengal, WB]
+
+- facet: geography
+  category: Uttarakhand
+  patterns: ['Uttarakhand', 'Uttarakhand State']
+  generic: [Uttarakhand]
+
+- facet: geography
+  category: Agra
+  patterns: ['Agra']
+  generic: [Agra, UP]
+
+- facet: geography
+  category: Aligarh
+  patterns: ['Aligarh']
+  generic: [Aligarh, UP]
+
+- facet: geography
+  category: Bareilly
+  patterns: ['Bareilly', 'Bareilly Smart City']
+  generic: [Bareilly, UP]
+
+- facet: geography
+  category: Dehradun
+  patterns: ['Dehradun']
+  generic: [Dehradun, Uttarakhand]
+
+- facet: geography
+  category: Jhansi
+  patterns: ['Jhansi', 'Jhansi Nagar Nigam']
+  generic: [Jhansi, UP]
+
+- facet: geography
+  category: Kanpur
+  patterns: ['Kanpur', 'Kanpur Nagar']
+  generic: [Kanpur, UP]
+
+- facet: geography
+  category: Lucknow
+  patterns: ['Lucknow']
+  generic: [Lucknow, UP]
+
+- facet: geography
+  category: Moradabad
+  patterns: ['Moradabad']
+  generic: [Moradabad,UP]
+
+- facet: geography
+  category: Prayagraj
+  patterns: ['Prayagraj', 'Allahabad']
+  generic: [Prayagraj, Allahabad, UP]
+
+- facet: geography
+  category: Saharanpur
+  patterns: ['Saharanpur']
+  generic: [Saharanpur, UP]
+
+- facet: geography
+  category: Varanasi
+  patterns: ['Varanasi', 'Varanasi City']
+  generic: [Varanasi, UP]
+
+- facet: geography
+  category: New_Town_Kolkata
+  patterns: ['New Town Kolkata', 'New Town, Kolkata', 'NewTown, Kolkata', 'NewTown Kolkata']
+  generic: [ Kolkata, West Bengal]
+
+- facet: geography
+  category: Kolkata
+  patterns: ['Kolkata']
+  generic: [Kolkata, West Bengal]
+
+- facet: geography
+  category: ward
+  patterns: ['ward', 'ward-wise', 'ward wise', 'wardwise', 'ward-level']
+  generic: [ward, municipal, locality, city]
+
+- facet: geography
+  category: neighbourhood
+  patterns: ['neighbourhood', 'neighborhood', 'ITC Neighbourhood', 'ITC Neighborhood']
+  generic: [neighbourhood, locality, urban, ITC]
+
+- facet: geography
+  category: sanitation_zone
+  patterns: ['sanitation zone', 'sanitation zone wise', 'sanitation zone-wise']
+  generic: [sanitation, zone, ward, SWM]
+
+- facet: geography
+  category: action_area
+  patterns: ['Action Area', 'Action Area Wise']
+  generic: [action, area,  planning]
+
+- facet: acronym
+  category: SWM
+  patterns: ['SWM', 'Solid Waste Management']
+  generic: [SWM, solid, waste, management]
+
+- facet: acronym
+  category: D2D
+  patterns: ['D2D', 'Door-to-Door', 'door to door']
+  generic: [D2D, door, collection, waste]
+
+- facet: acronym
+  category: SCM
+  patterns: ['SCM', 'Smart Cities Mission', 'Smart City Mission']
+  generic: [SCM, smart, cities, mission]
+
+- facet: acronym
+  category: ICCC
+  patterns: ['ICCC', 'Integrated Command and Control Centre', 'Integrated Command and Control Center']
+  generic: [ICCC]
+
+- facet: acronym
+  category: CCTV
+  patterns: ['CCTV', 'CCTV Cameras']
+  generic: [CCTV, cameras, surveillance, security]
+
+- facet: acronym
+  category: AQI
+  patterns: ['AQI', 'Air Quality Index']
+  generic: [AQI, air, quality, pollution]
+
+- facet: acronym
+  category: GST
+  patterns: ['GST', 'Goods and Services Tax']
+  generic: [GST, goods, services, tax]
+
+- facet: acronym
+  category: VAT
+  patterns: ['VAT', 'Value Added Tax']
+  generic: [VAT, value, added, tax]
+
+- facet: acronym
+  category: PM10
+  patterns: ['PM10']
+  generic: [PM10, particulate, pollution, air]
+
+- facet: acronym
+  category: PM2_5
+  patterns: ['PM2.5']
+  generic: [PM2.5, particulate, pollution, air]
+
+- facet: acronym
+  category: SO2
+  patterns: ['SO2', 'S02']
+  generic: [SO2, sulphur, pollution, air]
+
+- facet: acronym
+  category: NO2
+  patterns: ['NO2']
+  generic: [NO2, nitrogen, pollution, air]
+
+- facet: acronym
+  category: O3
+  patterns: ['O3']
+  generic: [O3, ozone, pollution, air]
+
+- facet: acronym
+  category: C_and_D
+  patterns: ['C&D', 'C&D Waste', 'Construction & Demolition Waste']
+  generic: [C&D, construction, demolition, waste]
+
+- facet: acronym
+  category: ITC
+  patterns: ['ITC Neighbourhood', 'ITC Neighborhood', 'ITC']
+  generic: [ITC, neighbourhood, locality, urban]
+
+- facet: acronym
+  category: COVID19
+  patterns: ['COVID-19', 'COVID 19', 'COVID']
+  generic: [COVID-19, pandemic, health, cases]
+

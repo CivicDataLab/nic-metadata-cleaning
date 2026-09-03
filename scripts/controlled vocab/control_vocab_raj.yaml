@@ -1,0 +1,3124 @@
+- facet: topic
+  category: Parliamentary Attendance
+  patterns: ['Attendance of Rajya Sabha Members', 'Rajya Sabha Attendance', 'Attendance Register', 'Member Attendance', 'Session Attendance', 'Attendance of Members']
+  generic: ['attendance', 'parliament', 'members', 'session', 'rajya', 'sabha']
+
+- facet: topic
+  category: Parliamentary Questions
+  patterns: ['Rajya Sabha Questions', 'Starred Questions', 'Unstarred Questions', 'Questions Asked', 'Questions and Answers', 'Parliamentary Questions']
+  generic: ['questions', 'parliament', 'answers', 'members', 'rajya', 'sabha']
+
+- facet: topic
+  category: Supplementary Questions
+  patterns: ['Supplementary Questions', 'Supplementaries', 'Questions and Supplementaries', 'Supplementaries Count', 'Analysis of Questions and Supplementaries']
+  generic: ['supplementary', 'questions', 'parliament']
+
+- facet: topic
+  category: Parliamentary Proceedings
+  patterns: ['Daily Synopsis', 'Parliamentary Proceedings', 'Parliamentary Bulletin', 'Daily Proceedings', 'Legislative Proceedings', 'Parliamentary Business', 'Rajya Sabha Session', 'Work Transacted', 'Session Highlights']
+  generic: ['parliament', 'proceedings', 'legislative', 'bulletin', 'session']
+
+- facet: topic
+  category: Parliamentary Committees
+  patterns: ['Parliamentary Committees', 'Committee Details', 'Committee Meetings', 'Committee Membership', 'Committee Proceedings']
+  generic: ['committees', 'meetings', 'membership']
+
+- facet: topic
+  category: Standing Committees
+  patterns: ['Standing Committees', 'Department Related Parliamentary Standing Committees', 'Standing Committee Details']
+  generic: ['standing', 'committees', 'parliament']
+
+- facet: topic
+  category: Joint Committees
+  patterns: ['Joint Committees', 'Details of Joint Committees', 'Joint Parliamentary Committees']
+  generic: ['joint', 'committees', 'parliament']
+
+- facet: topic
+  category: Adhoc Committees
+  patterns: ['Adhoc Committees', 'Details of Adhoc Committees', 'Adhoc Committee Details']
+  generic: ['adhoc', 'committees', 'parliament']
+
+- facet: topic
+  category: Committee Reports
+  patterns: ['Committee Reports', 'Committee-wise Reports', 'Reports Presented to Rajya Sabha', 'Reports Presented to Lok Sabha']
+  generic: ['committees', 'parliament', 'legislation', 'rajya', 'sabha']
+
+- facet: topic
+  category: Parliamentary Members
+  patterns: ['List of Rajya Sabha Members', 'List of Lok Sabha Members', 'Current Members', 'Members of Rajya Sabha', 'Members of Lok Sabha']
+  generic: ['members', 'parliament','legislature', 'rajya', 'sabha']
+
+- facet: topic
+  category: Parliamentary Membership
+  patterns: ['Former Members', 'Nominated Members', 'Members Elected to Lok Sabha', 'Members Resigned', 'Members Retired', 'Membership History']
+  generic: ['members','elected', 'retired', 'resigned']
+
+- facet: topic
+  category: Women Representation
+  patterns: ['Women Members of Rajya Sabha', 'Women Members of Lok Sabha', 'Women Representation', 'Women Parliamentary Members']
+  generic: ['women', 'members',  'parliament', 'rajya', 'sabha']
+
+- facet: topic
+  category: Political Parties
+  patterns: ['Party-wise Members', 'Members Strength by Party', 'Party-wise List of Members', 'Political Party Representation']
+  generic: ['party', 'members', 'political']
+
+- facet: topic
+  category: Parliamentary Seats
+  patterns: ['Number of Seats', 'Seats and Members by State', 'Parliamentary Seats', 'Rajya Sabha Seats']
+  generic: ['seats', 'members', 'state', 'parliament', 'rajya', 'sabha']
+
+- facet: topic
+  category: Parliamentary Elections
+  patterns: ['Members Elected', 'Election of Members', 'Parliamentary Elections']
+  generic: ['elections', 'members', 'elected', 'parliament']
+
+- facet: topic
+  category: Parliamentary Roles
+  patterns: ['Council of Ministers', 'Officers of Rajya Sabha', 'Directors and Joint Directors', 'Parliamentary Officers']
+  generic: ['ministers', 'officers', 'parliament', 'rajya', 'sabha']
+
+- facet: topic
+  category: Special Mentions
+  patterns: ['Special Mentions', 'Member-wise Special Mentions', 'Special Mentions in Rajya Sabha', 'Special Mentions in Lok Sabha']
+  generic: ['mentions', 'members', 'parliament', 'rajya', 'sabha']
+
+- facet: topic
+  category: Parliamentary Bills
+  patterns: ['Government Bills', 'Parliamentary Bills', 'Bills Introduced', 'Bills Status', 'Bills in Lok Sabha']
+  generic: ['bills', 'parliament', 'legislation']
+
+- facet: topic
+  category: Parliamentary Notices
+  patterns: ['Parliamentary Notices', 'Notifications', 'Committee Notifications', 'Rajya Sabha Notices']
+  generic: ['notice', 'notification', 'committees', 'parliament', 'rajya', 'sabha']
+
+- facet: topic
+  category: Parliamentary Papers
+  patterns: ['Papers Laid on the Table', 'Paper to be Laid on the Table', 'Parliamentary Papers']
+  generic: ['papers', 'parliament', 'documents']
+
+- facet: topic
+  category: Labour
+  patterns: ['Labour', 'Labour Welfare', 'Labour Employment', 'Labour Administration', 'Labour Market', 'Labour Workforce']
+  generic: ['labour', 'employment', 'workers', 'workforce']
+
+- facet: topic
+  category: Employment
+  patterns: ['Employment', 'Employment Status', 'Employment Schemes', 'Employment Created', 'Employment Outcomes']
+  generic: ['employment', 'jobs', 'workers', 'workforce', 'labour']
+
+- facet: topic
+  category: Workers
+  patterns: ['Workers', 'Labour Workers', 'Worker Welfare', 'Workers Benefited']
+  generic: ['workers', 'labour', 'workforce', 'employment']
+
+- facet: topic
+  category: Labour Laws
+  patterns: ['Enforcement of Labour Laws', 'Labour Law Enforcement', 'Labour Laws', 'Labour Compliance', 'Labour Law Inspections', 'Labour Law Compliance', 'Labour Regulation']
+  generic: ['labour', 'laws', 'enforcement', 'compliance', 'inspections']
+
+- facet: topic
+  category: Agriculture
+  patterns: ['Agriculture', 'Agricultural Development', 'Agriculture Production', 'Agricultural Schemes', 'Agricultural Statistics', 'Agricultural Planning', 'Agriculture Sector', 'Agricultural Sector']
+  generic: ['agriculture', 'farming', 'crops', 'farmers', 'cultivation']
+
+- facet: topic
+  category: Farmers
+  patterns: ['Farmers', 'Farmer Welfare', 'Farmers Benefited', 'Farmer Assistance', 'Farmer Schemes', 'Farmers Benefitted', 'Farmer Benefits', 'Agricultural Households', 'Farmer Applicants', 'Farmer Beneficiaries', 'Farmers Trained', 'Farmers Welfare', 'Farmer Development', 'Farmers Supported', 'Farmers Registered']
+  generic: ['farmers', 'agriculture', 'welfare', 'schemes', 'benefit', 'assistance', 'training']
+
+- facet: topic
+  category: Crops
+  patterns: ['Crop Area', 'Crop Yield', 'Agricultural Crops', 'Major Crops', 'Major Agricultural Crops', 'Commercial Crops', 'Crops', 'Crop Cultivation']
+  generic: ['crops', 'agriculture', 'production', 'yield', 'commercial']
+
+- facet: topic
+  category: Food
+  patterns: ['Food', 'Food Supply']
+  generic: ['food', 'supply', 'distribution', 'security']
+
+- facet: topic
+  category: Foodgrains
+  patterns: ['Foodgrains', 'Foodgrain Production', 'Foodgrain Distribution', 'Foodgrain Stocks', 'Food Grain Production', 'Major Foodgrains', 'Food Grain Loss', 'Production of Food Grains', 'Foodgrain Allocation']
+  generic: ['foodgrains', 'production', 'distribution', 'procurement', 'crops', 'agriculture', 'food', 'grains']
+
+- facet: topic
+  category: Pulses
+  patterns: ['Pulses', 'Import of Pulses', 'Production of Pulses', 'Pulses Prices', 'Pulses Distribution', 'Pulse Production', 'Pulses Procurement', 'Pulses Imports', 'Pulses Stock', 'Pulse Distribution', 'Pulse Procurement']
+  generic: ['pulses', 'agriculture', 'imports', 'prices', 'crops', 'procurement', 'food']
+
+- facet: topic
+  category: Fertilizers
+  patterns: ['Fertilizers', 'Fertilizer Distribution', 'Fertilizer Subsidy', 'Fertilizer Production', 'Fertilizer Consumption', 'Fertilizer Imports', 'Urea', 'P&K Fertilizers', 'Major Fertilizers', 'Nutrient Based Subsidy Regime', 'Nutrient Based Subsidy', 'Fertilizer Availability']
+  generic: ['fertilizers', 'agriculture', 'subsidy', 'production', 'urea', 'imports', 'consumption', 'fertilizer']
+
+- facet: topic
+  category: Irrigation
+  patterns: ['Irrigation', 'Irrigation Projects', 'Irrigation Facilities', 'Irrigation Development', 'Micro Irrigation', 'Integrated Farming System', 'Irrigation Coverage', 'Irrigation Potential']
+  generic: ['irrigation', 'agriculture', 'water', 'farming', 'projects']
+
+- facet: topic
+  category: Water
+  patterns: ['Water Supply', 'Water Availability']
+  generic: ['water', 'supply', 'drinking', 'resources']
+
+- facet: topic
+  category: Rural Development
+  patterns: ['Rural Development', 'Rural Development Schemes', 'Rural Development Projects', 'Rural Areas', 'Rural Transformation']
+  generic: ['rural',  'villages', 'schemes', 'livelihoods', 'infrastructure']
+
+- facet: topic
+  category: Rural Employment
+  patterns: ['MNREGA', 'Rural Employment', 'Employment Guarantee', 'Rural Employment Scheme', 'MNREGS', 'Mahatma Gandhi NREGA', 'Rural Employment Generation', 'Employment Generated in Rural Areas', 'Rural Wage Employment', 'Employment in Rural Areas']
+  generic: ['MNREGA', 'employment', 'rural', 'jobs', 'MGNREGA', 'wages']
+
+- facet: topic
+  category: Panchayati Raj
+  patterns: ['Panchayati Raj', 'Panchayat Resources', 'Panchayat Institutions', 'Panchayati Raj Institutions', 'Devolution of Functions', 'Gram Panchayat', 'Gram Sabha', 'Panchayat Development', 'Gram Panchayats']
+  generic: ['panchayat', 'decentralisation', 'village']
+
+- facet: topic
+  category: Local Governance
+  patterns: ['Local Bodies', 'Rural Local Bodies', 'Local Government', 'Local Governance', 'Panchayat Governance']
+  generic: ['local','bodies', 'panchayat']
+
+- facet: topic
+  category: Urban Development
+  patterns: ['Urban Development', 'Urban Areas', 'Urban Infrastructure', 'Urban Schemes', 'Urban Projects', 'Urban Transformation']
+  generic: ['urban',  'infrastructure', 'cities']
+
+- facet: topic
+  category: Housing
+  patterns: ['Housing', 'Housing Schemes', 'Housing Assistance', 'Houses Sanctioned', 'Housing Development', 'Housing Infrastructure']
+  generic: ['housing', 'scheme', 'assistance', 'sanction']
+
+- facet: topic
+  category: PMAY
+  patterns: ['Pradhan Mantri Awas Yojana', 'PMAY', 'PMAY Housing', 'Houses under PMAY', 'PMAY(Urban)']
+  generic: ['PMAY', 'housing', 'urban']
+
+- facet: topic
+  category: Sanitation
+  patterns: ['Sanitation', 'Swachh Bharat', 'Toilets', 'Household Toilets', 'ODF Towns', 'Open Defecation Free', 'Public Toilets', 'Community Toilets', 'Household Sanitation']
+  generic: ['sanitation', 'swachh', 'toilets', 'hygiene', 'ODF', 'waste']
+
+- facet: topic
+  category: Health
+  patterns: ['Health', 'Public Health', 'Health Schemes', 'Health Sector']
+  generic: ['health', 'medical', 'services', 'hospitals']
+
+- facet: topic
+  category: Diseases
+  patterns: ['Disease Cases', 'Disease Burden', 'Communicable Diseases', 'Disease Statistics', 'Disease Cases and Deaths']
+  generic: ['disease', 'communicable', 'health', 'deaths']
+
+- facet: topic
+  category: Dengue
+  patterns: ['Dengue Cases', 'Dengue', 'Dengue Cases and Deaths']
+  generic: ['dengue', 'disease', 'health']
+
+- facet: topic
+  category: Malaria
+  patterns: ['Malaria Cases', 'Malaria', 'Malaria Control', 'Malaria Deaths', 'Malaria Situation']
+  generic: ['malaria', 'disease',  'health']
+
+- facet: topic
+  category: Chikungunya
+  patterns: ['Chikungunya', 'Chikungunya Cases', 'Chikungunya Deaths']
+  generic: ['chikungunya', 'disease',  'health']
+
+- facet: topic
+  category: Hospitals
+  patterns: ['Hospitals', 'Government Hospitals', 'Hospital Infrastructure', 'Hospital Facilities', 'Hospital Beds']
+  generic: ['hospitals', 'health', 'medical', 'facilities', 'beds']
+
+- facet: topic
+  category: Medical Services
+  patterns: ['Medical Services', 'Medical Facilities', 'Healthcare Services', 'Health Services']
+  generic: ['medical', 'health', 'services', 'facilities']
+
+- facet: topic
+  category: Education
+  patterns: ['Education', 'Education Development', 'Education Facilities', 'Educational Institutions', 'Education Schemes', 'Education Expenditure', 'Educational Development', 'Education Sector', 'Education Programmes']
+  generic: ['education', 'school', 'students', 'scheme']
+
+- facet: topic
+  category: Higher Education
+  patterns: ['Higher Education', 'Higher Education Institutions', 'Higher Education Enrolment', 'Higher Education Ratio', 'Higher Education Scholarship', 'Central Universities', 'Higher Education Courses', 'Higher Educational Institutions']
+  generic: ['higher', 'education', 'universities', 'colleges']
+
+- facet: topic
+  category: School Education
+  patterns: ['School Education', 'Schools', 'School Enrolment', 'School Facilities', 'Government Schools', 'Schools Sanctioned']
+  generic: ['school', 'education', 'students', 'teachers', 'schools']
+
+- facet: topic
+  category: Students
+  patterns: ['Students', 'Students Benefited', 'Student Scholarships', 'Student Training']
+  generic: ['students', 'education', 'enrolment', 'training']
+
+- facet: topic
+  category: Scholarships
+  patterns: ['Scholarship', 'Scholarship Schemes', 'Students Benefited Under Scholarship Schemes', 'Scholarship Coverage', 'Scholarship Funds', 'Scholarship Beneficiaries', 'Education Scholarships', 'Scholarship Scheme', 'Scholarship Amount', 'Scholarships']
+  generic: ['scholarship', 'students', 'education', 'beneficiaries']
+
+- facet: topic
+  category: Skill Development
+  patterns: ['Skill Development', 'Skill Training', 'Skill Development Schemes', 'Training and Placement', 'Candidates Trained', 'Candidates Placed', 'Skill Development Initiatives', 'Skilling Outcomes', 'Skill Development Centres', 'Skilling Programmes', 'Skill Development Programmes']
+  generic: [ 'training', 'employment', 'youth', 'placement', 'skill']
+
+- facet: topic
+  category: PMKVY
+  patterns: ['Pradhan Mantri Kaushal Vikas Yojana', 'PMKVY', 'PMKVY Enrolment', 'PMKVY 2.0', 'PMKVY 1.0', 'PMKVY 3.0', 'PMKVY-STT', 'PMKVY Scheme']
+  generic: ['PMKVY', 'training', 'employment', 'placement', 'skill']
+
+- facet: topic
+  category: Minority Welfare
+  patterns: ['Minority Welfare', 'Minority Schemes', 'Minority Development', 'Minority Scholarships', 'Minority Communities', 'Minority Beneficiaries']
+  generic: ['minority', 'welfare', 'communities', 'schemes',  'beneficiaries']
+
+- facet: topic
+  category: Minority Development
+  patterns: ['Multi-sectoral Development Programme', 'Minority Concentration Blocks', 'Minority Development Programme', 'MsDP']
+  generic: ['minority','MsDP']
+
+- facet: topic
+  category: Tribal Welfare
+  patterns: ['Tribal Welfare', 'Tribal Communities', 'Tribal Schemes', 'Tribal Sub-Plan', 'Tribal Areas', 'Tribal Beneficiaries']
+  generic: ['tribal', 'welfare',  'communities', 'ST']
+
+- facet: topic
+  category: Scheduled Castes
+  patterns: ['Scheduled Castes', 'SC Development', 'SC Schemes', 'SC Scholarships']
+  generic: ['SC', 'scheduled', 'welfare', 'beneficiaries', 'caste', 'students']
+
+- facet: topic
+  category: Scheduled Tribes
+  patterns: ['Scheduled Tribes', 'ST Development', 'ST Schemes', 'ST Scholarships']
+  generic: ['ST', 'scheduled', 'welfare', 'beneficiaries', 'tribal', 'students']
+
+- facet: topic
+  category: Women
+  patterns: ['Women', 'Women Welfare', 'Women Development', 'Women Beneficiaries', 'Women Schemes']
+  generic: ['women', 'welfare',  'beneficiaries', 'safety']
+
+- facet: topic
+  category: Child Welfare
+  patterns: ['Child Welfare', 'Child Development', 'Children', 'Child Schemes', 'Child Care', 'Children Services', 'Child Services', 'Child Welfare Services']
+  generic: ['children', 'welfare',  'scheme', 'care']
+
+- facet: topic
+  category: Women and Child Development
+  patterns: ['Women and Child Development', 'Women and Child Welfare', 'Child Development Services']
+  generic: ['women', 'children', 'welfare']
+
+- facet: topic
+  category: Maternal Health
+  patterns: ['Maternal Health', 'Maternal Welfare', 'Pregnant Women', 'Maternal Mortality Ratio', 'Maternity Programme', 'Maternal Care', 'Maternal Mortality']
+  generic: ['maternal', 'women', 'health', 'MMR', 'mortality']
+
+- facet: topic
+  category: Nutrition
+  patterns: ['Nutrition', 'Nutritional Support', 'Nutrition Schemes', 'Child Nutrition', 'Malnutrition', 'Supplementary Nutrition', 'Nutrition Programme', 'Under Nutrition', 'Nutrition Services']
+  generic: ['nutrition', 'children', 'health', 'malnutrition']
+
+- facet: topic
+  category: Social Welfare
+  patterns: ['Social Welfare', 'Welfare Schemes', 'Social Assistance', 'Welfare Programmes', 'Welfare Benefits']
+  generic: ['welfare', 'social', 'assistance', 'beneficiaries', 'benefits', 'schemes']
+
+- facet: topic
+  category: Pension
+  patterns: ['Pension', 'Pensioners', 'Pension Schemes', 'Pension Benefits', 'Pension Beneficiaries', 'National Pension Scheme', 'NPS Traders', 'Pension Coverage']
+  generic: ['pension', 'pensioners', 'scheme', 'welfare', 'beneficiaries', 'security']
+
+- facet: topic
+  category: Freedom Fighters
+  patterns: ['Freedom Fighters', 'Freedom Fighter Pensioners', 'Freedom Fighter Dependents', 'Freedom Fighter Pension']
+  generic: ['freedom', 'fighters', 'pension', 'dependents']
+
+- facet: topic
+  category: Disability
+  patterns: ['Disability', 'Disabled Persons', 'Disability Welfare', 'Disability Assistance', 'SwDs', 'PwDs', 'Disability Rehabilitation', 'Disability Benefits']
+  generic: ['disability', 'SWDs','PWDs', 'benefits', 'rehabilitation']
+
+- facet: topic
+  category: Employment Generation
+  patterns: ['Employment Generation', 'Job Creation', 'Employment Opportunities', 'Employment Assistance', 'Employment Generated', 'Jobs Created', 'Direct Jobs Created']
+  generic: ['employment', 'jobs', 'generation', 'assistance', 'workers']
+
+- facet: topic
+  category: Financial Inclusion
+  patterns: ['Financial Inclusion', 'Jan Dhan Yojana', 'PMJDY', 'Bank Accounts', 'Financial Inclusion Progress', 'Jan Dhan', 'Pradhan Mantri Jan-Dhan Yojana', 'Financial Access', 'Bank Account Coverage', 'Banking Access', 'Financial Services']
+  generic: ['financial', 'PMJDY', 'banking', 'accounts']
+
+- facet: topic
+  category: Banking
+  patterns: ['Banks', 'Banking Services', 'Banking Coverage', 'Bank Branches', 'Scheduled Commercial Banks', 'Public Sector Banks', 'Bank Credit', 'Bank Loans', 'Banking']
+  generic: ['banks', 'banking', 'accounts', 'finance', 'credit', 'loans']
+
+- facet: topic
+  category: Finance
+  patterns: ['Finance', 'Financial Allocation', 'Financial Resources', 'Financial Investment', 'Financial Performance']
+  generic: ['finance', 'funds', 'assistance', 'investment', 'banking', 'credit']
+
+- facet: topic
+  category: Funds
+  patterns: ['Funds Approved', 'Financial Releases']
+  generic: ['funds', 'allocation', 'release', 'utilization']
+
+- facet: topic
+  category: Corporate Affairs
+  patterns: ['Corporate Affairs', 'Corporate Social Responsibility', 'Companies', 'Companies Act', 'Companies Struck Off', 'Corporate Insolvency']
+  generic: ['corporate', 'companies', 'CSR', 'expenditure', 'compliance']
+
+- facet: topic
+  category: Industry
+  patterns: ['Industries', 'Industrial Development', 'Industrial Projects', 'Industrial Production', 'Industrial Units', 'Industrial Entrepreneurs', 'Industrial Establishments', 'Industry', 'Industrial Sector']
+  generic: ['industry', 'industrial', 'production', 'enterprises', 'manufacturing']
+
+- facet: topic
+  category: MSME
+  patterns: ['MSME', 'Micro Small and Medium Enterprises', 'Small Enterprises', 'MSME Development', 'Medium Enterprises', 'Udyog Aadhaar', 'MSME Units']
+  generic: ['MSME', 'enterprises', 'industry', 'Udyog','employment']
+
+- facet: topic
+  category: Textiles
+  patterns: ['Textiles', 'Textile Industry', 'Textile Production', 'Textile Schemes', 'Textile Sector', 'Textile Mills', 'Manmade Textiles', 'Textile Development']
+  generic: ['textiles', 'industry', 'production', 'exports', 'mills', 'garments']
+
+- facet: topic
+  category: Steel
+  patterns: ['Steel', 'Steel Production', 'Steel Plants', 'Steel Industry', 'Crude Steel', 'Steel Exports', 'Steel Imports', 'Finished Steel', 'Crude Steel Production']
+  generic: ['steel', 'production', 'industry', 'plants', 'exports', 'imports']
+
+- facet: topic
+  category: Coal
+  patterns: ['Coal', 'Coal Supply', 'Coal Imports', 'Coal Sales', 'Coal Consumption', 'Coal Receipts']
+  generic: ['coal', 'mining', 'production', 'imports', 'power']
+
+- facet: topic
+  category: Mining
+  patterns: ['Mining', 'Mines', 'Mining Projects', 'Mining Areas', 'Auctioned Coal Mines', 'Mining Sector', 'Mining Production']
+  generic: ['mining','minerals', 'production', 'coal', 'industry']
+
+- facet: topic
+  category: Petroleum
+  patterns: ['Petroleum', 'Petroleum Products', 'Petroleum Production', 'Petroleum Prices', 'Crude Oil', 'Crude Oil Production', 'Oil Refineries']
+  generic: ['petroleum', 'fuel', 'prices', 'production', 'oil', 'LPG', 'energy', 'crude', 'refineries']
+
+- facet: topic
+  category: Energy
+  patterns: ['Energy', 'Energy Development', 'Energy Projects', 'Energy Production', 'Energy Sector']
+  generic: ['energy', 'power', 'production', 'electricity', 'generation']
+
+- facet: topic
+  category: Power
+  patterns: ['Power', 'Power Plants', 'Power Sector', 'Power Utilities', 'Power Infrastructure']
+  generic: ['power', 'electricity', 'generation', 'plants', 'utilities']
+
+- facet: topic
+  category: Renewable Energy
+  patterns: ['Renewable Energy', 'Renewable Power', 'Hydro Power', 'Renewable Energy Capacity', 'Renewable Capacity', 'Renewable Energy Generation']
+  generic: ['solar', 'renewable', 'energy', 'power', 'hydro']
+
+- facet: topic
+  category: Electricity
+  patterns: ['Electricity', 'Electricity Supply', 'Electricity Distribution', 'Electricity Consumption']
+  generic: ['electricity', 'power', 'supply', 'distribution', 'consumption', 'generation']
+
+- facet: topic
+  category: Railways
+  patterns: ['Railways', 'Railway Projects', 'Railway Infrastructure', 'Railway Development', 'Railway Services', 'Railway Stations', 'Indian Railways']
+  generic: [ 'railway', 'transport', 'infrastructure', 'trains']
+
+- facet: topic
+  category: Roads
+  patterns: ['Roads', 'Road Construction', 'Road Projects', 'Road Length', 'Road Works', 'Road Connectivity']
+  generic: ['roads', 'transport', 'construction', 'infrastructure', 'connectivity']
+
+- facet: topic
+  category: Highways
+  patterns: ['Highways', 'Highway Projects', 'Highway Construction']
+  generic: ['highways', 'roads', 'transport', 'infrastructure']
+
+- facet: topic
+  category: Transport
+  patterns: ['Transport', 'Transportation', 'Transport Infrastructure', 'Transport Services']
+  generic: ['transport', 'infrastructure', 'services', 'mobility']
+
+- facet: topic
+  category: Telecom
+  patterns: ['Telecom', 'Telecommunication', 'Telecom Services', 'Telecom Infrastructure', 'Mobile Tele-density', 'Telecom Sector', 'Telecom Industry']
+  generic: ['telecom', 'communication', 'mobile', 'connectivity', 'infrastructure']
+
+- facet: topic
+  category: Internet
+  patterns: ['Internet', 'Internet Subscribers', 'Internet Services', 'Internet Connectivity', 'Wi-Fi Subscribers', 'Internet Infrastructure']
+  generic: ['internet', 'connectivity', 'subscribers', 'technology', 'broadband', 'digital', 'wi-fi']
+
+- facet: topic
+  category: Information Technology
+  patterns: ['Information Technology', 'IT', 'Technology', 'Information Technology Services']
+  generic: ['technology', 'digital', 'information', 'services']
+
+- facet: topic
+  category: Postal Services
+  patterns: ['Postal Services', 'Post Offices', 'Postal Infrastructure', 'Postal Network']
+  generic: ['postal', 'post', 'services', 'network']
+
+- facet: topic
+  category: Food Processing
+  patterns: ['Food Processing', 'Food Processing Industries', 'Food Processing Units', 'Food Processing Development', 'Mega Food Parks', 'Food Processing Infrastructure', 'Cold Chain Projects', 'Food Processing Industry', 'Food Processing Projects', 'Food Processing Enterprises']
+  generic: ['food', 'processing', 'industries', 'production', 'parks', 'storage', 'industry', 'enterprises']
+
+- facet: topic
+  category: Trade
+  patterns: ['Trade', 'Trade Policy', 'Trade Statistics', 'Merchandise Trade', 'Trade Balance', 'World Trade', 'Trade Openness']
+  generic: ['trade', 'exports', 'imports', 'policy', 'commerce']
+
+- facet: topic
+  category: Imports
+  patterns: ['Imports', 'Country-wise Imports', 'Item-wise Imports', 'Import Statistics', 'Import Details', 'Import Quantity', 'Import Value', 'Import of Goods', 'Import Trends']
+  generic: ['imports', 'trade', 'countries', 'items', 'commerce', 'commodities', 'goods']
+
+- facet: topic
+  category: Exports
+  patterns: ['Exports', 'Export Promotion', 'Export Statistics', 'Export Performance', 'Export Details', 'Export Inflows', 'Merchandise Exports', 'Agricultural Exports', 'Export of Goods', 'Export of Services', 'Export Growth', 'Export of Goods and Services', 'Goods Exports']
+  generic: ['exports', 'trade', 'industry', 'commerce', 'products', 'goods', 'services']
+
+- facet: topic
+  category: Prices
+  patterns: ['Prices', 'Price Trends', 'Wholesale Prices', 'Price Statistics']
+  generic: ['prices', 'retail', 'wholesale', 'trends']
+
+- facet: topic
+  category: Tourism
+  patterns: ['Tourism', 'Tourism Development', 'Tourist Facilities', 'Tourist Arrivals', 'Tourism Employment']
+  generic: ['tourism', 'tourists',  'facilities', 'employment', 'infrastructure', 'travel', 'visitors']
+
+- facet: topic
+  category: Culture
+  patterns: ['Culture', 'Cultural Development', 'Cultural Institutions', 'Cultural Activities', 'Cultural Centres']
+  generic: ['culture', 'heritage', 'institutions', 'activities', 'museums', 'arts']
+
+- facet: topic
+  category: Heritage
+  patterns: ['Heritage', 'Heritage Monuments', 'Historical Monuments', 'Cultural Heritage', 'Intangible Cultural Heritage', 'Archaeological Sites', 'Heritage Sites', 'Heritage Conservation']
+  generic: ['heritage', 'monuments', 'culture', 'protection', 'archaeology', 'sites', 'conservation']
+
+- facet: topic
+  category: Sports
+  patterns: ['Sports', 'Sports Development', 'Sports Schemes', 'Sportspersons', 'Sports Persons', 'Sports Training']
+  generic: ['sports', 'athletes',  'infrastructure', 'training']
+
+- facet: topic
+  category: Environment
+  patterns: ['Environment', 'Environmental Protection', 'Environmental Development', 'Environmental Monitoring', 'Environmental Clearance', 'Environmental Management']
+  generic: ['environment', 'protection', 'monitoring',  'clearance', 'conservation']
+
+- facet: topic
+  category: Forest
+  patterns: ['Forest', 'Forest Areas', 'Forest Development', 'Forest Conservation', 'Forest Resources', 'Forest Cover', 'Forest and Tree Cover', 'Forest Land', 'Forest Fire', 'Forest Rights', 'Forest Area']
+  generic: ['forest', 'conservation', 'environment', 'resources', 'trees', 'fire', 'land']
+
+- facet: topic
+  category: Wildlife
+  patterns: ['Wildlife', 'Wildlife Conservation', 'Wildlife Protection', 'Wildlife Areas', 'Tiger Deaths', 'Lion Deaths', 'Elephant Casualties', 'Wildlife Casualties', 'National Parks', 'Wildlife Population']
+  generic: ['wildlife', 'conservation', 'protection', 'forests', 'animals']
+
+- facet: topic
+  category: Climate
+  patterns: ['Climate', 'Climate Impact', 'Climate Monitoring']
+  generic: ['climate', 'change', 'environment', 'monitoring']
+
+- facet: topic
+  category: Disaster Management
+  patterns: ['Disaster Management', 'Disaster Relief', 'Natural Disasters', 'Disaster Assistance', 'Disaster Response', 'Disaster Damage']
+  generic: ['disaster', 'relief', 'assistance', 'management', 'response', 'damage']
+
+- facet: topic
+  category: Internal Security
+  patterns: ['Internal Security', 'Security', 'Security Measures', 'Security Infrastructure', 'Terrorist Violence', 'Left Wing Extremism']
+  generic: ['security', 'internal', 'infrastructure', 'protection', 'terrorism', 'violence', 'enforcement']
+
+- facet: topic
+  category: Border Security
+  patterns: ['Border Security', 'Border Fencing', 'Indo-Pakistan Border', 'Indo-Bangladesh Border', 'Indo-Myanmar Border']
+  generic: ['border', 'security', 'fencing', 'infrastructure']
+
+- facet: topic
+  category: Defence
+  patterns: ['Defence', 'Defence Services', 'Defence Infrastructure', 'Defence Production', 'Defence Budget']
+  generic: ['defence', 'security', 'military', 'infrastructure', 'forces']
+
+- facet: topic
+  category: Crime
+  patterns: ['Crime', 'Crime Statistics', 'Criminal Cases', 'Crime Rates', 'Criminal Justice', 'Crime Cases', 'Cognizable Crimes', 'Crime Trends', 'Crimes Registered']
+  generic: ['crime', 'criminal',  'justice', 'police']
+
+- facet: topic
+  category: Police
+  patterns: ['Police', 'Police Forces', 'Police Infrastructure', 'Police Modernisation', 'Police Strength', 'Police Posts', 'Police Stations', 'Police Personnel', 'Police Action']
+  generic: ['police', 'security', 'forces', 'crime', 'enforcement']
+
+- facet: topic
+  category: Courts
+  patterns: ['Courts', 'Court Cases', 'Judicial Cases', 'Court Infrastructure', 'Supreme Court', 'District Courts', 'Special Courts', 'Subordinate Courts', 'Consumer Courts']
+  generic: ['courts',  'justice', 'judiciary']
+
+- facet: topic
+  category: Justice
+  patterns: ['Justice', 'Judicial System', 'Access to Justice']
+  generic: ['justice', 'judiciary', 'courts', 'administration']
+
+- facet: topic
+  category: Legal Affairs
+  patterns: ['Legal Affairs', 'Legal Cases', 'Legal Administration']
+  generic: ['legal', 'affairs', 'services', 'justice']
+
+- facet: topic
+  category: Public Administration
+  patterns: ['Public Administration', 'Government Administration', 'Administrative Services', 'Administrative Reforms', 'Central Government Employees', 'Civilian Employees', 'Government Posts', 'Government Workforce']
+  generic: ['administration', 'services', 'reforms', 'employees', 'workforce']
+
+- facet: topic
+  category: Governance
+  patterns: [ 'Government Governance', 'Governance Reforms', 'Administrative Governance', 'Administrative Planning', 'Governance Monitoring', 'Public Governance']
+  generic: [ 'government', 'administration', 'reforms', 'planning']
+
+- facet: topic
+  category: Census
+  patterns: ['Census', 'Population Census', 'Census Data', 'Census Statistics', 'Census Population', 'Census of Water Bodies']
+  generic: ['census', 'population', 'statistics', 'demographic', 'data']
+
+- facet: topic
+  category: Population
+  patterns: ['Population', 'Population Statistics', 'Population Distribution', 'Population Data']
+  generic: ['population', 'demographic', 'distribution', 'census', 'demographics']
+
+- facet: topic
+  category: Households
+  patterns: ['Households', 'Household Data', 'Household Statistics', 'Household Coverage']
+  generic: ['households', 'families', 'population', 'statistics']
+
+- facet: topic
+  category: Rural Infrastructure
+  patterns: ['Rural Infrastructure', 'Rural Facilities']
+  generic: ['rural', 'infrastructure', 'roads', 'facilities']
+
+- facet: topic
+  category: Drinking Water
+  patterns: ['Drinking Water', 'Drinking Water Supply', 'Rural Drinking Water', 'Water Supply Schemes', 'Piped Water Supply', 'Water Supply Connections', 'Drinking Water Facilities', 'Household Water Connections']
+  generic: ['drinking', 'water', 'supply', 'schemes', 'households']
+
+- facet: topic
+  category: Sanitation Infrastructure
+  patterns: ['Sanitation Infrastructure', 'Sanitation Facilities', 'Rural Sanitation', 'Sanitation Coverage']
+  generic: ['sanitation', 'infrastructure', 'facilities', 'coverage']
+
+- facet: topic
+  category: Community Development
+  patterns: ['Community Development', 'Community Welfare', 'Community Projects', 'Community Schemes']
+  generic: ['community',  'welfare']
+
+- facet: topic
+  category: Infrastructure
+  patterns: ['Infrastructure', 'Infrastructure Facilities']
+  generic: ['infrastructure',  'facilities', 'projects']
+
+- facet: topic
+  category: Projects
+  patterns: ['Projects', 'Development Projects', 'Projects Sanctioned', 'Projects Approved', 'Projects Retained', 'Project Development', 'Project Implementation']
+  generic: [ 'sanctioned', 'approved', 'projects', 'implementation', 'infrastructure']
+
+- facet: topic
+  category: Schemes
+  patterns: ['Government Schemes', 'Development Schemes', 'Centrally Sponsored Schemes']
+  generic: ['schemes',  'welfare']
+
+- facet: topic
+  category: Programme Implementation
+  patterns: ['Programme Implementation', 'Scheme Implementation', 'Programme Progress', 'Implementation Status']
+  generic: ['programme', 'implementation', 'progress', 'status']
+
+- facet: topic
+  category: Government Expenditure
+  patterns: ['Government Expenditure', 'Expenditure', 'Sector-wise Expenditure', 'Programme Expenditure']
+  generic: ['expenditure', 'funds', 'sectors']
+
+- facet: topic
+  category: Budget
+  patterns: ['Budget', 'Budgetary Allocation']
+  generic: ['budget', 'allocation', 'expenditure', 'finance', 'funds']
+
+- facet: topic
+  category: Public Funds
+  patterns: ['Public Funds', 'Government Funds', 'Funds Allocation', 'Funds Utilization']
+  generic: ['funds', 'public', 'allocation', 'utilization']
+
+- facet: topic
+  category: Beneficiaries
+  patterns: ['Beneficiaries', 'Beneficiaries Covered', 'Beneficiaries under Schemes', 'Beneficiary Statistics', 'Beneficiary Coverage', 'Beneficiary Establishments']
+  generic: ['beneficiaries', 'schemes', 'welfare', 'coverage', 'families', 'benefits']
+
+- facet: topic
+  category: Financial Assistance
+  patterns: ['Financial Assistance', 'Financial Support', 'Assistance Provided', 'Financial Benefits', 'Financial Aid', 'Financial Assistance Released']
+  generic: ['financial', 'assistance', 'support', 'benefits', 'funds']
+
+- facet: topic
+  category: Training
+  patterns: ['Training', 'Training Programmes', 'Training Completed', 'Training Activities']
+  generic: ['training', 'skills', 'education', 'employment', 'candidates', 'centres']
+
+- facet: topic
+  category: Youth
+  patterns: ['Youth', 'Youth Development', 'Youth Employment', 'Youth Schemes', 'Rural Youth', 'Youth Training']
+  generic: ['youth', 'employment',  'schemes', 'training', 'skills']
+
+- facet: topic
+  category: Infrastructure Development
+  patterns: ['Infrastructure Development', 'Infrastructure Projects', 'Development Infrastructure', 'Infrastructure Expansion']
+  generic: ['infrastructure',  'expansion']
+
+- facet: topic
+  category: Regional Development
+  patterns: ['Regional Development', 'Region-wise Development', 'Regional Projects', 'Regional Schemes']
+  generic: ['regional',  'schemes']
+
+- facet: topic
+  category: North East Development
+  patterns: ['North East Development', 'North Eastern Region', 'North East Council', 'NEC Projects']
+  generic: ['northeast',  'NE', 'region']
+
+- facet: topic
+  category: Delhi
+  patterns: ['Delhi', 'Delhi Development', 'Delhi Government', 'Delhi Projects']
+  generic: ['delhi', 'development']
+
+- facet: topic
+  category: State Development
+  patterns: ['State-wise Development', 'State-wise Projects', 'State-wise Schemes', 'State-wise Status', 'State Development', 'State Infrastructure', 'State Projects', 'State Development Planning']
+  generic: ['state',  'schemes', 'infrastructure', 'planning']
+
+- facet: topic
+  category: District Development
+  patterns: ['District-wise Development', 'District Projects', 'District Schemes', 'District Statistics', 'District Development', 'District Infrastructure', 'District Development Planning']
+  generic: ['district',  'statistics', 'infrastructure', 'planning']
+
+- facet: topic
+  category: Financial Statistics
+  patterns: ['Financial Statistics', 'Financial Data', 'Financial Position', 'Financial Figures']
+  generic: ['financial', 'statistics', 'data', 'figures']
+
+- facet: topic
+  category: Statistical Analysis
+  patterns: ['Statistical Analysis', 'Statistical Information', 'Statistical Statement']
+  generic: ['statistics', 'analysis', 'data', 'statement']
+
+- facet: topic
+  category: Monitoring
+  patterns: ['Monitoring', 'Progress Monitoring', 'Scheme Monitoring', 'Programme Monitoring', 'Status Monitoring']
+  generic: ['monitoring', 'progress', 'schemes', 'status']
+
+- facet: topic
+  category: Development Planning
+  patterns: ['Development Planning', 'Planning', 'Development Plan', 'Programme Planning']
+  generic: ['planning',  'programme']
+
+- facet: topic
+  category: Public Services
+  patterns: ['Public Services', 'Government Services', 'Public Service Delivery', 'Service Delivery']
+  generic: ['public', 'services', 'delivery']
+
+- facet: topic
+  category: Complaints
+  patterns: ['Complaints', 'Public Complaints', 'Complaints Received', 'Complaint Disposal']
+  generic: ['complaints', 'public', 'disposal', 'grievances']
+
+- facet: topic
+  category: Grievance Redressal
+  patterns: ['Grievance Redressal', 'Grievance Disposal', 'Public Grievances', 'Grievance Cases']
+  generic: ['grievances', 'redressal', 'complaints', 'disposal']
+
+- facet: topic
+  category: Records
+  patterns: ['Records', 'Official Records', 'Historical Records', 'Reference Records']
+  generic: ['records', 'reference', 'historical', 'information']
+
+- facet: topic
+  category: Agricultural Labour
+  patterns: ['Agricultural Labourers', 'Agricultural Labour', 'Agricultural Activities', 'Agricultural Workers']
+  generic: ['agriculture', 'labour', 'workers', 'farming']
+
+- facet: topic
+  category: Oilseeds
+  patterns: ['Oilseeds', 'Oilseed Production', 'Oilseeds Procurement', 'Oilseed Crops']
+  generic: ['oilseeds', 'crops', 'production', 'procurement']
+
+- facet: topic
+  category: Sugarcane
+  patterns: ['Sugarcane Production', 'Sugarcane Area', 'Sugarcane Crushed', 'Sugarcane Farmers']
+  generic: ['sugarcane', 'crops', 'production', 'farmers']
+
+- facet: topic
+  category: Horticulture
+  patterns: ['Horticulture', 'Horticulture Development', 'Horticulture Mechanization', 'Horticulture Production', 'Horticultural Crops', 'Horticulture Sector']
+  generic: ['horticulture', 'crops', 'farming', 'production']
+
+- facet: topic
+  category: Vegetables
+  patterns: ['Vegetable Crop Production', 'Vegetable Production', 'Vegetable Crops']
+  generic: ['vegetables', 'crops', 'production', 'horticulture']
+
+- facet: topic
+  category: Dairy
+  patterns: ['Milk Production', 'Dairy Development', 'Dairy Processing', 'Dairy Entrepreneurship', 'Milk Availability', 'Milk Samples Analyzed', 'Dairy Sector', 'Dairy Farming', 'Dairy']
+  generic: ['dairy', 'milk', 'livestock', 'production', 'farming']
+
+- facet: topic
+  category: Fisheries
+  patterns: ['Fish Production', 'Marine Fish Production', 'Fishing Harbours', 'Fisheries Development', 'Fish Export Details', 'Fish Landing Centres', 'Fisheries', 'Fishing Harbour', 'Fishing Harbour Projects', 'Fishery Development', 'Fishing Activities']
+  generic: ['fisheries', 'fish', 'production', 'marine', 'exports', 'harbours', 'fishing']
+
+- facet: topic
+  category: Organic Farming
+  patterns: ['Organic Cultivation', 'Organic Farming', 'Organic Production', 'Organic Certification', 'Organic Inputs', 'Organic Agriculture']
+  generic: ['organic', 'farming', 'cultivation', 'certification', 'agriculture', 'crops']
+
+- facet: topic
+  category: Agricultural Credit
+  patterns: ['Agricultural Credit', 'Agriculture Credit Disbursement', 'Agriculture Loans', 'Credit Flow to Agriculture', 'Agriculture Credit Flow', 'Concessional Credit to Farmers', 'Farm Credit', 'Agriculture Credit', 'Agricultural Loans', 'Short Term Agricultural Loans']
+  generic: ['agriculture', 'credit', 'loans', 'farmers']
+
+- facet: topic
+  category: Crop Insurance
+  patterns: ['Pradhan Mantri Fasal Bima Yojana', 'Crop Insurance', 'RWBCIS', 'Crop Insurance Claims', 'Farm Insurance']
+  generic: ['PMFBY', 'insurance', 'crops', 'claims', 'crop', 'agriculture']
+
+- facet: topic
+  category: MSP
+  patterns: ['Minimum Support Price', 'MSP', 'MSP Procurement', 'Minimum Support Prices', 'Market Price and MSP']
+  generic: ['MSP', 'prices', 'procurement', 'farmers']
+
+- facet: topic
+  category: Agricultural Mechanization
+  patterns: ['Agricultural Mechanization', 'Farm Mechanization', 'Farm Implements', 'Mechanization of Agricultural Production']
+  generic: ['mechanization', 'agriculture', 'machinery', 'farming']
+
+- facet: topic
+  category: Soil Health
+  patterns: ['Soil Health Card', 'Soil Health Cards', 'Soil Samples', 'Soil Testing', 'Soil Testing Laboratories']
+  generic: ['soil', 'health', 'testing', 'farmers']
+
+- facet: topic
+  category: Agricultural Procurement
+  patterns: ['Foodgrain Procurement', 'Wheat Procurement']
+  generic: ['procurement', 'rice', 'wheat', 'paddy']
+
+- facet: topic
+  category: First-Time Job Seekers
+  patterns: ['Never Worked Before', 'Non-Workers Seeking/Available for Work and Never Worked Before', 'Non-workers Seeking/Available for Work and Those Who Never Worked Before']
+  generic: ['employment', 'jobseekers', 'labour', 'workforce']
+
+- facet: topic
+  category: Job Seekers
+  patterns: ['Job Seekers', 'Job Seekers Registered', 'Employment Exchange Job Seekers', 'National Career Service', 'Job Seekers Placed', 'Registered Job Seekers']
+  generic: ['jobseekers', 'employment', 'jobs', 'labour']
+
+- facet: topic
+  category: Unemployment
+  patterns: ['Unemployment Rate', 'Unemployment Rate for Persons Aged 15 Years and Above', 'Educated Persons Unemployment', 'Graduate Unemployment', 'Estimated Unemployment Rate', 'Youth Unemployment Rate', 'Unemployment Trends', 'Unemployment', 'Youth Unemployment']
+  generic: ['unemployment', 'employment', 'labour', 'workforce']
+
+- facet: topic
+  category: Workforce
+  patterns: ['Worker Population', 'Workforce', 'Workers Distribution']
+  generic: ['workers', 'workforce', 'labour', 'employment']
+
+- facet: topic
+  category: Female Employment
+  patterns: ['Female Labour Force Participation Rate', 'Female Employment', 'Female Workers']
+  generic: ['female', 'labour', 'employment', 'workforce']
+
+- facet: topic
+  category: DDU-GKY
+  patterns: ['DDU-GKY', 'DDUGKY', 'Deen Dayal Upadhyaya Grameen Kaushalya Yojana', 'DDU-GKY Placement', 'DDU-GKY Training']
+  generic: ['DDU-GKY', 'skills', 'training', 'employment', 'placement', 'rural', 'skill']
+
+- facet: topic
+  category: DAY-NULM
+  patterns: ['DAY-NULM', 'National Urban Livelihoods Mission', 'DAY-NULM Training', 'DAY-NULM Placement', 'Deendayal Antyodaya Yojana', 'Urban Livelihoods', 'Deendayal Antyodaya Yojana-National Urban Livelihoods Mission', 'DAY-NULM SHGs', 'DAY-NULM Livelihoods', 'Urban Livelihoods Mission']
+  generic: ['DAY-NULM', 'livelihoods', 'training', 'employment', 'urban', 'SHGs']
+
+- facet: topic
+  category: PMEGP
+  patterns: ['PMEGP', 'Prime Ministers Employment Generation Programme', 'PMEGP Employment', 'PMEGP Units', 'Prime Minister Employment Generation Programme', 'PMEGP Beneficiaries', 'PMEGP Scheme']
+  generic: ['PMEGP', 'employment', 'enterprises', 'jobs', 'loans']
+
+- facet: topic
+  category: Child Labour
+  patterns: ['Child Labour', 'National Child Labour Project', 'NCLP', 'Children Rescued from Work', 'Children Withdrawn from Work', 'Children Rescued', 'Child Labourers', 'Children Rescued from Labour', 'Child and Adolescent Labour', 'Child Labour Act']
+  generic: ['child', 'labour', 'children', 'rehabilitation', 'workers']
+
+- facet: topic
+  category: Bonded Labour
+  patterns: ['Bonded Labourers', 'Bonded Labour Rehabilitation', 'Bonded Labourers Released', 'Bonded Labourers Rehabilitated', 'Bonded Labour Identification', 'Bonded Labour']
+  generic: ['bonded', 'labour', 'rehabilitation', 'workers']
+
+- facet: topic
+  category: Social Security
+  patterns: ['Social Security', 'Social Security Schemes', 'Social Protection', 'Social Security Coverage', 'Social Security Fund', 'Social Security Benefits']
+  generic: ['security', 'insurance', 'welfare', 'protection', 'social', 'benefits']
+
+- facet: topic
+  category: Insurance
+  patterns: ['Insurance Coverage', 'Premium Collected', 'Claims Settled', 'Insurance Schemes', 'Insurance', 'Insurance Scheme']
+  generic: ['insurance', 'premium', 'claims', 'coverage', 'beneficiaries']
+
+- facet: topic
+  category: PMJJBY
+  patterns: ['PMJJBY', 'Pradhan Mantri Jeevan Jyoti Bima Yojana', 'PMJJBY Enrolments', 'PMJJBY Claims']
+  generic: ['PMJJBY', 'insurance', 'enrolment', 'claims']
+
+- facet: topic
+  category: PMSBY
+  patterns: ['PMSBY', 'Pradhan Mantri Suraksha Bima Yojana', 'PMSBY Enrolments']
+  generic: ['PMSBY', 'insurance', 'enrolment', 'beneficiaries']
+
+- facet: topic
+  category: PMMY
+  patterns: ['PMMY', 'Pradhan Mantri Mudra Yojana', 'MUDRA Yojana', 'MUDRA Loans', 'Mudra Portal', 'Loans Extended under PMMY', 'Loans under PMMY', 'PMMY Loans']
+  generic: ['PMMY', 'loans', 'credit', 'finance']
+
+- facet: topic
+  category: NPAs
+  patterns: ['Non-Performing Assets', 'Gross NPAs', 'GNPAs', 'NPA Reduction', 'NPA Recovery', 'NPA Data']
+  generic: ['NPAs', 'banking', 'credit', 'recovery']
+
+- facet: topic
+  category: Financial Fraud
+  patterns: ['Bank Fraud', 'Fraud Cases', 'Loan Account Fraud', 'Financial Institution Fraud', 'Fraud Monitoring', 'Frauds Reported by Banks', 'Financial Fraud']
+  generic: ['fraud', 'banking', 'finance', 'crime']
+
+- facet: topic
+  category: Credit
+  patterns: ['Credit Disbursement', 'Credit Flow', 'Outstanding Credit', 'Loans Sanctioned', 'Loan Disbursement']
+  generic: ['credit', 'loans', 'banking', 'finance']
+
+- facet: topic
+  category: GST
+  patterns: ['GST', 'Goods and Services Tax', 'GST Collection', 'GST Returns', 'IGST CGST SGST', 'Taxes Subsumed under GST', 'GST Revenue']
+  generic: ['GST', 'tax', 'revenue', 'collection']
+
+- facet: topic
+  category: Taxation
+  patterns: ['Direct Tax', 'Indirect Tax', 'Tax Collection', 'Tax Payers', 'Taxes Payable', 'Direct Taxes', 'Indirect Taxes', 'Tax Devolution', 'Taxation']
+  generic: ['tax', 'revenue', 'collection', 'taxpayers', 'taxation']
+
+- facet: topic
+  category: GDP
+  patterns: ['GDP', 'Gross Domestic Product', 'GSDP', 'Gross State Domestic Product', 'GDP Growth', 'Ratio of Exports to GDP', 'GDP Estimates', 'GDP at Current Prices']
+  generic: ['GDP', 'economy', 'growth', 'income']
+
+- facet: topic
+  category: Income
+  patterns: ['Per Capita Income', 'Monthly Income', 'Net National Income']
+  generic: ['income', 'earnings', 'households', 'economy']
+
+- facet: topic
+  category: Inflation
+  patterns: ['Inflation', 'Consumer Price Index', 'CPI-C Inflation', 'Inflation Rate', 'Retail Inflation', 'Consumer Inflation']
+  generic: ['inflation', 'prices', 'CPI', 'economy', 'consumer']
+
+- facet: topic
+  category: FDI
+  patterns: ['FDI', 'Foreign Direct Investment', 'FDI Equity Inflows', 'Sector-wise FDI', 'Country-wise FDI', 'Foreign Investment', 'FDI Inflows', 'FDI Equity Inflow']
+  generic: ['FDI', 'investment', 'equity', 'capital']
+
+- facet: topic
+  category: Startups
+  patterns: ['Startup India', 'Recognized Startups', 'Startups Recognized', 'Fund of Funds for Startups', 'Startups', 'Start-up', 'Startup Enterprises']
+  generic: ['startups', 'entrepreneurship', 'investment', 'finance', 'innovation', 'employment']
+
+- facet: topic
+  category: Handloom
+  patterns: ['Handloom', 'Handloom Weavers', 'Handloom Development', 'Handloom Products', 'Handloom Schemes', 'Handloom Sector']
+  generic: ['handloom', 'weavers', 'textiles', 'artisans', 'weaving']
+
+- facet: topic
+  category: Handicrafts
+  patterns: ['Handicrafts', 'Handicraft Artisans', 'Handmade Carpets', 'Handicraft Development', 'Handicraft Schemes', 'Handicraft Products']
+  generic: ['handicrafts', 'artisans', 'exports', 'products', 'textiles', 'crafts']
+
+- facet: topic
+  category: Solar Energy
+  patterns: ['Solar Power', 'Solar Parks', 'Solar Capacity', 'Grid Connected Solar Power', 'Rooftop Solar', 'Solar Projects', 'Solar Energy', 'Solar Power Projects']
+  generic: ['solar', 'energy', 'power', 'renewable']
+
+- facet: topic
+  category: Digital
+  patterns: ['Digital Payments', 'Digital', 'Digital Transformation']
+  generic: ['digital', 'payments', 'literacy', 'connectivity', 'technology', 'services', 'infrastructure']
+
+- facet: topic
+  category: Aadhaar
+  patterns: ['Aadhaar', 'Aadhaar Saturation', 'Aadhaar Coverage', 'Aadhaar-linked Ration Cards', 'Aadhaar Cards', 'Aadhaar Enrolment', 'Aadhaar Authentication']
+  generic: ['Aadhaar', 'identity', 'coverage', 'authentication', 'cards']
+
+- facet: topic
+  category: Literacy
+  patterns: ['Literacy Rate', 'Basic Literacy', 'Literacy Assessment', 'Literacy Programme', 'Literacy', 'Adult Literacy', 'Illiteracy']
+  generic: ['literacy', 'education', 'learning', 'students', 'illiteracy']
+
+- facet: topic
+  category: Vocational Education
+  patterns: ['Vocational Education', 'Vocational Admissions', 'Vocational Training', 'Technical Education', 'Vocational Training Infrastructure', 'Vocational Training Centres', 'Vocational Courses']
+  generic: ['vocational', 'education', 'training', 'skills']
+
+- facet: topic
+  category: PMKVY Education
+  patterns: ['PMKVY Training', 'PMKVY Candidates', 'PMKVY Certification', 'PMKVY Placement']
+  generic: ['PMKVY', 'training', 'certification', 'placement']
+
+- facet: topic
+  category: School Dropout
+  patterns: ['Dropout Rates', 'Drop-Out Rate', 'Student Dropout', 'School Dropout']
+  generic: ['dropout', 'students', 'schools', 'education']
+
+- facet: topic
+  category: Enrolment
+  patterns: ['Gross Enrolment Ratio', 'Gross Access Ratio', 'Student Enrolment', 'Enrolment', 'Candidate Enrolment', 'Enrolment Ratio']
+  generic: ['enrolment', 'students', 'education', 'schools', 'candidates']
+
+- facet: topic
+  category: Teachers
+  patterns: ['Teachers', 'Teacher Strength', 'Teacher Shortage', 'Teacher Training', 'Teaching Positions', 'Teacher Vacancies', 'School Teachers', 'Teacher Recruitment']
+  generic: ['teachers', 'education', 'training', 'schools']
+
+- facet: topic
+  category: Healthcare Infrastructure
+  patterns: ['Health Facilities', 'PHCs', 'CHCs', 'District Hospitals', 'Health Centres', 'Healthcare Facilities']
+  generic: ['health', 'infrastructure', 'hospitals', 'facilities']
+
+- facet: topic
+  category: Doctors
+  patterns: ['Doctors', 'Medical Doctors', 'Doctors Availability', 'Doctor Shortage', 'Registered Doctors', 'Doctor Availability', 'Doctor Vacancies']
+  generic: ['doctors', 'medical', 'health', 'workforce']
+
+- facet: topic
+  category: Nursing
+  patterns: ['Nursing Staff', 'Nurses', 'Nursing Workforce', 'Nursing Positions']
+  generic: ['nursing', 'nurses', 'health', 'workforce']
+
+- facet: topic
+  category: Mortality
+  patterns: ['Infant Mortality Rate', 'Neonatal Mortality Rate', 'Under-5 Mortality Rate', 'Mortality Rate']
+  generic: ['mortality', 'infant', 'neonatal', 'children']
+
+- facet: topic
+  category: Immunization
+  patterns: ['Immunization Coverage', 'Full Immunization', 'Immunization Programme', 'Immunization']
+  generic: ['immunization', 'vaccines', 'children', 'health', 'vaccination']
+
+- facet: topic
+  category: HIV
+  patterns: ['HIV/AIDS', 'HIV Cases', 'AIDS Patients', 'HIV/AIDS Deaths', 'ART Centers', 'HIV']
+  generic: ['HIV', 'AIDS', 'health', 'patients']
+
+- facet: topic
+  category: Tuberculosis
+  patterns: ['TB Control Programme', 'National TB Control Programme', 'RNTCP', 'TB Programme', 'TB', 'Tuberculosis', 'TB Cases', 'TB Control']
+  generic: ['TB', 'tuberculosis', 'health', 'treatment']
+
+- facet: topic
+  category: Cancer
+  patterns: ['Cancer Institutes', 'Cancer Centres', 'Cancer Patients Fund', 'Cancer Drugs']
+  generic: ['cancer', 'health', 'hospitals', 'treatment']
+
+- facet: topic
+  category: AYUSH
+  patterns: ['AYUSH', 'National AYUSH Mission', 'AYUSH Hospitals', 'AYUSH Colleges', 'AYUSH Practitioners', 'AYUSH Services', 'AYUSH Healthcare', 'AYUSH Systems', 'AYUSH Facilities']
+  generic: ['AYUSH', 'medicine', 'hospitals', 'practitioners', 'health']
+
+- facet: topic
+  category: Anganwadi
+  patterns: ['Anganwadi Services', 'Anganwadi Centres', 'Anganwadi Workers', 'Anganwadi Helpers', 'Anganwadi Buildings', 'Anganwadi']
+  generic: ['Anganwadi', 'ICDS', 'children', 'nutrition', 'welfare']
+
+- facet: topic
+  category: Maternity
+  patterns: ['Maternity Benefit Programme', 'Maternity Benefits']
+  generic: ['maternity', 'PMMVY', 'women', 'benefits']
+
+- facet: topic
+  category: Child Protection
+  patterns: ['Child Protection Services', 'Child Care Institutions', 'Juvenile Justice', 'Child Safety', 'Child Protection', 'Child Protection Committees']
+  generic: ['children', 'protection', 'safety', 'justice', 'child', 'welfare', 'care']
+
+- facet: topic
+  category: POCSO
+  patterns: ['POCSO Act', 'Protection of Children from Sexual Offences', 'POCSO Cases', 'POCSO Victims', 'POCSO']
+  generic: ['POCSO', 'children', 'offences', 'protection']
+
+- facet: topic
+  category: Women Safety
+  patterns: ['Rape Cases', 'Acid Attack', 'Women Police Stations', 'Women Safety', 'Rape of Women', 'Women Police', 'Women Support Services', 'Women Assistance', 'Women Protection']
+  generic: ['women', 'crime', 'safety', 'police', 'assistance', 'protection']
+
+- facet: topic
+  category: OBC
+  patterns: ['Other Backward Classes', 'OBC Students', 'OBC Scholarships', 'OBC Beneficiaries', 'OBC Hostels', 'OBC Welfare']
+  generic: ['OBC', 'backward', 'students', 'scholarships', 'welfare']
+
+- facet: topic
+  category: Senior Citizens
+  patterns: ['Senior Citizens', 'Senior Citizen Homes', 'Old Age Homes', 'Older Persons', 'Senior Citizen Welfare', 'Senior Citizen Safety']
+  generic: ['senior', 'citizens', 'elderly', 'welfare']
+
+- facet: topic
+  category: Manual Scavenging
+  patterns: ['Manual Scavengers', 'Manual Scavenging', 'Prohibition of Employment as Manual Scavengers', 'Manual Scavenger Rehabilitation', 'Manual Scavenging-free Districts', 'Sanitation Workers']
+  generic: ['scavengers', 'sanitation', 'rehabilitation', 'welfare', 'manual', 'scavenging', 'workers']
+
+- facet: topic
+  category: Poverty
+  patterns: ['Urban Poverty', 'Rural Poverty', 'Poverty Alleviation', 'Urban Poor', 'Poor Households', 'Poverty', 'Poverty Index', 'Multi-Dimensional Poverty', 'Poverty Reduction']
+  generic: ['poverty', 'rural', 'urban', 'households', 'deprivation', 'welfare']
+
+- facet: topic
+  category: AMRUT
+  patterns: ['AMRUT', 'Atal Mission for Rejuvenation and Urban Transformation', 'AMRUT Cities', 'AMRUT Projects', 'AMRUT 2.0']
+  generic: ['AMRUT', 'urban', 'water', 'infrastructure']
+
+- facet: topic
+  category: Smart Cities
+  patterns: ['Smart Cities Mission', 'Smart City Mission', 'Smart Cities Projects', 'SCM', 'Smart City Projects', 'Smart Cities']
+  generic: ['smart', 'cities', 'urban', 'infrastructure']
+
+- facet: topic
+  category: Swachh Bharat
+  patterns: ['Swachh Bharat Mission', 'Swachh Bharat Mission Urban', 'Swachh Bharat Mission Gramin']
+  generic: ['Swachh', 'sanitation', 'toilets', 'hygiene']
+
+- facet: topic
+  category: Water Quality
+  patterns: ['Water Quality', 'Fluoride Affected Habitations', 'Arsenic', 'Nitrate', 'Heavy Metals', 'Water Quality Monitoring', 'Polluted Water', 'Water Treatment', 'Water Pollution']
+  generic: ['water', 'quality', 'fluoride', 'arsenic', 'pollution', 'treatment']
+
+- facet: topic
+  category: Water Resources
+  patterns: ['Water Resources', 'Ground Water Resources', 'River Basins', 'Water Recharge', 'Water Potential', 'Water Management', 'Water Resource Management', 'Water Resources Development']
+  generic: ['water', 'resources', 'groundwater', 'rivers', 'management']
+
+- facet: topic
+  category: PMGSY
+  patterns: ['PMGSY', 'Pradhan Mantri Gram Sadak Yojana', 'PMGSY Works', 'PMGSY Projects', 'PMGSY Connectivity']
+  generic: ['PMGSY', 'roads', 'rural', 'connectivity']
+
+- facet: topic
+  category: National Highways
+  patterns: ['National Highways', 'National Highway Projects', 'National Highways Construction', 'Highway Development', 'National Highways Constructed', 'NH Projects', 'National Highway Development', 'NH Development']
+  generic: ['highways', 'roads', 'transport', 'infrastructure']
+
+- facet: topic
+  category: Metro Rail
+  patterns: ['Metro Rail Projects', 'Metro Rail', 'Metro Rail Implementation', 'Metro Rail Joint Ventures']
+  generic: ['metro', 'rail', 'transport', 'urban']
+
+- facet: topic
+  category: Road Safety
+  patterns: ['Road Accident Deaths', 'Road Safety', 'Pothole Accidents', 'Pedestrian Deaths', 'Persons Killed and Injured', 'Road Safety Programme', 'Road Accident Prevention', 'Traffic Safety']
+  generic: ['roads', 'accidents', 'safety', 'deaths', 'traffic']
+
+- facet: topic
+  category: Floods
+  patterns: ['Flood Damage', 'Floods', 'Flood Damage Statement', 'Flood Rehabilitation', 'Flood Relief', 'Flood Assistance']
+  generic: ['floods', 'damage', 'relief', 'rehabilitation', 'assistance', 'forecasting']
+
+- facet: topic
+  category: Drought
+  patterns: ['Drought', 'Drought Affected Districts', 'Drought Assistance', 'Drought Relief', 'Drought Affected Areas']
+  generic: ['drought', 'relief', 'assistance', 'agriculture']
+
+- facet: topic
+  category: Afforestation
+  patterns: ['Compensatory Afforestation', 'Afforestation Funds']
+  generic: ['afforestation', 'forests', 'conservation', 'environment']
+
+- facet: topic
+  category: Pollution
+  patterns: ['Polluted River Stretches', 'Grossly Polluting Industries', 'Pollution Control', 'Air Pollution', 'Pollution Monitoring', 'Pollution']
+  generic: ['pollution', 'water', 'industries', 'environment', 'air']
+
+- facet: topic
+  category: Archaeology
+  patterns: ['Archaeological Survey of India', 'Excavation Reports', 'Archaeological Excavations', 'Archaeological Survey', 'Archaeology']
+  generic: ['archaeology', 'excavation', 'heritage', 'monuments']
+
+- facet: topic
+  category: Khelo India
+  patterns: ['Khelo India', 'Khelo India Athletes', 'Khelo India Scheme', 'Khelo India Projects', 'Khelo India Programme', 'Khelo India Centres']
+  generic: ['Khelo', 'India', 'athletes', 'sports', 'training']
+
+- facet: topic
+  category: Terrorism
+  patterns: ['Terrorist Attacks', 'Terrorists Killed', 'Terrorist Incidents', 'Terrorism Cases']
+  generic: ['terrorism', 'violence', 'attacks', 'security']
+
+- facet: topic
+  category: LWE
+  patterns: ['LWE Violence', 'LWE Affected Districts', 'Combating LWE', 'LWE Affected Areas', 'LWE Surrenders', 'LWE']
+  generic: ['LWE', 'extremism', 'violence', 'security']
+
+- facet: topic
+  category: Cybercrime
+  patterns: ['Cyber Crime', 'Cyber Crime Cases', 'Cybercrime under Information Technology Act', 'Cyber Crime Statistics', 'Cybercrime Cases', 'Cyber Security', 'Cyber Defacement', 'Cybercrime Complaints', 'Cybercrime', 'Cyber Blackmailing', 'Cyber Threatening']
+  generic: ['cybercrime', 'crime', 'technology', 'security', 'cyber']
+
+- facet: topic
+  category: Human Trafficking
+  patterns: ['Human Trafficking', 'Trafficked Victims', 'Victims Rescued', 'Anti Human Trafficking']
+  generic: ['trafficking', 'victims', 'rescue', 'crime']
+
+- facet: topic
+  category: Missing Children
+  patterns: ['Missing Children', 'Children Traced', 'Missing Girls', 'Children Recovered']
+  generic: ['children', 'missing', 'tracing', 'safety']
+
+- facet: topic
+  category: Prison
+  patterns: ['Prisons', 'Jails', 'Inmate Population', 'Jail Capacity', 'Undertrials']
+  generic: ['prisons', 'jails', 'inmates', 'justice']
+
+- facet: topic
+  category: Judicial Pendency
+  patterns: ['Pending Cases', 'Pendency of Cases', 'Court Pendency', 'Cases Pending']
+  generic: ['pendency', 'courts',  'justice']
+
+- facet: topic
+  category: Parliament
+  patterns: ['Parliamentary Question', 'Starred Question', 'Unstarred Question']
+  generic: ['parliament', 'rajya', 'sabha', 'lok']
+
+- facet: topic
+  category: IAS
+  patterns: ['Indian Administrative Service', 'IAS', 'IAS Cadre', 'IAS Strength']
+  generic: ['IAS', 'administration', 'cadre', 'officers']
+
+- facet: topic
+  category: IPS
+  patterns: ['Indian Police Service', 'IPS', 'IPS Cadre', 'IPS Strength']
+  generic: ['IPS', 'police', 'cadre', 'officers']
+
+- facet: topic
+  category: Consumer Affairs
+  patterns: ['Consumer Affairs', 'Consumer Grievances']
+  generic: ['consumer', 'complaints', 'protection',  'grievances']
+
+- facet: topic
+  category: Consumer Grievance
+  patterns: ['Consumer Complaints', 'Consumer Helpline', 'Complaints Disposed']
+  generic: ['consumer', 'grievance', 'complaints', 'redressal']
+
+- facet: topic
+  category: Food Security
+  patterns: ['National Food Security Act', 'Food Security', 'Food Security Coverage', 'Food Security Programme']
+  generic: ['food', 'security', 'ration', 'subsidy', 'households']
+
+- facet: topic
+  category: Public Distribution
+  patterns: ['Food Distribution']
+  generic: ['distribution', 'ration', 'food', 'households']
+
+- facet: topic
+  category: Storage
+  patterns: ['Storage Facilities', 'Cold Storages', 'Storage Godowns', 'Silos', 'Storage Capacity', 'Foodgrain Storage', 'Central Pool Stocks', 'Food Storage']
+  generic: ['storage', 'godowns', 'silos', 'food', 'foodgrains', 'stocks', 'warehouses']
+
+- facet: topic
+  category: Postal
+  patterns: ['Department of Posts', 'Postal Circles', 'Postal Connectivity']
+  generic: ['postal', 'offices', 'banking', 'services', 'savings', 'connectivity']
+
+- facet: topic
+  category: Insurance Regulation
+  patterns: ['IRDAI', 'Insurance Complaints', 'Insurance Claims', 'General Insurers']
+  generic: ['IRDAI', 'insurance', 'complaints', 'claims']
+
+- facet: topic
+  category: CSR
+  patterns: ['CSR Expenditure', 'CSR Activities', 'CSR Funds', 'CSR']
+  generic: ['CSR', 'corporate', 'expenditure', 'social']
+
+- facet: topic
+  category: Insolvency
+  patterns: ['Corporate Insolvency Resolution Process', 'CIRP', 'Insolvency Resolution']
+  generic: ['CIRP', 'insolvency', 'corporate', 'resolution']
+
+- facet: topic
+  category: Public Sector Enterprises
+  patterns: ['Public Sector Undertakings', 'PSUs', 'Central Public Sector Enterprises', 'CPSEs']
+  generic: ['PSUs', 'CPSEs', 'enterprises']
+
+- facet: topic
+  category: Tax Appeals
+  patterns: ['Tax Appeals', 'Appeals before Courts', 'CBDT Appeals', 'CBIC Appeals']
+  generic: ['tax', 'appeals', 'courts', 'revenue']
+
+- facet: topic
+  category: Skill Training
+  patterns: ['Industrial Training Institutes', 'ITIs', 'Craftsmen Training Scheme', 'Training Centres']
+  generic: ['ITIs', 'training', 'skills', 'craftsmen']
+
+- facet: topic
+  category: Employment Services
+  patterns: ['Career Centres']
+  generic: ['employment', 'exchanges', 'jobs', 'careers']
+
+- facet: topic
+  category: Rural Livelihoods
+  patterns: ['Rural Livelihoods', 'Rural Self Employment', 'Livelihood Training', 'Rural Livelihood Programmes']
+  generic: ['rural', 'livelihoods', 'employment', 'training', 'development']
+
+- facet: topic
+  category: Self Help Groups
+  patterns: ['Self Help Groups', 'SHG-Bank Linkage', 'SHG Loans', 'Women Self Help Groups', 'SHG Credit']
+  generic: ['SHGs', 'groups', 'loans', 'livelihoods', 'women', 'credit']
+
+- facet: topic
+  category: Micro Enterprises
+  patterns: ['Micro Enterprises', 'Micro Enterprise Assistance', 'Individual Micro Enterprises', 'Group Micro Enterprises']
+  generic: ['micro', 'enterprises', 'livelihoods', 'finance']
+
+- facet: topic
+  category: Tribal Development
+  patterns: ['TSP', 'Scheduled Tribe Component', 'STC', 'Tribal Development']
+  generic: ['tribal', 'TSP', 'STC', 'development']
+
+- facet: topic
+  category: Vulnerable Tribes
+  patterns: ['Particularly Vulnerable Tribal Groups', 'PVTGs', 'Vulnerable Tribal Groups']
+  generic: ['PVTGs', 'tribal', 'vulnerable', 'development']
+
+- facet: topic
+  category: Tribal Education
+  patterns: ['Tribal Education', 'ST Girls Education', 'Residential Schools for ST Students']
+  generic: ['tribal', 'education', 'ST', 'students']
+
+- facet: topic
+  category: Tribal Finance
+  patterns: ['Tribal Finance', 'STFDCs', 'Tribal Finance Corporations', 'Tribal Development Finance']
+  generic: ['tribal', 'finance', 'corporations', 'development']
+
+- facet: topic
+  category: Women Development
+  patterns: ['Mahila Shakti Kendra', 'Women Helpline', 'Beti Bachao Beti Padhao']
+  generic: ['women', 'Mahila', 'helpline', 'welfare']
+
+- facet: topic
+  category: Childcare
+  patterns: ['National Creche Scheme', 'Creches', 'Day Care Centres']
+  generic: ['creche', 'childcare', 'children', 'women']
+
+- facet: topic
+  category: MGNREGA Infrastructure
+  patterns: ['Assets Created under MGNREGA', 'Water Conservation Works', 'Water Harvesting Works', 'MGNREGA Assets']
+  generic: ['MGNREGA', 'assets', 'water', 'infrastructure']
+
+- facet: topic
+  category: Rural Roads
+  patterns: ['Rural Roads', 'All Weather Roads', 'PMGSY Roads', 'Rural Road Construction', 'Rural Road Connectivity', 'Rural Roads Development']
+  generic: ['rural', 'roads', 'connectivity', 'construction', 'infrastructure']
+
+- facet: topic
+  category: Water Conservation
+  patterns: ['Water Conservation', 'Water Harvesting', 'Groundwater Recharge']
+  generic: ['water', 'conservation', 'harvesting', 'recharge']
+
+- facet: topic
+  category: Climate Change
+  patterns: ['Climate Change', 'National Action Plan on Climate Change', 'NAPCC', 'Climate Missions', 'National Adaptation Fund for Climate Change', 'Climate Change Programme', 'Climate Adaptation', 'Climate Programme', 'Climate Action', 'Climate Risk']
+  generic: ['climate', 'change', 'environment', 'missions', 'adaptation']
+
+- facet: topic
+  category: Science
+  patterns: ['Scientific Agencies', 'CSIR Projects', 'Science Translation']
+  generic: ['science', 'research', 'CSIR', 'innovation', 'technology']
+
+- facet: topic
+  category: Innovation
+  patterns: ['Patents', 'Patent Applicants', 'Innovation', 'Startup Innovation', 'Technology Innovation', 'Innovation Development', 'Innovation Activities', 'Innovative Projects']
+  generic: ['patents', 'innovation', 'research', 'technology',  'startups']
+
+- facet: topic
+  category: Tourism Infrastructure
+  patterns: ['Tourism Infrastructure', 'Tourism Projects', 'Tourist Infrastructure', 'Hospitality Infrastructure']
+  generic: ['tourism', 'infrastructure', 'projects', 'heritage', 'hospitality']
+
+- facet: topic
+  category: Aviation
+  patterns: ['Air Passenger Traffic', 'Airlines', 'Civil Aviation', 'Foreign Pilots', 'Aviation Infrastructure', 'Air Routes', 'Air Transport']
+  generic: ['aviation', 'airlines', 'airports', 'passengers']
+
+- facet: topic
+  category: Shipping
+  patterns: ['Port Manpower', 'Ports', 'Port Infrastructure']
+  generic: ['ports', 'shipping', 'manpower', 'infrastructure']
+
+- facet: topic
+  category: Natural Gas
+  patterns: ['Natural Gas', 'Natural Gas Price', 'Domestic Natural Gas', 'Gas Pricing', 'Natural Gas Production', 'Natural Gas Consumption', 'Natural Gas Supply', 'Piped Natural Gas', 'Natural Gas Connections']
+  generic: ['gas', 'energy', 'prices', 'petroleum', 'production', 'consumption', 'natural', 'PNG']
+
+- facet: topic
+  category: LPG
+  patterns: ['LPG Connections', 'LPG Accidents', 'LPG Supply', 'LPG', 'Domestic LPG', 'LPG Refills', 'LPG Distribution']
+  generic: ['LPG', 'PMUY', 'energy', 'households', 'connections', 'fuel']
+
+- facet: topic
+  category: Rail Safety
+  patterns: ['Rail Accidents', 'Unmanned Level Crossings', 'UMLCs']
+  generic: ['railways', 'accidents', 'safety', 'crossings']
+
+- facet: topic
+  category: Electricity Access
+  patterns: ['Household Electrification', 'Saubhagya', 'Electricity Connections', 'Un-electrified Households']
+  generic: ['electricity', 'households', 'access', 'energy']
+
+- facet: topic
+  category: Renewable Projects
+  patterns: ['Renewable Energy Projects', 'Biogas Plants', 'Hydro Projects', 'Renewable Power Projects', 'Renewable Projects']
+  generic: ['renewable', 'solar', 'biogas', 'hydro', 'energy', 'power', 'projects']
+
+- facet: topic
+  category: Sports Infrastructure
+  patterns: ['Sports Infrastructure', 'Sports Projects', 'Khelo India Infrastructure', 'Sports Facilities', 'Sports Centres']
+  generic: ['sports', 'infrastructure', 'facilities', 'development']
+
+- facet: topic
+  category: Sports Training
+  patterns: ['Sports Persons Training', 'Athlete Training', 'Sports Training Centres', 'Talent Identification']
+  generic: ['sports', 'athletes', 'training', 'talent']
+
+- facet: topic
+  category: Parliamentary Funds
+  patterns: ['MPLADS', 'Members of Parliament Local Area Development Scheme', 'MPLADS Funds']
+  generic: ['MPLADS', 'parliament', 'funds', 'development']
+
+- facet: topic
+  category: Government Budget
+  patterns: ['Budget Allocation', 'Budget Estimates', 'Revised Estimates', 'Actual Expenditure', 'Budget Expenditure', 'Budget Provision']
+  generic: ['budget', 'allocation', 'expenditure', 'finance']
+
+- facet: topic
+  category: Government Funds
+  patterns: ['Funds Allocated', 'Funds Released', 'Funds Utilized']
+  generic: ['funds', 'allocation', 'release', 'utilization']
+
+- facet: topic
+  category: Scheme Performance
+  patterns: ['Physical Targets and Achievements', 'Financial Progress', 'Scheme Achievements']
+  generic: ['targets', 'achievements', 'progress', 'performance']
+
+- facet: topic
+  category: Grants
+  patterns: ['Grant-in-Aid', 'Grants Released', 'Financial Grants', 'Central Grants']
+  generic: ['grant', 'assistance', 'finance', 'funding', 'grants']
+
+- facet: topic
+  category: Rehabilitation
+  patterns: ['Rehabilitation', 'Rehabilitation Centres', 'Rehabilitation Benefits', 'Rehabilitated Persons']
+  generic: ['rehabilitation', 'welfare', 'assistance', 'recovery']
+
+- facet: topic
+  category: Grievance
+  patterns: ['Grievance Complaints', 'Grievances Received']
+  generic: ['complaints', 'grievance', 'redressal', 'disposal']
+
+- facet: topic
+  category: Statistics
+  patterns: ['Statistical Estimates', 'Survey Results', 'Survey Data']
+  generic: ['statistics', 'survey', 'estimates', 'analysis']
+
+- facet: topic
+  category: Agricultural Production
+  patterns: ['Agricultural Production', 'Crop Production', 'Production of Agricultural Crops', 'Agricultural Output', 'Agricultural Productivity']
+  generic: ['agriculture', 'production', 'crops', 'farming', 'productivity']
+
+- facet: topic
+  category: Animal Husbandry
+  patterns: ['Animal Husbandry', 'Animal Husbandry Development', 'Animals Registered', 'Animal Husbandry Department', 'Animal Health']
+  generic: ['animals', 'livestock', 'husbandry', 'dairy', 'health']
+
+- facet: topic
+  category: PMKSY
+  patterns: ['PMKSY', 'Pradhan Mantri Krishi Sinchayee Yojana', 'PMKSY-AIBP', 'PMKSY-PDMC', 'PMKSY-WDC', 'PMKSY 1.0', 'PMKSY 2.0', 'Per Drop More Crop', 'PMKSY Scheme', 'PMKSY Components']
+  generic: ['PMKSY', 'irrigation', 'agriculture', 'water']
+
+- facet: topic
+  category: PM-KISAN
+  patterns: ['PM-KISAN', 'Pradhan Mantri Kisan Samman Nidhi', 'PM-KISAN Beneficiaries', 'PM-KISAN Installments', 'PM-KISAN Payments', 'PM-KISAN Yojana', 'PM Kisan Scheme']
+  generic: ['PM-KISAN', 'farmers', 'agriculture', 'beneficiaries', 'benefits']
+
+- facet: topic
+  category: NABARD
+  patterns: ['NABARD', 'Agriculture Credit Flow as Reported by NABARD', 'NABARD Refinance', 'NABARD Assistance', 'NABARD Credit']
+  generic: ['NABARD', 'credit', 'agriculture', 'finance']
+
+- facet: topic
+  category: MGNREGA
+  patterns: ['MGNREGA', 'Mahatma Gandhi National Rural Employment Guarantee Act', 'MGNREGA Expenditure', 'MGNREGA Employment', 'MGNREGA Employment Demand', 'MGNREGA Works', 'MGNREGA Wage Rate']
+  generic: ['MGNREGA', 'employment', 'rural', 'wages']
+
+- facet: topic
+  category: MGNREGS
+  patterns: ['MGNREGS', 'Mahatma Gandhi National Rural Employment Guarantee Scheme', 'MGNREGS Expenditure', 'MGNREGS Works', 'MGNREGS Person Days', 'MGNREGS Employment', 'MGNREGS Wage Liabilities', 'Mahatma Gandhi NREGS']
+  generic: ['MGNREGS', 'employment', 'rural', 'works', 'wages']
+
+- facet: topic
+  category: Employment Exchanges
+  patterns: ['Employment Exchanges', 'Employment Exchange Statistics', 'Job Seekers Placed through Employment Exchanges', 'Live Register of Employment Exchanges', 'Employment Exchange Placement']
+  generic: ['employment', 'exchanges', 'jobseekers', 'placement']
+
+- facet: topic
+  category: Job Fairs
+  patterns: ['Job Fairs', 'Job Fairs Organized', 'Employers Attended Job Fairs', 'Job Fairs for Unemployed Youth', 'Persons Secured Jobs through Job Fairs', 'Employment Job Fairs']
+  generic: ['jobs', 'fairs', 'employers', 'employment', 'placement']
+
+- facet: topic
+  category: Labour Force
+  patterns: ['Labour Force Participation Rate', 'Worker Population Ratio', 'Labour Force', 'Labour Participation']
+  generic: ['labour', 'workforce', 'employment', 'participation']
+
+- facet: topic
+  category: Wages
+  patterns: ['Minimum Wages', 'Average Wage Earnings', 'Wage Earnings per Day', 'Wage Rate', 'Wages', 'Average Wage', 'Daily Wage Rates']
+  generic: ['wages', 'labour', 'earnings', 'employment', 'workers']
+
+- facet: topic
+  category: Minimum Wages
+  patterns: ['Basic Minimum Wages', 'Minimum Wages per Day', 'Scheduled Employment-wise Increased Rates of Wages', 'Minimum Wage Rates']
+  generic: ['wages', 'labour', 'employment', 'rates']
+
+- facet: topic
+  category: Migrant Workers
+  patterns: ['Inter-State Migrant Workers', 'Migrant Workers Returned Home', 'Migrant Workers during Lockdown', 'Migrant Labour', 'Migrant Workers', 'Migrant Workers Returned']
+  generic: ['migrant', 'workers', 'labour', 'employment']
+
+- facet: topic
+  category: Contract Labour
+  patterns: ['Contract Labour', 'Contract Labour Act', 'Contractual Employees', 'Central Sphere Establishments']
+  generic: ['contract', 'labour', 'workers', 'employment']
+
+- facet: topic
+  category: Construction Workers
+  patterns: ['Construction Workers', 'Building and Other Construction Workers', 'BoCW Act', 'Construction Worker Welfare']
+  generic: ['construction', 'workers', 'labour', 'welfare']
+
+- facet: topic
+  category: ITI
+  patterns: ['ITI Trainees', 'Affiliated Industrial Training Institutes']
+  generic: ['ITIs', 'training', 'skills', 'vocational']
+
+- facet: topic
+  category: DAY-NRLM
+  patterns: ['DAY-NRLM', 'Deendayal Antyodaya Yojana-National Rural Livelihoods Mission', 'DAY-NRLM Targets', 'DAY-NRLM Complaints', 'DAY-NRLM Self Help Groups', 'DAY-NRLM Women SHGs', 'DAY-NRLM SHGs', 'DAY-NRLM Livelihoods', 'Rural Livelihoods Mission']
+  generic: ['DAY-NRLM', 'livelihoods', 'rural', 'employment', 'SHGs']
+
+- facet: topic
+  category: PM-SYM
+  patterns: ['PM-SYM', 'Pradhan Mantri Shram Yogi Maan-Dhan', 'PM-SYM Enrolment', 'PM-SYM Beneficiaries', 'Pradhan Mantri Shram Yogi Maan-dhan Yojana', 'PM-SYM Allocation', 'Pradhan Mantri Shram Yogi Maandhan Yojana', 'PM Shram Yogi Maandhan', 'PM-SYM Scheme']
+  generic: ['PM-SYM', 'pension', 'labour', 'beneficiaries', 'workers']
+
+- facet: topic
+  category: Distance Education
+  patterns: ['Distance Education', 'Open and Distance Learning', 'Distance Learning', 'ODL']
+  generic: ['distance', 'education', 'learning', 'students', 'ODL']
+
+- facet: topic
+  category: UDISE
+  patterns: ['UDISE', 'UDISE Data', 'UDISE Reports', 'School Education Statistics', 'Unified District Information System for Education Plus']
+  generic: ['UDISE', 'schools', 'education', 'statistics', 'students']
+
+- facet: topic
+  category: AISHE
+  patterns: ['AISHE', 'All India Survey on Higher Education', 'AISHE Reports', 'Higher Education Statistics']
+  generic: ['AISHE', 'education', 'universities', 'statistics']
+
+- facet: topic
+  category: Child Health
+  patterns: ['Child Health', 'Child Mortality', 'Infant Mortality', 'Under-5 Mortality']
+  generic: ['child', 'health', 'mortality', 'children']
+
+- facet: topic
+  category: COVID-19
+  patterns: ['COVID-19', 'COVID-19 Pandemic', 'COVID-19 Lockdown', 'Coronavirus Pandemic', 'COVID Pandemic', 'COVID-19 Cases']
+  generic: ['COVID-19', 'pandemic', 'health', 'lockdown']
+
+- facet: topic
+  category: ICDS
+  patterns: ['Integrated Child Development Services', 'ICDS', 'ICDS Centres', 'ICDS Beneficiaries']
+  generic: ['ICDS', 'children', 'nutrition', 'welfare']
+
+- facet: topic
+  category: PMMVY
+  patterns: ['PMMVY', 'Pradhan Mantri Matru Vandana Yojana', 'PMMVY Beneficiaries', 'PMMVY Funds', 'PMMVY Instalments', 'PMMVY Benefits']
+  generic: ['PMMVY', 'maternity', 'women', 'benefits']
+
+- facet: topic
+  category: POSHAN
+  patterns: ['Poshan Abhiyaan', 'POSHAN', 'Nutrition Mission', 'POSHAN Abhiyaan Funds', 'POSHAN Programme', 'POSHAN Tracker']
+  generic: ['POSHAN', 'nutrition', 'children', 'health']
+
+- facet: topic
+  category: BBBP
+  patterns: ['BBBP', 'BBBP Scheme', 'BBBP Funds', 'BBBP Beneficiaries']
+  generic: ['BBBP', 'women', 'girls', 'welfare']
+
+- facet: topic
+  category: Tribal Affairs
+  patterns: ['Tribal Affairs']
+  generic: ['tribal', 'welfare',  'ST']
+
+- facet: topic
+  category: UDID
+  patterns: ['Unique Disability ID', 'UDID Card', 'UDID Cards Generated', 'e-UDID Cards', 'UDID', 'Disability Identity Card']
+  generic: ['UDID', 'disability', 'identity', 'cards']
+
+- facet: topic
+  category: PMAY-G
+  patterns: ['PMAY-G', 'Pradhan Mantri Awaas Yojana-Gramin', 'PMAY-G Houses', 'PMAY-G Beneficiaries', 'PMAY-G Targets']
+  generic: ['PMAY-G', 'housing', 'rural', 'houses']
+
+- facet: topic
+  category: Rural Housing
+  patterns: ['Rural Housing Scheme', 'Rural Housing', 'Houses Constructed', 'Housing Beneficiaries', 'Rural Houses', 'Rural Housing Development']
+  generic: ['rural', 'housing', 'houses', 'beneficiaries', 'development']
+
+- facet: topic
+  category: PMAY-U
+  patterns: ['PMAY-U', 'Pradhan Mantri Awas Yojana-Urban', 'PMAY(U) Houses', 'PMAY-U Beneficiaries']
+  generic: ['PMAY-U', 'housing', 'urban', 'houses']
+
+- facet: topic
+  category: Slums
+  patterns: ['Slum Population', 'Slum Households', 'Slum Reported Towns', 'Slum Infrastructure']
+  generic: ['slums', 'urban', 'households', 'housing']
+
+- facet: topic
+  category: SBM
+  patterns: ['SBM']
+  generic: ['SBM', 'sanitation', 'toilets', 'hygiene']
+
+- facet: topic
+  category: Railway Revenue
+  patterns: ['Gross Traffic Receipts', 'Railway Revenue', 'Traffic Receipts', 'Passenger Revenue']
+  generic: ['railways', 'revenue', 'receipts', 'transport']
+
+- facet: topic
+  category: Railway Recruitment
+  patterns: ['Railway Recruitment', 'Railway Staff Recruitment', 'Railway Vacancies', 'Railway Staff Strength', 'Railway Employees']
+  generic: ['railways', 'recruitment', 'staff', 'vacancies']
+
+- facet: topic
+  category: Railway Security
+  patterns: ['Railway Security', 'Crimes Registered in Trains', 'Railway Protection Force', 'E-Tickets Seized', 'Railway Crime', 'Crimes in Trains']
+  generic: ['railways', 'security', 'crime', 'enforcement']
+
+- facet: topic
+  category: Ports
+  patterns: ['Major Ports', 'Port Development', 'Port Projects', 'Port Freight Traffic', 'Port Traffic']
+  generic: ['ports', 'shipping', 'infrastructure', 'transport']
+
+- facet: topic
+  category: Broadband
+  patterns: ['Broadband Services', 'Broadband Call Drops', 'Broadband Speed', 'Broadband Connectivity', 'Broadband', 'Broadband Infrastructure']
+  generic: ['broadband', 'internet', 'connectivity', 'telecom']
+
+- facet: topic
+  category: Mobile
+  patterns: ['Mobile Connections', 'Mobile Subscribers', 'Mobile Tower Locations', 'Mobile Services', 'Mobile Towers']
+  generic: ['mobile', 'telecom', 'subscribers', 'connectivity']
+
+- facet: topic
+  category: BharatNet
+  patterns: ['BharatNet', 'BharatNet Project', 'Gram Panchayats with Wi-Fi Hotspots', 'Service Ready Gram Panchayats', 'Gram Panchayat Connectivity', 'BharatNet Connectivity']
+  generic: ['BharatNet', 'broadband', 'connectivity', 'panchayats']
+
+- facet: topic
+  category: Digital India
+  patterns: ['Digital India Programme', 'Digital India', 'Digital India Mission']
+  generic: ['digital', 'India', 'technology', 'services']
+
+- facet: topic
+  category: CPSE
+  patterns: ['CPSE Project Offices', 'CPSE Employment']
+  generic: ['CPSEs', 'enterprises', 'employment', 'investment']
+
+- facet: topic
+  category: Ration Cards
+  patterns: ['Ration Cards', 'Ration Card Coverage', 'Ration Card Beneficiaries', 'Ration Cards in the Country', 'Ration Card Distribution']
+  generic: ['ration', 'cards', 'food', 'households']
+
+- facet: topic
+  category: Forest Rights
+  patterns: ['Forest Rights Act', 'Forest Land Titles', 'Forest Rights Titles', 'Community Forest Rights']
+  generic: ['forest', 'rights', 'land', 'tribal']
+
+- facet: topic
+  category: Solid Waste
+  patterns: ['Solid Waste', 'Solid Waste Generation', 'Solid Waste Processing']
+  generic: ['waste', 'solid', 'processing', 'sanitation']
+
+- facet: topic
+  category: Swadesh Darshan
+  patterns: ['Swadesh Darshan', 'Tourism Circuits', 'Rural Circuit Projects', 'Spiritual Circuit Projects', 'Swadesh Darshan Scheme', 'Coastal Circuit', 'Tourism Circuit Projects']
+  generic: ['Swadesh', 'tourism', 'circuits', 'projects', 'heritage']
+
+- facet: topic
+  category: PRASHAD
+  patterns: ['PRASHAD', 'Pilgrimage Rejuvenation', 'Spiritual Tourism Projects', 'PRASHAD Projects', 'Pilgrimage Tourism', 'Pilgrimage Rejuvenation and Spiritual Augmentation Drive']
+  generic: ['PRASHAD', 'tourism', 'pilgrimage', 'heritage']
+
+- facet: topic
+  category: Security Forces
+  patterns: ['Security Forces', 'Security Personnel Casualties', 'CAPFs Personnel', 'Paramilitary Forces', 'Security Personnel', 'CAPFs']
+  generic: ['security', 'forces', 'personnel', 'casualties', 'protection']
+
+- facet: topic
+  category: Legal Services
+  patterns: ['Free Legal Services', 'Legal Services Authorities Act', 'Persons in Custody Provided Free Legal Services', 'Legal Services', 'Legal Assistance']
+  generic: ['legal', 'services', 'justice', 'custody', 'assistance']
+
+- facet: topic
+  category: RGSA
+  patterns: ['RGSA', 'Rashtriya Gram Swaraj Abhiyan', 'RGSA Funds', 'Panchayat Capacity Building', 'Revamped Rashtriya Gram Swaraj Abhiyan']
+  generic: ['RGSA', 'panchayat', 'training', 'rural']
+
+- facet: topic
+  category: SAGY
+  patterns: ['SAGY', 'Saansad Adarsh Gram Yojana', 'Gram Panchayats Identified under SAGY', 'SAGY Implementation', 'SAGY Villages']
+  generic: ['SAGY', 'villages', 'panchayat', 'development']
+
+- facet: topic
+  category: Parliamentary
+  patterns: ['Rajya Sabha', 'Lok Sabha']
+  generic: ['parliament', 'questions', 'rajya', 'sabha']
+
+- facet: topic
+  category: Livestock
+  patterns: ['Livestock Development', 'Livestock Production', 'Livestock Census', 'Livestock']
+  generic: ['livestock', 'animals', 'husbandry', 'farming']
+
+- facet: topic
+  category: Online Education
+  patterns: ['Online Education', 'Online Programmes', 'Online Courses', 'Online Learning']
+  generic: ['online', 'education', 'courses', 'learning']
+
+- facet: topic
+  category: SC Scholarship
+  patterns: ['Post Matric Scholarship for SC Students', 'PMS-SC', 'SC Scholarship', 'Pre-Matric Scholarship for SC Students']
+  generic: ['SC', 'scholarship', 'students', 'education']
+
+- facet: topic
+  category: ST Scholarship
+  patterns: ['Pre-Matric Scholarship for ST Students', 'Post Matric Scholarship for ST Students', 'ST Scholarship', 'ST Students Scholarship']
+  generic: ['ST', 'scholarship', 'students', 'education']
+
+- facet: topic
+  category: RUSA
+  patterns: ['RUSA', 'Rashtriya Uchchatar Shiksha Abhiyan', 'RUSA Funds', 'RUSA Institutions', 'RUSA Scheme']
+  generic: ['RUSA', 'education', 'universities', 'funding', 'higher']
+
+- facet: topic
+  category: Healthcare
+  patterns: ['Healthcare']
+  generic: ['healthcare', 'medical', 'hospitals', 'services']
+
+- facet: topic
+  category: PM-POSHAN
+  patterns: ['PM POSHAN', 'Pradhan Mantri Poshan Shakti Nirman', 'Mid-Day Meal Scheme', 'PM POSHAN Scheme']
+  generic: ['PM-POSHAN', 'nutrition', 'schools', 'children']
+
+- facet: topic
+  category: SBM-U
+  patterns: ['SBM-U', 'SBM-U 2.0']
+  generic: ['SBM-U', 'sanitation', 'toilets', 'urban', 'waste']
+
+- facet: topic
+  category: JJM
+  patterns: ['JJM', 'Jal Jeevan Mission', 'Tap Water Connections', 'Household Tap Water', 'Har Ghar Jal', 'JJM Scheme']
+  generic: ['JJM', 'water', 'taps', 'households']
+
+- facet: topic
+  category: NRDWP
+  patterns: ['NRDWP', 'National Rural Drinking Water Programme', 'NRDWP Funds']
+  generic: ['NRDWP', 'rural', 'drinking', 'water']
+
+- facet: topic
+  category: UDAN
+  patterns: ['UDAN', 'Ude Desh ka Aam Nagrik', 'UDAN Scheme', 'Viability Gap Funding under UDAN', 'UDAN Operations']
+  generic: ['UDAN', 'aviation', 'airports', 'airlines', 'connectivity']
+
+- facet: topic
+  category: Digital Infrastructure
+  patterns: ['Digital Infrastructure', 'Digital Connectivity', 'Digital Services', 'Digital Facilities']
+  generic: ['digital', 'infrastructure', 'connectivity', 'technology']
+
+- facet: topic
+  category: CNG
+  patterns: ['CNG', 'CNG Stations', 'CNG Infrastructure', 'CNG Supply']
+  generic: ['CNG', 'gas', 'stations', 'transport']
+
+- facet: topic
+  category: Public Distribution System
+  patterns: ['Public Distribution System', 'Targeted Public Distribution System', 'TPDS']
+  generic: ['PDS', 'distribution', 'ration', 'food']
+
+- facet: topic
+  category: Silk
+  patterns: ['Silk', 'Silk Production', 'Silk Samagra Scheme', 'Silk Development', 'Silk Industry']
+  generic: ['silk', 'textiles', 'production', 'weaving']
+
+- facet: topic
+  category: Coir
+  patterns: ['Coir', 'Coir Products', 'Coir Exports', 'Mahila Coir Yojana', 'Coir Industry']
+  generic: ['coir', 'products', 'exports', 'artisans']
+
+- facet: topic
+  category: Waste Management
+  patterns: ['Solid Waste Management', 'Waste Management', 'Waste Processing', 'Waste Disposal']
+  generic: ['waste', 'solid', 'processing', 'sanitation']
+
+- facet: topic
+  category: Narcotics
+  patterns: ['Narcotic Drugs', 'Narcotics Cases', 'Drug Seizures', 'Drug Trafficking']
+  generic: ['narcotics', 'drugs', 'NDPS', 'seizures', 'trafficking']
+
+- facet: topic
+  category: Judiciary
+  patterns: ['Judiciary', 'Judicial Infrastructure', 'Judicial Vacancies', 'Judicial Staffing', 'Judicial Administration']
+  generic: ['judiciary', 'courts', 'judges', 'justice']
+
+- facet: topic
+  category: SDRF
+  patterns: ['SDRF', 'State Disaster Response Fund', 'SDRF Allocation', 'SDRF Release', 'SDRF Funds']
+  generic: ['SDRF', 'disaster', 'funds', 'relief']
+
+- facet: topic
+  category: NDRF
+  patterns: ['NDRF', 'National Disaster Response Fund', 'NDRF Allocation', 'NDRF Release', 'NDRF Funds']
+  generic: ['NDRF', 'disaster', 'funds', 'relief']
+
+- facet: topic
+  category: PM SVANidhi
+  patterns: ['PM SVANidhi', 'PM SVANidhi Scheme', 'Street Vendors Loans', 'Street Vendors Credit']
+  generic: ['PM', 'SVANidhi', 'vendors', 'loans']
+
+- facet: topic
+  category: Affordable Housing
+  patterns: ['Affordable Housing', 'Affordable Rental Housing Complexes', 'ARHC', 'Rental Housing']
+  generic: ['affordable', 'housing', 'rental', 'complexes']
+
+- facet: topic
+  category: Street Vendors
+  patterns: ['Street Vendors', 'Street Vendor Loans', 'Street Vendor Credit', 'Street Vendor Livelihoods']
+  generic: ['street', 'vendors', 'loans', 'livelihoods']
+
+- facet: topic
+  category: Post Office Banking
+  patterns: ['Post Office Savings Accounts', 'Postal Banking', 'Post Office Deposits', 'Postal Savings']
+  generic: ['postal', 'banking', 'savings', 'deposits']
+
+- facet: topic
+  category: Science and Technology
+  patterns: ['Science and Technology', 'Scientific Research', 'Technology Development', 'Research Activities', 'Science Programmes']
+  generic: ['science', 'technology', 'research', 'innovation']
+
+- facet: topic
+  category: Paddy
+  patterns: ['Paddy', 'Paddy Production', 'Paddy Area', 'Paddy Cultivation']
+  generic: ['paddy', 'rice', 'crops', 'agriculture']
+
+- facet: topic
+  category: Rice
+  patterns: ['Rice', 'Rice Production', 'Rice Stock', 'Rice Delivery']
+  generic: ['rice', 'paddy', 'foodgrains', 'procurement']
+
+- facet: topic
+  category: Wheat
+  patterns: ['Wheat', 'Wheat Production', 'Wheat Stock', 'Wheat Distribution']
+  generic: ['wheat', 'foodgrains', 'procurement', 'storage', 'agriculture']
+
+- facet: topic
+  category: Cotton
+  patterns: ['Cotton', 'Cotton Production', 'Cotton Testing', 'Cotton Cultivation', 'Cotton Labs']
+  generic: ['cotton', 'crops', 'textiles', 'farming', 'agriculture']
+
+- facet: topic
+  category: WDC-PMKSY
+  patterns: ['WDC-PMKSY', 'WDC-PMKSY 1.0', 'WDC-PMKSY 2.0']
+  generic: ['WDC-PMKSY', 'watershed',  'irrigation', 'water']
+
+- facet: topic
+  category: PMFBY
+  patterns: ['PMFBY', 'PMFBY Scheme', 'PMFBY Claims', 'PMFBY Insurance']
+  generic: ['PMFBY', 'crops', 'insurance', 'farmers']
+
+- facet: topic
+  category: Agricultural Insurance
+  patterns: ['Agricultural Insurance']
+  generic: ['crop', 'insurance', 'agriculture', 'claims']
+
+- facet: topic
+  category: KCC
+  patterns: ['Kisan Credit Card', 'KCC', 'KCC Loans', 'Kisan Credit Card Loans', 'Kisan Credit Cards']
+  generic: ['KCC', 'farmers', 'credit', 'loans']
+
+- facet: topic
+  category: SMSP
+  patterns: ['SMSP', 'Sub Mission on Seeds and Planting Materials', 'Seed Village Programme', 'Seed Development']
+  generic: ['SMSP', 'seeds', 'crops', 'agriculture']
+
+- facet: topic
+  category: SMAM
+  patterns: ['SMAM', 'Sub Mission on Agricultural Mechanization']
+  generic: ['SMAM', 'agriculture', 'mechanization', 'farming']
+
+- facet: topic
+  category: PKVY
+  patterns: ['PKVY', 'Paramparagat Krishi Vikas Yojana', 'Organic Farming under PKVY', 'PKVY Projects', 'PKVY Scheme']
+  generic: ['PKVY', 'organic', 'farming', 'agriculture']
+
+- facet: topic
+  category: MOVCDNER
+  patterns: ['MOVCDNER', 'Mission Organic Value Chain Development for North Eastern Region', 'Organic Value Chain Development']
+  generic: ['MOVCDNER', 'organic', 'farming', 'northeast', 'agriculture']
+
+- facet: topic
+  category: RSETIs
+  patterns: ['RSETIs', 'Rural Self Employment Training Institutes', 'RSETI Training', 'RSETI Placement']
+  generic: ['RSETIs', 'rural', 'training', 'employment']
+
+- facet: topic
+  category: JSS
+  patterns: ['JSS', 'Jan Shikshan Sansthan', 'JSS Scheme', 'JSS Training']
+  generic: ['JSS', 'training', 'skill', 'employment']
+
+- facet: topic
+  category: NAPS
+  patterns: ['NAPS', 'National Apprenticeship Promotion Scheme', 'NAPS Training', 'NAPS Apprenticeship']
+  generic: ['NAPS', 'apprenticeship', 'training', 'employment']
+
+- facet: topic
+  category: CTS
+  patterns: ['CTS', 'Craftsman Training Scheme', 'CTS Training', 'Craftsman Training']
+  generic: ['CTS', 'training', 'craftsman', 'skills']
+
+- facet: topic
+  category: Secondary Education
+  patterns: ['Secondary Education', 'Secondary Schools', 'Secondary Education Sector', 'Secondary Education Funding', 'Secondary Education Infrastructure']
+  generic: ['secondary', 'education', 'schools', 'students']
+
+- facet: topic
+  category: Samagra Shiksha
+  patterns: ['Samagra Shiksha', 'Samagra Shiksha Scheme', 'Samagra Shiksha Infrastructure', 'Samagra Shiksha Funds']
+  generic: ['Samagra', 'Shiksha', 'education', 'schools']
+
+- facet: topic
+  category: ICT Education
+  patterns: ['ICT Labs', 'Information and Communication Technology Labs', 'Smart Classrooms', 'ICT Infrastructure']
+  generic: ['ICT', 'classrooms', 'education', 'technology']
+
+- facet: topic
+  category: Higher Education Admissions
+  patterns: ['Higher Education Admissions', 'University Admissions', 'Student Admissions', 'College Admissions']
+  generic: ['higher', 'education', 'admissions', 'students']
+
+- facet: topic
+  category: NHM
+  patterns: ['NHM', 'National Health Mission', 'NHM Programmes', 'NHM Health Services']
+  generic: ['NHM', 'health', 'medical', 'services']
+
+- facet: topic
+  category: AB-PMJAY
+  patterns: ['AB-PMJAY', 'Ayushman Bharat', 'AB PM-JAY']
+  generic: ['AB-PMJAY', 'health', 'insurance', 'beneficiaries']
+
+- facet: topic
+  category: CGHS
+  patterns: ['CGHS', 'Central Government Health Scheme', 'CGHS Hospitals', 'CGHS Services']
+  generic: ['CGHS', 'health', 'hospitals', 'services']
+
+- facet: topic
+  category: Mission Indradhanush
+  patterns: ['Mission Indradhanush', 'Intensified Mission Indradhanush', 'Mission Indradhanush 4.0', 'IMI 4.0']
+  generic: ['Indradhanush', 'immunization', 'vaccination', 'children']
+
+- facet: topic
+  category: Women Scientists
+  patterns: ['Women Scientists', 'Women Scientists Participation']
+  generic: ['women', 'scientists', 'research', 'science']
+
+- facet: topic
+  category: Mission Vatsalya
+  patterns: ['Mission Vatsalya', 'Child Welfare Committees', 'Observation Homes', 'Mission Vatsalya Scheme']
+  generic: ['Vatsalya', 'children', 'welfare', 'protection']
+
+- facet: topic
+  category: SC
+  patterns: ['SC Students', 'SC Beneficiaries', 'SC Welfare', 'Scheduled Caste Students']
+  generic: ['SC', 'caste', 'students', 'welfare']
+
+- facet: topic
+  category: ST
+  patterns: ['ST Students', 'ST Beneficiaries', 'ST Welfare', 'Scheduled Tribe Students']
+  generic: ['ST', 'tribal', 'students', 'welfare']
+
+- facet: topic
+  category: CwSN
+  patterns: ['Children with Special Needs', 'CwSN', 'CwSN Enrolment', 'Special Needs Children']
+  generic: ['CwSN', 'children', 'disability', 'education']
+
+- facet: topic
+  category: NSAP
+  patterns: ['NSAP', 'National Social Assistance Programme', 'NSAP Beneficiaries', 'NSAP Funds']
+  generic: ['NSAP', 'social', 'assistance', 'pension']
+
+- facet: topic
+  category: Watershed
+  patterns: ['Watershed Development', 'Watershed Projects', 'Watershed Development Component', 'Watershed Management']
+  generic: ['watershed',  'water', 'management']
+
+- facet: topic
+  category: NHAI
+  patterns: ['NHAI', 'National Highways Authority of India', 'NHAI Roads', 'NHAI Development']
+  generic: ['NHAI', 'highways', 'roads', 'infrastructure']
+
+- facet: topic
+  category: Road Accidents
+  patterns: ['Road Accidents', 'Road Accident Injuries', 'Road Accident Cases']
+  generic: ['roads', 'accidents', 'safety', 'deaths', 'injuries']
+
+- facet: topic
+  category: Railway Accidents
+  patterns: ['Train Accidents', 'Railway Accidents', 'Consequential Train Accidents', 'Train Accident Causes']
+  generic: ['trains', 'accidents', 'railways', 'safety']
+
+- facet: topic
+  category: Airports
+  patterns: ['Airports', 'Airport Infrastructure', 'Operational Airports', 'Non-Operational Airports', 'Airport Development']
+  generic: ['airports', 'aviation', 'transport', 'infrastructure']
+
+- facet: topic
+  category: AAI
+  patterns: ['AAI', 'Airport Authority of India', 'AAI Airports', 'AAI Infrastructure']
+  generic: ['AAI', 'airports', 'aviation', 'infrastructure']
+
+- facet: topic
+  category: Mobile Connectivity
+  patterns: ['Mobile Network', 'Mobile Connectivity', 'Mobile Broadband', 'Mobile Network Coverage']
+  generic: ['mobile', 'network', 'telecom', 'connectivity']
+
+- facet: topic
+  category: BSNL
+  patterns: ['BSNL', 'Bharat Sanchar Nigam Limited', 'BSNL Services', 'BSNL Network']
+  generic: ['BSNL', 'telecom', 'network', 'connectivity']
+
+- facet: topic
+  category: PM-KUSUM
+  patterns: ['PM-KUSUM', 'Pradhan Mantri Kisan Urja Suraksha Evam Utthan Mahabhiyan', 'PM-KUSUM Scheme', 'Solarisation of Agricultural Pumps']
+  generic: ['PM-KUSUM', 'solar', 'agriculture', 'energy']
+
+- facet: topic
+  category: PMUY
+  patterns: ['PMUY', 'Pradhan Mantri Ujjwala Yojana', 'PMUY Connections', 'PMUY Beneficiaries']
+  generic: ['PMUY', 'LPG', 'households', 'fuel']
+
+- facet: topic
+  category: RDSS
+  patterns: ['RDSS', 'Revamped Distribution Sector Scheme', 'RDSS Funds', 'RDSS Projects']
+  generic: ['RDSS', 'electricity', 'distribution', 'power']
+
+- facet: topic
+  category: DDUGJY
+  patterns: ['DDUGJY', 'Deen Dayal Upadhyaya Gram Jyoti Yojana', 'DDUGJY Electrification']
+  generic: ['DDUGJY', 'electricity', 'rural', 'electrification']
+
+- facet: topic
+  category: Bank Fraud
+  patterns: ['Bank Frauds', 'Banking Fraud', 'Fraud Recovery', 'Bank Fraud Cases']
+  generic: ['bank', 'fraud', 'banking', 'recovery', 'crime']
+
+- facet: topic
+  category: RBI
+  patterns: ['RBI', 'Reserve Bank of India', 'RBI Data', 'RBI Reports']
+  generic: ['RBI', 'banking', 'finance', 'monetary']
+
+- facet: topic
+  category: SEZ
+  patterns: ['SEZ', 'Special Economic Zones', 'SEZ Units', 'SEZ Investment']
+  generic: ['SEZ', 'industry', 'investment', 'exports']
+
+- facet: topic
+  category: Investment
+  patterns: ['Investment', 'Investment Proposals', 'Investment Projects', 'Investment Inflows']
+  generic: ['investment', 'capital', 'finance', 'projects']
+
+- facet: topic
+  category: PDS
+  patterns: ['PDS']
+  generic: ['PDS', 'distribution', 'ration', 'food']
+
+- facet: topic
+  category: NFSA
+  patterns: ['NFSA', 'NFSA Beneficiaries', 'NFSA Foodgrains']
+  generic: ['NFSA', 'food', 'security', 'beneficiaries']
+
+- facet: topic
+  category: FCI
+  patterns: ['FCI', 'Food Corporation of India', 'FCI Procurement', 'FCI Rice Delivery', 'FCI Foodgrains']
+  generic: ['FCI', 'foodgrains', 'procurement', 'storage']
+
+- facet: topic
+  category: Food Subsidy
+  patterns: ['Food Subsidy', 'Food Subsidy Released', 'Food Subsidy Expenditure', 'Foodgrain Subsidy']
+  generic: ['food', 'subsidy', 'grains', 'expenditure']
+
+- facet: topic
+  category: Procurement
+  patterns: ['Procurement', 'Crop Procurement', 'Procurement Operations']
+  generic: ['procurement', 'crops', 'foodgrains', 'farmers']
+
+- facet: topic
+  category: NSDF
+  patterns: ['NSDF', 'National Sports Development Fund', 'NSDF Projects', 'Sports Development Fund']
+  generic: ['NSDF', 'sports', 'funding', 'infrastructure']
+
+- facet: topic
+  category: Research
+  patterns: ['Research', 'Research and Development', 'R&D', 'Research Projects']
+  generic: ['research', 'science',  'innovation']
+
+- facet: topic
+  category: Women in Science
+  patterns: ['Women in Science', 'Women Researchers', 'Women Science Participation']
+  generic: ['women', 'science', 'scientists', 'research']
+
+- facet: topic
+  category: Crimes Against Women
+  patterns: ['Crimes Against Women', 'Crime against Women', 'Women Crime Cases', 'Crimes Registered against Women']
+  generic: ['crime', 'women',  'police']
+
+- facet: topic
+  category: High Courts
+  patterns: ['High Courts', 'High Court Cases', 'High Court Judges', 'High Court Pendency']
+  generic: ['high', 'courts', 'judges', 'cases']
+
+- facet: topic
+  category: Prisoners
+  patterns: ['Prisoners', 'Undertrial Prisoners', 'Prison Population', 'Prisoners Sentenced to Death']
+  generic: ['prisoners', 'jails', 'undertrial', 'justice', 'prisons']
+
+- facet: topic
+  category: SVAMITVA
+  patterns: ['SVAMITVA', 'SVAMITVA Survey', 'Property Card Preparation', 'Village Property Survey', 'SVAMITVA Scheme', 'Drone Survey Villages', 'Village Mapping']
+  generic: ['SVAMITVA', 'survey', 'villages', 'property', 'mapping']
+
+- facet: topic
+  category: eGramSwaraj
+  patterns: ['eGramSwaraj', 'eGramSwaraj Application', 'e-Panchayat Mission Mode Project', 'Panchayat Digitalisation']
+  generic: ['eGramSwaraj', 'panchayat', 'digital']
+
+- facet: topic
+  category: SPMRM
+  patterns: ['SPMRM', 'Shyama Prasad Mukherji Rurban Mission', 'Rurban Mission', 'SPMRM Progress', 'SPMRM Schemes']
+  generic: ['SPMRM', 'rural', 'urban', 'development']
+
+- facet: topic
+  category: DBT
+  patterns: ['DBT', 'Direct Benefit Transfer', 'DBT Funds', 'Funds Released under DBT', 'Direct Benefit Transfer Scheme']
+  generic: ['DBT', 'benefits', 'transfer', 'beneficiaries']
+
+- facet: topic
+  category: CPI
+  patterns: ['CPI', 'CPI-C', 'Consumer Price Index-Combined', 'CPI Combined']
+  generic: ['CPI', 'prices', 'inflation', 'consumer']
+
+- facet: topic
+  category: GVA
+  patterns: ['GVA', 'Gross Value Added', 'GVA Growth', 'Gross Value Added Growth']
+  generic: ['GVA', 'economy', 'production', 'growth']
+
+- facet: topic
+  category: Green Finance
+  patterns: ['Green Bonds', 'Green Bond Issuances', 'Sustainable Finance', 'Green Finance']
+  generic: ['green', 'bonds', 'finance', 'investment']
+
+- facet: topic
+  category: Cooperatives
+  patterns: ['Cooperative Development', 'Cooperative Societies', 'Cooperative Sector', 'Cooperative Assistance']
+  generic: ['cooperative',  'societies', 'finance']
+
+- facet: topic
+  category: NCDC
+  patterns: ['NCDC', 'National Cooperative Development Corporation', 'NCDC Assistance', 'NCDC Schemes']
+  generic: ['NCDC', 'cooperative', 'finance', 'development']
+
+- facet: topic
+  category: Millets
+  patterns: ['Millets', 'Millet Cultivation', 'Millet Production', 'Millet Yield']
+  generic: ['millets', 'crops', 'agriculture', 'nutrition']
+
+- facet: topic
+  category: Agricultural Marketing
+  patterns: ['Agricultural Marketing', 'Agriculture Marketing', 'Agricultural Marketing Infrastructure', 'Farm Marketing']
+  generic: ['agriculture', 'marketing', 'farmers', 'markets']
+
+- facet: topic
+  category: AIF
+  patterns: ['AIF', 'Agriculture Infrastructure Fund', 'Agri Infra Fund']
+  generic: ['AIF', 'agriculture', 'infrastructure', 'funding']
+
+- facet: topic
+  category: FPO
+  patterns: ['FPO', 'FPOs', 'Farmer Producer Organisations', 'Farmer Producer Organizations']
+  generic: ['FPO', 'farmers', 'producers', 'agriculture']
+
+- facet: topic
+  category: PDMC
+  patterns: ['PDMC', 'Per Drop More Crop Scheme', 'PDMC Scheme']
+  generic: ['PDMC', 'irrigation', 'crops', 'water']
+
+- facet: topic
+  category: NMSA
+  patterns: ['NMSA', 'National Mission for Sustainable Agriculture', 'NMSA Scheme', 'NMSA Components']
+  generic: ['NMSA', 'agriculture', 'sustainability', 'farming']
+
+- facet: topic
+  category: NAM
+  patterns: ['NAM', 'NAM Scheme']
+  generic: ['NAM', 'AYUSH', 'health', 'medicine']
+
+- facet: topic
+  category: RKVY
+  patterns: ['RKVY', 'Rashtriya Krishi Vikas Yojana', 'PM-Rashtriya Krishi Vikas Yojana', 'RKVY Scheme']
+  generic: ['RKVY', 'agriculture',  'farmers']
+
+- facet: topic
+  category: PMKMY
+  patterns: ['PMKMY', 'Pradhan Mantri Kisan Maandhan Yojana', 'Kisan Maandhan', 'PM Kisan Maandhan']
+  generic: ['PMKMY', 'farmers', 'pension', 'agriculture']
+
+- facet: topic
+  category: Agriculture Extension
+  patterns: ['Agricultural Extension', 'Agriculture Extension', 'Extension Activities', 'Extension Services']
+  generic: ['agriculture', 'extension', 'farmers', 'training']
+
+- facet: topic
+  category: KVK
+  patterns: ['KVK', 'KVKs', 'Krishi Vigyan Kendra', 'Krishi Vigyan Kendras']
+  generic: ['KVK', 'agriculture', 'training', 'farmers']
+
+- facet: topic
+  category: Agriculture Census
+  patterns: ['Agriculture Census', 'Agricultural Census', 'Agriculture Census 2021-22']
+  generic: ['agriculture', 'census', 'holdings', 'farmers']
+
+- facet: topic
+  category: WPR
+  patterns: ['WPR', 'Worker Population Ratio for Persons Aged 15+', 'WPR Estimates']
+  generic: ['WPR', 'workers', 'labour', 'employment']
+
+- facet: topic
+  category: LFPR
+  patterns: ['LFPR', 'Labour Force Participation']
+  generic: ['LFPR', 'labour', 'workforce', 'participation']
+
+- facet: topic
+  category: PLFS
+  patterns: ['PLFS', 'Periodic Labour Force Survey', 'PLFS Reports', 'PLFS Estimates']
+  generic: ['PLFS', 'labour', 'employment', 'unemployment']
+
+- facet: topic
+  category: MGNREGA Beneficiaries
+  patterns: ['MGNREGA Beneficiaries', 'MGNREGA Workers', 'MGNREGA Households', 'MGNREGA Person-days']
+  generic: ['MGNREGA', 'beneficiaries', 'workers', 'households']
+
+- facet: topic
+  category: Unorganised Workers
+  patterns: ['Unorganised Workers', 'Unorganized Workers', 'Unorganised Sector Workers']
+  generic: ['unorganised', 'workers', 'labour', 'employment']
+
+- facet: topic
+  category: e-Shram
+  patterns: ['e-Shram', 'e-Shram Portal', 'e-Shram Registration', 'e-Shram Workers']
+  generic: ['e-Shram', 'workers', 'registration', 'labour']
+
+- facet: topic
+  category: RSETI
+  patterns: ['RSETI', 'Rural Self Employment Training Institute']
+  generic: ['RSETI', 'rural', 'training', 'employment']
+
+- facet: topic
+  category: SVEP
+  patterns: ['SVEP', 'Start-up Village Entrepreneurship Programme', 'Village Entrepreneurship Programme', 'SVEP Scheme']
+  generic: ['SVEP', 'entrepreneurship', 'rural', 'livelihoods']
+
+- facet: topic
+  category: Elementary Education
+  patterns: ['Elementary Education', 'Elementary Schools', 'Elementary School Students', 'Elementary Education Infrastructure']
+  generic: ['elementary', 'education', 'schools', 'students']
+
+- facet: topic
+  category: Senior Secondary Education
+  patterns: ['Senior Secondary Education', 'Senior Secondary Schools', 'Senior Secondary Students']
+  generic: ['senior', 'secondary', 'education', 'students']
+
+- facet: topic
+  category: Digital Literacy
+  patterns: ['Digital Literacy', 'Digital Literacy Courses', 'Digital Literacy Training', 'Digital Literacy Programme']
+  generic: ['digital', 'literacy', 'training', 'courses']
+
+- facet: topic
+  category: Pre-Matric Scholarship
+  patterns: ['Pre-Matric Scholarship', 'Pre-matric Scholarships', 'Pre-Matric Scholarship Scheme']
+  generic: ['pre-matric', 'scholarships', 'students', 'education']
+
+- facet: topic
+  category: Post-Matric Scholarship
+  patterns: ['Post-Matric Scholarship', 'Post-matric Scholarships', 'Post-Matric Scholarship Scheme']
+  generic: ['post-matric', 'scholarships', 'students', 'education']
+
+- facet: topic
+  category: PWD
+  patterns: ['Persons with Disabilities', 'PWD Candidates', 'Persons with Disability', 'Differently-abled Persons']
+  generic: ['PWD', 'disability', 'persons', 'welfare']
+
+- facet: topic
+  category: GER
+  patterns: ['GER', 'Gross Enrollment Ratio', 'Gross Enrolment']
+  generic: ['GER', 'enrolment', 'students', 'education']
+
+- facet: topic
+  category: Paramedical
+  patterns: ['Paramedical Staff', 'Paramedical Personnel', 'Paramedical Workforce', 'Paramedical Vacancies']
+  generic: ['paramedical', 'health', 'staff', 'workforce']
+
+- facet: topic
+  category: PM-JAY
+  patterns: ['PM-JAY', 'PMJAY', 'Pradhan Mantri Jan Arogya Yojana', 'Ayushman Bharat PM-JAY']
+  generic: ['PM-JAY', 'health', 'insurance', 'beneficiaries']
+
+- facet: topic
+  category: AIIMS
+  patterns: ['AIIMS', 'All India Institute of Medical Sciences', 'AIIMS Hospitals', 'AIIMS Projects']
+  generic: ['AIIMS', 'hospitals', 'health', 'medical']
+
+- facet: topic
+  category: Vaccination
+  patterns: ['Vaccination', 'Vaccination Coverage', 'Vaccination Programme', 'Vaccination Campaign']
+  generic: ['vaccination', 'vaccines', 'immunization', 'health']
+
+- facet: topic
+  category: Women Employment
+  patterns: ['Women Employment', 'Women Workers', 'Women Workforce', 'Women Participation']
+  generic: ['women', 'employment', 'workers', 'workforce']
+
+- facet: topic
+  category: ADIP
+  patterns: ['ADIP', 'Assistance to Persons with Disabilities', 'ADIP Scheme', 'Aids and Appliances']
+  generic: ['ADIP', 'disability', 'appliances', 'assistance']
+
+- facet: topic
+  category: Transgender Welfare
+  patterns: ['Transgender Welfare', 'Welfare of Transgender Persons', 'Transgender Rehabilitation']
+  generic: ['transgender', 'welfare', 'rehabilitation', 'support']
+
+- facet: topic
+  category: Garima Grehs
+  patterns: ['Garima Grehs', 'Garima Greh', 'Transgender Shelter Homes', 'Transgender Welfare Centres']
+  generic: ['Garima', 'transgender', 'welfare', 'shelters']
+
+- facet: topic
+  category: SBM-G
+  patterns: ['SBM-G', 'Swachh Bharat Mission-Grameen', 'SBM-G Scheme']
+  generic: ['SBM-G', 'sanitation', 'rural', 'toilets']
+
+- facet: topic
+  category: IHHL
+  patterns: ['IHHL', 'Individual Household Latrines', 'Household Latrines', 'IHHL Construction']
+  generic: ['IHHL', 'toilets', 'sanitation', 'households']
+
+- facet: topic
+  category: JJM-IMIS
+  patterns: ['JJM-IMIS', 'Jal Jeevan Mission Integrated Management Information System']
+  generic: ['JJM-IMIS', 'water', 'management', 'information']
+
+- facet: topic
+  category: Groundwater
+  patterns: ['Ground Water', 'Groundwater', 'Groundwater Assessment']
+  generic: ['groundwater', 'water', 'resources', 'assessment']
+
+- facet: topic
+  category: Railway Safety
+  patterns: ['Railway Safety', 'Railway Safety Works', 'Train Safety', 'Railway Accident Prevention']
+  generic: ['railways', 'safety', 'trains', 'accidents']
+
+- facet: topic
+  category: RCS-UDAN
+  patterns: ['RCS-UDAN', 'Regional Connectivity Scheme', 'Regional Connectivity Scheme-UDAN']
+  generic: ['RCS-UDAN', 'aviation', 'connectivity', 'airports']
+
+- facet: topic
+  category: FAME
+  patterns: ['FAME', 'FAME India Scheme', 'FAME India Phase-I', 'Electric Mobility Scheme']
+  generic: ['FAME', 'electric', 'vehicles', 'mobility']
+
+- facet: topic
+  category: Electric Vehicles
+  patterns: ['Electric Vehicles', 'Electric Vehicle', 'EVs', 'Electric Mobility']
+  generic: ['electric', 'vehicles', 'mobility', 'transport']
+
+- facet: topic
+  category: PNG
+  patterns: ['PNG', 'PNG Connections', 'Piped Natural Gas Connections']
+  generic: ['PNG', 'gas', 'connections', 'energy']
+
+- facet: topic
+  category: DPIIT
+  patterns: ['DPIIT', 'Department for Promotion of Industry and Internal Trade', 'DPIIT Recognized Startups', 'DPIIT Startups']
+  generic: ['DPIIT', 'startups', 'industry', 'trade']
+
+- facet: topic
+  category: PMFME
+  patterns: ['PMFME', 'Pradhan Mantri Formalisation of Micro Food Processing Enterprises', 'PMFME Scheme', 'PMFME Projects']
+  generic: ['PMFME', 'food', 'processing', 'enterprises']
+
+- facet: topic
+  category: PLISFPI
+  patterns: ['PLISFPI', 'Production Linked Incentive Scheme for Food Processing Industries', 'PLISFPI Scheme', 'Food Processing Incentive']
+  generic: ['PLISFPI', 'food', 'processing', 'incentives']
+
+- facet: topic
+  category: Medical Tourism
+  patterns: ['Medical Tourism', 'Medical Tourists', 'Foreign Tourists for Medical Purpose', 'Medical Tourism Arrivals']
+  generic: ['medical', 'tourism', 'tourists', 'health']
+
+- facet: topic
+  category: KIC
+  patterns: ['KICs', 'Khelo India Centre', 'KIC Athletes']
+  generic: ['KIC', 'Khelo', 'sports', 'athletes']
+
+- facet: topic
+  category: IPC
+  patterns: ['IPC', 'Indian Penal Code', 'IPC Crimes', 'IPC Cases']
+  generic: ['IPC', 'crime',  'police']
+
+- facet: topic
+  category: SLL
+  patterns: ['SLL', 'Special and Local Laws', 'SLL Crimes', 'SLL Cases']
+  generic: ['SLL', 'crime', 'laws', 'cases']
+
+- facet: topic
+  category: NDPS
+  patterns: ['NDPS', 'NDPS Act', 'Narcotic Drugs and Psychotropic Substances Act']
+  generic: ['NDPS', 'narcotics', 'drugs', 'trafficking']
+
+- facet: topic
+  category: Consumer Cases
+  patterns: ['Consumer Cases', 'Consumer Commissions']
+  generic: ['consumer',  'complaints', 'commissions']
+
+- facet: topic
+  category: Legal Aid
+  patterns: ['Legal Aid', 'Legal Aid Activities', 'Free Legal Aid']
+  generic: ['legal', 'aid', 'justice', 'services']
+
+- facet: topic
+  category: NALSA
+  patterns: ['NALSA', 'National Legal Services Authority', 'NALSA Legal Aid', 'NALSA Activities']
+  generic: ['NALSA', 'legal', 'aid', 'justice']
+
+- facet: topic
+  category: Tiger
+  patterns: ['Tiger Reserves', 'Tiger Population', 'Tiger Conservation', 'Tiger Reserve']
+  generic: ['tiger', 'wildlife', 'forests', 'conservation']
+
+- facet: topic
+  category: Air Quality
+  patterns: ['Air Quality', 'Air Quality Index', 'AQI', 'Ambient Air Quality']
+  generic: ['air', 'quality', 'AQI', 'pollution']
+
+- facet: topic
+  category: Municipal Waste
+  patterns: ['Municipal Waste', 'Municipal Waste Generation', 'Municipal Waste Processing', 'Urban Waste']
+  generic: ['municipal', 'waste', 'urban', 'processing']
+
+- facet: topic
+  category: Landfill
+  patterns: ['Landfill Sites', 'Landfill', 'Waste Landfill', 'Landfill Infrastructure']
+  generic: ['landfill', 'waste', 'disposal', 'sanitation']
+
+- facet: topic
+  category: CAMPA
+  patterns: ['CAMPA', 'Compensatory Afforestation Fund', 'CAMPA Funds', 'CAMPA Projects']
+  generic: ['CAMPA', 'forest', 'afforestation', 'funds']
+
+- facet: topic
+  category: Green India Mission
+  patterns: ['Green India Mission', 'GIM', 'Green India Mission Funds', 'Green India Mission Projects']
+  generic: ['GIM', 'green', 'forests', 'environment']
+
+- facet: topic
+  category: National Afforestation Programme
+  patterns: ['National Afforestation Programme', 'Afforestation Programme', 'Afforestation Projects']
+  generic: ['afforestation', 'forests', 'trees', 'environment']
+
+- facet: topic
+  category: BE
+  patterns: ['BE', 'Budget Estimate']
+  generic: ['BE', 'budget', 'estimates', 'allocation']
+
+- facet: topic
+  category: RE
+  patterns: ['RE', 'Revised Estimate']
+  generic: ['RE', 'budget', 'estimates', 'expenditure']
+
+- facet: topic
+  category: EBR
+  patterns: ['EBR', 'Extra Budgetary Resources', 'EBR Funds']
+  generic: ['EBR', 'budget', 'resources', 'funding']
+
+- facet: topic
+  category: Fund Allocation
+  patterns: ['Fund Allocation', 'Allocation Details']
+  generic: ['funds', 'allocation', 'budget', 'finance']
+
+- facet: topic
+  category: Fund Release
+  patterns: ['Fund Release', 'Fund Disbursal', 'Funds Disbursed']
+  generic: ['funds', 'release', 'disbursal', 'finance']
+
+- facet: topic
+  category: Expenditure
+  patterns: ['Expenditure Details', 'Expenditure Incurred']
+  generic: ['expenditure', 'spending', 'funds', 'finance']
+
+- facet: topic
+  category: Apprenticeship
+  patterns: ['Apprenticeship', 'Apprenticeship Training', 'Apprenticeship Programme', 'Apprenticeship Engagement']
+  generic: ['apprenticeship', 'training', 'candidates', 'employment']
+
+- facet: topic
+  category: Sanction
+  patterns: ['Funds Sanctioned', 'Sanctioned Projects', 'Sanction Status']
+  generic: ['sanctioned', 'projects', 'funds', 'approval']
+
+- facet: topic
+  category: Vacancies
+  patterns: ['Vacancies', 'Vacancy Position', 'Staff Vacancies', 'Job Vacancies']
+  generic: ['vacancies', 'jobs', 'staff', 'workforce']
+
+- facet: topic
+  category: Entrepreneurship
+  patterns: ['Entrepreneurship', 'Entrepreneurship Development', 'Agri-Entrepreneurship', 'Entrepreneurial Activities']
+  generic: ['entrepreneurship', 'enterprises', 'business', 'employment']
+
+- facet: topic
+  category: Biometric
+  patterns: ['Biometric ID Cards', 'Biometric Identification', 'Biometric Authentication', 'Biometric Cards']
+  generic: ['biometric', 'identity', 'cards', 'authentication']
+
+- facet: topic
+  category: E-Governance
+  patterns: ['E-Governance', 'Digital Governance', 'E-Governance Services', 'Online Government Services']
+  generic: [ 'digital', 'services']
+
+- facet: topic
+  category: Cold Storage
+  patterns: ['Cold Storage', 'Cold Storage Capacity', 'Cold Chain Infrastructure', 'Cold Storage Facilities']
+  generic: ['cold', 'storage', 'chain', 'infrastructure']
+
+- facet: topic
+  category: Warehousing
+  patterns: ['Warehousing', 'Warehouse Infrastructure', 'Warehouse Capacity', 'Agricultural Warehousing']
+  generic: ['warehousing', 'storage', 'agriculture', 'infrastructure']
+
+- facet: topic
+  category: Fisheries Welfare
+  patterns: ['Livelihood Support to Fishers', 'Nutritional Support to Fishers Families', 'Fishers Welfare', 'Fishers Families']
+  generic: ['fishers', 'livelihoods', 'nutrition', 'welfare']
+
+- facet: topic
+  category: Women SHGs
+  patterns: ['Women SHGs', 'Women SHG Members']
+  generic: ['women', 'SHGs', 'groups', 'livelihoods']
+
+- facet: topic
+  category: SHGs
+  patterns: ['SHGs', 'SHG Members']
+  generic: ['SHGs', 'groups', 'women', 'livelihoods']
+
+- facet: topic
+  category: Agriculture Infrastructure
+  patterns: ['Agriculture Infrastructure', 'Agricultural Infrastructure', 'Agri Infrastructure', 'Agriculture Infrastructure Projects']
+  generic: ['agriculture', 'infrastructure', 'farmers', 'projects']
+
+- facet: topic
+  category: Water Infrastructure
+  patterns: ['Water Infrastructure', 'Water Supply Infrastructure', 'Water Projects', 'Water Supply Projects']
+  generic: ['water', 'infrastructure', 'supply', 'projects']
+
+- facet: topic
+  category: Medical Infrastructure
+  patterns: ['Medical Infrastructure', 'Health Infrastructure', 'Healthcare Infrastructure']
+  generic: ['medical', 'health', 'infrastructure', 'facilities']
+
+- facet: topic
+  category: School Infrastructure
+  patterns: ['School Infrastructure', 'Education Infrastructure', 'School Buildings', 'Classroom Infrastructure']
+  generic: ['school', 'infrastructure', 'classrooms', 'education']
+
+- facet: topic
+  category: Road Infrastructure
+  patterns: ['Road Infrastructure', 'Rural Road Infrastructure', 'Highway Infrastructure', 'Road Development']
+  generic: ['roads', 'infrastructure', 'highways', 'connectivity']
+
+- facet: topic
+  category: Hospitality
+  patterns: ['Hospitality', 'Hospitality Industry', 'Hospitality Accommodation']
+  generic: ['hospitality', 'accommodation', 'tourism', 'hotels']
+
+- facet: topic
+  category: NIDHI
+  patterns: ['NIDHI', 'National Integrated Data of the Hospitality Industry', 'NIDHI Portal', 'Accommodation Units']
+  generic: ['NIDHI', 'hospitality', 'accommodation', 'tourism']
+
+- facet: topic
+  category: Emigration
+  patterns: ['Emigration', 'Emigration Clearance', 'Emigration Clearances']
+  generic: ['emigration', 'clearance', 'passports', 'workers']
+
+- facet: topic
+  category: ECR
+  patterns: ['ECR', 'Emigration Check Required', 'ECR Passport Holders', 'ECR Passports']
+  generic: ['ECR', 'passports', 'emigration', 'workers']
+
+- facet: topic
+  category: Rice Procurement
+  patterns: ['Rice Procurement', 'Paddy Procurement', 'Procurement of Paddy', 'Central Pool Procurement']
+  generic: ['rice', 'paddy', 'procurement', 'FCI']
+
+- facet: topic
+  category: Humanitarian Assistance
+  patterns: ['Humanitarian Food Assistance', 'Food Assistance', 'Humanitarian Assistance', 'Food Assistance Shipment']
+  generic: ['humanitarian', 'food', 'assistance', 'countries']
+
+- facet: topic
+  category: Languages
+  patterns: ['Languages', 'Language Promotion', 'Language Development', 'Indian Languages']
+  generic: ['languages', 'promotion',  'education']
+
+- facet: topic
+  category: Monuments
+  patterns: ['Monuments', 'Monument Maintenance', 'Protected Monuments', 'Monuments and Sites']
+  generic: ['monuments', 'heritage', 'sites', 'conservation']
+
+- facet: topic
+  category: Museums
+  patterns: ['Museums', 'Museum Development', 'Museum Infrastructure', 'Museum Projects']
+  generic: ['museums', 'heritage', 'culture', 'infrastructure']
+
+- facet: topic
+  category: Fairs and Festivals
+  patterns: ['Fairs and Festivals', 'Fairs', 'Festivals', 'Cultural Festivals']
+  generic: ['fairs', 'festivals', 'culture', 'tourism']
+
+- facet: topic
+  category: AYUSH Education
+  patterns: ['AYUSH Education', 'AYUSH Students', 'Foreign Students for AYUSH', 'AYUSH Courses']
+  generic: ['AYUSH', 'education', 'students', 'medicine']
+
+- facet: topic
+  category: Drug Demand Reduction
+  patterns: ['Drug Demand Reduction', 'De-addiction', 'Counselling Centres', 'Drug Rehabilitation']
+  generic: ['drugs', 'de-addiction', 'counselling', 'rehabilitation']
+
+- facet: topic
+  category: NAPDDR
+  patterns: ['NAPDDR', 'National Action Plan for Drug Demand Reduction', 'NAPDDR Centres', 'Drug Demand Reduction Scheme']
+  generic: ['NAPDDR', 'drugs', 'counselling', 'rehabilitation']
+
+- facet: topic
+  category: NAMASTE
+  patterns: ['NAMASTE', 'National Action for Mechanised Sanitation Ecosystem', 'Sewer and Septic Tanks Workers', 'NAMASTE Scheme']
+  generic: ['NAMASTE', 'sanitation', 'workers', 'mechanised']
+
+- facet: topic
+  category: Water Bodies
+  patterns: ['Water Bodies', 'Water Bodies Census', 'In-use Water Bodies', 'Water Body Census']
+  generic: ['water', 'bodies', 'census', 'resources']
+
+- facet: topic
+  category: Dams
+  patterns: ['Large Dams', 'Dam Capacity', 'Large Dams Register', 'National Register of Large Dams']
+  generic: ['dams', 'water', 'capacity', 'reservoirs']
+
+- facet: topic
+  category: NRLD
+  patterns: ['NRLD', 'NRLD Data']
+  generic: ['NRLD', 'dams', 'water', 'reservoirs']
+
+- facet: topic
+  category: Flood Forecasting
+  patterns: ['Flood Forecasting', 'Flood Forecasting Stations', 'Flood Forecasting System', 'Flood Forecasting Infrastructure']
+  generic: ['flood', 'forecasting', 'stations', 'water']
+
+- facet: topic
+  category: Agriculture Income
+  patterns: ['Agricultural Household Income', 'Average Monthly Income', 'Agricultural Household Income Estimates']
+  generic: ['agriculture', 'income', 'households', 'farmers']
+
+- facet: topic
+  category: Food Prices
+  patterns: ['Food Prices', 'Essential Food Commodities', 'Retail Food Prices', 'Food Commodity Prices']
+  generic: ['food', 'prices', 'commodities', 'inflation']
+
+- facet: topic
+  category: Retail Prices
+  patterns: ['Retail Prices', 'Retail Price', 'Annual Average Retail Prices', 'Retail Daily Prices']
+  generic: ['retail', 'prices', 'commodities', 'inflation']
+
+- facet: topic
+  category: Coal Mining
+  patterns: ['Coal Mining', 'Coal Mines', 'Coal Mine Safety']
+  generic: ['coal', 'mining', 'mines', 'production']
+
+- facet: topic
+  category: NHAI Projects
+  patterns: ['NHAI Projects', 'Greenfield National Highways', 'Inter-State Corridors']
+  generic: ['NHAI', 'highways', 'projects', 'corridors']
+
+- facet: topic
+  category: Rail Electrification
+  patterns: ['Railway Electrification', 'Rail Electrification', 'Railway Electrification Projects', 'Electrification of Railways']
+  generic: ['railways', 'electrification', 'trains', 'infrastructure']
+
+- facet: topic
+  category: Electronic Interlocking
+  patterns: ['Electronic Interlocking System', 'Electronic Interlocking', 'Railway Interlocking System']
+  generic: ['electronic', 'interlocking', 'railways', 'safety']
+
+- facet: topic
+  category: Fact Check
+  patterns: ['Fact Checks', 'Fact Check Unit', 'Fact Checking']
+  generic: ['fact', 'checks', 'verification', 'transparency']
+
+- facet: topic
+  category: FCU
+  patterns: ['FCU', 'Fact Check Unit Activities', 'FCU Fact Checks']
+  generic: ['FCU', 'fact', 'checks', 'verification']
+
+- facet: topic
+  category: Start-up Funding
+  patterns: ['Startup Funding', 'Startup Support', 'Startup Seed Funding', 'Startup Investment']
+  generic: ['startups', 'funding', 'investment', 'entrepreneurship']
+
+- facet: topic
+  category: AIF Funding
+  patterns: ['AIF Funds', 'Agriculture Infrastructure Fund Allocation', 'AIF Projects', 'AIF Sanctions']
+  generic: ['AIF', 'agriculture', 'funding', 'infrastructure']
+
+- facet: topic
+  category: FFS
+  patterns: ['FFS', 'Fund of Funds', 'FFS Support']
+  generic: ['FFS', 'startups', 'funds', 'investment']
+
+- facet: topic
+  category: SISFS
+  patterns: ['SISFS', 'Startup India Seed Fund Scheme', 'Startup Seed Fund', 'SISFS Support']
+  generic: ['SISFS', 'startups', 'seed', 'funding']
+
+- facet: topic
+  category: PLI
+  patterns: ['PLI', 'Production Linked Incentive', 'Production Linked Incentive Scheme', 'PLI Scheme']
+  generic: ['PLI', 'production', 'incentives', 'industry']
+
+- facet: topic
+  category: Capital Goods
+  patterns: ['Capital Goods', 'Capital Goods Sector', 'Capital Goods Industry', 'Capital Goods Competitiveness']
+  generic: ['capital', 'goods', 'industry', 'competitiveness']
+
+- facet: topic
+  category: Manufacturing
+  patterns: ['Manufacturing', 'Manufacturing Sector', 'Manufacturing Industry', 'Manufacturing Production']
+  generic: ['manufacturing', 'industry', 'production', 'factories']
+
+- facet: topic
+  category: Factories
+  patterns: ['Registered Factories', 'Factory Workers', 'Factory Safety', 'Factories']
+  generic: ['factories', 'workers', 'industry', 'safety']
+
+- facet: topic
+  category: Workplace Safety
+  patterns: ['Workplace Safety', 'Occupational Safety', 'Fatal Injuries in Factories', 'Industrial Safety']
+  generic: ['workplace', 'safety', 'workers', 'injuries']
+
+- facet: topic
+  category: ESI
+  patterns: ['ESI', 'Employees State Insurance', 'ESI Hospitals', 'ESI Corporation']
+  generic: ['ESI', 'employees', 'insurance', 'hospitals']
+
+- facet: topic
+  category: ESIC
+  patterns: ['ESIC', 'Employees State Insurance Corporation', 'ESIC Hospitals', 'ESIC Appointments']
+  generic: ['ESIC', 'employees', 'insurance', 'hospitals']
+
+- facet: topic
+  category: EPFO
+  patterns: ['EPFO', 'Employees Provident Fund Organisation', 'EPFO Beneficiaries', 'EPFO Services']
+  generic: ['EPFO', 'employees', 'pension', 'provident']
+
+- facet: topic
+  category: PVTG
+  patterns: ['PVTG', 'PVTG Development', 'PVTG Welfare']
+  generic: ['PVTG', 'tribal', 'welfare', 'development']
+
+- facet: topic
+  category: EMRS
+  patterns: ['EMRS', 'Eklavya Model Residential Schools', 'Eklavya Model Residential School', 'EMRS Schools']
+  generic: ['EMRS', 'tribal', 'schools', 'education']
+
+- facet: topic
+  category: PM-JVK
+  patterns: ['PMJVK', 'Pradhan Mantri Jan Vikas Karyakram', 'PM-JVK', 'PMJVK Projects']
+  generic: ['PMJVK', 'minority',  'infrastructure']
+
+- facet: topic
+  category: PM-AJAY
+  patterns: ['PM-AJAY', 'Pradhan Mantri Anusuchit Jaati Abhyuday Yojana', 'PM-AJAY Scheme']
+  generic: ['PM-AJAY', 'SC',  'welfare']
+
+- facet: topic
+  category: PM CARES
+  patterns: ['PM CARES', 'PM CARES Children', 'PM CARES Fund', 'PM CARES Support']
+  generic: ['PM', 'CARES', 'children', 'support']
+
+- facet: topic
+  category: CSC
+  patterns: ['CSC', 'Common Service Centres', 'Common Service Centre', 'CSC Services']
+  generic: ['CSC', 'digital', 'services', 'villages']
+
+- facet: topic
+  category: Data and Statistics
+  patterns: ['Data', 'Statistics', 'Statistical Data', 'Official Statistics']
+  generic: ['data', 'statistics', 'indicators', 'records']
+
+- facet: topic
+  category: MPI
+  patterns: ['MPI', 'Multi-Dimensional Poverty Index', 'Multidimensional Poverty Index', 'MPI Indicators']
+  generic: ['MPI', 'poverty', 'deprivation', 'households']
+
+- facet: topic
+  category: Inflation Food
+  patterns: ['Food Inflation', 'Food and Beverages Inflation', 'Food Price Inflation', 'CPI Food']
+  generic: ['food', 'inflation', 'prices', 'CPI']
+
+- facet: topic
+  category: International Trade
+  patterns: ['International Trade', 'Foreign Trade', 'Trade Analysis', 'Trade Performance']
+  generic: ['trade', 'exports', 'imports', 'commerce']
+
+- facet: topic
+  category: Human Hair Exports
+  patterns: ['Human Hair Exports', 'Export of Human Hair', 'Human Hair Export Value']
+  generic: ['human', 'hair', 'exports', 'trade']
+
+- facet: topic
+  category: Textile Exports
+  patterns: ['Textile Exports', 'Apparel Exports', 'Textile and Apparel Exports', 'Handicraft Exports']
+  generic: ['textiles', 'apparel', 'exports', 'handicrafts']
+
+- facet: topic
+  category: Handloom Assistance
+  patterns: ['Hathkargha Samvardhan Sahayata', 'HSS', 'Handloom Assistance', 'Handloom Financial Assistance']
+  generic: ['HSS', 'handloom', 'assistance', 'artisans']
+
+- facet: topic
+  category: Medicinal Plants
+  patterns: ['Medicinal Plants', 'Medicinal Plant Cultivation', 'Medicinal Plants Scheme', 'Medicinal Plant Farmers']
+  generic: ['medicinal', 'plants', 'cultivation', 'farmers']
+
+- facet: topic
+  category: Livelihood
+  patterns: ['Livelihood', 'Livelihood Support', 'Livelihood Development', 'Livelihood Opportunities']
+  generic: ['livelihood', 'employment', 'income', 'development']
+
+- facet: topic
+  category: Self Employment
+  patterns: ['Self Employment', 'Self Employment Training', 'Self Employment Opportunities']
+  generic: ['self', 'employment', 'entrepreneurship', 'training']
+
+- facet: topic
+  category: Women Training
+  patterns: ['Women Training', 'Women Candidates Trained', 'Training of Women', 'Women Skill Training']
+  generic: ['women', 'training', 'skills', 'employment']
+
+- facet: topic
+  category: Beneficiary Families
+  patterns: ['Beneficiary Families', 'Eligible Beneficiary Families', 'Beneficiary Households', 'Beneficiary Households Covered']
+  generic: ['beneficiaries', 'families', 'households', 'coverage']
+
+- facet: topic
+  category: Rural Households
+  patterns: ['Rural Households', 'Rural Families', 'Households in Rural Areas', 'Rural Household Coverage']
+  generic: ['rural', 'households', 'families', 'villages']
+
+- facet: topic
+  category: Urban Households
+  patterns: ['Urban Households', 'Urban Families', 'Households in Urban Areas', 'Urban Household Coverage']
+  generic: ['urban', 'households', 'families', 'cities']
+
+- facet: topic
+  category: Agriculture Startups
+  patterns: ['Agriculture Start-ups', 'Agri Start-ups', 'Agricultural Start-ups']
+  generic: ['agriculture', 'startups', 'entrepreneurship', 'innovation']
+
+- facet: topic
+  category: Biomass Power
+  patterns: ['Biomass Power', 'Biomass Energy', 'Biomass Power Projects', 'Bagasse Cogeneration']
+  generic: ['biomass', 'power', 'energy', 'cogeneration']
+
+- facet: topic
+  category: Power Generation
+  patterns: ['Power Generation', 'Electricity Generation', 'Power Capacity', 'Power Projects']
+  generic: ['power', 'electricity', 'generation', 'capacity']
+
+- facet: topic
+  category: Energy Capacity
+  patterns: ['Installed Capacity', 'Energy Capacity', 'Installed Power Capacity']
+  generic: ['capacity', 'energy', 'power', 'electricity']
+
+- facet: topic
+  category: Coal Production
+  patterns: ['Coal Production', 'Coal Output', 'Coal Production Details', 'Coal Mining Production']
+  generic: ['coal', 'production', 'mining', 'output']
+
+- facet: topic
+  category: Mineral Resources
+  patterns: ['Mineral Resources', 'Mineral Production', 'Mineral Development', 'Mineral Exploration']
+  generic: ['minerals', 'mining', 'resources', 'production']
+
+- facet: topic
+  category: Agriculture Research
+  patterns: ['Agricultural Research', 'Agriculture Research', 'Agricultural Research and Education', 'Agriculture Research Projects']
+  generic: ['agriculture', 'research', 'education', 'science']
+
+- facet: topic
+  category: ICAR
+  patterns: ['ICAR', 'Indian Council of Agricultural Research', 'ICAR Institutes', 'ICAR Research']
+  generic: ['ICAR', 'agriculture', 'research', 'science']
+
+- facet: topic
+  category: DA&FW
+  patterns: ['DA&FW', 'Department of Agriculture and Farmers Welfare', 'Agriculture and Farmers Welfare']
+  generic: ['DA&FW', 'agriculture', 'farmers', 'welfare']
+
+- facet: topic
+  category: DARE
+  patterns: ['DARE', 'Department of Agricultural Research and Education', 'DARE Schemes', 'DARE Funds']
+  generic: ['DARE', 'agriculture', 'research', 'education']
+
+- facet: topic
+  category: PACS
+  patterns: ['PACS', 'Primary Agricultural Credit Societies', 'PACS Development', 'PACS Computerisation']
+  generic: ['PACS', 'agriculture', 'credit', 'societies']
+
+- facet: topic
+  category: Computerisation
+  patterns: ['Computerisation', 'Digitalisation', 'Digitisation', 'Computerisation of Societies']
+  generic: ['computerisation', 'digitalisation', 'technology', 'societies']
+
+- facet: topic
+  category: Mission
+  patterns: ['Mission', 'Government Mission', 'National Mission', 'Mission Programme']
+  generic: ['mission', 'programme', 'development']
+
+- facet: topic
+  category: Scheme
+  patterns: ['Scheme', 'Government Scheme', 'Central Scheme']
+  generic: ['scheme', 'programme', 'beneficiaries']
+
+- facet: topic
+  category: Programme
+  patterns: ['Programme', 'Government Programme', 'National Programme', 'Development Programme']
+  generic: ['programme',  'beneficiaries']
+
+- facet: topic
+  category: Central Assistance
+  patterns: ['Central Assistance', 'Central Government Assistance', 'Central Share', 'Central Assistance Released']
+  generic: ['central', 'assistance', 'funds']
+
+- facet: topic
+  category: State Assistance
+  patterns: ['State Assistance', 'State Government Assistance', 'State Share', 'State Assistance Released']
+  generic: ['state', 'assistance', 'funds']
+
+- facet: topic
+  category: Loans
+  patterns: ['Loans', 'Loan Sanctioned', 'Loan Assistance']
+  generic: ['loans', 'credit', 'finance', 'beneficiaries']
+
+- facet: topic
+  category: Subsidy
+  patterns: ['Subsidy', 'Subsidy Support', 'Subsidy Amount', 'Subsidy Released']
+  generic: ['subsidy', 'assistance', 'finance', 'beneficiaries']
+
+- facet: topic
+  category: Claims
+  patterns: ['Claims', 'Claims Paid', 'Claims Settlement']
+  generic: ['claims', 'insurance', 'payments', 'beneficiaries']
+
+- facet: topic
+  category: Expenditure Utilization
+  patterns: ['Expenditure Utilization', 'Fund Utilization', 'Utilization Status']
+  generic: ['expenditure', 'utilization', 'funds', 'spending']
+
+- facet: topic
+  category: Physical Achievement
+  patterns: ['Physical Achievement', 'Physical Achievements', 'Physical Progress', 'Physical Targets']
+  generic: ['physical', 'achievement', 'progress', 'targets']
+
+- facet: topic
+  category: Targets
+  patterns: ['Targets', 'Targets Allocated', 'Target Achievement']
+  generic: ['targets', 'allocation', 'achievement', 'progress']
+
+- facet: topic
+  category: Placement
+  patterns: ['Placement', 'Placement Rate', 'Employment Placement']
+  generic: ['placement', 'candidates', 'employment', 'jobs']
+
+- facet: topic
+  category: Certification
+  patterns: ['Certification', 'Candidates Certified', 'Training Certification', 'Certified Candidates']
+  generic: ['certification', 'candidates', 'training', 'skills']
+
+- facet: topic
+  category: Registration
+  patterns: ['Registration', 'Registered Beneficiaries', 'Registered Farmers', 'Registration Coverage']
+  generic: ['registration', 'beneficiaries', 'farmers', 'coverage']
+
+- facet: topic
+  category: Cases
+  patterns: ['Cases Registered', 'Cases Filed', 'Cases Disposed', 'Cases Convicted']
+  generic: [ 'registered', 'filed', 'disposed']
+
+- facet: topic
+  category: Arrests
+  patterns: ['Arrests', 'Persons Arrested', 'Arrested Persons', 'Cases with Arrests']
+  generic: ['arrests', 'police', 'crime', 'cases']
+
+- facet: topic
+  category: Convictions
+  patterns: ['Convictions', 'Persons Convicted', 'Conviction Rate']
+  generic: ['convictions',  'justice', 'courts']
+
+- facet: topic
+  category: Chargesheets
+  patterns: ['Chargesheets', 'Chargesheeted Cases', 'Chargesheets Submitted', 'Charge Sheets']
+  generic: ['chargesheets',  'police', 'crime']
+
+- facet: topic
+  category: Traffic
+  patterns: ['Traffic Rules', 'Traffic Violations', 'Traffic Enforcement']
+  generic: ['traffic', 'roads', 'safety', 'violations']
+
+- facet: topic
+  category: Challans
+  patterns: ['Challans', 'Traffic Challans', 'E-Challans', 'Challans Issued']
+  generic: ['challans', 'traffic', 'violations', 'enforcement']
+
+- facet: topic
+  category: iRAD
+  patterns: ['iRAD', 'Integrated Road Accident Database', 'iRAD Data', 'Road Accident Database']
+  generic: ['iRAD', 'accidents', 'roads', 'safety']
+
+- facet: topic
+  category: NCRB
+  patterns: ['NCRB', 'National Crime Records Bureau', 'NCRB Data', 'Crime in India']
+  generic: ['NCRB', 'crime', 'police', 'statistics']
+
+- facet: topic
+  category: PMLA
+  patterns: ['PMLA', 'Prevention of Money Laundering Act', 'PMLA Cases']
+  generic: ['PMLA', 'money', 'laundering', 'crime']
+
+- facet: topic
+  category: Money Laundering
+  patterns: ['Money Laundering', 'Money Laundering Cases', 'Money Laundering Investigation']
+  generic: ['money', 'laundering', 'finance', 'crime']
+
+- facet: topic
+  category: Financial Crime
+  patterns: ['Financial Crime', 'Financial Frauds', 'Financial Fraud Cases']
+  generic: ['financial', 'crime', 'fraud', 'banking']
+
+- facet: topic
+  category: Consumer Protection
+  patterns: ['Consumer Protection', 'Consumer Rights', 'Consumer Disputes']
+  generic: ['consumer', 'protection', 'rights', 'cases']
+
+- facet: topic
+  category: Public Safety
+  patterns: ['Public Safety', 'Safety Related Works', 'Public Safety Measures', 'Safety Infrastructure']
+  generic: ['public', 'safety', 'security', 'infrastructure']
+
+- facet: topic
+  category: Emergency Services
+  patterns: ['Emergency Services', 'Emergency Response', 'Emergency Assistance', 'Emergency Support']
+  generic: ['emergency', 'response', 'assistance', 'services']
+
+- facet: topic
+  category: Helpline
+  patterns: ['Child Helpline', 'Helpline Services', 'Helpline Calls', 'Helpline Outreach']
+  generic: ['helpline', 'children', 'calls', 'support']
+
+- facet: topic
+  category: Education Access
+  patterns: ['Education Access', 'Access to Education', 'Education Opportunities', 'Educational Access']
+  generic: ['education', 'access', 'students', 'schools']
+
+- facet: topic
+  category: Gender
+  patterns: ['Gender', 'Gender Disaggregated Data', 'Gender Equality']
+  generic: ['gender', 'women', 'participation', 'equality']
+
+- facet: topic
+  category: Gender Participation
+  patterns: ['Gender Participation', 'Female Participation', 'Participation of Women']
+  generic: ['gender', 'women', 'participation', 'employment']
+
+- facet: topic
+  category: Scheduled Castes Employment
+  patterns: ['SC Employment', 'Scheduled Caste Employment', 'SC Beneficiaries in Employment', 'SC Employment Participation']
+  generic: ['SC', 'employment', 'workers', 'beneficiaries']
+
+- facet: topic
+  category: Scheduled Tribes Employment
+  patterns: ['ST Employment', 'Scheduled Tribe Employment', 'ST Beneficiaries in Employment', 'ST Employment Participation']
+  generic: ['ST', 'employment', 'workers', 'beneficiaries']
+
+- facet: topic
+  category: Rural Electrification
+  patterns: ['Rural Electrification', 'Rural Electricity', 'Rural Power Supply', 'Village Electrification']
+  generic: ['rural', 'electricity', 'power', 'villages']
+
+- facet: topic
+  category: Village Development
+  patterns: ['Village Development', 'Village Infrastructure', 'Village Connectivity', 'Village Development Projects']
+  generic: ['village',  'infrastructure', 'connectivity']

@@ -1,0 +1,414 @@
+- facet: topic
+  category: research_development
+  patterns: ['Research and Development', 'R&D', 'research development']
+  generic: [research, development, R&D, science, technology]
+
+- facet: topic
+  category: extramural_research
+  patterns: ['Extramural Research', 'Extramural Research and Development', 'Extramural R&D', 'EMR']
+  generic: [extramural, research, development, R&D, EMR]
+
+- facet: topic
+  category: research_project
+  patterns: ['research project', 'R&D project', 'research projects']
+  generic: [research, project, R&D, funding, science]
+
+- facet: topic
+  category: research_proposal
+  patterns: ['research proposal', 'R&D proposal', 'research and development proposal']
+  generic: [research, proposal, R&D, funding, biotechnology]
+
+- facet: topic
+  category: biotechnology
+  patterns: ['Biotechnology', 'biotechnology research', 'biotechnology project', 'DBT']
+  generic: [biotechnology, DBT, research, project, science]
+
+- facet: topic
+  category: biotechnology_project
+  patterns: ['Biotechnology Project', 'biotechnology projects', 'DBT project']
+  generic: [biotechnology, project, DBT, research, funding]
+
+- facet: topic
+  category: societal_development
+  patterns: ['Societal Development', 'societal development project', 'societal proposal']
+  generic: [societal, development, proposal, DBT]
+
+- facet: topic
+  category: research_grant
+  patterns: ['research grant', 'R&D grant', 'research grants']
+  generic: [research, grant, R&D, funding, DBT]
+
+- facet: topic
+  category: research_funding
+  patterns: ['research funding', 'R&D funding', 'research investment']
+  generic: [research, funding, R&D, investment, DST]
+
+- facet: topic
+  category: research_expenditure
+  patterns: ['Research and Development Expenditure', 'R&D Expenditure', 'research expenditure']
+  generic: [research, expenditure, R&D, funding, investment]
+
+- facet: topic
+  category: science_technology
+  patterns: ['Science and Technology', 'S&T', 'science technology']
+  generic: [science, technology, S&T, research, development]
+
+- facet: topic
+  category: patent
+  patterns: ['Patent', 'Patents Filed', 'Patent Applications', 'patent application']
+  generic: [patent, application, invention, innovation, filing]
+
+- facet: topic
+  category: patent_filing
+  patterns: ['Patent Filing', 'patent applications filed', 'patents filed']
+  generic: [patent, filing, application, invention, innovation]
+
+- facet: topic
+  category: innovation
+  patterns: ['innovation', 'innovation activity', 'research innovation']
+  generic: [innovation, research, patent, technology, invention]
+
+- facet: topic
+  category: research_manpower
+  patterns: ['Research and Development Manpower', 'R&D Manpower', 'research manpower']
+  generic: [research, manpower, R&D, personnel, workforce]
+
+- facet: topic
+  category: scientific_personnel
+  patterns: ['Scientific Personnel', 'science personnel', 'scientific manpower']
+  generic: [scientific, personnel, manpower, workforce, research]
+
+- facet: topic
+  category: FTE
+  patterns: ['Full Time Equivalent', 'FTE', 'full-time equivalent']
+  generic: [FTE, manpower, personnel, workforce, research]
+
+- facet: topic
+  category: research_fellow
+  patterns: ['Research Fellow', 'research fellows', 'fellow']
+  generic: [research, fellow, scientist, manpower, institute]
+
+- facet: topic
+  category: PhD
+  patterns: ['Ph.D.', 'PhD', 'Doctorate Degree', 'doctoral degree']
+  generic: [PhD, doctorate, degree, research, education]
+
+- facet: topic
+  category: higher_education
+  patterns: ['Higher Education', 'higher education enrolment', 'university education']
+  generic: [education, university, college, enrolment, student]
+
+- facet: topic
+  category: education_enrolment
+  patterns: ['Education Enrolment', 'Higher Education Enrolment', 'student enrolment']
+  generic: [education, enrolment, student, faculty, university]
+
+- facet: topic
+  category: women_education
+  patterns: ['Women Enrolment', 'Women in Higher Education', 'female enrolment']
+  generic: [women, education, enrolment, faculty, student]
+
+- facet: topic
+  category: education_expenditure
+  patterns: ['Education Expenditure', 'expenditure on education', 'education spending']
+  generic: [education, expenditure, budget, revenue, state]
+
+- facet: topic
+  category: education_budget
+  patterns: ['Education Budget', 'Plan Budget', 'Non-Plan Budget', 'education budget estimate']
+  generic: [education, budget, plan, revenue, expenditure]
+
+- facet: topic
+  category: research_publication
+  patterns: ['Research Publication', 'Scientific Publication', 'scientific publications']
+  generic: [research, publication, science, literature, institute]
+
+- facet: topic
+  category: research_area
+  patterns: ['Research Area', 'Research Areas', 'major research area']
+  generic: [research, area, biotechnology, science, technology]
+
+- facet: topic
+  category: scientific_instrument
+  patterns: ['Scientific Instrument', 'scientific instruments', 'research infrastructure']
+  generic: [scientific, instrument, infrastructure, research, facility]
+
+- facet: topic
+  category: research_infrastructure
+  patterns: ['Research Infrastructure', 'scientific infrastructure', 'research facility']
+  generic: [research, infrastructure, facility, science, technology]
+
+- facet: topic
+  category: research_institute
+  patterns: ['Research Institute', 'research institution', 'scientific institute']
+  generic: [research, institute, science, technology, biotechnology]
+
+- facet: topic
+  category: scientist
+  patterns: ['Scientist', 'Scientists', 'scientific personnel']
+  generic: [scientist, research, science, technology, personnel]
+
+- facet: topic
+  category: workshop
+  patterns: ['Workshop', 'Workshops', 'training workshop']
+  generic: [workshop, training, research, science, biotechnology]
+
+- facet: topic
+  category: conference
+  patterns: ['Conference', 'Conferences', 'research conference']
+  generic: [conference, research, science, technology, biotechnology]
+
+- facet: topic
+  category: seminar
+  patterns: ['Seminar', 'Seminars', 'research seminar']
+  generic: [seminar, research, science, academic, biotechnology]
+
+- facet: topic
+  category: grant
+  patterns: ['Grant', 'grant allocation', 'grant support']
+  generic: [grant, funding, support, research, DBT]
+
+- facet: topic
+  category: expenditure
+  patterns: ['Expenditure', 'fund expenditure', 'budget expenditure']
+  generic: [expenditure, budget, funding, finance, allocation]
+
+- facet: topic
+  category: fund_allocation
+  patterns: ['Fund Allocation', 'fund allocation and expenditure', 'fund allocation']
+  generic: [fund, allocation, expenditure, budget, DST]
+
+- facet: topic
+  category: government_funding
+  patterns: ['Government Funding', 'government grant', 'government expenditure']
+  generic: [government, funding, grant, expenditure, DST]
+
+- facet: topic
+  category: economic_activity
+  patterns: ['Economic Activity', 'economic activity sub-sector', 'economic sector']
+  generic: [economic, activity, sector, industry, GDP]
+
+- facet: topic
+  category: industrial_research
+  patterns: ['Industrial R&D', 'industrial research', 'industrial sector R&D']
+  generic: [industrial, research, R&D, sector, industry]
+
+- facet: topic
+  category: public_sector
+  patterns: ['Public Sector', 'public sector R&D', 'public sector undertaking']
+  generic: [public, sector, R&D, industry, government]
+
+- facet: topic
+  category: private_sector
+  patterns: ['Private Sector', 'private sector R&D', 'private sector research']
+  generic: [private, sector, R&D, industry, research]
+
+- facet: topic
+  category: MSME
+  patterns: ['MSME', 'MSMEs', 'Micro Small Medium Enterprises']
+  generic: [MSME, enterprise, industry, research, R&D]
+
+- facet: topic
+  category: cooperative_research
+  patterns: ['Cooperative Research', 'Cooperative Research Association', 'research association']
+  generic: [cooperative, research, association, R&D, funding]
+
+- facet: topic
+  category: national_R&D
+  patterns: ['National R&D', 'National Research and Development', 'national R&D expenditure']
+  generic: [national, R&D, research, expenditure, GDP]
+
+- facet: topic
+  category: GDP
+  patterns: ['GDP', 'Gross Domestic Product', 'GDP share']
+  generic: [GDP, economy, income, expenditure, research]
+
+- facet: topic
+  category: GNP
+  patterns: ['GNP', 'Gross National Product', 'GNP share']
+  generic: [GNP, economy, income, expenditure, research]
+
+- facet: topic
+  category: PPP
+  patterns: ['PPP', 'Purchasing Power Parity', 'PPP US$']
+  generic: [PPP, expenditure, economy, dollar]
+
+- facet: topic
+  category: researcher
+  patterns: ['Researcher', 'Researchers', 'research personnel']
+  generic: [researcher, research, personnel, science, technology]
+
+- facet: topic
+  category: doctoral_mobility
+  patterns: ['Science and Engineering Doctorates', 'doctoral mobility', 'foreign doctorate']
+  generic: [doctorate, science, engineering, foreign]
+
+- facet: topic
+  category: intellectual_property
+  patterns: ['Intellectual Property', 'IP', 'patent']
+  generic: [intellectual, property, patent, invention, innovation]
+
+- facet: topic
+  category: plan_expenditure
+  patterns: ['Plan Expenditure', 'plan-wise expenditure', 'Plan expenditure progress']
+  generic: [plan, expenditure, budget, department, DST]
+
+- facet: topic
+  category: central_scientific_department
+  patterns: ['Central Scientific Department', 'central scientific departments', 'scientific department']
+  generic: [central, scientific, department, expenditure, DST]
+
+- facet: organization
+  category: DST
+  patterns: ['Department of Science and Technology', 'DST']
+  generic: [DST, science, technology, research, government]
+
+- facet: organization
+  category: DBT
+  patterns: ['Department of Biotechnology', 'DBT']
+  generic: [DBT, biotechnology, research, science, government]
+
+- facet: organization
+  category: UGC
+  patterns: ['University Grants Commission', 'UGC']
+  generic: [UGC, university, education, college, enrolment]
+
+- facet: organization
+  category: NABI
+  patterns: ['National Agri-Food Biotechnology Institute', 'NABI']
+  generic: [NABI, biotechnology, research, institute, scientist]
+
+- facet: organization
+  category: NIPGR
+  patterns: ['National Institute of Plant Genome Research', 'NIPGR']
+  generic: [NIPGR, plant, genome, research, biotechnology]
+
+- facet: organization
+  category: NIAB
+  patterns: ['National Institute of Animal Biotechnology', 'NIAB']
+  generic: [NIAB, animal, biotechnology, research, Hyderabad]
+
+- facet: organization
+  category: NCCS
+  patterns: ['National Centre for Cell Science', 'NCCS']
+  generic: [NCCS, cell, science, research, Pune]
+
+- facet: organization
+  category: NIBMG
+  patterns: ['National Institute of Biomedical Genomics', 'NIBMG']
+  generic: [NIBMG, biomedical, genomics, research, institute]
+
+- facet: organization
+  category: RCB
+  patterns: ['Regional Centre for Biotechnology', 'RCB']
+  generic: [RCB, biotechnology, research, training, institute]
+
+- facet: organization
+  category: CDFD
+  patterns: ['Centre for DNA Fingerprinting and Diagnostics', 'CDFD']
+  generic: [CDFD, DNA, diagnostics, research, biotechnology]
+
+- facet: organization
+  category: BIRAC
+  patterns: ['Biotechnology Industry Research Assistance Council', 'BIRAC']
+  generic: [BIRAC, biotechnology, industry, research, funding]
+
+- facet: organization
+  category: NTMIS
+  patterns: ['National Technical Manpower Information System', 'NTMIS']
+  generic: [NTMIS, manpower, technical, workforce, engineering]
+
+- facet: organization
+  category: AICTE
+  patterns: ['All India Council for Technical Education', 'AICTE']
+  generic: [AICTE, technical, education, engineering, manpower]
+
+- facet: organization
+  category: IIT
+  patterns: ['Indian Institute of Technology', 'IIT', 'IITs']
+  generic: [IIT, technology, education, research, engineering]
+
+- facet: technology
+  category: eProMIS
+  patterns: ['eProMIS', 'DBT eProMIS', 'EProMIS']
+  generic: [eProMIS, DBT, proposal, project, biotechnology]
+
+- facet: technology
+  category: WMS
+  patterns: ['Web Map Service', 'WMS']
+  generic: [WMS, map, GIS, spatial, geography]
+
+- facet: technology
+  category: OSM
+  patterns: ['Open Series Map', 'OSM', 'OSM Topo']
+  generic: [OSM, topo, map, survey, geography]
+
+- facet: technology
+  category: GIS
+  patterns: ['Geographic Information System', 'GIS', 'geospatial information']
+  generic: [GIS, geospatial, map, spatial, geography]
+
+- facet: geography
+  category: Andhra_Pradesh
+  patterns: ['Andhra Pradesh', 'Andhra']
+  generic: [Andhra, Pradesh, WMS, OSM, topo]
+
+- facet: geography
+  category: Delhi
+  patterns: ['Delhi', 'National Capital Territory of Delhi', 'NCT Delhi']
+  generic: [Delhi, WMS, OSM, topo, GIS]
+
+- facet: geography
+  category: Hyderabad
+  patterns: ['Hyderabad']
+  generic: [Hyderabad, NIAB, biotechnology, research, project]
+
+- facet: geography
+  category: Imphal
+  patterns: ['Imphal']
+  generic: [Imphal, IBSD, biotechnology, research, project]
+
+- facet: geography
+  category: Pune
+  patterns: ['Pune']
+  generic: [Pune, NCCS, biotechnology, research, PhD]
+
+- facet: geography
+  category: Bhubaneswar
+  patterns: ['Bhubaneswar']
+  generic: [Bhubaneswar, ILS, biotechnology, research, project]
+
+- facet: geography
+  category: Manesar
+  patterns: ['Manesar']
+  generic: [Manesar, NBRC, research, scientist, faculty]
+
+- facet: geography
+  category: India
+  patterns: ['India', 'Indian', 'All India']
+  generic: [ national]
+
+- facet: geography
+  category: state
+  patterns: ['State-wise', 'State Wise', 'state level', 'States']
+  generic: [ regional, location]
+
+- facet: geography
+  category: central
+  patterns: ['Central Government', 'Central', 'central level']
+  generic: [central, India, DST, DBT]
+
+- facet: geography
+  category: union_territory
+  patterns: ['Union Territory', 'UT', 'Union Territories']
+  generic: [UT, state, India, geography, government]
+
+- facet: geography
+  category: country
+  patterns: ['country', 'countries', 'country-wise', 'country level']
+  generic: [ global, international, research, economy]
+
+- facet: geography
+  category: foreign
+  patterns: ['Foreign Country', 'Foreign Countries', 'foreign resident', 'abroad']
+  generic: [foreign, patent, international, resident]

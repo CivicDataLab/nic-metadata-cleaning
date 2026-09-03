@@ -1,0 +1,54 @@
+- facet: topic
+  category: visa
+  patterns: ['VISA', 'Visa', 'Visa Issuance', 'Visa Category']
+  generic: [visa, issuance, foreign, national, category, MHA]
+
+- facet: topic
+  category: oci
+  patterns: ['OCI', 'Overseas Citizenship of India', 'OCI Details', 'OCI Status']
+  generic: [OCI, citizenship, overseas, registration, mission]
+
+- facet: geography
+  category: foreign_country
+  patterns: ['Country', 'Foreign Country', 'Country-wise', 'Country and Mission']
+  generic: [ foreign, overseas, international, mission]
+
+- facet: geography
+  category: overseas_mission
+  patterns: ['Mission', 'Mission-wise', 'Country and Mission', 'Country/Mission']
+  generic: [mission, overseas, consulate, embassy]
+
+- facet: topic
+  category: visa_processing
+  patterns: ['Visa Processing', 'VISA Processing System', 'Visa Processing Trends']
+  generic: [visa, processing, issuance, category, foreign, MHA]
+
+- facet: topic
+  category: oci_processing
+  patterns: ['OCI Processing', 'OCI Processing Stages', 'OCI Status', 'Various Stages']
+  generic: [OCI, processing, status, stage, mission]
+
+- facet: topic
+  category: foreign_national
+  patterns: ['Foreign Nationals', 'Foreign National', 'Various Foreign Nationals']
+  generic: [foreign, national, visa, immigration, overseas]
+
+- facet: topic
+  category: immigration
+  patterns: ['Immigration', 'Immigration Trends', 'Foreign Nationals']
+  generic: [immigration, visa, foreign, national, entry, MHA]
+
+- facet: organization
+  category: ministry_of_home_affairs
+  patterns: ['Ministry of Home Affairs', 'MHA', 'Department of Home']
+  generic: [MHA, home]
+
+- facet: topic
+  category: visa_category
+  patterns: ['Visa Category', 'Visa Type', 'Category-wise Visa']
+  generic: [visa, category, type, issuance, foreign]
+
+- facet: topic
+  category: visa_issuance
+  patterns: ['Visa Issuance', 'Issuance of VISA', 'Issuance of Visa']
+  generic: [visa, issuance, foreign, national, category]
