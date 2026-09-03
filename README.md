@@ -12,12 +12,6 @@ entries, and vocabularies are non-standard. This repo fixes that, one concern at
 
 ## What it does
 
-### Downloads the data
-
-Fetches dataset files and metadata from the portal's API, working through the download
-captcha, in parallel, with retry handling for the ones that fail.
-
-`scripts/`, `metadata_extraction/`
 
 ### Maps metadata to Dublin Core and DCAT v3
 
@@ -103,8 +97,6 @@ in the repo. Build it with `transformation/import_csv.py` (imports the source mi
 spreadsheet) or restore the latest S3 snapshot with
 `transformation/utils/update_local_db.py`.
 
-Note that several scripts still hardcode absolute paths to a local machine — check the
-constants at the top of a script before running it.
 
 ## Further reading
 
