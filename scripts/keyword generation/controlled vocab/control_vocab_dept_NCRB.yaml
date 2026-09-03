@@ -1,0 +1,1074 @@
+- facet: topic
+  category: crime
+  patterns: ['Crime', 'Crimes', 'Crime Incidence', 'Crime Cases', 'Cognizable Crimes', 'Crime Statistics']
+  generic: [crime, crimes, incidence, cases, offences]
+
+- facet: topic
+  category: ipc
+  patterns: ['IPC', 'Indian Penal Code', 'Indian Penal Code Crimes', 'IPC Crimes', 'IPC Offences']
+  generic: [IPC, penal, code, offences, crimes]
+
+- facet: topic
+  category: sll
+  patterns: ['SLL', 'Special and Local Laws', 'Special & Local Laws']
+  generic: [SLL, special, local, laws, offences]
+
+- facet: topic
+  category: lsl
+  patterns: ['LSL', 'Local and Special Laws', 'Local & Special Laws']
+  generic: [LSL, local, special, laws, offences]
+
+- facet: topic
+  category: cognizable_crime
+  patterns: ['Cognizable Crime', 'Cognizable Crimes', 'Cognizable Crimes Registered', 'Incidence of Cognizable Crimes']
+  generic: [cognizable, crime, incidence, registered, cases]
+
+- facet: topic
+  category: crime_head
+  patterns: ['Crime Head', 'Crime Heads', 'Crime Head-wise', 'Head-wise Crime']
+  generic: [crime, head, offence, category, cases]
+
+- facet: topic
+  category: crime_incidence
+  patterns: ['Incidence of Crime', 'Crime Incidence', 'Incidence and Rate', 'Incidence and Volume']
+  generic: [incidence, crime, rate, volume, cases]
+
+- facet: topic
+  category: crime_rate
+  patterns: ['Crime Rate', 'Rate of Crime', 'Incidence and Rate', 'Crime Rate in States']
+  generic: [crime, rate, incidence, states, comparison]
+
+- facet: topic
+  category: crime_disposal
+  patterns: ['Disposal of Cases', 'Cases Registered and Disposal', 'Police Disposal', 'Court Disposal']
+  generic: [disposal, cases, police, court, investigation]
+
+- facet: topic
+  category: arrests
+  patterns: ['Persons Arrested', 'Persons Arrested Under', 'Arrested Persons', 'Persons Arrested by Sex']
+  generic: [arrested, persons, police, enforcement, crime]
+
+- facet: topic
+  category: victims
+  patterns: ['Victims', 'Victims of Crime', 'Victims by Age Group', 'Victims by Sex']
+  generic: [victims, crime, age, sex, cases]
+
+- facet: topic
+  category: rape
+  patterns: ['Rape', 'Rape Cases', 'Rape Victims', 'Victims of Rape', 'Rape Cases by Age Group']
+  generic: [rape, victims, sexual, crime, women]
+
+- facet: topic
+  category: murder
+  patterns: ['Murder', 'Murder Cases', 'Murder Victims', 'Motives of Murder']
+  generic: [murder, victims, homicide, motive, crime]
+
+- facet: topic
+  category: culpable_homicide
+  patterns: ['Culpable Homicide', 'Culpable Homicide Not Amounting to Murder', 'C.H.']
+  generic: [homicide, murder, culpable, offence, crime]
+
+- facet: topic
+  category: kidnapping_abduction
+  patterns: ['Kidnapping', 'Abduction', 'Kidnapping and Abduction', 'Kidnapped and Abducted']
+  generic: [kidnapping, abduction, victims, recovery, crime]
+
+- facet: topic
+  category: dacoity
+  patterns: ['Dacoity', 'Dacoity Cases', 'Dacoity Cases and Property']
+  generic: [dacoity, robbery, property, stolen, crime]
+
+- facet: topic
+  category: robbery
+  patterns: ['Robbery', 'Robbery Cases', 'Robbery Cases and Property']
+  generic: [robbery, property, stolen, cases, crime]
+
+- facet: topic
+  category: burglary
+  patterns: ['Burglary', 'Burglary Cases', 'Burglary Cases and Property']
+  generic: [burglary, property, stolen, cases, crime]
+
+- facet: topic
+  category: theft
+  patterns: ['Theft', 'Theft Cases', 'Theft Cases Reported', 'Theft Cases and Property']
+  generic: [theft, property, stolen, cases, crime]
+
+- facet: topic
+  category: property_crime
+  patterns: ['Property Stolen', 'Property Recovered', 'Property Stolen and Recovered', 'Value of Property Stolen', 'Recovery Percentage']
+  generic: [property, stolen, recovered, recovery, value]
+
+- facet: topic
+  category: juvenile_crime
+  patterns: ['Juvenile Crime', 'Juvenile Delinquency', 'Juveniles Apprehended', 'Juveniles Arrested']
+  generic: [juvenile, delinquency, apprehended, arrested, crime]
+
+- facet: topic
+  category: juvenile_justice
+  patterns: ['Juvenile Justice', 'Disposal of Juveniles', 'Juveniles Sent to Court', 'Juveniles Apprehended']
+  generic: [juvenile, justice, court, apprehended, disposal]
+
+- facet: topic
+  category: juvenile_profile
+  patterns: ['Juvenile Profile', 'Classification of Juveniles', 'Education and Family Background of Juveniles', 'Juveniles by Age Group and Sex']
+  generic: [juvenile, age, sex, education, family]
+
+- facet: topic
+  category: crime_against_women
+  patterns: ['Crime Against Women', 'Crimes Against Women', 'Crime against Women', 'Women Crime']
+  generic: [women, crime, safety, victims, offences]
+
+- facet: topic
+  category: crime_against_children
+  patterns: ['Crime Against Children', 'Crimes Against Children', 'Crime Committed Against Children', 'Child Crime']
+  generic: [children, child, crime, victims, safety]
+
+- facet: topic
+  category: crime_against_scheduled_castes
+  patterns: ['Crime Against Scheduled Castes', 'Crimes Against Scheduled Castes', 'Crime/Atrocities against SCs', 'Scheduled Caste Crime']
+  generic: [scheduled, caste, SC, crime, atrocities]
+
+- facet: topic
+  category: crime_against_scheduled_tribes
+  patterns: ['Crime Against Scheduled Tribes', 'Crimes Against Scheduled Tribes', 'Crime/Atrocities against STs', 'Scheduled Tribe Crime']
+  generic: [scheduled, tribe, ST, crime, atrocities]
+
+- facet: topic
+  category: crime_against_senior_citizens
+  patterns: ['Crime Against Senior Citizens', 'Crime Against Senior Citizen', 'Crimes Against Senior Citizens']
+  generic: [senior, citizens, crime, elderly, safety]
+
+- facet: topic
+  category: human_trafficking
+  patterns: ['Human Trafficking', 'Child Trafficking', 'Trafficking Cases', 'Victims Trafficked', 'Victims Rescued']
+  generic: [trafficking, victims, rescued, children, crime]
+
+- facet: topic
+  category: cyber_crime
+  patterns: ['Cyber Crime', 'Cyber Crimes', 'Cyber Crime Cases', 'IT Act Cyber Crime', 'Cyber Crimes under IPC']
+  generic: [cyber, crime, IT, computer, technology]
+
+- facet: topic
+  category: economic_offences
+  patterns: ['Economic Offences', 'Economic Crimes', 'Economic Offence Cases']
+  generic: [economic, offences, crime, property, financial]
+
+- facet: topic
+  category: corruption
+  patterns: ['Prevention of Corruption Act', 'Anti-Corruption', 'Anti-Corruption Departments', 'Vigilance Departments', 'PC Act']
+  generic: [corruption, anti-corruption, vigilance, enforcement, IPC]
+
+- facet: topic
+  category: counterfeiting
+  patterns: ['Counterfeiting', 'Counterfeiting Cases', 'Counterfeiting Persons', 'Counterfeit']
+  generic: [ counterfeit, currency, crime, cases]
+
+- facet: topic
+  category: environment_offences
+  patterns: ['Environment Related Offences', 'Environmental Offences', 'Offences under Various Categories of Environment']
+  generic: [environment, offences, pollution, ecology, crime]
+
+- facet: topic
+  category: offences_against_state
+  patterns: ['Offences Against the State', 'Offences against State', 'Crime Against State']
+  generic: [ offences, crime, security, law]
+
+- facet: topic
+  category: foreigners
+  patterns: ['Crime Against Foreigners', 'Crime Committed by Foreigners', 'Foreigners Arrested', 'Foreigner Accused']
+  generic: [foreigners, crime, accused, arrested, nationality]
+
+- facet: topic
+  category: missing_persons
+  patterns: ['Missing Persons', 'Missing and Traced Persons', 'Missing Children', 'Traced Persons']
+  generic: [missing, traced, persons, children, recovery]
+
+- facet: topic
+  category: suicide
+  patterns: ['Suicides', 'Suicide Victims', 'Distribution of Suicides', 'Suicide by Causes', 'Suicide by Means Adopted']
+  generic: [suicide, victims, causes, means, prevention]
+
+- facet: topic
+  category: accidental_deaths
+  patterns: ['Accidental Deaths', 'Accidental Death', 'Accidental Deaths by Causes', 'Un-natural Causes', 'Natural Causes']
+  generic: [accidental, deaths, causes, mortality, incidents]
+
+- facet: topic
+  category: traffic_accidents
+  patterns: ['Traffic Accidents', 'Road Accidents', 'Traffic Accident Deaths', 'Accidents by Month', 'Accidents by Time']
+  generic: [traffic, accidents, road, transport, safety]
+
+- facet: topic
+  category: road_accident_deaths
+  patterns: ['Road Accident Deaths', 'Road Accident Deaths by Mode of Transport', 'Accident Deaths by Transport']
+  generic: [road, accidents, deaths, transport, safety]
+
+- facet: topic
+  category: police_firing
+  patterns: ['Police Firing', 'Persons Killed or Injured under Police Firing', 'Casualties in Police Firing']
+  generic: [police, firing, killed, injured, casualties]
+
+- facet: topic
+  category: police_casualties
+  patterns: ['Police Personnel Killed or Injured', 'Police Personnel Killed or Injured on Duty', 'Police Casualties']
+  generic: [police, personnel, killed, injured, duty]
+
+- facet: topic
+  category: police_strength
+  patterns: ['Police Strength', 'Actual Police Strength', 'Sanctioned and Actual Strength', 'Civil Police Strength', 'Armed Police Strength']
+  generic: [police, strength, personnel, sanctioned,workforce]
+
+- facet: topic
+  category: women_police
+  patterns: ['Women Police Strength', 'Women Civil Police', 'Women Armed Police', 'Women Police Personnel']
+  generic: [women, police, strength, personnel, workforce]
+
+- facet: topic
+  category: prison
+  patterns: ['Prison', 'Prisons', 'Prison Statistics', 'Prison Inmates', 'Prison Population']
+  generic: [prison, inmates, jail, prisoners, correctional]
+
+- facet: topic
+  category: jail
+  patterns: ['Jails', 'Jail Population', 'Jail Capacity', 'Jails Wise Population', 'Jail Officials']
+  generic: [jail, inmates, capacity, population, prison]
+
+- facet: topic
+  category: prison_capacity
+  patterns: ['Jail Capacity', 'Prison Capacity', 'Capacity and Population of Inmates', 'Capacity of Jails']
+  generic: [jail, prison, capacity, inmates, population]
+
+- facet: topic
+  category: prison_inmates
+  patterns: ['Prison Inmates', 'Inmates at End of Year', 'Inmate Population', 'Population of Inmates']
+  generic: [inmates, prison, jail, population, prisoners]
+
+- facet: topic
+  category: undertrial_prisoners
+  patterns: ['Under Trial Prisoners', 'Undertrials', 'Under Trial', 'Undertrial Prisoners']
+  generic: [undertrial, prisoners, detention, offences, prison]
+
+- facet: topic
+  category: convicts
+  patterns: ['Convicts', 'Convicts by Type of Offences', 'Number of Convicts', 'Convict Population']
+  generic: [convicts, prison, offences, sentence, inmates]
+
+- facet: topic
+  category: prison_rehabilitation
+  patterns: ['Rehabilitation of Prisoners', 'Prisoner Rehabilitation', 'Vocational Training of Prisoners']
+  generic: [prisoners, rehabilitation, training, vocational, prison]
+
+- facet: topic
+  category: prison_education
+  patterns: ['Educational Facilities Provided to Prisoners', 'Educational Standard of Inmates', 'Education of Prisoners']
+  generic: [prisoners, education, inmates, training, prison]
+
+- facet: topic
+  category: prison_employment
+  patterns: ['Wages Payments of Prisoners', 'Goods Produced by Inmates', 'Vocational Activities', 'Value of Goods Produced by Inmates']
+  generic: [prisoner, wage, vocational, good, production]
+
+- facet: topic
+  category: prison_incidents
+  patterns: ['Jail Breaks', 'Group Clashes in Jail', 'Firing in Jail', 'Prison Inmates Escaped', 'Prison Inmates Deaths']
+  generic: [jail, prison, incidents, escape, death]
+
+- facet: topic
+  category: recidivism
+  patterns: ['Recidivism', 'Incidence of Recidivism', 'Recidivism Amongst Persons Arrested']
+  generic: [recidivism, repeat, offending, arrest, crime]
+
+- facet: topic
+  category: parole
+  patterns: ['Parole', 'Prisoners Released on Parole', 'Persons on Parole']
+  generic: [parole, prisoners, release, prison, inmates]
+
+- facet: topic
+  category: capital_punishment
+  patterns: ['Capital Punishment', 'Life Imprisonment', 'Capital Punishment and Life Imprisonment']
+  generic: [capital, punishment, imprisonment, sentencing, prison]
+
+- facet: topic
+  category: custodial_deaths
+  patterns: ['Custodial Deaths', 'Deaths in Police Custody', 'Deaths in Police Custody/Lockup', 'Prison Inmates Deaths']
+  generic: [custody, deaths, police, prison, inmates]
+
+- facet: topic
+  category: human_rights
+  patterns: ['Human Rights Violation', 'Human Rights Violations', 'Cases Against Police for Human Rights Violation']
+  generic: [human, rights, violations, police, accountability]
+
+- facet: topic
+  category: arms
+  patterns: ['Arms Act', 'Arms Cases', 'Arms Seized', 'Arms Quantity Seized', 'Fire Arms']
+  generic: [arms, weapons, firearms, seizure, crime]
+
+- facet: topic
+  category: explosives
+  patterns: ['Explosive Act', 'Explosives', 'Explosive Cases', 'Property Stolen and Recovered under Explosives']
+  generic: [explosives, cases, property, seizure, crime]
+
+- facet: topic
+  category: cultural_property
+  patterns: ['Cultural Property', 'Antiques', 'Cultural Property Stolen and Recovered']
+  generic: [cultural, property, antiques, stolen, recovered]
+
+- facet: topic
+  category: railway_crime
+  patterns: ['Railway Protection Force', 'RPF', 'Government Railway Police', 'GRP', 'Railway Crime']
+  generic: [railway, RPF, GRP, crime, cases]
+
+- facet: topic
+  category: crime_geography
+  patterns: ['State-wise', 'State/UT-wise', 'District-wise', 'City-wise', 'All-India']
+  generic: [ geography, region]
+
+- facet: topic
+  category: metropolitan_crime
+  patterns: ['Metropolitan Cities', 'Crime in Metropolitan Cities', 'City-wise Crime']
+  generic: [metropolitan, urban, crime, city]
+
+- facet: topic
+  category: crime_demographics
+  patterns: ['Age Group', 'Age-Group-Wise', 'Sex-wise', 'Gender-wise', 'Demographic Particulars']
+  generic: [age, gender, sex, demographic, population]
+
+- facet: topic
+  category: crime_motive
+  patterns: ['Motives of Murder', 'Motives of Crime', 'Purpose-Wise', 'Crime Motives']
+  generic: [motive, purpose, crime, murder, offence]
+
+- facet: topic
+  category: police_court
+  patterns: ['Police and Court', 'Police Disposal', 'Court Disposal', 'Disposal by Police', 'Disposal by Courts']
+  generic: [police, court, disposal, cases, justice]
+
+- facet: topic
+  category: investigation
+  patterns: ['Pending Investigation', 'Cases Not Investigated', 'Charge-sheeted', 'Investigation']
+  generic: [investigation, cases, police, pending, chargesheet]
+
+- facet: topic
+  category: crime_statistics
+  patterns: ['Percentage Distribution', 'Percentage Contribution', 'Percentage Variation', 'Volume of Crime']
+  generic: [percentage, distribution, contribution, variation, crime]
+
+- facet: organization
+  category: national_crime_records_bureau
+  patterns: ['National Crime Records Bureau', 'NCRB', 'Crime in India', 'Prison Statistics India']
+  generic: [NCRB, crime, records, prison]
+
+- facet: organization
+  category: ministry_of_home_affairs
+  patterns: ['Ministry of Home Affairs', 'MHA', 'Home Affairs']
+  generic: [MHA, home, affairs, enforcement]
+
+- facet: topic
+  category: crime
+  patterns: ['Crime', 'Crimes', 'Crime Cases', 'Crime Statistics', 'Crime Incidence', 'Crime Reporting']
+  generic: [crime, crimes, incidence, cases, offences]
+
+- facet: topic
+  category: ipc
+  patterns: ['IPC', 'Indian Penal Code', 'IPC Crimes', 'IPC Offences', 'Indian Penal Code Crimes']
+  generic: [IPC, penal, code, crimes, offences]
+
+- facet: topic
+  category: sll
+  patterns: ['SLL', 'Special and Local Laws', 'Special & Local Laws', 'SLL Crimes', 'SLL Offences']
+  generic: [SLL, special, local, laws, offences]
+
+- facet: topic
+  category: cognizable_crime
+  patterns: ['Cognizable Crime', 'Cognizable Crimes', 'Cognizable Crimes Registered', 'Total Cognizable Crimes', 'Cognizable Crimes under IPC', 'Cognizable Crimes under SLL']
+  generic: [cognizable, crimes, registered, incidence, cases]
+
+- facet: topic
+  category: crime_head
+  patterns: ['Crime Head', 'Crime Heads', 'Crime Head-wise', 'Crime Heads-wise', 'Head-wise Crime']
+  generic: [crime, head, category, offences, cases]
+
+- facet: topic
+  category: crime_incidence
+  patterns: ['Incidence of Crime', 'Crime Incidence', 'Incidence and Rate of Crime', 'Incidence of Crimes']
+  generic: [incidence, crime, cases, rate, offences]
+
+- facet: topic
+  category: crime_rate
+  patterns: ['Crime Rate', 'Rate of Crime', 'Incidence and Rate', 'Crime Rate per Lakh']
+  generic: [crime, rate, incidence, population, comparison]
+
+- facet: topic
+  category: crime_distribution
+  patterns: ['Percentage Distribution of Cognizable Crimes', 'Percentage Distribution of Crimes', 'Percentage Contribution of Crimes', 'Percentage Variation of Crime']
+  generic: [distribution, percentage, contribution, variation, crime]
+
+- facet: topic
+  category: crime_against_body
+  patterns: ['Crimes Against Body', 'IPC Crimes against Body', 'Crime Against the Body']
+  generic: [body, violence, crime, assault, offences]
+
+- facet: topic
+  category: crime_against_property
+  patterns: ['Crimes Against Property', 'IPC Crimes Against Property', 'Crime Against Property']
+  generic: [property, theft, robbery, burglary, crime]
+
+- facet: topic
+  category: crime_against_public_order
+  patterns: ['Crimes Against Public Order', 'IPC Crimes Against Public Order', 'Crime Against Public Order']
+  generic: [public, order, crime, offences, law]
+
+- facet: topic
+  category: economic_crime
+  patterns: ['Economic Crimes', 'Economic Crime', 'IPC Economic Crimes', 'Economic Offences']
+  generic: [economic, crime, offences, financial, fraud]
+
+- facet: topic
+  category: violent_crime
+  patterns: ['Violent Crimes', 'Violent Crime', 'Incidence of Violent Crimes', 'Disposal of Violent Crimes']
+  generic: [violent, crime, violence, offences, victims]
+
+- facet: topic
+  category: criminal_justice_outcomes
+  patterns: ['Disposal of Cases', 'Case Disposal', 'Chargesheeting Rate', 'Conviction Rate', 'Court Disposal', 'Police Disposal']
+  generic: [disposal, chargesheeting, conviction, courts, police]
+
+- facet: topic
+  category: chargesheeting
+  patterns: ['Chargesheeting Rate', 'Chargesheeting Rate of IPC Crimes', 'Chargesheeting Rate of SLL Crimes', 'Chargesheeted Cases']
+  generic: [chargesheeting, investigation, prosecution, cases, police]
+
+- facet: topic
+  category: conviction
+  patterns: ['Conviction Rate', 'Conviction Rate of IPC Crimes', 'Conviction Rate of SLL Crimes', 'Conviction']
+  generic: [conviction, courts, cases, prosecution, justice]
+
+- facet: topic
+  category: trial
+  patterns: ['Completion of Trials', 'Duration of Completion of Trials', 'Periods of Trials', 'Trial Duration', 'Various Courts']
+  generic: [trial, courts, duration, completion, justice]
+
+- facet: topic
+  category: arrests
+  patterns: ['Persons Arrested', 'Persons Arrested under IPC', 'Persons Arrested under SLL', 'Persons Arrested Per Case', 'Arrested Persons']
+  generic: [arrested, persons, police, cases, enforcement]
+
+- facet: topic
+  category: arrest_disposal
+  patterns: ['Disposal of Persons Arrested', 'Disposal of Persons Arrested by Police', 'Disposal of Persons Arrested by Courts', 'Arrested Persons Disposal']
+  generic: [arrested, disposal, police, courts, persons]
+
+- facet: topic
+  category: victims
+  patterns: ['Victims', 'Victims of Crime', 'Crime Victims', 'Victims by Age Group', 'Victims by Sex']
+  generic: [victims, crime, age, sex, offences]
+
+- facet: topic
+  category: murder
+  patterns: ['Murder', 'Murder Cases', 'Murder Victims', 'Victims of Murder', 'Murdered Persons']
+  generic: [murder, homicide, victims, violence, crime]
+
+- facet: topic
+  category: culpable_homicide
+  patterns: ['Culpable Homicide', 'Culpable Homicide not Amounting to Murder', 'C.H. not Amounting to Murder', 'C.H.']
+  generic: [homicide, culpable, murder, victims, offences]
+
+- facet: topic
+  category: kidnapping_abduction
+  patterns: ['Kidnapping', 'Abduction', 'Kidnapping and Abduction', 'Kidnapped and Abducted', 'Victims of Kidnapping']
+  generic: [kidnapping, abduction, victims, crime, persons]
+
+- facet: topic
+  category: rape
+  patterns: ['Rape', 'Rape Cases', 'Rape Victims', 'Incest Rape', 'Other Rape', 'Section 376 IPC', 'Custodial Rape']
+  generic: [rape, victims, sexual, crime, IPC]
+
+- facet: topic
+  category: custodial_rape
+  patterns: ['Custodial Rape', 'Custodial Rape Cases', 'Persons Arrested under Custodial Rape', 'Custodial Rape Disposal']
+  generic: [custodial, rape, police, victims, cases]
+
+- facet: topic
+  category: crime_against_women
+  patterns: ['Crime Against Women', 'Crimes Against Women', 'Crime against Women', 'Incidence of Crimes Against Women']
+  generic: [women, crime, victims, safety, offences]
+
+- facet: topic
+  category: crime_against_children
+  patterns: ['Crime Against Children', 'Crimes Against Children', 'Crime Committed Against Children', 'Child Crime']
+  generic: [children, child, crime, victims, safety]
+
+- facet: topic
+  category: pocso
+  patterns: ['POCSO', 'POCSO Act', 'Protection of Children from Sexual Offences', 'Victims of POCSO', 'Child Victims of POCSO']
+  generic: [POCSO, children, victims, sexual, offences]
+
+- facet: topic
+  category: crime_against_scheduled_castes
+  patterns: ['Crime Against Scheduled Castes', 'Crimes Against Scheduled Castes', 'Crime/Atrocities against SCs', 'Scheduled Caste Crime']
+  generic: [scheduled, caste, SC, crime, atrocities]
+
+- facet: topic
+  category: crime_against_scheduled_tribes
+  patterns: ['Crime Against Scheduled Tribes', 'Crimes Against Scheduled Tribes', 'Crime/Atrocities against STs', 'Scheduled Tribe Crime']
+  generic: [scheduled, tribe, ST, crime, atrocities]
+
+- facet: topic
+  category: crime_against_senior_citizens
+  patterns: ['Crime Against Senior Citizens', 'Crime Against Senior Citizen', 'Crimes Against Senior Citizens', 'Senior Citizens (60 Years & Above)']
+  generic: [senior, citizens, elderly, crime, safety]
+
+- facet: topic
+  category: dacoity
+  patterns: ['Dacoity', 'Dacoity Cases', 'Dacoity Cases and Property', 'Dacoity (Sec. 395-398 IPC)']
+  generic: [dacoity, robbery, property, stolen, crime]
+
+- facet: topic
+  category: robbery
+  patterns: ['Robbery', 'Robbery Cases', 'Robbery Cases and Property', 'Robbery (Sec.392-394, 397,398 IPC)']
+  generic: [robbery, property, stolen, crime, cases]
+
+- facet: topic
+  category: burglary
+  patterns: ['Burglary', 'Burglary Cases', 'Burglary Cases and Property', 'Burglary (IPC 449-452, 454, 455, 457-460)']
+  generic: [burglary, property, stolen, crime, cases]
+
+- facet: topic
+  category: theft
+  patterns: ['Theft', 'Theft Cases', 'Theft Cases Reported', 'Theft (Sec. 379-382 IPC)', 'Theft Cases and Property']
+  generic: [theft, property, stolen, crime, cases]
+
+- facet: topic
+  category: property_crime
+  patterns: ['Property Stolen', 'Property Recovered', 'Property Stolen and Recovered', 'Value of Property Stolen', 'Percentage Recovery']
+  generic: [property, stolen, recovered, recovery, value]
+
+- facet: topic
+  category: vehicle_theft
+  patterns: ['Vehicles Stolen', 'Vehicles Stolen and Recovered', 'Vehicles Recovered', 'Vehicle Theft']
+  generic: [vehicles, stolen, recovered, theft, property]
+
+- facet: topic
+  category: cultural_property
+  patterns: ['Cultural Property', 'Cultural Property Stolen', 'Antiques', 'Cultural Property Stolen and Recovered']
+  generic: [cultural, property, antiques, stolen, recovered]
+
+- facet: topic
+  category: criminal_breach_of_trust
+  patterns: ['Criminal Breach of Trust', 'Property Lost under Criminal Breach of Trust', 'Breach of Trust']
+  generic: [breach, trust, property, crime, offences]
+
+- facet: topic
+  category: cheating
+  patterns: ['Cheating', 'Property Lost under Cheating', 'Cheating Cases', 'IPC 419', 'IPC 420']
+  generic: [cheating, fraud, property, crime, offences]
+
+- facet: topic
+  category: anti_corruption
+  patterns: ['Anti-Corruption', 'Anti-Corruption Departments', 'Prevention of Corruption Act', 'P.C. Act', 'Vigilance Departments']
+  generic: [corruption, vigilance, anti-corruption, enforcement, prevention]
+
+- facet: topic
+  category: corruption_arrests
+  patterns: ['Persons Arrested under Prevention of Corruption Act', 'Persons Arrested in Cognizable Crime Cases under Prevention of Corruption Act', 'Action against Persons Arrested']
+  generic: [corruption, arrested, persons, enforcement, vigilance]
+
+- facet: topic
+  category: cyber_crime
+  patterns: ['Cyber Crime', 'Cyber Crimes', 'Cyber Crime Cases', 'Cyber Crime Cases Registered', 'Cyber Crime Incidence']
+  generic: [cyber, crime, technology, computer, cases]
+
+- facet: topic
+  category: information_technology_act
+  patterns: ['IT Act', 'Information Technology Act', 'IT Act 2000', 'Cyber Crime under IT Act', 'Persons Arrested under IT Act']
+  generic: [IT, technology, cyber, act, crime]
+
+- facet: topic
+  category: cyber_crime_motive
+  patterns: ['Cyber Crime Cases by Motives', 'Cyber Crime Cases by Motives and Suspects', 'Cyber Crime Motives']
+  generic: [cyber, motives, suspects, crime, cases]
+
+- facet: topic
+  category: human_trafficking
+  patterns: ['Human Trafficking', 'Human Trafficking Cases', 'Trafficking Cases', 'Victims Rescued under Human Trafficking', 'Purpose of Human Trafficking']
+  generic: [trafficking, victims, rescued, crime, persons]
+
+- facet: topic
+  category: trafficking_victims
+  patterns: ['Victims Rescued under Human Trafficking', 'Nationality-wise Victims Rescued', 'Victims Trafficked', 'Trafficking Victims']
+  generic: [trafficking, victims, rescued, nationality, persons]
+
+- facet: topic
+  category: crime_against_foreigners
+  patterns: ['Crime Against Foreigners', 'Crime against Foreigners', 'Crimes Against Foreigners', 'Head-wise Crime Against Foreigners']
+  generic: [foreigners, crime, nationality, victims, offences]
+
+- facet: topic
+  category: crimes_committed_by_foreigners
+  patterns: ['Crimes Committed by Foreigners', 'Crime Committed by Foreigners', 'Country-wise Crimes Committed by Foreigners', 'Foreigner Crime']
+  generic: [foreigners, crime, nationality, accused, offences]
+
+- facet: topic
+  category: foreign_prisoners
+  patterns: ['Foreign Prisoners', 'Foreign Convicts', 'Foreign Undertrials', 'Foreign Detenues', 'Foreigner Prisoners']
+  generic: [foreign, prisoners, convicts, undertrials, nationality]
+
+- facet: topic
+  category: missing_persons
+  patterns: ['Missing Persons', 'Missing Children', 'Missing and Traced Persons', 'Traced Persons']
+  generic: [missing, traced, persons, children, recovery]
+
+- facet: topic
+  category: unidentified_bodies
+  patterns: ['Unidentified Dead Bodies', 'Unidentified Dead Bodies Recovered', 'Inquest Conducted', 'Unidentified Bodies']
+  generic: [unidentified, bodies, recovered, inquest, investigation]
+
+- facet: topic
+  category: firearms
+  patterns: ['Fire Arms', 'Firearms', 'Fire Arm', 'Firearms Seizures', 'Victims Murdered by Use of Fire Arms']
+  generic: [firearms, weapons, murder, seizure, crime]
+
+- facet: topic
+  category: arms_act
+  patterns: ['Arms Act', 'Seizure under Arms Act', 'Seizures under Arms Act', 'Arms Act Seizures']
+  generic: [arms, weapons, seizure, firearms, act]
+
+- facet: topic
+  category: ammunition
+  patterns: ['Ammunitions', 'Ammunition', 'Firearms and Ammunitions', 'Seizures of Ammunitions', 'Firearms and Ammunitions Seizures']
+  generic: [ammunition, firearms, weapons, seizure, arms]
+
+- facet: topic
+  category: explosives
+  patterns: ['Explosives', 'Explosive Act', 'Explosive Substances Act', 'Seizures and Recoveries under Explosives', 'Explosives Seizures']
+  generic: [explosives, seizure, substances, arms, crime]
+
+- facet: topic
+  category: narcotics
+  patterns: ['Narcotic Drugs', 'Narcotics', 'Drugs', 'Drug Seizures', 'Narcotics Control Bureau']
+  generic: [narcotics, drugs, seizure, trafficking, enforcement]
+
+- facet: topic
+  category: ndps
+  patterns: ['NDPS Act', 'Narcotic Drugs and Psychotropic Substances Act', 'Seizures under NDPS Act', 'Drug Head-wise Seizures under NDPS Act']
+  generic: [NDPS, narcotics, drugs, seizure, psychotropic]
+
+- facet: topic
+  category: fake_currency
+  patterns: ['Fake Indian Currency Notes', 'FICN', 'Fake Currency', 'Fake Indian Currency', 'Currency Seizure']
+  generic: [currency, fake, FICN, seizure, counterfeit]
+
+- facet: topic
+  category: currency_seizure
+  patterns: ['Currency Seized', 'Currency Recovered', 'Value of Currency Seized', 'Fake Currency Seized', 'Denomination-wise Fake Indian Currency Notes']
+  generic: [currency, seizure, recovery, denomination, notes]
+
+- facet: topic
+  category: environmental_offences
+  patterns: ['Environment Related Offences', 'Environmental Offences', 'Environment Related Crime', 'Environment Offences']
+  generic: [environment, offences, pollution, ecology, crime]
+
+- facet: topic
+  category: wildlife_seizure
+  patterns: ['Wildlife Seizures', 'Wildlife', 'Seizures of Wildlife', 'Drugs, Currency, Explosives and Wildlife']
+  generic: [wildlife, seizure, environment, illegal, enforcement]
+
+- facet: topic
+  category: railway_crime
+  patterns: ['Railway Crime', 'Crime under Railways Act', 'Railways Act', 'Railway Crimes']
+  generic: [railway, crime, railways, offences, enforcement]
+
+- facet: topic
+  category: government_railway_police
+  patterns: ['Government Railway Police', 'GRP', 'IPC Crimes Reported by GRP', 'Crime Reported by GRP']
+  generic: [GRP, railway, police, crime, cases]
+
+- facet: topic
+  category: crime_geography
+  patterns: ['State/UT-wise', 'State/UT/City-wise', 'State/UT and City-wise', 'State/UT and District-wise', 'City-wise', 'District-wise']
+  generic: [ geography, region]
+
+- facet: topic
+  category: metropolitan_crime
+  patterns: ['Metropolitan Cities', 'Crime in Metropolitan Cities', 'City-wise Crime in Metropolitan Cities', 'Metropolitan City Crime']
+  generic: [metropolitan, cities, urban, crime, city]
+
+- facet: topic
+  category: demographic_profile
+  patterns: ['Age Group', 'Age Groups', 'Age-Group-wise', 'Sex-wise', 'Gender-wise', 'Age and Gender-wise']
+  generic: [age, gender, sex, demographic, population]
+
+- facet: topic
+  category: crime_motive
+  patterns: ['Motives of Murder', 'Motives of Crime', 'Purpose-wise', 'Crime Motives', 'Motives of Murder and Culpable Homicide']
+  generic: [motive, purpose, crime, murder, homicide]
+
+- facet: topic
+  category: recidivism
+  patterns: ['Recidivism', 'Incidence of Recidivism', 'Recidivism Among Persons Arrested', 'Repeat Offending']
+  generic: [recidivism, repeat, offending, arrested, crime]
+
+- facet: topic
+  category: suicide
+  patterns: ['Suicides', 'Suicide', 'Incidence of Suicides', 'Rate of Suicides', 'Suicide Victims']
+  generic: [suicide, deaths, victims, incidence, rate]
+
+- facet: topic
+  category: suicide_causes
+  patterns: ['Causes of Suicide', 'Causes-wise Suicides', 'Suicide by Causes', 'Cause-wise Distribution of Suicides']
+  generic: [suicide, causes, factors, deaths, prevention]
+
+- facet: topic
+  category: suicide_means
+  patterns: ['Means of Suicide', 'Means Adopted', 'Suicides by Means Adopted', 'Mode of Suicide']
+  generic: [suicide, means, mode, methods, deaths]
+
+- facet: topic
+  category: suicide_social_factors
+  patterns: ['Social Factors of Suicides', 'Social, Economic and Educational Factors', 'Social Status-wise Distribution of Suicides', 'Marital Status-wise Distribution of Suicides', 'Educational Status-wise Distribution of Suicides']
+  generic: [suicide, social, economic, education, marital]
+
+- facet: topic
+  category: accidental_deaths
+  patterns: ['Accidental Deaths', 'Accidental Death', 'Incidence of Accidental Deaths', 'Rate of Accidental Deaths']
+  generic: [accidental, deaths, mortality, incidents, causes]
+
+- facet: topic
+  category: accidental_death_causes
+  patterns: ['Accidental Deaths due to Forces of Nature', 'Forces of Nature', 'Other Causes', 'Cause-wise Distribution of Accidental Deaths']
+  generic: [accidental, causes, nature, deaths, incidents]
+
+- facet: topic
+  category: road_accidents
+  patterns: ['Road Accidents', 'Road Accident Deaths', 'Road Accidents, Injuries and Deaths', 'Road Accident Cases']
+  generic: [road, accidents, injuries, deaths, transport]
+
+- facet: topic
+  category: road_accident_factors
+  patterns: ['Road Classification-wise Road Accidents', 'Mode of Transport-wise', 'Cause-wise Distribution of Road Accidents', 'Place of Occurrence-wise Road Accidents']
+  generic: [road, accidents, transport, causes, location]
+
+- facet: topic
+  category: railway_accidents
+  patterns: ['Railway Accidents', 'Classification of Railway Accidents', 'Cause-wise Distribution of Railway Accidents', 'Unmanned Railway Crossing Accidents']
+  generic: [railway, accidents, causes, crossing, deaths]
+
+- facet: topic
+  category: fire_accidents
+  patterns: ['Fire Accidents', 'Fire Accidents, Persons Injured and Died', 'Place of Occurrence-wise Fire Accidents', 'Fire Accident Deaths']
+  generic: [fire, accidents, injuries, deaths, incidents]
+
+- facet: topic
+  category: police_firing
+  patterns: ['Police Firing', 'Persons Killed or Injured in Police Firing', 'Casualties in Police Firing', 'Event-wise Police Firing']
+  generic: [police, firing, killed, injured, casualties]
+
+- facet: topic
+  category: police_personnel_safety
+  patterns: ['Police Personnel Killed or Injured on Duty', 'Police Personnel Killed on Duty', 'Police Personnel Injured on Duty', 'Police Personnel Deaths']
+  generic: [police, personnel, duty, killed, injured]
+
+- facet: topic
+  category: police_custody
+  patterns: ['Police Custody', 'Police Custody/Lockup', 'Deaths in Police Custody', 'Persons Remanded to Police Custody', 'Custody Lockup']
+  generic: [police, custody, lockup, deaths, remand]
+
+- facet: topic
+  category: custodial_deaths
+  patterns: ['Custodial Deaths', 'Deaths in Police Custody', 'Reasons of Custodial Deaths', 'Reasons for Custodial Deaths']
+  generic: [custody, deaths, police, reasons, accountability]
+
+- facet: topic
+  category: police_escape
+  patterns: ['Escapes from Police Custody', 'Escape from Police Custody', 'Persons Escaped from Custody']
+  generic: [police, custody, escape, prisoners, security]
+
+- facet: topic
+  category: police_accountability
+  patterns: ['Complaints Against Police Personnel', 'Cases Registered Against Police Personnel', 'Complaints and Cases Against Police', 'Police Complaints']
+  generic: [police, complaints, accountability, cases, personnel]
+
+- facet: topic
+  category: human_rights
+  patterns: ['Human Rights Violation', 'Human Rights Violations by Police', 'Human Rights Violation by Police', 'Human Rights Cases']
+  generic: [human, rights, violations, police, accountability]
+
+- facet: topic
+  category: police_strength
+  patterns: ['Police Strength', 'Sanctioned and Actual Strength of Civil Police', 'Sanctioned and Actual Strength of Armed Police', 'Actual Police Strength']
+  generic: [police, strength, personnel, sanctioned, staffing]
+
+- facet: topic
+  category: women_police
+  patterns: ['Women Police', 'Women Police Strength', 'Women Civil Police', 'Women Armed Police', 'Women Police Personnel']
+  generic: [women, police, personnel, strength, workforce]
+
+- facet: topic
+  category: home_guards
+  patterns: ['Home Guards', 'Auxiliary Force', 'Sanctioned and Actual Strength of Home Guards', 'Home Guards and Auxiliary Force']
+  generic: [home, guards, auxiliary, force, personnel]
+
+- facet: topic
+  category: police_infrastructure
+  patterns: ['Police Housing', 'Police Stations', 'Equipment and Transport Support', 'Police Organisational Setup', 'Police Infrastructure']
+  generic: [police, infrastructure, stations, housing, equipment]
+
+- facet: topic
+  category: police_stations
+  patterns: ['Police Stations by Incidence Level', 'Police Stations by Strength of Personnel', 'Classification of Police Stations', 'Police Station Classification']
+  generic: [police, stations, incidence, manpower, classification]
+
+- facet: topic
+  category: police_expenditure
+  patterns: ['Per Capita Expenditure on Policemen', 'Police Expenditure', 'Police Expenditure per Capita', 'Actual Police Strength, Area, Population, Crimes and Expenditure']
+  generic: [police, expenditure, budget, population, resources]
+
+- facet: topic
+  category: police_budget
+  patterns: ['Sanctioned Budget', 'Total Budget', 'Actual Expenditure', 'Sanctioned Budget and Actual Expenditure', 'Police Budget']
+  generic: [budget, expenditure, sanctioned, actual, finance]
+
+- facet: topic
+  category: prison
+  patterns: ['Prison', 'Prisons', 'Prison Statistics', 'Prison Inmates', 'Prison Population']
+  generic: [prison, inmates, jail, prisoners, correctional]
+
+- facet: topic
+  category: jail
+  patterns: ['Jail', 'Jails', 'Number of Jails', 'Jail Population', 'Jail Statistics']
+  generic: [jail, prison, inmates, capacity, population]
+
+- facet: topic
+  category: prison_capacity
+  patterns: ['Jail Capacity', 'Prison Capacity', 'Capacity, Inmate Population and Occupancy Rate', 'Occupancy Rate', 'Jail Capacity and Population']
+  generic: [jail, capacity, inmates, occupancy, population]
+
+- facet: topic
+  category: prison_inmates
+  patterns: ['Prison Inmates', 'Types of Prison Inmates', 'Inmate Population', 'Types of Inmates', 'Prisoner Population']
+  generic: [inmates, prisoners, prison, population, types]
+
+- facet: topic
+  category: convicts
+  patterns: ['Convicts', 'Convicted Prisoners', 'Convict Prisoners', 'Convicts Confined', 'Convicts Released']
+  generic: [convicts, prisoners, sentence, prison, release]
+
+- facet: topic
+  category: undertrial_prisoners
+  patterns: ['Undertrial Prisoners', 'Undertrials', 'Under Trial Prisoners', 'Undertrials Confined', 'Undertrials Released']
+  generic: [undertrial, prisoners, detention, prison, cases]
+
+- facet: topic
+  category: detenues
+  patterns: ['Detenues', 'Detenue Prisoners', 'Foreign Detenues', 'Detenues Released', 'Detainees in Jails']
+  generic: [detenues, detention, prisoners, jail, release]
+
+- facet: topic
+  category: other_prisoners
+  patterns: ['Other Prisoners', 'Other Inmates', 'Types of Other Prisoners']
+  generic: [prisoners, inmates, prison, population]
+
+- facet: topic
+  category: prison_types
+  patterns: ['Central Jails', 'District Jails', 'Sub-Jails', 'Women Jails', 'Open Jails', 'Special Jails', 'Borstal Schools']
+  generic: [jails, central, women, open]
+
+- facet: topic
+  category: central_jails
+  patterns: ['Central Jails', 'Central Jail Capacity', 'Inmates in Central Jails', 'Types of Prison Inmates in Central Jails']
+  generic: [central, jails, inmates, prison, capacity]
+
+- facet: topic
+  category: district_jails
+  patterns: ['District Jails', 'District Jail Capacity', 'Inmates in District Jails', 'Types of Prison Inmates in District Jails']
+  generic: [district, jails, inmates, prison, capacity]
+
+- facet: topic
+  category: sub_jails
+  patterns: ['Sub-Jails', 'Sub-Jail Capacity', 'Inmates in Sub-Jails', 'Types of Prison Inmates in Sub-Jails']
+  generic: [sub-jails, inmates, prison, capacity, population]
+
+- facet: topic
+  category: women_jails
+  patterns: ['Women Jails', 'Women Jail Capacity', 'Inmates in Women Jails', 'Types of Prison Inmates in Women Jails']
+  generic: [women, jails, inmates, prison, capacity]
+
+- facet: topic
+  category: open_jails
+  patterns: ['Open Jails', 'Open Jail Capacity', 'Inmates in Open Jails', 'Types of Prison Inmates in Open Jails']
+  generic: [open, jails, inmates, prison, capacity]
+
+- facet: topic
+  category: special_jails
+  patterns: ['Special Jails', 'Special Jail Capacity', 'Inmates in Special Jails', 'Types of Prison Inmates in Special Jails']
+  generic: [special, jails, inmates, prison, capacity]
+
+- facet: topic
+  category: borstal_schools
+  patterns: ['Borstal Schools', 'Borstal School Capacity', 'Inmates in Borstal Schools', 'Types of Prison Inmates in Borstal Schools']
+  generic: [borstal, schools, inmates, juvenile, prison]
+
+- facet: topic
+  category: prison_release
+  patterns: ['Convicts Released', 'Undertrials Released', 'Detenues Released', 'Convicts and Undertrials Released', 'Released or Transferred']
+  generic: [prisoners, released, convicts, undertrials, transfer]
+
+- facet: topic
+  category: parole
+  patterns: ['Parole', 'Persons Released on Parole', 'Parole Absconders', 'Parole Absconders/Arrests']
+  generic: [parole, prisoners, release, absconders, arrests]
+
+- facet: topic
+  category: prison_recidivism
+  patterns: ['Recidivism Among Prisoners', 'Prisoner Recidivism', 'Repeat Prisoners', 'Repeat Offenders']
+  generic: [recidivism, prisoners, repeat, offenders, prison]
+
+- facet: topic
+  category: capital_punishment
+  patterns: ['Capital Punishment', 'Life Imprisonment', 'Capital Punishment and Life Imprisonment', 'Convicts Confined for Capital Punishment']
+  generic: [capital, punishment, imprisonment, convicts, sentence]
+
+- facet: topic
+  category: prison_incidents
+  patterns: ['Jail Breaks', 'Clashes in Jail', 'Firing in Jail', 'Jail Incidents', 'Prison Incidents']
+  generic: [jail, incidents, escape, clashes, firing]
+
+- facet: topic
+  category: prison_deaths
+  patterns: ['Deaths of Prisoners', 'Prisoner Deaths', 'Deaths of Inmates', 'Natural Deaths of Prisoners', 'Accidental Deaths of Prisoners']
+  generic: [prisoners, deaths, inmates, natural, accidental]
+
+- facet: topic
+  category: prison_suicide
+  patterns: ['Suicides by Prison Inmates', 'Suicide of Prison Inmates', 'Mode of Suicide by Prison Inmates', 'Prisoner Suicides']
+  generic: [prison, suicide, inmates, deaths, means]
+
+- facet: topic
+  category: prison_staff
+  patterns: ['Prison Staff', 'Jail Staff', 'Jail Officers', 'Strength of Prison Officials', 'Strength of Jail Officers/Staff']
+  generic: [prison, staff, officers, personnel, strength]
+
+- facet: topic
+  category: prison_staff_strength
+  patterns: ['Sanctioned and Actual Strength of Jail Staff', 'Sanctioned and Actual Strength of Jail Officers', 'Actual Strength of Women Jail Officers/Staff', 'Inmates Per Staff']
+  generic: [jail, staff, strength, sanctioned, inmates]
+
+- facet: topic
+  category: prison_staff_training
+  patterns: ['Training of Jail Officers/Staff', 'Training of Jail Officers and Staff', 'Refresher and Specialised Courses', 'Prison Staff Training']
+  generic: [jail, staff, training, officers, courses]
+
+- facet: topic
+  category: prison_rehabilitation
+  patterns: ['Vocational Training of Prison Inmates', 'Vocational Courses', 'Inmates Imparted Vocational Training', 'Vocational Training']
+  generic: [prison, vocational, training, inmates, rehabilitation]
+
+- facet: topic
+  category: prison_production
+  patterns: ['Value of Goods Produced by Inmates', 'Goods Produced by Inmates', 'Value of Goods Produced']
+  generic: [prison, inmates, goods, production, value]
+
+- facet: topic
+  category: prison_education
+  patterns: ['Education Profile of Convicts', 'Education Profile of Undertrial Prisoners', 'Education Profile of Detenues', 'Educational Facilities for Prisoners']
+  generic: [prison, education, inmates, prisoners, facilities]
+
+- facet: topic
+  category: prison_mental_health
+  patterns: ['Inmates Suffering from Mental Illness', 'Mental Illness among Prison Inmates', 'Types of Inmates Suffering from Mental Illness']
+  generic: [prison, mental, illness, inmates, health]
+
+- facet: topic
+  category: prison_welfare
+  patterns: ['Welfare of Prisoners', 'NGOs Working for Welfare of Prisoners', 'Prisoner Welfare', 'Non-Governmental Organizations Working for Prisoner Welfare']
+  generic: [prison, welfare, NGOs, inmates, support]
+
+- facet: topic
+  category: prison_inspection
+  patterns: ['Jail Inspections', 'Number of Jail Inspections', 'Inspections by Different Visitors', 'Prison Inspections']
+  generic: [jail, inspections, visitors, prison, monitoring]
+
+- facet: topic
+  category: prison_offences
+  patterns: ['Crimes Committed by Prison Staff against Prisoners', 'Crime by Prison Staff', 'Prison Staff against Prisoners']
+  generic: [prison, staff, prisoners, crime, offences]
+
+- facet: topic
+  category: prison_demographics
+  patterns: ['Domicile of Prisoners', 'Religion of Prisoners', 'Caste of Prisoners', 'Education Profile of Prisoners', 'Nationality of Prisoners']
+  generic: [prisoners, domicile, religion, caste, nationality]
+
+- facet: topic
+  category: prison_foreign_nationality
+  patterns: ['Foreign Convicts by Nationality', 'Foreign Undertrials by Nationality', 'Foreign Prisoners by Nationality', 'Nationality of Foreign Prisoners']
+  generic: [foreign, prisoners, nationality, convicts, undertrials]
+
+- facet: topic
+  category: police_auxiliary_force
+  patterns: ['Home Guards and Auxiliary Force', 'Auxiliary Force', 'Home Guards']
+  generic: [home, guards, auxiliary, force, police]
+
+- facet: topic
+  category: capf
+  patterns: ['CAPF', 'Central Armed Police Forces', 'Accidental Deaths in CAPF', 'Suicides in CAPF']
+  generic: [CAPF, police, forces, deaths, personnel]
+
+- facet: organization
+  category: national_crime_records_bureau
+  patterns: ['National Crime Records Bureau', 'NCRB', 'Crime in India', 'Prison Statistics India']
+  generic: [NCRB, crime, records, statistics, India]
+
+- facet: organization
+  category: ministry_of_home_affairs
+  patterns: ['Ministry of Home Affairs', 'MHA', 'Home Affairs']
+  generic: [MHA, home, affairs, security]
+
+- facet: organization
+  category: government_railway_police
+  patterns: ['Government Railway Police', 'GRP']
+  generic: [GRP, railway, police, enforcement, crime]
+
+- facet: organization
+  category: narcotics_control_bureau
+  patterns: ['Narcotics Control Bureau', 'NCB', 'Drug Seizures Reported by Narcotics Control Bureau']
+  generic: [NCB, narcotics, drugs, seizure, enforcement]
+
+- facet: organization
+  category: central_bureau_of_investigation
+  patterns: ['Central Bureau of Investigation', 'CBI', 'Seizures Reported by Central Bureau of Investigation']
+  generic: [CBI, investigation, seizures, enforcement, crime]
+
+- facet: organization
+  category: directorate_of_revenue_intelligence
+  patterns: ['Directorate of Revenue Intelligence', 'DRI', 'Seizures by DRI']
+  generic: [DRI, revenue, intelligence, seizures, enforcement]
+
+- facet: organization
+  category: border_security_force
+  patterns: ['Border Security Force', 'BSF', 'Seizures Reported by Border Security Force', 'Migration and Trafficking Reported by Border Security Force']
+  generic: [BSF, border, security, seizures, trafficking]
+
+- facet: organization
+  category: central_reserve_police_force
+  patterns: ['Central Reserve Police Force', 'CRPF', 'Seizures Reported by CRPF']
+  generic: [CRPF, police, force, seizures, security]
+
+- facet: organization
+  category: central_industrial_security_force
+  patterns: ['Central Industrial Security Force', 'CISF', 'Seizures Reported by CISF']
+  generic: [CISF, industrial, security, seizures, force]
+
+- facet: organization
+  category: assam_rifles
+  patterns: ['Assam Rifles', 'Directorate General, Assam Rifles', 'Seizures Reported by Assam Rifles']
+  generic: [Assam, Rifles, security, seizures, force]
+
+- facet: organization
+  category: customs
+  patterns: ['Customs', 'CBIT & Customs', 'Customs Department', 'Migration and Trafficking Reported by Customs']
+  generic: [customs, migration, trafficking, seizures, enforcement]
+
+- facet: organization
+  category: sc_st_commission
+  patterns: ['SC/ST Commission', 'Scheduled Caste Commission', 'Scheduled Tribe Commission', 'Complaints Received by SC/ST Commission']
+  generic: [SC, ST, commission, complaints, disposal]

@@ -1,0 +1,309 @@
+- facet: topic
+  category: School Education
+  patterns: ['School Education', 'Statistics of School Education', 'Enrolment in School Education', 'School Education Statistics']
+  generic: [education, schools, school, students]
+
+- facet: School Education
+  category: School Enrolment
+  patterns: ['Enrolment in School Education', 'Enrolment for Various Types of Schools', 'Enrolment in School Education - All Categories', 'Enrolment in Open School Education']
+  generic: [education, enrolment, students, school]
+
+- facet: topic
+  category: Open School Education
+  patterns: ['Open School Education', 'Enrolment in Open School Education', 'Open School Education by Social Category']
+  generic: [education, school, enrolment, students]
+
+- facet: topic
+  category: Social Category
+  patterns: ['Social Category', 'by Social Category', 'All Categories', 'Category-wise Student Enrolment']
+  generic: [education, students, category, enrolment]
+
+- facet: topic
+  category: Scheduled Caste Education
+  patterns: ['Scheduled Caste', 'School Education for Scheduled Caste', 'Enrolment in School Education for Scheduled Caste', 'Scheduled Caste Categories']
+  generic: [scheduled, caste,SC, education, enrolment, students]
+
+- facet: topic
+  category: Scheduled Tribe Education
+  patterns: ['Scheduled Tribe', 'School Education for Scheduled Tribe', 'Enrolment in School Education for Scheduled Tribe', 'Scheduled Tribe Categories']
+  generic: [scheduled, tribe,ST, education, enrolment, students]
+
+- facet: topic
+  category: Educational Institutions
+  patterns: ['Educational Institutions', 'School Education Institutions', 'Education Institutions', 'All Education Institutions']
+  generic: [education, institutions, schools, colleges]
+
+- facet: topic
+  category: Institutions
+  patterns: ['Institutions', 'Number of Institutions', 'Institution-wise', 'Institution Wise', 'Basic Information of Institutions']
+  generic: [institutions, education, infrastructure, administration]
+
+- facet: topic
+  category: Colleges
+  patterns: ['Colleges', 'List of Colleges', 'Basic Information of Colleges', 'College-wise', 'College Level']
+  generic: [colleges, higher, institutions, education]
+
+- facet: topic
+  category: Universities
+  patterns: ['Universities', 'Basic Information of Universities', 'University-wise', 'University Level', 'Universities and Colleges']
+  generic: [universities, higher, institutions, education]
+
+- facet: topic
+  category: Standalone Institutions
+  patterns: ['Standalone Institutions', 'Standalone Institutes', 'Standalone Institution-wise', 'Standalone Level']
+  generic: [institutions, higher,education, administration]
+
+- facet: topic
+  category: Higher Education
+  patterns: ['Higher Education', 'All India Survey on Higher Education', 'Higher Education Institutions', 'Higher Education Survey']
+  generic: [higher, universities, colleges, education]
+
+- facet: topic
+  category: Student Enrolment
+  patterns: ['Student Enrolment', 'Student Enrollment', 'Student Enrolment Figures', 'Student Enrollment Details']
+  generic: [students, enrolment, education, higher education]
+
+- facet: topic
+  category: Male and Female Student Enrolment
+  patterns: ['Male and Female Student Enrolment', 'Male and Female Student Enrollment', 'Male and Female Students', 'Student Enrolment by Gender']
+  generic: [students, gender, enrolment, education]
+
+- facet: topic
+  category: Programme-wise Enrolment
+  patterns: ['Programme Wise Student Enrolment', 'Programme and Year Wise Student Enrolment', 'Programme and Category-wise Student Enrolment', 'Programme-wise Enrolment']
+  generic: [students, programmes, enrolment, education]
+
+- facet: topic
+  category: Discipline-wise Enrolment
+  patterns: ['Discipline and Level-wise Student Enrolment', 'Discipline and Level Wise Student Enrolment', 'Discipline-wise Enrolment', 'Discipline and Level']
+  generic: [students, discipline, enrolment, education]
+
+- facet: topic
+  category: Education Level
+  patterns: ['Education Level', 'Level-wise', 'Level Wise', 'Discipline and Level', 'Programme Level']
+  generic: [education, students, level, enrolment]
+
+- facet: topic
+  category: Programme
+  patterns: ['Programmes', 'Programme-wise', 'Programme Wise', 'Programme Details', 'Regular Programme Details']
+  generic: [programmes, courses, education, higher education]
+
+- facet: topic
+  category: Courses
+  patterns: ['Courses', 'Regular Courses', 'Distance Courses', 'Course Details', 'Courses Details']
+  generic: [courses, education, programmes, institutions]
+
+- facet: topic
+  category: Regular Courses
+  patterns: ['Regular Courses', 'Regular Course Details', 'Regular Programme Details', 'Regular Courses of Other Minority Colleges']
+  generic: [courses, education, programmes, colleges]
+
+- facet: topic
+  category: Distance Education
+  patterns: ['Distance Courses', 'Distance Programme Details', 'Regular-Distance Programmes', 'Distance Programmes']
+  generic: [distance, education, courses, programmes, students]
+
+- facet: topic
+  category: Foreign Students
+  patterns: ['Foreign Students', 'Foreign Students Enrolment', 'Foreign Students Enrollment', 'Foreign Student Enrollment']
+  generic: [foreign, students, international, enrolment, education]
+
+- facet: topic
+  category: Foreign Student Enrolment
+  patterns: ['Programme Wise Foreign Students Enrolment', 'Discipline and Level Wise Foreign Students Enrolment', 'Foreign Student Enrollment', 'Foreign Students Enrolment']
+  generic: [foreign, students, international, enrolment, education]
+
+- facet: topic
+  category: Teaching Staff
+  patterns: ['Teaching Staff', 'Teaching Staff Details', 'Teaching Staff Summary', 'Faculty Strength']
+  generic: [teachers, faculty, education, workforce]
+
+- facet: topic
+  category: Non-Teaching Staff
+  patterns: ['Non-Teaching Staff', 'Non Teaching Staff Details', 'Non-Teaching Staff in Position', 'Male and Female Non-Teaching Staff']
+  generic: [staff, workforce, education, employees]
+
+- facet: topic
+  category: Education Workforce
+  patterns: ['Teaching Staff', 'Non-Teaching Staff', 'Staff in Position', 'Workforce Planning', 'Staffing Patterns']
+  generic: [workforce, staff, education, employment]
+
+- facet: topic
+  category: Staff Strength
+  patterns: ['Sanctioned Strength', 'Staff in Position', 'Sanctioned Strength and Non-Teaching Staff in Position', 'Staff Strength']
+  generic: [staff, workforce, employment, institutions]
+
+- facet: topic
+  category: Staff by Gender
+  patterns: ['Male and Female Non-Teaching Staff', 'Male and Female Staff', 'Male and Female Non-Teaching Staff for Education Institutions', 'Male and Female Staff in Position']
+  generic: [staff, gender, workforce, education]
+
+- facet: topic
+  category: Teaching Staff Strength
+  patterns: ['Teaching Staff Details', 'Teaching Staff Summary', 'Faculty Strength', 'Teaching Staff in Universities and Colleges']
+  generic: [teachers, faculty, workforce, education]
+
+- facet: topic
+  category: Pupil Teacher Ratio
+  patterns: ['Pupil-Teacher Ratio', 'Pupil Teacher Ratio', 'Institution Wise Pupil-Teacher Ratio', 'State Wise Pupil-Teacher Ratio']
+  generic: [teachers, students, education, staffing]
+
+- facet: topic
+  category: Education Infrastructure
+  patterns: ['Infrastructure', 'Availability of Infrastructure', 'Infrastructure of Colleges', 'Infrastructure of Standalone Institutes']
+  generic: [infrastructure, education, institutions, facilities]
+
+- facet: topic
+  category: Institutional Infrastructure
+  patterns: ['University-Wise Availability of Infrastructure', 'College-Wise Availability of Infrastructure', 'Standalone Institution-Wise Availability of Infrastructure', 'Infrastructure Availability']
+  generic: [infrastructure, institutions, facilities, education]
+
+- facet: topic
+  category: Hostels
+  patterns: ['Hostels', 'Hostel Information', 'Hostel Details', 'Hostels, Intake Capacity and Students Residing in Hostels']
+  generic: [hostels, students, infrastructure, accommodation]
+
+- facet: topic
+  category: Hostel Capacity
+  patterns: ['Intake Capacity', 'Hostel Intake Capacity', 'Hostels, Intake Capacity and Students Residing in Hostels', 'Students Residing in Hostels']
+  generic: [hostels, capacity, students, infrastructure]
+
+- facet: topic
+  category: Staff Quarters
+  patterns: ['Staff Quarters', 'Number of Staff Quarters', 'Institution Wise Number of Staff Quarters', 'Staff Quarters in University and Its Colleges']
+  generic: [staff, housing, infrastructure, institutions]
+
+- facet: topic
+  category: Institutional Management
+  patterns: ['Institutions by Management', 'Management of Institutions', 'Various Types of Institutions', 'Types of Institutions']
+  generic: [institutions, management, education, administration]
+
+- facet: topic
+  category: Institutional Accreditation
+  patterns: ['Accreditation', 'Valid Accreditation of Institutions', 'Accreditation of Colleges', 'Accreditation of Standalone Institutes']
+  generic: [accreditation, quality, institutions, education]
+
+- facet: topic
+  category: Quality Assurance
+  patterns: ['Accreditation', 'Valid Accreditation', 'Quality Assurance', 'Accreditation Status']
+  generic: [quality, accreditation, education, institutions]
+
+- facet: topic
+  category: Scholarships
+  patterns: ['Scholarships', 'Students Getting Scholarship', 'Students Receiving Scholarships', 'Scholarships for Colleges']
+  generic: [scholarships, students, education, financial aid]
+
+- facet: topic
+  category: Scholarship Recipients
+  patterns: ['Students Getting Scholarship', 'Students Receiving Scholarships', 'Number of Students Receiving Scholarships', 'Number of Students Getting Scholarship']
+  generic: [scholarships, students, beneficiaries, education]
+
+- facet: topic
+  category: Fellowships
+  patterns: ['Fellowships', 'Fellowships of Colleges', 'Fellowships of Standalone Institutes']
+  generic: [fellowships, students, education, financial aid]
+
+- facet: topic
+  category: Education Loans
+  patterns: ['Loans', 'Loans of Colleges', 'Loans of Standalone Institutes', 'Institutional Loans']
+  generic: [loans, finance, education, institutions]
+
+- facet: topic
+  category: Financial Aid
+  patterns: ['Scholarships', 'Fellowships', 'Loans', 'Scholarship and Fellowship Programs']
+  generic: [financial, aid, scholarships, fellowships, education]
+
+- facet: topic
+  category: Examination Results
+  patterns: ['Examination Results', 'Examination Results of Colleges', 'Examination Results of Standalone Institutes', 'Academic Performance']
+  generic: [examination, results, students, education]
+
+- facet: topic
+  category: Academic Performance
+  patterns: ['Examination Results', 'Out-Turn', 'Academic Performance', 'Higher Education Output']
+  generic: [performance, examination, education, students]
+
+- facet: topic
+  category: Out-Turn
+  patterns: ['Out-turn', 'Out Turn', 'Institution Wise Out-turn', 'State and Level-wise Out Turn', 'Programmes-wise Out Turn']
+  generic: [education, students, graduates, performance]
+
+- facet: topic
+  category: Education Output
+  patterns: ['Higher Education Output', 'Out-Turn', 'Programmes-wise Out Turn', 'Level-wise Out-turn']
+  generic: [education, output, graduates, performance]
+
+- facet: topic
+  category: Departments
+  patterns: ['Departments', 'Departments of Colleges', 'Faculties and Departments', 'Department Regular Courses']
+  generic: [departments, education, institutions, academics]
+
+- facet: topic
+  category: Faculties
+  patterns: ['Faculties', 'Faculties and Departments', 'Faculty Regular Courses', 'Faculty Strength']
+  generic: [faculty, education, departments, academics]
+
+- facet: topic
+  category: Academic Disciplines
+  patterns: ['Discipline', 'Discipline Group', 'Discipline and Level', 'Discipline-wise']
+  generic: [discipline, education, academics, programmes]
+
+- facet: topic
+  category: Diploma Courses
+  patterns: ['Diploma Level Courses', 'Colleges Running Only Diploma Level Courses', 'Diploma Level']
+  generic: [diploma, courses, colleges, education]
+
+- facet: topic
+  category: Minority Institutions
+  patterns: ['Other Minority Colleges', 'Other Minority Standalone Institutes', 'Minority Colleges', 'Minority Standalone Institutes']
+  generic: [minority, institutions, education, colleges]
+
+- facet: topic
+  category: Institutional Information
+  patterns: ['Basic Information of Colleges', 'Basic Information of Universities', 'Basic Information of Standalone Institutes', 'Institution Information']
+  generic: [institutions, education, profile, administration]
+
+- facet: topic
+  category: College Information
+  patterns: ['Basic Information of Colleges', 'Departments of Colleges', 'Regular Courses Details of Colleges', 'Teaching Staff Details of Colleges']
+  generic: [colleges, education, institutions, academics]
+
+- facet: topic
+  category: University Information
+  patterns: ['Basic Information of Universities', 'Hostel Details of Universities', 'Faculties and Departments of Universities', 'Department Regular Courses of Universities']
+  generic: [universities, education, institutions, academics]
+
+- facet: topic
+  category: Standalone Institute Information
+  patterns: ['Basic Information of Standalone Institutes', 'Hostel Information of Standalone Institutes', 'Faculties and Departments of Standalone Institutes', 'Regular Programme Details of Standalone Institutes']
+  generic: [standalone, institutes, education, academics]
+
+- facet: topic
+  category: Student Accommodation
+  patterns: ['Hostels', 'Students Residing in Hostels', 'Hostel Information', 'Hostel Details']
+  generic: [students, accommodation, hostels, infrastructure]
+
+- facet: topic
+  category: Regional Centres
+  patterns: ['Regional Centre Details', 'Regional Centre Details of Universities', 'Regional Centres']
+  generic: [universities, regional, centres, education, institutions]
+
+- facet: topic
+  category: Faculty Courses
+  patterns: ['Faculty Regular Courses', 'Faculty Courses', 'Regular Courses of Faculty']
+  generic: [faculty, courses, education, universities]
+
+- facet: topic
+  category: Student Support
+  patterns: ['Scholarships', 'Fellowships', 'Loans', 'Students Receiving Scholarships']
+  generic: [students, support, education, financial,aid]
+
+- facet: topic
+  category: Education Planning
+  patterns: ['Education Planning', 'Planning and Monitoring', 'Education Policy Planning', 'Higher Education Planning']
+  generic: [education, planning, policy, institutions]
+
+- facet: topic
+  category: Institutional Performance
+  patterns: ['Out-Turn', 'Examination Results', 'Performance', 'Comparative Analysis']
+  generic: [performance, institutions, education, analysis]

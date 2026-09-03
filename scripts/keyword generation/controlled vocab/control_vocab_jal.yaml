@@ -1,0 +1,159 @@
+- facet: topic
+  category: drinking_water
+  patterns: ['drinking water', 'rural drinking water', 'water supply']
+  generic: [drinking, water, sanitation, habitation]
+
+- facet: topic
+  category: nrdwp
+  patterns: ['nrdwp', 'national rural drinking water programme']
+  generic: [nrdwp, drinking, water, rural]
+
+- facet: topic
+  category: habitation
+  patterns: ['habitation', 'basic habitation information', 'habitation details']
+  generic: [habitation, villages, water, coverage]
+
+- facet: topic
+  category: minor_irrigation
+  patterns: ['minor irrigation', 'minor irrigation census', 'irrigation schemes']
+  generic: [minor, irrigation, census, infrastructure]
+
+- facet: topic
+  category: groundwater
+  patterns: ['ground water', 'groundwater']
+  generic: [groundwater, aquifer, irrigation, wells]
+
+- facet: topic
+  category: surface_water
+  patterns: ['surface water']
+  generic: [surface, water, irrigation, canals]
+
+- facet: topic
+  category: deep_tubewells
+  patterns: ['deep tubewell', 'deep tubewells']
+  generic: [deep, tubewells, groundwater, irrigation]
+
+- facet: topic
+  category: shallow_tubewells
+  patterns: ['shallow tubewell', 'shallow tubewells']
+  generic: [shallow, tubewells, groundwater, irrigation]
+
+- facet: topic
+  category: dugwells
+  patterns: ['dugwell', 'dugwells']
+  generic: [dugwells, groundwater, irrigation, wells]
+
+- facet: topic
+  category: surface_flow
+  patterns: ['surface flow', 'surface flow scheme', 'surface flow schemes']
+  generic: [surface, flow, irrigation, canals]
+
+- facet: topic
+  category: surface_lift
+  patterns: ['surface lift', 'surface lift scheme', 'surface lift schemes']
+  generic: [surface, pumps, irrigation, water]
+
+- facet: topic
+  category: command_area
+  patterns: ['command area', 'culturable command area', 'cca']
+  generic: [command, area, irrigation, cca]
+
+- facet: topic
+  category: construction
+  patterns: ['construction', 'construction cost']
+  generic: [construction, infrastructure, cost, development]
+
+- facet: topic
+  category: water_distribution
+  patterns: ['water distribution system', 'distribution system']
+  generic: [water, distribution, irrigation, system]
+
+- facet: topic
+  category: pumping
+  patterns: ['pumping hours', 'pumping operation']
+  generic: [pumping, operation, irrigation, water]
+
+- facet: topic
+  category: finance
+  patterns: ['source of finance', 'finance source']
+  generic: [finance, funding, investment, irrigation]
+
+- facet: topic
+  category: energy
+  patterns: ['source of energy', 'energy source']
+  generic: [energy, electricity, pumps, irrigation]
+
+- facet: topic
+  category: rural_sanitation
+  patterns: ['rural sanitation', 'sanitation']
+  generic: [rural, sanitation, toilets, hygiene]
+
+- facet: topic
+  category: gram_panchayat
+  patterns: ['gram panchayat', 'gram panchayat wise']
+  generic: [panchayat, village, rural, local]
+
+- facet: topic
+  category: swachh_bharat
+  patterns: ['swachh bharat', 'swachh bharat mission', 'sbm']
+  generic: [swachhbharat, sanitation, hygiene, toilets]
+
+- facet: topic
+  category: odf
+  patterns: ['odf', 'open defecation free']
+  generic: [odf, sanitation, toilets, villages]
+
+- facet: topic
+  category: ihhl
+  patterns: ['ihhl', 'individual household latrine']
+  generic: [ihhl, toilets, households, sanitation]
+
+- facet: topic
+  category: namami_ganga
+  patterns: ['namami ganga']
+  generic: [namamiganga, ganga, river, conservation]
+
+- facet: topic
+  category: rainfall
+  patterns: ['rainfall', 'daily rainfall', 'sub-basin rainfall']
+  generic: [rainfall, precipitation, weather, climate]
+
+- facet: topic
+  category: evapotranspiration
+  patterns: ['evapotranspiration']
+  generic: [evapotranspiration, climate, weather, agriculture]
+
+- facet: topic
+  category: soil_moisture
+  patterns: ['soil moisture']
+  generic: [soil, moisture, agriculture, hydrology]
+
+- facet: topic
+  category: reservoir_levels
+  patterns: ['reservoir level', 'reservoir levels']
+  generic: [reservoir, storage, water, cwc]
+
+- facet: topic
+  category: water_bodies
+  patterns: ['water bodies', 'water body census']
+  generic: [waterbodies, lakes, ponds, census]
+
+- facet: topic
+  category: major_medium_irrigation
+  patterns: ['major irrigation', 'medium irrigation', 'major and medium irrigation']
+  generic: [mmi, irrigation, canals, infrastructure]
+
+- facet: topic
+  category: spring_census
+  patterns: ['spring census']
+  generic: [springs, groundwater, census, water]
+
+- facet: topic
+  category: pmksy
+  patterns: ['pmksy', 'pradhan mantri krishi sinchai yojana']
+  generic: [pmksy, irrigation, agriculture, scheme]
+
+- facet: topic
+  category: aibp
+  patterns: ['aibp', 'accelerated irrigation benefits programme']
+  generic: [aibp, irrigation, canals, infrastructure]

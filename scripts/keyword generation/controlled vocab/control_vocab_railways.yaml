@@ -1,0 +1,134 @@
+- facet: topic
+  category: railway_timetable
+  patterns: ['railway timetable', 'train timetable', 'reservation timetable', 'trains available for reservation']
+  generic: [timetable, reservation, train, schedule]
+
+- facet: topic
+  category: railway_routes
+  patterns: ['route kilometrage', 'route length', 'railway route', 'track length']
+  generic: [route, track, kilometrage, network]
+
+- facet: topic
+  category: running_tracks
+  patterns: ['running track kilometres', 'running track']
+  generic: [track, railway, infrastructure, network]
+
+- facet: topic
+  category: total_tracks
+  patterns: ['total track kilometres', 'track kilometres including sidings', 'sidings']
+  generic: [track, infrastructure, railway]
+
+- facet: topic
+  category: railway_electrification
+  patterns: ['electrified route', 'electrified route kilometres', 'electrification']
+  generic: [electrification, route, railway,electrified ]
+
+- facet: topic
+  category: railway_stations
+  patterns: ['railway stations', 'number of railway stations', 'block huts', 'halts']
+  generic: [station, halt, railway, infrastructure]
+
+- facet: topic
+  category: locomotives
+  patterns: ['locomotives in service', 'locomotive fleet', 'locomotive number', 'broad gauge locomotives']
+  generic: [locomotive, engine, fleet,gauge]
+
+- facet: topic
+  category: coaching_stock
+  patterns: ['coaching vehicles', 'coaching stock', 'coaches in service']
+  generic: [coach, passenger, fleet]
+
+- facet: topic
+  category: wagons
+  patterns: ['wagons in service', 'wagon usage', 'wagon kilometres', 'wagon capacity']
+  generic: [wagon, freight,capacity]
+
+- facet: topic
+  category: railway_earnings
+  patterns: ['earnings', 'railway earnings', 'earnings details']
+  generic: [earnings, revenue, finance, income]
+
+- facet: topic
+  category: railway_finance
+  patterns: ['financial results', 'working expenses', 'demand heads']
+  generic: [finance, expenditure, budget, accounts]
+
+- facet: topic
+  category: passenger_traffic
+  patterns: ['passenger traffic', 'suburban passenger', 'non-suburban passenger', 'originating passengers']
+  generic: [passenger, traffic, mobility, travel]
+
+- facet: topic
+  category: passenger_kilometres
+  patterns: ['passenger kilometres', 'average kilometres', 'lead in kilometres']
+  generic: [distance, passenger, travel, mobility]
+
+- facet: topic
+  category: passenger_earnings
+  patterns: ['passenger earnings', 'earnings by class', 'traffic earnings']
+  generic: [earnings, passenger, revenue, fare]
+
+- facet: topic
+  category: passenger_fares
+  patterns: ['average rate charged', 'fare', 'passenger rate']
+  generic: [fare, tariff, pricing, passenger]
+
+- facet: topic
+  category: season_tickets
+  patterns: ['monthly season tickets', 'season tickets']
+  generic: [ticket, commuter, pass, travel]
+
+- facet: topic
+  category: freight_traffic
+  patterns: ['freight traffic', 'goods traffic', 'commodity-wise freight', 'tonne kilometres']
+  generic: [freight, logistics, cargo, goods]
+
+- facet: topic
+  category: freight_rates
+  patterns: ['average rate per tonne km', 'freight rate']
+  generic: [freight, tariff, pricing, logistics]
+
+- facet: topic
+  category: train_operations
+  patterns: ['train kilometres operated', 'average trains run', 'operations']
+  generic: [operations, trains, movement, utilisation]
+
+- facet: topic
+  category: traction
+  patterns: ['traction', 'net tonne kilometres by traction', 'electric traction', 'diesel traction', 'steam traction']
+  generic: [traction, electric, diesel, steam]
+
+- facet: topic
+  category: goods_trains
+  patterns: ['goods trains', 'goods train speed', 'goods train load']
+  generic: [goods, freight, speed, loading]
+
+- facet: topic
+  category: traffic_density
+  patterns: ['traffic density']
+  generic: [density, traffic, utilisation, performance]
+
+- facet: topic
+  category: maintenance
+  patterns: ['ineffective rolling stock', 'awaiting repairs', 'under repairs']
+  generic: [maintenance, repairs, reliability]
+
+- facet: topic
+  category: procurement
+  patterns: ['stores purchased', 'purchase value', 'railway stores']
+  generic: [procurement, stores, purchasing, inventory]
+
+- facet: topic
+  category: railway_staff
+  patterns: ['group c staff', 'group d staff', 'staff employed', 'railway board staff', 'rpsf staff']
+  generic: [staff, workforce, personnel, employment]
+
+- facet: topic
+  category: staff_cost
+  patterns: ['cost of staff', 'per capita cost', 'staff cost']
+  generic: [salary, expenditure, workforce, finance]
+
+- facet: topic
+  category: employee_productivity
+  patterns: ['traffic units per railway employee']
+  generic: [productivity, employee, efficiency, workforce]

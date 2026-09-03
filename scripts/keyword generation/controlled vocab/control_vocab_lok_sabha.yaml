@@ -1,0 +1,129 @@
+- facet: topic
+  category: attendance
+  patterns: ['attendance', 'attendance register', 'member attendance', 'signed attendance', 'attendance days']
+  generic: [attendance, member, session, loksabha]
+
+- facet: topic
+  category: budget_session
+  patterns: ['budget session', 'budget session 1', 'budget session 2', 'budget session 3']
+  generic: [budget, session, parliament, loksabha]
+
+- facet: topic
+  category: monsoon_session
+  patterns: ['monsoon session']
+  generic: [ session, parliament, loksabha]
+
+- facet: topic
+  category: winter_session
+  patterns: ['winter session']
+  generic: [ session, parliament, loksabha]
+
+- facet: topic
+  category: special_session
+  patterns: ['special session']
+  generic: [special, session, parliament, loksabha]
+
+- facet: topic
+  category: committee_meeting
+  patterns: ['committee meeting', 'committee meetings', 'meeting schedule', 'date-wise committee meetings']
+  generic: [committee, meeting, schedule, parliament]
+
+- facet: topic
+  category: committee_membership
+  patterns: ['committee membership', 'committee member', 'member committee']
+  generic: [committee, membership, member, parliament]
+
+- facet: topic
+  category: committee_report
+  patterns: ['committee report', 'committee reports', 'committee-wise reports']
+  generic: [committee, report, parliament, document]
+
+- facet: topic
+  category: member_profile
+  patterns: ['member profile', 'biodata', 'member details']
+  generic: [member, profile, biodata, parliament]
+
+- facet: topic
+  category: member_list
+  patterns: ['list of members', 'member list', 'members']
+  generic: [member, representation, parliament, directory]
+
+- facet: topic
+  category: women_members
+  patterns: ['women members', 'lady members']
+  generic: [women, member, parliament, representation]
+
+- facet: topic
+  category: nominated_members
+  patterns: ['nominated members']
+  generic: [nominated, member, parliament, representation]
+
+- facet: topic
+  category: party_wise_members
+  patterns: ['party wise', 'party-wise members', 'members by party']
+  generic: [party, member, parliament, representation]
+
+- facet: topic
+  category: state_wise_members
+  patterns: ['state wise', 'state-wise members', 'members by state']
+  generic: [state, member, parliament, representation]
+
+- facet: topic
+  category: birthday
+  patterns: ['birthday', 'birthday list', 'birthday feed']
+  generic: [birthday, member, calendar, parliament]
+
+- facet: topic
+  category: parliamentary_question
+  patterns: ['starred question', 'unstarred question', 'supplementary question', 'question list']
+  generic: [question, parliament, member, session]
+
+- facet: topic
+  category: parliamentary_bill
+  patterns: ['government bill', 'private bill', 'private member bill']
+  generic: [bill, legislation, parliament, ministry]
+
+- facet: topic
+  category: parliamentary_bulletin
+  patterns: ['bulletin part i', 'bulletin part ii', 'parliamentary bulletin']
+  generic: [bulletin, proceedings, parliament]
+
+- facet: topic
+  category: debate
+  patterns: ['verbatim debates', 'debates', 'proceedings']
+  generic: [debate, proceedings, parliament, discussion]
+
+- facet: topic
+  category: business_list
+  patterns: ['list of business', 'daily business', 'agenda']
+  generic: [agenda, business, parliament, session]
+
+- facet: topic
+  category: sitting_statistics
+  patterns: ['sitting hours', 'number of sittings', 'session sittings']
+  generic: [sitting, session, parliament]
+
+- facet: topic
+  category: disruption
+  patterns: ['time lost', 'disruption', 'forced adjournment', 'interruption']
+  generic: [disruption, adjournment, session, parliament]
+
+- facet: topic
+  category: visitor
+  patterns: ['visitor passes', 'visitors gallery', 'visitor']
+  generic: [visitor, gallery, parliament]
+
+- facet: topic
+  category: zero_hour
+  patterns: ['zero hour', 'urgent public importance']
+  generic: [hour, parliament, member]
+
+- facet: topic
+  category: special_mention
+  patterns: ['special mention', 'special mentions']
+  generic: [mention, member, parliament, proceedings]
+
+- facet: topic
+  category: rss_feed
+  patterns: ['rss', 'rss feeds']
+  generic: [rss, update, parliament]

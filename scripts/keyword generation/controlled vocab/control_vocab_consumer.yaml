@@ -1,0 +1,119 @@
+- facet: topic
+  category: retail_prices
+  patterns: ['retail price', 'retail prices', 'retail rate', 'retail rates']
+  generic: [retail, prices, consumer, market]
+
+- facet: topic
+  category: wholesale_prices
+  patterns: ['wholesale price', 'wholesale prices', 'wholesale rate', 'wholesale rates']
+  generic: [wholesale, prices, market, commodities]
+
+- facet: topic
+  category: food_prices
+  patterns: ['price', 'commodity price', 'food price']
+  generic: [food, prices, commodities, market]
+
+- facet: topic
+  category: cereals
+  patterns: ['rice', 'wheat', 'atta']
+  generic: [cereals, rice, wheat, atta]
+
+- facet: topic
+  category: pulses
+  patterns: ['gram dal', 'moong dal', 'masoor dal', 'tur', 'arhar', 'urad']
+  generic: [pulses, gram, lentils, dal]
+
+- facet: topic
+  category: edible_oils
+  patterns: ['groundnut oil', 'mustard oil', 'palm oil', 'soyaoil', 'soya oil', 'sunflower oil', 'vanaspati']
+  generic: [oil, edible, cooking]
+
+- facet: topic
+  category: vegetables
+  patterns: ['onion', 'potato', 'tomato', 'brinjal', 'cabbage']
+  generic: [vegetables, produce, food, market]
+
+- facet: topic
+  category: dairy
+  patterns: ['milk']
+  generic: [milk, dairy, prices, food]
+
+- facet: topic
+  category: sugar
+  patterns: ['sugar', 'gur']
+  generic: [sugar, sweeteners, commodities]
+
+- facet: topic
+  category: tea
+  patterns: ['tea loose', 'tea']
+  generic: [tea, beverages, commodities, prices]
+
+- facet: topic
+  category: salt
+  patterns: ['iodised salt', 'salt packed', 'loose salt', 'salt']
+  generic: [salt, iodised, food, commodities]
+
+- facet: topic
+  category: fortified_rice
+  patterns: ['fortified rice']
+  generic: [rice, nutrition, distribution]
+
+- facet: topic
+  category: public_distribution_system
+  patterns: ['public distribution system', 'pds']
+  generic: [pds, ration, distribution, food]
+
+- facet: topic
+  category: onorc
+  patterns: ['one nation one ration card', 'onorc']
+  generic: [onorc, ration, portability, beneficiaries]
+
+- facet: topic
+  category: fci
+  patterns: ['food corporation of india', 'fci']
+  generic: [fci, procurement, storage, stocks]
+
+- facet: topic
+  category: food_stock
+  patterns: ['stock position', 'food stock', 'commodity stock']
+  generic: [stocks, food, storage, inventory]
+
+- facet: topic
+  category: food_subsidy
+  patterns: ['food subsidy', 'subsidy released']
+  generic: [subsidy, food, finance, support]
+
+- facet: topic
+  category: dcp
+  patterns: ['decentralized procurement', 'decentralised procurement', 'dcp states', 'dcp']
+  generic: [dcp, procurement, subsidy, states]
+
+- facet: topic
+  category: sugar_mills
+  patterns: ['sugar mill', 'sugar mills']
+  generic: [mills, sugar, industry, manufacturing]
+
+- facet: topic
+  category: ethanol
+  patterns: ['ethanol', 'ethanol production']
+  generic: [ethanol, biofuel, distilleries, capacity]
+
+- facet: topic
+  category: distilleries
+  patterns: ['distillery', 'distilleries']
+  generic: [distilleries, ethanol, industry, manufacturing]
+
+- facet: topic
+  category: consumer_affairs
+  patterns: ['consumer affairs', 'department of consumer affairs']
+  generic: [consumer, affairs, prices]
+
+- facet: topic
+  category: food_distribution
+  patterns: ['food distribution', 'distribution quantity', 'distribution']
+  generic: [distribution, food, supply]
+
+- facet: topic
+  category: commodities
+  patterns: ['commodity', 'commodities']
+  generic: [commodities, market, trade, prices]

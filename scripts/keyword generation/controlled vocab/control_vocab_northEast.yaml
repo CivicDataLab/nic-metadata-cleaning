@@ -1,0 +1,139 @@
+- facet: topic
+  category: nlcpr
+  patterns: ['non-lapsable central pool of resources', 'non lapsable central pool of resources', 'nlcpr']
+  generic: [nlcpr, funding, scheme, northeast]
+
+- facet: topic
+  category: nesids
+  patterns: ['north east special infrastructure development scheme', 'nesids']
+  generic: [nesids, infrastructure, funding, scheme]
+
+- facet: topic
+  category: nesrip
+  patterns: ['north eastern states road investment project', 'nesrip']
+  generic: [nesrip, roads, infrastructure, transport]
+
+- facet: topic
+  category: doner
+  patterns: ['ministry of development of north eastern region', 'mdoner', 'doner']
+  generic: [doner, northeast, ministry]
+
+- facet: topic
+  category: northeast
+  patterns: ['north eastern region', 'north east', 'north eastern']
+  generic: [northeast, region]
+
+- facet: topic
+  category: projects
+  patterns: ['ongoing projects', 'project list', 'projects as on date', 'project']
+  generic: [projects , status]
+
+- facet: topic
+  category: schemes
+  patterns: ['scheme', 'schemes']
+  generic: [scheme, funding, government]
+
+- facet: topic
+  category: funding
+  patterns: ['funds sanctioned', 'funds released', 'funds utilised', 'funds utilized', 'sanctioned', 'released', 'utilised', 'utilized']
+  generic: [funding, finance, grants, expenditure]
+
+- facet: topic
+  category: agriculture
+  patterns: ['agriculture', 'allied activities', 'agriculture & allied']
+  generic: [agriculture, farming, crops, allied]
+
+- facet: topic
+  category: education
+  patterns: ['education']
+  generic: [education, schools, literacy]
+
+- facet: topic
+  category: health
+  patterns: ['health']
+  generic: [health, healthcare, hospitals, medical]
+
+- facet: topic
+  category: irrigation
+  patterns: ['flood control', 'irrigation', 'flood control & irrigation']
+  generic: [irrigation, flood, water, drainage]
+
+- facet: topic
+  category: power
+  patterns: ['power', 'energy']
+  generic: [power, energy, electricity, grid]
+
+- facet: topic
+  category: roads
+  patterns: ['road', 'roads', 'bridges', 'road & bridges']
+  generic: [roads, bridges, transport, infrastructure]
+
+- facet: topic
+  category: sports
+  patterns: ['sports']
+  generic: [sports, stadium, athletics, recreation]
+
+- facet: topic
+  category: tourism
+  patterns: ['tourism', 'culture', 'tourism & culture']
+  generic: [tourism, culture, heritage, travel]
+
+- facet: topic
+  category: water_supply
+  patterns: ['water supply']
+  generic: [water, supply, drinking, infrastructure]
+
+- facet: topic
+  category: btc
+  patterns: ['bodo territorial council', 'btc']
+  generic: [btc, bodo, council, assam]
+
+- facet: topic
+  category: kaatc
+  patterns: ['karbi anglong autonomous territorial council', 'kaatc']
+  generic: [kaatc, karbi, council, assam]
+
+- facet: topic
+  category: dhatc
+  patterns: ['dima hasao autonomous territorial council', 'dhatc']
+  generic: [dhatc, dima, council, assam]
+
+- facet: topic
+  category: assam
+  patterns: ['assam']
+  generic: [assam]
+
+- facet: topic
+  category: arunachal
+  patterns: ['arunachal', 'arunachal pradesh']
+  generic: [arunachal]
+
+- facet: topic
+  category: manipur
+  patterns: ['manipur']
+  generic: [manipur]
+
+- facet: topic
+  category: meghalaya
+  patterns: ['meghalaya']
+  generic: [meghalaya]
+
+- facet: topic
+  category: mizoram
+  patterns: ['mizoram']
+  generic: [mizoram]
+
+- facet: topic
+  category: nagaland
+  patterns: ['nagaland']
+  generic: [nagaland]
+
+- facet: topic
+  category: sikkim
+  patterns: ['sikkim']
+  generic: [sikkim]
+
+- facet: topic
+  category: tripura
+  patterns: ['tripura']
+  generic: [tripura]

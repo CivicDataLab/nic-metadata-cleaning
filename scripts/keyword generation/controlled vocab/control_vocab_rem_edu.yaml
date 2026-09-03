@@ -1,0 +1,216 @@
+- facet: topic
+  category: School Access
+  patterns: ['School Access', 'Schooling Access', 'Access to Schooling', 'Access to Education', 'Education Access']
+  generic: [school, access, education, school]
+
+- facet: School Infrastructure
+  patterns: ['School Infrastructure', 'School Infrastructure Coverage', 'Infrastructure Needs', 'Infrastructure Assessment', 'Education Infrastructure']
+  generic: [school, infrastructure, education, facilities]
+
+- facet: School Facilities
+  patterns: ['Schooling Facilities', 'School Facilities', 'Availability of Facilities', 'Facility Availability', 'Facilities in School Premises']
+  generic: [school, facilities, availability, infrastructure]
+
+- facet: School Building
+  patterns: ['Type of Building', 'School Building', 'Building Type', 'Schools by Type of Building']
+  generic: [school, building, infrastructure, facilities]
+
+- facet: School Management
+  patterns: ['Type of Management', 'School Management', 'Management Type', 'Management Patterns', 'Institutional Management']
+  generic: [school, management, governance, institution]
+
+- facet: School Category
+  patterns: ['School Category', 'Schools by Category', 'Category-wise Schools', 'School Categories']
+  generic: [school, category, classification, education]
+
+- facet: School Recognition
+  patterns: ['Recognised Schools', 'Unrecognised Schools', 'School Recognition', 'Recognition Status', 'Recognized Schools', 'Unrecognized Schools']
+  generic: [school, recognition, recognized, unrecognized]
+
+- facet: School Enrolment
+  patterns: ['Enrolment', 'School Enrolment', 'Student Enrolment', 'Class-wise Enrolment', 'Enrolment Patterns', 'Enrolment Distribution']
+  generic: [enrolment, students, school, education]
+
+- facet: Student Participation
+  patterns: ['School Participation', 'Student Participation', 'Participation Patterns', 'Education Participation']
+  generic: [students, participation, school, education]
+
+- facet: Teacher Staffing
+  patterns: ['Teachers in Position', 'Teacher Staffing', 'Staffing Levels', 'Teacher Deployment', 'Staffing Patterns', 'Number of Teachers']
+  generic: [teachers, staff, deployment, school]
+
+- facet: Teacher Workforce
+  patterns: ['Teacher Workforce', 'Workforce Assessment', 'Teacher Workforce Assessment', 'Teaching Workforce']
+  generic: [teachers, workforce, staff, education]
+
+- facet: Primary Education
+  patterns: ['Primary Schools', 'Primary Education', 'Primary Schooling', 'Primary School Sections']
+  generic: [primary, school, education, school]
+
+- facet: Upper Primary Education
+  patterns: ['Upper Primary Schools', 'Upper Primary Education', 'Upper Primary Schooling', 'Upper Primary Sections']
+  generic: [upper, primary, school, education]
+
+- facet: Secondary Education
+  patterns: ['Secondary Schools', 'Secondary Education', 'Secondary Schooling', 'Secondary School Sections']
+  generic: [secondary, school, education, schooling]
+
+- facet: Higher Secondary Education
+  patterns: ['Higher Secondary Schools', 'Higher Secondary Education', 'Higher Secondary Schooling', 'Higher Secondary Sections']
+  generic: [higher, secondary, school, education]
+
+- facet: Senior Secondary Access
+  patterns: ['Senior Secondary Education', 'Access to Senior Secondary Education', 'Senior Secondary Access']
+  generic: [senior, secondary, education, access]
+
+- facet: Pre-Primary Education
+  patterns: ['Pre-primary Education', 'Pre-primary Institutions', 'Pre-primary Schooling', 'Early Childhood Education', 'Early Childhood Care and Education', 'ECCE']
+  generic: [preprimary, childhood, education, schooling]
+
+- facet: Alternative Education
+  patterns: ['Alternative Education', 'Alternative Schooling', 'Alternative Schools', 'Alternative Schooling Initiatives', 'Alternative and Innovative Education']
+  generic: [alternative, education, schooling, access]
+
+- facet: AIE Centres
+  patterns: ['AIE Centres', 'Alternative and Innovative Education Centres', 'AIE Centres under EGS and AIE Scheme', 'AIE Scheme']
+  generic: [AIE, centres, alternative, education]
+
+- facet: Education Volunteers
+  patterns: ['Education Volunteers', 'Volunteer Engagement', 'Education Volunteer Engagement', 'Volunteers in Alternative Schools']
+  generic: [education, volunteers, alternative, school]
+
+- facet: Sanskrit Education
+  patterns: ['Sanskrit Pathshalas', 'Sanskrit Pathshala Education', 'Sanskrit Schooling', 'Sanskrit Pathshala Enrolment']
+  generic: [sanskrit, pathshalas, education, school]
+
+- facet: Maktab Education
+  patterns: ['Maktabs', 'Maktabs Following General Education System', 'Maktab Education', 'Maktab Schooling']
+  generic: [maktab, education, school, alternative]
+
+- facet: Madrasa Education
+  patterns: ['Madrasas', 'Madrasas Following General Education System', 'Madrasa Education', 'Madrasa Schooling']
+  generic: [madrasa, education, school, alternative]
+
+- facet: General Education
+  patterns: ['General Education System', 'General Education', 'Schools Following General Education System', 'Institutions Following General Education']
+  generic: [general, education, school, system]
+
+- facet: Rural Education
+  patterns: ['Rural Education', 'Rural Schooling', 'Rural School Access', 'Rural Education Access', 'Rural Schools']
+  generic: [rural, education, school, access]
+
+- facet: Urban Education
+  patterns: ['Urban Education', 'Urban Schooling', 'Urban School Access', 'Urban Schools', 'Urban Education Facilities']
+  generic: [urban, education, school, access]
+
+- facet: Habitation Education
+  patterns: ['Habitation-level Schooling', 'Habitation School Access', 'Schooling in Habitations', 'Habitation School Availability']
+  generic: [habitation, school, access, education]
+
+- facet: Village Education
+  patterns: ['Village Education', 'Village Schooling', 'Villages with Schools', 'Village School Access', 'Schooling Facilities in Villages']
+  generic: [village, education, school, access]
+
+- facet: Population Distribution
+  patterns: ['Population Slabs', 'Population Distribution', 'Population Slab-wise Data', 'Population Coverage', 'Population Patterns']
+  generic: [population, distribution, slabs, coverage]
+
+- facet: Child Population
+  patterns: ['Child Population', 'Estimated Child Population', 'Rural Child Population', 'Urban Child Population']
+  generic: [child, population, rural, urban]
+
+- facet: Settlement Patterns
+  patterns: ['Settlement Patterns', 'Rural Settlement Patterns', 'Settlement Distribution', 'Village Distribution', 'Habitation Distribution']
+  generic: [settlement, village, habitation, population]
+
+- facet: School Availability
+  patterns: ['School Availability', 'Availability of Schools', 'School Presence', 'Schools With and Without', 'School Coverage']
+  generic: [school, availability, coverage, access]
+
+- facet: Primary School Coverage
+  patterns: ['Primary School Availability', 'Primary School Coverage', 'Habitations Served by Primary School', 'Habitations Not Served by Primary School']
+  generic: [primary, school, coverage, access]
+
+- facet: Upper Primary Coverage
+  patterns: ['Upper Primary School Availability', 'Upper Primary School Coverage', 'Habitations Served by Upper Primary Schools', 'Habitations Without Upper Primary Schools']
+  generic: [upper, primary, school, access]
+
+- facet: Secondary School Coverage
+  patterns: ['Secondary School Availability', 'Secondary School Coverage', 'Habitations Served by Secondary Schools', 'Habitations Without Secondary Schools']
+  generic: [secondary, school, coverage, access]
+
+- facet: Higher Secondary Coverage
+  patterns: ['Higher Secondary School Availability', 'Higher Secondary School Coverage', 'Habitations Served by Higher Secondary Schools', 'Habitations Without Higher Secondary Schools']
+  generic: [higher, secondary, school, access]
+
+- facet: Education Equity
+  patterns: ['Education Equity', 'Schooling Equity', 'Equity in Access', 'Equity-focused Education', 'Education Access Equity']
+  generic: [education, equity, access, schooling]
+
+- facet: Disadvantaged Communities
+  patterns: ['Disadvantaged Communities', 'Underserved Communities', 'Vulnerable Communities', 'Targeted Communities']
+  generic: [disadvantaged, underserved, vulnerable, communities]
+
+- facet: SC Education Access
+  patterns: ['SC Population School Access', 'SC Education Access', 'School Access for SC Communities', 'SC Population 50% or More', 'SC Population 25-50%']
+  generic: [SC, population, education, access,scheduled, caste]
+
+- facet: ST Education Access
+  patterns: ['ST Population School Access', 'ST Education Access', 'School Access for ST Communities', 'ST Population 50% or More', 'ST Population 25-50%']
+  generic: [ST, population, education, access,scheduled,tribe]
+
+- facet: School Access Gaps
+  patterns: ['Access Gaps', 'Schooling Access Gaps', 'Infrastructure Gaps', 'Education Gaps', 'School Access Gap Analysis']
+  generic: [school, access, gaps, education]
+
+- facet: School Distance
+  patterns: ['School Distance', 'Primary School within 1.0 km', 'School within 1.0 km', 'Distance to Primary School']
+  generic: [school, distance, primary, access]
+
+- facet: Alternative Schooling
+  patterns: ['Alternative School', 'Alternative Schools', 'Alternative Schooling', 'Alternative Education', 'Alternative Schooling Participation']
+  generic: [alternative, school, education]
+
+- facet: School Governance
+  patterns: ['School Governance', 'School Governance Structures', 'Community School Governance', 'Rural School Governance']
+  generic: [school, governance, community, education]
+
+- facet: Village Education Committee
+  patterns: ['Village Education Committee', 'VEC', 'Village Education Committees', 'Community Participation in School Governance']
+  generic: [village, education, committee, governance, VEC]
+
+- facet: Education Planning
+  patterns: ['Education Planning', 'School Education Planning', 'Planning for Education Access', 'Education Infrastructure Planning']
+  generic: [education, school, infrastructure]
+
+- facet: Education Monitoring
+  patterns: ['Education Monitoring', 'School Education Monitoring', 'Monitoring of School Access', 'Monitoring of School Infrastructure']
+  generic: [education, monitoring, school, access]
+
+- facet: Resource Allocation
+  patterns: ['Resource Allocation', 'Education Resource Allocation', 'School Resource Allocation', 'Resource Planning']
+  generic: [resource, allocation, education]
+
+- facet: School Service Delivery
+  patterns: ['Service Delivery', 'School Service Delivery', 'Education Service Delivery', 'School Infrastructure and Service Delivery']
+  generic: [school, services, education, delivery]
+
+- facet: Education Policy
+  patterns: ['Education Policy', 'Policy Analysis', 'Policy Monitoring', 'Education Policy Analysis', 'Policy Review']
+  generic: [education, policy, analysis, monitoring]
+
+- facet: School Performance
+  patterns: ['School Performance', 'Education Performance', 'Performance Monitoring', 'Education Performance Monitoring', 'Result Statistics']
+  generic: [school, performance, education, results]
+
+- facet: CBSE Results
+  patterns: ['CBSE Results', 'CBSE Class X Results', 'CBSE Class XII Results', 'CBSE Result Statistics', 'Class X Result Statistics', 'Class XII Result Statistics']
+  generic: [CBSE, results, class, 12, education]
+
+- facet: Education Survey
+  patterns: ['All India School Education Survey', '8th All India School Education Survey', '8th AISES', 'School Education Survey', 'Survey-based Education Data']
+  generic: [survey, education, school, AISES]
+
+- facet: Education Statistics
+  patterns: ['Education Statistics', 'School Statistics', 'Education Data', 'School Data', 'Statistical Education Data']
+  generic: [education, statistics, school, data]

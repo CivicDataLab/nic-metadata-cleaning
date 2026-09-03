@@ -1,0 +1,719 @@
+- facet: topic
+  category: petroleum
+  patterns: ['petroleum', 'petroleum industry', 'petroleum sector', 'petroleum energy']
+  generic: [petroleum, oil, energy, fuel]
+
+- facet: topic
+  category: natural_gas
+  patterns: ['natural gas', 'natural-gas', 'gas sector', 'natural gas sector']
+  generic: [natural, gas, energy, fuel]
+
+- facet: topic
+  category: crude_oil
+  patterns: ['crude oil', 'crude-oil']
+  generic: [crude, petroleum, oil, energy]
+
+- facet: topic
+  category: oil
+  patterns: ['oil', 'oil industry', 'oil sector', 'oil production']
+  generic: [oil, petroleum, energy, fuel]
+
+- facet: topic
+  category: condensate
+  patterns: ['condensate', 'crude oil and condensate']
+  generic: [condensate, crude, oil, petroleum, production]
+
+- facet: topic
+  category: oil_and_gas
+  patterns: ['oil and gas', 'oil & gas', 'oil-gas']
+  generic: [oil, gas, petroleum, energy]
+
+- facet: topic
+  category: exploration
+  patterns: ['petroleum exploration', 'oil exploration', 'exploration activity', 'exploration activities']
+  generic: [exploration, petroleum, drilling, oil]
+
+- facet: topic
+  category: drilling
+  patterns: ['drilling', 'deep drilling', 'exploratory drilling', 'development drilling', 'drilling rigs']
+  generic: [drilling, exploration, wells, petroleum]
+
+- facet: topic
+  category: wells
+  patterns: ['wells', 'oil wells', 'gas wells', 'status of wells']
+  generic: [wells, drilling, petroleum, exploration]
+
+- facet: topic
+  category: oil_fields
+  patterns: ['oil fields', 'oil field', 'field-wise']
+  generic: [oil, fields, petroleum, production]
+
+- facet: topic
+  category: reserves
+  patterns: ['reserves', 'proven reserves', 'proved reserves', 'balance recoverable reserves']
+  generic: [reserves, petroleum, resources, energy]
+
+- facet: topic
+  category: crude_oil_reserves
+  patterns: ['crude oil reserves', 'proven oil reserves', 'recoverable reserves of crude oil']
+  generic: [crude, oil, reserves, petroleum, resources]
+
+- facet: topic
+  category: natural_gas_reserves
+  patterns: ['natural gas reserves', 'proven natural gas reserves', 'recoverable reserves of natural gas']
+  generic: [natural, reserves, gas, resources]
+
+- facet: topic
+  category: production
+  patterns: ['production', 'oil production', 'gas production', 'energy production']
+  generic: [production, petroleum, energy, output]
+
+- facet: topic
+  category: crude_oil_production
+  patterns: ['crude oil production', 'production of crude oil']
+  generic: [crude, production, petroleum, oil]
+
+- facet: topic
+  category: natural_gas_production
+  patterns: ['natural gas production', 'production of natural gas', 'gross production of natural gas', 'net production of natural gas']
+  generic: [natural, production, gas, energy]
+
+- facet: topic
+  category: refinery
+  patterns: ['refinery', 'refineries', 'petroleum refinery', 'oil refinery']
+  generic: [refinery, petroleum, refining, oil]
+
+- facet: topic
+  category: refining
+  patterns: ['refining', 'petroleum refining', 'oil refining', 'refining capacity']
+  generic: [refining, refinery, petroleum, capacity]
+
+- facet: topic
+  category: refining_capacity
+  patterns: ['refining capacity', 'petroleum refining capacity', 'oil refining capacity']
+  generic: [refining, capacity, refinery, petroleum]
+
+- facet: topic
+  category: crude_throughput
+  patterns: ['crude throughput', 'crude oil processed', 'crude processed', 'refinery crude throughput']
+  generic: [crude, oil, throughput, refinery, processing]
+
+- facet: topic
+  category: petroleum_products
+  patterns: ['petroleum products', 'petroleum product', 'oil products']
+  generic: [petroleum, products, fuel, energy]
+
+- facet: topic
+  category: production_petroleum_products
+  patterns: ['production of petroleum products', 'petroleum products production', 'production of products']
+  generic: [petroleum, products, production, refinery, fuel]
+
+- facet: topic
+  category: consumption
+  patterns: ['consumption', 'energy consumption', 'fuel consumption', 'petroleum consumption']
+  generic: [consumption, energy, fuel, demand]
+
+- facet: topic
+  category: petroleum_consumption
+  patterns: ['consumption of petroleum products', 'petroleum product consumption']
+  generic: [petroleum, consumption, fuel, demand]
+
+- facet: topic
+  category: natural_gas_consumption
+  patterns: ['natural gas consumption', 'gas consumption', 'natural gas utilisation', 'natural gas utilization']
+  generic: [natural, consumption, gas, energy]
+
+- facet: topic
+  category: sales
+  patterns: ['sales', 'petroleum product sales', 'sales of petroleum products']
+  generic: [sales, petroleum, products, market]
+
+- facet: topic
+  category: availability
+  patterns: ['availability', 'availability of crude oil', 'availability of petroleum products']
+  generic: [availability, petroleum, supply, energy]
+
+- facet: topic
+  category: pipelines
+  patterns: ['pipelines', 'pipeline', 'pipeline infrastructure']
+  generic: [pipelines, petroleum, gas, infrastructure]
+
+- facet: topic
+  category: crude_oil_pipelines
+  patterns: ['crude oil pipelines', 'crude oil pipeline', 'major crude oil pipelines']
+  generic: [crude, oil, pipelines, transportation, petroleum]
+
+- facet: topic
+  category: gas_pipelines
+  patterns: ['gas pipelines', 'natural gas pipelines', 'major gas pipelines']
+  generic: [natural, pipelines, infrastructure, gas]
+
+- facet: topic
+  category: LPG_pipelines
+  patterns: ['LPG pipelines', 'LPG and petroleum products pipelines']
+  generic: [LPG, pipelines, petroleum, infrastructure]
+
+- facet: topic
+  category: LPG
+  patterns: ['LPG', 'liquefied petroleum gas', 'liquefied petroleum']
+  generic: [LPG, petroleum, gas, fuel]
+
+- facet: topic
+  category: LPG_consumers
+  patterns: ['LPG consumers', 'domestic LPG consumers', 'LPG domestic consumers', 'LPG beneficiaries']
+  generic: [LPG, consumers, households, energy]
+
+- facet: topic
+  category: LPG_distributors
+  patterns: ['LPG distributors', 'LPG distribution', 'LPG distribution network']
+  generic: [LPG, distributors, distribution, fuel]
+
+- facet: topic
+  category: LPG_marketing
+  patterns: ['LPG marketing', 'LPG market', 'LPG distribution']
+  generic: [LPG, marketing, distribution, petroleum]
+
+- facet: topic
+  category: CNG
+  patterns: ['CNG', 'compressed natural gas', 'CNG activities']
+  generic: [CNG, natural, gas, fuel]
+
+- facet: topic
+  category: PNG
+  patterns: ['PNG', 'piped natural gas', 'PNG status']
+  generic: [PNG, natural, gas, infrastructure]
+
+- facet: topic
+  category: LNG
+  patterns: ['LNG', 'liquefied natural gas', 'LNG terminals']
+  generic: [LNG, natural , gas, infrastructure]
+
+- facet: topic
+  category: LNG_terminals
+  patterns: ['LNG terminals', 'liquefied natural gas terminals']
+  generic: [LNG, terminals, natural, gas, infrastructure]
+
+- facet: topic
+  category: kerosene
+  patterns: ['kerosene', 'SKO', 'PDS SKO', 'superior kerosene oil']
+  generic: [kerosene, SKO, petroleum, fuel]
+
+- facet: topic
+  category: diesel
+  patterns: ['diesel', 'HSD', 'High Speed Diesel', 'HSD oil']
+  generic: [diesel, HSD, petroleum, fuel]
+
+- facet: topic
+  category: LDO
+  patterns: ['LDO', 'Light Diesel Oil']
+  generic: [LDO, diesel, petroleum, fuel]
+
+- facet: topic
+  category: petrol
+  patterns: ['petrol', 'MS', 'Motor Spirit', 'MS (Petrol)']
+  generic: [petrol, motor, spirit, petroleum, fuel]
+
+- facet: topic
+  category: furnace_oil
+  patterns: ['Furnace Oil', 'furnace oil']
+  generic: [furnace, oil, petroleum, fuel, consumption]
+
+- facet: topic
+  category: naphtha
+  patterns: ['naphtha']
+  generic: [naphtha, petroleum, fuel, consumption]
+
+- facet: topic
+  category: aviation_turbine_fuel
+  patterns: ['Aviation Turbine Fuel', 'ATF']
+  generic: [ATF, aviation fuel, petroleum, fuel]
+
+- facet: topic
+  category: LSHS
+  patterns: ['LSHS', 'Low Sulphur Heavy Stock', 'HHS']
+  generic: [LSHS, fuel, petroleum, consumption]
+
+- facet: topic
+  category: ethanol
+  patterns: ['ethanol', 'ethanol blended petrol', 'ethanol blending']
+  generic: [ethanol, petrol, biofuel, blending]
+
+- facet: topic
+  category: ethanol_blending
+  patterns: ['ethanol blending', 'Ethanol Blending Programme', 'ethanol blended with petrol']
+  generic: [ethanol, blending, petrol, biofuel]
+
+- facet: topic
+  category: biodiesel
+  patterns: ['biodiesel', 'biodiesel blended with diesel']
+  generic: [biodiesel, diesel, biofuel, blending]
+
+- facet: topic
+  category: biofuels
+  patterns: ['biofuels', 'biofuel', 'biofuels blended petrol', 'biofuels blended diesel']
+  generic: [biofuel, ethanol, biodiesel, fuel]
+
+- facet: topic
+  category: CBG
+  patterns: ['CBG', 'Compressed Bio Gas', 'compressed biogas']
+  generic: [CBG, biogas, biofuel, gas]
+
+- facet: topic
+  category: green_fuels
+  patterns: ['green fuels', 'green fuel', 'clean fuels']
+  generic: [green, fuel, biofuel, energy, fuel]
+
+- facet: topic
+  category: petroleum_prices
+  patterns: ['petroleum prices', 'petroleum product prices', 'fuel prices']
+  generic: [prices, petroleum, fuel, market]
+
+- facet: topic
+  category: crude_oil_prices
+  patterns: ['crude oil prices', 'international crude oil prices', 'weighted average crude oil prices']
+  generic: [crude, oil, prices, petroleum, market]
+
+- facet: topic
+  category: natural_gas_prices
+  patterns: ['natural gas prices', 'consumer prices of natural gas', 'producer prices of natural gas']
+  generic: [natural, prices, gas, market]
+
+- facet: topic
+  category: retail_prices
+  patterns: ['retail selling prices', 'retail prices', 'retail price']
+  generic: [retail, prices, petroleum, fuel]
+
+- facet: topic
+  category: wholesale_prices
+  patterns: ['Wholesale Price Index', 'Wholesale Price Indices', 'wholesale prices']
+  generic: [wholesale, prices, petroleum, index]
+
+- facet: topic
+  category: price_index
+  patterns: ['price index', 'petroleum crude price index', 'Wholesale Price Index']
+  generic: [price, index, petroleum, market]
+
+- facet: topic
+  category: trade
+  patterns: ['trade', 'trade balance', 'international trade']
+  generic: [trade, petroleum, imports, exports]
+
+- facet: topic
+  category: imports
+  patterns: ['imports', 'import', 'import of crude oil', 'import of petroleum products']
+  generic: [imports, petroleum, trade, energy]
+
+- facet: topic
+  category: exports
+  patterns: ['exports', 'export', 'export of crude oil', 'export of petroleum products']
+  generic: [exports, petroleum, trade, energy]
+
+- facet: topic
+  category: import_dependency
+  patterns: ['import dependency', 'import dependence', 'import reliance']
+  generic: [imports, dependency, petroleum, energy]
+
+- facet: topic
+  category: OPEC
+  patterns: ['OPEC', 'OPEC countries', 'OPEC nations', 'OPEC member countries']
+  generic: [OPEC, oil, petroleum, trade]
+
+- facet: topic
+  category: energy_security
+  patterns: ['energy security', 'energy supply security', 'import reliance']
+  generic: [energy, security, petroleum, supply]
+
+- facet: topic
+  category: subsidy
+  patterns: ['subsidy', 'petroleum subsidy', 'fuel subsidy', 'subsidies']
+  generic: [subsidy, petroleum, government, fuel]
+
+- facet: topic
+  category: PMUY
+  patterns: ['PMUY', 'Pradhan Mantri Ujjwala Yojana', 'Ujjwala']
+  generic: [PMUY, LPG, subsidy, consumers]
+
+- facet: topic
+  category: DBTL
+  patterns: ['DBTL', 'Direct Benefit Transfer for LPG', 'subsidy transfer']
+  generic: [DBTL, LPG, subsidy, beneficiaries]
+
+- facet: topic
+  category: taxation
+  patterns: ['sales tax', 'tax rates', 'tax payments', 'petroleum taxation']
+  generic: [tax, petroleum, revenue, policy]
+
+- facet: topic
+  category: GST
+  patterns: ['GST', 'GST rates', 'GST products']
+  generic: [GST, taxation, petroleum, products]
+
+- facet: topic
+  category: excise_duty
+  patterns: ['Central Excise', 'excise duty', 'excise duties']
+  generic: [excise, tax, petroleum, duty]
+
+- facet: topic
+  category: customs_duty
+  patterns: ['Customs', 'customs duty', 'customs duties', 'customs tariff']
+  generic: [customs, tariff, petroleum, imports]
+
+- facet: topic
+  category: tariff
+  patterns: ['tariff', 'tariff rates', 'Central Excise and Customs Tariff']
+  generic: [tariff, duty, taxation, petroleum]
+
+- facet: topic
+  category: royalty
+  patterns: ['royalty', 'royalty paid by oil companies']
+  generic: [royalty, petroleum, oil companies, revenue]
+
+- facet: topic
+  category: oil_development_cess
+  patterns: ['Oil Development Cess', 'oil development cess']
+  generic: [cess, petroleum, oil, revenue]
+
+- facet: topic
+  category: manpower
+  patterns: ['manpower', 'employment', 'manpower employed', 'workforce']
+  generic: [manpower, employment, petroleum, workforce]
+
+- facet: topic
+  category: CPSE
+  patterns: ['CPSE', 'CPSEs', 'Central Public Sector Enterprises']
+  generic: [CPSE, public sector, petroleum, government]
+
+- facet: topic
+  category: PSU
+  patterns: ['PSU', 'PSUs', 'Public Sector Undertakings']
+  generic: [PSU, public sector, petroleum, government]
+
+- facet: topic
+  category: performance
+  patterns: ['performance', 'sector performance', 'CPSE performance']
+  generic: [performance, petroleum, CPSE, industry]
+
+- facet: topic
+  category: expenditure
+  patterns: ['expenditure', 'actual expenditure', 'budget expenditure']
+  generic: [expenditure, budget, petroleum, government]
+
+- facet: topic
+  category: budget
+  patterns: ['budget', 'budget outlay', 'outlay', 'government budget']
+  generic: [budget, expenditure, petroleum, government]
+
+- facet: topic
+  category: investment
+  patterns: ['investment', 'investment analysis', 'FDI', 'foreign direct investment']
+  generic: [investment, FDI, petroleum, industry]
+
+- facet: topic
+  category: energy
+  patterns: ['energy', 'energy sector', 'petroleum energy', 'primary energy']
+  generic: [energy, petroleum, fuel, oil]
+
+- facet: topic
+  category: primary_energy
+  patterns: ['primary energy', 'primary energy consumption', 'energy consumption by fuel']
+  generic: [energy, fuel, consumption, petroleum]
+
+- facet: topic
+  category: energy_statistics
+  patterns: ['energy statistics', 'energy indicators', 'energy trends']
+  generic: [energy, trends, petroleum, indicators]
+
+- facet: topic
+  category: energy_supply
+  patterns: ['energy supply', 'fuel supply', 'petroleum supply']
+  generic: [energy, supply, petroleum, fuel]
+
+- facet: topic
+  category: distribution
+  patterns: ['distribution', 'petroleum distribution', 'fuel distribution', 'distribution network']
+  generic: [distribution, petroleum, fuel, network]
+
+- facet: topic
+  category: retail_outlets
+  patterns: ['retail outlets', 'retail outlet', 'petroleum retail outlets']
+  generic: [retail, outlets, petroleum, distribution]
+
+- facet: topic
+  category: dealerships
+  patterns: ['dealerships', 'SKO/LDO dealerships', 'LDO dealers', 'SKO dealers']
+  generic: [dealership, petroleum, distribution, retail]
+
+- facet: topic
+  category: supply_chain
+  patterns: ['supply chain', 'petroleum supply chain', 'fuel supply']
+  generic: [supply, petroleum, logistics, distribution]
+
+- facet: topic
+  category: infrastructure
+  patterns: ['infrastructure', 'energy infrastructure', 'petroleum infrastructure']
+  generic: [infrastructure, petroleum, energy, pipelines]
+
+- facet: topic
+  category: capacity
+  patterns: ['capacity', 'installed capacity', 'production capacity', 'refining capacity']
+  generic: [capacity, production, petroleum, infrastructure]
+
+- facet: topic
+  category: demand
+  patterns: ['demand', 'energy demand', 'fuel demand', 'petroleum demand']
+  generic: [demand, energy, petroleum, consumption]
+
+- facet: topic
+  category: manpower_gender
+  patterns: ['gender-wise manpower', 'gender-wise employment', 'manpower by gender']
+  generic: [manpower, gender, employment, CPSE]
+
+- facet: topic
+  category: manpower_category
+  patterns: ['category-wise manpower', 'manpower by category']
+  generic: [manpower, category, employment, CPSE]
+
+- facet: topic
+  category: state_wise
+  patterns: ['state-wise', 'state wise', 'State/UT-wise', 'State/UT and Company-wise']
+  generic: [state, petroleum, geography, distribution]
+
+- facet: topic
+  category: company_wise
+  patterns: ['company-wise', 'company wise', 'by company']
+  generic: [company, petroleum, industry, production]
+
+- facet: topic
+  category: sector_wise
+  patterns: ['sector-wise', 'sector wise', 'by sector']
+  generic: [sector, petroleum, consumption, industry]
+
+- facet: topic
+  category: field_wise
+  patterns: ['field-wise', 'field wise', 'by field']
+  generic: [field, oil, gas, production]
+
+- facet: topic
+  category: refinery_wise
+  patterns: ['refinery-wise', 'refinery wise', 'by refinery']
+  generic: [refinery, petroleum, production, processing]
+
+- facet: topic
+  category: country_wise
+  patterns: ['country-wise', 'country wise', 'by country']
+  generic: [country, petroleum, energy, trade]
+
+- facet: topic
+  category: international
+  patterns: ['international', 'international petroleum', 'world petroleum', 'global energy']
+  generic: [international, petroleum, energy, global]
+
+- facet: topic
+  category: world_energy
+  patterns: ['world energy', 'world oil', 'world natural gas', 'global energy']
+  generic: [world, energy, oil, gas]
+
+- facet: topic
+  category: oil_consumption
+  patterns: ['oil consumption', 'world oil consumption']
+  generic: [oil, consumption, energy, demand]
+
+- facet: topic
+  category: oil_production
+  patterns: ['oil production', 'world oil production']
+  generic: [oil, production, energy, petroleum]
+
+- facet: topic
+  category: gas_consumption
+  patterns: ['natural gas consumption', 'world natural gas consumption']
+  generic: [natural, gas, consumption, energy, demand]
+
+- facet: topic
+  category: gas_production
+  patterns: ['natural gas production', 'world natural gas production']
+  generic: [natural , production, energy, gas]
+
+- facet: topic
+  category: oil_reserves
+  patterns: ['oil reserves', 'proven oil reserves', 'world proven oil reserves']
+  generic: [oil, reserves, petroleum, resources]
+
+- facet: topic
+  category: gas_reserves
+  patterns: ['natural gas reserves', 'proven natural gas reserves', 'world proven natural gas reserves']
+  generic: [natural , reserves, gas, resources]
+
+- facet: topic
+  category: refining_throughput
+  patterns: ['refinery throughput', 'crude throughput', 'refinery crude throughput']
+  generic: [refinery, throughput, crude, oil, processing]
+
+- facet: topic
+  category: trade_balance
+  patterns: ['trade balance', 'overall trade balance', 'OPEC trade balance']
+  generic: [trade, balance, petroleum, exports]
+
+- facet: topic
+  category: economic_indicators
+  patterns: ['economic indicators', 'economy indicators', 'Indian economy indicators']
+  generic: [economy, indicators, petroleum, statistics]
+
+- facet: topic
+  category: FDI
+  patterns: ['FDI', 'Foreign Direct Investment', 'foreign direct investment equity inflows']
+  generic: [FDI, investment, petroleum, economy]
+
+- facet: topic
+  category: planning
+  patterns: ['energy planning', 'sector planning', 'petroleum planning', 'planning']
+  generic: [planning, energy, petroleum, policy]
+
+- facet: topic
+  category: policy
+  patterns: ['policy', 'policy planning', 'policy analysis', 'policy monitoring']
+  generic: [policy, petroleum, energy, government]
+
+- facet: topic
+  category: regulation
+  patterns: ['regulation', 'regulatory', 'regulatory monitoring', 'compliance']
+  generic: [regulation, petroleum, compliance, policy]
+
+- facet: topic
+  category: statistics
+  patterns: ['statistics', 'petroleum statistics', 'international petroleum statistics']
+  generic: [ petroleum, energy, indicators]
+
+- facet: topic
+  category: petroleum_exploration_licensing
+  patterns: ['exploration contracts', 'exploration licensing', 'NELP', 'contract areas']
+  generic: [exploration, licensing, petroleum, contracts]
+
+- facet: topic
+  category: NELP
+  patterns: ['NELP', 'New Exploration Licensing Policy']
+  generic: [NELP, exploration, licensing, petroleum]
+
+- facet: topic
+  category: discovered_small_fields
+  patterns: ['Discovered Small Field', 'Discovered Small Fields', 'DSF']
+  generic: [DSF, exploration, petroleum, fields]
+
+- facet: topic
+  category: oil_marketing
+  patterns: ['oil marketing', 'oil marketing companies', 'OMCs']
+  generic: [marketing, oil, petroleum, companies]
+
+- facet: topic
+  category: fuel_blending
+  patterns: ['fuel blending', 'blended fuel', 'blended petrol', 'blended diesel']
+  generic: [blending, fuel, ethanol, biodiesel]
+
+- facet: topic
+  category: green_energy
+  patterns: ['green fuels', 'biofuels', 'clean fuels']
+  generic: [green, fuel, biofuel, energy]
+
+- facet: acronym
+  category: MoPNG
+  patterns: ['MoPNG', 'Ministry of Petroleum and Natural Gas']
+  generic: [MoPNG, petroleum, natural, gas]
+
+- facet: acronym
+  category: PPAC
+  patterns: ['PPAC', 'Petroleum Planning & Analysis Cell', 'Petroleum Planning and Analysis Cell']
+  generic: [PPAC, petroleum, planning, statistics]
+
+- facet: acronym
+  category: ONGC
+  patterns: ['ONGC', 'Oil & Natural Gas Corporation', 'Oil and Natural Gas Corporation']
+  generic: [ONGC, oil, natural, gas, production]
+
+- facet: acronym
+  category: OIL
+  patterns: ['OIL', 'Oil India Limited', 'Oil India Ltd']
+  generic: [OIL, petroleum, oil, production]
+
+- facet: acronym
+  category: DGH
+  patterns: ['DGH', 'Directorate General of Hydrocarbons']
+  generic: [DGH, hydrocarbons, exploration, petroleum]
+
+- facet: acronym
+  category: OPEC
+  patterns: ['OPEC', 'Organization of the Petroleum Exporting Countries']
+  generic: [OPEC, oil, petroleum, trade]
+
+- facet: acronym
+  category: CPSE
+  patterns: ['CPSE', 'CPSEs', 'Central Public Sector Enterprises']
+  generic: [CPSE, public sector, petroleum, government]
+
+- facet: acronym
+  category: LPG
+  patterns: ['LPG', 'Liquefied Petroleum Gas']
+  generic: [LPG, gas, petroleum, fuel]
+
+- facet: acronym
+  category: CNG
+  patterns: ['CNG', 'Compressed Natural Gas']
+  generic: [CNG, natural, gas, fuel, gas]
+
+- facet: acronym
+  category: LNG
+  patterns: ['LNG', 'Liquefied Natural Gas']
+  generic: [LNG, natural, gas, gas, fuel]
+
+- facet: acronym
+  category: PNG
+  patterns: ['PNG', 'Piped Natural Gas']
+  generic: [PNG, natural , gas, infrastructure]
+
+- facet: acronym
+  category: PMUY
+  patterns: ['PMUY', 'Pradhan Mantri Ujjwala Yojana']
+  generic: [PMUY, LPG, subsidy, consumers]
+
+- facet: acronym
+  category: DBTL
+  patterns: ['DBTL', 'Direct Benefit Transfer for LPG']
+  generic: [DBTL, LPG, subsidy, beneficiaries]
+
+- facet: acronym
+  category: NELP
+  patterns: ['NELP', 'New Exploration Licensing Policy']
+  generic: [NELP, exploration, licensing, petroleum]
+
+- facet: acronym
+  category: CBG
+  patterns: ['CBG', 'Compressed Bio Gas', 'Compressed Biogas']
+  generic: [CBG, biogas, biofuel, gas]
+
+- facet: acronym
+  category: HSD
+  patterns: ['HSD', 'High Speed Diesel']
+  generic: [HSD, diesel, petroleum, fuel]
+
+- facet: acronym
+  category: LDO
+  patterns: ['LDO', 'Light Diesel Oil']
+  generic: [LDO, diesel, petroleum, fuel]
+
+- facet: acronym
+  category: SKO
+  patterns: ['SKO', 'Superior Kerosene Oil']
+  generic: [SKO, kerosene, petroleum, fuel]
+
+- facet: acronym
+  category: ATF
+  patterns: ['ATF', 'Aviation Turbine Fuel']
+  generic: [ATF, aviation fuel, petroleum, fuel]
+
+- facet: acronym
+  category: FDI
+  patterns: ['FDI', 'Foreign Direct Investment']
+  generic: [FDI, investment, petroleum, economy]
+
+- facet: acronym
+  category: ESY
+  patterns: ['ESY', 'Ethanol Supply Year']
+  generic: [ESY, ethanol, blending, fuel]

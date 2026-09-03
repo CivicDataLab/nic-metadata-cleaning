@@ -1,0 +1,99 @@
+- facet: topic
+  category: companies
+  patterns: ['company', 'companies', 'company master', 'company data']
+  generic: [companies, corporate, business, registration]
+
+- facet: topic
+  category: active_companies
+  patterns: ['active companies', 'companies at work', 'working companies', 'companies at work']
+  generic: [active, companies, corporate, business]
+
+- facet: topic
+  category: government_companies
+  patterns: ['government companies', 'government company', 'central government companies']
+  generic: [government, public, companies, corporate]
+
+- facet: topic
+  category: non_government_companies
+  patterns: ['non-government companies', 'non government companies', 'non-govt companies']
+  generic: [private, companies, corporate, business]
+
+- facet: topic
+  category: paid_up_capital
+  patterns: ['paid-up capital', 'paid up capital']
+  generic: [capital, equity, investment, finance]
+
+- facet: topic
+  category: authorised_capital
+  patterns: ['authorised capital', 'authorized capital']
+  generic: [authorised, capital, finance, investment]
+
+- facet: topic
+  category: industrial_activity
+  patterns: ['industrial activity', 'economic activity', 'activity wise', 'activity-wise']
+  generic: [industry, sector, activity, classification]
+
+- facet: topic
+  category: state_distribution
+  patterns: ['state-wise', 'state wise', 'state-wise distribution']
+  generic: [distribution]
+
+- facet: topic
+  category: regional_distribution
+  patterns: ['region-wise', 'region wise', 'regional distribution']
+  generic: [ distribution, regional]
+
+- facet: topic
+  category: registrations
+  patterns: ['registration', 'registered', 'new companies', 'company registration']
+  generic: [registration, incorporation, companies, business]
+
+- facet: topic
+  category: struck_off
+  patterns: ['struck off', 'company struck off']
+  generic: [closure, struck, off, compliance, companies]
+
+- facet: topic
+  category: ceased_working
+  patterns: ['ceased working', 'ceased work']
+  generic: [closure, inactive, companies, business]
+
+- facet: topic
+  category: prosecutions
+  patterns: ['prosecution', 'prosecutions']
+  generic: [prosecution, compliance, legal]
+
+- facet: topic
+  category: registrar_of_companies
+  patterns: ['registrar of companies', 'registrars of companies', 'roc-wise', 'roc wise', 'roc']
+  generic: [roc, registrar, compliance, companies]
+
+- facet: topic
+  category: mca21
+  patterns: ['mca21', 'mca portal', 'ministry of corporate affairs']
+  generic: [mca, portal, corporate, registry]
+
+- facet: topic
+  category: compliance
+  patterns: ['compliance', 'regulatory', 'companies act']
+  generic: [compliance, regulation, governance, legal]
+
+- facet: topic
+  category: corporate_finance
+  patterns: ['corporate finance', 'capital structure', 'capitalisation', 'capitalization']
+  generic: [finance, capital, investment, corporate]
+
+- facet: topic
+  category: corporate_statistics
+  patterns: ['distribution', 'statistics', 'statement', 'counts']
+  generic: [statistics, corporate, analysis, trends]
+
+- facet: topic
+  category: business_activity
+  patterns: ['business activity', 'corporate activity', 'company activity']
+  generic: [business, activity, companies, corporate]
+
+- facet: topic
+  category: share_capital
+  patterns: ['limited by shares', 'shares']
+  generic: [shares, equity, capital, companies]

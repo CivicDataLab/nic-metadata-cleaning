@@ -1,0 +1,179 @@
+- facet: topic
+  category: air_quality
+  patterns: ['air quality', 'ambient air quality', 'aqi', 'national air monitoring programme', 'namp']
+  generic: [air,quality, pollution, ambient,air, AQI]
+
+- facet: topic
+  category: air_pollution
+  patterns: ['air pollution', 'pollution', 'air pollutant']
+  generic: [pollution, emissions, air,quality, AQI]
+
+- facet: topic
+  category: sameer
+  patterns: ['sameer', 'sameer app']
+  generic: [sameer, aqi, air,quality, pollution]
+
+- facet: topic
+  category: water_quality
+  patterns: ['water quality', 'surface water', 'ground water', 'groundwater']
+  generic: [water,quality, water, monitoring, aquatic]
+
+- facet: topic
+  category: water_pollution
+  patterns: ['water pollution', 'polluted water']
+  generic: [pollution, water,quality, aquatic, monitoring]
+
+- facet: topic
+  category: river
+  patterns: ['river', 'rivers']
+  generic: [river, freshwater, basin, aquatic]
+
+- facet: topic
+  category: tributary
+  patterns: ['tributary', 'tributaries', 'tributary stream']
+  generic: [tributary, river, watershed, freshwater]
+
+- facet: topic
+  category: lake
+  patterns: ['lake', 'lakes']
+  generic: [lake, freshwater, aquatic, biodiversity]
+
+- facet: topic
+  category: pond
+  patterns: ['pond', 'ponds', 'tank']
+  generic: [pond, freshwater, aquatic, biodiversity]
+
+- facet: topic
+  category: wetland
+  patterns: ['wetland', 'wetlands']
+  generic: [wetland, aquatic, biodiversity, conservation]
+
+- facet: topic
+  category: ramsar
+  patterns: ['ramsar', 'ramsar site', 'ramsar sites']
+  generic: [ramsar, wetland, conservation, biodiversity]
+
+- facet: topic
+  category: biodiversity
+  patterns: ['biodiversity']
+  generic: [biodiversity, species, flora, fauna]
+
+- facet: topic
+  category: flora
+  patterns: ['flora']
+  generic: [flora, plants, biodiversity, conservation]
+
+- facet: topic
+  category: fauna
+  patterns: ['fauna']
+  generic: [fauna, wildlife, biodiversity, conservation]
+
+- facet: topic
+  category: wildlife
+  patterns: ['wildlife', 'wild animal', 'wild animals']
+  generic: [wildlife, fauna, habitat, conservation]
+
+- facet: topic
+  category: elephant
+  patterns: ['elephant', 'elephants']
+  generic: [elephant, wildlife, conservation, biodiversity]
+
+- facet: topic
+  category: forest
+  patterns: ['forest', 'forests']
+  generic: [forest, forestry, trees, conservation]
+
+- facet: topic
+  category: forestry
+  patterns: ['forestry', 'forestry training']
+  generic: [forestry, forest, training ]
+
+- facet: topic
+  category: plantation
+  patterns: ['plantation', 'plantations']
+  generic: [plantation, afforestation, forest  ]
+
+- facet: topic
+  category: green_india
+  patterns: ['green india mission', 'gim']
+  generic: [green,india, afforestation,GIM , mission]
+
+- facet: topic
+  category: eco_task_force
+  patterns: ['eco task force']
+  generic: [eco,taskforce, afforestation, ETF, conservation]
+
+- facet: topic
+  category: springs
+  patterns: ['spring', 'springs']
+  generic: [springs, groundwater, watershed, hydrology]
+
+- facet: topic
+  category: groundwater
+  patterns: ['ground water', 'groundwater']
+  generic: [groundwater, aquifer, recharge, hydrology]
+
+- facet: topic
+  category: environment
+  patterns: ['environment', 'environmental']
+  generic: [environment, ecology, conservation]
+
+- facet: topic
+  category: ecology
+  patterns: ['ecology', 'ecological']
+  generic: [ecology, ecosystem, biodiversity, conservation]
+
+- facet: topic
+  category: environmental_clearance
+  patterns: ['environmental clearance', 'environment clearance']
+  generic: [clearance, approval, environment, compliance]
+
+- facet: topic
+  category: pollution_index
+  patterns: ['cepi', 'comprehensive environmental pollution index']
+  generic: [cepi, pollution, compliance, monitoring]
+
+- facet: topic
+  category: monitoring
+  patterns: ['monitoring', 'monitor']
+  generic: [monitoring, assessment, environment, reporting]
+
+- facet: topic
+  category: cpcb
+  patterns: ['central pollution control board', 'cpcb']
+  generic: [cpcb, monitoring, pollution, environment]
+
+- facet: topic
+  category: minars
+  patterns: ['minars']
+  generic: [minars, water,quality, monitoring, aquatic]
+
+- facet: topic
+  category: namp
+  patterns: ['namp', 'national air monitoring programme']
+  generic: [namp, air,quality, monitoring, pollution]
+
+- facet: topic
+  category: aqi
+  patterns: ['aqi', 'air quality index']
+  generic: [aqi, air,quality, pollution, monitoring]
+
+- facet: topic
+  category: indian_himalayan_region
+  patterns: ['indian himalayan region', 'ihr']
+  generic: [ihr, himalaya, mountain, ecosystem]
+
+- facet: topic
+  category: climate
+  patterns: ['climate', 'climate monitoring', 'climatology', 'climate trend']
+  generic: [climate, monitoring, trends, environment]
+
+- facet: topic
+  category: climatology
+  patterns: ['climatology', 'climatological']
+  generic: [climatology, climate, weather, temperature]
+
+- facet: topic
+  category: meteorology
+  patterns: ['meteorology', 'meteorological', 'meteorological subdivision']
+  generic: [meteorology, weather, atmosphere, climate]

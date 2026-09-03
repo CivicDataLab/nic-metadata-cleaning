@@ -1,0 +1,149 @@
+- facet: topic
+  category: mandi_prices
+  patterns: ['mandi prices', 'market prices', 'commodity prices', 'agmarknet']
+  generic: [mandi, prices, commodities, market]
+
+- facet: topic
+  category: crop_production
+  patterns: ['crop production', 'production statistics', 'crop output', 'season wise crop production']
+  generic: [production, crops, agriculture, yield]
+
+- facet: topic
+  category: crop_varieties
+  patterns: ['crop varieties', 'field crop varieties', 'varieties released', 'varieties notified']
+  generic: [varieties, crops, agriculture, seeds]
+
+- facet: topic
+  category: horticulture
+  patterns: ['horticulture', 'horticultural crops', 'horticultural varieties']
+  generic: [horticulture, crops, varieties, cultivation]
+
+- facet: topic
+  category: seed_production
+  patterns: ['breeder seeds', 'seed production', 'seed indent', 'seed varieties']
+  generic: [seeds, breeder, production, varieties]
+
+- facet: topic
+  category: land_use_statistics
+  patterns: ['land use statistics', 'lus', 'land use']
+  generic: [land, use, agriculture, statistics]
+
+- facet: topic
+  category: irrigated_area
+  patterns: ['irrigated area', 'crop wise irrigated area', 'source wise irrigated area']
+  generic: [irrigation, area, water, crops]
+
+- facet: topic
+  category: irrigation
+  patterns: ['drip irrigation', 'traditional irrigation', 'irrigation']
+  generic: [irrigation, water, efficiency, agriculture]
+
+- facet: topic
+  category: water_productivity
+  patterns: ['water productivity', 'nutritional water productivity']
+  generic: [water, productivity, nutrition, efficiency]
+
+- facet: topic
+  category: land_holdings
+  patterns: ['operational holdings', 'average holding size', 'operated area', 'holding size']
+  generic: [holdings, land, agriculture, census]
+
+- facet: topic
+  category: agriculture_census
+  patterns: ['agriculture census', 'agricultural census']
+  generic: [census, agriculture, holdings, land]
+
+- facet: topic
+  category: social_groups
+  patterns: ['scheduled castes', 'scheduled tribes', 'all social groups']
+  generic: [social, groups, holdings, census]
+
+- facet: topic
+  category: agricultural_research
+  patterns: ['agricultural research', 'research projects', 'research institutes']
+  generic: [research, agriculture, innovation, development]
+
+- facet: topic
+  category: icar
+  patterns: ['icar', 'indian council of agricultural research']
+  generic: [icar, research, institute, agriculture]
+
+- facet: topic
+  category: icar_institutes
+  patterns: ['icar institutes', 'icar institute', 'regional stations']
+  generic: [icar, institutes, research, directory]
+
+- facet: topic
+  category: technology_repository
+  patterns: ['technology repository', 'technology database', 'technology catalogue']
+  generic: [technology, repository, innovation, agriculture]
+
+- facet: topic
+  category: publication_repository
+  patterns: ['publication repository', 'publications', 'research publications']
+  generic: [publications, repository, research, documents]
+
+- facet: topic
+  category: research_projects
+  patterns: ['all india coordinated research project', 'research project']
+  generic: [projects, research, coordination, agriculture]
+
+- facet: topic
+  category: soil_classification
+  patterns: ['soil order', 'soil classification', 'soil taxonomy', 'soil group']
+  generic: [soil, classification, land, agriculture]
+
+- facet: topic
+  category: agro_ecology
+  patterns: ['agro ecological', 'agro ecological regions', 'agro ecological zoning']
+  generic: [agroecology, regions, zoning, agriculture]
+
+- facet: topic
+  category: mechanization
+  patterns: ['farm machinery', 'agricultural engineering', 'mechanization']
+  generic: [machinery, mechanization, equipment, agriculture]
+
+- facet: topic
+  category: machinery_safety
+  patterns: ['machinery accidents', 'farm accidents', 'ergonomics and safety']
+  generic: [safety, machinery, accidents, ergonomics]
+
+- facet: topic
+  category: cold_storage
+  patterns: ['cold storage', 'cold storages', 'cold chain']
+  generic: [storage, coldchain, infrastructure, agriculture]
+
+- facet: topic
+  category: renewable_energy
+  patterns: ['renewable energy', 'renewable power', 'off grid', 'solar photovoltaic']
+  generic: [renewable, energy, solar, power]
+
+- facet: topic
+  category: pump_sets
+  patterns: ['pump sets', 'energized pump sets', 'pumpset']
+  generic: [pumps, irrigation, energy, agriculture]
+
+- facet: topic
+  category: lac
+  patterns: ['lac', 'natural resins', 'gums', 'lac processing']
+  generic: [lac, resin, gums, trade]
+
+- facet: topic
+  category: exports_imports
+  patterns: ['exports', 'imports', 'export import', 'trade statistics']
+  generic: [exports, imports, trade, commerce]
+
+- facet: topic
+  category: budget
+  patterns: ['budget estimate', 'financial outlay', 'budget', 'expenditure']
+  generic: [budget, finance, expenditure, allocation]
+
+- facet: topic
+  category: agricultural_universities
+  patterns: ['state agricultural universities', 'sau']
+  generic: [universities, education, agriculture, finance]
+
+- facet: topic
+  category: commodity_prices
+  patterns: ['commodity', 'commodities']
+  generic: [commodities, prices, market, agriculture]

@@ -1,0 +1,379 @@
+# - facet: topic
+#   category: domestic_air_traffic
+#   patterns: ['domestic air traffic', 'domestic traffic', 'domestic aviation', 'internal air traffic']
+#   generic: [domestic, traffic, aviation, passenger]
+
+# - facet: topic
+#   category: international_air_traffic
+#   patterns: ['international air traffic', 'international aviation', 'international flights', 'air traffic to and from india']
+#   generic: [international, traffic, aviation, passenger]
+
+# - facet: topic
+#   category: airport_traffic
+#   patterns: ['airport traffic', 'air traffic handled', 'airport movements', 'airport statistics']
+#   generic: [airport, traffic, passenger, freight]
+
+# - facet: topic
+#   category: aircraft_movements
+#   patterns: ['aircraft movement', 'flight movement', 'landing', 'take off']
+#   generic: [aircraft, flight, airport]
+
+# - facet: topic
+#   category: passenger_traffic
+#   patterns: ['passenger traffic', 'passengers carried', 'air passengers']
+#   generic: [passenger, traffic, aviation]
+
+# - facet: topic
+#   category: cargo_traffic
+#   patterns: ['cargo traffic', 'air cargo', 'freight traffic', 'cargo movement']
+#   generic: [cargo, freight, logistics, aviation]
+
+# - facet: topic
+#   category: freight
+#   patterns: ['freight', 'air freight', 'cargo freight']
+#   generic: [freight, cargo, logistics, transport]
+
+# - facet: topic
+#   category: scheduled_airlines
+#   patterns: ['scheduled airlines', 'scheduled indian airlines', 'scheduled carriers']
+#   generic: [scheduled, airline, carrier, aviation]
+
+# - facet: topic
+#   category: airline_performance
+#   patterns: ['performance indicators', 'operating traffic statistics', 'operational performance']
+#   generic: [ airline, operations, statistics]
+
+# - facet: topic
+#   category: operating_statistics
+#   patterns: ['operating statistics', 'operating traffic', 'traffic statistics']
+#   generic: [operations, traffic, statistics, aviation]
+
+# - facet: topic
+#   category: fleet_strength
+#   patterns: ['fleet strength', 'aircraft fleet', 'fleet size']
+#   generic: [fleet, aircraft, capacity, airline]
+
+# - facet: topic
+#   category: fleet_utilisation
+#   patterns: ['fleet utilisation', 'aircraft utilisation', 'fleet utilization']
+#   generic: [utilisation, aircraft, fleet, capacity]
+
+# - facet: topic
+#   category: aircraft_type
+#   patterns: ['type of aircraft', 'aircraft type', 'fleet by aircraft type']
+#   generic: [aircraft, fleet, type, model]
+
+# - facet: topic
+#   category: fleet_statistics
+#   patterns: ['fleet statistics', 'aircraft statistics', 'fleet composition']
+#   generic: [fleet, statistics, aircraft, aviation]
+
+# - facet: topic
+#   category: personnel_statistics
+#   patterns: ['personnel statistics', 'personnel', 'employee statistics']
+#   generic: [personnel, workforce, employee, airline]
+
+# - facet: topic
+#   category: staff_strength
+#   patterns: ['staff strength', 'employee strength', 'staff']
+#   generic: [staff, workforce, employee, manpower]
+
+# - facet: topic
+#   category: employee_productivity
+#   patterns: ['employee productivity', 'employees productivity', 'workforce productivity']
+#   generic: [productivity, employee, workforce, performance]
+
+# - facet: topic
+#   category: workforce
+#   patterns: ['workforce', 'manpower', 'human resource', 'staffing']
+#   generic: [workforce, manpower, staff, personnel]
+
+# - facet: topic
+#   category: aviation_capacity
+#   patterns: ['capacity', 'airline capacity', 'aviation capacity']
+#   generic: [capacity, airline, aircraft, aviation]
+
+# - facet: topic
+#   category: civil_aviation
+#   patterns: ['civil aviation', 'ministry of civil aviation', 'aviation']
+#   generic: [aviation, airline, airport, aircraft]
+
+# - facet: topic
+#   category: airport
+#   patterns: ['airport', 'airports', 'indian airports']
+#   generic: [airport, aviation, terminal, flight]
+
+# - facet: topic
+#   category: airline
+#   patterns: ['airline', 'carrier', 'air operator']
+#   generic: [airline, carrier, aviation, operator]
+
+# - facet: topic
+#   category: air_india
+#   patterns: ['air india']
+#   generic: [airindia, airline, aviation, carrier]
+
+# - facet: topic
+#   category: air_india_express
+#   patterns: ['air india express']
+#   generic: [airindiaexpress, airline, aviation, carrier]
+
+# - facet: topic
+#   category: alliance_air
+#   patterns: ['alliance air']
+#   generic: [allianceair, airline, aviation, carrier]
+
+# - facet: topic
+#   category: indigo
+#   patterns: ['indigo']
+#   generic: [indigo, airline, aviation, carrier]
+
+# - facet: topic
+#   category: spicejet
+#   patterns: ['spicejet']
+#   generic: [spicejet, airline, aviation, carrier]
+
+# - facet: topic
+#   category: go_air
+#   patterns: ['go air', 'goair']
+#   generic: [go,air, airline, aviation, carrier]
+
+# - facet: topic
+#   category: jet_airways
+#   patterns: ['jet airways']
+#   generic: [jet,airways, airline, aviation, carrier]
+
+# - facet: topic
+#   category: jetlite
+#   patterns: ['jetlite']
+#   generic: [jet,lite, airline, aviation, carrier]
+
+# - facet: topic
+#   category: vistara
+#   patterns: ['vistara']
+#   generic: [vistara, airline, aviation, carrier]
+
+# - facet: topic
+#   category: air_asia
+#   patterns: ['air asia', 'airasia']
+#   generic: [air,asia, airline, aviation, carrier]
+
+# - facet: topic
+#   category: air_costa
+#   patterns: ['air costa']
+#   generic: [air,costa, airline, aviation, carrier]
+
+# - facet: topic
+#   category: air_pegasus
+#   patterns: ['air pegasus']
+#   generic: [air,pegasus, airline, aviation, carrier]
+
+# - facet: topic
+#   category: blue_dart
+#   patterns: ['blue dart']
+#   generic: [bluedart, cargo, airline, logistics]
+
+# - facet: topic
+#   category: trujet
+#   patterns: ['trujet']
+#   generic: [trujet, airline, aviation, carrier]
+
+# - facet: topic
+#   category: national_airlines
+#   patterns: ['scheduled national airlines', 'national airlines']
+#   generic: [national, airline, aviation, carrier]
+
+# - facet: topic
+#   category: private_airlines
+#   patterns: ['scheduled private airlines', 'private airlines']
+#   generic: [airline, aviation, carrier]
+
+- facet: topic
+  category: domestic_air_traffic
+  patterns: ['domestic air traffic', 'domestic traffic', 'domestic aviation', 'internal air traffic', 'domestic scheduled services', 'scheduled domestic services', 'domestic services traffic']
+  generic: [domestic, traffic, aviation, passenger]
+
+- facet: topic
+  category: international_air_traffic
+  patterns: ['international air traffic', 'international aviation', 'international flights', 'air traffic to and from india', 'international traffic carried to and from india']
+  generic: [international, traffic, aviation, passenger]
+
+- facet: topic
+  category: airport_traffic
+  patterns: ['airport traffic', 'air traffic handled', 'airport movements', 'airport statistics']
+  generic: [airport, traffic, passenger, freight]
+
+- facet: topic
+  category: aircraft_movements
+  patterns: ['aircraft movement', 'flight movement', 'landing', 'take off']
+  generic: [aircraft, flight, airport]
+
+- facet: topic
+  category: passenger_traffic
+  patterns: ['passenger traffic', 'passengers carried', 'air passengers', 'passenger-kilometres', 'passenger kilometres performed', 'revenue passenger kilometre']
+  generic: [passenger, traffic, aviation]
+
+- facet: topic
+  category: cargo_traffic
+  patterns: ['cargo traffic', 'air cargo', 'freight traffic', 'cargo movement', 'cargo operations', 'cargo services']
+  generic: [cargo, freight, logistics, aviation]
+
+- facet: topic
+  category: freight
+  patterns: ['freight', 'air freight', 'cargo freight']
+  generic: [freight, cargo, logistics, transport]
+
+- facet: topic
+  category: scheduled_airlines
+  patterns: ['scheduled airlines', 'scheduled indian airlines', 'scheduled carriers', 'scheduled services', 'total scheduled services', 'domestic scheduled services', 'scheduled commercial traffic']
+  generic: [scheduled, airline, carrier, aviation]
+
+- facet: topic
+  category: airline_performance
+  patterns: ['performance indicators', 'operating traffic statistics', 'operational performance', 'comparative statement of traffic', 'traffic coefficients', 'percentage growth', 'operating revenue', 'operating expenses', 'revenue passenger kilometre']
+  generic: [airline, operations, statistics]
+
+- facet: topic
+  category: operating_statistics
+  patterns: ['operating statistics', 'operating traffic', 'traffic statistics', 'monthly traffic and operating statistics', 'annual traffic and operating statistics', 'year-wise traffic and operating statistics']
+  generic: [operations, traffic, statistics, aviation]
+
+- facet: topic
+  category: non_scheduled_operations
+  patterns: ['non-scheduled operations', 'non scheduled operations', 'non-scheduled services', 'non scheduled services']
+  generic: [non-scheduled, operations, aviation, helicopter]
+
+- facet: topic
+  category: charter_flights
+  patterns: ['charter flights', 'charter operations', 'charter services']
+  generic: [charter, flights, tourism, aviation]
+
+- facet: topic
+  category: flight_schedule
+  patterns: ['flight schedule', 'half-yearly flight schedule', 'flight schedules']
+  generic: [schedule, flights, aviation, timetable]
+
+- facet: topic
+  category: operating_revenue
+  patterns: ['operating revenue', 'operating expenses', 'operating revenue and operating expenses', 'operating revenue and expenses', 'revenue passenger kilometre']
+  generic: [revenue, expenses, finance, operations]
+
+- facet: topic
+  category: traffic_coefficients
+  patterns: ['traffic coefficients', 'selected traffic coefficients']
+  generic: [coefficients, traffic, performance, aviation]
+
+- facet: topic
+  category: traffic_growth
+  patterns: ['percentage growth', 'yearly percentage growth', 'traffic growth']
+  generic: [ traffic, trends, aviation]
+
+- facet: topic
+  category: airline
+  patterns: ['airline', 'carrier', 'air operator']
+  generic: [airline, carrier, aviation, operator]
+
+- facet: topic
+  category: air_india
+  patterns: ['air india']
+  generic: [airindia, airline, aviation, carrier]
+
+- facet: topic
+  category: air_india_express
+  patterns: ['air india express']
+  generic: [airindia, airline, aviation, carrier]
+
+- facet: topic
+  category: alliance_air
+  patterns: ['alliance air']
+  generic: [alliance,air, airline, aviation, carrier]
+
+- facet: topic
+  category: indigo
+  patterns: ['indigo']
+  generic: [indigo, airline, aviation, carrier]
+
+- facet: topic
+  category: spicejet
+  patterns: ['spicejet']
+  generic: [spicejet, airline, aviation, carrier]
+
+- facet: topic
+  category: go_air
+  patterns: ['go air', 'goair']
+  generic: [go,air, airline, aviation, carrier]
+
+- facet: topic
+  category: jet_airways
+  patterns: ['jet airways']
+  generic: [jet, airways, airline, aviation, carrier]
+
+- facet: topic
+  category: jetlite
+  patterns: ['jetlite']
+  generic: [jetlite, airline, aviation, carrier]
+
+- facet: topic
+  category: vistara
+  patterns: ['vistara']
+  generic: [vistara, airline, aviation, carrier]
+
+- facet: topic
+  category: air_asia
+  patterns: ['air asia', 'airasia']
+  generic: [air,asia, airline, aviation, carrier]
+
+- facet: topic
+  category: air_costa
+  patterns: ['air costa']
+  generic: [air,costa, airline, aviation, carrier]
+
+- facet: topic
+  category: air_pegasus
+  patterns: ['air pegasus']
+  generic: [air, pegasus, airline, aviation, carrier]
+
+- facet: topic
+  category: blue_dart
+  patterns: ['blue dart', 'bluedart']
+  generic: [bluedart, cargo, airline, logistics]
+
+- facet: topic
+  category: trujet
+  patterns: ['trujet']
+  generic: [trujet, airline, aviation, carrier]
+
+- facet: topic
+  category: national_airlines
+  patterns: ['scheduled national airlines', 'national airlines']
+  generic: [national, airline, aviation, carrier]
+
+- facet: topic
+  category: private_airlines
+  patterns: ['scheduled private airlines', 'private airlines']
+  generic: [private, airline, aviation, carrier]
+
+- facet: topic
+  category: air_carnival
+  patterns: ['air carnival']
+  generic: [air,carnival, airline, aviation, carrier]
+
+- facet: topic
+  category: pawan_hans
+  patterns: ['pawan hans', 'pawan hans limited', 'pawan hans ltd']
+  generic: [pawan, hans, helicopter, aviation, operator]
+
+- facet: topic
+  category: zoom_air
+  patterns: ['zoom air', 'zoom airways']
+  generic: [zoomair, airline, aviation, carrier]
+
+- facet: topic
+  category: quikjet
+  patterns: ['quikjet', 'quikjet cargo']
+  generic: [quikjet, cargo, airline, logistics]
+
+- facet: topic
+  category: airsewa
+  patterns: ['airsewa', 'air sewa']
+  generic: [airsewa, flights, aviation, services]

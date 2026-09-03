@@ -1,0 +1,135 @@
+- facet: topic
+  category: tourism
+  patterns: ['tourism', 'tourist', 'travel industry']
+  generic: [tourism, travel, visitor, hospitality]
+
+- facet: topic
+  category: domestic_tourism
+  patterns: ['domestic tourist', 'domestic tourism', 'domestic visitors']
+  generic: [domestic, tourism, visitor, travel]
+
+- facet: topic
+  category: foreign_tourist_arrivals
+  patterns: ['foreign tourist arrivals', 'fta', 'foreign tourists']
+  generic: [FTA, foreign, tourist, arrivals]
+
+- facet: topic
+  category: international_tourist_arrivals
+  patterns: ['international tourist arrivals', 'ita', 'international arrivals']
+  generic: [ITA, international, tourist, arrivals]
+
+- facet: topic
+  category: nri_arrivals
+  patterns: ['nri arrivals', 'non resident indian', 'non-resident indian']
+  generic: [NRI, arrivals, tourism, travel]
+
+- facet: topic
+  category: tourist_visits
+  patterns: ['tourist visits', 'visitor statistics']
+  generic: [visitor, tourism, travel,FEE]
+
+- facet: topic
+  category: hotel
+  patterns: ['hotel', 'classified hotel', 'approved hotel']
+  generic: [hotel, classified, restaurant, lodging]
+
+- facet: topic
+  category: hotel_projects
+  patterns: ['hotel project', 'approved hotel project']
+  generic: [hotel,restaurant, tourism]
+
+- facet: topic
+  category: hotel_rooms
+  patterns: ['hotel rooms', 'room availability', 'room profile']
+  generic: [room, hotel,availability]
+
+- facet: topic
+  category: hospitality
+  patterns: ['hospitality', 'restaurants', 'bed and breakfast', 'resort']
+  generic: [hospitality, hotel, restaurant, resort]
+
+- facet: topic
+  category: travel_service_provider
+  patterns: ['travel agent', 'tour operator', 'service provider', 'tourist transport operator']
+  generic: [travel, operator, agent, tourism]
+
+- facet: topic
+  category: adventure_tourism
+  patterns: ['adventure operator', 'adventure tourism']
+  generic: [adventure, tourism, operator, travel]
+
+- facet: topic
+  category: inbound_tourism
+  patterns: ['inbound tourism', 'inbound tour operator']
+  generic: [inbound, tourism, operator, travel]
+
+- facet: topic
+  category: outbound_tourism
+  patterns: ['outbound departures', 'indian departures', 'destination-wise departures']
+  generic: [outbound, departures, travel, tourism]
+
+- facet: topic
+  category: foreign_exchange_earnings
+  patterns: ['foreign exchange earnings', 'fee']
+  generic: [earnings, forex, tourism, revenue]
+
+- facet: topic
+  category: tourism_receipts
+  patterns: ['tourism receipts', 'international tourism receipts']
+  generic: [receipts, revenue, tourism, income]
+
+- facet: topic
+  category: state_tourism
+  patterns: ['state wise tourist visits', 'state/ut tourism', 'state tourism']
+  generic: [tourism]
+
+- facet: topic
+  category: monument_tourism
+  patterns: ['asi monument', 'ticketed monument', 'protected monument']
+  generic: [monument, Ticketed, ASI, tourism]
+
+- facet: topic
+  category: heritage
+  patterns: ['heritage', 'protected monument', 'archaeological survey']
+  generic: [archaeological, culture, tourism]
+
+- facet: topic
+  category: tourist_demographics
+  patterns: ['gender wise', 'age group wise', 'nationality wise']
+  generic: [nationality, gender, age]
+
+- facet: topic
+  category: nationality
+  patterns: ['nationality wise', 'source country']
+  generic: [nationality, country, tourist, arrivals]
+
+- facet: topic
+  category: purpose_of_visit
+  patterns: ['purpose wise', 'travel purpose']
+  generic: [purpose, tourism, visitor, travel]
+
+- facet: topic
+  category: _mode_of_travel
+  patterns: ['mode of travel', 'travel mode']
+  generic: [mode, transport, travel, tourism]
+
+- facet: topic
+  category: _ports
+  patterns: ['major port', 'port wise', 'disembarkation']
+  generic: [arrival, travel, tourism]
+
+
+- facet: topic
+  category: _world_tourism
+  patterns: ['world tourism', 'international tourism', 'global tourism']
+  generic: [tourism, international]
+
+- facet: topic
+  category: _tourism_rankings
+  patterns: ['share and rank', 'top countries', 'ranking']
+  generic: [ranking, share, tourism]
+
+- facet: topic
+  category: _tourism_statistics
+  patterns: ['tourism statistics', 'annual tourism statistics']
+  generic: [tourism, annual]

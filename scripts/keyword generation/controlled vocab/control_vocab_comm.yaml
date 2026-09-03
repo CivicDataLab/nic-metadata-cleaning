@@ -1,0 +1,179 @@
+- facet: topic
+  category: post_offices
+  patterns: ['post office', 'post offices']
+  generic: [post, offices, postal]
+
+- facet: topic
+  category: money_order
+  patterns: ['instant money order', 'money order']
+  generic: [money,order, postal, remittance, payments]#### money order in its catalog manetioned as MO
+
+- facet: topic
+  category: speed_post
+  patterns: ['speed post', 'ems', 'international speed post']
+  generic: [speed,post, ems, postal, international]
+
+- facet: topic
+  category: philately
+  patterns: ['philatelic', 'philatelic bureaux', 'philatelic counters']
+  generic: [philate, stamp, postal, bureaux]
+
+- facet: topic
+  category: pincode
+  patterns: ['pincode', 'postal code', 'pin code']
+  generic: [pincode, postal, directory]
+
+- facet: topic
+  category: epayment
+  patterns: ['e-payment', 'epayment']
+  generic: [epayment, payments, postal, digital]
+
+- facet: topic
+  category: telecom
+  patterns: ['telecommunication', 'telecom', 'department of telecommunications']
+  generic: [telecom, communications, connectivity, infrastructure]
+
+- facet: topic
+  category: telephone
+  patterns: ['telephone', 'telephones', 'telephone connections']
+  generic: [telephone, subscribers, connectivity, telecom]
+
+- facet: topic
+  category: teledensity
+  patterns: ['teledensity', 'tele-density']
+  generic: [teledensity, telecom, penetration]
+
+- facet: topic
+  category: subscribers
+  patterns: ['subscriber', 'subscribers']
+  generic: [subscribers, telecom, users]
+
+- facet: topic
+  category: broadband
+  patterns: ['broadband']
+  generic: [broadband, internet, telecom]
+
+- facet: topic
+  category: internet
+  patterns: ['internet']
+  generic: [internet, broadband, telecom, subscribers]
+
+- facet: topic
+  category: wireless
+  patterns: ['wireless']
+  generic: [wireless, telecom, mobile]
+
+- facet: topic
+  category: wireline
+  patterns: ['wireline']
+  generic: [wireline, telecom, telephone]
+
+- facet: topic
+  category: mobile
+  patterns: ['mobile', 'mobile data']
+  generic: [mobile, telecom, wireless, internet]
+
+- facet: topic
+  category: operators
+  patterns: ['operator', 'operators', 'service provider']
+  generic: [operators, telecom, providers, subscribers]
+
+- facet: topic
+  category: fdi
+  patterns: ['foreign direct investment', 'fdi']
+  generic: [fdi, investment, telecom, finance]
+
+- facet: topic
+  category: mtnl
+  patterns: ['mtnl']
+  generic: [mtnl, telecom, operator]
+
+- facet: topic
+  category: bsnl
+  patterns: ['bsnl']
+  generic: [bsnl, telecom, operator]
+
+- facet: topic
+  category: bharatnet
+  patterns: ['bharatnet']
+  generic: [bharatnet, broadband, rural]
+
+- facet: topic
+  category: gram_panchayat
+  patterns: ['gram panchayat']
+  generic: [panchayat, villages, rural]
+
+- facet: topic
+  category: sampann
+  patterns: ['sampann']
+  generic: [sampann, pensioners, telecom, pensions]
+
+- facet: topic
+  category: pensioners
+  patterns: ['pensioners', 'telecom pensioners']
+  generic: [pensioners, pensions, telecom, welfare]
+
+- facet: topic
+  category: dth
+  patterns: ['dth', 'direct to home']
+  generic: [dth, television, broadcasting, subscribers]
+
+- facet: topic
+  category: broadcasting
+  patterns: ['broadcasting', 'broadcast']
+  generic: [broadcasting, television, media, channels]
+
+- facet: topic
+  category: channels
+  patterns: ['pay channels', 'news channels', 'non-news channels']
+  generic: [channels, television, broadcasting, media]
+
+- facet: topic
+  category: fm_radio
+  patterns: ['fm radio', 'radio channels']
+  generic: [radio, fm, broadcasting, stations]
+
+- facet: topic
+  category: advertisement
+  patterns: ['advertisement', 'advertising duration']
+  generic: [advertisement, broadcasting, television, compliance]
+
+- facet: topic
+  category: performance
+  patterns: ['performance', 'telecommunication performance']
+  generic: [performance, telecom, quality, services]
+
+- facet: topic
+  category: voice_quality
+  patterns: ['voice call quality', 'customer experience']
+  generic: [voice, quality, telecom, experience]
+
+- facet: topic
+  category: speed
+  patterns: ['data speed', 'myspeed', 'download speed', 'upload speed']
+  generic: [speed, internet, broadband, mobile]
+
+- facet: topic
+  category: tariff
+  patterns: ['tariff', 'per gb tariff']
+  generic: [tariff, pricing, telecom, wireless]
+
+- facet: topic
+  category: usage
+  patterns: ['usage', 'data usage']
+  generic: [usage, telecom, data, traffic]
+
+- facet: topic
+  category: arpu
+  patterns: ['arpu', 'average revenue per user']
+  generic: [arpu, revenue, telecom, subscribers]
+
+- facet: topic
+  category: annual_reports
+  patterns: ['annual report']
+  generic: [reports, annual, ministry, governance]
+
+- facet: topic
+  category: organisation
+  patterns: ['organizational structure', 'organisation structure']
+  generic: [organisation, hierarchy, administration, governance]

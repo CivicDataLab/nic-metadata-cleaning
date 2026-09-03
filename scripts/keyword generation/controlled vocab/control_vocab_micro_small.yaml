@@ -1,0 +1,444 @@
+- facet: topic
+  category: MSME
+  patterns: ['MSME', 'Micro Small and Medium Enterprises', 'Micro, Small and Medium Enterprises']
+  generic: [MSME, enterprise, industry, business]
+
+- facet: topic
+  category: MSME_Census
+  patterns: ['MSME Census', 'Fourth All India Census of MSME', 'All India Census of MSME', 'Fourth Census']
+  generic: [MSME, census, enterprise, statistics]
+
+- facet: topic
+  category: registered_sector
+  patterns: ['registered sector', 'registered MSME sector', 'registered enterprises']
+  generic: [registered, MSME, enterprise, sector]
+
+- facet: topic
+  category: unregistered_sector
+  patterns: ['unregistered sector', 'unregistered MSME sector', 'unregistered enterprises']
+  generic: [unregistered, MSME, enterprise, sector]
+
+- facet: topic
+  category: enterprise
+  patterns: ['enterprise', 'enterprises', 'MSME enterprises', 'working enterprises']
+  generic: [enterprise, MSME, business, industry]
+
+- facet: topic
+  category: enterprise_type
+  patterns: ['type of enterprise', 'enterprise type', 'types of enterprise']
+  generic: [enterprise, type, MSME, classification]
+
+- facet: topic
+  category: organisation_type
+  patterns: ['type of organisation', 'organisation type', 'organization type', 'organisation']
+  generic: [organisation, enterprise, ownership, classification]
+
+- facet: topic
+  category: operation_status
+  patterns: ['status of operation', 'operation status', 'operating status']
+  generic: [operation, status, enterprise, MSME]
+
+- facet: topic
+  category: nature_of_operation
+  patterns: ['nature of operation', 'operation nature']
+  generic: [operation, enterprise, activity, MSME]
+
+- facet: topic
+  category: nature_of_activity
+  patterns: ['nature of activity', 'activity nature', 'activity']
+  generic: [activity, enterprise, industry, MSME]
+
+- facet: topic
+  category: working_enterprises
+  patterns: ['working enterprises', 'working MSME enterprises', 'working enterprise']
+  generic: [working, enterprise, MSME, business]
+
+- facet: topic
+  category: enterprise_distribution
+  patterns: ['distribution of enterprises', 'enterprise distribution', 'distribution of working enterprises']
+  generic: [enterprise, distribution, MSME, statistics]
+
+- facet: topic
+  category: enterprise_characteristics
+  patterns: ['principal characteristics', 'principal characteristics of enterprises', 'MSME characteristics']
+  generic: [MSME, characteristics, enterprise, statistics]
+
+- facet: topic
+  category: employment
+  patterns: ['employment', 'employment distribution', 'MSME employment', 'employment by enterprise type']
+  generic: [employment, MSME, workforce, enterprise]
+
+- facet: topic
+  category: employment_type
+  patterns: ['employment by type', 'employment type', 'type of employment']
+  generic: [employment, type, workforce, MSME]
+
+- facet: topic
+  category: sex
+  patterns: ['sex', 'sex-wise', 'employment by sex']
+  generic: [sex, employment, workforce, MSME]
+
+- facet: topic
+  category: social_category
+  patterns: ['social category', 'social category-wise', 'employment by social category']
+  generic: [social, category, employment, MSME]
+
+- facet: topic
+  category: owner_religion
+  patterns: ['religion of owner', 'owner religion', 'ownerâ€™s religion', 'enterprises by religion of owner']
+  generic: [religion, ownership, enterprise, MSME]
+
+- facet: topic
+  category: entrepreneurship
+  patterns: ['entrepreneurship profile', 'entrepreneurship', 'enterprise ownership']
+  generic: [entrepreneurship, ownership, enterprise, MSME]
+
+- facet: topic
+  category: industry
+  patterns: ['industry', 'industry-wise', 'industry group', 'industry distribution']
+  generic: [industry, enterprise, MSME, classification]
+
+- facet: topic
+  category: industry_classification
+  patterns: ['NIC', 'NIC 2004', 'National Industrial Classification', 'industry classification']
+  generic: [NIC, industry, classification, enterprise]
+
+- facet: topic
+  category: NIC_2004
+  patterns: ['NIC-2004', 'NIC 2004', 'National Industrial Classification 2004']
+  generic: [NIC, industry, classification, MSME]
+
+- facet: topic
+  category: NIC_2_digit
+  patterns: ['2-Digit NIC-2004', '2-digit NIC', 'NIC-2004 2-Digit', '2-Digit']
+  generic: [NIC, industry, classification, enterprise]
+
+- facet: topic
+  category: manufacturing
+  patterns: ['manufacturing', 'manufacturing enterprises', 'manufacturing MSME']
+  generic: [manufacturing, MSME, industry, enterprise]
+
+- facet: topic
+  category: services
+  patterns: ['service enterprises', 'service MSME', 'services']
+  generic: [services, MSME, enterprise, business]
+
+- facet: topic
+  category: energy
+  patterns: ['energy', 'source of energy', 'main source of energy', 'energy source']
+  generic: [energy, enterprise, industry, MSME]
+
+- facet: topic
+  category: fuel
+  patterns: ['fuel', 'fuel type', 'type of fuel', 'fuel use']
+  generic: [fuel, energy, industry, MSME]
+
+- facet: topic
+  category: energy_source
+  patterns: ['main source of energy', 'energy source distribution', 'source of energy']
+  generic: [energy, source, enterprise, industry]
+
+- facet: topic
+  category: EM_II
+  patterns: ['EM-II', 'EM II', 'EM-II filed', 'EM-II filings']
+  generic: [EM-II, MSME, registration, enterprise]
+
+- facet: topic
+  category: MSME_registration
+  patterns: ['MSME registration', 'registered MSME', 'MSME registered enterprises', 'registration status']
+  generic: [MSME, registration, enterprise, business]
+
+- facet: topic
+  category: Udyog_Aadhaar
+  patterns: ['Udyog Aadhaar', 'Udyog Aadhaar Memorandum', 'Udyog Aadhaar Memorandum registration']
+  generic: [Udyog, Aadhaar, MSME, registration]
+
+- facet: topic
+  category: UDYAM
+  patterns: ['UDYAM', 'UDYAM Registration', 'UDYAM registered', 'UDYAM registration']
+  generic: [UDYAM, MSME, registration, enterprise]
+
+- facet: topic
+  category: registered_units
+  patterns: ['registered units', 'MSME registered units', 'registered enterprise units']
+  generic: [registered, units, MSME, enterprise]
+
+- facet: topic
+  category: manufacturing_registration
+  patterns: ['registered manufacturing enterprises', 'manufacturing MSME registered enterprises', 'manufacturing registrations']
+  generic: [manufacturing, MSME, registration, enterprise]
+
+- facet: topic
+  category: service_registration
+  patterns: ['registered service enterprises', 'service MSME registered enterprises', 'service registrations']
+  generic: [services, MSME, registration, enterprise]
+
+- facet: topic
+  category: manufacturing_and_services
+  patterns: ['manufacturing and service enterprises', 'manufacturing and services', 'manufacturing & service']
+  generic: [manufacturing, services, MSME, enterprise]
+
+- facet: topic
+  category: DIC
+  patterns: ['DIC', 'District Industries Centres', 'District Industries Centers', 'DICs']
+  generic: [DIC, industry, district, MSME]
+
+- facet: topic
+  category: MSME_development
+  patterns: ['MSME development', 'enterprise development', 'MSME planning']
+  generic: [MSME, development, enterprise, planning]
+
+- facet: topic
+  category: MSME_policy
+  patterns: ['MSME policy', 'policy planning', 'policy analysis', 'MSME policy planning']
+  generic: [MSME, policy, planning, enterprise]
+
+- facet: topic
+  category: enterprise_statistics
+  patterns: ['enterprise statistics', 'MSME statistics', 'enterprise counts', 'MSME counts']
+  generic: [MSME, statistics, enterprise, data]
+
+- facet: geography
+  category: state
+  patterns: ['state', 'state-wise', 'state wise', 'State/UT-wise']
+  generic: [state, MSME, enterprise, geography]
+
+- facet: geography
+  category: district
+  patterns: ['district', 'district-wise', 'district wise', 'district level']
+  generic: [district, MSME, enterprise, geography]
+
+- facet: geography
+  category: state_UT
+  patterns: ['State/UT', 'State/UT-wise', 'States/UTs']
+  generic: [state, UT, MSME, geography]
+
+- facet: geography
+  category: India
+  patterns: ['India', 'All India', 'India-wide', 'national']
+  generic: [India, national, MSME, enterprise]
+
+- facet: geography
+  category: Andhra_Pradesh
+  patterns: ['Andhra Pradesh']
+  generic: [Andhra Pradesh, MSME, enterprise]
+
+- facet: geography
+  category: Arunachal_Pradesh
+  patterns: ['Arunachal Pradesh']
+  generic: [Arunachal Pradesh, MSME, enterprise]
+
+- facet: geography
+  category: Assam
+  patterns: ['Assam']
+  generic: [Assam, MSME, enterprise]
+
+- facet: geography
+  category: Bihar
+  patterns: ['Bihar']
+  generic: [Bihar, MSME, enterprise]
+
+- facet: geography
+  category: Goa
+  patterns: ['Goa']
+  generic: [Goa, MSME, enterprise]
+
+- facet: geography
+  category: Gujarat
+  patterns: ['Gujarat']
+  generic: [Gujarat, MSME, enterprise]
+
+- facet: geography
+  category: Haryana
+  patterns: ['Haryana']
+  generic: [Haryana, MSME, enterprise]
+
+- facet: geography
+  category: Himachal_Pradesh
+  patterns: ['Himachal Pradesh']
+  generic: [Himachal Pradesh, MSME, enterprise]
+
+- facet: geography
+  category: Jharkhand
+  patterns: ['Jharkhand']
+  generic: [Jharkhand, MSME, enterprise]
+
+- facet: geography
+  category: Karnataka
+  patterns: ['Karnataka']
+  generic: [Karnataka, MSME, enterprise]
+
+- facet: geography
+  category: Kerala
+  patterns: ['Kerala']
+  generic: [Kerala, MSME, enterprise]
+
+- facet: geography
+  category: Madhya_Pradesh
+  patterns: ['Madhya Pradesh']
+  generic: [Madhya Pradesh, MSME, enterprise]
+
+- facet: geography
+  category: Maharashtra
+  patterns: ['Maharashtra']
+  generic: [Maharashtra, MSME, enterprise]
+
+- facet: geography
+  category: Manipur
+  patterns: ['Manipur']
+  generic: [Manipur, MSME, enterprise]
+
+- facet: geography
+  category: Meghalaya
+  patterns: ['Meghalaya']
+  generic: [Meghalaya, MSME, enterprise]
+
+- facet: geography
+  category: Mizoram
+  patterns: ['Mizoram']
+  generic: [Mizoram, MSME, enterprise]
+
+- facet: geography
+  category: Nagaland
+  patterns: ['Nagaland']
+  generic: [Nagaland, MSME, enterprise]
+
+- facet: geography
+  category: Odisha
+  patterns: ['Odisha']
+  generic: [Odisha, MSME, enterprise]
+
+- facet: geography
+  category: Punjab
+  patterns: ['Punjab']
+  generic: [Punjab, MSME, enterprise]
+
+- facet: geography
+  category: Rajasthan
+  patterns: ['Rajasthan']
+  generic: [Rajasthan, MSME, enterprise]
+
+- facet: geography
+  category: Sikkim
+  patterns: ['Sikkim']
+  generic: [Sikkim, MSME, enterprise]
+
+- facet: geography
+  category: Tamil_Nadu
+  patterns: ['Tamil Nadu']
+  generic: [Tamil Nadu, MSME, enterprise]
+
+- facet: geography
+  category: Telangana
+  patterns: ['Telangana']
+  generic: [Telangana, MSME, enterprise]
+
+- facet: geography
+  category: Tripura
+  patterns: ['Tripura']
+  generic: [Tripura, MSME, enterprise]
+
+- facet: geography
+  category: Uttar_Pradesh
+  patterns: ['Uttar Pradesh']
+  generic: [Uttar Pradesh, MSME, enterprise]
+
+- facet: geography
+  category: Uttarakhand
+  patterns: ['Uttarakhand']
+  generic: [Uttarakhand, MSME, enterprise]
+
+- facet: geography
+  category: West_Bengal
+  patterns: ['West Bengal']
+  generic: [West Bengal, MSME, enterprise]
+
+- facet: geography
+  category: Andaman_Nicobar
+  patterns: ['Andaman and Nicobar Islands']
+  generic: [Andaman, Nicobar, MSME, enterprise]
+
+- facet: geography
+  category: Chandigarh
+  patterns: ['Chandigarh']
+  generic: [Chandigarh, MSME, enterprise]
+
+- facet: geography
+  category: Dadra_Nagar_Haveli
+  patterns: ['Dadra and Nagar Haveli']
+  generic: [Dadra, Nagar Haveli, MSME, enterprise]
+
+- facet: geography
+  category: Daman_Diu
+  patterns: ['Daman and Diu']
+  generic: [Daman, Diu, MSME, enterprise]
+
+- facet: geography
+  category: Delhi
+  patterns: ['Delhi']
+  generic: [Delhi, MSME, enterprise]
+
+- facet: geography
+  category: Jammu_Kashmir
+  patterns: ['Jammu and Kashmir']
+  generic: [Jammu, Kashmir, MSME, enterprise]
+
+- facet: geography
+  category: Lakshadweep
+  patterns: ['Lakshadweep']
+  generic: [Lakshadweep, MSME, enterprise]
+
+- facet: geography
+  category: Puducherry
+  patterns: ['Puducherry']
+  generic: [Puducherry, MSME, enterprise]
+
+- facet: acronym
+  category: MSME
+  patterns: ['MSME']
+  generic: [MSME, enterprise, industry, business]
+
+- facet: acronym
+  category: NIC
+  patterns: ['NIC', 'National Industrial Classification']
+  generic: [NIC, industry, classification, enterprise]
+
+- facet: acronym
+  category: EM_II
+  patterns: ['EM-II', 'EM II']
+  generic: [EM-II, MSME, registration, enterprise]
+
+- facet: acronym
+  category: DIC
+  patterns: ['DIC', 'DICs']
+  generic: [DIC, district, industry, MSME]
+
+- facet: acronym
+  category: UDYAM
+  patterns: ['UDYAM', 'UDYAM Registration']
+  generic: [UDYAM, MSME, registration, enterprise]
+
+- facet: acronym
+  category: UAM
+  patterns: ['Udyog Aadhaar Memorandum', 'UAM']
+  generic: [Udyog, Aadhaar, MSME, registration]
+
+- facet: acronym
+  category: SSI
+  patterns: ['SSI', 'SSIs', 'Small Scale Industries']
+  generic: [SSI, industry, enterprise, MSME]
+
+- facet: acronym
+  category: CSO
+  patterns: ['CSO', 'Central Statistical Office']
+  generic: [CSO, statistics, classification, industry]
+
+- facet: acronym
+  category: MoSPI
+  patterns: ['M/O Statistics and Programme Implementation', 'Ministry of Statistics and Programme Implementation', 'MoSPI']
+  generic: [MoSPI, statistics, government, industry]
+
+- facet: acronym
+  category: M_o_MSME
+  patterns: ['M/o MSME', 'Ministry of Micro Small and Medium Enterprises', 'Ministry of Micro, Small and Medium Enterprises']
+  generic: [MSME, ministry, government, enterprise]
