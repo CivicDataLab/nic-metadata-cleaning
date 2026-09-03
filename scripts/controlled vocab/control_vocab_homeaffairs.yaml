@@ -1,0 +1,119 @@
+- facet: topic
+  category: project_assist
+  patterns: ['Project Assist', 'Children Assisted', 'Assist']
+  generic: [ Assist, child, assistance, MHA]
+
+- facet: geography
+  category: north_east
+  patterns: ['North-Eastern States', 'North East', 'NE States', 'North Eastern']
+  generic: [NE, northeast]
+
+- facet: topic
+  category: weapon_surrender
+  patterns: ['Surrendered Weapons', 'Surrender of Weapons', 'Surrendered Ammunitions', 'Weapons and Ammunitions']
+  generic: [weapon, ammunition, surrender, incentive, disarmament]
+
+- facet: topic
+  category: helicopter_service
+  patterns: ['Helicopter Service', 'Helicopter Wet Lease', 'Flying Hours', 'Wet Lease']
+  generic: [helicopter, aviation, lease, flight, NE]
+
+- facet: topic
+  category: civic_action
+  patterns: ['Civic Action Programme', 'Civic Action', 'CAP']
+  generic: [CAP, civic, action, fund, NE]
+
+- facet: topic
+  category: police_modernisation
+  patterns: ['Modernisation of State Police Forces', 'Police Modernisation', 'Police Modernization']
+  generic: [police, modernization, fund, force, NE]
+
+- facet: topic
+  category: insurgency
+  patterns: ['Insurgent Groups', 'Insurgent Group', 'UG', 'UGs']
+  generic: [insurgent, UG, leader, NE, MHA]
+
+- facet: topic
+  category: surrender
+  patterns: ['Surrendered UGs', 'UG Surrender', 'Surrender Event']
+  generic: [UG, surrender, Manipur, NE]
+
+- facet: topic
+  category: peace_dialogue
+  patterns: ['Peace Dialogue', 'Peace Process', 'Dialogue with Insurgent Groups']
+  generic: [peace, dialogue, insurgent, NE]
+
+- facet: topic
+  category: uapa
+  patterns: ['Unlawful Activities (Prevention) Act', 'UAPA', 'Unlawful Associations']
+  generic: [UAPA, unlawful, association, organisation, enforcement, NE]
+
+- facet: topic
+  category: security_related_expenditure
+  patterns: ['Security Related Expenditure', 'Security Related Expenditure (SRE)', 'SRE']
+  generic: [SRE, security, expenditure, assistance, fund, NE]
+
+- facet: topic
+  category: communal_harmony
+  patterns: ['Communal Award', 'Communal Award Winners', 'National Foundation for Communal Harmony']
+  generic: [communal, harmony, award, winner, NFCH, MHA]
+
+- facet: topic
+  category: national_award
+  patterns: ['Bharat Ratna', 'Padma Awards', 'Padma Award']
+  generic: [Bharat, Ratna, Padma, award, honour, MHA]
+
+- facet: topic
+  category: bravery_award
+  patterns: ['Jeevan Raksha Padak', 'Jeevan Raksha', 'Raksha Padak']
+  generic: [Jeevan, Raksha, Padak, award, bravery, MHA]
+
+- facet: topic
+  category: gallantry_award
+  patterns: ['Ashoka Chakra', 'Ashoka Chakra Series', 'Gallantry Awards']
+  generic: [Ashoka, Chakra, gallantry, award, civilian, MHA]
+
+- facet: topic
+  category: award
+  patterns: ['Kabir Puraskar', 'Kabir Award', 'Awardees']
+  generic: [Kabir, Puraskar, award, awardee, MHA]
+
+- facet: geography
+  category: manipur
+  patterns: ['Manipur', 'Manipur State']
+  generic: [Manipur, NE, Imphal]
+
+- facet: geography
+  category: mizoram
+  patterns: ['Mizoram', 'Mizoram State']
+  generic: [Mizoram, NE, Aizawl]
+
+- facet: geography
+  category: tripura
+  patterns: ['Tripura', 'Tripura State']
+  generic: [Tripura, NE, Agartala]
+
+- facet: topic
+  category: bru_migrant
+  patterns: ['Bru Migrants', 'Bru Migrant', 'Bru Rehabilitation']
+  generic: [Bru, migrant, rehabilitation, Mizoram, Tripura, NE]
+
+- facet: topic
+  category: police_fund
+  patterns: ['Funds Released for Police', 'Police Fund', 'Police Modernisation Fund']
+  generic: [police, fund, release, modernisation, NE]
+
+- facet: topic
+  category: rehabilitation
+  patterns: ['Rehabilitation Schemes', 'Rehabilitation Scheme', 'Grant-in-aid']
+  generic: [rehabilitation, scheme, grant, migrant, Mizoram, Tripura]
+
+- facet: geography
+  category: north_east_state
+  patterns: ['North-Eastern State Governments', 'NE State Governments', 'North Eastern States']
+  generic: [NE,northeast]
+
+- facet: topic
+  category: expenditure
+  patterns: ['Expenditure', 'Funds Released', 'Fund Released', 'Financial Assistance']
+  generic: [fund, release, expenditure, finance, assistance, MHA]

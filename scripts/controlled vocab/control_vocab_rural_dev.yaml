@@ -1,0 +1,234 @@
+- facet: land_resources
+  category: wasteland
+  patterns: ['wasteland', 'wastelands', 'wasteland area']
+  generic: [wasteland, land, degradation, resources]
+
+- facet: land_resources
+  category: land_degradation
+  patterns: ['land degradation', 'degraded land']
+  generic: [land, degradation, environment, resources]
+
+- facet: land_records
+  category: land_records
+  patterns: ['land records', 'land record']
+  generic: [ records, land, administration, property]
+
+- facet: land_records
+  category: land_records_computerization
+  patterns: ['computerization of land records', 'computerization', 'digitization of land records']
+  generic: [ records, digital, computerised, land]
+
+- facet: land_records
+  category: land_records_digitization
+  patterns: ['digitization of land records', 'digital land records']
+  generic: [ records, digital, technology, land]
+
+- facet: land_resources
+  category: watershed
+  patterns: ['watershed', 'watershed development', 'watershed development projects']
+  generic: [watershed, land, resources, water]
+
+- facet: land_resources
+  category: watershed_projects
+  patterns: ['watershed development projects', 'watershed projects']
+  generic: [watershed, land]
+
+- facet: rural_development
+  category: rural_development
+  patterns: ['rural development', 'rural development interventions']
+  generic: [ development, rural, planning]
+
+- facet: rural_employment
+  category: MGNREGA
+  patterns: ['MGNREGA', 'Mahatma Gandhi National Rural Employment Guarantee Act']
+  generic: [MGNREGA, rural , employment]
+
+- facet: rural_employment
+  category: job_cards
+  patterns: ['job cards', 'job card']
+  generic: [job , MGNREGA, employment, rural]
+
+- facet: rural_employment
+  category: work_demand
+  patterns: ['work demand', 'demand for work', 'employment demand']
+  generic: [work , MGNREGA, employment, rural]
+
+- facet: rural_employment
+  category: work_allocation
+  patterns: ['work allocation', 'allocation of work', 'employment allocation']
+  generic: [work, MGNREGA, employment, rural]
+
+- facet: rural_employment
+  category: employment_entitlements
+  patterns: ['employment entitlements', 'employment entitlement']
+  generic: [employment, entitlements, MGNREGA, rural]
+
+- facet: rural_housing
+  category: PMAY_G
+  patterns: ['PMAY-G', 'Pradhan Mantri Awaas Yojana - Gramin', 'Pradhan Mantri Awas Yojana Gramin']
+  generic: [PMAY-G, rural, housing]
+
+- facet: rural_housing
+  category: housing
+  patterns: ['rural housing', 'housing demand', 'housing allocation']
+  generic: [housing, rural, beneficiaries, development]
+
+- facet: rural_housing
+  category: beneficiary_waitlist
+  patterns: ['permanent wait list', 'wait list', 'beneficiary wait list']
+  generic: [beneficiaries, housing, waitlist, rural]
+
+- facet: rural_development
+  category: Mission_Antyodaya
+  patterns: ['Mission Antyodaya', 'Mission Antyodaya 2020']
+  generic: [Mission, Antyodaya, rural, survey, villages]
+
+- facet: rural_development
+  category: village_survey
+  patterns: ['village survey', 'village-wise survey data', 'village survey data']
+  generic: [village, survey, rural]
+
+- facet: rural_development
+  category: village
+  patterns: ['village', 'village-wise', 'village level']
+  generic: [village, rural, development, survey]
+
+- facet: rural_development
+  category: gram_panchayat
+  patterns: ['Gram Panchayat', 'Gram Panchayatwise', 'gram panchayat level']
+  generic: [gram, panchayat, rural]
+
+- facet: rural_development
+  category: district
+  patterns: ['district-wise', 'district level', 'district data']
+  generic: [ rural, administration, development]
+
+- facet: rural_livelihoods
+  category: self_help_groups
+  patterns: ['Self Help Groups', 'SHG', 'SHGs']
+  generic: [SHG, livelihood, rural, group]
+
+- facet: rural_livelihoods
+  category: SHG_members
+  patterns: ['SHG members', 'members count', 'Self Help Group members']
+  generic: [SHG, members, livelihood, rural]
+
+- facet: rural_livelihoods
+  category: livelihoods
+  patterns: ['rural livelihoods', 'livelihoods', 'livelihood development']
+  generic: [livelihood, rural, employment, development]
+
+- facet: rural_roads
+  category: PMGSY
+  patterns: ['PMGSY', 'Pradhan Mantri Gram Sadak Yojna', 'Pradhan Mantri Gram Sadak Yojana']
+  generic: [PMGSY, rural roads, connectivity]
+
+- facet: rural_roads
+  category: rural_roads
+  patterns: ['rural roads', 'rural road', 'road construction']
+  generic: [rural, roads, connectivity, infrastructure]
+
+- facet: rural_roads
+  category: road_construction
+  patterns: ['road construction', 'construction of roads', 'road works']
+  generic: [roads, construction, infrastructure, rural]
+
+- facet: rural_roads
+  category: physical_progress
+  patterns: ['physical progress', 'physical progress status']
+  generic: [progress,  development]
+
+- facet: finance
+  category: financial_progress
+  patterns: ['financial progress', 'financial progress status', 'fund utilization']
+  generic: [finance, funds, development]
+
+- facet: finance
+  category: fund_utilization
+  patterns: ['fund utilization', 'fund utilisation', 'fund movement']
+  generic: [funds, utilization, finance, development]
+
+- facet: social_assistance
+  category: NSAP
+  patterns: ['National Social Assistance Programme', 'NSAP']
+  generic: [NSAP, social, beneficiaries, welfare]
+
+- facet: social_assistance
+  category: IGNOAPS
+  patterns: ['IGNOAPS', 'Indira Gandhi National Old Aged Pension Scheme']
+  generic: [IGNOAPS, pension, elderly, beneficiaries]
+
+- facet: social_assistance
+  category: IGNWPS
+  patterns: ['IGNWPS', 'Indira Gandhi Widow Pension Scheme']
+  generic: [IGNWPS, pension, widows, beneficiaries]
+
+- facet: social_assistance
+  category: IGNDPS
+  patterns: ['IGNDPS', 'Indira Gandhi National Disability Pension Scheme']
+  generic: [IGNDPS, pension, disability, beneficiaries]
+
+- facet: social_assistance
+  category: pension
+  patterns: ['pension', 'pension scheme', 'pension beneficiaries']
+  generic: [pension, beneficiaries, social assistance, welfare]
+
+- facet: social_assistance
+  category: beneficiaries
+  patterns: ['beneficiaries', 'beneficiary', 'beneficiary coverage']
+  generic: [beneficiaries, welfare, social assistance, schemes]
+
+- facet: social_assistance
+  category: disability
+  patterns: ['disability', 'disabled', 'disability pension']
+  generic: [disability, pension, beneficiaries, welfare]
+
+- facet: social_assistance
+  category: widow
+  patterns: ['widow', 'widows', 'widow pension']
+  generic: [widow, pension, beneficiaries, welfare]
+
+- facet: social_assistance
+  category: elderly
+  patterns: ['old aged', 'elderly', 'old age']
+  generic: [elderly, pension, beneficiaries, welfare]
+
+- facet: monitoring
+  category: KPI
+  patterns: ['key performance indicators', 'KPIs', 'KPI']
+  generic: [KPI]
+
+- facet: monitoring
+  category: progress_monitoring
+  patterns: ['progress monitoring', 'implementation monitoring', 'monitoring progress']
+  generic: [development]
+
+- facet: programme
+  category: PMKSY
+  patterns: ['PMKSY', 'PMKSY 2.0', 'Pradhan Mantri Krishi Sinchayee Yojana']
+  generic: [PMKSY, watershed, development, land, resources]
+
+- facet: programme
+  category: WDC
+  patterns: ['WDC', 'Watershed Development Component', 'WDC-PMKSY']
+  generic: [WDC, watershed, PMKSY, development]
+
+- facet: programme
+  category: DILRMP
+  patterns: ['Digital India Land Records Modernization Programme', 'DILRMP', 'land records modernization']
+  generic: [DILRMP, land, records, digital]
+
+- facet: organization
+  category: DOLR
+  patterns: ['Department of Land Resources', 'DOLR']
+  generic: [DOLR, land, resources,  records]
+
+- facet: organization
+  category: DRD
+  patterns: ['Department of Rural Development', 'DRD']
+  generic: [DRD, development, rural, ]
+
+- facet: organization
+  category: Ministry_of_Rural_Development
+  patterns: ['Ministry of Rural Development']
+  generic: [ rural, development]

@@ -1,0 +1,1368 @@
+- facet: topic
+  category: Census
+  patterns: ['Census', 'Census Abstract', 'Primary Census Abstract', 'PCA', 'Census 2011', 'Census 2001']
+  generic: [census, population, demographic, enumeration, statistics]
+
+- facet: topic
+  category: Population
+  patterns: ['Population', 'Population by Age', 'Population Structure', 'Population Characteristics', 'Population Counts']
+  generic: [population, demographic, residents, persons, statistics]
+
+- facet: topic
+  category: Age
+  patterns: ['Age', 'Single-Year Age', 'Five-Year Age-Group', 'Age-Group', 'Age Structure']
+  generic: [age, ageing, demographic, population, structure]
+
+- facet: topic
+  category: Sex
+  patterns: ['Sex', 'Male', 'Female', 'Male and Female', 'Sex Composition']
+  generic: [sex, gender, male, female, population]
+
+- facet: topic
+  category: Residence
+  patterns: ['Residence', 'Urban/Rural', 'Urban', 'Rural', 'Residence Type']
+  generic: [residence, urban, rural, settlement, population]
+
+- facet: topic
+  category: Disability
+  patterns: ['Disabled Population', 'Disability', 'Type of Disability', 'Disabled Persons', 'Disability Type']
+  generic: [disability, disabled, person, population, inclusion]
+
+- facet: topic
+  category: Scheduled Castes
+  patterns: ['Scheduled Castes', 'SC', 'Scheduled Caste', 'SC Population', 'Caste']
+  generic: [scheduled, caste, social, population, inclusion]
+
+- facet: topic
+  category: Scheduled Tribes
+  patterns: ['Scheduled Tribes', 'ST', 'Scheduled Tribe', 'ST Population', 'Tribe']
+  generic: [scheduled, tribe, social, population, inclusion]
+
+- facet: topic
+  category: Religion
+  patterns: ['Religious Community', 'Religion', 'Religious Communities', 'Religious Community by Age', 'Religious Community by Sex']
+  generic: [religion, community, population, demographic, social]
+
+- facet: topic
+  category: Caste
+  patterns: ['Caste', 'Each Caste Separately', 'Caste Population', 'Caste-wise']
+  generic: [caste, population, social, community, demographic]
+
+- facet: topic
+  category: Household
+  patterns: ['Household', 'Households', 'Household Size', 'Household Members', 'Female-Headed Households']
+  generic: [household, family, members, dwelling, population]
+
+- facet: topic
+  category: Housing
+  patterns: ['Census House', 'House Structure', 'Structure Type', 'Roof', 'Wall Materials', 'Floor Material', 'Dwelling Rooms']
+  generic: [housing, house, dwelling, structure, shelter]
+
+- facet: topic
+  category: Household Amenities
+  patterns: ['Amenities', 'Amenities and Assets', 'Drinking Water', 'Electricity', 'Latrine', 'Bathing Facility', 'Drainage', 'Wastewater']
+  generic: [amenities, water, electricity, sanitation, household]
+
+- facet: topic
+  category: Water
+  patterns: ['Drinking Water', 'Water Source', 'Drinking Water Source', 'Water Supply']
+  generic: [water, drinking, source, supply, household]
+
+- facet: topic
+  category: Sanitation
+  patterns: ['Latrine', 'Latrine Facility', 'Bathing Facility', 'Drainage', 'Wastewater', 'Waste Water']
+  generic: [sanitation, latrine, drainage, bathing, wastewater]
+
+- facet: topic
+  category: Electricity
+  patterns: ['Electricity', 'Electricity Availability', 'Electricity Connection']
+  generic: [electricity, power, household, energy, amenities]
+
+- facet: topic
+  category: Cooking Fuel
+  patterns: ['Cooking Fuel', 'Fuel Type', 'Separate Kitchen', 'Kitchen and Cooking Fuel']
+  generic: [fuel, cooking, kitchen, household, energy]
+
+- facet: topic
+  category: Banking
+  patterns: ['Banking Services', 'Banking Services and Asset Ownership', 'Bank Account']
+  generic: [banking, finance, household, assets, services]
+
+- facet: topic
+  category: Assets
+  patterns: ['Asset Ownership', 'Amenities and Assets', 'Household Assets']
+  generic: [assets, ownership, household, amenities, property]
+
+- facet: topic
+  category: Education
+  patterns: ['Educational Level', 'Education Level', 'Education', 'Educational Institution', 'Completed Education Level']
+  generic: [education, literacy, learning, students, population]
+
+- facet: topic
+  category: Literacy
+  patterns: ['Literates', 'Number of Literates', 'Literacy', 'Literates Aged 7+', 'Literacy Level']
+  generic: [literacy, literates, education, population, learning]
+
+- facet: topic
+  category: Educational Institutions
+  patterns: ['Educational Institution', 'Attending Educational Institution', 'Type of Educational Institution']
+  generic: [education, institution, students, schooling, learning]
+
+- facet: topic
+  category: Marriage
+  patterns: ['Marital Status', 'Married Population', 'Currently Married', 'Ever Married', 'Age at Marriage', 'Duration of Marriage']
+  generic: [marriage, marital, family, population, demographic]
+
+- facet: topic
+  category: Fertility
+  patterns: ['Children Ever Born', 'Surviving Children', 'Births Last Year', 'Parity', 'Birth Order', 'Women and Ever Married Women']
+  generic: [fertility, births, children, women, population]
+
+- facet: topic
+  category: Women
+  patterns: ['Women', 'Female-Headed Households', 'Ever Married Women', 'Currently Married Women']
+  generic: [women, female, population, household, demographic]
+
+- facet: topic
+  category: Children
+  patterns: ['Children', 'Children Ever Born', 'Surviving Children', 'Births']
+  generic: [children, births, women, fertility, population]
+
+- facet: topic
+  category: Workforce
+  patterns: ['Workers', 'Main Workers', 'Marginal Workers', 'Other Workers', 'Work Participation']
+  generic: [workers, employment, workforce, occupation, labour]
+
+- facet: topic
+  category: Employment
+  patterns: ['Employment', 'Workers', 'Work Participation', 'Seeking Work', 'Available for Work']
+  generic: [employment, workers, labour, workforce, occupation]
+
+- facet: topic
+  category: Unemployment
+  patterns: ['Seeking/Available for Work', 'Seeking Work', 'Available for Work', 'Non-Workers Seeking']
+  generic: [employment, unemployment, workers, labour, workforce]
+
+- facet: topic
+  category: Non-Workers
+  patterns: ['Non-Workers', 'Non-workers by Main Activity', 'Non-Workers Seeking/Available for Work']
+  generic: [nonworkers, employment, labour, population, activity]
+
+- facet: topic
+  category: Economic Activity
+  patterns: ['Economic Activity', 'Main Activity', 'Non-Economic Activity', 'Economic Activity Status']
+  generic: [activity, employment, workers, economy, labour]
+
+- facet: topic
+  category: Occupation
+  patterns: ['Occupation', 'Industrial Classification', 'Household Industry', 'Class of Worker']
+  generic: [occupation, industry, workers, employment, labour]
+
+- facet: topic
+  category: Household Industry
+  patterns: ['Household Industry', 'Industrial Classification of Household Industry', 'Workers in Household Industry']
+  generic: [industry, household, workers, occupation, employment]
+
+- facet: topic
+  category: Workers Education
+  patterns: ['Workers by Educational Level', 'Workers by Education', 'Work by Education and Sex']
+  generic: [workers, education, employment, workforce, labour]
+
+- facet: topic
+  category: Travel to Work
+  patterns: ['Distance from Residence to Place of Work', 'Mode of Travel to Work', 'Distance and Mode of Travel']
+  generic: [travel, work, transport, workers, commuting]
+
+- facet: topic
+  category: Migration
+  patterns: ['Migration', 'Migrants', 'Migration by Place of Birth', 'Migration by Place of Last Residence']
+  generic: [migration, migrants, residence, population, mobility]
+
+- facet: topic
+  category: Village
+  patterns: ['Village Directory', 'Complete Villages Directory', 'Village-wise', 'Village Amenities']
+  generic: [village, rural, amenities, settlement, directory]
+
+- facet: topic
+  category: Town
+  patterns: ['Town Directory', 'Complete Town Directory', 'Town-wise', 'Town Amenities']
+  generic: [town, urban, amenities, settlement, directory]
+
+- facet: topic
+  category: Village Amenities
+  patterns: ['Village Amenities', 'Amenities for Villages', 'Village Facilities']
+  generic: [village, amenities, rural, facilities, infrastructure]
+
+- facet: topic
+  category: Town Amenities
+  patterns: ['Town Amenities', 'Amenities for Towns', 'Town Facilities']
+  generic: [town, amenities, urban, facilities, infrastructure]
+
+- facet: topic
+  category: Settlement
+  patterns: ['Village', 'Town', 'Urban', 'Rural', 'Settlement', 'Village/Town']
+  generic: [settlement, village, town, urban, rural]
+
+- facet: topic
+  category: Infrastructure
+  patterns: ['Amenities', 'Facilities', 'Infrastructure', 'Basic Facilities', 'Household Amenities']
+  generic: [infrastructure, facilities, amenities, services, development]
+
+- facet: topic
+  category: Demography
+  patterns: ['Demographic', 'Population Structure', 'Age Structure', 'Sex Composition', 'Demographic Indicators']
+  generic: [demographic, population, age, sex, statistics]
+
+- facet: topic
+  category: Social Development
+  patterns: ['Social Development', 'Social Services', 'Inclusive Services', 'Targeted Social Services']
+  generic: [social, development, inclusion, services, welfare]
+
+- facet: topic
+  category: Social Groups
+  patterns: ['Scheduled Castes', 'Scheduled Tribes', 'Caste', 'Tribe', 'Social Groups']
+  generic: [social, caste, tribe, SC,ST, inclusion]
+
+- facet: topic
+  category: Census
+  patterns: ['Census', 'Census 2001', 'Primary Census Abstract', 'Census Abstract']
+  generic: [census, population, demographic, enumeration]
+
+- facet: topic
+  category: Population
+  patterns: ['Population', 'Population Classified', 'Population Characteristics', 'Population by Age', 'Population by Sex']
+  generic: [population, demographic, persons, residents]
+
+- facet: topic
+  category: Demography
+  patterns: ['Demographic', 'Population Structure', 'Demographic Analysis', 'Demographic Characteristics']
+  generic: [demographic, population, statistics, structure]
+
+- facet: topic
+  category: Age
+  patterns: ['Age', 'Age Group', 'Age Groups', 'Single Year Age', 'Five Year Age Group', 'Age at Marriage']
+  generic: [age, ageing, demographic, population]
+
+- facet: topic
+  category: Sex
+  patterns: ['Sex', 'Male', 'Female', 'Male and Female', 'Sex-wise']
+  generic: [sex, male, female, gender]
+
+- facet: topic
+  category: Residence
+  patterns: ['Residence', 'Urban', 'Rural', 'Urban/Rural', 'Residence Type']
+  generic: [residence, urban, rural, settlement]
+
+- facet: topic
+  category: Workers
+  patterns: ['Workers', 'Main Workers', 'Marginal Workers', 'Main and Marginal Workers']
+  generic: [workers, workforce, labour, employment]
+
+- facet: topic
+  category: Main Workers
+  patterns: ['Main Workers', 'Main Worker', 'Main Workers Classified']
+  generic: [workers, employment, workforce, labour]
+
+- facet: topic
+  category: Marginal Workers
+  patterns: ['Marginal Workers', 'Marginal Worker', 'Marginal Workers Classified']
+  generic: [workers, employment, workforce, labour]
+
+- facet: topic
+  category: Non-Workers
+  patterns: ['Non-Workers', 'Non Workers', 'Non-Workers by Main Activity', 'Non-Workers Seeking']
+  generic: [nonworkers, labour, employment, population]
+
+- facet: topic
+  category: Employment
+  patterns: ['Employment', 'Seeking Work', 'Available for Work', 'Seeking/Available for Work', 'Work Participation']
+  generic: [employment, workers, labour, workforce]
+
+- facet: topic
+  category: Economic Activity
+  patterns: ['Economic Activity', 'Economic Activity Status', 'Main Activity', 'Non-Economic Activity']
+  generic: [activity, employment, workers, labour]
+
+- facet: topic
+  category: Occupation
+  patterns: ['Occupational Classification', 'Occupation', 'Occupational Classification of Main Workers']
+  generic: [occupation, workers, employment, labour]
+
+- facet: topic
+  category: Industrial Classification
+  patterns: ['Industrial Classification', 'Industrial Category', 'Industrial Classification of Workers', 'Industrial Category of Workers']
+  generic: [industry, workers, employment, occupation]
+
+- facet: topic
+  category: Household Industry
+  patterns: ['Household Industry', 'Workers in Household Industry', 'Industrial Classification in Household Industry', 'Household Industry Workers']
+  generic: [industry, household, workers, employment]
+
+- facet: topic
+  category: Non-Household Industry
+  patterns: ['Non-Household Industry', 'Non Household Industry', 'Non-Household Activities']
+  generic: [industry, workers, employment, workforce]
+
+- facet: topic
+  category: Manufacturing
+  patterns: ['Manufacturing', 'Manufacturing Activities', 'Manufacturing Workers']
+  generic: [manufacturing, industry, workers, production]
+
+- facet: topic
+  category: Processing
+  patterns: ['Processing', 'Processing Activities', 'Processing Workers']
+  generic: [processing, industry, workers, production]
+
+- facet: topic
+  category: Servicing
+  patterns: ['Servicing', 'Servicing Activities', 'Servicing Workers']
+  generic: [servicing, industry, workers, services]
+
+- facet: topic
+  category: Repairs
+  patterns: ['Repairs', 'Repair Services', 'Repair Activities']
+  generic: [repairs, servicing, industry, services]
+
+- facet: topic
+  category: Trade
+  patterns: ['Trade', 'Trade Activities', 'Trade Workers']
+  generic: [trade, business, employment, workers]
+
+- facet: topic
+  category: Business
+  patterns: ['Business', 'Business Activities', 'Business Workers']
+  generic: [business, trade, employment, workers]
+
+- facet: topic
+  category: Profession
+  patterns: ['Profession', 'Professional Activities', 'Professional Workers']
+  generic: [profession, employment, workers, occupation]
+
+- facet: topic
+  category: Services
+  patterns: ['Service', 'Services', 'Service Activities', 'Service Workers']
+  generic: [services, employment, workers, occupation]
+
+- facet: topic
+  category: Class of Worker
+  patterns: ['Class of Worker', 'Class of Worker and Sex', 'Worker Class', 'Worker Category']
+  generic: [workers, employment, labour, occupation]
+
+- facet: topic
+  category: Cultivators
+  patterns: ['Cultivators', 'Cultivator', 'Cultivators and Agricultural Labourers']
+  generic: [cultivators, agriculture, workers, labour]
+
+- facet: topic
+  category: Agricultural Labour
+  patterns: ['Agricultural Labourers', 'Agricultural Labour', 'Agricultural Labourers by Sex']
+  generic: [agriculture, labour, workers, employment]
+
+- facet: topic
+  category: Education
+  patterns: ['Education Level', 'Educational Level', 'Educational Institutions', 'Education', 'Attending Educational Institutions']
+  generic: [education, learning, students, schooling]
+
+- facet: topic
+  category: Literacy
+  patterns: ['Literates', 'Literacy', 'Literates Aged 7 Years and Above', 'Male Literates', 'Female Literates']
+  generic: [literacy, literates, education, population]
+
+- facet: topic
+  category: Higher Education
+  patterns: ['Graduate and Above', 'Education Level Graduate and Above', 'Graduates']
+  generic: [education, graduates, literacy, population]
+
+- facet: topic
+  category: School Attendance
+  patterns: ['Attending School', 'Children Attending School', 'School Attendance', 'Female Children Attending School']
+  generic: [school, education, children, students]
+
+- facet: topic
+  category: Educational Institutions
+  patterns: ['Educational Institution', 'Educational Institutions', 'Type of Educational Institution', 'Attending Educational Institution']
+  generic: [education, institution, schooling, students]
+
+- facet: topic
+  category: Disability
+  patterns: ['Disabled Population', 'Disabled Persons', 'Type of Disability', 'Disability', 'Disabled Females', 'Disabled Males']
+  generic: [disability, disabled, population, inclusion]
+
+- facet: topic
+  category: Households
+  patterns: ['Household', 'Households', 'Household Size', 'Household Members', 'Normal Households']
+  generic: [household, family, population, members]
+
+- facet: topic
+  category: Household Size
+  patterns: ['Household Size', 'Size of Household', 'Households by Size', 'Household Size and Dwelling Rooms']
+  generic: [household, family, size, population]
+
+- facet: topic
+  category: Housing
+  patterns: ['Census Houses', 'House Structure', 'Dwelling', 'Dwelling Rooms', 'Housing']
+  generic: [housing, house, dwelling, shelter]
+
+- facet: topic
+  category: Dwelling Rooms
+  patterns: ['Dwelling Rooms', 'Dwelling Rooms Available', 'Number of Dwelling Rooms', 'Household Size and Dwelling Rooms']
+  generic: [dwelling, rooms, household, housing]
+
+- facet: topic
+  category: Housing Ownership
+  patterns: ['Ownership Status of Census Houses', 'Ownership Status', 'House Ownership', 'Census Houses Occupied']
+  generic: [ownership, housing, household, property]
+
+- facet: topic
+  category: Drinking Water
+  patterns: ['Drinking Water', 'Source of Drinking Water', 'Drinking Water Source', 'Location of Drinking Water']
+  generic: [water, drinking, household, supply]
+
+- facet: topic
+  category: Electricity
+  patterns: ['Electricity', 'Electricity Availability', 'Electricity Facilities', 'Electricity Connection']
+  generic: [electricity, power, household, energy]
+
+- facet: topic
+  category: Lighting
+  patterns: ['Source of Lighting', 'Household Source of Lighting', 'Lighting']
+  generic: [lighting, electricity, household, energy]
+
+- facet: topic
+  category: Sanitation
+  patterns: ['Latrine', 'Latrine Availability', 'Latrine Type', 'Toilet Facilities', 'Toilet']
+  generic: [sanitation, latrine, toilet, household]
+
+- facet: topic
+  category: Bathroom
+  patterns: ['Bathroom Availability', 'Bathing Facility', 'Bathroom']
+  generic: [bathroom, sanitation, household, facilities]
+
+- facet: topic
+  category: Drainage
+  patterns: ['Waste Water Drainage', 'Wastewater Drainage', 'Drainage Connectivity', 'Drainage']
+  generic: [drainage, wastewater, sanitation, household]
+
+- facet: topic
+  category: Cooking Fuel
+  patterns: ['Cooking Fuel', 'Fuel Type', 'Cooking Fuel Type']
+  generic: [fuel, cooking, household, energy]
+
+- facet: topic
+  category: Kitchen
+  patterns: ['Separate Kitchen', 'Separate Kitchen Availability', 'Kitchen Availability']
+  generic: [kitchen, household, cooking, housing]
+
+- facet: topic
+  category: Banking
+  patterns: ['Banking Services', 'Households Availing Banking Services', 'Banking Services and Asset Ownership']
+  generic: [banking, finance, household, services]
+
+- facet: topic
+  category: Assets
+  patterns: ['Asset Ownership', 'Specified Assets', 'Household Assets', 'Assets Ownership']
+  generic: [assets, ownership, household, property]
+
+- facet: topic
+  category: Marriage
+  patterns: ['Marital Status', 'Married Population', 'Ever Married', 'Currently Married', 'Married Couples']
+  generic: [marriage, marital, family, population]
+
+- facet: topic
+  category: Age at Marriage
+  patterns: ['Age at Marriage', 'Married by Age at Marriage', 'Age at Marriage and Duration']
+  generic: [marriage, age, marital, demographic]
+
+- facet: topic
+  category: Married Couples
+  patterns: ['Married Couples', 'Married Couples in a Household', 'Married Couples with Independent Sleeping Room', 'Independent Sleeping Room']
+  generic: [marriage, couples, household, family]
+
+- facet: topic
+  category: Fertility
+  patterns: ['Children Ever Born', 'Ever Born Children', 'Surviving Children', 'Births']
+  generic: [fertility, births, children, women]
+
+- facet: topic
+  category: Children
+  patterns: ['Children', 'Children Aged 5-14', 'Female Children', 'Children Attending School']
+  generic: [children, population, education, family]
+
+- facet: topic
+  category: Religion
+  patterns: ['Religious Community', 'Religious Communities', 'Religion', 'Population by Religious Community']
+  generic: [religion, community, population, demographic]
+
+- facet: topic
+  category: Religious Communities
+  patterns: ['Details of Religious Communities', 'Religious Community by Age', 'Religious Community by Sex', 'Each Religious Community']
+  generic: [religion, community, population, social]
+
+- facet: topic
+  category: Sects and Beliefs
+  patterns: ['Sects', 'Beliefs', 'Religions Clubbed', 'Other Religions and Persuasions', 'Specific Religious Community']
+  generic: [religion, beliefs, community, social]
+
+- facet: topic
+  category: Scheduled Castes
+  patterns: ['Scheduled Castes', 'Scheduled Caste', 'SC Population', 'SC Households']
+  generic: [scheduled, caste, population, social]
+
+- facet: topic
+  category: Scheduled Tribes
+  patterns: ['Scheduled Tribes', 'Scheduled Tribe', 'ST Population', 'ST Households']
+  generic: [scheduled, tribe, population, social]
+
+- facet: topic
+  category: SC Households
+  patterns: ['Scheduled Caste Households', 'Households Belonging to Scheduled Castes', 'SC Households']
+  generic: [caste, household, scheduled, population]
+
+- facet: topic
+  category: ST Households
+  patterns: ['Scheduled Tribe Households', 'Households Belonging to Scheduled Tribes', 'ST Households']
+  generic: [tribe, household, scheduled, population]
+
+- facet: topic
+  category: Migration
+  patterns: ['Migrants', 'Migration', 'Migrants Classified', 'City-wise Migrants', 'Migrants within']
+  generic: [migration, migrants, mobility, residence]
+
+- facet: topic
+  category: Place of Birth
+  patterns: ['Place of Birth', 'Population Classified by Place of Birth', 'Persons Born and Enumerated']
+  generic: [birth, population, residence, migration]
+
+- facet: topic
+  category: Place of Last Residence
+  patterns: ['Place of Last Residence', 'Migrants by Place of Last Residence', 'Migration by Place of Last Residence']
+  generic: [migration, residence, migrants, mobility]
+
+- facet: topic
+  category: Duration of Residence
+  patterns: ['Duration of Residence', 'Duration of Residence 0-9 Years', 'Place of Last Residence and Duration']
+  generic: [residence, migration, duration, migrants]
+
+- facet: topic
+  category: Reason for Migration
+  patterns: ['Reason for Migration', 'Reason of Migration', 'Migration Reason', 'Work/Employment as Reason']
+  generic: [migration, migrants, employment, mobility]
+
+- facet: topic
+  category: Education
+  patterns: ['Education', 'Educational Level', 'Educational Institutions', 'Education Level by Age and Sex', 'Population Attending Educational Institutions']
+  generic: [education, learning, schooling, students]
+
+- facet: topic
+  category: Educational Institutions
+  patterns: ['Educational Institutions', 'Educational Institution', 'Type of Educational Institution', 'Institution Type', 'Attending Educational Institutions']
+  generic: [education, institution, schooling, students]
+
+- facet: topic
+  category: School Attendance
+  patterns: ['Attending School', 'Attending School/College', 'School/College', 'Population Attending Educational Institutions', 'Population Age 5-19 Attending School/College']
+  generic: [school, education, attendance, students]
+
+- facet: topic
+  category: Educational Level
+  patterns: ['Educational Level', 'Education Level', 'Educational Level by Age and Sex', 'Completed Education Level', 'Education Level Matriculation']
+  generic: [education, literacy, schooling, qualification]
+
+- facet: topic
+  category: Literacy
+  patterns: ['Literacy Status', 'Literates', 'Number of Literates', 'Literacy', 'Literates by Age and Sex']
+  generic: [literacy, literates, education, population]
+
+- facet: topic
+  category: Age
+  patterns: ['Age', 'Age Group', 'Age-Group', 'Single Year Age', 'Present Age', 'Age at Marriage']
+  generic: [age, demographic, population, statistics]
+
+- facet: topic
+  category: Sex
+  patterns: ['Sex', 'Male', 'Female', 'Age and Sex', 'Sex-wise']
+  generic: [sex, male, female, gender]
+
+- facet: topic
+  category: Population
+  patterns: ['Population', 'Population by Age', 'Population by Sex', 'Population Classified', 'Population Returns']
+  generic: [population, demographic, persons, residents]
+
+- facet: topic
+  category: Scheduled Castes
+  patterns: ['Scheduled Caste', 'Scheduled Castes', 'Scheduled Caste Population', 'SC Population', 'Each Caste Separately']
+  generic: [scheduled, caste, population, social]
+
+- facet: topic
+  category: Scheduled Tribes
+  patterns: ['Scheduled Tribe', 'Scheduled Tribes', 'Scheduled Tribe Population', 'ST Population', 'Each Tribe Separately']
+  generic: [scheduled, tribe, population, social]
+
+- facet: topic
+  category: SC Education
+  patterns: ['Scheduled Caste Population Attending Educational Institutions', 'Population Attending Educational Institutions for Scheduled Caste', 'Scheduled Caste Educational Level', 'Scheduled Caste Population Age 5-19 Attending School/College']
+  generic: [caste, education, schooling, population]
+
+- facet: topic
+  category: ST Education
+  patterns: ['Scheduled Tribe Population Attending Educational Institutions', 'Population Attending Educational Institutions for Scheduled Tribe', 'Scheduled Tribe Educational Level', 'Scheduled Tribe Population Age 5-19 Attending School/College']
+  generic: [tribe, education, schooling, population]
+
+- facet: topic
+  category: Workers
+  patterns: ['Main Workers', 'Marginal Workers', 'Main and Marginal Workers', 'Workers', 'Work Participation']
+  generic: [workers, workforce, labour, employment]
+
+- facet: topic
+  category: Non-Workers
+  patterns: ['Non-Workers', 'Non-workers', 'Non-Workers Seeking/Available for Work', 'Non-workers Seeking/Available for Work', 'Non-Workers and Seeking/Available for Work']
+  generic: [nonworkers, labour, employment, workforce]
+
+- facet: topic
+  category: Employment
+  patterns: ['Employment', 'Seeking/Available for Work', 'Seeking Available for Work', 'Work Participation', 'Economic Activity']
+  generic: [employment, workers, labour, workforce]
+
+- facet: topic
+  category: Economic Activity
+  patterns: ['Economic Activity', 'Economic Activity Status', 'Main Activity', 'Economic Activity by Age', 'Economic Activity by Sex']
+  generic: [activity, employment, workers, labour]
+
+- facet: topic
+  category: Main Workers
+  patterns: ['Main Workers', 'Main Worker', 'Main Workers Classified', 'Main Workers by Educational Level']
+  generic: [workers, employment, workforce, labour]
+
+- facet: topic
+  category: Marginal Workers
+  patterns: ['Marginal Workers', 'Marginal Worker', 'Marginal Workers by Main Activity', 'Marginal Workers by Industrial Category']
+  generic: [workers, employment, labour, workforce]
+
+- facet: topic
+  category: Worker Classification
+  patterns: ['Class of Worker', 'Worker Classification', 'Main Workers, Marginal Workers, Non-workers', 'Main Workers and Marginal Workers']
+  generic: [workers, employment, labour, occupation]
+
+- facet: topic
+  category: Occupation
+  patterns: ['Occupational Classification', 'Occupational Classification of Main Workers', 'Occupational Classification of Main and Marginal Workers', 'Occupation']
+  generic: [occupation, workers, employment, labour]
+
+- facet: topic
+  category: Industry
+  patterns: ['Industrial Classification', 'Industrial Category', 'Industrial Classification of Workers', 'Industrial Classification of Main Workers and Marginal Workers']
+  generic: [industry, workers, employment, production]
+
+- facet: topic
+  category: Manufacturing
+  patterns: ['Manufacturing', 'Manufacturing Workers', 'Manufacturing Activities', 'Industrial Classification in Manufacturing']
+  generic: [manufacturing, industry, production, workers]
+
+- facet: topic
+  category: Processing
+  patterns: ['Processing', 'Processing Workers', 'Processing Activities', 'Industrial Classification in Processing']
+  generic: [processing, industry, production, workers]
+
+- facet: topic
+  category: Servicing
+  patterns: ['Servicing', 'Servicing Workers', 'Servicing Activities', 'Industrial Classification in Servicing']
+  generic: [servicing, services, industry, workers]
+
+- facet: topic
+  category: Repairs
+  patterns: ['Repairs', 'Repair Activities', 'Repair Workers', 'Industrial Classification in Repairs']
+  generic: [repairs, servicing, industry, workers]
+
+- facet: topic
+  category: Trade
+  patterns: ['Trade', 'Trade Workers', 'Trade Activities', 'Non-Household Industry, Trade']
+  generic: [trade, business, employment, workers]
+
+- facet: topic
+  category: Business
+  patterns: ['Business', 'Business Activities', 'Business Workers', 'Non-Household Industry, Trade, Business']
+  generic: [business, trade, employment, workers]
+
+- facet: topic
+  category: Profession
+  patterns: ['Profession', 'Professional Workers', 'Professional Activities', 'Non-Household Industry, Trade, Business, Profession']
+  generic: [profession, occupation, employment, workers]
+
+- facet: topic
+  category: Services
+  patterns: ['Service', 'Services', 'Service Workers', 'Service Activities']
+  generic: [services, employment, workers, occupation]
+
+- facet: topic
+  category: Agricultural Workers
+  patterns: ['Cultivators', 'Agricultural Labourers', 'Agricultural Labour', 'Cultivators and Agricultural Labourers']
+  generic: [agriculture, cultivators, labour, workers]
+
+- facet: topic
+  category: Household Industry
+  patterns: ['Household Industry', 'Household Industry Workers', 'Workers in Household Industry', 'Industrial Classification in Household Industry']
+  generic: [household, industry, workers, employment]
+
+- facet: topic
+  category: Non-Household Industry
+  patterns: ['Non-Household Industry', 'Non-Household Industry, Trade, Business', 'Non-Household Industry, Trade, Business, Profession or Service']
+  generic: [industry, business, employment, workers]
+
+- facet: topic
+  category: Migration
+  patterns: ['Migration', 'Migrants', 'Migrants by Place of Last Residence', 'Migrants Classified']
+  generic: [migration, migrants, mobility, residence]
+
+- facet: topic
+  category: Place of Birth
+  patterns: ['Place of Birth', 'Population Classified by Place of Birth', 'Persons Born and Enumerated']
+  generic: [birth, population, residence, migration]
+
+- facet: topic
+  category: Place of Last Residence
+  patterns: ['Place of Last Residence', 'Migrants by Place of Last Residence', 'Migration by Place of Last Residence']
+  generic: [migration, residence, migrants, mobility]
+
+- facet: topic
+  category: Duration of Residence
+  patterns: ['Duration of Residence', 'Place of Last Residence and Duration', 'Duration']
+  generic: [residence, migration, duration, migrants]
+
+- facet: topic
+  category: Religion
+  patterns: ['Religion', 'Religious Community', 'Religious Communities', 'Population by Religious Community']
+  generic: [religion, community, population, social]
+
+- facet: topic
+  category: Religious Communities
+  patterns: ['Religious Communities', 'Religious Community', 'District-wise Religious Community', 'Population by Religious Communities', 'Marital Status by Religious Communities']
+  generic: [religion, community, population, social]
+
+- facet: topic
+  category: Religious Community Demographics
+  patterns: ['Religious Community by Age', 'Religious Community by Sex', 'Religious Community by Age-Group and Sex', 'Population by Religious Community']
+  generic: [religion, population, demographic, community]
+
+- facet: topic
+  category: Mother Tongue
+  patterns: ['Mother Tongue', 'Population by Mother Tongue', 'City-wise Population by Mother Tongue', 'Tehsil-wise Population by Mother Tongue']
+  generic: [language, mother tongue, population, linguistic]
+
+- facet: topic
+  category: Bilingualism
+  patterns: ['Bilingualism', 'Bilingualism and Trilingualism', 'Population by Bilingualism']
+  generic: [language, bilingualism, multilingual, population]
+
+- facet: topic
+  category: Trilingualism
+  patterns: ['Trilingualism', 'Bilingualism, Trilingualism', 'Population by Bilingualism, Trilingualism']
+  generic: [language, trilingualism, multilingual, population]
+
+- facet: topic
+  category: Disability
+  patterns: ['Disability', 'Disabled Population', 'Type of Disability', 'Disabled Persons']
+  generic: [disability, disabled, population, inclusion]
+
+- facet: topic
+  category: Disability and Education
+  patterns: ['Disabled Population Attending Educational Institutions', 'Disabled Population Aged 5-19 Attending Educational Institutions', 'Disabled Population in Ages 5-19 Attending Educational Institutions']
+  generic: [disability, education, students, inclusion]
+
+- facet: topic
+  category: Disability and Employment
+  patterns: ['Disabled Population among Main Workers', 'Disabled Population among Main Workers, Marginal Workers, Non-Workers', 'Disabled Non-workers']
+  generic: [disability, workers, employment, inclusion]
+
+- facet: topic
+  category: Marital Status
+  patterns: ['Marital Status', 'Marital Status by Religious Communities', 'Ever Married', 'Currently Married']
+  generic: [marriage, marital, population, demographic]
+
+- facet: topic
+  category: Marriage
+  patterns: ['Marriage', 'Married Population', 'Ever Married Population', 'Currently Married Population']
+  generic: [marriage, marital, family, population]
+
+- facet: topic
+  category: Age at Marriage
+  patterns: ['Age at Marriage', 'Ever Married and Currently Married Population by Age at Marriage', 'Age at Marriage, Duration']
+  generic: [marriage, age, marital, demographic]
+
+- facet: topic
+  category: Marriage Duration
+  patterns: ['Duration of Marriage', 'Age at Marriage, Duration', 'Marriage Duration']
+  generic: [marriage, duration, marital, demographic]
+
+- facet: topic
+  category: Women
+  patterns: ['Women', 'Number of Women', 'Female Population', 'Women by Present Age']
+  generic: [women, female, population, demographic]
+
+- facet: topic
+  category: Ever Married Women
+  patterns: ['Ever Married Women', 'Number of Women and Ever Married Women', 'Women and Ever Married Women']
+  generic: [women, marriage, fertility, demographic]
+
+- facet: topic
+  category: Currently Married Women
+  patterns: ['Currently Married Women', 'Number of Women and Currently Married Women', 'Women and Currently Married Women']
+  generic: [women, marriage, fertility, demographic]
+
+- facet: topic
+  category: Fertility
+  patterns: ['Children Ever Born', 'Births Last Year', 'Birth Order', 'Fertility', 'Women and Children Ever Born']
+  generic: [fertility, births, children, women]
+
+- facet: topic
+  category: Children
+  patterns: ['Children', 'Children Ever Born', 'Surviving Children', 'Children Ever Born and Surviving Children']
+  generic: [children, fertility, family, women]
+
+- facet: topic
+  category: Births
+  patterns: ['Births', 'Births Last Year', 'Number of Births', 'Births by Age and Birth Order']
+  generic: [births, fertility, children, women]
+
+- facet: topic
+  category: Surviving Children
+  patterns: ['Surviving Children', 'Children Ever Born and Surviving Children', 'Women and Ever Married Women by Present Age and Surviving Children']
+  generic: [children, fertility, women, population]
+
+- facet: topic
+  category: Households
+  patterns: ['Households', 'Household Size', 'Household Members', 'Households by Religion', 'Households by Marital Status']
+  generic: [household, family, population, members]
+
+- facet: topic
+  category: Household Size
+  patterns: ['Household Size', 'Households by Household Size', 'Households with Members', 'Household Size by Sex']
+  generic: [household, family, size, population]
+
+- facet: topic
+  category: Household Composition
+  patterns: ['Household Composition', 'Household Members', 'Households by Marital Status, Sex and Age', 'Households with Members Aged 15 Years and Above']
+  generic: [household, family, members, population]
+
+- facet: topic
+  category: Household Religion
+  patterns: ['Households by Religion', 'Religion of the Head of the Household', 'Households by Number of Literates, Religion of the Head']
+  generic: [household, religion, family, population]
+
+- facet: topic
+  category: Household Literacy
+  patterns: ['Households by Number of Literates', 'Households with Literates', 'Household Literacy']
+  generic: [household, literacy, education, population]
+
+- facet: topic
+  category: Housing
+  patterns: ['Census Houses', 'Housing', 'Census Houses Used as Residence', 'House Structure']
+  generic: [housing, house, dwelling, shelter]
+
+- facet: topic
+  category: Census Houses
+  patterns: ['Census Houses', 'Census Houses Occupied', 'Census Houses Used as Residence', 'Uses of Census Houses']
+  generic: [housing, census, dwelling, residence]
+
+- facet: topic
+  category: Housing Structure
+  patterns: ['Type of Census Houses', 'Type of Structure', 'Structure of Census Houses', 'Census Houses by Type of Structure']
+  generic: [housing, structure, dwelling, residence]
+
+- facet: topic
+  category: Housing Condition
+  patterns: ['Condition of Census Houses', 'Condition of Census Houses Occupied', 'House Condition']
+  generic: [housing, condition, dwelling, household]
+
+- facet: topic
+  category: Housing Material
+  patterns: ['Predominant Material', 'Predominant Material of Roof', 'Predominant Material of Wall', 'Predominant Material of Floor']
+  generic: [housing, material, construction, dwelling]
+
+- facet: topic
+  category: Roof Material
+  patterns: ['Predominant Material of Roof', 'Predominant Roof Material', 'Roof Material']
+  generic: [roof, housing, material, construction]
+
+- facet: topic
+  category: Wall Material
+  patterns: ['Predominant Material of Wall', 'Predominant Wall Material', 'Wall Material']
+  generic: [wall, housing, material, construction]
+
+- facet: topic
+  category: Floor Material
+  patterns: ['Predominant Material of Floor', 'Predominant Floor Material', 'Floor Material']
+  generic: [floor, housing, material, construction]
+
+- facet: topic
+  category: Residence
+  patterns: ['Residence', 'Residence-cum-other Use', 'Used as Residence', 'Residence Status']
+  generic: [residence, housing, household, dwelling]
+
+- facet: topic
+  category: Houseless Households
+  patterns: ['Houseless Households', 'Houseless Household', 'Houseless Households by Household Size']
+  generic: [houseless, household, housing, population]
+
+- facet: topic
+  category: Aged Persons
+  patterns: ['Aged Persons', 'Persons 60 Years and Above', 'Households with Aged Persons', 'Aged Persons 60 Years and Above']
+  generic: [ageing, elderly, population, household]
+
+- facet: topic
+  category: Social Groups
+  patterns: ['Social Groups', 'Scheduled Castes', 'Scheduled Tribes', 'Caste', 'Tribe']
+  generic: [social, caste, tribe, population]
+- facet: topic
+  category: Main Workers
+  patterns: ['Main Workers', 'Main Worker', 'Main Workers by Age and Sex', 'Main Workers by Industrial Category', 'Main Workers Classified by Industrial Category']
+  generic: [workers, employment, workforce, labour]
+
+- facet: topic
+  category: Marginal Workers
+  patterns: ['Marginal Workers', 'Marginal Worker', 'Marginal Workers by Industrial Category', 'Marginal Workers by Age and Sex', 'Marginal Workers Classified by Industrial Category']
+  generic: [workers, employment, workforce, labour]
+
+- facet: topic
+  category: Non-Workers
+  patterns: ['Non-Workers', 'Non Workers', 'Non-worker', 'Non-workers by Main Activity', 'Non-Workers by Main Activity']
+  generic: [nonworkers, employment, labour, population]
+
+- facet: topic
+  category: Job Seekers
+  patterns: ['Job-seekers', 'Job Seekers', 'Non-workers Seeking/Available for Work', 'Seeking/Available for Work', 'Those Seeking/Available for Work']
+  generic: [employment, jobs, workers, labour]
+
+- facet: topic
+  category: Workforce
+  patterns: ['Main Workers, Marginal Workers, Non-workers', 'Main Workers, Marginal Workers, Non-workers and Non-workers Seeking/Available for Work', 'Workers and Non-workers']
+  generic: [workforce, employment, workers, labour]
+
+- facet: topic
+  category: Labour Force
+  patterns: ['Labour Force', 'Labour-force', 'Labour Force Analysis', 'Labour-force Analysis', 'Labour Force Participation']
+  generic: [labour, workforce, employment, workers]
+
+- facet: topic
+  category: Work Participation
+  patterns: ['Work Participation', 'Work Participation Rate', 'Work Participation by Age and Sex', 'Workforce Participation']
+  generic: [employment, workforce, labour, workers]
+
+- facet: topic
+  category: Economic Activity
+  patterns: ['Main Activity', 'Non Workers by Main Activity', 'Economic Activity', 'Economic Activity Status']
+  generic: [activity, employment, workers, labour]
+
+- facet: topic
+  category: Industrial Classification
+  patterns: ['Industrial Category', 'Industrial Classification', 'Main Workers by Industrial Category', 'Marginal Workers by Industrial Category', 'Classified by Industrial Category']
+  generic: [industry, employment, workers, occupation]
+
+- facet: topic
+  category: Agricultural Workers
+  patterns: ['Cultivators', 'Agricultural Labourers', 'Cultivators and Agricultural Labourers', 'Main Workers Other Than Cultivators and Agricultural Labourers']
+  generic: [agriculture, cultivators, labour, workers]
+
+- facet: topic
+  category: Cultivators
+  patterns: ['Cultivators', 'Cultivator', 'Main Workers Classified as Cultivators', 'Cultivators by Age and Sex']
+  generic: [cultivators, agriculture, workers, farming]
+
+- facet: topic
+  category: Agricultural Labour
+  patterns: ['Agricultural Labourers', 'Agricultural Labour', 'Agricultural Labourers by Age and Sex', 'Main Workers Classified as Agricultural Labourers']
+  generic: [agriculture, labour, workers, farming]
+
+- facet: topic
+  category: Non-Agricultural Workers
+  patterns: ['Main Workers Other Than Cultivators and Agricultural Labourers', 'Main Workers Excluding Cultivators and Agricultural Labourers', 'Workers Other Than Cultivators and Agricultural Labourers']
+  generic: [workers, industry, employment, labour]
+
+- facet: topic
+  category: Education and Employment
+  patterns: ['Main Workers by Age, Sex and Educational Level', 'Main Workers by Industrial Category, Educational Level and Sex', 'Marginal Workers by Industrial Category, Educational Level and Sex', 'Non Workers by Main Activity, Educational Level and Sex']
+  generic: [education, employment, workers, workforce]
+
+- facet: topic
+  category: Educational Level
+  patterns: ['Educational Level', 'Education', 'Age, Sex and Educational Level Population', 'Educational Level Population', 'Educational Level and Sex']
+  generic: [education, learning, population, schooling]
+
+- facet: topic
+  category: Population
+  patterns: ['Population', 'Population by Age, Sex and Educational Level', 'Age, Sex and Educational Level Population', 'Population Characteristics']
+  generic: [population, demographic, persons, statistics]
+
+- facet: topic
+  category: Age
+  patterns: ['Age', 'Age Group', 'Age-wise', 'by Age', 'Age and Sex']
+  generic: [age, demographic, population, statistics]
+
+- facet: topic
+  category: Sex
+  patterns: ['Sex', 'Sex-wise', 'by Sex', 'Age and Sex', 'Educational Level and Sex']
+  generic: [sex, male, female, gender]
+
+- facet: topic
+  category: Age and Sex
+  patterns: ['Age and Sex', 'Age, Sex', 'by Age and Sex', 'Age and Sex Distribution', 'Age-wise and Sex-wise']
+  generic: [age, sex, demographic, population]
+
+- facet: topic
+  category: Rural Population
+  patterns: ['Rural', 'Rural Population', 'Main Workers by Age, Sex and Educational Level - Rural', 'Educational Level - Rural']
+  generic: [rural, population, workers, demographic]
+
+- facet: topic
+  category: Urban Population
+  patterns: ['Urban', 'Urban Population', 'Main Workers by Age, Sex and Educational Level - Urban', 'Educational Level Population - Urban']
+  generic: [urban, population, workers, demographic]
+
+- facet: topic
+  category: Education and Workforce
+  patterns: ['Education-wise Workforce', 'Education-wise Workforce Composition', 'Education-wise Workforce Participation', 'Education-wise Workforce Profiling']
+  generic: [education, workforce, employment, workers]
+
+- facet: topic
+  category: Employment by Industry
+  patterns: ['Sector-wise Employment', 'Sector-wise Workforce', 'Employment Structure', 'Workforce Structure', 'Industrial Category']
+  generic: [employment, industry, workforce, workers]
+
+- facet: topic
+  category: Non-Workers Seeking Employment
+  patterns: ['Non-Workers Seeking/Available for Work', 'Non-workers Seeking/Available for Work', 'Non-Workers Seeking/Available for Work and Never Worked Before', 'Those Seeking/Available for Work']
+  generic: [employment, jobseekers, labour, workforce]
+
+- facet: topic
+  category: First-Time Job Seekers
+  patterns: ['Never Worked Before', 'Non-Workers Seeking/Available for Work and Never Worked Before', 'Non-workers Seeking/Available for Work and Those Who Never Worked Before']
+  generic: [employment, jobseekers, labour, workforce]
+
+- facet: topic
+  category: School Attendance
+  patterns: ['School Attendance', 'Attending School', 'Attending School or College', 'Population Attending School or College', 'School Attendance and Economic Activity']
+  generic: [education, schooling, students, population]
+
+- facet: topic
+  category: School or College Attendance
+  patterns: ['Population Attending School or College', 'Population Attending School or College by Completed Level of Education', 'Attending School or College']
+  generic: [education, schooling, students, population]
+
+- facet: topic
+  category: Educational Level
+  patterns: ['Completed Level of Education', 'Educational Level', 'by Completed Level of Education', 'Educational Level of Population', 'Population by Educational Level']
+  generic: [education, learning, schooling, population]
+
+- facet: topic
+  category: Education Participation
+  patterns: ['Education Participation', 'Schooling Participation', 'Education Participation Patterns', 'Monitoring of Schooling Participation']
+  generic: [education, schooling, participation, students]
+
+- facet: topic
+  category: Population
+  patterns: ['Population', 'Population Counts', 'Population Distribution', 'Population Characteristics', 'Population Returns']
+  generic: [population, demographic, census, statistics]
+
+- facet: topic
+  category: Age
+  patterns: ['Age', 'Age-wise', 'Single Year of Age', 'Single Year Age Returns', 'Population by Single Year Age', 'by Age']
+  generic: [age, demographic, population, statistics]
+
+- facet: topic
+  category: Age Structure
+  patterns: ['Age Structure', 'Population by Single Year Age Returns', 'Population by Single Year Age', 'Single Year Age Returns']
+  generic: [age, population, demographic, census]
+
+- facet: topic
+  category: Sex
+  patterns: ['Sex', 'by Sex', 'Population by Sex', 'Distribution by Sex', 'Sex-wise']
+  generic: [sex, gender, population, demographic]
+
+- facet: topic
+  category: Age and Sex
+  patterns: ['Age, Sex', 'Age and Sex', 'by Age and Sex', 'Age, Sex and Marital Status', 'Age, Sex and Level of Education']
+  generic: [age, sex, demographic, population]
+
+- facet: topic
+  category: Economic Activity
+  patterns: ['Economic Activity', 'School Attendance and Economic Activity', 'Economic Activity Indicators', 'Economic Activity Status']
+  generic: [employment, labour, workforce, activity]
+
+- facet: topic
+  category: Workforce
+  patterns: ['Main Workers', 'Marginal Workers', 'Main and Marginal Workers', 'Workers', 'Workforce']
+  generic: [workers, employment, labour, workforce]
+
+- facet: topic
+  category: Main Workers
+  patterns: ['Main Workers', 'Main Worker', 'Industrial Classification of Main Workers', 'Main Workers Classified by Industrial Category']
+  generic: [workers, employment, labour, workforce]
+
+- facet: topic
+  category: Marginal Workers
+  patterns: ['Marginal Workers', 'Marginal Worker', 'Industrial Classification of Marginal Workers', 'Marginal Workers Classified by Industrial Category']
+  generic: [workers, employment, labour, workforce]
+
+- facet: topic
+  category: Industrial Classification
+  patterns: ['Industrial Classification', 'Industrial Classification of Main and Marginal Workers', 'Industrial Category', 'Classified by Industrial Category', 'Industrial Classification of Main and Marginal Workers in Manufacturing, Processing, Servicing and Repairs']
+  generic: [industry, employment, workers, occupation]
+
+- facet: topic
+  category: Non-Workers
+  patterns: ['Non-Workers', 'Non Workers', 'Non-workers', 'Non-Workers Seeking/Available for Work']
+  generic: [nonworkers, employment, labour, population]
+
+- facet: topic
+  category: Job Seekers
+  patterns: ['Job Seekers', 'Seeking/Available for Work', 'Non-Workers Seeking/Available for Work', 'Non-workers Seeking/Available for Work']
+  generic: [employment, jobseekers, labour, workforce]
+
+- facet: topic
+  category: First-Time Job Seekers
+  patterns: ['Never Worked Before', 'Non-Workers Seeking/Available for Work and Never Worked Before', 'Non-workers Seeking/Available for Work and Those Who Never Worked Before']
+  generic: [employment, jobseekers, labour, workforce]
+
+- facet: topic
+  category: Scheduled Castes
+  patterns: ['Scheduled Caste', 'Scheduled Caste Population', 'Distribution of Scheduled Caste Population', 'Scheduled Caste Population by Sex']
+  generic: [scheduled caste, caste, population, social]
+
+- facet: topic
+  category: Scheduled Tribes
+  patterns: ['Scheduled Tribe', 'Scheduled Tribes', 'Scheduled Tribe Population', 'Scheduled Tribes Population', 'Distribution of Scheduled Tribe Population']
+  generic: [scheduled tribe, tribe, population, social]
+
+- facet: topic
+  category: Scheduled Caste Demographics
+  patterns: ['Scheduled Caste Population by Sex', 'Distribution of Scheduled Caste Population by Sex', 'Scheduled Caste Population by Age']
+  generic: [scheduled caste, caste, demographic, population]
+
+- facet: topic
+  category: Scheduled Tribe Demographics
+  patterns: ['Scheduled Tribe Population by Sex', 'Distribution of Scheduled Tribe Population by Sex', 'Scheduled Tribes Population by Age', 'Age, Sex and Marital Status for Scheduled Tribes']
+  generic: [scheduled tribe, tribe, demographic, population]
+
+- facet: topic
+  category: Scheduled Tribe Religion
+  patterns: ['Religion Wise Population of Scheduled Tribes', 'Other Religions and Persuasions wise Population of Scheduled Tribes', 'Other Religions and Persuasions Wise Population of Scheduled Tribes']
+  generic: [scheduled tribe, religion, population, demographic]
+
+- facet: topic
+  category: Religion
+  patterns: ['Religion Wise Population', 'Religion-wise Population', 'Religion and Persuasion', 'Religions and Persuasions', 'Other Religions and Persuasions']
+  generic: [religion, population, demographic, social]
+
+- facet: topic
+  category: Mother Tongue
+  patterns: ['Mother Tongue', 'Mother Tongue Wise', 'Mother Tongue Wise Number of Speakers', 'Number of Speakers of Scheduled Tribes']
+  generic: [language, mother tongue, speakers, population]
+
+- facet: topic
+  category: Tribal Languages
+  patterns: ['Mother Tongue Wise Number of Speakers of Scheduled Tribes', 'Mother Tongue Wise Number of Speakers', 'Tribal Linguistic Distribution']
+  generic: [language, tribe, speakers, population]
+
+- facet: topic
+  category: Marital Status
+  patterns: ['Marital Status', 'Age, Sex and Marital Status', 'Ever Married', 'Currently Married', 'Ever Married and Currently Married Women']
+  generic: [marriage, marital, women, population]
+
+- facet: topic
+  category: Marriage
+  patterns: ['Age at Marriage', 'Duration of Marriage', 'Age at Marriage and Duration', 'Marriage Patterns', 'Ever Married Women']
+  generic: [marriage, women, demographic, family]
+
+- facet: topic
+  category: Age at Marriage
+  patterns: ['Age at Marriage', 'Age at Marriage and Duration of Marriage', 'Ever Married Women by Age at Marriage', 'Currently Married Women by Age at Marriage']
+  generic: [marriage, women, age, demographic]
+
+- facet: topic
+  category: Marriage Duration
+  patterns: ['Duration of Marriage', 'Age at Marriage and Duration', 'Age at Marriage and Duration of Marriage', 'Duration of Marriage among Scheduled Tribes']
+  generic: [marriage, duration, women, demographic]
+
+- facet: topic
+  category: Fertility
+  patterns: ['Births during Last Year', 'Children Ever Born', 'Parity', 'Birth Order', 'Total Children Ever Born']
+  generic: [fertility, births, women, population]
+
+- facet: topic
+  category: Fertility and Parity
+  patterns: ['Parity and Children Ever Born', 'Age, Parity and Children Ever Born', 'Births during Last Year', 'Birth Order', 'Total Children Ever Born']
+  generic: [fertility, parity, births, women]
+
+- facet: topic
+  category: Women
+  patterns: ['Women', 'Ever Married Women', 'Currently Married Women', 'Ever Married and Currently Married Women', 'Women belonging to Scheduled Tribes']
+  generic: [women, marriage, population, demographic]
+
+- facet: topic
+  category: Women and Scheduled Tribes
+  patterns: ['Women belonging to Scheduled Tribes', 'Currently Married Women belonging to Scheduled Tribes', 'Ever Married Women and Currently Married Women by Age at Marriage among Scheduled Tribes', 'Ever Married Women by Age at Marriage and Duration of Marriage among Scheduled Tribes']
+  generic: [women, scheduled tribe, marriage, population]
+
+- facet: topic
+  category: Education and Economic Activity
+  patterns: ['School Attendance and Economic Activity', 'Educational Level and Economic Activity', 'Education and Economic Activity', 'School Attendance and Economic Activity Indicators']
+  generic: [education, employment, labour, population]
+
+- facet: topic
+  category: Education and Workforce
+  patterns: ['Educational Level and Sex', 'Main Workers Classified by Industrial Category, Educational Level and Sex', 'Marginal Workers Classified by Industrial Category, Educational Level and Sex', 'Non-Workers Seeking/Available for Work and Never Worked before by Age, Sex, Education']
+  generic: [education, workforce, employment, workers]
+
+- facet: topic
+  category: Rural Population
+  patterns: ['- Rural', 'Rural Population', 'Population Attending School or College - Rural', 'Completed Level of Education - Rural']
+  generic: [rural, population, demographic, education]
+
+- facet: topic
+  category: Urban Population
+  patterns: ['- Urban', 'Urban Population', 'Population Attending School or College - Urban', 'Completed Level of Education - Urban']
+  generic: [urban, population, demographic, education]
+
+- facet: topic
+  category: Scheduled Caste
+  patterns: ['Scheduled Caste', 'Scheduled Castes', 'Scheduled Caste Population', 'Population of Scheduled Castes']
+  generic: [scheduled caste, caste, population, demographic]
+
+- facet: topic
+  category: Scheduled Caste Youth
+  patterns: ['Scheduled Caste Population (Ages 5-19)', 'Scheduled Caste Population aged 5-19', 'Scheduled Caste Population (Ages 5-19) by Single Year of Age']
+  generic: [scheduled caste, youth, population, demographic]
+
+- facet: topic
+  category: Age
+  patterns: ['Single Year of Age', 'Single Year Age', 'by Age', 'Present Age', 'Ages 5-19']
+  generic: [age, population, demographic, census]
+
+- facet: topic
+  category: School Attendance
+  patterns: ['School Attendance', 'School Attendance and Economic Activity', 'Population by School Attendance', 'School Attendance Indicators']
+  generic: [education, schooling, students, attendance]
+
+- facet: topic
+  category: Economic Activity
+  patterns: ['Economic Activity', 'Economic Activity Indicators', 'Economic Activity Categories', 'School Attendance and Economic Activity']
+  generic: [employment, labour, workforce, activity]
+
+- facet: topic
+  category: Education and Workforce
+  patterns: ['School Attendance and Economic Activity', 'Education and Work Participation', 'Education and Workforce Participation', 'Education and Labour Participation']
+  generic: [education, employment, labour, workforce]
+
+- facet: topic
+  category: Workforce
+  patterns: ['Main Workers', 'Marginal Workers', 'Main Workers and Marginal Workers', 'Main Workers, Marginal Workers, Non Workers']
+  generic: [workers, employment, labour, workforce]
+
+- facet: topic
+  category: Main Workers
+  patterns: ['Main Workers', 'Main Workers by Age', 'Main Workers by Age, Industrial Category and Sex', 'Main Workers by Age, Industrial Category, Sex and Religious Community']
+  generic: [workers, employment, labour, workforce]
+
+- facet: topic
+  category: Marginal Workers
+  patterns: ['Marginal Workers', 'Marginal Workers by Age', 'Marginal Workers by Industrial Category', 'Marginal Workers by Industrial Category, Age and Sex']
+  generic: [workers, employment, labour, workforce]
+
+- facet: topic
+  category: Non-Workers
+  patterns: ['Non Workers', 'Non-Workers', 'Non Workers and Seeking/Available for Work', 'Main Workers, Marginal Workers, Non Workers']
+  generic: [nonworkers, employment, labour, workforce]
+
+- facet: topic
+  category: Job Seekers
+  patterns: ['Seeking/Available for Work', 'Seeking/Available for Work by Age', 'Non Workers and Seeking/Available for Work', 'Those Seeking/Available for Work']
+  generic: [employment, jobseekers, labour, workforce]
+
+- facet: topic
+  category: First-Time Job Seekers
+  patterns: ['Never Worked Before', 'Non-Workers Seeking/Available for Work and Never Worked Before', 'Non-workers Seeking/Available for Work and Those Who Never Worked Before']
+  generic: [employment, jobseekers, labour, workforce]
+
+- facet: topic
+  category: Industrial Classification
+  patterns: ['Industrial Classification', 'Industrial Category', 'Industrial Classification of Main Workers and Marginal Workers', 'Classified by Industrial Category']
+  generic: [industry, employment, workers, occupation]
+
+- facet: topic
+  category: Workforce by Industry
+  patterns: ['Main Workers by Age, Industrial Category and Sex', 'Marginal Workers by Industrial Category, Age and Sex', 'Main Workers by Age, Industrial Category, Sex and Religious Community']
+  generic: [industry, workers, employment, workforce]
+
+- facet: topic
+  category: Scheduled Tribe Workforce
+  patterns: ['Main Workers by Age, Industrial Category and Sex for Scheduled Tribe', 'Marginal Workers by Industrial Category, Age and Sex for Scheduled Tribes', 'Industrial Classification of Main Workers and Marginal Workers for Scheduled Tribe']
+  generic: [scheduled tribe, workers, employment, labour]
+
+- facet: topic
+  category: Scheduled Tribe
+  patterns: ['Scheduled Tribe', 'Scheduled Tribes', 'Scheduled Tribe Population', 'Scheduled Tribes Population']
+  generic: [scheduled tribe, tribe, population, demographic]
+
+- facet: topic
+  category: Religion
+  patterns: ['Religion', 'Religious Community', 'Religion Wise Population', 'by Religious Community', 'Religion, 2011']
+  generic: [religion, population, demographic, social]
+
+- facet: topic
+  category: Religion and Workforce
+  patterns: ['Main Workers by Age, Industrial Category, Sex and Religious Community', 'Main Workers, Marginal Workers, Non Workers and Seeking/Available for Work by Age, Sex and Religious Community', 'Workers by Age, Sex and Religious Community']
+  generic: [religion, employment, workforce, population]
+
+- facet: topic
+  category: Mother Tongue
+  patterns: ['Mother Tongue', 'Population by Mother Tongue', 'Population by Mother Tongue, 2011', 'by Mother Tongue']
+  generic: [language, mother tongue, speakers, population]
+
+- facet: topic
+  category: Marital Status
+  patterns: ['Marital Status', 'Ever Married', 'Currently Married', 'Ever Married and Currently Married Women']
+  generic: [marriage, marital, women, demographic]
+
+- facet: topic
+  category: Marriage
+  patterns: ['Ever Married', 'Currently Married', 'Ever Married and Currently Married Women', 'Marriage Patterns']
+  generic: [marriage, marital, women, family]
+
+- facet: topic
+  category: Fertility
+  patterns: ['Parity', 'Children Ever Born', 'Total Children Ever Born', 'Ever Married and Currently Married Women by Age, Parity and Children Ever Born']
+  generic: [fertility, births, women, demographic]
+
+- facet: topic
+  category: Parity
+  patterns: ['Parity', 'by Parity', 'Age, Parity and Children Ever Born', 'Present Age, Parity and Total Children Ever Born']
+  generic: [parity, fertility, women, births]
+
+- facet: topic
+  category: Children Ever Born
+  patterns: ['Children Ever Born', 'Total Children Ever Born', 'Children Ever Born by Sex', 'Parity and Children Ever Born']
+  generic: [children, fertility, births, women]
+
+- facet: topic
+  category: Surviving Children
+  patterns: ['Surviving Children', 'Number of Surviving Children', 'Ever Married and Currently Married Women by Age, Surviving Children and Sex']
+  generic: [children, fertility, women, demographic]
+
+- facet: topic
+  category: Women
+  patterns: ['Women', 'Ever Married Women', 'Currently Married Women', 'Ever Married and Currently Married Women']
+  generic: [women, marriage, fertility, demographic]
+
+- facet: topic
+  category: Women and Fertility
+  patterns: ['Ever Married and Currently Married Women by Age, Parity and Children Ever Born', 'Ever Married and Currently Married Women by Present Age, Parity and Total Children Ever Born', 'Ever Married and Currently Married Women by Age, Surviving Children and Sex']
+  generic: [women, fertility, marriage, children]
+
+- facet: topic
+  category: Age and Sex
+  patterns: ['Age and Sex', 'by Age and Sex', 'Age, Sex', 'Age, Industrial Category and Sex', 'Age, Sex and Religious Community']
+  generic: [age, sex, demographic, population]
+
+- facet: topic
+  category: Sex
+  patterns: ['Sex', 'by Sex', 'Sex-wise', 'Age and Sex', 'Industrial Category and Sex']
+  generic: [sex, gender, population, demographic]

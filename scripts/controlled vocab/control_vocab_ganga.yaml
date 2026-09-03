@@ -1,0 +1,69 @@
+- facet: topic
+  category: minor_irrigation
+  patterns: ['minor irrigation', 'mi scheme', 'irrigation scheme']
+  generic: [minor, irrigation, water, resources]
+
+- facet: topic
+  category: irrigation_census
+  patterns: ['minor irrigation census', '6th minor irrigation census', 'mi census']
+  generic: [census, irrigation, survey]
+
+- facet: topic
+  category: village_schedule
+  patterns: ['village schedule', 'village level', 'village-wise']
+  generic: [village, schedule, census, locality]
+
+- facet: topic
+  category: groundwater
+  patterns: ['ground water', 'groundwater', 'gw']
+  generic: [aquifer, groundwater, irrigation]
+
+- facet: topic
+  category: surface_water
+  patterns: ['surface water']
+  generic: [surface, water, irrigation, water]
+
+- facet: topic
+  category: surface_flow
+  patterns: ['surface flow']
+  generic: [surface,flow, canal, stream, irrigation]
+
+- facet: topic
+  category: surface_lift
+  patterns: ['surface lift']
+  generic: [surface,lift, pumping, irrigation,water]
+
+- facet: topic
+  category: dugwell
+  patterns: ['dugwell', 'dug well']
+  generic: [dugwell, well, groundwater, irrigation]
+
+- facet: topic
+  category: irrigation_infrastructure
+  patterns: ['infrastructure', 'irrigation asset', 'irrigation facility']
+  generic: [infrastructure, irrigation]
+
+- facet: topic
+  category: water_resources
+  patterns: ['water resources', 'river development']
+  generic: [water,resources,river]
+
+- facet: topic
+  category: irrigation_planning
+  patterns: ['planning', 'assessment', 'monitoring', 'evaluation']
+  generic: [irrigation]
+
+- facet: topic
+  category: scheme_inventory
+  patterns: ['scheme details', 'scheme information', 'scheme coverage']
+  generic: [scheme, inventory, information,details]
+
+- facet: topic
+  category: village_infrastructure
+  patterns: ['village information', 'village data']
+  generic: [village, infrastructure, rural, survey]
+
+- facet: topic
+  category: census_frequency
+  patterns: ['five yearly', 'five-yearly', 'periodicity']
+  generic: [five-yearly, census, periodic, survey]

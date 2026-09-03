@@ -1,0 +1,203 @@
+- facet: topic
+  category: banking
+  patterns: ['bank', 'banks', 'banking', 'public sector bank', 'commercial bank', 'psb']
+  generic: [banking, bank, credit, lending]
+
+- facet: topic
+  category: priority_sector
+  patterns: ['priority sector', 'priority sector lending', 'psl']
+  generic: [priority, lending, credit, agriculture,PSL]
+
+- facet: topic
+  category: agriculture
+  patterns: ['agriculture', 'agricultural', 'crop', 'crops', 'farmer', 'foodgrain', 'foodgrains']
+  generic: [agriculture, crops, farming, cultivation]
+
+- facet: topic
+  category: inflation
+  patterns: ['consumer price index', 'cpi', 'wholesale price index', 'wpi', 'price index', 'inflation']
+  generic: [inflation, prices, CPI, WPI]
+
+- facet: topic
+  category: gdp
+  patterns: ['gross domestic product', 'gdp', 'gross national product', 'gnp', 'net national product', 'nnp']
+  generic: [GDP, GNP, economy, income]
+
+- facet: topic
+  category: economy
+  patterns: ['economic', 'economy', 'macro economy', 'national income']
+  generic: [economy, growth, macro, income]
+
+- facet: topic
+  category: external_assistance
+  patterns: ['external assistance', 'foreign assistance']
+  generic: [assistance, external, finance, funding]
+
+- facet: topic
+  category: balance_of_payments
+  patterns: ['balance of payments', 'bop', 'bpm5', 'bpm6']
+  generic: [BOP, external, payments, balance,BPM]
+
+- facet: topic
+  category: budget
+  patterns: ['budget', 'union budget', 'budget estimates', 'expenditure budget']
+  generic: [budget, expenditure, revenue, finance]
+
+- facet: topic
+  category: expenditure
+  patterns: ['capital expenditure', 'revenue expenditure', 'expenditure']
+  generic: [expenditure, spending, budget, allocation]
+
+- facet: topic
+  category: revenue
+  patterns: ['revenue', 'tax revenue', 'non-tax revenue']
+  generic: [revenue, receipts, taxation, finance]
+
+- facet: topic
+  category: assistance
+  patterns: ['central assistance', 'plan assistance', 'financial assistance']
+  generic: [assistance, grants, funding, support]
+
+- facet: topic
+  category: trade
+  patterns: ['exports', 'imports', 'trade balance', 'foreign trade', 'trade']
+  generic: [trade, exports, imports, commerce]
+
+- facet: topic
+  category: exports
+  patterns: ['exports', 'export']
+  generic: [exports, trade, commerce, foreign]
+
+- facet: topic
+  category: imports
+  patterns: ['imports', 'import']
+  generic: [imports, trade, commerce, foreign]
+
+- facet: topic
+  category: foreign_exchange
+  patterns: ['foreign exchange', 'forex reserves', 'exchange reserves', 'reserves']
+  generic: [forex, reserves, exchange, currency]
+
+- facet: topic
+  category: external_debt
+  patterns: ['external debt', 'foreign debt']
+  generic: [debt, external, borrowing, finance]
+
+- facet: topic
+  category: capital
+  patterns: ['paid-up capital', 'capital formation', 'capital infusion', 'capital']
+  generic: [capital, investment, finance, assets]
+
+- facet: topic
+  category: savings
+  patterns: ['gross domestic savings', 'savings']
+  generic: [savings, deposits, finance, economy]
+
+- facet: topic
+  category: insurance
+  patterns: ['insurance', 'general insurance', 'lic', 'aam aadmi bima']
+  generic: [insurance, claims, policy, LIC,AABY]
+
+- facet: topic
+  category: pension
+  patterns: ['swavalamban', 'nps', 'nps lite', 'pension']
+  generic: [pension, retirement, subscribers, scheme,NPS,APY]
+
+- facet: topic
+  category: atm
+  patterns: ['atm installation', 'atm', 'automated teller machine']
+  generic: [atm, banking, branches, infrastructure]
+
+- facet: topic
+  category: branches
+  patterns: ['bank branch', 'branch expansion', 'branches']
+  generic: [branches, banking, network, outreach]
+
+- facet: topic
+  category: financial_inclusion
+  patterns: ['financial inclusion', 'self help group', 'micro enterprise']
+  generic: [inclusion, banking, finance, shg]
+
+- facet: topic
+  category: petroleum
+  patterns: ['petroleum', 'crude oil', 'petroleum products', 'oil']
+  generic: [petroleum, oil, energy, fuel]
+
+- facet: topic
+  category: employment
+  patterns: ['employment', 'organised sector', 'workforce']
+  generic: [employment, workforce, labour, jobs]
+
+- facet: topic
+  category: education
+  patterns: ['gross enrolment ratio', 'ger', 'education']
+  generic: [education, enrolment, schools, students,GER]
+
+- facet: topic
+  category: drinking_water
+  patterns: ['drinking water', 'safe drinking water', 'tap', 'handpump', 'tubewell']
+  generic: [water, drinking, households, sanitation]
+
+- facet: topic
+  category: industrial_production
+  patterns: ['index of industrial production', 'iip', 'industrial production']
+  generic: [industry, production, manufacturing, IIP]
+
+- facet: topic
+  category: aviation
+  patterns: ['civil aviation', 'aviation', 'air transport']
+  generic: [aviation, airlines, passengers, cargo]
+
+- facet: topic
+  category: railways
+  patterns: ['indian railways', 'railways']
+  generic: [railways, transport, revenue, operations]
+
+- facet: topic
+  category: money_laundering
+  patterns: ['money laundering', 'pmla', 'cash transaction reports', 'counterfeit currency', 'fiu']
+  generic: [PMLA, compliance, reporting, enforcement,counterfeit]
+
+- facet: topic
+  category: disinvestment
+  patterns: ['disinvestment', 'minority shareholding', 'cpse']
+  generic: [disinvestment, CPSE, shares, investment]
+
+- facet: topic
+  category: commodities
+  patterns: ['commodity', 'commodity groups']
+  generic: [commodities, products, goods, markets]
+- facet: topic
+  category: iifcl
+  patterns: ['iifcl', 'india infrastructure finance company limited']
+  generic: [iifcl, infrastructure, finance, lending]
+
+- facet: topic
+  category: gis
+  patterns: ['geographical information system', 'geographic information system', 'gis']
+  generic: [gis, mapping, geospatial, spatial]
+
+- facet: topic
+  category: fiscal_deficit
+  patterns: ['fiscal deficit', 'sources of financing fiscal deficit']
+  generic: [deficit, fiscal, financing, borrowing]
+
+- facet: topic
+  category: plan_outlay
+  patterns: ['plan outlay', 'heads of development', 'five year plan', 'annual plans', 'development outlay']
+  generic: [plan, outlay, development, allocation]
+
+- facet: topic
+  category: textiles
+  patterns: ['fabric', 'fabrics', 'textile', 'textiles']
+  generic: [textiles, fabrics, production, industry]
+
+- facet: topic
+  category: human_development
+  patterns: ['human development', 'human development indicators']
+  generic: [development, human, indicators, welfare]
+
+- facet: topic
+  category: infant_mortality
+  patterns: ['infant mortality', 'infant mortality rate', 'imr']
+  generic: [infant, mortality, health, births]

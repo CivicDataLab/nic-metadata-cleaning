@@ -1,0 +1,305 @@
+- facet: topic
+  category: Aadhaar
+  patterns: ['Aadhaar', 'Aadhaar Generated', 'Aadhaar Generation', 'UIDAI', 'Unique Identification Authority of India']
+  generic: ['Aadhaar', 'UIDAI', 'identity', 'enrolment']
+
+- facet: topic
+  category: Sanitation
+  patterns: ['Toilet Facilities', 'Household Amenities', 'Sanitation', 'Rural Sanitation', 'Toilet Facility Access']
+  generic: ['sanitation', 'toilet', 'rural', 'amenities']
+
+- facet: topic
+  category: Education
+  patterns: ['Schools', 'Educational Institutions', 'Education Access', 'School Access', 'Upper Primary', 'Education Infrastructure']
+  generic: ['education', 'schools', 'access', 'infrastructure']
+
+- facet: topic
+  category: Sarva Shiksha Abhiyan
+  patterns: ['Sarva Shiksha Abhiyan', 'SSA', 'School Access under Sarva Shiksha Abhiyan', 'Education Access under Sarva Shiksha Abhiyan']
+  generic: ['education', 'schools', 'access', 'learning']
+
+- facet: topic
+  category: VEC
+  patterns: ['VEC', 'Village Education Committees', 'VEC Activities', 'Village Education Committee']
+  generic: ['VEC', 'education', 'village', 'committees']
+
+- facet: topic
+  category: Rural Roads
+  patterns: ['Rural Roads', 'Rural Road Completion', 'Rural Roads Component', 'Rural Connectivity', 'Rural Road Infrastructure']
+  generic: ['roads', 'rural', 'connectivity', 'infrastructure']
+
+- facet: topic
+  category: Bharat Nirman
+  patterns: ['Bharat Nirman', 'Bharat Nirman Rural Roads', 'Rural Roads component of Bharat Nirman']
+  generic: ['Bharat', 'Nirman', 'rural', 'infrastructure']
+
+- facet: topic
+  category: PMGSY
+  patterns: ['PMGSY', 'Pradhan Mantri Gram Sadak Yojana', 'PMGSY Rural Roads', 'PMGSY Maintenance', 'PMGSY Funds']
+  generic: ['PMGSY', 'roads', 'rural', 'connectivity']
+
+- facet: topic
+  category: Banking
+  patterns: ['Banking Facilities', 'Banking Facility Access', 'Bank Accessibility', 'Financial Access']
+  generic: ['banking', 'finance', 'access', 'rural']
+
+- facet: topic
+  category: Connectivity
+  patterns: ['Bus Stand', 'Railway Station', 'Post Office Accessibility', 'Market Accessibility', 'Town Center Accessibility', 'Urban Center Accessibility']
+  generic: ['connectivity', 'transport', 'access', 'infrastructure']
+
+- facet: topic
+  category: Coal
+  patterns: ['Coal Reserves', 'Accretion of Coal Reserves', 'Coal Reserve Accretion', 'Power Sector Coal']
+  generic: ['coal', 'reserves', 'energy', 'power']
+
+- facet: topic
+  category: Power
+  patterns: ['Power Sector', 'Power Utilities', 'Generating Capacity', 'Power Generation', 'Electricity Generation']
+  generic: ['power', 'electricity', 'energy', 'capacity']
+
+- facet: topic
+  category: Electricity
+  patterns: ['Electricity Generated', 'Electricity Generation', 'Installed Power Generation Capacity', 'Power Generation Capacity']
+  generic: ['electricity', 'generation', 'power', 'capacity']
+
+- facet: topic
+  category: Power Utilities
+  patterns: ['State Power Utilities', 'Technical and Commercial Losses', 'Aggregate Technical And Commercial Losses', 'Power Utility Losses']
+  generic: ['utilities', 'power', 'losses', 'electricity']
+
+- facet: topic
+  category: National Highways
+  patterns: ['National Highways', 'National Highway Achievement', 'Achievements on National Highways', 'Highway Development']
+  generic: ['highways', 'roads', 'transport', 'infrastructure']
+
+- facet: topic
+  category: Forests
+  patterns: ['Forest Cover', 'Forest Cover Change', 'Forest Resources', 'Forests', 'Forest Assessment', 'Forest Monitoring']
+  generic: ['forests', 'cover', 'environment', 'conservation']
+
+- facet: topic
+  category: Forest Cover
+  patterns: ['Forest Cover', 'Actual Change in Forest Cover', 'Forest Cover Mapping', 'Forest Cover Statistics']
+  generic: ['forest', 'cover', 'mapping', 'environment']
+
+- facet: topic
+  category: Forest Density
+  patterns: ['Very Dense Forest', 'Moderately Dense Forest', 'Open Forest', 'VDF', 'MDF', 'OF', 'Forest Density']
+  generic: ['forest', 'density', 'cover', 'area']
+
+- facet: topic
+  category: Altitude
+  patterns: ['Altitude Zone', 'Altitude Zones', 'Altitude Zone-wise Forest Cover', 'Forest Cover by Altitude']
+  generic: ['altitude', 'forest', 'zones', 'elevation']
+
+- facet: topic
+  category: Remote Sensing
+  patterns: ['Remote Sensing Technology', 'Remote Sensing', 'Forest Cover Mapping', 'Remote Sensing Approach']
+  generic: ['remote', 'sensing', 'mapping', 'forest']
+
+- facet: topic
+  category: Fuelwood
+  patterns: ['Fuel Wood', 'Fuelwood', 'Fuel Wood Production', 'Fuelwood Consumption', 'Fuel Wood Consumption']
+  generic: ['fuelwood', 'forest', 'consumption', 'production']
+
+- facet: topic
+  category: Timber
+  patterns: ['Wood Production', 'Production of Wood from Forests', 'Forest Wood Production', 'Timber Availability']
+  generic: ['wood', 'timber', 'forest', 'production']
+
+- facet: topic
+  category: Livestock
+  patterns: ['Adult Cattle Units', 'Cattle Units Dependent on Forests', 'Livestock Dependence on Forests']
+  generic: ['livestock', 'cattle', 'forest', 'dependence']
+
+- facet: topic
+  category: Health
+  patterns: ['Health', 'Health Sector', 'Health Services', 'Health Planning', 'Health Infrastructure']
+  generic: ['health', 'services', 'infrastructure']
+
+- facet: topic
+  category: Health Workforce
+  patterns: ['Human Resource For Health', 'Health Workforce', 'Health Manpower', 'Health Human Resources', 'Health Workforce Availability']
+  generic: ['health', 'workforce', 'manpower']
+
+- facet: topic
+  category: ICDS
+  patterns: ['ICDS', 'Integrated Child Development Services', 'Child Development Services', 'ICDS Workforce']
+  generic: ['ICDS', 'children', 'health', 'development']
+
+- facet: topic
+  category: AWW
+  patterns: ['AWW', 'Anganwadi Workers', 'Anganwadi Worker', 'AWWs', 'AWW Marital Status']
+  generic: ['AWW', 'anganwadi', 'workers', 'ICDS']
+
+- facet: topic
+  category: Adolescent Health
+  patterns: ['Adolescent Girls', 'Health and Hygiene', 'Hygiene Care', 'Adolescent Girls Health', 'NHE']
+  generic: ['adolescent', 'girls', 'health', 'hygiene']
+
+- facet: topic
+  category: Mid-Day Meal
+  patterns: ['Mid-Day Meal', 'Cooked Mid-Day Meal', 'CMDM', 'Cooked Mid-Day Meal Programme', 'Mid-Day Meal Programme']
+  generic: ['CMDM', 'meal', 'schools', 'nutrition']
+
+- facet: topic
+  category: School Infrastructure
+  patterns: ['School Buildings', 'School Building Availability', 'Kitchen Sheds', 'Store Rooms in Schools', 'School Infrastructure']
+  generic: ['schools', 'buildings', 'infrastructure', 'facilities']
+
+- facet: topic
+  category: Agriculture
+  patterns: ['Agriculture', 'Agricultural Produce', 'Agricultural Growth', 'Agricultural Productivity', 'Agricultural Planning']
+  generic: ['agriculture', 'crops', 'production', 'production']
+
+- facet: topic
+  category: Crops
+  patterns: ['Major Crops', 'Crop Yields', 'Crop Growth Rates', 'Major Crop Yields', 'Agricultural Crops']
+  generic: ['crops', 'yields', 'growth', 'agriculture']
+
+- facet: topic
+  category: Agricultural Wages
+  patterns: ['Agricultural Daily Wage', 'Agricultural Labour Wage', 'Agricultural Labour Daily Wages', 'Agricultural Wage Rates']
+  generic: ['agriculture', 'wages', 'labour', 'rural']
+
+- facet: topic
+  category: Labour
+  patterns: ['Labour', 'Labourers', 'Agricultural Labour', 'Labour Market', 'Workforce']
+  generic: ['labour', 'workers', 'employment', 'workforce']
+
+- facet: topic
+  category: Poverty
+  patterns: ['Below Poverty Line', 'Poverty Line', 'Population Below Poverty Line', 'Poverty Rate', 'Poverty Estimates']
+  generic: ['poverty', 'population', 'rural', 'urban']
+
+- facet: topic
+  category: Scheduled Castes
+  patterns: ['Scheduled Castes', 'SC', 'SC Population', 'Scheduled Castes Population', 'Scheduled Castes Below Poverty Line']
+  generic: ['SC', 'caste', 'poverty', 'population']
+
+- facet: topic
+  category: Scheduled Tribes
+  patterns: ['Scheduled Tribes', 'ST', 'ST Population', 'Scheduled Tribes Population', 'Scheduled Tribes Below Poverty Line']
+  generic: ['ST', 'tribe', 'poverty', 'population']
+
+- facet: topic
+  category: Rural
+  patterns: ['Rural', 'Rural Areas', 'Rural Population', 'Rural Development', 'Rural India']
+  generic: ['rural', 'population', 'development', 'areas']
+
+- facet: topic
+  category: Urban
+  patterns: ['Urban', 'Urban Areas', 'Urban Population', 'Urban India', 'Urban Slum Areas']
+  generic: ['urban', 'population', 'development', 'slums']
+
+- facet: topic
+  category: GDP
+  patterns: ['GDP', 'Gross Domestic Product', 'GDP Growth Rate', 'Growth Rate of GDP', 'GDP by Industry']
+  generic: ['GDP', 'growth', 'economy', 'industry']
+
+- facet: topic
+  category: Consumption
+  patterns: ['Consumption Expenditure', 'Growth Rate of Consumption Expenditure', 'Consumer Expenditure']
+  generic: ['consumption', 'expenditure', 'growth', 'economy']
+
+- facet: topic
+  category: Wholesale Prices
+  patterns: ['Wholesale Price Index', 'WPI', 'Wholesale Price', 'Agriculture Produce Prices']
+  generic: ['WPI', 'prices', 'agriculture', 'inflation']
+
+- facet: topic
+  category: Planning
+  patterns: ['Five Year Plan', 'Five-Year Plan', 'Plan Period', 'Annual Plan', 'Planning Commission', 'NITI Aayog']
+  generic: ['planning', 'policy', 'development']
+
+- facet: topic
+  category: Outlay
+  patterns: ['Approved Outlay', 'State-wise Approved Outlay', 'Plan Outlay', 'Annual Plan Outlay']
+  generic: ['outlay', 'funds']
+
+- facet: topic
+  category: Expenditure
+  patterns: ['Expenditure', 'Actual Expenditure', 'Proposed Expenditure', 'Allocation and Expenditure', 'Government Expenditure']
+  generic: ['expenditure', 'allocation', 'funds']
+
+- facet: topic
+  category: Allocation
+  patterns: ['Allocation of Funds', 'Fund Allocation', 'State-level Allocation', 'Block-level Allocation', 'District-level Allocation']
+  generic: ['allocation', 'funds', 'expenditure']
+
+- facet: topic
+  category: Budget
+  patterns: ['Budgeting', 'Zero Based Budgeting', 'Budget Exercise', 'Budget Allocation', 'Budget Expenditure']
+  generic: ['budget', 'funds', 'expenditure']
+
+- facet: topic
+  category: Five Year Plans
+  patterns: ['Eighth Plan', 'Ninth Plan', 'Tenth Plan', 'Eleventh Plan', 'Twelfth Plan', 'Annual Plans']
+  generic: ['planning', 'plans', 'development', 'policy']
+
+- facet: topic
+  category: Surveys
+  patterns: ['Sample Survey', 'Evaluation Study', 'Evaluation Report', 'Survey Results', 'Performance Evaluation']
+  generic: ['survey', 'evaluation', 'assessment', 'monitoring']
+
+- facet: topic
+  category: Infrastructure
+  patterns: ['Infrastructure', 'Infrastructure Development', 'Infrastructure Planning', 'Rural Infrastructure', 'Education Infrastructure']
+  generic: ['infrastructure', 'development', 'facilities']
+
+- facet: topic
+  category: Financial Access
+  patterns: ['Financial Access', 'Banking Facility Access', 'Access to Banking Facilities', 'Credit Access']
+  generic: ['finance', 'banking', 'credit', 'access']
+
+- facet: topic
+  category: Population
+  patterns: ['Population', 'Population Estimates', 'Population Distribution', 'Population Data', 'Demographic Distribution']
+  generic: ['population', 'demography', 'census', 'statistics']
+
+- facet: topic
+  category: Gender
+  patterns: ['Gender', 'Male', 'Female', 'Sex', 'Women', 'Girls']
+  generic: ['gender', 'women', 'girls', 'sex']
+
+- facet: topic
+  category: Women
+  patterns: ['Women', 'Women Workers', 'Women Population', 'Female Population', 'Women Beneficiaries']
+  generic: ['women', 'gender', 'population', 'beneficiaries']
+
+- facet: topic
+  category: Children
+  patterns: ['Children', 'Child Development', 'Beneficiary Children', 'Child Health', 'Child Development Services']
+  generic: ['children', 'health', 'development', 'beneficiaries']
+
+- facet: topic
+  category: Financial Assistance
+  patterns: ['Financial Assistance', 'Funds Released', 'Financial Support', 'Central Assistance', 'Financial Allocation']
+  generic: ['finance', 'assistance', 'funds', 'allocation']
+
+- facet: topic
+  category: Development
+  patterns: ['Development', 'Development Planning', 'Rural Development', 'Social Development', 'Economic Development']
+  generic: ['development', 'policy', 'growth']
+
+
+- facet: topic
+  category: Environment
+  patterns: ['Environment', 'Environmental Planning', 'Environmental Monitoring', 'Environmental Assessment', 'Conservation']
+  generic: ['environment', 'conservation', 'monitoring']
+
+- facet: topic
+  category: Natural Resources
+  patterns: ['Natural Resources', 'Forest Resources', 'Resource Assessment', 'Resource Management', 'Energy Resources']
+  generic: ['resources', 'environment', 'management']
+
+- facet: topic
+  category: Economic Growth
+  patterns: ['Economic Growth', 'Growth Rate', 'Annual Growth Rate', 'Industry Growth', 'Productivity Growth']
+  generic: ['growth', 'economy', 'industry', 'production']
+
+- facet: topic
+  category: Industry
+  patterns: ['Industry', 'Industry of Origin', 'Industrial Growth', 'Industrial Categories', 'Industrial Activity']
+  generic: ['industry', 'economy', 'growth', 'production']
