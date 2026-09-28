@@ -1,0 +1,47 @@
+# systemd unit for an ngrok tunnel to the PII API: an https:// URL for
+# people outside this server to try it, via nginx on :80 (so the same 100 MB
+# upload cap and routing apply). TLS ends at ngrok's edge; ngrok connects
+# out from here, so no inbound port has to be open for it.
+#
+# Once, before the first start (in a terminal on this server, which keeps the
+# token out of chat transcripts; the token is at dashboard.ngrok.com):
+#   ngrok config add-authtoken <token>
+#
+# Install (needs sudo):
+#   sudo cp pii_test/pii_service/ngrok-pii.service /etc/systemd/system/
+#   sudo systemctl daemon-reload && sudo systemctl enable --now ngrok-pii
+#
+# The public URL:
+#   curl -s 127.0.0.1:4040/api/tunnels | grep -o 'https://[^"]*'
+#
+# Without --url, ngrok picks a random URL that changes on every restart. A
+# free account includes one static domain (dashboard -> Domains); add
+#   --url https://<that-domain>
+# to ExecStart to keep the address stable.
+#
+# To require a password, write a traffic policy OUTSIDE the repo (it holds
+# the credentials), e.g. /home/ubuntu/.config/ngrok/pii-api-policy.yml:
+#   on_http_request:
+#     - actions:
+#         - type: basic-auth
+#           config:
+#             credentials:
+#               - "<user>:<password>"
+# and add  --traffic-policy-file /home/ubuntu/.config/ngrok/pii-api-policy.yml
+[Unit]
+Description=ngrok tunnel to the PII API (nginx on :80)
+After=network-online.target nginx.service
+Wants=network-online.target
+
+[Service]
+User=ubuntu
+# --inspect=false: the agent's local inspector (127.0.0.1:4040) would
+# otherwise keep recent request bodies -- uploaded CSVs, i.e. PII -- in
+# memory for replay. The URL is still readable from its /api/tunnels.
+# --url: the account's static domain, so the public address never changes.
+ExecStart=/home/ubuntu/.local/bin/ngrok http 80 --url https://skilled-machine-juror.ngrok-free.dev --inspect=false --log=stdout --log-format=logfmt
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

@@ -1,5 +1,6 @@
 """
-The service's bridge into the LOT 2 scan pipeline.
+The service's bridge into the LOT 2 scan pipeline (the scan step of
+api_pipeline.run; Tier 1 and Tier 3 live there).
 
 Everything here exists so app.py can call the *same* code path as
 ``run_pii_s3.py --path``: same column selection, same NER models, same
@@ -23,8 +24,19 @@ LOG_PATH = os.path.join(SERVICE_DIR, "pii_service.log")
 # so the service behaves the same no matter where it was launched from.
 os.chdir(REPO_ROOT)
 sys.path.insert(0, PII_TEST_DIR)
+# The chdir strands a relative or empty ("") sys.path entry for this folder,
+# which is how app.py would otherwise find api_pipeline and storage outside
+# gunicorn (gunicorn adds its absolute chdir itself).
+if SERVICE_DIR not in sys.path:
+    sys.path.insert(0, SERVICE_DIR)
 
 import run_pii_s3 as R  # noqa: E402  (repoints the root logger; undone below)
+import api_pipeline  # noqa: E402
+
+# Uploads are unrelated to our corpus, so the corpus-frequency name blocklist
+# does not apply to them (see api_pipeline.disable_corpus_blocklist). This
+# process only; CLI runs still load it.
+CORPUS_BLOCKLIST_DROPPED = api_pipeline.disable_corpus_blocklist()
 
 
 def configure_logging():
@@ -42,6 +54,8 @@ def configure_logging():
         force=True,
     )
     logging.getLogger("presidio-analyzer").setLevel(logging.WARNING)
+    logging.info(f"Corpus name blocklist disabled for API runs "
+                 f"({CORPUS_BLOCKLIST_DROPPED} entries dropped)")
 
 
 def load_models(device):

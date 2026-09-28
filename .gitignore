@@ -9,10 +9,19 @@ pii_test/FP_ANALYSIS_ROUND2.md
 /data/first_batch_datasets
 /data/first_batch_downloads
 *.db
+*.bak
 transformation/metadata.db.bak-20260806
 /transformation/token.json
 pii_test/DETECTION_IMPROVEMENT_PLAN.md
-
+/data/lot3_downloads
+/data/lot3_s3_downloads/
+# KCC transcripts (extracted folder + source zip, 579MB) -- over GitHub's 100MB limit
+/pii_test/kcc/kcc-transcripts/
+/pii_test/kcc/kcc-transcripts.zip
+# Real-PII labelled test sample -- this 489MB CSV is over GitHub's 100MB limit
+/pii_test/pii-test-sample/pii-present/Combined Household Houselist Information under Annual Health Survey in Tehri Garhwal, Uttarakhand.csv
+# timestamped DB backups from pipeline runs (400MB+ each)
+/transformation/metadata.db.bak-*
 /transformation/metadata.db
 /transformation/token.json
 pii_test/__pycache__
@@ -22,5 +31,10 @@ pii_test/pii_service/*.log
 pii_test/pii_service/*.pid
 pii_test/pii_service/*.sock
 # Labelled PII test sample from S3 (pii-test-sample.zip) -- real PII, 671MB
-
+/data/backups
 pii_test/FP_ANALYSIS_ROUND3.md
+
+/data/archival_remaining/
+/transformation/metadata.db.bak-prescan-20260901-143828
+/transformation/metadata.db.bak-premerge-095958
+/transformation/metadata.db.bak-lot3coverage-20260928_111750

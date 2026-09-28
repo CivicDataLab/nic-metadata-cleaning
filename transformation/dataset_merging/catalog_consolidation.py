@@ -90,7 +90,7 @@ def write_proposal(mapping, out_dir: Path) -> None:
     print(f"\nWrote {path} ({len(grouped)} families)")
 
 
-def apply(con, table: str, mapping) -> None:
+def apply(con, table: str, mapping, where: str = "") -> None:
     cols = {r[0] for r in con.execute(
         "SELECT column_name FROM information_schema.columns WHERE table_name = ?",
         [table],
@@ -109,12 +109,14 @@ def apply(con, table: str, mapping) -> None:
         FROM _tmp_cat m
         WHERE d."Publisher[ministry_department]" IS NOT DISTINCT FROM m.ministry
           AND d."Relation[Catalog Title]" = m.catalog
+          {f"AND ({where})" if where else ""}
     """)
     # Catalogs with no family keep their own title, so the column is complete.
     con.execute(f"""
         UPDATE "{table}"
         SET new_catalog_title = "Relation[Catalog Title]"
         WHERE new_catalog_title IS NULL AND "Relation[Catalog Title]" IS NOT NULL
+          {f"AND ({where})" if where else ""}
     """)
     con.execute("DROP TABLE IF EXISTS _tmp_cat")
 
@@ -132,6 +134,8 @@ def main() -> None:
     ap.add_argument("--out-dir", default=str(HERE / "reports"))
     ap.add_argument("--apply", action="store_true", help="Write new_catalog_title.")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--where", default="",
+                    help="Extra SQL predicate restricting which rows are written.")
     args = ap.parse_args()
 
     con = duckdb.connect(args.db, read_only=not args.apply)
@@ -139,7 +143,7 @@ def main() -> None:
         mapping = build_map(con, args.table)
         write_proposal(mapping, Path(args.out_dir))
         if args.apply:
-            apply(con, args.table, mapping)
+            apply(con, args.table, mapping, args.where)
         else:
             print("\n[no --apply] Proposal only; database not modified.")
     finally:

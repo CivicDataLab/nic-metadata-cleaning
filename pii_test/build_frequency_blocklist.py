@@ -55,6 +55,11 @@ logging.basicConfig(
 
 DB_PATH = "transformation/metadata.db"
 DETECTIONS_TABLE = "pii_detections_lot2"
+# LOT 1 (mohfw, batch-wise). Counted alongside LOT 2 because a value is a
+# category if it recurs across the corpus, and the corpus is both lots -- the
+# health-indicator vocabulary that dominates LOT 1 ("Kala Azar" in 114 of 331
+# sampled datasets) appears nowhere in the LOT 2 tables.
+DETECTIONS_TABLE_LOT1 = "pii_detections_lot1"
 # The pre-reset snapshot. Its filters were weaker, so it covers far more
 # datasets (14,901 vs 2,435) and gives the frequency count a wider view of
 # what recurs across the corpus.
@@ -190,7 +195,8 @@ def main():
 
     conn = duckdb.connect(DB_PATH, read_only=True)
     try:
-        tables = existing_tables(conn, [DETECTIONS_TABLE, DETECTIONS_BASELINE])
+        tables = existing_tables(
+            conn, [DETECTIONS_TABLE, DETECTIONS_BASELINE, DETECTIONS_TABLE_LOT1])
         counts = count_datasets_per_value(conn, tables, KNOWN_GENUINE_UUIDS)
         report_distribution(counts, args.min_datasets)
         write_blocklist(args.out, counts, args.min_datasets, tables)

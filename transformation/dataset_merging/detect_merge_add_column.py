@@ -48,6 +48,7 @@ from title_components import parse_title_components  # noqa: E402
 
 DB_PATH = str(HERE.parent / "metadata.db")
 TABLE = "dublin_core_metadata"
+WHERE_EXTRA = ""   # optional predicate restricting the population (--where)
 
 _MONTHS = r"(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)"
 # Genuine year tokens only: 1971 / 2011 / 201112 / 2015-16 — NOT bucket numbers
@@ -171,6 +172,7 @@ def build_map(con):
                {opt('spatial_states')}, {opt('spatial_districts')}
         FROM {TABLE}
         WHERE merge_method='curate' AND "Collection" IS NOT NULL
+          {WHERE_EXTRA and f"AND ({WHERE_EXTRA})" or ""}
     """).fetchall()
 
     by_coll = defaultdict(list)
@@ -185,9 +187,10 @@ def build_map(con):
     return result
 
 
-def main(dry_run: bool, db: str = DB_PATH, table: str = TABLE) -> None:
-    global TABLE
+def main(dry_run: bool, db: str = DB_PATH, table: str = TABLE, where: str = "") -> None:
+    global TABLE, WHERE_EXTRA
     TABLE = table
+    WHERE_EXTRA = where or ""
     con = duckdb.connect(db, read_only=dry_run)
     try:
         cmap = build_map(con)
@@ -196,7 +199,9 @@ def main(dry_run: bool, db: str = DB_PATH, table: str = TABLE) -> None:
         review_colls = review_rows = 0
         sizes = dict(con.execute(f"""
             SELECT "Collection", COUNT(*) FROM {TABLE}
-            WHERE merge_method='curate' AND "Collection" IS NOT NULL GROUP BY 1
+            WHERE merge_method='curate' AND "Collection" IS NOT NULL
+              {WHERE_EXTRA and f"AND ({WHERE_EXTRA})" or ""}
+            GROUP BY 1
         """).fetchall())
         for coll, (add_val, review) in cmap.items():
             n = sizes.get(coll, 0)
@@ -230,7 +235,12 @@ def main(dry_run: bool, db: str = DB_PATH, table: str = TABLE) -> None:
             print("Added column: needs_review")
 
         # Reset (idempotent): clear any prior values, then write fresh from the map.
-        con.execute(f"UPDATE {TABLE} SET merge_add_columns = NULL, needs_review = NULL")
+        # Must honour WHERE_EXTRA -- an unscoped reset wipes these columns for
+        # every row in the table, including rows the --where run never rewrites.
+        con.execute(
+            f"UPDATE {TABLE} SET merge_add_columns = NULL, needs_review = NULL"
+            + (f" WHERE {WHERE_EXTRA}" if WHERE_EXTRA else "")
+        )
         con.execute("DROP TABLE IF EXISTS _tmp_addmap")
         con.execute("CREATE TEMP TABLE _tmp_addmap(collection VARCHAR, add_cols VARCHAR, review BOOLEAN)")
         con.executemany(
@@ -242,6 +252,7 @@ def main(dry_run: bool, db: str = DB_PATH, table: str = TABLE) -> None:
             SET merge_add_columns = m.add_cols, needs_review = m.review
             FROM _tmp_addmap m
             WHERE d.merge_method = 'curate' AND d."Collection" = m.collection
+              {WHERE_EXTRA and f"AND ({WHERE_EXTRA})" or ""}
         """)
         con.execute("DROP TABLE IF EXISTS _tmp_addmap")
 
@@ -272,5 +283,7 @@ if __name__ == "__main__":
     parser.add_argument("--dry-run", action="store_true", help="Preview without writing.")
     parser.add_argument("--db", default=DB_PATH, help="DuckDB file.")
     parser.add_argument("--table", default=TABLE, help="Target table.")
+    parser.add_argument("--where", default="",
+                        help="Extra SQL predicate restricting the population.")
     args = parser.parse_args()
-    main(dry_run=args.dry_run, db=args.db, table=args.table)
+    main(dry_run=args.dry_run, db=args.db, table=args.table, where=args.where)
