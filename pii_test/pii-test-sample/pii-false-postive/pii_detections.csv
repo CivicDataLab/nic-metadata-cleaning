@@ -1,105 +1,374 @@
 file,column,row_index,entity_type,entity_text,score,source
-msme - andra pradesh.csv,CommunicationAddress,3,PERSON,Sanjeev Gandhi,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,1,PERSON,jayeshbhai  Senting Business,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,2,PERSON,JOSHI BHARGAV,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,7,PERSON,SHREE GANESH AGRO,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,11,PERSON,Azad Leather Shoes,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,13,PERSON,Hadgada Gopalbhai,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,14,PERSON,Vijaybhai Solanki,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,16,PERSON,MAHAKALI DAIMOND,0.8296841382980347,presidio
+msme - andaman nicobar.csv,EnterpriseName,22,PERSON,BRHAMANI DAIMOND,0.7565481066703796,presidio
+msme - andaman nicobar.csv,EnterpriseName,23,PERSON,BALAJI DAIMOND,0.7413827180862427,presidio
+msme - andaman nicobar.csv,EnterpriseName,29,PERSON,Jay chamunda,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,30,PERSON,JAY BHAVANI MOBILE,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,35,PERSON,Bhumi Daimond,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,41,PERSON,DHANVI JEMS,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,43,PERSON,Dhanvaniya Bharatbhai Bhavanbhai,0.8728628158569336,presidio
+msme - andaman nicobar.csv,EnterpriseName,44,PERSON,JIGNESH ANIYALIYA,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,45,PERSON,KASHTBHANJAN DIAMOND,0.7483083605766296,presidio
+msme - andaman nicobar.csv,EnterpriseName,56,PERSON,MAHESH ALUMINIUM SCTION,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,57,PERSON,GAUSWAMI SANJAY,0.848894476890564,presidio
+msme - andaman nicobar.csv,EnterpriseName,58,PERSON,SHREE RAM,0.85,presidio
+msme - andaman nicobar.csv,CommunicationAddress,58,PERSON,SHERI,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,60,PERSON,BHAVDIP SAIUN,0.7974955439567566,presidio
+msme - andaman nicobar.csv,EnterpriseName,68,PERSON,Karan jems,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,70,PERSON,Jay Mataji,0.999868631362915,presidio
+msme - andaman nicobar.csv,EnterpriseName,71,PERSON,MANKAD ALTAF,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,72,PERSON,BHALALA DHARMENDRABHAI,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,75,PERSON,SINDHAV MUKESHBHAI,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,78,PERSON,MADHAV PASHU AHAR,0.7980470657348633,presidio
+msme - andaman nicobar.csv,EnterpriseName,89,PERSON,KHAN HALIM BABUBHAI,0.9990806579589844,presidio
+msme - andaman nicobar.csv,EnterpriseName,90,PERSON,Randal Daimond,0.85,presidio
+msme - andaman nicobar.csv,CommunicationAddress,90,PERSON,Hifali,0.85,presidio
+msme - andaman nicobar.csv,CommunicationAddress,90,PERSON,Sheri,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,114,PERSON,Khodiyar Paubhaji,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,118,PERSON,BHAVANI KRUPA,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,120,PERSON,sahil kalubhai,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,125,PERSON,Hareshbhai Matla Vala,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,129,PERSON,JAY AMBE ENTERPRISE,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,130,PERSON,Sanjaybhai Kalathiya,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,134,PERSON,Vipulbhai dangar,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,164,PERSON,KARYANI KIRITBHAI NANJIBHAI,0.85,presidio
+msme - andaman nicobar.csv,CommunicationAddress,166,PERSON,Vavdi,0.85,presidio
+msme - andaman nicobar.csv,CommunicationAddress,166,PERSON,Vavdi,0.85,presidio
+msme - andaman nicobar.csv,CommunicationAddress,166,PERSON,Vavdi,0.85,presidio
+msme - andaman nicobar.csv,CommunicationAddress,166,PERSON,Vavdi,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,172,PERSON,jograjiya viththalbhai,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,175,PERSON,AMAR PAAN,0.8948638439178467,presidio
+msme - andaman nicobar.csv,EnterpriseName,176,PERSON,Makwana Kanjibhai,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,177,PERSON,P.D.PENDAVALA,0.8483012318611145,presidio
+msme - andaman nicobar.csv,EnterpriseName,180,PERSON,KRISHNA VASTRA BHANDAR,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,183,PERSON,DHARMENDRABHAI PARSHOTAMBHAI RATHOD,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,186,PERSON,MEHULBHAI VADHABHAI RATHOD,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,189,PERSON,AMIT NARUBHAI,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,190,PERSON,SHYAM VANDANA,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,194,PERSON,DANGAR BENABEN,0.7528100609779358,presidio
+msme - andaman nicobar.csv,EnterpriseName,196,PERSON,KAMLESH VRUJLAL SHAH,0.8874593377113342,presidio
+msme - andaman nicobar.csv,EnterpriseName,204,PERSON,Bajarang Sopari,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,205,PERSON,NARESHBHAI VYAS,0.9002628326416016,presidio
+msme - andaman nicobar.csv,EnterpriseName,206,PERSON,Vala hitendrasinh,0.9990652799606323,presidio
+msme - andaman nicobar.csv,EnterpriseName,209,PERSON,SHAKTI DIAMOND,0.7360453605651855,presidio
+msme - andaman nicobar.csv,EnterpriseName,214,PERSON,MOBILE XPERT,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,215,PERSON,DABHI DINESHBHAI,0.7833496332168579,presidio
+msme - andaman nicobar.csv,EnterpriseName,217,PERSON,JAY GOGA,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,222,PERSON,Mandavraji Kirana Store,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,230,PERSON,JIKARBHAI NATHANI,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,233,PERSON,KRISHNA  JEWELLERS,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,240,PERSON,MARUTI HANDICRAFT,0.7454248070716858,presidio
+msme - andaman nicobar.csv,EnterpriseName,242,PERSON,GoGanga Organics,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,244,PERSON,BHATTI GHUGHABHAI,0.7892961502075195,presidio
+msme - andaman nicobar.csv,EnterpriseName,245,PERSON,Shivoham Showroom,0.85,presidio
+msme - andaman nicobar.csv,EnterpriseName,246,PERSON,KAUSHAL DIAMOND,0.7296923995018005,presidio
+msme - andaman nicobar.csv,EnterpriseName,248,PERSON,purva diamond,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,11,PERSON,ALI AKBAR TAILORS,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,13,PERSON,Mahaboob Basha,0.8344045877456665,presidio
 msme - andra pradesh.csv,EnterpriseName,14,PERSON,BALAJI KANNEPAREDDY,0.7488853931427002,presidio
-msme - andra pradesh.csv,EnterpriseName,15,PERSON,Priya Traders,0.7718899250030518,presidio
-msme - andra pradesh.csv,CommunicationAddress,16,PERSON,Rajeev Gandi Colony,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,24,PERSON,SR PURAM,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,28,PERSON,Sholinghur to Pallipet Road,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,31,PERSON,KARIM THULLABAD,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,32,PERSON,Virata Puram,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,32,PERSON,Virata Puram,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,33,PERSON,SREE UDHAYA BHANU TRANSPORT,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,37,PERSON," SASI KIRAN,",0.7186876535415649,presidio
-msme - andra pradesh.csv,CommunicationAddress,45,PERSON,pujarivari palli,0.85,presidio
+msme - andra pradesh.csv,CommunicationAddress,37,PERSON,"SASI KIRAN,",0.7186876535415649,presidio
 msme - andra pradesh.csv,EnterpriseName,46,PERSON,G ESHVAR REDDY,0.9830916523933411,presidio
 msme - andra pradesh.csv,EnterpriseName,50,PERSON,SHAIK AHAMAD BASHA,0.8185450434684753,presidio
 msme - andra pradesh.csv,EnterpriseName,52,PERSON,P HASSAN KHAN,0.9979679584503174,presidio
-msme - andra pradesh.csv,EnterpriseName,52,PERSON,HASSAN KHAN,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,53,PERSON,Chandra Mohan,0.9998315572738647,presidio
 msme - andra pradesh.csv,EnterpriseName,54,PERSON,Venkata Muruga Sai Transport,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,54,PERSON,ATHI KAYALA NAIDU STREET,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,64,PERSON,Kvb puram,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,66,PERSON,Apparao Thota,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,66,PERSON,Apparao Thota,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,66,PERSON,Apparao Thota,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,67,PERSON,KARVETI NAGAR,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,69,PERSON,"GOVINDA REDDY PALLE,",0.7095006108283997,presidio
-msme - andra pradesh.csv,CommunicationAddress,69,PERSON,"GOVINDA REDDY PALLE,",0.7123556137084961,presidio
-msme - andra pradesh.csv,EnterpriseName,72,PERSON,SHAIK IMTIYAZ,0.7510533332824707,presidio
 msme - andra pradesh.csv,EnterpriseName,73,PERSON,PILLAI MANJU,0.85,presidio
 msme - andra pradesh.csv,CommunicationAddress,73,PERSON,PILLAI MANJU,0.85,presidio
-msme - andra pradesh.csv,EnterpriseName,75,PERSON, chitti babu,0.8024793863296509,presidio
 msme - andra pradesh.csv,EnterpriseName,75,PERSON,chitti babu,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,89,PERSON,P Sreedhar,0.8556244373321533,presidio
-msme - andra pradesh.csv,CommunicationAddress,89,PERSON,Nellepalle Mitta,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,89,PERSON,Nellepalle Mitta,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,89,PERSON,Nellepalle Mitta,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,93,PERSON,SREE MANJUNATHA,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,93,PERSON,Kotha Peta,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,98,PERSON,SAI BABA TEMPLE,0.85,presidio
-msme - andra pradesh.csv,EnterpriseName,99,PERSON,Shaik Abdul Kalam,0.8412866592407227,presidio
-msme - andra pradesh.csv,CommunicationAddress,99,PERSON, Shaik Abdul,0.7509221434593201,presidio
-msme - andra pradesh.csv,CommunicationAddress,99,PERSON,Shaik Abdul Kalam,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,99,PERSON,Sivaji Nagar,0.85,presidio
-msme - andra pradesh.csv,EnterpriseName,101,PERSON,Nurish Rajak shaik,0.7650620341300964,presidio
+msme - andra pradesh.csv,EnterpriseName,99,PERSON,Shaik Abdul Kalam,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,101,PERSON,Nurish Rajak,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,103,PERSON,Lakshmi Transport,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,105,PERSON,K t. Road,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,112,PERSON,S CHANDRA SEKHAR,0.8689274191856384,presidio
-msme - andra pradesh.csv,CommunicationAddress,113,PERSON,LENIN NAGAR,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,116,PERSON,R MANI KUMAR,0.9467867612838745,presidio
-msme - andra pradesh.csv,CommunicationAddress,116,PERSON,GUTTAKINDA PALLI,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,117,PERSON,MUNISEKHAR KUMAR,0.8719302415847778,presidio
-msme - andra pradesh.csv,EnterpriseName,117,PERSON,MUNISEKHAR KUMAR T,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,121,PERSON,Sree Tejeswi Milk Depo,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,121,PERSON,Narayana Puram,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,124,PERSON,SREE KANAKADURGA TRANSPORT,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,125,PERSON,SURA SUDHARSHANA BABU,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,127,PERSON,K CHITHRA,0.9913729429244995,presidio
 msme - andra pradesh.csv,EnterpriseName,128,PERSON,JAI SHANKAR,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,130,PERSON,CHALLA VENKATESH,0.9164474010467529,presidio
 msme - andra pradesh.csv,EnterpriseName,138,PERSON,JALLA LOKANATH,0.7885494232177734,presidio
-msme - andra pradesh.csv,EnterpriseName,139,PERSON, NAGABHUSHANAM NAIDU,0.9028778672218323,presidio
+msme - andra pradesh.csv,EnterpriseName,139,PERSON,NAGABHUSHANAM NAIDU,0.9028778672218323,presidio
 msme - andra pradesh.csv,EnterpriseName,141,PERSON,M KANITHKAR,0.9989984035491943,presidio
 msme - andra pradesh.csv,EnterpriseName,147,PERSON,PEMMINETI VENKATESWARLU,0.8873768448829651,presidio
-msme - andra pradesh.csv,EnterpriseName,149,PERSON,TALARI KIRAN KUMAR,0.8334459662437439,presidio
-msme - andra pradesh.csv,EnterpriseName,151,PERSON, Dilli Babu,0.7513822913169861,presidio
-msme - andra pradesh.csv,CommunicationAddress,151,PERSON,Monabotu palli,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,153,PERSON,VINJAM VILL,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,149,PERSON,TALARI KIRAN KUMAR,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,151,PERSON,Dilli Babu,0.7513822913169861,presidio
 msme - andra pradesh.csv,EnterpriseName,154,PERSON,T S Lokesh Babu,0.9169384241104126,presidio
-msme - andra pradesh.csv,CommunicationAddress,154,PERSON,lokesh babu,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,159,PERSON,RAVI ENTERPRISES SALES,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,160,PERSON,RADHA KRISHNA STONE CRUSHER,0.85,presidio
-msme - andra pradesh.csv,EnterpriseName,169,PERSON, BHARATH KUMAR REDDY,0.8868828415870667,presidio
-msme - andra pradesh.csv,EnterpriseName,169,PERSON,KUMAR REDDY,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,170,PERSON,JAI NAGAR,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,170,PERSON,KAJOOR GUDUPALLE,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,169,PERSON,BHARATH KUMAR REDDY,0.8868828415870667,presidio
 msme - andra pradesh.csv,EnterpriseName,171,PERSON,VIJAY TRANSPORTS,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,177,PERSON,MK NAIDU COLONY,0.85,presidio
-msme - andra pradesh.csv,EnterpriseName,179,PERSON,Jangam Lokesh,0.751380980014801,presidio
-msme - andra pradesh.csv,EnterpriseName,180,PERSON, SANDEEP REDDY,0.8127279281616211,presidio
-msme - andra pradesh.csv,CommunicationAddress,181,PERSON," THIMMASANIPALLI, MAPAKSHI,",0.6976602077484131,presidio
+msme - andra pradesh.csv,EnterpriseName,179,PERSON,Jangam Lokesh,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,180,PERSON,SANDEEP REDDY,0.8127279281616211,presidio
 msme - andra pradesh.csv,EnterpriseName,183,PERSON,M S KRISHNAREDDY,0.9860969185829163,presidio
 msme - andra pradesh.csv,EnterpriseName,185,PERSON,SRI BALAJI,0.985873818397522,presidio
 msme - andra pradesh.csv,EnterpriseName,192,PERSON,Sri Venkateswara,0.9920108914375305,presidio
 msme - andra pradesh.csv,EnterpriseName,194,PERSON,ramakrishna naik,0.85,presidio
-msme - andra pradesh.csv,EnterpriseName,195,PERSON, P BHARATHI,0.9460262656211853,presidio
+msme - andra pradesh.csv,EnterpriseName,195,PERSON,P BHARATHI,0.9460262656211853,presidio
 msme - andra pradesh.csv,EnterpriseName,202,PERSON,Sree vari,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,204,PERSON,Venkateshwara Fashions,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,205,PERSON,G MOHAN,0.9992396831512451,presidio
-msme - andra pradesh.csv,CommunicationAddress,206,PERSON,Valasapalle Panchayath,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,208,PERSON,KRISHNA MURTHY,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,208,PERSON," SN PURAM,",0.685614287853241,presidio
-msme - andra pradesh.csv,CommunicationAddress,208,PERSON,RAJIV NAGR,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,208,PERSON,RAVIJ NAGR,0.85,presidio
 msme - andra pradesh.csv,EnterpriseName,211,PERSON,PEMMA SURENDRA REDDY,0.8072356581687927,presidio
-msme - andra pradesh.csv,EnterpriseName,221,PERSON, VENKATRAMI REDDY,0.9132865071296692,presidio
-msme - andra pradesh.csv,CommunicationAddress,233,PERSON," KADIRINATHUNIKOTA, KADIRINATHUNIKOTA,",0.7135659456253052,presidio
-msme - andra pradesh.csv,CommunicationAddress,236,PERSON,INDIRA NAGAR,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,237,PERSON,RAJIV NAGAR,0.85,presidio
-msme - andra pradesh.csv,CommunicationAddress,237,PERSON,RAJIV NAGAR,0.85,presidio
+msme - andra pradesh.csv,EnterpriseName,221,PERSON,VENKATRAMI REDDY,0.9132865071296692,presidio
 msme - andra pradesh.csv,EnterpriseName,241,PERSON,SIRI DHANYALU MILLET MALT,0.7101972103118896,presidio
 msme - andra pradesh.csv,EnterpriseName,245,PERSON,GIRISH ENTREPRISESS,0.85,presidio
-msme - andra pradesh.csv,EnterpriseName,247,PERSON,TELLAMEKALA PRAVEEN KUMAR,0.7549250721931458,presidio
+msme - andra pradesh.csv,EnterpriseName,247,PERSON,TELLAMEKALA PRAVEEN KUMAR,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,1,PERSON,JANLONG HAKHI,0.8685082197189331,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,6,PERSON,MR.BUMCHA KIMSING,0.6890421509742737,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,8,PERSON,MANOJ SHA,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,9,PERSON,ABDUL KUDUS,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,11,PERSON,RENU JUGLI SHOKRANG,0.7701672315597534,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,12,PERSON,Mowang Aboh,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,19,PERSON,Bhajan Chaki,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,21,PERSON,Anil Mishra,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,23,PERSON,TAMA NGUKI,0.9665151238441467,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,27,PERSON,Mungrey Homestay,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,28,PERSON,USHA DEVI,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,32,PERSON,SAMNONG REKHUNG,0.8323646783828735,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,36,PERSON,Bikash Limbu,0.7503981590270996,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,39,PERSON,Remsem Langching,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,40,PERSON,Veiphai Singpho,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,44,PERSON,sontosh chakma,0.7469410300254822,presidio
+msme - arunanchal pradesh.csv,CommunicationAddress,52,PERSON,"HEMANTA DEORY,",0.6942287683486938,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,53,PERSON,CHAU SACHE SINGPHO,0.8228176236152649,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,56,PERSON,Avijit Gogoi,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,59,PERSON,Gadang Nongja Singpho,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,62,PERSON,Tai Enterprises,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,63,PERSON,Jawjagam Singpho,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,66,PERSON,NEMNYAI SIMAI,0.7632787823677063,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,67,PERSON,MONI CHAKMA,0.85,presidio
+msme - arunanchal pradesh.csv,CommunicationAddress,68,PERSON,"AGAM MOSSANG,",0.7089557647705078,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,69,PERSON,KRISHNA BAHADUR,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,71,PERSON,PHENNEM TIKHAK,0.8863076567649841,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,73,PERSON,SHRI KHAMKO,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,74,PERSON,MD MOBILE,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,75,PERSON,Chalen Kungkho,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,78,PERSON,Jina Hajong,0.8134433031082153,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,80,PERSON,MR.GUMLI SIKHET,0.7384653091430664,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,81,PERSON,Kenli Riram,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,85,PERSON,MANOJ KUMAR SHAH,0.8573248982429504,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,89,PERSON,Ngwalusay Yobin,0.8703771829605103,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,91,PERSON,Alok RO Plant,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,96,PERSON,Dhan Borah,0.9973043203353882,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,99,PERSON,RAMESH KUMAR CHAKMA,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,102,PERSON,Nihar Bindu Chakma,0.8968597054481506,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,104,PERSON,WANGKHU HAKHUN,0.9093987345695496,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,105,PERSON,KUMAR CHAKMA,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,106,PERSON,ROBIN RAI,0.9119454026222229,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,111,PERSON,Amar Joytika Chakma,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,114,PERSON,Ritu Jugli,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,117,PERSON,Jyoti Moy Chakma,0.9691551327705383,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,118,PERSON,LALAN BHAGAT,0.9821574687957764,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,120,PERSON,PROBIN PAUL,0.815554141998291,presidio
+msme - arunanchal pradesh.csv,CommunicationAddress,121,PERSON,Ngungtim Changmi,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,122,PERSON,Amin uddin,0.9992479681968689,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,124,PERSON,ONGGAM NINGNAN SINGPHO,0.795348048210144,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,125,PERSON,LOMLU LUNGPHI,0.8092527389526367,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,128,PERSON,Imran hussain,0.9998047351837158,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,131,PERSON,KITSENG SHUNGKHO,0.7569241523742676,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,132,PERSON,JAWJUN MIRIP,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,139,PERSON,RAJU SARKAR,0.7511252164840698,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,141,PERSON,Joytang Lungphi Maitwan,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,146,PERSON,Sadhan kumar chakma,0.9455609321594238,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,147,PERSON,ASHAP TIKHAK,0.885723352432251,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,148,PERSON,RAMESH SHAH,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,156,PERSON,Raphael Foods,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,159,PERSON,Sudhir Ranjan Roy,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,166,PERSON,KAJOL DEBNATH,0.7716628909111023,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,167,PERSON,DAPWA KIMSING,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,171,PERSON,Lily Mossang,0.9998324513435364,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,173,PERSON,NONG SENG SINGPHO,0.8178494572639465,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,177,PERSON,TCHITHAN TECHI,0.8280948400497437,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,180,PERSON,ROBINDRA CHAKMA,0.8260340690612793,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,185,PERSON,Shelle Begum,0.8817647695541382,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,188,PERSON,J.T.,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,194,PERSON,P. T. M. ENTERPRISE,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,196,PERSON,PISURUDIN MIYAN,0.8855199217796326,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,198,PERSON,Saheh Ahmed Tapadar,0.8541527390480042,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,200,PERSON,BINGLEM MUNGRAY,0.7585322856903076,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,201,PERSON,SAYA YOBIN,0.9959917068481445,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,202,PERSON,ANIL MURA,0.7427952289581299,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,204,PERSON,AMIT KUMAR SONAR,0.9293974041938782,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,206,PERSON,Alony Taijong,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,211,PERSON,sonmoni chowmong,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,213,PERSON,KABITA SONOWAL,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,220,PERSON,Nontam Mungrey,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,225,PERSON,ZITBU MOSSANG,0.8038097620010376,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,226,PERSON,Manje Koja Singpho,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,229,PERSON,JAI MATA DI STORE,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,230,PERSON,Philip Barla,0.9998283386230469,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,231,PERSON,ASHOK RAI,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,235,PERSON,Phuptang Mirip,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,239,PERSON,KUMAR CHAKMA,0.85,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,240,PERSON,HIRA TIKHAK,0.917493999004364,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,243,PERSON,RAM BRICKS FIELD,0.8593482375144958,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,245,PERSON,DONGSON TAIDONG,0.8125175833702087,presidio
+msme - arunanchal pradesh.csv,EnterpriseName,248,PERSON,SANGKU TALUKDAR,0.7765034437179565,presidio
+msme - assam.csv,EnterpriseName,0,PERSON,ARIF SOPA HOUSE,0.85,presidio
+msme - assam.csv,EnterpriseName,2,PERSON,ANJANA DEVI,0.85,presidio
+msme - assam.csv,CommunicationAddress,6,PERSON,PS GOLAKGANJ,0.85,presidio
+msme - assam.csv,EnterpriseName,9,PERSON,ProGati Live Axom,0.85,presidio
+msme - assam.csv,EnterpriseName,10,PERSON,Abdul Bareque,0.85,presidio
+msme - assam.csv,EnterpriseName,11,PERSON,INDRAJIT BHOWMICK,0.7456449270248413,presidio
+msme - assam.csv,EnterpriseName,13,PERSON,RABIAL HOQUE,0.8169779181480408,presidio
+msme - assam.csv,EnterpriseName,15,PERSON,akinur ali,0.85,presidio
+msme - assam.csv,EnterpriseName,19,PERSON,Radha Gobinda Bastralaya,0.8870976567268372,presidio
+msme - assam.csv,EnterpriseName,20,PERSON,Nur Hossain sheikh,0.999452531337738,presidio
+msme - assam.csv,EnterpriseName,21,PERSON,Zamal uddin,0.8332688212394714,presidio
+msme - assam.csv,EnterpriseName,24,PERSON,ARJAN ALI,0.85,presidio
+msme - assam.csv,EnterpriseName,29,PERSON,ALIPFUL SK,0.85,presidio
+msme - assam.csv,EnterpriseName,39,PERSON,SANJIT KR SARKAR,0.8683779835700989,presidio
+msme - assam.csv,EnterpriseName,41,PERSON,Lakhi Paul,0.85,presidio
+msme - assam.csv,EnterpriseName,42,PERSON,ASHRAFUL HOQUE,0.7192009091377258,presidio
+msme - assam.csv,EnterpriseName,47,PERSON,Kraim Cloth,0.85,presidio
+msme - assam.csv,EnterpriseName,48,PERSON,ABDUL HAMID,0.85,presidio
+msme - assam.csv,EnterpriseName,49,PERSON,Usof Ali,0.85,presidio
+msme - assam.csv,EnterpriseName,53,PERSON,AMIR HUSSAIN,0.9083841443061829,presidio
+msme - assam.csv,CommunicationAddress,53,PERSON,"Bilasipara, Nill, Raniganj, Bilasipara",0.85,presidio
+msme - assam.csv,EnterpriseName,54,PERSON,Sonabhan bekary,0.7942792177200317,presidio
+msme - assam.csv,EnterpriseName,57,PERSON,ASHRAFUL ALOM,0.7101551294326782,presidio
+msme - assam.csv,EnterpriseName,61,PERSON,Jomer Ali,0.85,presidio
+msme - assam.csv,EnterpriseName,64,PERSON,ABDUL ALIM SHEIKH,0.85,presidio
+msme - assam.csv,EnterpriseName,65,PERSON,Joyshree  Store,0.85,presidio
+msme - assam.csv,EnterpriseName,73,PERSON,G.N.BAKERY,0.8543618321418762,presidio
+msme - assam.csv,EnterpriseName,84,PERSON,Subrata Kundu,0.85,presidio
+msme - assam.csv,EnterpriseName,87,PERSON,MONOWAR ALI PRODHANI,0.8727882504463196,presidio
+msme - assam.csv,EnterpriseName,89,PERSON,KABITA DEVI,0.85,presidio
+msme - assam.csv,EnterpriseName,91,PERSON,MAJANI BHUYAN,0.729134202003479,presidio
+msme - assam.csv,EnterpriseName,95,PERSON,RAJU BARMAN,0.85,presidio
+msme - assam.csv,EnterpriseName,102,PERSON,Abdul sk,0.8939634561538696,presidio
+msme - assam.csv,EnterpriseName,104,PERSON,MD HAZRAT ALI,0.85,presidio
+msme - assam.csv,CommunicationAddress,107,PERSON,Zakir Hussain Road,0.85,presidio
+msme - assam.csv,EnterpriseName,108,PERSON,ALI AHMED,0.85,presidio
+msme - assam.csv,CommunicationAddress,110,PERSON,"SAHIDUL HOSSAIN, CHAGALCHARA CHOWMORE,",0.709987461566925,presidio
+msme - assam.csv,EnterpriseName,111,PERSON,PRINCE SELIM SHOP,0.85,presidio
+msme - assam.csv,EnterpriseName,112,PERSON,JAYNUL HOQUE,0.8165309429168701,presidio
+msme - assam.csv,EnterpriseName,113,PERSON,NURUL HOQUE,0.8011760115623474,presidio
+msme - assam.csv,EnterpriseName,118,PERSON,JALAL UDDIN SK,0.85,presidio
+msme - assam.csv,EnterpriseName,120,PERSON,HANNAN HARDWARES,0.85,presidio
+msme - assam.csv,EnterpriseName,122,PERSON,Abul kalam azad,0.85,presidio
+msme - assam.csv,EnterpriseName,123,PERSON,Eakub Ali Sheikh,0.85,presidio
+msme - assam.csv,EnterpriseName,129,PERSON,Alok Unit,0.85,presidio
+msme - assam.csv,EnterpriseName,137,PERSON,Paromita Nath,0.85,presidio
+msme - assam.csv,EnterpriseName,141,PERSON,MOTLEB HUSSEIN SARKAR,0.8862234950065613,presidio
+msme - assam.csv,EnterpriseName,146,PERSON,Hussein Store,0.85,presidio
+msme - assam.csv,EnterpriseName,157,PERSON,Mostak sheikh,0.7226995229721069,presidio
+msme - assam.csv,EnterpriseName,158,PERSON,Dipak Traders,0.7506519556045532,presidio
+msme - assam.csv,EnterpriseName,164,PERSON,ALI SHEIKH ENTERPRISE,0.85,presidio
+msme - assam.csv,EnterpriseName,166,PERSON,Musfikar ali,0.85,presidio
+msme - assam.csv,EnterpriseName,167,PERSON,GAUTAM BHANDAR,0.85,presidio
+msme - assam.csv,EnterpriseName,169,PERSON,RANJIT BARMAN,0.85,presidio
+msme - assam.csv,EnterpriseName,171,PERSON,RAJA GHOSH,0.85,presidio
+msme - assam.csv,EnterpriseName,172,PERSON,AZIZUR ALI,0.85,presidio
+msme - assam.csv,EnterpriseName,174,PERSON,JAIN UDDIN SARKER,0.996734619140625,presidio
+msme - assam.csv,EnterpriseName,176,PERSON,LATIFUL HOQUE,0.8326964378356934,presidio
+msme - assam.csv,EnterpriseName,180,PERSON,SAMSUL BARI,0.7862313985824585,presidio
+msme - assam.csv,EnterpriseName,181,PERSON,MD ABUL,0.85,presidio
+msme - assam.csv,EnterpriseName,182,PERSON,SHAHANUR HUSSAIN,0.85,presidio
+msme - assam.csv,EnterpriseName,183,PERSON,Mahabul Hoque,0.85,presidio
+msme - assam.csv,CommunicationAddress,183,PERSON,Abdul Majit,0.9993537664413452,presidio
+msme - assam.csv,CommunicationAddress,183,PERSON,Abdul Majit,0.9993097186088562,presidio
+msme - assam.csv,EnterpriseName,189,PERSON,Forman Ali,0.85,presidio
+msme - assam.csv,EnterpriseName,191,PERSON,Amir bastralay,0.999391496181488,presidio
+msme - assam.csv,EnterpriseName,192,PERSON,Ukil Sheikh,0.7513419389724731,presidio
+msme - assam.csv,EnterpriseName,193,PERSON,Safikul alam,0.85,presidio
+msme - assam.csv,EnterpriseName,198,PERSON,ANSER ALI,0.7510207891464233,presidio
+msme - assam.csv,EnterpriseName,200,PERSON,R. Assam,0.9050840735435486,presidio
+msme - assam.csv,CommunicationAddress,201,PERSON,"AZIBOR RAHMAN,",0.7087333798408508,presidio
+msme - assam.csv,CommunicationAddress,201,PERSON,"AZIBOR RAHMAN,",0.7637678980827332,presidio
+msme - assam.csv,CommunicationAddress,201,PERSON,VILL BALAJAN,0.85,presidio
+msme - assam.csv,EnterpriseName,202,PERSON,Gias Uddin,0.85,presidio
+msme - assam.csv,EnterpriseName,209,PERSON,Abdul Barek,0.9998383522033691,presidio
+msme - assam.csv,EnterpriseName,211,PERSON,ABDUL ROHIM,0.85,presidio
+msme - assam.csv,EnterpriseName,212,PERSON,FAYJAL HOQUE,0.762444257736206,presidio
+msme - assam.csv,EnterpriseName,213,PERSON,ALI STORE,0.85,presidio
+msme - assam.csv,EnterpriseName,214,PERSON,ARIFA SULTANA PARVIN,0.85,presidio
+msme - assam.csv,EnterpriseName,215,PERSON,SHANTI RABI DAS,0.829664409160614,presidio
+msme - assam.csv,EnterpriseName,216,PERSON,SAHIDUL HAQUE,0.7494801878929138,presidio
+msme - assam.csv,CommunicationAddress,216,PERSON,"ABDUL MOZID SHEI,",0.6923547387123108,presidio
+msme - assam.csv,CommunicationAddress,216,PERSON,"ABDUL MOZID SHEI,",0.7099738121032715,presidio
+msme - assam.csv,CommunicationAddress,216,PERSON,Tamari pt ii,0.85,presidio
+msme - assam.csv,EnterpriseName,217,PERSON,SAMSUL HOQUE KHAN,0.8885741829872131,presidio
+msme - assam.csv,EnterpriseName,222,PERSON,ABDUL MOBILE CENTER,0.85,presidio
+msme - assam.csv,EnterpriseName,223,PERSON,DEBI RAY,0.85,presidio
+msme - assam.csv,EnterpriseName,227,PERSON,Ali Store,0.85,presidio
+msme - assam.csv,EnterpriseName,229,PERSON,SONALI BARMAN,0.7521319389343262,presidio
+msme - assam.csv,EnterpriseName,233,PERSON,MATIAR RAHMAN,0.8707049489021301,presidio
+msme - assam.csv,EnterpriseName,235,PERSON,SHRI SAHIDUR RAHMAN,0.8683026432991028,presidio
+msme - assam.csv,EnterpriseName,238,PERSON,TRINATH SEEWTS,0.8306386470794678,presidio
+msme - assam.csv,EnterpriseName,243,PERSON,Morziana Begum,0.85,presidio
+msme - assam.csv,EnterpriseName,244,PERSON,SHRI MAMUD ALI,0.8868327736854553,presidio
+msme - assam.csv,EnterpriseName,248,PERSON,Rafiqul Hassan,0.85,presidio
+msme - gujrat.csv,EnterpriseName,0,PERSON,jyoti state,0.85,presidio
+msme - gujrat.csv,CommunicationAddress,0,PERSON,Biki Das,0.85,presidio
+msme - gujrat.csv,EnterpriseName,3,PERSON,Kolli Naveen Kumar,0.85,presidio
+msme - gujrat.csv,EnterpriseName,4,PERSON,NIRJALA FURNITURES,0.85,presidio
+msme - gujrat.csv,EnterpriseName,6,PERSON,Iliyas Nurmahammad,0.85,presidio
+msme - gujrat.csv,EnterpriseName,13,PERSON,ASHOK KUMAR BISWAS,0.8943281173706055,presidio
+msme - gujrat.csv,EnterpriseName,19,PERSON,Dhana Laxmi,0.85,presidio
+msme - gujrat.csv,EnterpriseName,28,PERSON,RAJAK ALI,0.85,presidio
+msme - gujrat.csv,EnterpriseName,29,PERSON,S RAMESH,0.7660089731216431,presidio
+msme - gujrat.csv,EnterpriseName,34,PERSON,ASHRAF MOOSA,0.85,presidio
+msme - gujrat.csv,CommunicationAddress,34,PERSON,MOOSA MOHAMMAD,0.85,presidio
+msme - gujrat.csv,CommunicationAddress,34,PERSON,MOOSA MOHAMMAD,0.85,presidio
+msme - gujrat.csv,EnterpriseName,43,PERSON,R. Maheshwari,0.85,presidio
+msme - gujrat.csv,EnterpriseName,46,PERSON,Satya Raj,0.8749857544898987,presidio
+msme - gujrat.csv,EnterpriseName,48,PERSON,SAIMA M,0.85,presidio
+msme - gujrat.csv,EnterpriseName,58,PERSON,Blackwater Delights,0.85,presidio
+msme - gujrat.csv,CommunicationAddress,59,PHONE_NUMBER,6387247798,0.4,presidio
+msme - gujrat.csv,CommunicationAddress,59,PHONE_NUMBER,6387247798,0.4,presidio
+msme - gujrat.csv,EnterpriseName,61,PERSON,Pawan Kumar,0.85,presidio
+msme - gujrat.csv,EnterpriseName,66,PERSON,Jay Traders,0.9998338222503662,presidio
+msme - gujrat.csv,EnterpriseName,79,PERSON,MOHAMMED WASIM EMPORIUM,0.85,presidio
+msme - gujrat.csv,EnterpriseName,81,PERSON,Papa Traders,0.9948469400405884,presidio
+msme - gujrat.csv,EnterpriseName,98,PERSON,ATIKUL ATIKUL,0.85,presidio
+msme - gujrat.csv,CommunicationAddress,99,PERSON,Rajkumar Chidipi,0.85,presidio
+msme - gujrat.csv,EnterpriseName,100,PERSON,Sariful laskar,0.85,presidio
+msme - gujrat.csv,EnterpriseName,103,PERSON,Khursid alam,0.85,presidio
+msme - gujrat.csv,CommunicationAddress,108,PERSON,Naga Rom,0.85,presidio
+msme - gujrat.csv,EnterpriseName,110,PERSON,Arvind kumar,0.85,presidio
+msme - gujrat.csv,EnterpriseName,111,PERSON,Naveen Varma,0.85,presidio
+msme - gujrat.csv,CommunicationAddress,111,PERSON,Naveen Varma,0.85,presidio
+msme - gujrat.csv,EnterpriseName,119,PERSON,Rajibul laskar,0.85,presidio
+msme - gujrat.csv,CommunicationAddress,120,PERSON,Bhola Rajput,0.85,presidio
+msme - gujrat.csv,EnterpriseName,128,PERSON,Noor ul Hassan,0.9996436238288879,presidio
+msme - gujrat.csv,EnterpriseName,135,PERSON,Rafik Alam,0.85,presidio
+msme - gujrat.csv,EnterpriseName,138,PERSON,Syeda Hajia,0.85,presidio
+msme - gujrat.csv,EnterpriseName,140,PERSON,Avid husain,0.85,presidio
+msme - gujrat.csv,EnterpriseName,148,PERSON,PANDYA RAJAN,0.801825761795044,presidio
+msme - gujrat.csv,EnterpriseName,150,PERSON,M.V AMMAN,0.7622636556625366,presidio
+msme - gujrat.csv,EnterpriseName,161,PERSON,K KUMAR,0.9335209727287292,presidio
+msme - gujrat.csv,EnterpriseName,166,PERSON,BASHWANI BABU,0.8383795619010925,presidio
+msme - gujrat.csv,EnterpriseName,167,PERSON,PALASH MONDAL,0.85,presidio
+msme - gujrat.csv,EnterpriseName,179,PERSON,SHANMUGAM PALANI VEL,0.85,presidio
+msme - gujrat.csv,EnterpriseName,181,PERSON,N.RATHINAM,0.793964147567749,presidio
+msme - gujrat.csv,EnterpriseName,185,PERSON,GREAT NIC BAKERY,0.8370841145515442,presidio
+msme - gujrat.csv,EnterpriseName,189,PERSON,HARCHARAN SINGH,0.85,presidio
+msme - gujrat.csv,EnterpriseName,196,PERSON,BABLU JANA,0.85,presidio
+msme - gujrat.csv,EnterpriseName,200,PERSON,MONDAL RAFIK,0.85,presidio
+msme - gujrat.csv,EnterpriseName,211,PERSON,SEETHA RAM RAJU,0.8825668692588806,presidio
+msme - gujrat.csv,EnterpriseName,214,PERSON,Khokan Weeden,0.85,presidio
+msme - gujrat.csv,EnterpriseName,219,PERSON,RAJU ABDULSAB CHAPPARABAND,0.85,presidio
+msme - gujrat.csv,EnterpriseName,225,PERSON,Arjun Patharod,0.9997947216033936,presidio
+msme - gujrat.csv,EnterpriseName,233,PHONE_NUMBER,7799046911,0.4,presidio
+msme - gujrat.csv,CommunicationAddress,233,PHONE_NUMBER,7799046911,0.4,presidio
+msme - gujrat.csv,CommunicationAddress,233,PHONE_NUMBER,7799046911,0.4,presidio
+msme - gujrat.csv,EnterpriseName,234,PERSON,Shubham Vijaykumar,0.85,presidio
+msme - gujrat.csv,EnterpriseName,242,PERSON,Bal ko maro,0.85,presidio
+msme - gujrat.csv,EnterpriseName,248,PERSON,Ganesh abhiman Garje,0.9386174082756042,presidio
+msme - gujrat.csv,CommunicationAddress,248,PERSON,"Ganesh Garje,",0.8233774900436401,presidio
+msme - gujrat.csv,CommunicationAddress,59,PHONE_NUMBER,6387247798,1.0,regex
+msme - gujrat.csv,CommunicationAddress,59,PHONE_NUMBER,6387247798,1.0,regex
+msme - gujrat.csv,EnterpriseName,233,PHONE_NUMBER,7799046911,1.0,regex
+msme - gujrat.csv,CommunicationAddress,233,PHONE_NUMBER,7799046911,1.0,regex
+msme - gujrat.csv,CommunicationAddress,233,PHONE_NUMBER,7799046911,1.0,regex

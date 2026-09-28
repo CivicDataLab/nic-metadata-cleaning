@@ -1,0 +1,101 @@
+Tier 1: 37936 detections over 1525 files
+2328 (dataset, column) pairs classified
+
+class            pairs   share   datasets
+false_positive     551  23.7%      516
+permissible        277  11.9%      270
+present            809  34.8%      795
+undecided          691  29.7%      600
+
+by rule
+  R11-personal-channel       -> present           809
+  R12-residual               -> undecided         691
+  R2-column-shape            -> false_positive    483
+  R4-institutional-channel   -> permissible       275
+  R1-controlled-vocab        -> false_positive     67
+  R6-office-allowlist        -> permissible         2
+  R3-not-a-number            -> false_positive      1
+
+by dataset context
+  unknown                 2328
+
+top headers still undecided
+    467  QueryText
+    224  KccAns
+
+Tier 3: 691 undecided pair(s) (691 with the file's header row)
+judging them as 62 (folder, column) group(s)
+[1/62] ANDHRA_PRADESH (31 files)                QueryText                      false_positive
+[2/62] ANDHRA_PRADESH (5 files)                 KccAns                         false_positive
+[3/62] ARUNACHAL_PRADESH (8 files)              QueryText                      false_positive
+[4/62] ARUNACHAL_PRADESH (3 files)              KccAns                         false_positive
+[5/62] ASSAM (21 files)                         QueryText                      false_positive
+[6/62] ASSAM (6 files)                          KccAns                         false_positive
+[7/62] A_AND_N_ISLANDS (5 files)                QueryText                      false_positive
+[8/62] A_AND_N_ISLANDS (2 files)                KccAns                         false_positive
+[9/62] BIHAR (15 files)                         KccAns                         false_positive
+[10/62] BIHAR (19 files)                         QueryText                      false_positive
+[11/62] CHHATTISGARH (8 files)                   KccAns                         false_positive
+[12/62] CHHATTISGARH (16 files)                  QueryText                      false_positive
+[13/62] DADRA_AND_NAGAR_HAVELI (2 files)         QueryText                      false_positive
+[14/62] DADRA_AND_NAGAR_HAVELI (1 files)         KccAns                         false_positive
+[15/62] DAMAN_AND_DIU (1 files)                  KccAns                         false_positive
+[16/62] DELHI (9 files)                          KccAns                         false_positive
+[17/62] DELHI (28 files)                         QueryText                      false_positive
+[18/62] GOA (4 files)                            KccAns                         false_positive
+[19/62] GOA (9 files)                            QueryText                      false_positive
+[20/62] GUJARAT (18 files)                       KccAns                         false_positive
+[21/62] GUJARAT (17 files)                       QueryText                      false_positive
+[22/62] HARYANA (16 files)                       KccAns                         false_positive
+[23/62] HARYANA (14 files)                       QueryText                      false_positive
+[24/62] HIMACHAL_PRADESH (26 files)              QueryText                      false_positive
+[25/62] HIMACHAL_PRADESH (11 files)              KccAns                         present
+[26/62] JAMMU_AND_KASHMIR (10 files)             KccAns                         false_positive
+[27/62] JAMMU_AND_KASHMIR (13 files)             QueryText                      false_positive
+[28/62] JHARKAND (26 files)                      QueryText                      false_positive
+[29/62] JHARKAND (18 files)                      KccAns                         false_positive
+[30/62] KARNATAKA (13 files)                     QueryText                      false_positive
+[31/62] KARNATAKA (6 files)                      KccAns                         false_positive
+[32/62] KERALA (27 files)                        QueryText                      false_positive
+[33/62] KERALA (7 files)                         KccAns                         false_positive
+[34/62] LAKSHADWEEP (1 files)                    KccAns                         false_positive
+[35/62] MADHYA_PRADESH (14 files)                QueryText                      false_positive
+[36/62] MADHYA_PRADESH (11 files)                KccAns                         false_positive
+[37/62] MAHARASHTRA (28 files)                   QueryText                      false_positive
+[38/62] MAHARASHTRA (13 files)                   KccAns                         false_positive
+[39/62] MANIPUR (2 files)                        KccAns                         false_positive
+[40/62] MANIPUR (6 files)                        QueryText                      false_positive
+[41/62] MEGHALAYA (5 files)                      KccAns                         false_positive
+[42/62] MEGHALAYA (1 files)                      QueryText                      false_positive
+[43/62] MIZORAM (2 files)                        QueryText                      false_positive
+[44/62] MIZORAM (1 files)                        KccAns                         false_positive
+[45/62] NAGALAND (3 files)                       QueryText                      false_positive
+[46/62] NAGALAND (2 files)                       KccAns                         present
+[47/62] ODISHA (41 files)                        QueryText                      false_positive
+[48/62] ODISHA (6 files)                         KccAns                         false_positive
+[49/62] PUDUCHERRY (2 files)                     KccAns                         false_positive
+[50/62] PUDUCHERRY (7 files)                     QueryText                      false_positive
+[51/62] PUNJAB (4 files)                         QueryText                      false_positive
+[52/62] PUNJAB (3 files)                         KccAns                         false_positive
+[53/62] RAJASTHAN (13 files)                     KccAns                         false_positive
+[54/62] RAJASTHAN (20 files)                     QueryText                      false_positive
+[55/62] SIKKIM (5 files)                         QueryText                      false_positive
+[56/62] SIKKIM (8 files)                         KccAns                         present
+[57/62] TAMILNADU (22 files)                     QueryText                      false_positive
+[58/62] TAMILNADU (3 files)                      KccAns                         present
+[59/62] TELANGANA (33 files)                     QueryText                      false_positive
+[60/62] TELANGANA (7 files)                      KccAns                         false_positive
+[61/62] TRIPURA (6 files)                        QueryText                      false_positive
+[62/62] TRIPURA (7 files)                        KccAns                         false_positive
+
+Tier 3 judged 62 pairs
+
+  false_positive     58
+  present             4
+
+Final class per file
+  present             819
+  false_positive      454
+  permissible         252
+
+outputs in pii_test/kcc/classification

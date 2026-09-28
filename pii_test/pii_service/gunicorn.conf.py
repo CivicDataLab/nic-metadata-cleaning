@@ -17,8 +17,8 @@ chdir = SERVICE_DIR
 
 # A unix socket by default: nginx and gunicorn sit on the same host, so a
 # TCP port only adds a way to reach the service without going through nginx.
-# Set PII_SERVICE_BIND=127.0.0.1:8000 to go back to a port (handy for curl
-# during development).
+# Set PII_SERVICE_BIND=127.0.0.1:8080 to go back to a port (handy for curl
+# during development; not 8000, which is the Tier 3 judge).
 #
 # Under systemd the unit points this at /run/pii-scan/gunicorn.sock, which
 # lives on tmpfs and is recreated per boot; the default here keeps a manual

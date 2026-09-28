@@ -3,66 +3,103 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PII Scan</title>
+<title>PII Check</title>
 <style>
-  :root { --ink:#1a1d21; --mut:#6a7480; --line:#dde3ea; --ok:#0a7a3d; --bad:#b42318; --accent:#0b57d0; }
+  :root { --ink:#1a1d21; --mut:#6a7480; --line:#dde3ea; --accent:#0b57d0;
+          --present:#b42318; --undecided:#b54708; --permissible:#0b57d0;
+          --clean:#0a7a3d; --warnbg:#fffaeb; --warnline:#fedf89; }
   * { box-sizing:border-box; }
   body { margin:0; font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;
          color:var(--ink); background:#f6f8fa; }
-  main { max-width:680px; margin:3rem auto; padding:0 1rem; }
+  main { max-width:760px; margin:3rem auto; padding:0 1rem; }
   h1 { font-size:1.4rem; margin:0 0 .25rem; }
   .sub { color:var(--mut); margin:0 0 1.5rem; font-size:.92rem; }
   form, #result { background:#fff; border:1px solid var(--line); border-radius:10px;
          padding:1.25rem; margin-bottom:1rem; }
-  label { display:block; font-size:.85rem; color:var(--mut); margin-bottom:.3rem; }
+  label { display:block; font-size:.85rem; color:var(--mut); margin:.9rem 0 .3rem; }
+  label:first-child { margin-top:0; }
+  .opt { font-weight:400; color:#98a2b3; }
   input[type=file] { width:100%; padding:.5rem; border:1px dashed var(--line);
          border-radius:8px; background:#fafbfc; }
-  .row { display:flex; gap:1rem; margin-top:1rem; align-items:flex-end; flex-wrap:wrap; }
-  input[type=number] { width:9rem; padding:.45rem .6rem; border:1px solid var(--line);
-         border-radius:8px; font:inherit; }
+  input[type=text], textarea, input[type=number] { width:100%; padding:.45rem .6rem;
+         border:1px solid var(--line); border-radius:8px; font:inherit; }
+  textarea { min-height:4.5rem; resize:vertical; }
+  .row { display:flex; gap:1.25rem; margin-top:1rem; align-items:flex-end; flex-wrap:wrap; }
+  .row input[type=number] { width:9rem; }
+  .row label { margin-top:0; }
+  .check { display:flex; gap:.4rem; align-items:center; font-size:.92rem; color:var(--ink);
+         margin:0 0 .55rem; }
   button { padding:.55rem 1.4rem; border:0; border-radius:8px; background:var(--accent);
-         color:#fff; font:inherit; font-weight:600; cursor:pointer; }
+         color:#fff; font:inherit; font-weight:600; cursor:pointer; margin-left:auto; }
   button:disabled { background:#9db6e4; cursor:default; }
   #status { margin:.9rem 0 0; font-size:.92rem; color:var(--mut); min-height:1.4em; }
   #result { display:none; }
-  .flag { font-weight:700; }
-  .flag.ok  { color:var(--ok); }
-  .flag.bad { color:var(--bad); }
-  table { border-collapse:collapse; width:100%; margin:.75rem 0; font-size:.92rem; }
-  td { padding:.35rem .5rem; border-top:1px solid var(--line); vertical-align:top; }
-  td:first-child { color:var(--mut); white-space:nowrap; width:11rem; }
+  .badge { display:inline-block; padding:.2rem .7rem; border-radius:999px; color:#fff;
+         font-weight:700; font-size:.9rem; letter-spacing:.02em; }
+  .c-present { background:var(--present); } .c-undecided { background:var(--undecided); }
+  .c-permissible { background:var(--permissible); }
+  .c-false_positive, .c-no_pii_found { background:var(--clean); }
+  #message { margin:.6rem 0 0; font-size:1.02rem; }
+  .warn { background:var(--warnbg); border:1px solid var(--warnline); border-radius:8px;
+         padding:.5rem .75rem; margin:.75rem 0 0; font-size:.88rem; }
+  table { border-collapse:collapse; width:100%; margin:1rem 0 .5rem; font-size:.9rem; }
+  th { text-align:left; color:var(--mut); font-weight:600; font-size:.8rem;
+       padding:.3rem .5rem; border-bottom:1px solid var(--line); }
+  td { padding:.4rem .5rem; border-top:1px solid var(--line); vertical-align:top; }
+  td.cls { white-space:nowrap; font-weight:600; }
+  .t-present { color:var(--present); } .t-undecided { color:var(--undecided); }
+  .t-permissible { color:var(--permissible); } .t-false_positive { color:var(--clean); }
+  .meta { color:var(--mut); font-size:.85rem; margin:.5rem 0 0; word-break:break-all; }
   .links a { display:inline-block; margin:.25rem 1.25rem 0 0; color:var(--accent);
-         font-weight:600; text-decoration:none; }
+         font-weight:600; text-decoration:none; font-size:.92rem; }
   .links a:hover { text-decoration:underline; }
+  @media (max-width:560px) { .row { flex-direction:column; align-items:stretch; }
+         button { margin-left:0; } table { font-size:.82rem; } }
 </style>
 </head>
 <body>
 <main>
-  <h1>PII Scan</h1>
-  <p class="sub">Upload a CSV; it runs through the LOT&nbsp;2 detection pipeline
-    (column selection, NER, filters) and the detections come back as a CSV.
-    Results are deleted after 6 hours.</p>
+  <h1>PII Check</h1>
+  <p class="sub">Upload a CSV to find out whether it holds personal data. It is
+    scanned for names, phone numbers, IDs and the like; rules, then an LLM
+    judge, decide whether what was found is really personal data and whether
+    it may be published. Describing the dataset helps them decide.</p>
 
   <form id="form">
     <label for="file">CSV file (max 100&nbsp;MB)</label>
     <input type="file" id="file" accept=".csv" required>
+
+    <label for="title">Dataset title <span class="opt">(optional)</span></label>
+    <input type="text" id="title" maxlength="500"
+           placeholder="e.g. Directory of District Hospitals in Assam">
+    <label for="catalog">Catalog title <span class="opt">(optional)</span></label>
+    <input type="text" id="catalog" maxlength="500">
+    <label for="desc">Description <span class="opt">(optional)</span></label>
+    <textarea id="desc" maxlength="5000"
+              placeholder="What the rows are: people, offices, aggregates…"></textarea>
+
     <div class="row">
       <div>
         <label for="maxrows">Rows to scan (max 50,000)</label>
         <input type="number" id="maxrows" min="1" max="50000" value="50000">
       </div>
-      <button id="go" type="submit">Scan</button>
+      <label class="check"><input type="checkbox" id="llm" checked> Use the LLM judge</label>
+      <button id="go" type="submit">Check</button>
     </div>
     <p id="status"></p>
   </form>
 
   <section id="result">
-    <div id="flag"></div>
-    <table id="summary"></table>
+    <span id="badge" class="badge"></span>
+    <p id="message"></p>
+    <div id="warnings"></div>
+    <table id="columns"></table>
     <div class="links">
-      <a id="dl-det" download>Download detections.csv</a>
-      <a id="dl-sum" download>Download summary.json</a>
+      <a id="dl-columns" download>columns.csv</a>
+      <a id="dl-result" download>result.json</a>
+      <a id="dl-det" download>detections.csv</a>
     </div>
+    <p class="meta" id="meta"></p>
   </section>
 </main>
 
@@ -70,6 +107,9 @@
 "use strict";
 const $ = id => document.getElementById(id);
 const form = $("form"), status_ = $("status"), result = $("result");
+const LABELS = { present:"PII present", undecided:"Needs review", permissible:"Permissible",
+                 false_positive:"No PII", no_pii_found:"No PII" };
+const STAGES = { scanning:"Scanning", tier1:"Applying rules", tier3:"LLM judge" };
 let timer = null;
 
 form.addEventListener("submit", async ev => {
@@ -81,22 +121,26 @@ form.addEventListener("submit", async ev => {
   const body = new FormData();
   body.append("file", $("file").files[0]);
   body.append("max_rows", $("maxrows").value || 50000);
+  body.append("title", $("title").value);
+  body.append("catalog_title", $("catalog").value);
+  body.append("description", $("desc").value);
+  body.append("llm", $("llm").checked ? "true" : "false");
 
   try {
     status_.textContent = "Uploading…";
     const res = await fetch("/scan", { method: "POST", body });
     if (!res.ok) throw new Error((await res.json()).detail || res.statusText);
-    poll((await res.json()).job_id, Date.now());
+    poll((await res.json()).run_id, Date.now());
   } catch (err) {
     fail(err.message);
   }
 });
 
-function poll(jobId, started) {
+function poll(runId, started) {
   timer = setInterval(async () => {
     let job;
     try {
-      const res = await fetch("/jobs/" + jobId);
+      const res = await fetch("/jobs/" + runId);
       if (!res.ok) throw new Error((await res.json()).detail || res.statusText);
       job = await res.json();
     } catch (err) { return fail(err.message); }
@@ -107,39 +151,41 @@ function poll(jobId, started) {
         ? "Queued — position " + job.queue_position
         : "Queued — models are still loading (about a minute)";
     } else if (job.status === "running") {
-      status_.textContent = "Scanning… " + secs + "s";
+      const p = job.progress ? " " + job.progress.done + "/" + job.progress.total + " columns" : "";
+      status_.textContent = (STAGES[job.stage] || "Working") + "…" + p + " (" + secs + "s)";
     } else if (job.status === "error") {
       fail(job.error);
     } else if (job.status === "done") {
       clearInterval(timer);
       $("go").disabled = false;
       status_.textContent = "Done in " + secs + "s.";
-      render(jobId, job.summary);
+      render(runId, job.result);
     }
   }, 1000);
 }
 
-function render(jobId, s) {
-  const flag = $("flag");
-  flag.className = "flag " + (s.pii_found ? "bad" : "ok");
-  flag.textContent = s.pii_found
-    ? "PII flagged: " + (s.pii_flag_reason || "")
-    : "No PII flagged" + (s.pii_flag_reason ? " (" + s.pii_flag_reason + ")" : "");
+function render(runId, r) {
+  const badge = $("badge");
+  badge.className = "badge c-" + r.final_class;
+  badge.textContent = LABELS[r.final_class] || r.final_class;
+  $("message").textContent = r.message;
+  $("warnings").innerHTML = (r.warnings || []).map(w => '<p class="warn">' + esc(w) + "</p>").join("");
 
-  const skipped = (s.columns_skipped || []).map(c => Array.isArray(c) ? c[0] : c);
-  const rows = [
-    ["File", s.filename],
-    ["Rows scanned", s.rows_scanned.toLocaleString() + " (cap " + s.max_rows.toLocaleString() + ")"],
-    ["Detections kept", s.entity_count.toLocaleString()],
-    ["Entity types", (s.pii_types || []).join(", ") || "—"],
-    ["Columns scanned", (s.columns_scanned || []).join(", ") || "—"],
-    ["Columns skipped", skipped.join(", ") || "—"],
-    ["Scan time", s.scan_seconds + "s" + (s.degraded ? " (degraded: NER failed, regex only)" : "")],
-  ];
-  $("summary").innerHTML = rows.map(([k, v]) =>
-    "<tr><td>" + k + "</td><td>" + esc(String(v)) + "</td></tr>").join("");
-  $("dl-det").href = "/jobs/" + jobId + "/detections.csv";
-  $("dl-sum").href = "/jobs/" + jobId + "/summary.json";
+  const cols = r.columns || [];
+  $("columns").innerHTML = cols.length
+    ? "<tr><th>Column</th><th>Class</th><th>Found</th><th>Why</th></tr>" +
+      cols.map(c => "<tr><td>" + esc(c.column) + '</td><td class="cls t-' + c.class + '">' +
+        esc(c.class.replace("_", " ")) + "</td><td>" + esc(c.pii_types) + "</td><td>" +
+        esc(c.reason) + (c.decided_by === "tier3" ? " (LLM)" : "") + "</td></tr>").join("")
+    : "";
+
+  const base = "/jobs/" + runId + "/files/";
+  $("dl-columns").href = base + "columns.csv";
+  $("dl-result").href = base + "result.json";
+  $("dl-det").href = base + "detections.csv";
+  $("meta").textContent = "Run " + r.run_id + " · " + r.rows_scanned.toLocaleString() +
+    " rows scanned · " + (r.s3_folder ? "stored at " + r.s3_folder
+                                      : "not stored in S3 (" + (r.s3_error || "unknown") + ")");
   result.style.display = "block";
 }
 
@@ -149,7 +195,7 @@ function fail(message) {
   status_.textContent = "Failed: " + message;
 }
 
-const esc = t => t.replace(/[&<>"']/g,
+const esc = t => String(t ?? "").replace(/[&<>"']/g,
   ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
 </script>
 </body>

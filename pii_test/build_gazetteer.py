@@ -104,6 +104,32 @@ FAMILIES = {
         "max_datasets": 20,
         "min_datasets": 2,
     },
+    # Villages, blocks and panchayats -- the administrative level below the
+    # sub-district, which place_names.txt cannot reach because its source
+    # (the catalogue's spatial columns) stops at sub-district. These are what
+    # the mohfw HMIS files put in their "Indicator" column, and they flagged
+    # 37% of LOT 1 batch 8 as personal data.
+    #
+    # The recurrence floor does the discriminating here: a village name is
+    # usually unique to its district file, so what survives is the recurring
+    # stock ("Rampur", "Madanpur", "Dharampur") -- which is exactly the set
+    # that turns up across many datasets and causes repeat false positives.
+    # A one-off value, which is what a stray real name would look like, is
+    # dropped.
+    "settlements": {
+        # Underscored forms are the ones that actually occur: the UDISE
+        # school directories carry loc_name and udise_block_name, the census
+        # village directories VILLNAME. Deliberately narrow -- a bare
+        # "%name%" would sweep in School_Management_Name and the
+        # qualification columns, which are not places.
+        "patterns": ("%village_name%", "%village name%", "%villname%",
+                     "%block_name%", "%block name%", "%cd block%",
+                     "%loc_name%", "%habitation%",
+                     "%gram panchayat%", "%panchayat_name%",
+                     "%head quarter%", "%town_name%", "%town name%"),
+        "max_datasets": 80,
+        "min_datasets": 2,
+    },
 }
 
 # Harvested values outside this length band are dropped. The floor matches

@@ -1,0 +1,84 @@
+start 2026-09-28T11:02:42+00:00
+files on disk: 28845, belonging to dublin_core_lot3: 28845
+cached: 0, to scan: 28845 on 4 workers
+  500/28845 ok=500 err=0 2.8/s eta 168m
+  1000/28845 ok=1000 err=0 3.4/s eta 137m
+  1500/28845 ok=1500 err=0 3.7/s eta 122m
+  2000/28845 ok=2000 err=0 4.0/s eta 111m
+  2500/28845 ok=2500 err=0 4.3/s eta 102m
+  3000/28845 ok=3000 err=0 4.5/s eta 95m
+  3500/28845 ok=3500 err=0 4.8/s eta 88m
+  4000/28845 ok=4000 err=0 5.0/s eta 82m
+  4500/28845 ok=4500 err=0 5.3/s eta 76m
+  5000/28845 ok=4996 err=4 5.9/s eta 68m
+  5500/28845 ok=5495 err=5 6.4/s eta 60m
+  6000/28845 ok=5988 err=12 7.0/s eta 54m
+  6500/28845 ok=6485 err=15 7.6/s eta 49m
+  7000/28845 ok=6978 err=22 8.1/s eta 45m
+  7500/28845 ok=7465 err=35 8.7/s eta 41m
+  8000/28845 ok=7964 err=36 9.3/s eta 38m
+  8500/28845 ok=8463 err=37 9.8/s eta 35m
+  9000/28845 ok=8958 err=42 10.4/s eta 32m
+  9500/28845 ok=9458 err=42 10.9/s eta 29m
+  10000/28845 ok=9956 err=44 11.5/s eta 27m
+  10500/28845 ok=10454 err=46 12.1/s eta 25m
+  11000/28845 ok=10950 err=50 12.6/s eta 24m
+  11500/28845 ok=11450 err=50 13.2/s eta 22m
+  12000/28845 ok=11949 err=51 13.8/s eta 20m
+  12500/28845 ok=12449 err=51 14.3/s eta 19m
+  13000/28845 ok=12949 err=51 14.9/s eta 18m
+  13500/28845 ok=13448 err=52 15.4/s eta 17m
+  14000/28845 ok=13947 err=53 16.0/s eta 15m
+  14500/28845 ok=14442 err=58 16.6/s eta 14m
+  15000/28845 ok=14942 err=58 17.1/s eta 13m
+  15500/28845 ok=15442 err=58 17.7/s eta 13m
+  16000/28845 ok=15939 err=61 18.2/s eta 12m
+  16500/28845 ok=16433 err=67 18.8/s eta 11m
+  17000/28845 ok=16929 err=71 19.3/s eta 10m
+  17500/28845 ok=17427 err=73 19.9/s eta 10m
+  18000/28845 ok=17924 err=76 20.4/s eta 9m
+  18500/28845 ok=18417 err=83 21.0/s eta 8m
+  19000/28845 ok=18909 err=91 21.5/s eta 8m
+  19500/28845 ok=19403 err=97 22.1/s eta 7m
+  20000/28845 ok=19902 err=98 22.6/s eta 7m
+  20500/28845 ok=20396 err=104 23.2/s eta 6m
+  21000/28845 ok=20894 err=106 23.7/s eta 6m
+  21500/28845 ok=21383 err=117 24.3/s eta 5m
+  22000/28845 ok=21874 err=126 24.8/s eta 5m
+  22500/28845 ok=22370 err=130 25.4/s eta 4m
+  23000/28845 ok=22866 err=134 25.9/s eta 4m
+  23500/28845 ok=23363 err=137 26.5/s eta 3m
+  24000/28845 ok=23861 err=139 27.0/s eta 3m
+  24500/28845 ok=24360 err=140 27.6/s eta 3m
+  25000/28845 ok=24857 err=143 28.1/s eta 2m
+  25500/28845 ok=25357 err=143 28.7/s eta 2m
+  26000/28845 ok=25856 err=144 29.2/s eta 2m
+  26500/28845 ok=26354 err=146 29.7/s eta 1m
+  27000/28845 ok=26851 err=149 30.3/s eta 1m
+  27500/28845 ok=27346 err=154 30.8/s eta 1m
+  28000/28845 ok=27841 err=159 31.4/s eta 0m
+  28500/28845 ok=28335 err=165 31.9/s eta 0m
+scan done: 28663 ok, 182 failed, 14.9 min -> /home/ubuntu/nic-metadata-cleaning/data/lot3_coverage_cache.jsonl
+scan ok 2026-09-28T11:17:36+00:00
+dublin_core_lot3: 29598 rows | cache: 28845 files, 28663 readable | 1115 seed edges
+gazetteer: 1073 district->State edges (189 ambiguous dropped), 2161 sub-district->district edges (1708 ambiguous dropped), 3036 distinct district names seen
+staged -> /home/ubuntu/nic-metadata-cleaning/data/lot3_coverage_stage.csv
+
+files: {'lot3_downloads': 20782, '(no file)': 752, 'lot3_s3_downloads': 8064}
+temporal_source: {'none': 790, 'title': 13946, 'content_headers': 8481, 'content_column': 6233, 'original_unverified': 148}
+temporal_check : {'empty': 790, 'filled': 5323, 'corrected': 7656, 'match': 15681, 'unverified': 148}
+spatial_level  : {'multi_state': 318, 'state': 22911, 'sub_district': 4425, 'district': 1646, 'unknown': 247, 'national': 51}
+spatial_source : {'content': 4069, 'publisher': 8572, 'both': 12339, 'title': 4177, 'content+publisher': 194, 'none': 247}
+backups: /home/ubuntu/nic-metadata-cleaning/data/backups/lot3_coverage_cols_20260928_111750.parquet
+         /home/ubuntu/nic-metadata-cleaning/transformation/metadata.db.bak-lot3coverage-20260928_111750
+Traceback (most recent call last):
+  File "/home/ubuntu/nic-metadata-cleaning/transformation/temporal/lot3_coverage.py", line 901, in <module>
+    main()
+  File "/home/ubuntu/nic-metadata-cleaning/transformation/temporal/lot3_coverage.py", line 897, in main
+    run_resolve(args)
+  File "/home/ubuntu/nic-metadata-cleaning/transformation/temporal/lot3_coverage.py", line 812, in run_resolve
+    apply(args.db, frame)
+  File "/home/ubuntu/nic-metadata-cleaning/transformation/temporal/lot3_coverage.py", line 859, in apply
+    raise RuntimeError(f"rows left unwritten (temporal, spatial): {chk}")
+RuntimeError: rows left unwritten (temporal, spatial): (1, 1)
+exit 1 2026-09-28T11:17:52+00:00

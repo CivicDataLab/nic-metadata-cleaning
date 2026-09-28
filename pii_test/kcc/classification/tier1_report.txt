@@ -1,0 +1,23 @@
+2328 (dataset, column) pairs classified
+
+class            pairs   share   datasets
+false_positive     551  23.7%      516
+permissible        277  11.9%      270
+present            809  34.8%      795
+undecided          691  29.7%      600
+
+by rule
+  R11-personal-channel       -> present           809
+  R12-residual               -> undecided         691
+  R2-column-shape            -> false_positive    483
+  R4-institutional-channel   -> permissible       275
+  R1-controlled-vocab        -> false_positive     67
+  R6-office-allowlist        -> permissible         2
+  R3-not-a-number            -> false_positive      1
+
+by dataset context
+  unknown                 2328
+
+top headers still undecided
+    467  QueryText
+    224  KccAns

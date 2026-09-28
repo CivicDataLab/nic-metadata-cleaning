@@ -7,7 +7,11 @@
 # ubuntu:www-data mode 0660, so nginx can reach it and nothing else can.
 [Unit]
 Description=PII scan web service (gunicorn)
-After=network.target
+# The Tier 3 judge (tier3-judge.service). Wants=, not Requires=: with the
+# judge down, runs still finish on Tier 1 and say so. Ordering only covers
+# start-up; each run checks the judge is actually answering before using it.
+Wants=tier3-judge.service
+After=network.target tier3-judge.service
 
 [Service]
 User=ubuntu

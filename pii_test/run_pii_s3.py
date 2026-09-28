@@ -52,7 +52,17 @@ configure_logging(LOT1_LOG_PATH)
 S3_BUCKET = "nic-ogdp-datasets"
 S3_DATASET_PREFIX = "downloaded-datasets/downloaded-datasets-mohfw"
 S3_RESULTS_PREFIX = "pii-results"
-S3_METADATA_KEY = "/metadata/ducklake/main/remaining-raw-datasets/"  # TODO: set correct path
+# LOT 1 detections are kept locally as well as on S3. Without a table the
+# cross-dataset frequency counts can never see this corpus -- which is why
+# mohfw indicator vocabulary ("Kala Azar", "Birth Dose", "Tetanus Toxoid")
+# read as corpus-rare and flagged 37% of a random LOT 1 sample as personal
+# data. build_frequency_blocklist.py counts this table alongside LOT 2's.
+LOT1_DETECTIONS_TABLE = "pii_detections_lot1"
+# Snapshot of the tracking table after each batch. Deliberately NOT under
+# metadata/ducklake/ -- that prefix is the DuckLake data path, and dropping a
+# hand-written parquet into a lake table folder corrupts what the catalog
+# thinks that table contains.
+S3_METADATA_KEY = "pii-results/dublin_core_metadata_snapshot.parquet"
 
 # LOT 2: per-ministry S3 folders (see pii_utils.list_ministry_folders), tracked
 # in the local remain_raw_metadata table instead of dublin_core_metadata/batch.
@@ -272,11 +282,17 @@ def update_dublin_core_metadata(df):
 
         conn.execute("ALTER TABLE dublin_core_metadata ADD COLUMN IF NOT EXISTS pii_test_timestamp TIMESTAMP")
 
-        # Update flags
-        for _, row in df.iterrows():
-            conn.execute(
-                'UPDATE dublin_core_metadata SET pii_tested=?, pii_detected=?, pii_test_timestamp=? WHERE "Identifier[UUID]"=?',
-                [row['pii_tested'], row['pii_detected'], row['pii_test_timestamp'], row['uuid']])
+        # One set-based update rather than one statement per dataset. The
+        # uuid column is not indexed, so each single-row UPDATE scanned all
+        # 206,972 rows -- 12ms each, and ~25 minutes across a full run.
+        conn.register("updates_df", df)
+        conn.execute(
+            'UPDATE dublin_core_metadata AS d '
+            'SET pii_tested = u.pii_tested, '
+            '    pii_detected = u.pii_detected, '
+            '    pii_test_timestamp = CAST(u.pii_test_timestamp AS TIMESTAMP) '
+            'FROM updates_df AS u '
+            'WHERE d."Identifier[UUID]" = u.uuid')
 
         conn.close()
         logging.info(f"Updated {len(df)} records in dublin_core_metadata")
@@ -297,22 +313,81 @@ def get_pending_uuids(dublin_df, batch=None):
     return list(pending[["uuid", "batch"]].itertuples(index=False, name=None))
 
 
-def save_detection_results(s3_client, detections, batch):
-    """Save detailed detection records as parquet to S3."""
+def save_detection_results(s3_client, batch):
+    """Export one batch's detections from the local table to S3, CSV and parquet.
+
+    Exported from the table rather than from the run's own results, so a
+    partial run -- --limit, or a resume after an interruption -- adds to that
+    batch's file instead of replacing it with just the slice it scanned. LOT 2
+    rebuilds its consolidated export the same way, and for the same reason.
+
+    The CSV is the file the detections actually get reviewed from; parquet is
+    kept alongside it so downstream reads stay typed.
+    """
+    base_key = f"{S3_RESULTS_PREFIX}/batch_{batch}/pii_detections"
+
+    conn = duckdb.connect(DB_PATH, read_only=True)
+    try:
+        total = conn.execute(
+            f"SELECT COUNT(*) FROM {LOT1_DETECTIONS_TABLE} WHERE batch = ?",
+            [batch]).fetchone()[0]
+        if not total:
+            return
+
+        for suffix, copy_opts in ((".csv", "(FORMAT CSV, HEADER)"),
+                                  (".parquet", "(FORMAT PARQUET)")):
+            with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as tmp:
+                tmp_path = tmp.name
+            try:
+                conn.execute(
+                    f"COPY (SELECT * FROM {LOT1_DETECTIONS_TABLE} "
+                    f"WHERE batch = {int(batch)} ORDER BY uuid) "
+                    f"TO '{tmp_path}' {copy_opts}")
+                s3_client.upload_file(tmp_path, S3_BUCKET, f"{base_key}{suffix}")
+                logging.info(
+                    f"Saved {total} detections to s3://{S3_BUCKET}/{base_key}{suffix}")
+            finally:
+                if os.path.exists(tmp_path):
+                    os.unlink(tmp_path)
+    finally:
+        conn.close()
+
+
+def store_detections(detections, batch):
+    """Insert this batch's detections into the local LOT 1 detections table.
+
+    Re-runnable: the rows for the uuids being written are deleted first, so
+    re-scanning a batch replaces its detections rather than doubling them.
+    """
     if not detections:
         return
 
     det_df = pd.DataFrame(detections)
-    s3_key = f"{S3_RESULTS_PREFIX}/batch_{batch}/pii_detections.parquet"
-
-    with tempfile.NamedTemporaryFile(suffix=".parquet", delete=False) as tmp:
-        tmp_path = tmp.name
+    conn = duckdb.connect(DB_PATH)
     try:
-        det_df.to_parquet(tmp_path, index=False)
-        s3_client.upload_file(tmp_path, S3_BUCKET, s3_key)
-        logging.info(f"Saved {len(detections)} detections to s3://{S3_BUCKET}/{s3_key}")
+        conn.execute(f"""
+            CREATE TABLE IF NOT EXISTS {LOT1_DETECTIONS_TABLE} (
+                uuid VARCHAR, batch INTEGER, "column" VARCHAR, row_index INTEGER,
+                entity_type VARCHAR, entity_text VARCHAR, score DOUBLE,
+                source VARCHAR, cardinality DOUBLE
+            )
+        """)
+        det_df = det_df.assign(batch=batch)
+        conn.register("det_df", det_df)
+        conn.execute(
+            f"DELETE FROM {LOT1_DETECTIONS_TABLE} "
+            f"WHERE uuid IN (SELECT DISTINCT uuid FROM det_df)")
+        conn.execute(f"""
+            INSERT INTO {LOT1_DETECTIONS_TABLE}
+            SELECT uuid, batch, "column", row_index, entity_type, entity_text,
+                   score, source, cardinality
+            FROM det_df
+        """)
+        logging.info(
+            f"Stored {len(detections)} detections in {LOT1_DETECTIONS_TABLE} "
+            f"(batch {batch})")
     finally:
-        os.unlink(tmp_path)
+        conn.close()
 
 
 def upload_dublin_core_metadata(s3_client):
@@ -572,7 +647,7 @@ def scan_local_file(path):
 
         cardinality = {col: column_cardinality_ratio(df[col], rows_limit) for col in columns}
         detections = filter_detections(detections, cardinality)
-        pii_found, flag_reason = evaluate_dataset_flag(detections, cardinality)
+        pii_found, flag_reason = evaluate_dataset_flag(detections, cardinality, rows_scanned=rows_limit)
 
         result["rows_scanned"] = rows_limit
         result["pii_found"] = pii_found
@@ -677,10 +752,18 @@ def _scan_s3_csv(s3_client, uuid, s3_key):
         cardinality = {col: column_cardinality_ratio(df[col], rows_limit) for col in columns}
         detections = filter_detections(detections, cardinality)
 
+        # Carried on the detection so evaluate_dataset_flag can be re-run
+        # later from the stored rows alone. Filters only ever tighten, so a
+        # flag can be withdrawn from stored detections without re-scanning --
+        # which is what a newly-found false-positive class needs, rather than
+        # another pass over the whole corpus.
+        for d in detections:
+            d["cardinality"] = cardinality.get(d["column"])
+
         # Every surviving detection is still recorded; the flag is a stricter,
         # separate question -- one PERSON hit in a repeated-value column is
         # not evidence that this dataset carries personal data.
-        pii_found, flag_reason = evaluate_dataset_flag(detections, cardinality)
+        pii_found, flag_reason = evaluate_dataset_flag(detections, cardinality, rows_scanned=rows_limit)
 
         return {
             "rows_scanned": rows_limit,
@@ -893,6 +976,91 @@ def run_lot2(args, use_gpu):
         pool.join()
 
 
+def scan_folder(path, summary_out=None, worker_count=1, use_gpu=False,
+                max_rows=250, ner_batch_size=64, limit=None,
+                log_path=LOT1_LOG_PATH):
+    """Scan every tabular file under `path`, writing the detections beside them.
+
+    This is the body of ``--path DIR``, pulled out as a function so
+    pii_classify_pipeline.py can run the scan and both tiers in one command.
+    Returns (data files, results), or (None, None) if the folder holds no
+    tabular file. Nothing is written to metadata.db or S3 either way.
+    """
+    global _analyzer, _gpu_ner, _max_rows, _ner_batch_size
+
+    # A folder run writes its results back into the folder it scanned, so
+    # without this the second run treats the first run's output as input --
+    # detections of detections, and a summary row for the summary itself.
+    generated = {FOLDER_DETECTIONS_FILENAME}
+    if summary_out:
+        generated.add(os.path.basename(summary_out))
+
+    csv_files = []
+    for dirpath, _, filenames in sorted(os.walk(path)):
+        for fname in sorted(filenames):
+            if fname in generated or fname.endswith("_pii_detections.csv"):
+                continue
+            if fname.lower().endswith(TABULAR_EXTENSIONS):
+                csv_files.append(os.path.join(dirpath, fname))
+
+    if not csv_files:
+        logging.info(f"No {'/'.join(TABULAR_EXTENSIONS)} files found under {path}")
+        return None, None
+
+    if limit is not None and limit > 0:
+        csv_files = csv_files[:limit]
+
+    logging.info(f"Found {len(csv_files)} data file(s) under {path}")
+
+    if worker_count > 1:
+        mp.set_start_method('spawn', force=True)
+        pool = mp.Pool(
+            processes=worker_count,
+            initializer=_init_worker,
+            initargs=(use_gpu, max_rows, ner_batch_size, log_path),
+        )
+        results = pool.map(scan_local_file, csv_files)
+        pool.close()
+        pool.join()
+    else:
+        device = "cuda" if use_gpu else "cpu"
+        _max_rows = max_rows
+        _ner_batch_size = ner_batch_size
+        _analyzer, _gpu_ner = build_analyzer(
+            include_transformer_recognizer=True, device=device
+        )
+        logging.info(f"Initialized analyzer (device={device}) | Max rows: {max_rows}")
+        results = [scan_local_file(f) for f in csv_files]
+
+    pii_count = 0
+    error_count = 0
+    for file_path, result in zip(csv_files, results):
+        if result["error"]:
+            logging.warning(f"Error on {file_path}: {result['error']}")
+            error_count += 1
+            continue
+
+        logging.info(
+            f"File: {file_path} | Rows: {result['rows_scanned']} | "
+            f"PII found: {result['pii_found']} | Types: {result['pii_types']} | "
+            f"Entities: {result['entity_count']} | "
+            f"reason: {result.get('pii_flag_reason')}"
+        )
+        if result["pii_found"]:
+            pii_count += 1
+
+    write_folder_detections(path, csv_files, results)
+
+    if summary_out:
+        write_folder_summary(summary_out, path, csv_files, results)
+
+    processed = len(results) - error_count
+    logging.info("=" * 50)
+    logging.info(f"Done. Processed: {processed} | PII found: {pii_count} | Errors: {error_count}")
+    logging.info("=" * 50)
+    return csv_files, results
+
+
 def main():
     global _analyzer, _gpu_ner, _max_rows, _ner_batch_size
     parser = argparse.ArgumentParser(description="Run PII detection on S3 datasets.")
@@ -932,78 +1100,10 @@ def main():
         device = "cuda" if use_gpu else "cpu"
 
         if os.path.isdir(args.path):
-            # A folder run writes its results back into the folder it scanned,
-            # so without this the second run treats the first run's output as
-            # input -- detections of detections, and a summary row for the
-            # summary itself.
-            generated = {FOLDER_DETECTIONS_FILENAME}
-            if args.summary_out:
-                generated.add(os.path.basename(args.summary_out))
-
-            csv_files = []
-            for dirpath, _, filenames in sorted(os.walk(args.path)):
-                for fname in sorted(filenames):
-                    if fname in generated or fname.endswith("_pii_detections.csv"):
-                        continue
-                    if fname.lower().endswith(TABULAR_EXTENSIONS):
-                        csv_files.append(os.path.join(dirpath, fname))
-
-            if not csv_files:
-                logging.info(
-                    f"No {'/'.join(TABULAR_EXTENSIONS)} files found under {args.path}")
-                return
-
-            if args.limit is not None and args.limit > 0:
-                csv_files = csv_files[:args.limit]
-
-            logging.info(f"Found {len(csv_files)} data file(s) under {args.path}")
-
-            use_multiprocessing = args.worker_count > 1
-            if use_multiprocessing:
-                mp.set_start_method('spawn', force=True)
-                pool = mp.Pool(
-                    processes=args.worker_count,
-                    initializer=_init_worker,
-                    initargs=(use_gpu, args.max_rows, args.ner_batch_size),
-                )
-                results = pool.map(scan_local_file, csv_files)
-                pool.close()
-                pool.join()
-            else:
-                _max_rows = args.max_rows
-                _ner_batch_size = args.ner_batch_size
-                _analyzer, _gpu_ner = build_analyzer(
-                    include_transformer_recognizer=True, device=device
-                )
-                logging.info(f"Initialized analyzer (device={device}) | Max rows: {args.max_rows}")
-                results = [scan_local_file(f) for f in csv_files]
-
-            pii_count = 0
-            error_count = 0
-            for path, result in zip(csv_files, results):
-                if result["error"]:
-                    logging.warning(f"Error on {path}: {result['error']}")
-                    error_count += 1
-                    continue
-
-                logging.info(
-                    f"File: {path} | Rows: {result['rows_scanned']} | "
-                    f"PII found: {result['pii_found']} | Types: {result['pii_types']} | "
-                    f"Entities: {result['entity_count']} | "
-                    f"reason: {result.get('pii_flag_reason')}"
-                )
-                if result["pii_found"]:
-                    pii_count += 1
-
-            write_folder_detections(args.path, csv_files, results)
-
-            if args.summary_out:
-                write_folder_summary(args.summary_out, args.path, csv_files, results)
-
-            processed = len(results) - error_count
-            logging.info("=" * 50)
-            logging.info(f"Done. Processed: {processed} | PII found: {pii_count} | Errors: {error_count}")
-            logging.info("=" * 50)
+            scan_folder(args.path, summary_out=args.summary_out,
+                        worker_count=args.worker_count, use_gpu=use_gpu,
+                        max_rows=args.max_rows,
+                        ner_batch_size=args.ner_batch_size, limit=args.limit)
         else:
             _max_rows = args.max_rows
             _ner_batch_size = args.ner_batch_size
@@ -1133,7 +1233,8 @@ def main():
             update_dublin_core_metadata(updates_df)
 
         for batch, detections in all_detections.items():
-            save_detection_results(s3_client, detections, batch)
+            store_detections(detections, batch)
+            save_detection_results(s3_client, batch)
 
         upload_dublin_core_metadata(s3_client)
 

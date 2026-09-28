@@ -1,0 +1,1250 @@
+uuid,lot,title,catalog_title,column,entity_types,n_detections,verdict,dataset_class,tier,rule_id,reason,tier1_rule_id,sample_values,llm_error,llm_reasoning,classified_at
+fd945b55-8d95-42dc-93b8-34a572b036b5,2,Name of Insurgent groups in North East and their leaders,Name of Insurgent groups in North East and their leaders,Name of the leaders,PERSON,20,present,present,llm,T3-judge,Tier 3 local LLM judge,R12-residual,esh Barua | Paresh Barua | Arbindo Rajkhowa | Dhiren Boro | Ranjan Daimary | Songbijit | Ranjit Debbarma | Biswa Mohan Debbarma | R.K. Meghen | rengbam |  Chaoren |  N.Oken |  Ng. Babu Meitei |  Pambei | Babu Meitei,,"cial government position, then their names would be PII. 
+
+But wait, the dataset is from the Ministry of Home Affairs, which might have information on non-state actors. However, the leaders of insurgent groups are not public officials. They are private individuals, so their names would be considered personal data. Therefore, the flagged column is personal data about private individuals, so the class should be present. 
+
+But wait, the user also mentioned that if the person is in a public office, it's permissible. But these are insurgents, not public officials. So the answer would be present. However, the user said that if there's a tie between permissible and present, choose present. So in this case, since the leaders are not public officials, the answer is present.
+</think>
+
+CLASS: present",2026-09-10 08:37:51.507181
+8ca6f338-b339-42b4-bfae-1f56638f5067,1,Data Item Comparison Report of All India for 2018-19 & 2017-18,HMIS district level item wise and month wise comparison of various indicators of All India,Essential Information,PERSON,50,permissible,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,"Jai Prakash Narain; | Atal Bihari Vajpayee; | Jai Prakash Narayan | Ram Manohar Lohia, | Jai Prakash Narain, | Baba Saheb Ambedkar, | Rani Sushma Devi | William P. Vaughan, | Robert Peter Gale | Richard E. Champlin, | O. Armitage | Ian T. Magrath | G.K. Moopanar | Shobhana Bhartia | Naresh Trehan",," is about public officials, it's permissible. So if the names are of public officials, then permissible. But if they are private individuals, then present. 
+
+The sample values include names like ""Jai Prakash Narain,"" who is a public figure, and ""Baba Saheb Ambedkar,"" a historical leader. These are public figures, so their names are permissible. Therefore, the flagged column is permissible. 
+
+But the detector is flagging them as people, which is correct if they are personal data. However, the dataset's context might be that these are public officials, so permissible. 
+
+But the user's instruction says that permissible applies when the person holds a public office. So if these names are of public officials, then permissible. 
+
+Therefore, the answer is permissible.
+</think>
+
+CLASS: permissible",2026-09-10 08:37:51.505465
+be3f352b-75df-455a-a154-accb21f59c98,1,Data Item Comparison Report of North (Sikkim) for 2014-2015 and 2013-2014,HMIS district level item wise and month wise comparison of various indicators of Sikkim,Essential Information,PERSON,50,permissible,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,"Jai Prakash Narain; | Atal Bihari Vajpayee; | Jai Prakash Narayan | Ram Manohar Lohia, | Jai Prakash Narain, | Baba Saheb Ambedkar, | Rani Sushma Devi | William P. Vaughan, | Robert Peter Gale | Richard E. Champlin, | O. Armitage | Ian T. Magrath | G.K. Moopanar | Shobhana Bhartia | Naresh Trehan",,"is ""Essential Information,"" which might be a different column. However, the sample values are names that are public figures. 
+
+But the key is that the detector is wrong here. The values are not people but public officials. Therefore, the correct class would be permissible because they are public officials. However, the user's instruction says that permissible applies when the person holds a public office. So if these names are of public officials, then permissible. 
+
+But the dataset's title is about comparing data items, which might not involve personal data. However, the presence of names of public officials in the dataset might be part of the data. 
+
+In conclusion, the flagged column is likely containing names of public officials, so the class is permissible.
+</think>
+
+CLASS: permissible",2026-09-10 08:37:51.50565
+fdf654ec-20dc-4e72-8ccd-f6cf0b350210,2,Valid accreditation of the institution - 2012-2013,Educational Accreditation (AISHE Survey),Accreditation Body,PERSON,15,permissible,permissible,human,T4-reviewer,"Reviewer: accreditation done by individual professors, named in that official capacity.",R12-residual,CHAIRPERSON | PROF.A.M.PATHAN | C.D.TETHI | D. RAJAN |  RAMCHANDRA |  RUKMINI |  Prem Sharda | Prem Sharda |  Mina | Mina |  Nirupa Rani | Nirupa Rani |  R Ganga |  Seethama | Seethama,reply truncated mid-reasoning,"s are names of individuals. If these individuals are public officials, then it's permissible. 
+
+But the dataset's description doesn't mention that. However, the dataset is from the Ministry of Education, so the accreditation body is a public organization, and the individuals involved in the accreditation process could be public officials. 
+
+Therefore, the correct classification would be permissible. 
+
+But the user's instruction says that if the data is about public officials, it's permissible. If the data is about private individuals, it's present. 
+
+In this case, the column is ""Accreditation Body"", and the values are names of individuals. If these individuals are public officials, then it's permissible. 
+
+But the dataset's description doesn't mention that. However, the dataset is from the",2026-09-10 10:13:55.169
+029b46a4-0b33-45ee-ad1c-429e5750a55a,1,Annual Health Survey : Mortality Schedule of the district Bikaner (Rajasthan),Annual Health Survey : Mortality Schedule,healthscheme_1,PERSON,2,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,,"ch likely include data on deaths, causes, and possibly health programs involved. The column is probably listing which health schemes were associated with the cases. Since the values are names of schemes, not individuals, the detector is making a false positive. 
+
+The user's guidelines mention that Indian place names, rivers, and schemes can be capitalized and multi-word, leading to confusion. Here, the scheme name is a known program, not a person. Also, the dataset's title and description don't indicate that this column contains personal data. The flagged values are institutional or program names, not personal identifiers. 
+
+Therefore, the correct classification should be false_positive because the detector incorrectly identified a health scheme as a person.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505105
+106139cf-a3d8-4f8b-b7a1-5b2881d4ba68,1,Annual Health Survey : Mortality Schedule of the district Dewas (Madhya Pradesh),Annual Health Survey : Mortality Schedule,healthscheme_1,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,,"text mentions that place names, rivers, and institutions can have similar names to personal names. However, the key here is the column's purpose. Since the column is about health schemes, the entries are names of schemes, not individuals. The presence of honorifics or titles isn't applicable here. 
+
+Also, the dataset's title and description indicate it's a mortality schedule, which is more about demographic data rather than personal contact details or public officials. The flagged value is a scheme name, which is an institutional or program name, not a personal identifier. 
+
+Therefore, the detector is incorrect in flagging this as PERSON. The correct classification should be false_positive because the values are not personal data but names of health schemes.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505127
+10fd85bd-2130-45cf-9c1f-99c22b96b76d,1,Data Item Comparison Report of Sikkim for 2014-2015 and 2013-2014,HMIS district level item wise and month wise comparison of various indicators of Sikkim,Activity(s),PERSON,19,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Ram Manohar Lohia; | Rajendra Prasad | Vallabhbhai Patel | Narayana Murthy | Sudha Murthy | Raghunath Mashelakr | Gururaj Deshpande | Kathleen Sebelius | Abdul Kalaam | Bharat Samman | P.N. Raju | B.K. Aiket | S.C. Seal | Kamal Sandesh | Shahid Jubba Sahni,,"ashelakr"" might be a mix of a name and a title. 
+
+The dataset's catalog title mentions ""various indicators,"" which could include activities or roles. Since the column is ""Activity(s),"" it's more likely that these entries are titles of activities, programs, or initiatives rather than personal names. For example, ""Bharat Samman"" is a scheme, and ""Rajendra Prasad"" was a president, but in this context, they might be referring to activities or projects. 
+
+The detector is flagging these as people because they are capitalized and multi-word, but without context, it's a false positive. The column's name and the dataset's purpose suggest that these are not personal data but rather activities or programs. Therefore, the correct classification should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505147
+10fd85bd-2130-45cf-9c1f-99c22b96b76d,1,Data Item Comparison Report of Sikkim for 2014-2015 and 2013-2014,HMIS district level item wise and month wise comparison of various indicators of Sikkim,Books Published,PERSON,18,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,"Lohiya Ka Samajwad | K. Rahman | Nirala Kavya | Manmohan Singh | Meri Karmabhoomi | Nitish Kumar | Dalit Sangram | B.R. Deepak | Mane Meram Sadguru Maliya | P.A. Vasudevan | Roshathinte Vithukal | Arthik Vichar Evam Darshan, | Samagra Vyacharik Charitra | Atmakatha Evam Jansanvad | Samajik Vichar Evam Darshan",," being ""Books Published"" suggests that these are book titles, not people. 
+
+The detector is flagging these as PERSON because they are multi-word and capitalized, which is common in Indian names. But the key here is the column header. If the column is about books, then the entries are book titles, not personal names. Even if some entries look like names, the context of the column indicates they are books. Therefore, the flagged values are not people, making it a false positive. 
+
+Additionally, checking the dataset's purpose: it's a comparison report of indicators, so the books published might be part of the data items being compared. There's no indication that these are personal names of individuals. Hence, the correct classification should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505163
+10fd85bd-2130-45cf-9c1f-99c22b96b76d,1,Data Item Comparison Report of Sikkim for 2014-2015 and 2013-2014,HMIS district level item wise and month wise comparison of various indicators of Sikkim,Essential Information,PERSON,50,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,"Jai Prakash Narain; | Atal Bihari Vajpayee; | Jai Prakash Narayan | Ram Manohar Lohia, | Jai Prakash Narain, | Baba Saheb Ambedkar, | Rani Sushma Devi | William P. Vaughan, | Robert Peter Gale | Richard E. Champlin, | O. Armitage | Ian T. Magrath | G.K. Moopanar | Shobhana Bhartia | Naresh Trehan",," positions, not people. Therefore, the correct class is false_positive because the detector is incorrectly flagging them as PERSON when they are not. 
+
+But I need to check the dataset's context again. The dataset is about HMIS district-level data. The ""Essential Information"" column might be listing key personnel or members involved in the HMIS. If these are public officials, then their names are permissible. However, the presence of names like ""William P. Vaughan"" (a foreign name) might indicate that they are not public officials. 
+
+But the problem is that the detector is flagging them as PERSON, but the actual data might be titles or positions. Therefore, the correct answer is false_positive because the flagged values are not people but titles or positions.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.50518
+10fd85bd-2130-45cf-9c1f-99c22b96b76d,1,Data Item Comparison Report of Sikkim for 2014-2015 and 2013-2014,HMIS district level item wise and month wise comparison of various indicators of Sikkim,Position(s) Held,PERSON,1,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Ambedkar Gram Vikas Yojana,,"as PERSON, but that's incorrect. The value is a scheme name, which is a program or initiative, not a person. The context from the dataset title and description suggests it's about comparing indicators, not personal data. 
+
+Also, considering the Indian context, scheme names are often capitalized and might have multiple words, leading the detector to misclassify. Since the column is about positions held, which could refer to job titles or roles in government schemes, not individual names. 
+
+The user mentioned that the detector often flags non-person entities as people. Here, ""Ambedkar Gram Vikas Yojana"" is a scheme, so it's a false positive. The column is likely about positions or roles, not personal data. Therefore, the correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505193
+118b80e2-ca4e-4a06-937c-44caa7199011,1,Combined Household Houselist information under Annual Health Survey of the district West Nimar (Madhya Pradesh),Annual Health Survey : Combined Household Houselist information,healthscheme_1,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,,"name. The detector might be confusing the scheme name with a person because it's a multi-word, capitalized string. 
+
+Looking at the Indian context provided, personal names often have honorifics like Shri, Dr., etc., but 'Rashtriya Swasthya Bima Yojana' doesn't have any such prefixes. It's a program name, not a person. Also, the dataset is about household information, so health schemes would be part of the services provided, not personal data. 
+
+The user mentioned that the detector flags things like scheme names as people because they're capitalized. So in this case, the flagged column is actually about health schemes, not individuals. Therefore, the correct classification should be false_positive because the values are not personal data but names of schemes.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.50521
+1a195708-b76c-42a3-868e-d78a39fbdcc5,1,Annual Health Survey : Mortality Schedule of the district Nayagarh (Odisha),Annual Health Survey : Mortality Schedule,healthscheme_2,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,,"the context. The column is about health schemes, not individuals. The scheme name is a program, not a person. Even though the name is capitalized and multi-word, which might trigger the detector, the context of the dataset (mortality schedule) and the column's purpose (health schemes) indicate that these are program names, not personal data. 
+
+The user's guidelines mention that Indian personal names can be similar to place names, but the context of the column and dataset should determine the classification. Since the column is about health schemes, the values are program names, not people. Therefore, the flagged values are not personal data. The correct classification should be false_positive because the detector is misidentifying the scheme names as people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505221
+3714912b-fe79-484e-b8a7-9d796b5f6df4,1,Annual Health Survey : Mortality Schedule of the district Moradabad (Uttar Pradesh),Annual Health Survey : Mortality Schedule,healthscheme_1,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,,"listing the names of health schemes. Since these are names of schemes, not individuals, the detector is making a mistake here. 
+
+The Indian context points out that names of schemes, institutions, and other entities can be capitalized and multi-word, leading to confusion with personal names. But in this case, the values are clearly names of health schemes, not people. Therefore, the flagged values are not people at all. 
+
+The correct classification should be false_positive because the detector incorrectly identified the scheme names as personal data. There's no indication that these are personal names or contact details of individuals. The dataset's purpose is to collect mortality data, and the health schemes are part of the context, not personal information.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505233
+3e0a58c9-d5cb-4e71-9590-4e1925879862,1,Annual Health Survey : Mortality Schedule of the district Bastar (Chhattisgarh),Annual Health Survey : Mortality Schedule,healthscheme_2,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,," individual people. The scheme name is a program, not a person. Even though the name might sound like a person (like ""Rashtriya"" could be part of a name), in this context, it's clearly a scheme. 
+
+The user's guidelines say that if the column is about schemes, institutions, or programs, those are not personal data. The detector's mistake here is common, as it's capitalizing on the multi-word structure. The correct classification should be false_positive because the flagged values are not personal data but names of health schemes. 
+
+Also, the dataset's title and description indicate it's about mortality data, not personal identifiers. Therefore, the column 'healthscheme_2' contains scheme names, not personal information. So the correct class is false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505244
+3f2ce3ad-c519-4b22-9573-3c3d0548726f,1,Annual Health Survey : Woman Schedule (Section-II) of the district Raipur (Chhattisgarh),Annual Health Survey : Woman Schedule,abortion_performed_by,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Untrained Dai,,"n. But the question is about whether the flagged values are personal data. If the column is recording the name of the provider, then it's personal data. However, if it's recording the type of provider (like ""Untrained Dai""), that's not a personal name but a category. 
+
+Wait, the sample value is ""Untrained Dai"", which is a description, not a name. So the column might be capturing the type of provider rather than the individual's name. Therefore, the flagged values are not personal data but categories. Hence, it's a false positive. 
+
+Alternatively, if the column is supposed to list the names of the providers, then it would be personal data. But given the sample value is a description, it's more likely a category. Therefore, the correct class is false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505255
+498f031e-45f1-4682-b569-e3a2658e6baf,1,Annual Health Survey : Mortality Schedule of the district Korba (Chhattisgarh),Annual Health Survey : Mortality Schedule,healthscheme_2,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,," name is a program, not a person. Even though the name might sound like a person (like ""Rashtriya"" could be a title), it's clearly a scheme. 
+
+The user's guidelines say that if the column is about schemes, institutions, or programs, those are not personal data. The detector's mistake here is common, as it can't distinguish between scheme names and personal names based on capitalization. The correct classification should be false_positive because the flagged values are not people but rather health schemes. 
+
+Also, the dataset's title and description indicate it's about mortality data, not personal information. The column 'healthscheme_2' is part of that data, so the values are scheme names, not personal details. Therefore, the correct class is false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505266
+51b4dd29-c4a6-435d-acc2-d33143205cb0,1,Annual Health Survey : Woman Schedule (Section-II) of the district Purnia (Bihar),Annual Health Survey : Woman Schedule,abortion_performed_by,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Untrained Dai,,"se it's a multi-word string. But in this context, the column is asking for the performer of an abortion, which could be a professional or a non-professional. If ""Untrained Dai"" is a category (like a classification of the performer), then it's not a personal name. However, if it's a specific person's name, then it would be PII. But given that it's part of a survey, it's more likely to be a category or a role rather than an individual's name. 
+
+Also, considering the Indian context, ""Dai"" might be a title or a role, not a personal name. The presence of ""Untrained"" suggests it's a descriptor, not a name. Therefore, the flagged values are not personal data but rather categories or roles. Hence, this is a false positive. The correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505278
+51c45bf1-f8b9-4e26-99f3-3a1d6399fe48,1,"Clinical, Anthropometric & Bio-chemical (CAB) 2014 Survey data of the district Malkangiri (Odisha)","Annual Health Survey : Clinical, Anthropometric & Bio-chemical (CAB) Survey",usual_residance_Reason,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,TAPAN SEN,," column is not for names. 
+
+Alternatively, maybe the column is for the reason, and the values are names, which would be a false positive. But the detector is flagging them as people, which is incorrect. Therefore, the correct class is false_positive because the values are not people but reasons, and the detector is wrong. 
+
+But I'm a bit confused. Let me check again. The column is ""usual_residance_Reason"" (probably a typo for ""usual residence reason""). The sample value is ""TAPAN SEN"", which is a name. If the column is supposed to be the reason for residence, then the values should be reasons like ""permanent"", ""temporary"", etc. But the values are names, which would be a false positive. Therefore, the detector is wrong, and the correct class is false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.50529
+59bfcb82-de63-44a9-9f38-9c5cdcd7d1e3,1,Data Item Comparison Report of East (Sikkim) for 2014-2015 and 2013-2014,HMIS district level item wise and month wise comparison of various indicators of Sikkim,Activity(s),PERSON,19,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Ram Manohar Lohia; | Rajendra Prasad | Vallabhbhai Patel | Narayana Murthy | Sudha Murthy | Raghunath Mashelakr | Gururaj Deshpande | Kathleen Sebelius | Abdul Kalaam | Bharat Samman | P.N. Raju | B.K. Aiket | S.C. Seal | Kamal Sandesh | Shahid Jubba Sahni,,"vities, not personal details.
+
+Now, considering the dataset's purpose: comparing indicators. The column might list activities or roles, not personal names. The presence of names could be due to their association with activities, but the key is whether these are personal data. Since the column is labeled ""Activity(s)"", it's more likely listing roles or events rather than personal names. 
+
+The detector might be confused because these names are capitalized and multi-word, but the context of the column header and the dataset's focus on indicators (like books published, addresses, etc.) suggests that these names are part of the activities, not personal data. Therefore, the flagged values are not personal data but related to activities, making it a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505305
+59bfcb82-de63-44a9-9f38-9c5cdcd7d1e3,1,Data Item Comparison Report of East (Sikkim) for 2014-2015 and 2013-2014,HMIS district level item wise and month wise comparison of various indicators of Sikkim,Books Published,PERSON,18,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,"Lohiya Ka Samajwad | K. Rahman | Nirala Kavya | Manmohan Singh | Meri Karmabhoomi | Nitish Kumar | Dalit Sangram | B.R. Deepak | Mane Meram Sadguru Maliya | P.A. Vasudevan | Roshathinte Vithukal | Arthik Vichar Evam Darshan, | Samagra Vyacharik Charitra | Atmakatha Evam Jansanvad | Samajik Vichar Evam Darshan",,"r suggests it's about books, not people. The presence of names like Manmohan Singh might be authors' names, but the column is supposed to list books, not people. 
+
+Also, considering the dataset's catalog title, it's about comparing indicators, which might include books as part of activities or resources. The other headers like ""Father Name"", ""Mother Name"", etc., are clearly personal details, but ""Books Published"" is different. The detector is probably confusing the book titles with personal names because of the capitalization and multi-word structure. 
+
+Since the column is about books, the flagged values are not personal data. Therefore, the correct classification should be false_positive because the detector is incorrectly identifying book titles as people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505318
+59bfcb82-de63-44a9-9f38-9c5cdcd7d1e3,1,Data Item Comparison Report of East (Sikkim) for 2014-2015 and 2013-2014,HMIS district level item wise and month wise comparison of various indicators of Sikkim,Essential Information,PERSON,50,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,"Jai Prakash Narain; | Atal Bihari Vajpayee; | Jai Prakash Narayan | Ram Manohar Lohia, | Jai Prakash Narain, | Baba Saheb Ambedkar, | Rani Sushma Devi | William P. Vaughan, | Robert Peter Gale | Richard E. Champlin, | O. Armitage | Ian T. Magrath | G.K. Moopanar | Shobhana Bhartia | Naresh Trehan",,"ut something else. 
+
+Alternatively, the column might be a list of people, and the detector is correct. But the user says the detector is wrong often, so maybe the column is not about people. 
+
+I think the correct answer here is that the flagged values are not people, so it's a false positive. Because the column might be a list of positions or titles, but the sample values include names. However, the presence of names like ""William P. Vaughan"" and ""Robert Peter Gale"" might be foreign names, which could be part of a list of members or staff. 
+
+But without more context, it's hard to say. However, the dataset's title and description suggest it's about comparing indicators, which might not involve personal data. Therefore, the flagged values are a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505332
+59bfcb82-de63-44a9-9f38-9c5cdcd7d1e3,1,Data Item Comparison Report of East (Sikkim) for 2014-2015 and 2013-2014,HMIS district level item wise and month wise comparison of various indicators of Sikkim,Position(s) Held,PERSON,1,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Ambedkar Gram Vikas Yojana,,"lds. The sample value given is a scheme name, which is a program, not a person. The detector is probably picking up on the fact that the scheme name is a multi-word, capitalized string, similar to personal names. But in this context, the column is about positions, not people. 
+
+Looking at the other headers, there's ""Father Name"", ""Mother Name"", etc., which are clearly personal. But ""Position(s) Held"" should be about job titles or roles. The sample value being a scheme name suggests it's a program or initiative, not a person. So the detector is incorrectly categorizing this as a person. 
+
+Since the column is about positions, not individuals, the flagged values are not personal data. Therefore, it's a false positive. The correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505344
+60836d47-37f5-4074-b3f5-48f879e2281a,1,Data Item Comparison Report of West (Sikkim) for 2014-2015 and 2013-2014,HMIS district level item wise and month wise comparison of various indicators of Sikkim,Activity(s),PERSON,19,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Ram Manohar Lohia; | Rajendra Prasad | Vallabhbhai Patel | Narayana Murthy | Sudha Murthy | Raghunath Mashelakr | Gururaj Deshpande | Kathleen Sebelius | Abdul Kalaam | Bharat Samman | P.N. Raju | B.K. Aiket | S.C. Seal | Kamal Sandesh | Shahid Jubba Sahni,,"ble people, but the context here is about activities, not personal details.
+
+Now, considering the dataset's purpose: comparing indicators. The column might list activities or roles, not personal names. The presence of names could be due to their association with activities, but the key is whether these are personal data. Since the column is labeled ""Activity(s)"", it's more likely listing activities rather than personal names. 
+
+The detector might be confused because these names are capitalized and multi-word, but the context of the column header and the dataset's focus on indicators suggest that these names are part of the activities, not personal data. Therefore, the flagged values are not personal data but related to activities, making it a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505358
+60836d47-37f5-4074-b3f5-48f879e2281a,1,Data Item Comparison Report of West (Sikkim) for 2014-2015 and 2013-2014,HMIS district level item wise and month wise comparison of various indicators of Sikkim,Books Published,PERSON,18,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,"Lohiya Ka Samajwad | K. Rahman | Nirala Kavya | Manmohan Singh | Meri Karmabhoomi | Nitish Kumar | Dalit Sangram | B.R. Deepak | Mane Meram Sadguru Maliya | P.A. Vasudevan | Roshathinte Vithukal | Arthik Vichar Evam Darshan, | Samagra Vyacharik Charitra | Atmakatha Evam Jansanvad | Samajik Vichar Evam Darshan",,"umn's header suggests it's about books, not people. The presence of names like Manmohan Singh might be authors' names, but the column is titled ""Books Published"", so the primary data is the book titles. 
+
+Also, considering the dataset's catalog title, it's about comparing indicators, which might include books as part of activities or resources. The other headers like ""Member Name"", ""Father Name"", etc., are clearly personal details. But ""Books Published"" is different. The detector is incorrectly flagging these as people because they are multi-word and capitalized, but the context of the column indicates they are book titles. 
+
+Therefore, the flagged values are not personal data. They are titles of books, so the correct classification should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505371
+60836d47-37f5-4074-b3f5-48f879e2281a,1,Data Item Comparison Report of West (Sikkim) for 2014-2015 and 2013-2014,HMIS district level item wise and month wise comparison of various indicators of Sikkim,Essential Information,PERSON,50,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,"Jai Prakash Narain; | Atal Bihari Vajpayee; | Jai Prakash Narayan | Ram Manohar Lohia, | Jai Prakash Narain, | Baba Saheb Ambedkar, | Rani Sushma Devi | William P. Vaughan, | Robert Peter Gale | Richard E. Champlin, | O. Armitage | Ian T. Magrath | G.K. Moopanar | Shobhana Bhartia | Naresh Trehan",,". For example, ""Position(s) Held"" is another column, so ""Essential Information"" might be a mix. But the sample values are names, which could be personal. 
+
+Wait, the header row includes ""Position(s) Held,"" so ""Essential Information"" might be a different column. However, the sample values are names, which could be personal. But the detector is wrong, so maybe these are not people. 
+
+Alternatively, the column might be about public officials, making it permissible. But the presence of non-Indian names complicates. 
+
+Given the uncertainty, but the fact that the detector is wrong, the answer is likely false_positive. The column is not about personal data but something else, like positions or titles. Therefore, the flagged values are not people, so false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505385
+60836d47-37f5-4074-b3f5-48f879e2281a,1,Data Item Comparison Report of West (Sikkim) for 2014-2015 and 2013-2014,HMIS district level item wise and month wise comparison of various indicators of Sikkim,Position(s) Held,PERSON,1,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Ambedkar Gram Vikas Yojana,,"e scheme name is a multi-word, capitalized string, similar to personal names. But in this context, the column is about positions, not people. 
+
+Looking at the other headers, there's ""Father Name"", ""Mother Name"", etc., which are clearly personal. But ""Position(s) Held"" should be about job titles or roles. The sample value being a scheme name suggests it's a program or initiative, not a person. So the detector is incorrectly categorizing this as a person. 
+
+Since the column is about positions, and the values are names of schemes or programs, not individuals, the correct classification should be false_positive. The detector is misidentifying these as people because of the capitalization and structure, but the context clearly indicates they're not personal data.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505396
+6f742f11-f278-47a6-bc72-a4d17f1e5cae,1,Annual Health Survey : Mortality Schedule of the district Koriya (Chhattisgarh),Annual Health Survey : Mortality Schedule,healthscheme_2,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,,"lated information. Health schemes would be part of the healthcare infrastructure, not personal data. The scheme's name is a program, not an individual. 
+
+The Indian context mentions that scheme names can be confused with personal names, but the key is to look at the column's purpose. Since the column is about health schemes, the values are program names, not personal data. Therefore, the detector's flagging as PERSON is incorrect. 
+
+The correct classification should be false_positive because the flagged values are not personal data but names of health schemes. There's no indication that these are individuals or public officials. The dataset's purpose doesn't involve personal identifiers of individuals, but rather institutional or program-related information.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505407
+83a3c4a2-8d7e-420a-ba65-a9145b7cfe46,1,Annual Health Survey : Mortality Schedule of the district Ajmer (Rajasthan),Annual Health Survey : Mortality Schedule,healthscheme_1,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,,"alized string, which might resemble a person's name. However, the key here is that the column is about schemes, not individuals. 
+
+The user's guidelines mention that Indian personal names can look similar to place names or institutions. But the decision should be based on the column's context. Since the column is about health schemes, the values are names of programs, not people. Therefore, the detector's flagging as PERSON is incorrect. 
+
+The correct classification would be false_positive because the flagged values are not personal data but names of health schemes. There's no indication that these are individuals or public officials. The dataset's purpose is to collect mortality data, and the health schemes are part of the context, not personal information.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505419
+8ca6f338-b339-42b4-bfae-1f56638f5067,1,Data Item Comparison Report of All India for 2018-19 & 2017-18,HMIS district level item wise and month wise comparison of various indicators of All India,Activity(s),PERSON,19,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Ram Manohar Lohia; | Rajendra Prasad | Vallabhbhai Patel | Narayana Murthy | Sudha Murthy | Raghunath Mashelakr | Gururaj Deshpande | Kathleen Sebelius | Abdul Kalaam | Bharat Samman | P.N. Raju | B.K. Aiket | S.C. Seal | Kamal Sandesh | Shahid Jubba Sahni,,"hich suggests that the entries should be activities, not people. The presence of names might be due to the detector's error. For example, ""Bharat Samman"" could be a program or award, not a person. Similarly, ""Kathleen Sebelius"" is a real person, but if the column is about activities, that's a mismatch. 
+
+The dataset's description mentions comparing indicators, which might include activities. So the flagged column is likely not about people. Therefore, the correct class would be false_positive because the detector is incorrectly identifying these entries as people when they are actually activities or other entities. The column header ""Activity(s)"" indicates that the data should be activities, not personal names. Hence, the flagged values are a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505434
+8ca6f338-b339-42b4-bfae-1f56638f5067,1,Data Item Comparison Report of All India for 2018-19 & 2017-18,HMIS district level item wise and month wise comparison of various indicators of All India,Books Published,PERSON,18,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,"Lohiya Ka Samajwad | K. Rahman | Nirala Kavya | Manmohan Singh | Meri Karmabhoomi | Nitish Kumar | Dalit Sangram | B.R. Deepak | Mane Meram Sadguru Maliya | P.A. Vasudevan | Roshathinte Vithukal | Arthik Vichar Evam Darshan, | Samagra Vyacharik Charitra | Atmakatha Evam Jansanvad | Samajik Vichar Evam Darshan",,"m"" is a book by B.R. Ambedkar. So these are all book titles. The detector is incorrectly identifying them as people because they are multi-word and capitalized, which is a common issue in Indian context where names and places can look similar. 
+
+The dataset's catalog title mentions ""HMIS district level item wise and month wise comparison of various indicators of All India"". The headers include ""Member Name"", ""Father Name"", etc., which are personal details. But the ""Books Published"" column is a different category. The flagged values are books, not people. Therefore, the detector is wrong here. 
+
+Since the column is about books, the entries are book titles, not personal data. Therefore, the flagged values are not people, so the correct class is false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505451
+8ca6f338-b339-42b4-bfae-1f56638f5067,1,Data Item Comparison Report of All India for 2018-19 & 2017-18,HMIS district level item wise and month wise comparison of various indicators of All India,Position(s) Held,PERSON,1,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Ambedkar Gram Vikas Yojana,,"ue is a scheme name, not a personal name. 
+
+Looking at the Indian context, schemes like Ambedkar Gram Vikas Yojana are public initiatives, not personal names. The detector might be confused because the scheme name is capitalized and multi-word, similar to personal names. However, the key is to check if the column is about people. Since the column is ""Position(s) Held,"" it's more likely referring to roles in government schemes or positions within organizations, not individual people. 
+
+The dataset's purpose is to compare indicators, so ""Position(s) Held"" might relate to roles in implementing these schemes. The flagged values are scheme names, which are not personal data. Therefore, the detection is a false positive. The correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505476
+8d1b47dd-267a-4a6e-b7d2-0c021ad95520,1,Combined Household Houselist information under Annual Health Survey of the district Araria (Bihar),Annual Health Survey : Combined Household Houselist information,healthscheme_2,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,,"detector is confusing scheme names with personal names because they are capitalized and multi-word. 
+
+Looking at the Indian context provided, personal names often have honorifics like Shri, Dr., etc., but 'Rashtriya Swasthya Bima Yojana' doesn't have any such prefixes. It's a program name, not a person. Also, the dataset is about household information, so schemes are likely part of the services provided, not personal data. 
+
+The user mentioned that the detector flags things like scheme names as people because of capitalization. Since the column is about health schemes, the values here are program names, not individuals. Therefore, the correct classification should be false_positive because the flagged values are not personal data but names of health schemes.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505487
+9a3d9d70-f993-4a40-99e9-480f41597d0d,1,Combined Household Houselist information under Annual Health Survey of the district Kanpur Nagar (Uttar Pradesh),Annual Health Survey : Combined Household Houselist information,healthscheme_1,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,,"name. The detector might be confusing the scheme name with a person because it's a multi-word, capitalized string. 
+
+Looking at the Indian context provided, personal names often have honorifics like Shri, Dr., etc., but 'Rashtriya Swasthya Bima Yojana' doesn't have any such prefixes. It's a program name, not a person. Also, the dataset is about household information, so health schemes would be part of the services provided, not personal data. 
+
+The user mentioned that the detector flags things like scheme names as people because they're capitalized. So in this case, the flagged column is actually about health schemes, not individuals. Therefore, the correct classification should be false_positive because the values are not personal data but names of schemes.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505498
+a867d814-914c-4c88-90df-bb300622c505,1,Annual Health Survey : Mortality Schedule of the district Mathura (Uttar Pradesh),Annual Health Survey : Mortality Schedule,healthscheme_1,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,,"cally mentions ""healthscheme_1,"" so it's probably listing the names of health schemes. Since these are names of schemes, not individuals, the detector is making a mistake here. 
+
+The user's guidelines mention that Indian place names, rivers, and scheme names can be capitalised multi-word strings, which might confuse the detector. The key point is that the values here are names of schemes, not people. Therefore, the flagged values are not people at all. 
+
+So the correct classification should be false_positive because the detector incorrectly identified the scheme names as people. There's no indication that these are personal names or contact details of individuals. The dataset's context and the column's name clearly point to health schemes, not personal data.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505509
+aa527887-e4be-41c0-b802-5afe337b22e0,1,Combined Household Houselist information under Annual Health Survey of the district Muzaffarnagar (Uttar Pradesh),Annual Health Survey : Combined Household Houselist information,healthscheme_1,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,,"name. The detector might be confusing the scheme name with a person because it's a multi-word, capitalized string. 
+
+Looking at the Indian context provided, personal names often have honorifics like Shri, Dr., etc., but 'Rashtriya Swasthya Bima Yojana' doesn't have any such prefixes. It's a program name, not a person. Also, the dataset is about household information, so health schemes would be part of the services provided, not personal data. 
+
+The user mentioned that the detector flags things like scheme names as people because they're capitalized. So in this case, the flagged column is actually about health schemes, not individuals. Therefore, the correct classification should be false_positive because the values are not personal data but names of schemes.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505519
+b36d265e-acfd-43bf-9d08-726c0896ef45,1,Data Item Comparison Report of South (Sikkim) for 2014-2015 and 2013-2014,HMIS district level item wise and month wise comparison of various indicators of Sikkim,Activity(s),PERSON,19,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Ram Manohar Lohia; | Rajendra Prasad | Vallabhbhai Patel | Narayana Murthy | Sudha Murthy | Raghunath Mashelakr | Gururaj Deshpande | Kathleen Sebelius | Abdul Kalaam | Bharat Samman | P.N. Raju | B.K. Aiket | S.C. Seal | Kamal Sandesh | Shahid Jubba Sahni,,"d, Vallabhbhai Patel, etc. 
+
+First, I need to determine what ""Activity(s)"" refers to. The column name suggests it's about activities, not people. The sample values include both historical figures and some names that might be confused with people. However, looking at the context, the dataset is about comparing indicators, which might include various activities or programs. 
+
+The detector is flagging these as people because they are capitalized multi-word names. But in this case, the column is about activities, not individuals. The presence of names that are also personal names is a false positive. The dataset's purpose isn't to list people but to compare data items. Therefore, the flagged column is a false positive. The correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505533
+b36d265e-acfd-43bf-9d08-726c0896ef45,1,Data Item Comparison Report of South (Sikkim) for 2014-2015 and 2013-2014,HMIS district level item wise and month wise comparison of various indicators of Sikkim,Books Published,PERSON,18,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,"Lohiya Ka Samajwad | K. Rahman | Nirala Kavya | Manmohan Singh | Meri Karmabhoomi | Nitish Kumar | Dalit Sangram | B.R. Deepak | Mane Meram Sadguru Maliya | P.A. Vasudevan | Roshathinte Vithukal | Arthik Vichar Evam Darshan, | Samagra Vyacharik Charitra | Atmakatha Evam Jansanvad | Samajik Vichar Evam Darshan",,", Email ID, Father Name, Member Name, etc. The flagged column is ""Books Published,"" which the detector mistakenly labeled as PERSON.
+
+Looking at the sample values: ""Lohiya Ka Samajwad,"" ""K. Rahman,"" ""Nirala Kavya,"" ""Manmohan Singh,"" ""Nitish Kumar,"" etc. These seem like titles of books or authors. Wait, Manmohan Singh and Nitish Kumar are actual political figures, but in this context, they might be authors or titles. However, the key point is that the column is titled ""Books Published,"" so the entries should be book titles, not personal names. The detector is conflating capitalized multi-word strings with personal names. Since the column is about books, these are titles, not people. Therefore, it's a false positive. The correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505547
+b36d265e-acfd-43bf-9d08-726c0896ef45,1,Data Item Comparison Report of South (Sikkim) for 2014-2015 and 2013-2014,HMIS district level item wise and month wise comparison of various indicators of Sikkim,Essential Information,PERSON,50,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,"Jai Prakash Narain; | Atal Bihari Vajpayee; | Jai Prakash Narayan | Ram Manohar Lohia, | Jai Prakash Narain, | Baba Saheb Ambedkar, | Rani Sushma Devi | William P. Vaughan, | Robert Peter Gale | Richard E. Champlin, | O. Armitage | Ian T. Magrath | G.K. Moopanar | Shobhana Bhartia | Naresh Trehan",,"ht not involve personal names. Therefore, the correct class is false_positive because the detector is wrong, and the values are not people but something else. However, the presence of names like ""Atal Bihari Vajpayee"" (a public figure) might indicate that they are permissible. 
+
+But the user's instruction says that permissible applies only if the person holds a public office. So if these names are of public officials, then it's permissible. But the dataset's context might not clarify that. 
+
+Given the ambiguity, but the fact that the detector is wrong, the correct answer is false_positive. However, if the values are indeed public officials, then it's permissible. But without more context, it's safer to assume that the detector is wrong, hence false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505561
+b36d265e-acfd-43bf-9d08-726c0896ef45,1,Data Item Comparison Report of South (Sikkim) for 2014-2015 and 2013-2014,HMIS district level item wise and month wise comparison of various indicators of Sikkim,Position(s) Held,PERSON,1,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Ambedkar Gram Vikas Yojana,,"trings. So in this case, the scheme name is being incorrectly labeled as a person.
+
+Looking at the dataset's context, it's a comparison report of indicators, which might include various programs or schemes. The column ""Position(s) Held"" might be intended to list the positions or roles associated with the individuals, but the sample value is a scheme name, not a person's position. Therefore, the flagged values are not personal data but rather names of schemes or programs. 
+
+Since the detector is wrong here, the correct classification should be false_positive. The values are not people but rather scheme names, which are not personal data. The dataset's purpose doesn't indicate that these are personal details of individuals. Hence, the answer is false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505572
+b4d77a09-9cdc-4a5b-b900-8fddb78f3cbe,1,Hospital Directory as on July 2015,Hospital Directory (National Health Portal),Website link,PERSON,5,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,http://www.cygnusmedicare.com/ | http://kneecarein.com/ | http://goyaleyeinstitute.com/ | http://www.ashraymedicalcentre.com/ | http://drkapurtoucheye.tradeget.com/,,"Indian context: personal data includes private individuals' info like names, contact details, etc. But the website links here are public information about the hospitals. The detector might be confusing the domain names with personal names. For example, ""cygnusmedicare.com"" is a company name, not a person. The presence of ""http://"" and the domain structure indicates they are URLs, not personal names. 
+
+The dataset's purpose is to list hospitals, so the website links are part of the hospital's contact details. Since these are public information for the hospitals, which are institutions, not individuals, the flagged values are not personal data. Therefore, the correct class should be false_positive because the detector is incorrectly identifying URLs as people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505591
+be3f352b-75df-455a-a154-accb21f59c98,1,Data Item Comparison Report of North (Sikkim) for 2014-2015 and 2013-2014,HMIS district level item wise and month wise comparison of various indicators of Sikkim,Activity(s),PERSON,19,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Ram Manohar Lohia; | Rajendra Prasad | Vallabhbhai Patel | Narayana Murthy | Sudha Murthy | Raghunath Mashelakr | Gururaj Deshpande | Kathleen Sebelius | Abdul Kalaam | Bharat Samman | P.N. Raju | B.K. Aiket | S.C. Seal | Kamal Sandesh | Shahid Jubba Sahni,,"ilar, listing activities or roles. But the detector is flagging them as people. However, some of these names are titles or awards, not people. For example, ""Bharat Samman"" is an award. Also, ""Raghunath Mashelakr"" might be a name, but without context, it's hard to tell. 
+
+The dataset's catalog title mentions ""various indicators,"" which could include activities. Since the column is ""Activity(s)"", the values might be activities or roles, not personal names. Therefore, the detector is incorrectly flagging these as people. So the correct class would be false_positive because the flagged values are not personal data but rather activities or roles. Also, the presence of non-person names like ""Bharat Samman"" supports this. Hence, the answer should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.50561
+be3f352b-75df-455a-a154-accb21f59c98,1,Data Item Comparison Report of North (Sikkim) for 2014-2015 and 2013-2014,HMIS district level item wise and month wise comparison of various indicators of Sikkim,Books Published,PERSON,18,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,"Lohiya Ka Samajwad | K. Rahman | Nirala Kavya | Manmohan Singh | Meri Karmabhoomi | Nitish Kumar | Dalit Sangram | B.R. Deepak | Mane Meram Sadguru Maliya | P.A. Vasudevan | Roshathinte Vithukal | Arthik Vichar Evam Darshan, | Samagra Vyacharik Charitra | Atmakatha Evam Jansanvad | Samajik Vichar Evam Darshan",,", Email ID, Father Name, Member Name, etc. The flagged column is ""Books Published,"" which the detector mistakenly labeled as PERSON.
+
+Looking at the sample values: ""Lohiya Ka Samajwad,"" ""K. Rahman,"" ""Nirala Kavya,"" ""Manmohan Singh,"" ""Nitish Kumar,"" etc. These seem like titles of books or authors. Wait, Manmohan Singh and Nitish Kumar are actual political figures, but in this context, they might be authors or titles. However, the key point is that the column is titled ""Books Published,"" so the entries should be book titles, not personal names. The detector is conflating capitalized multi-word strings with personal names. Since the column is about books, these are titles, not people. Therefore, it's a false positive. The correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505631
+be3f352b-75df-455a-a154-accb21f59c98,1,Data Item Comparison Report of North (Sikkim) for 2014-2015 and 2013-2014,HMIS district level item wise and month wise comparison of various indicators of Sikkim,Position(s) Held,PERSON,1,false_positive,permissible,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Ambedkar Gram Vikas Yojana,,"personal details. However, the flagged column is ""Position(s) Held"". The sample value given is a scheme name, which is a program or initiative, not a person. The detector might be confusing capitalized multi-word strings (common in Indian context) as personal names. 
+
+The key here is that ""Ambedkar Gram Vikas Yojana"" is a government scheme, not a person. The column is about positions held, which could be job titles or roles. Since the values are scheme names, they are not personal data. Therefore, the flagged values are not people, making it a false positive. 
+
+Also, the dataset's purpose is to compare indicators, so positions held might refer to roles in implementing schemes, not individual people. Hence, the correct classification should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505666
+ca23d5a5-741f-465b-be70-798ccff36275,1,Annual Health Survey : Mortality Schedule of the district Supaul (Bihar),Annual Health Survey : Mortality Schedule,healthscheme_2,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,,"about health schemes, not individuals. The scheme name is a program, not a person. Even though the name is capitalized and multi-word, which might trigger the detector, the context of the dataset (mortality schedule) and the column's name (healthscheme) indicate it's a program, not a person. 
+
+Also, considering the Indian context, health schemes are public programs, but the detector is conflating them with personal names. Since the values are names of schemes, not individuals, the correct classification should be false positive. The detector is misidentifying these as people because they are capitalized and multi-word, but the actual data is about health schemes, not personal data. Therefore, the flagged values are not people, so the class is false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.50568
+cba05a5c-cefe-4005-b56c-9d1095cfee09,1,"Clinical, Anthropometric & Bio-chemical (CAB) 2014 Survey data of the district Baghpat (Uttar Pradesh)","Annual Health Survey : Clinical, Anthropometric & Bio-chemical (CAB) Survey",usual_residance_Reason,PERSON,4,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,SHAADI HO GAYI | BHULAN SINGH | SHANTI DEVI | RAM KUMAR,,"ason for moving. The others are names. So maybe the column has mixed data, but the main issue is that the detector is flagging names as people. However, if the column is about residence reasons, then names in that column would be a false positive. But if the column is actually about the person's name, then it's a different case. 
+
+Given the dataset is a health survey, it's possible that the column is supposed to be the reason for residence, but the data entry has names there. Alternatively, maybe the column is mislabeled. But the user's task is to determine if the flagged values are people. Since the column is about reasons, the names here are not people but possibly incorrect entries. Therefore, the detector is wrong, and the class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505692
+d2a3242c-d42b-4f57-bab9-48efa3f0de6e,1,Annual Health Survey : Mortality Schedule of the district Purba Champaran (Bihar),Annual Health Survey : Mortality Schedule,healthscheme_1,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,," However, the presence of honorifics or indicators of public office isn't here. The scheme is a public program, but the data here is the name of the scheme, not a person's name. 
+
+The user's guidelines mention that if the data is about a public office holder or institutional contact details, it's permissible. But in this case, the data is about a health scheme, which is an institution or program, not a person. Therefore, the flagged values are not personal data. 
+
+So, the correct classification should be false_positive because the detector is misidentifying the scheme name as a person. There's no indication that these are personal names or contact details of individuals. The data is about health schemes, which are institutional or programmatic, not personal.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505703
+de39b239-57f8-4b55-8034-66cb1274ef3f,1,Annual Health Survey : Mortality Schedule of the district Bulandshahr (Uttar Pradesh),Annual Health Survey : Mortality Schedule,healthscheme_1,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,,"art of the data, like which scheme the deceased was enrolled in. However, the key point here is whether the value represents a person or an entity. 
+
+The detector might be confused because the scheme name is a multi-word, capitalized string, similar to personal names. But the column's name indicates it's a health scheme, not a person. Also, the dataset's title and description relate to mortality, which is about people, but the specific column is about health schemes. 
+
+Since the value is the name of a scheme, not a person, and the column is about schemes, the flagged classification as PERSON is incorrect. Therefore, this is a false positive. The detector is mistakenly identifying a scheme name as a person. The correct classification should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505714
+dfd72fe3-7738-46ed-a4fa-3cadd10b9039,1,Annual Health Survey : Mortality Schedule of the district Sehore (Madhya Pradesh),Annual Health Survey : Mortality Schedule,healthscheme_1,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,,"epresents a person or an entity. 
+
+The detector might be confused because the scheme name is a multi-word, capitalized string, similar to personal names. But the column's name indicates it's a health scheme, not a person. Also, the dataset's title and description relate to mortality, which is about deaths, not individuals. 
+
+The flagged values are names of schemes, not individuals. Therefore, the detector is incorrectly flagging them as people. The correct classification should be false_positive because the values are not personal data but rather names of health schemes. There's no indication that these are personal names or contact details of individuals. The dataset's context and the column's name clearly point to the schemes being the subject, not people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505728
+e05169f8-a3f7-4c41-a665-16d91d806fb7,1,"TB Laboratory Infrastructure, 2022","India Tuberculosis Report, 2023",Name of the Culture & DST Laboratory,PERSON,2,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,DFIT Darbhanga | GHTM Tambaram,,"ght be part of their official names, indicating their location. For example, a lab might be named after a place or located there. 
+
+Also, considering the dataset's subject matter, which is about TB laboratory infrastructure, the ""Name of the Culture & DST Laboratory"" would logically list the names of the laboratories, possibly including their locations. Therefore, these entries are not personal names but names of institutions or facilities. 
+
+The key point is that the column header indicates the entries are laboratory names, not personal names. Even though the values might look like names, the context from the header and the dataset's purpose (infrastructure) suggests they are institutional names. Hence, the detector's flagging as PERSON is a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505739
+ea1619c9-fee1-4e08-986a-57ea43a278e4,1,Annual Health Survey : Mortality Schedule of the district Jaipur (Rajasthan),Annual Health Survey : Mortality Schedule,healthscheme_1,PERSON,3,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,,"ics or titles that denote a person isn't present here. The scheme name is a program, not a person. 
+
+The user's guidelines mention that Indian personal names can look similar to place names or institutions. But in this case, the key is the column's purpose. Since the column is about health schemes, the values are program names, not people. Therefore, the detector is incorrect here. The flagged values are not people but rather names of schemes. 
+
+So, the correct classification should be false_positive because the detector is misidentifying the scheme names as people. There's no indication that these are personal names or public officials. The data is about health schemes, so it's not personal data about individuals. Hence, the answer should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.50575
+ee384c74-a4f2-4848-8121-166d0dc35add,1,Combined Household Houselist information under Annual Health Survey of the district Jyotiba Phule Nagar (Uttar Pradesh),Annual Health Survey : Combined Household Houselist information,healthscheme_1,PERSON,2,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,,"me name, not a personal name. The detector is confusing scheme names with personal names because they are capitalized and multi-word. 
+
+Looking at the Indian context provided, personal names are often similar to place names, but the key is to look at the context. Since the column is about health schemes, the values should be names of schemes, not individuals. The presence of honorifics or public offices isn't indicated here. 
+
+The user mentioned that the detector flags things like scheme names as people. In this case, 'Rashtriya Swasthya Bima Yojana' is clearly a scheme, not a person. Therefore, the flagged values are not people. The correct classification should be false_positive because the detector is incorrectly identifying scheme names as personal data.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505761
+f938f954-e751-4e73-bb95-c500a9d605cf,1,Annual Health Survey : Mortality Schedule of the district Saharanpur (Uttar Pradesh),Annual Health Survey : Mortality Schedule,healthscheme_1,PERSON,2,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,,"he column in question is about health schemes, so it's more about the schemes themselves rather than individuals. The scheme name is a program, not a person. 
+
+The Indian context mentions that place names, rivers, and institutions can have similar names to personal names. However, the key here is the column's purpose. Since the column is about health schemes, the values are names of programs, not individuals. Therefore, the detector is making a false positive. 
+
+Also, the dataset's title and description indicate it's a mortality schedule, which is more about statistical data rather than personal information. The flagged values are names of schemes, which are public information but not personal data. Hence, the correct classification should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505772
+fa02b2c2-a20c-4d05-a575-99575418d82b,1,Annual Health Survey : Woman Schedule (Section-II) of the district Bhagalpur (Bihar),Annual Health Survey : Woman Schedule,who_conducted_del_at_home,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Untrained Dai,,"ing up on the multi-word string ""Dai"" and misclassifying it as a person. 
+
+Looking at the Indian context provided: personal names are often similar to place names or titles. However, ""Dai"" here is a specific term for a traditional birth attendant, not a personal name. The presence of ""Untrained"" as a prefix indicates it's a description of the role, not a personal name. Also, the column is about the conductor of the delivery, which is a role, not an individual's name. 
+
+The detector might be flagging it as PERSON because ""Dai"" is a multi-word term, but in this context, it's a title or a role. Therefore, the flagged values are not personal data but rather job titles or roles. Hence, this is a false positive. The correct classification should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505784
+fb9264e0-5151-45aa-8f20-d2ca02d017e5,1,Annual Health Survey : Mortality Schedule of the district Morena (Madhya Pradesh),Annual Health Survey : Mortality Schedule,healthscheme_1,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,," institutions can have similar names to people. However, the key here is the column's purpose. If the column is listing health schemes, then the entries are names of programs, not individuals. Therefore, the flagged values are not people. 
+
+Also, the dataset's title and description indicate it's a health survey, so the column is likely about health schemes rather than personal data. The detector's mistake here is due to the capitalization and structure of the scheme name, which resembles a person's name. But without context, the system can't distinguish between a scheme and a person. 
+
+Since the column is about health schemes and the values are scheme names, the correct classification should be false positive. The detector incorrectly labeled them as people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505799
+fd784ffe-913a-4dd4-9079-1aaa552ed865,1,Annual Health Survey : Mortality Schedule of the district Shahjahanpur (Uttar Pradesh),Annual Health Survey : Mortality Schedule,healthscheme_1,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Rashtriya Swasthya Bima Yojana,,"individuals. Even though the scheme name is capitalized and multi-word, it's an institutional or program name, not a personal name. 
+
+Looking at the Indian context provided, personal names often overlap with place names, but the presence of honorifics or specific indicators of being a person (like titles) would matter. However, 'Rashtriya Swasthya Bima Yojana' doesn't have any honorifics that denote a person. It's a scheme name. 
+
+The dataset's context is about mortality, so the health schemes mentioned would be those associated with the deceased. But the scheme itself is an institution, not a person. Therefore, the flagged values are not personal data but names of schemes. Hence, this is a false positive. The correct classification should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505813
+02379e24-f295-42d2-8d39-6607e170d53a,2,"Basic Information of Universities, 2015-16",All India Survey on Higher Education - 2015-16,website,PERSON,4,false_positive,present,llm,T3-judge,Tier 3 local LLM judge,R12-residual,www.iitk.ac.in | www.integraluniversity.ac.in | www.cuchd.in | www.gadvasu.in,,"ails like email addresses or websites of institutions are not personal data. The website here is an institutional contact detail, not a personal identifier. The detector's mistake is in the shape of the string, but the actual data type is a website URL, not a person's name. 
+
+The user's guidelines mention that official channels like .gov.in or .ac.in domains are not personal data. Since these websites are for universities, they fall under institutional contact details. Therefore, the flagged values are not personal data but institutional information. 
+
+So the correct classification should be false_positive because the detector incorrectly labeled the website URLs as PERSON. The actual data is not personal information but rather institutional contact details.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.50583
+046c1c39-e36f-42a6-afa7-ea7e84e9ff9c,2,Value of Property Stolen and Recovered and Percentage Recovery during 2019,Crime in India - 2019,Nature of Property,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Three Wheelers,,"pe of property involved in crimes. The sample value ""Three Wheelers"" is a type of vehicle, which is a property category, not a person. 
+
+Looking at the dataset's context, it's about statistics on stolen property, so the column is likely listing different categories of property. The detector might be misidentifying capitalized multi-word terms as people, but in this case, the terms are clearly types of property. There's no indication that these are personal names or public officials. 
+
+The dataset's description mentions it's compiled by the National Crime Records Bureau, so the data is aggregated and statistical. The values here are categories, not individual names. Therefore, the flagged column is a false positive. The correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505844
+05a21708-1273-4070-9812-65f25ec80b14,2,Existing Major Gas Pipelines in India from 2016 to 2018,Indian Petroleum and Natural Gas Statistics - 2017-18,Type of Pipeline / Owner/Name of Pipeline,PERSON,12,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,GAIL | Dadri Bawana Nangal | Dadri Bawana | Dhabol Bangalore | isalmer |  G Basin |  Dadri Panipat | Dadri |  Duliajan | DNPL | Duliajan | Duliajan to Numaligarh,,"ine"" would be the name of the pipeline project or the company owning it. 
+
+Looking at the Indian context provided, personal names are different from institutional or company names. GAIL is a company, so it's an institution. The detector is conflating institutional names with personal names. Since the column is about pipeline owners or names, these entries are not personal data. They are either company names or project names. 
+
+The user's guidelines say that if the values are not people, it's a false positive. Since the flagged column is about pipeline names, not individuals, the correct class should be false_positive. There's no indication that these are personal names or public officials. They are institutional or project names, which are not personal data.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505863
+09a1d4e4-9b46-4ee1-8c75-fdae076435c8,2,"Town Amenities for Moradabad District of Uttar Pradesh, 2011","Town Amenities, Census 2011",Nearest Ciity Name with Population of 1 Lakh and more,PERSON,4,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,SINGH NAGAR | SAMB,,"ption mentions it's for planning urban services, which would involve geographical data, not personal information. 
+
+Looking at the other columns, there are entries like ""Total Population of Town,"" ""Scheduled Castes Population,"" etc., which are aggregate statistics. The flagged column is part of this demographic and geographical data. Since the values are city names, not personal identifiers, the detector is incorrect here. 
+
+The user's guidelines say that if the values are not people, it's a false positive. Since the column is about cities, not individuals, the correct class should be false_positive. There's no indication that these are personal names or contact details. The detector is misclassifying due to the structure of the data, not the actual content.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505875
+0edfaa44-558f-437e-b9e6-f8c13edadb50,2,Total Traffic and operating Statistics by Helicopters other than Pawan Hans under Non-scheduled Services during 2016-17,Air Traffic Statistics 2016-17,OPERATOR,PERSON,5,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,gere | Indra Air | Kiaan | Prem Air | Raymond Limited,,"The detector might be confusing these operator names with personal names because they are capitalized and multi-word. But in the context of the dataset, ""OPERATOR"" is a column that should list the companies or organizations responsible for the helicopters. Since these are business entities, not individuals, they shouldn't be classified as people. 
+
+The description mentions the dataset supports analysis by the Ministry of Civil Aviation, so the operators are likely registered entities. The presence of ""Limited"" in ""Raymond Limited"" indicates a company. Therefore, the flagged values are not personal data but organizational names. 
+
+So the correct classification should be false_positive because the detector incorrectly identified organizational names as people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.50589
+0fa810a8-e3c5-4417-9e82-a34a9c49a4b0,2,State-wise Data of First Census of Water Bodies - Chhattisgarh,First Census of Water Bodies Data,water_body_name,PERSON,30,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,AHANADI | BANGALI DABARI | DABARI | GANGA | PARSAHI | ILAWA | AMIN |  AABAD | GRAMIN AABADI KE | RANI SAGAR TALAB | PATEL | MARGHAR TALAB | SUNDAR SAGARI | PATEL TALAB | MUKHY MARG SE,,"have names that look like personal names. The key here is that the column's purpose is to list water bodies, not people. The dataset's description mentions it's for planning water resources, so these names are geographical features. 
+
+The flagged values are all water bodies, not personal names. There's no indication of honorifics or public officials. The presence of names like 'GANGA' and 'RANI SAGAR TALAB' clearly refers to rivers and reservoirs. Therefore, the detector is incorrect here. 
+
+The correct classification should be false_positive because the values are not personal data but names of water bodies. The dataset is about water resources, so these names are part of the data, not personal information. Hence, the flagging as PERSON is a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505908
+11789cf9-5bd9-46dd-a281-47bce9f4035e,2,State-wise Data of First Census of Water Bodies - Odisha,First Census of Water Bodies Data,nature_of_storage,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,PANI KUNDA,,"ataset includes columns like ""water_body_name"", ""basin_name"", ""sub_basin_name"", etc., which are all related to geographical features. 
+
+The column ""nature_of_storage"" likely refers to the type of storage, like reservoir, lake, pond, etc. But ""PANI KUNDA"" might be a specific water body's name. However, the detector is misclassifying it as a person because it's a multi-word capitalized string. 
+
+Looking at the Indian context provided: personal names can be similar to place names, but the key is the context. Since the dataset is about water bodies, ""nature_of_storage"" is probably a categorical field, not a person. The sample value ""PANI KUNDA"" is more likely a water body name, not a person. Therefore, the flagged values are not people, so it's a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505926
+11789cf9-5bd9-46dd-a281-47bce9f4035e,2,State-wise Data of First Census of Water Bodies - Odisha,First Census of Water Bodies Data,water_body_name,PERSON,97,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,CHAINU BHATRA | Mahul Beda | Gharapacha | BARO PUKHAR | SINDHURAM PUJARI | DAMBARU BHATRA | BANAMALI | HARISH SAHU | MANGO JANI | ADURAM JANI | JADURAM JANI | RAMESH | RUPADHAR MAJHI | RUPDHAR MAJHI | ASAKH MUKUND,,"oviding state-wise info for planning and monitoring. The headers include 'water_body_loc_name' and 'water_body_ownership_name', which might be related. The sample values have names that sound like people, but in the context of water bodies, these could be names of specific water bodies. For example, ""Gharapacha"" might be a local name for a pond or lake. Also, some entries have suffixes like ""PUJARI"" which could be a title or part of the water body's name. Since the dataset is about water bodies, these names are likely names of water bodies, not people. The detector is confused because the names are capitalized and multi-word, similar to personal names. But the context here is clearly water bodies. So the flagged values are not people, hence a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505946
+11915360-8c65-49c3-bafe-8b50f7fc77fe,2,"Non Workers by Main Activity, Age and Sex for Ratlam District of Madhya Pradesh, 1991","Non Workers by Main Activity, Age and Sex, Census 1991 - India and States",Age group,PERSON,3,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,A.N.S.,,""" might be an abbreviation for ""Age Not Stated"" or similar. 
+
+The detector is probably misidentifying the age groups as personal names because they're capitalized and multi-word. But the column's name is ""Age group,"" so the values should be age categories, not individual names. The presence of honorifics or personal names isn't indicated here. 
+
+Since the data is census statistics, the age groups are aggregated data, not individual personal data. The dataset is public because it's census data, but the ""Age group"" is a demographic category, not personal information. Therefore, the flagged values are not personal data but categories used for analysis. 
+
+So the correct class should be false_positive because the detector incorrectly labeled age groups as people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505958
+11bc5c14-6304-4068-a90d-cfd83d935d9f,2,State & UT-wise Value of Goods Produced by Inmates during 1997,Prison Statistics - 1997,Vocational Trainning,PERSON,12,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Carpentry | Misc | bblery | Cloth Khesh | Black Smith | th Wovener | Cloth Wovener | Carden Produce,,"mes. 
+
+The detector is flagging these as PERSON because they are multi-word and capitalized, which is common in Indian names. But according to the guidelines, I should look at the context. The dataset is about prison production activities, so these entries are categories of work or skills, not personal names. 
+
+The description mentions that the data is about goods produced by inmates, so the vocational training types are part of the production activities. There's no indication that these are personal names or identifiers. The presence of honorifics or public offices isn't here. 
+
+Since these are categories of vocational skills, not personal data, the correct class should be false_positive. The detector is incorrectly identifying occupational terms as people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.50597
+121f6e89-ed41-4bb1-8feb-b861dbeef684,2,All India level Mode of Transport-wise Number of Persons Died in Road Accidents during 2015,Accidental Deaths & Suicides in India - 2015,Mode of Transport,PERSON,2,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Two Wheeler | Wheeler,,"ample values given are ""Two Wheeler"" and ""Wheeler"", which are types of vehicles, not people. 
+
+The detector is probably picking up on the fact that these are multi-word terms, but in this context, they're clearly referring to transportation modes, not individuals. Since the data is about accidents and the modes of transport involved, these entries are categorical data, not personal information. 
+
+Looking at the Indian context provided, personal data would include things like names, contact details, etc. The ""Mode of Transport"" here isn't any of those. It's a classification variable. The detector's mistake is in misclassifying categorical data as personal information. Therefore, the flagged values are not people, so the correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505982
+12c8e1fd-4a13-4c4d-b1ab-3e4992827f36,2,"Town Amenities for Meerut District of Uttar Pradesh, 2011","Town Amenities, Census 2011",Nearest Ciity Name with Population of 1 Lakh and more,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,GADH MUKTESWAR,,"s, this column is about geographical locations, not individuals.
+
+The dataset's description mentions it's about town-wise amenities, population statistics, and infrastructure. The column in question is part of the town's details, specifically the nearest city with a population over 1 lakh. So, the values here are city names, not personal names. The presence of honorifics or other indicators of people isn't present here. 
+
+Also, the dataset is from the Census, which is a public record, but the data here is about locations, not individuals. Even if the city names are capitalized, the context makes it clear they are places, not people. Therefore, the detector's flagging of these as PERSON is a false positive. The correct classification should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.505996
+16d4de74-7f41-440e-b3cb-a78c9cb46d47,2,Major Gas Pipelines in India from 31.03.2015 to 2016-17,Indian Petroleum and Natural Gas Statistics  - 2016-17,Type of Pipeline / Owner/Name of Pipeline,PERSON,12,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,GAIL Total | Dadri Bawana Nangal | Dadri Bawana | Dhabol Bangalore | isalmer |  G Basin |  Dadri Panipat |  Duliajan | DNPL | Duliajan |  Hazira,,"es a company or a specific project name. Also, ""DNPL"" could stand for a specific pipeline or company. 
+
+The Indian context mentions that place names and institutions can be capitalized and multi-word, but the key is to look at the dataset's purpose. Since this is about gas pipelines, the ""Name of Pipeline"" would be infrastructure names, not people. The detector is flagging them as people because they are capitalized and multi-word, but the actual data here is about pipelines, not individuals. 
+
+So, the flagged values are not personal data. They are names of pipelines or companies, which are part of the infrastructure data. Therefore, the correct classification should be false_positive because the detector is incorrectly identifying non-person data as people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.50601
+17cef13f-1f1b-44ba-aa52-584c73615f18,2,Institute-wise Participated Officers in Forestry Training during 2020-21,Forestry Training and Capacity Building Scheme,THEMES/TOPICS,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Embedding Positivity,," The dataset is about forestry training, specifically tracking officers who participated in courses. The flagged column is ""THEMES/TOPICS"" with a sample value ""Embedding Positivity"". The detector is flagging this as PERSON, which is incorrect.
+
+First, the column name is ""THEMES/TOPICS"", which suggests it's about the subjects covered in the training. The sample value ""Embedding Positivity"" sounds like a training topic, not a person. The other columns mention institutes, course duration, number of officers nominated or participated, and percentages. The detector might be picking up on the capitalization of words, but in this case, the column is clearly about topics, not people. So the flagged values here are not personal data. Therefore, it's a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506021
+1a510daa-1481-4e2a-939c-0f47b8bd0192,2,Number of visitors to centrally protected ticketed monuments during FY 2016-17 and FY 2017-18,Tourism Statistics of India,Name of the Monument,PERSON,62,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Akbar |  Tomb Sikandara | Itimad-ud-Daulah | Mehtab Bagh | RamBagh | Mariam | Ellora Caves | Bibi-Ka-Maqbara | anta Caves | Pandaulena Caves | Daria Daulat Bagh | Daria Daulat | Bagh Srirangapatnam | Roopmati Pavilion | Hoshang Shah,," misidentifying these monument names as people because they are capitalized and multi-word, similar to personal names. For example, ""Akbar"" is a historical figure but here it's the name of a monument (Akbar's Tomb). Similarly, ""Itimad-ud-Daulah"" is a monument in Agra. The presence of honorifics or titles isn't here, so the detector's reliance on such markers is missing. 
+
+Since the column is about monument names, not people, the flagged values are not personal data. The dataset is about tourism statistics, so the monument names are part of the data to categorize visitor numbers. Therefore, the correct classification should be false_positive because the detector incorrectly labeled monument names as people. There's no personal data here, just names of places.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506035
+1b1232c9-a4db-4706-9baa-3d59cc8638d3,2,Value of Property Stolen & Recovered and Percentage Recovery during 2018,Crime in India - 2018,Nature of Property (Col.2),PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Three Wheelers,,"is probably picking up on the multi-word structure and capitalization, thinking it's a person's name. But in context, these are categories of stolen property, not people. 
+
+Looking at the dataset's description, it's about statistics on property theft, so the column is likely listing different types of property. The presence of honorifics or public officials isn't indicated here. The values are categories, not names. Therefore, the flagged values are not personal data. The correct classification should be false_positive because the detector is misidentifying non-person data as people. There's no indication of private individuals or public officials in this column. The data is aggregated statistics, not personal details. So the answer should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506045
+1f0c45f0-5ab2-4173-9eb6-caa2834fd835,2,State-wise Data of First Census of Water Bodies - Jharkhand,First Census of Water Bodies Data,water_body_name,PERSON,60,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Durgawati don | PAWAN SINGH BANDH | PTHAR THANR TALAB | Pritam baghwar | SARKARI | SURYADEV YADAV | SINGH SAP | Rajeswar singh | MADHUSDAN MAYAK | SATYANARAYAN SINGH | HARCHACHI TAL | DAH KE | Doin Dobha | YADAV KE KHET | Ramesh Karmali Farm,,"t's purpose: it's about water bodies, so the names should be names of water bodies, not people. The column header is 'water_body_name', which clearly indicates it's for water body names. The sample values include terms like ""TALAB"" which is a Hindi word for pond, and ""SARKARI"" meaning government. These are likely descriptors of water bodies, not personal names. Also, some entries have ""YADAV"" which is a caste, but in this context, it's part of a water body's ownership or type. The presence of honorifics like ""SINGH"" might confuse the detector, but in this case, since the column is for water bodies, those are just parts of the names. The dataset's description mentions water bodies, so the flagged values are not personal data. Therefore, it's a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.50606
+20f6c383-c15f-4211-ace8-f9422c5459ed,2,Mode of Transport-wise Number of Persons Died in Road Accidents in All India during 2023,Accidental Deaths & Suicides in India (ADSI) - 2023,Mode of Transport,PERSON,2,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Two Wheeler | Wheeler,,"e terms are clearly referring to transportation modes. There's no indication that these are personal names or titles. The dataset is about statistics, not individual people. Therefore, the flagged column is a false positive. The correct classification should be false_positive because the values are not personal data but categories used for statistical analysis.
+</think>
+
+The flagged column ""Mode of Transport"" contains categories like ""Two Wheeler"" and ""Wheeler,"" which are classifications of vehicles, not personal names. These terms are part of statistical categorization for road accident data, not identifiers of individuals. The detector incorrectly labels them as ""PERSON"" due to capitalization and multi-word structure, but context shows they are non-personal data.  
+
+CLASS: false_positive",2026-09-10 08:37:51.506071
+22e2b6f8-52aa-437a-b6be-9472bb4c14ab,2,Field-wise Production of Crude Oil and Natural Gas during 2015-16 to 2016-17,Indian Petroleum and Natural Gas Statistics  - 2016-17,ASSET,PERSON,17,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Neelam | Ankl | Cambay | Greater Naharkatia Field | Greater Jorajan Field | Moran Field | Greater Shalmari | Greater Hapjan Field | Greater Kathaloni Field | Greater Dikom Field | Digboi | Bagitibba | Tanot | DHOLASAN | N.BALOL,,"refers to oil and gas fields. The sample values include names like ""Greater Naharkatia Field"" and ""Digboi,"" which are known oil fields in India. 
+
+The detector is probably picking up on capitalized multi-word strings, which are common in Indian names but here they are place names or field names. Since the dataset is about production statistics, these ""ASSET"" entries are geographical or industrial locations, not people. The presence of ""Field"" in some names makes it clearer they are locations. 
+
+The user mentioned that the detector often flags such names as people because they are capitalized. But in this context, the column is about assets or fields, not individuals. So the flagged values are not people. Therefore, the correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506085
+23d2fc02-0c8e-4763-b014-40ebe97c37ad,2,Value of Property Stolen & Recovered and Percentage Recovery (By Nature of Property) During 2015,Crime in India - 2015,Nature of Property (Col. 2),PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Three Wheeler,,"le, not a person. The detector might be confused because ""Three Wheeler"" is a multi-word term, but in this context, it's a category of property, not a personal name. 
+
+The dataset's description mentions it's about property stolen and recovered, classified by nature of property. So the column is likely listing different categories like vehicles, electronics, etc. Since these are categories of items, not individuals, the detection as PERSON is a false positive. 
+
+Also, considering the Indian context, personal names usually include honorifics or specific titles, which aren't present here. The values here are straightforward property types. There's no indication that these are actual people's names. Therefore, the correct classification should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506095
+25ae772d-83db-4a6b-b4db-83a51a9f178b,2,"Fellowships of Universities, 2015-16",All India Survey on Higher Education - 2015-16,instituionname,PERSON,48,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Indira Kala |  Lal Bhadur | Shri Lal | Sher-e- | Hemwati Nandan Bahuguna Garhwal | Deen Dayal Upadhyay | Mahatma Gandhi | Narendra Deo | Kameshwar Singh | Kameshwar Singh Darbhanga | Hemchandra | Maharaja Sayajirao | Ch. Devi La | Mullana-Ambala |  Kalu Jhanda,," is a common issue with the automated system. 
+
+Now, considering the Indian context: personal names can overlap with institution names. However, the dataset's description indicates that the data is about fellowships, which are awarded by institutions. The column is likely the name of the institution, not individuals. Therefore, the flagged values are not personal data but institutional names. 
+
+The detector is incorrectly categorizing these as people. So the correct class here would be false_positive because the values are not personal data but names of institutions. The presence of names that sound like people doesn't change that. The dataset's context and the column's name (institutionname) clearly indicate that these are institutional names, not personal.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506109
+2656022b-2dca-492d-923a-4221376c4740,2,Mode of Transport-wise Persons Died in Road Accidents during 2019,Accidental Deaths & Suicides in India (ADSI) - 2019,Mode of Transport,PERSON,2,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Two Wheeler | Wheeler,," are categories like motorcycles or bicycles. These are not personal names but classifications. 
+
+Looking at the context, the dataset is about accident statistics, so the mode of transport is a categorical variable. The detector might be confused because ""Wheeler"" could be part of a name, but in this context, it's part of a transport category. There's no indication that these are personal names. The description mentions the data is compiled by the NCRB, so it's about statistics, not individual people. 
+
+The user's guidelines say to not rely on the shape of the value but on the context. Since the column is about transport modes and the dataset is about accident statistics, these values are not personal data. Therefore, the flagged values are a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506119
+2931e8fd-603b-4fd7-ba0c-fbfc4c265ab9,2,Value of Export of Marine Products from 2001-02 to 2013-14,Exports - Fisheries Statistics 2014,Article distribution,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Frozen Fish,,"ike 200102, which are likely representing the fiscal years. The ""Article Code"" and ""Article distribution"" probably refer to different categories or types of marine products being exported. 
+
+The sample value ""Frozen Fish"" is a product category, not a person. The detector might be picking up on the multi-word structure and capitalization, thinking it's a name. But in the context of the dataset, these are product types. There's no mention of personal names, officials, or contact details in the headers or description. 
+
+The flagged column ""Article distribution"" likely contains categories of marine products, not personal data. So the correct classification should be false_positive because the values aren't personal data at all. They're product types, not people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.50613
+2acda64a-42df-405f-8432-ae05829d3eac,2,State-wise Data of First Census of Water Bodies - West Bengal,First Census of Water Bodies Data,water_body_name,PERSON,49,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual, Sankar | Shakti Sangha |  Jola Math |  Daspara | shu Uddyan |  Shyam Sundar Pally | Shyam Sundar Pally |  Nurocare | Shyam Sundar Pally Math | Gulepara Yuba Shakti Club |  Beni Master Lane | Lane |  Beni |  Master Lane | malani,," water management. ""Jola Math"" could be a local structure or a water-related facility. 
+
+The key here is that the dataset's purpose is to catalog water bodies, so the names in 'water_body_name' are likely names of water bodies, not people. The presence of honorifics or titles isn't evident in the sample values. Also, the dataset's description mentions it's for planning and monitoring water resources, which aligns with infrastructure or natural features rather than personal data. 
+
+The detector's mistake here is common because Indian names can be similar across different categories. Since the column is clearly about water bodies, the flagged values are not personal data. Therefore, this is a false positive. The correct classification should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506144
+2f1f1020-f862-41fd-acbe-f1f9b5eb81d5,2,"Water quality of river Chambal, Khan, Kshipra, Parvati, Betwa, Sind, Tons, Sone, Sankh, Mandakini, Dohus, Churni and Gohad - 2008",Status of Water Quality in India - 2008 and 2011,Water Quality,PERSON,4,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual, KHAN | GOVIND SAGAR,,"related to the river. Since the dataset is about water quality monitoring, these values are likely names of rivers or specific locations (like reservoirs) where samples were taken. 
+
+The detector is flagging these as people because they are capitalized and multi-word, but in this context, they are place names. The dataset's purpose is environmental monitoring, so the ""Water Quality"" column would contain measurements, not personal names. The presence of ""GOVIND SAGAR"" might refer to a specific water body or a location name, not a person. 
+
+Since the column is about water quality parameters and the values are related to locations or specific water bodies, the flagged entries are not personal data. Therefore, the correct classification should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506156
+2fd89b82-f506-4e6f-b885-f12dc79f8b71,2,Value of Property Stolen & Recovered and Percentage Recovery by Nature of Property during 2020,Crime in India - 2020,Nature of Property - (Col. 2),PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Three Wheelers,,"ations by nature of property, so this column is about categories like vehicles, electronics, etc. 
+
+The detector might have flagged it as PERSON because the column header is a multi-word phrase starting with a capital letter, which is common in Indian languages. However, the context here is clearly about property types, not personal names. There's no mention of personal names, honorifics, or public officials in this column. 
+
+Since the values are categories of stolen property and not personal data, the correct classification should be false_positive. The detector's mistake here is due to the capitalization and structure of the column header, not the actual content. The dataset's purpose and the column's description make it evident that it's not about people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506169
+339967d7-bae5-4eba-9dfb-3a7bf89c5637,2,Outlay and Expenditure of Central and Centrally Sponsored Schemes Under Animal Husbandry and Dairying Sector from 1950-55 to 2014-15 - All India,Basic Animal Husbandry Survey - 2015,Parametars,PERSON,5,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Second Plan | Third Plan | Four |  Plan | Sixth Plan,,"h personal names. Since the data is about government schemes and their financial details, the ""Parametars"" column is likely referring to different planning periods or phases. These are administrative categories, not individuals. 
+
+Looking at the Indian context, personal names usually have honorifics or specific formats, but these values don't match that. They are just labels for different plans. The dataset is public, but the data here isn't personal information. It's aggregate data about schemes. 
+
+So the flagged values are not people. The correct class should be false_positive because the detector incorrectly identified plan names as personal names. There's no private individual data here, and the plans are public information as part of government schemes.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.50618
+3a6bfb77-151c-47dc-b32e-76262e33499a,2,State-wise Data of First Census of Water Bodies - Madhya Pradesh,First Census of Water Bodies Data,nature_of_storage,PERSON,4,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,khate ki | Niji Bhoomi,,"ating if it's a natural or man-made storage, or its ownership.
+
+The detector flagged these as ""PERSON,"" but given the context, they're more likely descriptors of water bodies rather than personal names. The dataset's purpose is about water resource management, so columns like ""nature_of_storage"" would categorize water bodies, not people. 
+
+Looking at the Indian context, personal names usually have honorifics or specific titles, which these values don't have. Also, the dataset's description mentions it's from the Ministry of Jal Shakti, focusing on water bodies, so the column is about water body attributes, not individuals. 
+
+Therefore, the flagged values are not personal data but categories related to water bodies. The correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.50619
+3a6bfb77-151c-47dc-b32e-76262e33499a,2,State-wise Data of First Census of Water Bodies - Madhya Pradesh,First Census of Water Bodies Data,water_body_name,PERSON,42,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,KE KHET KE | TILLU | KA KHET | PATEL FALIYA AWALI | LAKHERI BASARTI | KHERI KHANPURSAMMILIT | AAKLON | रतुआ | AJLESHWAR | HAKONI | TALAB NIRMAN | TALAB NIRMAN SANDOH | AMROD SADDU | AJLESHWAR SICHAI | SUMER RUSHLLABUJURG,,"e name, but in this context, it's part of a water body's name. Also, entries like ""LAKHERI BASARTI"" might be a specific water body's name, not a person's name. 
+
+The dataset's description mentions it's about water resource management, so the names here are geographical or infrastructural. The presence of terms like ""basin_name"" and ""sub_basin_name"" in the headers further indicates that the data is about water bodies, not people. 
+
+Since the column is explicitly named ""water_body_name"" and the context is water bodies, the flagged values are likely names of water bodies, not people. The detector's confusion is due to the multi-word nature and possible capitalization, but the context clearly indicates it's not personal data. Therefore, this is a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506207
+3ed84818-0567-4798-b9a3-2774fc0ca770,2,"Non Workers by Main Activity, Age and Sex for Mokokchung District of Nagaland, 1991","Non Workers by Main Activity, Age and Sex, Census 1991 - India and States",Age group,PERSON,3,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,A.N.S.,,"re likely age ranges, not individual names. The detector might be misidentifying the column because the header has ""Age group"" but the values are in a format that could be confused with names, especially if they're coded abbreviations. 
+
+Considering the Indian context, personal names are often multi-word and might have similar formats, but ""Age group"" is clearly a demographic category. The values here are not personal names but age categories. Therefore, the flagged column is not about people but about age groups. 
+
+The correct classification should be false_positive because the values are not personal data. The dataset is about census statistics, which are aggregate data, not individual records. So the detector is incorrectly flagging ""Age group"" as PERSON.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506219
+3f7f0449-07f8-46e1-8cf5-377b040dfb29,2,Total Traffic and operating Statistics by Non-scheduled operators (Aircrafts) during 2016-17,Air Traffic Statistics 2016-17,OPERATOR,PERSON,5,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual, Aviation | Futura Travels | Kakini | Kunal Air | Raymond Limited,," sounds like an airline, and ""Futura Travels"" could be a travel company. These are business entities, not personal names. The detector might have flagged them as people because they are multi-word and capitalized, but in this context, they're company names. 
+
+The description mentions the dataset supports analysis of aviation activity by the Ministry of Civil Aviation. The operators here are organizations, not individuals. So the flagged column is about organizations, not people. Therefore, the detection is a false positive. 
+
+Also, the dataset's title and description don't mention any personal data. The ""OPERATOR"" column is likely a categorical variable indicating the airline or operator, not personal names. Hence, the correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.50623
+435792c4-f24f-41b3-bdaa-d310198f4825,2,Budget at a Glance from 2019-20 to 2021-22,Union Budget: 2021-22,Parameters,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Primary Deficit,,"dget parameters or categories. The dataset is about budget figures, so the parameters would be things like Deficit, Expenditure, Revenue, etc. These are not personal names or identifiers. 
+
+The context here is that the dataset is from the Ministry of Finance, so the data is official and related to financial planning. The flagged values are terms related to budgeting, not personal data. The detector might be confusing capitalized multi-word terms (like ""Primary Deficit"") with names, but in this case, they're clearly budgetary terms. 
+
+Since the column is about budget parameters and the values are financial terms, not personal names or contact details, the correct classification should be false_positive. The detector is incorrectly identifying these as people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506259
+448562a7-74e0-4240-b926-51c55d90783e,2,All India Purpose-wise and Sex-wise detail of Kidnapping & Abduction during 2003,Crime in India - 2003,Purpose,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Unlawaful Activity,," about crime statistics. The headers include age groups and sexes, which are demographic categories. The ""Purpose"" column likely categorizes the reasons behind the kidnappings, like ""Unlawful Activity"" or other motives. 
+
+The values in the ""Purpose"" column are not personal names or identifiers. They are categories describing the nature of the crime. Even though some might be capitalized, they're not personal data. The detector is confusing these categorical labels with personal names, which is a common issue with automated systems. 
+
+Since the data is about crime statistics and the ""Purpose"" column is a categorical variable, the flagged values are not personal information. Therefore, it's a false positive. The correct classification should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506271
+490b3472-4ca4-4ec9-8b98-c0d2309c9b5a,2,Incidents of Violence by Anti National Elements during 2020,Crime in India - 2020,Attackers - (Col. 2),PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Jihadi Terrorists,," question is ""Attackers,"" which likely lists the groups or categories of attackers. The sample value given is ""Jihadi Terrorists,"" which is a group name, not an individual. The detector might be confusing group names with personal names, especially since they're capitalized and multi-word.
+
+Considering the Indian context, personal names often have honorifics like Shri, Dr., etc., but ""Jihadi Terrorists"" doesn't fit that. Also, the dataset's description mentions that the data is from the Ministry of Home Affairs and NCRB, so the attackers are being categorized as groups, not individuals. The column is about the type of attackers, not specific people. Therefore, the flagged values are not personal data but categories of attackers. Hence, it's a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506281
+4a418e09-44ab-48fb-b9f8-d3d2df099a7d,2,Budget At A Glance 2020-21 to 2022-23,Union Budget 2022-23,Parameters,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Primary Deficit,," data. The dataset's description mentions it's about budget figures and prepared by the Ministry of Finance. So the ""Parameters"" column is listing different budgetary parameters, not personal names.
+
+Looking at the Indian context rules: personal names usually have honorifics like Shri, Dr., etc., which aren't present here. The values are terms related to fiscal policy, not individuals. Also, the dataset is public and about government finances, but the data here isn't personal data about individuals. It's aggregate statistics, which aren't considered personal data. 
+
+Since the flagged values are not personal names but rather budgetary terms, the correct classification should be false_positive. The detector is incorrectly identifying non-person data as people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506292
+4d83cb52-8582-408d-816e-e0b567e6547c,2,"Town Amenities for Champawat District of Uttarakhand, 2011","Town Amenities, Census 2011",Nearest Ciity Name with Population of 1 Lakh and more,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Pili Bhit,,"s purpose (census data on town amenities) indicates that these are geographical locations. 
+
+The dataset's description mentions it's about town-level amenities, including population statistics. The column in question is about the nearest city with a population over 1 lakh, which is a geographical reference. The detector might be confusing city names with personal names because they are multi-word and capitalized, but the context here is clearly not about people. 
+
+Also, the dataset is from the Census, which typically includes demographic and geographical data, not personal identifiers. The column's name and the dataset's purpose make it clear that these are city names, not personal data. Therefore, the flagged values are not people, so it's a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506303
+4dba9b82-f34b-428f-a2ad-01768bbf2ed0,2,"Basic Information of Standalone Institutes, 2015-16",All India Survey on Higher Education - 2015-16,website,"EMAIL_ADDRESS,PERSON",3,false_positive,present,llm,T3-judge,Tier 3 local LLM judge,R12-residual,www.ptcnavdeep@yahoo.com | mass@masscollege.in | http://www.pillaispolytechnic.ac.in,,"ON, probably because they are capitalized and multi-word, but in this context, they are contact details, not personal names.
+
+The dataset's purpose is to collect info on educational institutions. The 'website' column would likely contain URLs or email addresses for contacting the institute. Since these are institutional contact details, not personal data, they shouldn't be flagged as PERSON. The presence of email domains like @yahoo.com or @in suggests they are institutional emails, not private individuals. Also, the dataset is about institutes, so the contact details are part of the institution's information, not personal data of individuals. Therefore, the flagged values are not personal data but institutional contact details. Hence, it's a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506314
+4ee34f1c-7be4-4e06-a5f9-702416a43b09,2,Coverage under Swavalamban Scheme during FY 2012-13 and FY 2013-14,Coverage under Swavalamban Scheme,Aggregator(s) appointed by PFRDA,PERSON,5,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Bandhan Konnagar | Canara Bank | Shree Kshetra Dharmsthala Rural Development Project |  Mahila Sewa Sahakari | Shri Mahila Sewa Sahakari BankLtd,,"ooking at the dataset's description, it's about monitoring the scheme's reach through aggregators and points of presence. The aggregators are entities that help in data collection, so they are organizations, not individuals. The flagged values are all institutional names, not personal names. Therefore, the detector is incorrectly flagging them as PERSON. 
+
+The user's guidelines state that if the values are not people, it's a false positive. Since these are organizations, the correct class should be false_positive. Also, the dataset's purpose is to track scheme coverage, not personal data. There's no mention of personal details like names, addresses, or contact info of individuals. The flagged column is about organizational entities, so it's a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506327
+5255d770-6cc9-44bc-befe-e65eff5b51e2,2,Approved Hotels/Restaurants/Air Catering Units/Time Share Resorts/Apartments/Convention Centre/Bed  and  Breakfast as on 12.03.2013,Approved Hotel Projects,ADDRESS,PERSON,79,false_positive,present,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Ambedkar ChowkChaura Maidan | Kumbalanghi Bridge | Kumbalanghi P.O. | Vasco-da-Gama Square | Koduvayur P.O.Palakkad | Ahilya Fort |  Gajn | Karni Singhji Road | Goverdhan Vilas | Dholpur - 328 001 | Ward No.2 | Village Alsisar | Goenka Chowk | Ltd.)Village Khejarla | Via Bilara,,"de places like ""Vasco-da-Gama Square"" and ""Dholpur - 328 001,"" which are clearly locations, not personal names. 
+
+The Indian context points mention that personal names can be confused with place names, but the key is to look at the column's context. Since the column is labeled ""ADDRESS,"" these entries are locations. The detector's mistake here is a false positive. The values are not personal data but addresses of businesses. 
+
+Also, the dataset is public, but the addresses are part of the business information, not personal details. There's no indication that these addresses are linked to private individuals' personal data. Therefore, the correct classification should be false_positive because the flagged values are not people but addresses of establishments.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.50634
+5255d770-6cc9-44bc-befe-e65eff5b51e2,2,Approved Hotels/Restaurants/Air Catering Units/Time Share Resorts/Apartments/Convention Centre/Bed  and  Breakfast as on 12.03.2013,Approved Hotel Projects,HOTEL NAME,PERSON,43,false_positive,present,llm,T3-judge,Tier 3 local LLM judge,R12-residual, Cecil | Shiv Niwas Palace | Raheem Residency | Raheem | Noor Us | Heritaga Methanam | Satpura Retreat | Mahal | Khimsar Fort | olwal Kothi | Raj Niwas | Rohet Garh | Singhasan Haveli | Fort Khejarla | Visalam,,"shments. The user mentioned that the detector flags multi-word capitalized strings as people, which is a common issue in Indian data.
+
+Looking at the sample values: ""Shiv Niwas Palace"" is a hotel name, not a person. The presence of honorifics or titles that denote people isn't here. The column is about hotel names, which are business entities, not individuals. The detector's mistake here is due to the capitalization and multi-word structure, which it incorrectly associates with personal names.
+
+The dataset's description and title clearly indicate that the data is about hotels, not people. Therefore, the flagged column is a false positive. The correct classification should be false_positive because the values are not personal data but names of establishments.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506354
+5255d770-6cc9-44bc-befe-e65eff5b51e2,2,Approved Hotels/Restaurants/Air Catering Units/Time Share Resorts/Apartments/Convention Centre/Bed  and  Breakfast as on 12.03.2013,Approved Hotel Projects,WEBSITE,"EMAIL_ADDRESS,PERSON",4,false_positive,present,llm,T3-judge,Tier 3 local LLM judge,R12-residual,www.somatheeram.in | sheratonrajputana@itcwelcomgroup.in | www.galaxyhotel.in | www.inderresidency.in,,"mail address, but the others are URLs. However, the detector is misclassifying URLs as email addresses. 
+
+Now, the dataset's purpose is to list approved hotels, so the website would be part of their contact information. But the question is whether these are personal data. The key points from the Indian context: personal data includes private individuals' info like email, but here, the website is a business contact. The detector is flagging them as PERSON, which is incorrect. The actual data here is business contact details, not personal information about individuals. Therefore, the flagged values are not personal data but business information. So the correct class should be false_positive because the detector is wrong in identifying them as people or emails.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506366
+56d8f4e1-098d-46ed-b1e8-4e9b054d08c6,2,Nature of Property-wise Value of Property Stolen & Recovered (in Crores) and Percentage Recovery during 2021,Crime in India - 2021,Nature of Property Col. (2),PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Three Wheelers,," be a category like motorcycles or scooters. These are items, not people. 
+
+The detector might have flagged it as a person because it's a multi-word phrase, but in this context, it's a category of property. The column headers mention ""Nature of Property"", which clearly indicates it's about types of assets. The other columns like ""Number of Cases"" and ""Value of Property"" further support that this is statistical data, not personal information.
+
+Since the column is about property types and the values are categories like ""Three Wheelers"", there's no personal data here. The flagged values are not names or identifiers of individuals. Therefore, the correct classification should be false_positive because the detector mistakenly identified non-person data as people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506377
+57e32314-9903-4ed7-a873-a55abe6195aa,2,Valid accreditation of the institution - 2011-2012,Educational Accreditation (AISHE Survey),Accreditation Body,PERSON,19,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,DR.C.D.LETHI |  Rajan | Rajan | Dr. Ramchandran | Ramchandran |  Rukmini | Rukmini | m Sharda | Prem Sharda |  Mina | Mina | Dr. ABC | Dr. K. |  Nirupa Rani | Nirupa Rani,,"ut if that's the name of the accreditation body, it's still an organization. However, the detector is misclassifying these as people. 
+
+But the key point here is that the column is ""Accreditation Body,"" which is an organization. Therefore, the values in this column are not personal data. The detector is incorrectly flagging them as people. Therefore, the correct classification would be false_positive because the flagged values are not personal data but rather names of organizations or bodies. 
+
+Alternatively, if the ""Accreditation Body"" column actually contains the names of individuals who are part of the accreditation process, then it might be different. But given the context of accreditation bodies being organizations, the correct answer is false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.50639
+5a33b6a4-a444-4815-8cdb-a111ade36e3a,2,Total Traffic and Operating Statistics by Helicopters other than Pawan Hans Under Non Scheduled Services during 2015-16,Air Traffic Statistics 2015-16,OPERATOR,PERSON,7,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,gere | Indra Air | Prem Air | Raymond Limited | Kiaan | Malhotra Helikopters | Pawan Hans Limited,," like a business name. Even ""Kiaan"" might be a company or a brand. 
+
+The detector is probably picking up on the multi-word strings and capitalization, thinking they're names. But in this context, these are business operators, not individuals. The dataset's description mentions non-scheduled services, which are operated by various entities. The Ministry of Civil Aviation would track these operators as organizations, not people. 
+
+The user's guidelines say that if the values are not people, it's a false positive. Since these are company names or business entities, they aren't personal data. The detector is mistaken here. Also, the dataset's title and description don't mention any personal names or individuals. Therefore, the flagged column is a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506402
+5f63b074-7c1c-44ff-9ddd-1d3376d31828,2,"Non Workers by Main Activity, Age and Sex, 1991 - Bihar","Non Workers by Main Activity, Age and Sex, Census 1991 - India and States",Age group,PERSON,3,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,A.N.S.,,"ch is a data quality issue, not a personal name.
+
+The detector is probably picking up on the format, maybe the abbreviations or the way some entries are written, thinking they're names. But in this context, ""Age group"" is a demographic category, not personal data. The values here are statistical categories, not individual names. Even if some entries look like names (like ""A.N.S.""), they're codes or placeholders, not actual people. 
+
+Since the dataset is census data, the age groups are aggregated statistics. There's no personal data here. The flagged column is part of the demographic classification, so it's not personal information. Therefore, the correct class should be false_positive because the detector is incorrectly identifying non-person data as people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506412
+62254e99-d219-4c8a-93d9-65cfd8dcc736,2,Value of Property Stolen and Recovered Recovery by Nature of Property during 2023,Crime in India - 2023,Nature of Property,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Three Wheelers,,"ents. The column name ""Nature of Property"" suggests it's categorizing types of property, like vehicles, electronics, etc. The sample value ""Three Wheelers"" fits that context. 
+
+Now, considering the Indian context provided: personal names are often similar to place names, but the key is the context. Since the column is about property types, these entries aren't personal names. The detector might have picked up on the multi-word structure, but the context clearly indicates it's not people. 
+
+The dataset's purpose is crime analysis, so ""Nature of Property"" is a categorical variable. There's no mention of personal data here. The flagged values are not personal names or contact details. Therefore, it's a false positive. The correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506422
+62d606fd-84c2-44d6-8d36-5df2b52dc316,2,State-wise Data of First Census of Water Bodies - Bihar,First Census of Water Bodies Data,water_body_name,PERSON,168,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,JAGDISH RAY | GRAMIN RON PASHIM | RON PASHIM | gau SE | sarkari | khar |  BRAMBAR | TALAB BRAMBAR KE | GHAR KE | MUKTI POKHAR | KALAYANPUR KE | ILIYA GAON | PURAB | GAO SE | NAGRPARA POKHAR,,". The presence of terms like ""sarkari"" (government) and ""khar"" (which could be a type of water body) further indicates they're describing water body attributes, not individuals. 
+
+Also, the dataset's purpose is to provide baseline information on water resources, so the names here are geographical or specific to water bodies. There's no mention of personal names or public officials. The flagged values don't include honorifics or titles that denote public office. Therefore, the detector is incorrectly categorizing these as people. 
+
+The correct classification should be false_positive since the values are not personal data but rather names of water bodies. The dataset's description and headers support that these are water body details, not personal information.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506435
+645c2f3b-9acf-495f-948b-9a8c2539c40b,2,"Town Amenities for South West District of Nct Of Delhi, 2011","Town Amenities, Census 2011",Nearest Ciity Name with Population of 1 Lakh and more,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,HI CANTT,," is meant to list city names, not individuals.
+
+The dataset's description mentions it's for planning and assessing services like water sources. The column in question is part of the town-level data, so it's about geographical locations. The presence of honorifics or titles isn't relevant here. Also, the dataset is from the Census, which is a public record, but the data here is about locations, not people. 
+
+The key point is that the column's purpose is to identify cities with a certain population, not individuals. Even though ""HI CANTT"" might look like a name, the context of the dataset and the column's title make it clear it's a place name. Therefore, the detector's flagging as PERSON is a false positive. The correct classification should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506446
+6865f220-7557-4e74-830e-cb4d5ed01a26,2,Budget at a Glance during 2016-17 to 2018-19,Union Budget: 2018-19,Parameters,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Primary Deficit,,"m, not a person's name. The column header ""Parameters"" suggests it's listing different budget parameters or categories. The dataset's description mentions it's a summary of key financial figures and budget components. So ""Parameters"" likely refers to categories like Primary Deficit, Revenue Deficit, etc., which are economic indicators, not personal names.
+
+The context here is that the dataset is from the Ministry of Finance, so the data is about financial metrics, not individuals. The detector might be confusing capitalized terms with names, but in this case, the terms are related to budget parameters, not people. Therefore, the flagged values are not personal data. The correct classification should be false_positive because the values are not people at all.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506456
+699d16d9-1766-41a8-8def-da7a85207650,2,"Age, Sex and Educational level Population - Urban for Greater Bombay District of Maharashtra, 1991","Age, Sex and Educational level Population, Census 1991 - India and States",Age Group,PERSON,2,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,A.N.S.,,"gorical variable, not a personal name.
+
+The detector is flagging this as PERSON because it's a multi-word string, but in this context, it's a demographic category. The presence of ""A.N.S."" doesn't indicate a person's name but rather a classification. The dataset's description mentions it's about population details for urban areas, so the ""Age Group"" is part of the demographic breakdown, not personal identifiers.
+
+Considering the Indian context, personal names would be specific individuals, but here the data is aggregated. The dataset is from the Census, which is a public record, but the ""Age Group"" is a statistical category, not personal data. Therefore, the flagged values are not personal names but categories used for analysis. Hence, it's a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506467
+6b47baeb-c1c1-4881-94de-6a0162df6458,2,Attackers-wise Number of Incidents of Violence by Extremists/ Insurgents/ Terrorists during 2022,Crime in India - 2022,Attackers,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Jihadi Terrorists,," the capitalized, multi-word strings and misclassifying them as people. 
+
+The Indian context mentions that names can be similar to place names or institutions. However, in this case, ""Jihadi Terrorists"" is a category, not a personal name. There's no indication of individual names here. The dataset's description says it's about attackers-wise counts, so the values are types of attackers, not individuals. 
+
+Also, the flagged column is part of a broader dataset that's already published. The key here is whether the data is about individuals or categories. Since the values are group labels, not personal names, the detection is a false positive. The correct classification should be false_positive because the values aren't personal data but categories of attackers.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506481
+6bf33797-a1da-4ba5-9c31-e84149779a4f,2,"Seizure of Various Drugs reported by Narcotics Control Bureau, New Delhi from 2013 to 2017",Crime in India - 2017,Drugs Seized,PERSON,10,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Methaqualone | Nacetyl Anthranilic | Toluene | Diethyl Ether | Ether(Ltrs | Acetic Anhydride | Psychotropic Tablet,," ""Drugs Seized."" The sample values are all drug names, not personal names. 
+
+The automated detector is probably picking up on the fact that these are multi-word terms, but in this case, they're drug names, not people. The Indian context mentions that personal names can be similar to place names, but here the terms are clearly drugs. There's no indication that these are personal names or public officials. The dataset is about drug enforcement, so the ""Drugs Seized"" column is likely a category or list of substances, not people. 
+
+Since the values are drug names and the dataset's purpose is about drug seizures, the flagged column is a false positive. The detector is misclassifying these as people, but they are not. So the correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506493
+6bf33797-a1da-4ba5-9c31-e84149779a4f,2,"Seizure of Various Drugs reported by Narcotics Control Bureau, New Delhi from 2013 to 2017",Crime in India - 2017,Name of Facility,PERSON,61,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Morphine | Heroin | Ganja | shish | Methaqualone | Acetic Anhydride | Detained | C. Custom | F. State Excise - Morphine | F. State Excise - Heroin | F. State Excise - Ganja | F. State Excise - Hashish | F. State Excise - Cocaine | F. State Excise - Methaqualone | F. State Excise - Ephedrine,,"and the values include things like Morphine, Heroin, Ganja, etc. The detector is flagging these as people, which seems wrong.
+
+First, looking at the dataset title and description, it's clear the data is about drug seizures, not about people. The columns are Category, Drugs Seized, and years. The ""Name of Facility"" column probably lists the types of drugs or categories. The sample values are all drug names or related terms. 
+
+The detector is confusing drug names with personal names. Since these are all drug names, not personal names, the flagging is a false positive. There's no indication that these are people's names. The presence of honorifics or public officials isn't here. The column is about drug categories, so the correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506506
+6cd7b33d-52b4-4eb3-9051-6201d489fe9b,2,Existing Major LPG & Petroleum Products Pipelines in India from 2016 to 2018,Indian Petroleum and Natural Gas Statistics - 2017-18,Type of Owner/Name of Pipeline,PERSON,8,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,HPCL | GAIL | GAIL - Jamnagar-Loni LPG Pipeline | GAIL - Vizag-Secunderabad LPG Pipeline | Manmad Manglya Piyala | HPCL - Rewari-Kanpur Pipeline | Wadibundar,,"ng the companies or organizations that own these pipelines. 
+
+Looking at the Indian context rules: personal names are different from corporate entities. The flagged values here are company names, not personal names. There's no mention of honorifics like Shri or Dr, which are indicators of personal names. Also, these are not public officials or office holders. They are corporate entities. 
+
+The dataset's description mentions that the source is oil companies, so the owners are companies. Therefore, the flagged column is about corporate entities, not individuals. The detector is incorrectly categorizing them as people. So the correct class should be false_positive because the values are not personal data but rather names of companies, which are not individuals.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506518
+70410ce3-d3ac-4721-9ff9-4e33e6cfeeb7,2,Foreign visitors at 10 most popular centrally protected ticketed ASI monuments during FY 2017-18,Tourism Statistics of India,Name of Monument,PERSON,3,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Qutab Minar | Huma | Humayun 's Tomb,,"re multi-word and capitalized, which is common in Indian names, but in this case, they're place names.
+
+Looking at the Indian context provided, personal names are often similar to place names, but the key is to determine the actual category. The column header is ""Name of Monument,"" so the values should be locations. The detector is misclassifying them as people. 
+
+The user's guidelines say to never rely on the shape of the value but use the dataset's subject. Since the dataset is about monuments and tourism, these are place names. Therefore, the flagged values are not people. The correct class should be false_positive because the detector is wrong here. There's no indication that these are personal names or public officials. They are just names of monuments.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506529
+7189ca6d-56fb-412e-804e-4bc70062205e,2,Twelfth Five Year Plan Outlay &  Actual Expenditure for P & NG Sector from 2012-13 to 2017-18,Indian Petroleum and Natural Gas Statistics  - 2016-17,CPSEs,PERSON,4,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,GAIL | BALMER LAWRIE | LAWRIE | Rajiv Gandhi Instt,,"sts it's not a person. Also, the dataset is from the Ministry of Petroleum and Natural Gas, so the data is about sectoral entities, not individuals. 
+
+Looking at the Indian context, personal names are often similar to place names, but in this case, the values are more likely to be company names or institutional names. The presence of honorifics or public officials isn't evident here. The flagged values don't include titles like Shri or Dr, which are typical for personal names. 
+
+Since the dataset is about financial outlays and expenditures for sectoral entities, the ""CPSEs"" column is likely listing companies or institutions, not individuals. Therefore, the detector's flagging as PERSON is a false positive. The correct classification should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506541
+7794c5bc-21b3-43e0-8ab9-c51576c51ae6,2,Remarks recorded by the institutions - 2011-2012,Institutions (AISHE Survey),Remarks Recorded,PERSON,25,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Dhanaji Nana Chaudhari Vidya Prabodhini | Knowledge | ABHA YADAV | YADAV SMARAK KANYA |  Abdul Bari | Abdul Bari | Sydney Accord | Kabbady | Braeilly | B.T.C. |  S.Vinay Kumar | S.Vinay Kumar | KT Patil Collage | MHRD | Sahitya,,"emarks, it might be a name of a program or a specific reference. However, the presence of entries like ""Sydney Accord"" and ""B.T.C."" (which could stand for a type of institution or a specific program) further indicates that these are not personal names but rather institutional or program-related notes.
+
+The detector might be flagging these as people because they are capitalized and multi-word, which is common in Indian names. But based on the dataset's context, these entries are more likely remarks or notes related to institutions rather than personal data. Since the column is ""Remarks Recorded,"" the values are not personal names but rather comments or data points from the institutions. Therefore, the flagged values are not people, making it a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506556
+78b65af1-e5f4-4c44-9cae-e65aec44435c,2,"Town Amenities for Jalandhar District of Punjab, 2011","Town Amenities, Census 2011",Nearest Ciity Name with Population of 1 Lakh and more,PERSON,2,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,JALANDHAR CANTT,,"explicitly about cities with a certain population. 
+
+The dataset's description mentions it's about town-level amenities and infrastructure, so the city names here are geographical references, not personal data. The column headers like ""District Name"" and ""Town Name"" are clearly for locations. The flagged column is part of the same context, so the values are place names, not people. 
+
+Also, the dataset is from the Census, which is a public record. The values here are public information about locations, not personal identifiers. The detector's mistake is common in Indian data, where place names can look like personal names. But the key here is the column's purpose. Since it's about cities, the flagged values are not people. Therefore, this is a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506568
+7da55270-dd6b-4f6f-b291-c27ed5af9d13,2,"Town Amenities for Dumka District of Jharkhand, 2011","Town Amenities, Census 2011",Nearest Ciity Name with Population of 5 Lakh and more,PERSON,2,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,BHAGALPUR(BIHAR,,"n question is part of the amenities data, likely providing information on nearby cities for planning purposes. The values are city names, not personal names. The presence of ""Population"" in the column name further indicates it's a demographic or geographical data point, not related to individuals. 
+
+Considering the Indian context, personal names often overlap with place names, but the key is the column's purpose. Since this column is about cities, not people, the flagged values are not personal data. The detector's error here is due to the capitalization and structure of the city names, which are being misclassified as people. Therefore, the correct classification should be false_positive because the values are not personal data but geographical information.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506579
+819c50d6-eb4d-4c3d-bd63-e226e865e051,2,Status of Water Quality in India-2008,Status of Water Quality in India - 2008 and 2011,Water Quality,PERSON,5,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual, KHAN | GOVIND SAGAR |  JAI BHARALI,,"t, the sample values like GOVIND SAGAR and JAI BHARALI. Govind Sagar is actually a reservoir in Madhya Pradesh. Jai Bharali might be a river or a place. So these are place names, not people. The detector is incorrectly identifying them as people because they are capitalized and multi-word, which is common in Indian names. 
+
+The column is likely referring to the name of the water body or location where the water quality was measured. So the flagged column is not about people but about locations. Therefore, the correct class should be false_positive because the detector is wrong here. The values are place names, not personal data. The dataset is about water quality, so the column is about locations, not people. Hence, the flagged as PERSON is a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.50659
+838a7317-896f-497f-80ca-af930699eae0,2,Incidents of Violence by Anti National Elements during 2019,Crime in India - 2019,Attackers,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Jihadi Terrorists,,"umn which seems to be a categorical label.
+
+Also, considering the Indian context, terms like ""Jihadi Terrorists"" are often used as labels for groups rather than individuals. The presence of honorifics or specific personal names would be necessary to classify as a person. Since the sample value is a group name, it's not a personal name. Therefore, the flagged values are not individuals but categories of attackers. 
+
+The dataset's title and description indicate that the data is about incidents and their attributes, not about individuals. Hence, the ""Attackers"" column is likely a categorical variable, not personal data. Therefore, the correct classification should be false_positive because the detector is incorrectly identifying a group or category as a person.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506601
+85dba4a4-aa80-4b86-a981-4bf795ea25b4,2,State-wise Data of First Census of Water Bodies - Himachal Pradesh,First Census of Water Bodies Data,water_body_name,PERSON,44,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,ghar ke sath | khet ke sath | Bawdi | sadak ke sath | Chotu Ram ki | Satluj | Khet ke |  Bavadi | Mumkin Bavadi | Dev Raj | Punu ke ghar ke sath | sohan lal ke makan ke sath | Jagdish ki | jamin ke sath | ke sath,,"ople, but that's a stretch. 
+
+The key here is the dataset's purpose. It's a census of water bodies, so the names would be names of water bodies, not people. The detector is probably picking up on capitalized multi-word strings, which are common in Indian names but also in place names. Since the column is explicitly about water bodies, these entries are likely names of water bodies, not personal names. 
+
+Also, the presence of ""Satluj"" (a river) and ""Bawdi"" (a structure) clearly indicates that the column is about water bodies. The detector is misclassifying these as people due to the capitalization and multi-word nature. Therefore, this is a false positive. The flagged values are not people but names of water bodies. The correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506614
+869c674d-59a4-4de3-8b09-f2b709983f51,2,Attacker-wise Incidents of Violence by Extremists/ Insurgents/ Terrorists during 2023,Crime in India - 2023,Attackers,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Jihadi Terrorists,,"a person's name. But in this context, it's a classification of the attackers, not an individual.
+
+The dataset's headers include various categories like ""Number of Extremists / Attackers Killed"" with male and female counts. This suggests that the data is about groups or types of attackers, not individuals. Therefore, the flagged values are not personal names but categories. 
+
+Also, the dataset's title and description indicate that it's about incidents and attackers, not about individuals. The ""Attackers"" column is likely a categorical variable, not containing personal data. Hence, the detector's flagging as PERSON is a false positive. The values are not personal names but classifications of the attackers. Therefore, the correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506625
+8a6e8694-1dfc-4108-bdec-77d0580a2897,2,Remarks recorded by the institutions - 2012-2013,Institutions (AISHE Survey),Remarks Recorded,PERSON,32,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,"Grant |  Sarosh Ghandhy | Shri Sarosh Ghandhy | GEC Surat | ITI Surat | Sarosh Ghandhy | SENTION | Ta: Bardoli, Di |  Swami Vivekananda | Swami Vivekananda's | Panchayath | kshak | MHRD | Sahitya |  Jagdish Singh Somwanshi",,"lized multi-word strings as people, which is incorrect. For example, ""Ta: Bardoli, Di"" might be a name, but ""Di"" could be a title. Also, ""Panchayath"" is an institution. 
+
+Since the column is ""Remarks Recorded,"" it's possible that the entries are not personal names but rather notes that include names of people, institutions, or other entities. However, the detector is misclassifying them as people. The correct classification would be false_positive because the flagged values include non-person entities like institutions and ministries. The dataset's context suggests that the remarks might include names of people, but the presence of other entities and the detector's overreach mean that the flagging is incorrect. Therefore, the answer should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506639
+8d05393c-29e4-49fb-a20f-d4743a3ab59a,2,"Town Amenities for Aligarh District of Uttar Pradesh, 2011","Town Amenities, Census 2011",Protected Water Supply Source-1,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,TW?B,,", not people. The dataset's description mentions it's about amenities, so this column is likely a technical or administrative code, not personal data. 
+
+Looking at the headers, other columns like ""District Name"" or ""Town Name"" are obvious place names, but ""Protected Water Supply Source-1"" doesn't fit that. The values here are codes, not names of people. The presence of ""TW?B"" suggests it's a code, not a person's name. 
+
+Also, the dataset is from the Census, which is a public record, but the data here isn't about individuals. It's about infrastructure and population statistics. The flagged column is part of the amenities data, so it's not personal data. Therefore, the detector is incorrectly flagging this as PERSON. The correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506649
+8dc636bf-335b-448e-99e0-85f1282ebc23,2,Overseas Citizenship of India (OCI) Details by Country/ Mission between December 2005 and December 2009,Overseas Citizenship of India (OCI) Details by Country/ Mission,Mission,PERSON,42,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,VANCOUVER | HA DELHI,," names, but the key is to look at the column's purpose. Since ""Mission"" is part of the dataset's subject (tracking OCI across missions), these entries are locations, not people. The detector's flagging as PERSON is a false positive. 
+
+Also, the dataset is from the Ministry of Home Affairs, so the data is public. But the question is about whether the flagged values are people. Since they are locations, the correct class should be false_positive.
+</think>
+
+The ""Mission"" column refers to foreign missions or consulates where OCI applications are processed. Values like VANCOUVER and HA DELHI denote locations, not personal names. The detector incorrectly flags them as ""PERSON"" due to capitalization and multi-word structure, but context shows they are geographic entities.  
+
+CLASS: false_positive",2026-09-10 08:37:51.50666
+917235c3-b35d-4b53-af16-bf3f79c610f1,2,"Scholarship of Universities, 2015-16",All India Survey on Higher Education - 2015-16,instituionname,PERSON,49,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Ch. Devi La | Jullunder | Hemchandra | Shree Somnath | Krantiguru Shyamji | Carlox | er Narmad | Visva Bharati |  Shantiniketan | Dharmsinh Desai |  Ram Manohar Lohiya | Ram Manohar |  Baru Sahib Sirmour | Sahib Sirmour |  B. R. Ambedkar,,"ns providing the scholarships. Therefore, these are not personal names but institutional names. 
+
+The description mentions that the data is from the Ministry of Education and includes information on university scholarships. The column ""instituionname"" would logically be the name of the university or institution offering the scholarship. Hence, the flagged values are not personal data but institutional names. 
+
+So the correct classification should be false_positive because the detector incorrectly identified institutional names as personal names. There's no indication that these are individuals. The presence of honorifics like ""Shree"" or ""Ch."" might be part of the institution's name, not a title for a person. Therefore, the flagged column is a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506674
+9296cf6b-681a-4d0d-942f-b0008967a5d2,2,State-wise Data of First Census of Water Bodies - Kerala,First Census of Water Bodies Data,nature_of_storage,PERSON,2,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,UARRY POND,,"oir, etc. The sample value ""UARRY POND"" is likely a typo for ""UARRY POND"" (maybe ""Uarry"" is a local term). Since the dataset is about water bodies, this column is probably categorizing the type of storage, not people. 
+
+The detector might be picking up on the multi-word structure and capitalization, thinking it's a name. But context from the dataset's purpose shows it's related to water bodies. Also, the presence of terms like ""water_body_name"" and ""basin_name"" in the headers reinforces that the data is about geographical features, not people. 
+
+No honorifics or public office indicators are present here. The values are descriptions of water body types, not personal names. So the flagged values are a false positive. The correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506685
+9296cf6b-681a-4d0d-942f-b0008967a5d2,2,State-wise Data of First Census of Water Bodies - Kerala,First Census of Water Bodies Data,water_body_name,PERSON,114,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,MUHAMMED ALI | MUHAMMED ALI POND KUNNATH | POND SRE | KUTHU KULANGARA | ATHIRIPPADAM KULAM | MANALI POND | LOMPHALAM KULAM | PATHIRIYODU KULAM | AMMATTIL MOHAN KULAM | AMMATTIL MOHAN | PARAMBIN KULAM | IRATTAYAM KULAM | ZHUVANCHERI KULAM | KULAVARAMB KULAM | YOTTAYIL KULAM,,"tion, but the main column here is 'water_body_name'. The presence of terms like ""KULAM"" and ""POND"" in the sample values strongly indicates they are water bodies. 
+
+The detector is making a false positive here because these are not personal names. The dataset is about water bodies, so the names of these bodies are part of the data. Since the dataset is published by the Ministry of Jal Shakti, it's about public infrastructure, but the names of water bodies are not personal data. They are just names of resources. 
+
+So the correct classification should be false_positive because the flagged values are not people. The detector is incorrectly identifying them as personal names due to the structure, but context from the dataset's purpose shows they are water bodies.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506698
+96ccd964-9c2e-4fe4-a877-0b1a90f1962c,2,Major Fishing Harbours at Major Ports as on 12th August 2014,Fishing Harbours - Fisheries Statistics 2014,Port,PERSON,6,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Visakhapatnam - Stage | Visakhapatnam - Stage II | Visakhapatnam - Stage III | Visakhapatnam - Stage IV | sson Dock | Sasson Dock,,"he automated detector is flagging them as people because they're capitalized and multi-word, but in Indian context, place names are common and can be confused with personal names. However, the key here is the dataset's purpose. Since it's about fishing harbours and ports, the ""Port"" column is geographical. The presence of ""Stage"" in the names indicates phases of development, not personal names. 
+
+Also, the description mentions that the data is for fisheries planning and monitoring, which would require port names for infrastructure. There's no mention of people's names here. The detector's error is due to the shape of the names, not their actual content. Therefore, the flagged values are not people but locations. So the correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.50671
+9b4d4e48-d8ac-4960-980a-1ac9741be3d4,2,Total Outlay & Actual Expenditure for P&NG Sector form 2013-14 to 2018-19,Indian Petroleum and Natural Gas Statistics - 2017-18,CPSEs,PERSON,3,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,GAIL | BALMER LAWRIE | Rajiv Gandhi Instt,,"as PERSON. But wait, GAIL is a company, right? BALMER LAWRIE is a well-known company in India, maybe a subsidiary of GAIL. Rajiv Gandhi Instt could be an institution. The column header is ""CPSEs"" which might stand for Central Public Sector Enterprises. So these entries are names of companies or institutions, not individuals. 
+
+The detector is flagging them as people because they are capitalized and multi-word, but in the context of the dataset, which is about financial figures for the sector, these are likely names of organizations or companies. The description mentions the data is for the sector, so CPSEs would be part of that sector. Therefore, the flagged values are not personal data but organizational names. So the correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506723
+9b7a3a48-c706-483f-9353-4509ce8d994b,2,Potential of Fishery Resources in the Indian Exclusive Economic Zone as on 12th August 2014,Fishery Resources - Fisheries Statistics 2014,Depth range (m),PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,retic Pelagic,,"g these as people, which seems wrong.
+
+First, the column header is ""Depth range (m)"", which clearly refers to depth measurements. The sample value ""retic Pelagic"" probably refers to a type of pelagic fish or a depth range category. The detector is confused because it's looking for capitalized multi-word strings, which are common in Indian names but here they're related to marine biology terms.
+
+The dataset's purpose is about fisheries statistics, so the values are likely scientific terms related to marine environments, not personal names. There's no mention of people's names or identifiers in the description or headers. The flagged column is about depth ranges, which are technical measurements, not personal data. Therefore, the detection is a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506734
+a1f78d64-cb8d-4da9-aece-88f5fd7baf1a,2,"Basic Information of Colleges, 2015-16",All India Survey on Higher Education - 2015-16,other_speciality,PERSON,1,false_positive,present,llm,T3-judge,Tier 3 local LLM judge,R12-residual,B.R.S.,," to academic specializations, not personal names. The sample value ""B.R.S."" could be an abbreviation for a specific field, like ""Biotechnology, Robotics, and Systems"" or something similar. 
+
+Considering the Indian context, personal names often have initials, but in this case, the column is about college specializations. The presence of honorifics or titles isn't indicated here. Also, the dataset's purpose is to provide institutional data for planning and analysis, not personal information. 
+
+The flagged values aren't personal names but rather specific fields or programs. Therefore, the detector is incorrectly identifying them as people. The correct classification should be false_positive since the values aren't personal data but rather institutional details.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506745
+a1f78d64-cb8d-4da9-aece-88f5fd7baf1a,2,"Basic Information of Colleges, 2015-16",All India Survey on Higher Education - 2015-16,other_statutory_body,PERSON,4,false_positive,present,llm,T3-judge,Tier 3 local LLM judge,R12-residual,HNGU PATAN | Drie | Indira Kala Sangeet Vishwvidyalaya | Khairagarh C.G.,," university or a college. ""Indira Kala Sangeet Vishwvidyalaya"" is a known music university in India. ""Khairagarh C.G."" might be a location or another institution. These names are of institutions, not individuals. The detector is flagging them as people because they are multi-word and capitalized, which is a common issue with NER models in Indian contexts where names of places, institutions, and people can overlap.
+
+The dataset's purpose is to collect information about colleges, so ""other_statutory_body"" is likely a list of other organizations or bodies associated with the college. These are not personal names but institutional names. Therefore, the flagged values are not people, making it a false positive. The correct classification should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506756
+a1f78d64-cb8d-4da9-aece-88f5fd7baf1a,2,"Basic Information of Colleges, 2015-16",All India Survey on Higher Education - 2015-16,website,"EMAIL_ADDRESS,PERSON",8,false_positive,present,llm,T3-judge,Tier 3 local LLM judge,R12-residual,www.prrp.in | www.mpsccs.edu.in | maharshi.gurukul@gmail.com | sdegreecollege@yahoo.com | shrideviparamedicalsciences@gmail.com | cordorg@rediffmail.com | ninsr@hotmail.com | R.K.coll,,"orrect class is false_positive because the flagged values are not personal data of individuals but institutional contact details. However, the user's guidelines state that private email addresses are PII. So if the emails are of individuals, they are PII. But the dataset is about colleges, so the emails might be for the institution. 
+
+This is a bit confusing. The key is that the column is 'website', which should be URLs, but some entries are emails. The detector is misclassifying them. Therefore, the correct answer is false_positive because the values are not personal data but institutional contact details. However, if the emails are of individuals, they would be PII. But the dataset's context suggests they are institutional. So the answer is false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506768
+a4a8e000-2371-4476-af09-1293ef642e9a,2,State-wise Data of First Census of Water Bodies - Andhra Pradesh,First Census of Water Bodies Data,water_body_name,PERSON,153,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Kadali Ramakrishna | Vinayakapunjeri | Pecchtti Gangaratnam | Mainapu venkaya | Mainapu |  Vijaya Rama Raju | Rama Raju |  Narsaraju | Farmpond | Dougout Pond | GNREGS | Kulacchavani |  Undra konda | Anumpalli | Kotha,,"aju"". But in Indian context, names of places or water bodies can sometimes be similar to personal names. For example, ""Ganga"" is both a river and a deity. However, the dataset's description mentions it's about water bodies, so these names might be names of water bodies, not people. 
+
+Also, the presence of entries like ""Farmpond"" and ""Dougout Pond"" clearly indicate that the column is about water bodies. The other entries like ""GNREGS"" (which is a scheme) and ""Kulacchavani"" might be specific to water bodies. The detector is probably misclassifying due to capitalization and multi-word strings. Since the dataset's purpose is to catalog water bodies, the ""water_body_name"" column is about water bodies, not people. Therefore, the flagged values are false positives.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506781
+a72c9e35-5b36-4553-963e-d7517e46b908,2,Non Tax Revenue from 2019-20 to 2021-22,Union Budget: 2021-22,Tax Revenue,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Crop Husbandry,,"icultural or economic activities, not a person's name. 
+
+The automated detector is flagging multi-word capitalized strings as people, which is a common issue. In Indian context, names like ""Crop Husbandry"" might be misread, but here it's clearly a category related to revenue sources. The column headers like ""Major Head"" and ""SubCategory"" suggest these are classifications of revenue types, not personal data. 
+
+Looking at the possible classes: false_positive, permissible, present. Since the flagged values are not personal data but categories of revenue, it's a false positive. The detector incorrectly identified them as people. There's no indication that these are public officials or institutional contacts. Therefore, the correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506792
+a89c5458-b4b0-4a47-8406-7603bc43d301,2,Details of Ramsar Sites - Wetlands,Wetlands Conservation and Management,Ramsar Site,PERSON,44,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Kolleru Lake | Deepor Beel | Nanda Lake | Nalsarovar | Wadhvana Wetland | Bhindawas Wildlife Sanctuary | Chandra Taal | Pong Dam Lake | Renuka Lake | Hokersar Wetland | Surinsar-Mansar Lakes | Ranganathittu Bird Sanctuary | Ashtamudi Wetland | Vembanad-Kol Wetland Complex | Tso Kar Wetland Complex,,"so the ""Ramsar Site"" column should list the names of these wetlands. The sample values are all names of lakes, wetlands, and sanctuaries, which are geographical locations, not people. 
+
+The detector is confused because these names are capitalized and multi-word, similar to personal names. But in the Indian context, place names like Kolleru Lake are clearly locations, not individuals. The presence of honorifics or official titles isn't here. Also, the dataset is about conservation, so the names are of sites, not people. 
+
+The user's guidelines say to not rely on the shape of the value but on the context. The column header and dataset subject indicate it's about wetlands. Therefore, the flagged values are not people. The correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506806
+ac4576a5-243a-489d-8195-d20b9140175c,2,Field-wise Production of Crude Oil and Natural Gas during 2016-17 and 2017-18,Indian Petroleum and Natural Gas Statistics - 2017-18,Asset,PERSON,18,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Ankl | Cambay | Greater Naharkatia Field | Greater Jorajan Field | Moran Field | Greater Shalmari | Greater Hapjan Field | Greater Kathaloni Field | Greater Dikom Field | Digboi | Bagitibba | Tanot | Baghewala | DHOLASAN | N.BALOL,,"similar to personal names. But the context here is clearly about geographical areas or fields in the petroleum sector. The presence of ""Field"" in some names (like ""Greater Jorajan Field"") makes it clear they are locations or assets, not individuals. 
+
+Also, the dataset's catalog title and description mention sources like Oil & Natural Gas Corporation Ltd., which manages these fields. There's no mention of people's names or personal data. The flagged column is about assets, which are public data for statistical purposes. 
+
+Since the values are names of fields and areas, not personal names, the correct classification should be false_positive. The detector incorrectly labeled them as people due to their format, but the context clearly indicates they are assets.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506819
+aec87797-31c0-4dc6-8bad-5d35c132f353,2,KPIs of 3rd-5th MI censuses,"Time series data of  (3rd , 4th & 5th ) MI censuses",Parameter,PERSON,2,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,gwell | Deep Tubewell,," infrastructure, like types of wells or water sources. 
+
+Looking at the sample values: ""gwell"" could be a shorthand for ""ground well"" or a specific type of well. ""Deep Tubewell"" is a technical term for a deep well used for irrigation. These are infrastructure terms, not personal names. 
+
+The detector might be confused because some terms are capitalized and multi-word, but in this context, they're technical terms, not names. The presence of honorifics or public officials isn't here. The dataset is about census data for infrastructure, not personal data. 
+
+So the flagged column is actually about technical parameters of irrigation systems, not people. Therefore, the correct class should be false_positive since the detector incorrectly identified them as people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.50683
+b00e3faf-dcbc-4c5b-8dff-f7d0da0abfad,2,Coverage under Swavalamban Scheme during 2010-11 to 2013-14,Coverage under Swavalamban Scheme,Aggregator(s) appointed by PFRDA,PERSON,2,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,BANDHAN KONNAGAR | SHREE KSHETHRA,," PoP entities, so these are likely organizational names.
+
+Looking at the Indian context provided, personal names are distinct from institutional names. The presence of honorifics like ""Shree"" might be part of the organization's name, not a title for a person. Also, the column is about aggregators, which are entities, not individuals. Therefore, the flagged values are not personal data but names of organizations. 
+
+The correct classification should be false_positive because the values are not personal data but organizational names. The detector's mistake is in misidentifying organizational names as people. There's no indication that these are individuals holding public offices or that they are private individuals' details. Hence, the answer is false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506842
+b20be502-8d39-4871-8a0a-b5a8a2e64af4,2,State-wise Data of First Census of Water Bodies - Telangana,First Census of Water Bodies Data,water_body_name,PERSON,121,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,PEDHA CHERUVU | CHERUVU | KAPULA KUNTTA | YELLAIAH KUNTA | Dhoparmana kunta damera | DURGAM VENKATI | VENKATI | Banjar kunta | LOTHU KUNTA | Gowraveni | LAMBIDEVI KUNAT |  Nayeem | MD Nayeem | KUMRAM JAMNIBAI | Mandarm,,"se names are likely names of water bodies, not people. 
+
+The detector is using capitalization and multi-word strings to flag as people, but that's a common issue. The presence of honorifics like ""MD"" (which could be ""Muhammad"" or ""Medical Doctor"") might confuse the detector. However, in this context, ""MD Nayeem"" is probably a water body name, not a person. The dataset's purpose is to catalog water bodies, so the names here are geographical features, not individuals. 
+
+Also, the other columns like ""District Name"" and ""Village Name"" are clearly place names. So ""water_body_name"" should be the same. The flagged values are not personal data about individuals but names of water bodies. Therefore, the detector is incorrect here. The correct class is false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506855
+b24efd4d-ca91-418a-b619-87a27ae58373,2,Oil and Gas Production Abroad from 2011-12 to 2017-18,Indian Petroleum and Natural Gas Statistics - 2017-18,Name of Project,PERSON,2,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Lower Zakum | Sancristobal,,"ames or project names. The user mentioned that Indian place names and other entities might be misclassified. ""Lower Zakum"" sounds like a location, possibly a field or area in the oil industry. ""Sancristobal"" might be a project name, maybe a Spanish-sounding name. 
+
+Looking at the context, the dataset is about production abroad, so the ""Name of Project"" column is likely listing project names, not people. The companies mentioned (OVL, BPRL, etc.) are oil companies, so their projects would be named accordingly. The flagged values are not personal names; they are project names. Therefore, the detector is wrong here. Since the column is about projects, not people, the correct class should be false_positive. There's no personal data here, so it's a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506866
+b3e9ce3d-c561-47ba-9a9a-0a68a660f132,2,Cognizable Crimes Registered by Various Enforcement Agencies in 1999,Crime in India - 1999,Act under which cases Registered,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,PIT NDPS,,". For example, ""PIT NDPS"" might stand for Public Instruction and Training (PIT) under the Narcotic Drugs and Psychotropic Substances Act (NDPS). These are legal acts, not personal names. 
+
+The detector is probably picking up on the acronyms or the full names of acts, which might be capitalized and multi-word, leading it to misclassify them as people. But in this context, these are legal statutes, not personal names. The presence of honorifics or public officials isn't here. The values are names of laws, not individuals. 
+
+The dataset's purpose is for crime analysis, so the acts under which cases are registered are part of the legal framework, not personal data. Therefore, the flagged values are not people. The correct classification should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506877
+b4d5501d-e973-428a-9695-681781d91a3b,2,Elephant Reserve Details,Elephant Reserve and Population Status,Elephant Range,PERSON,10,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Arunachal Ð Assam |  Arunachal |  W. Bengal | E. Himalayas | Nilgiri ÐEastern Ghat | iyar,,"these as PERSON, but they are actually regions or states.
+
+First, the dataset's title and description clearly state it's about elephant reserves and their population. The header includes ""State"" as one of the columns, so ""Elephant Range"" likely refers to the geographical areas where elephants are found. The sample values are names of states or regions, which are administrative divisions, not personal names. Even though some might be capitalized multi-word strings, the context here is geographical, not personal. The detector is confused because these are place names, not people. So the correct classification should be false_positive since the flagged values aren't people at all. There's no indication of personal data here. The answer should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506889
+b7c9ee5f-37a6-45fc-a269-7d51d757d2e8,2,Total Traffic and Operating Statistics by Non Scheduled Operators (Aircrafts) during 2015-16,Air Traffic Statistics 2015-16,OPERATOR,PERSON,6,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual, Aviation | Futura Travels | Raymond Limited | Kunal Air | Shobha Puravankara | Shreno Linited,,"context mentions that personal names can be similar to place names, but in this case, the flagged values are names of companies. The presence of honorifics or public officials isn't here. The dataset's description says it's about operators holding permits, which are organizations, not individuals. 
+
+The ""OPERATOR"" column likely lists the names of these companies or organizations. Since they are business entities, their names aren't personal data. The detector is incorrectly categorizing them as people because they are capitalized and multi-word, but the context clearly indicates they are organizations. Therefore, the flagged values are not personal data. 
+
+So the correct class should be false_positive because the values are not people but business operators.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.5069
+bc015fd1-a544-43b1-b4a2-729475c4580c,2,AirSewa - Aviation Frequently Asked Questions (FAQs),AirSewa,faqQuestion,PERSON,22,false_positive,present,llm,T3-judge,Tier 3 local LLM judge,R12-residual, JPMiles | JPMiles | GoAir | Vistara | Indira Gandhi International Airport Delhi | Indira Gandhi | Vistara WomanFlyer | Netaji Subhash,,"own airport. The detector is probably picking up the capitalized multi-word strings and misclassifying them as people. But in this context, these are not personal names. They are names of airlines, airports, or services. 
+
+The dataset's description says it's about FAQs for passengers, covering topics like baggage and security. So the questions are likely about these services, not about individuals. Therefore, the flagged values are not personal data. They are names of entities related to aviation, not people. 
+
+So the correct classification should be false_positive because the detector is incorrectly identifying these as people when they are actually names of airlines, airports, or services. There's no personal data here. The answer should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506912
+bd319d74-c98a-4e7e-b8d6-dc88053a6a3b,2,"Accreditation of Colleges, 2015-16",All India Survey on Higher Education - 2015-16,accreditation_body,PERSON,3,false_positive,present,llm,T3-judge,Tier 3 local LLM judge,R12-residual,CIAC | dr ram manohar lohiya awadha | Hemwati Nandan Bahuguna Garhwal,," dataset's description mentions accreditation bodies, so the 'accreditation_body' column should list the organizations or bodies that conducted the accreditation. For example, CIAC could be an acronym for a specific accreditation body. The other example, Hemwati Nandan Bahuguna Garhwal, sounds like a university name. So these are names of institutions or bodies, not individuals. The detector is incorrectly flagging them as people because they are capitalized multi-word strings, which is a common issue. 
+
+The user's instructions say that if the values are not people, it's a false positive. Since the column is about accreditation bodies, which are organizations, not individuals, the flagged values are not people. Therefore, the correct class is false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506923
+bd880491-165c-4086-8bf4-c4ef57847b00,2,Incidents of Violence by Anti National Elements during 2018,Crime in India - 2018,Attackers,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Jihadi Terrorists,,"value is ""Jihadi Terrorists."" The key here is understanding what the column represents. The values here are categories of attackers, not individual names. ""Jihadi Terrorists"" is a classification, not a personal name. The detector might be picking up on the multi-word structure and capitalization, thinking it's a person's name. But in context, this is a category or type of attacker, not an individual. 
+
+The dataset's description mentions it's about incidents and supports crime analysis. The ""Attackers"" column is likely categorizing the type of attackers, not listing individuals. Therefore, the flagged values are not personal data but categories. So the correct class should be false_positive because the detector is incorrectly identifying categories as people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506933
+bef28c85-f9e6-47c2-a4ab-8e84cdba5535,2,"Loans of Universities, 2015-16",All India Survey on Higher Education - 2015-16,instituionname,PERSON,10,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Kameshwar Singh | Kameshwar Singh Darbhanga | Devi Ahilya | Amrita Vishwa Vidyapeetham | Vivekananda Yoga |  Nathibai | Nathibai Damodar Thackersey Women's |  Harisingh | Katgarh | Rajiv Gandhi,,"out loans of universities, so the ""institutionname"" would be the name of the university. However, the sample values include names that could be individuals. But given the dataset's context, those entries are likely institution names. For example, ""Amrita Vishwa Vidyapeetham"" is a university. ""Devi Ahilya"" might be a university as well. ""Nathibai Damodar Thackersey Women's"" could be a college or institution. 
+
+Therefore, the detector is incorrectly flagging these as people. The correct class would be false_positive because the column is about institutions, not individuals. However, I need to check if any of these names are actual people. But given the dataset's context, they are institutions. Hence, the flagged values are not people, so it's a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506948
+c2b15d9d-20e8-4bff-8bdd-df1a3f1e8aee,2,Export of Marine Products by Market from 2003-04 to 2013-14,Exports - Fisheries Statistics 2014,Market,PERSON,2,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,U. S. A,,"e data here represents different markets where marine products are exported. The sample value ""U. S. A"" is a country name, which is a market in this context. The detector is flagging this as a person because it's a multi-word capitalized string, but in this case, the context clearly indicates that these are markets, not people. 
+
+Looking at the Indian context provided, personal names often overlap with place names, but the key is the column's purpose. Since ""Market"" is the header, the values are countries or regions, not individuals. There's no mention of personal names, honorifics, or public offices here. The data is about trade statistics, so the ""Market"" column is likely listing destinations, not people. Therefore, the flagged values are a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506959
+cc3cf7fc-2011-436c-ae5a-be275257a73d,2,"Town Amenities for Sangli District of Maharashtra, 2011","Town Amenities, Census 2011",Nearest Ciity Name with Population of 1 Lakh and more,PERSON,6,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,SANGLI MIRAJ ,,"s multiple words, the context from the dataset's title and description indicates that this column is about geographical locations, not individuals. 
+
+The dataset's description mentions it's about town-level amenities and census data, which includes population statistics. The column in question is part of that data, providing information on nearby cities with populations over 1 lakh. Since the column is explicitly about city names, the flagged values are not personal data. 
+
+Also, the dataset is from the Census, which is a public record. The values here are geographical names, not personal identifiers. The detector might be confusing the multi-word format with personal names, but the context clearly shows it's a city name. Therefore, this is a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506969
+cc3cf7fc-2011-436c-ae5a-be275257a73d,2,"Town Amenities for Sangli District of Maharashtra, 2011","Town Amenities, Census 2011",Nearest Ciity Name with Population of 5 Lakh and more,PERSON,6,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,SANGLI MIRAJ ,,"es, like ""Rama"" or ""Krishna,"" but here the column is explicitly about cities. The presence of ""Miraj"" in the city name might be confusing, but the column header makes it clear that these are city names. Also, the dataset's purpose is to provide amenities data, not personal information. 
+
+The flagged values are not personal names; they are names of cities. The detector is making a mistake here because it's looking at the capitalization and multi-word structure, which is common in both people and places. Since the column is about cities, the correct classification should be false positive. There's no indication that these are actual people's names. The dataset's description and headers don't mention any personal data, so the flagged column is a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.50698
+cebffbdc-dbf9-4ea0-bc99-8314a3747405,2,"Water quality of river Subansiri, Kharsang, Burhidihing, Pagldia, Digboi, Jai Bharali, Kolong, Manas, Disang, Jhanji, Bhogdoi, Mora Bharali, Borak, Bharalu, Deepar Bill and Kathakal - 2008",Status of Water Quality in India - 2008 and 2011,Water Quality,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual, JAI BHARALI,," mislabeling. The system might have confused the river names (which are in the ""Locations"" column) with the ""Water Quality"" column. 
+
+Since the dataset is about water quality parameters, the ""Water Quality"" column should contain metrics, not names. The flagged values are actually river names, which are part of the locations, not the water quality data. Therefore, the system is incorrectly flagging these as people. 
+
+Applying the Indian context rules: personal names are different from place names. The system's error here is due to the shape of the string, not the actual data. The correct classification should be false_positive because the flagged values are not people but river names. The column is about water quality, so the data is not personal information.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.506998
+d6782bbd-c1b9-4422-8ef1-f08e7b6e0b50,2,Domestic visitors at 10 most popular centrally protected ticketed ASI monuments during FY 2017-18,Tourism Statistics of India,Name of Monument,PERSON,3,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Qutab Minar | Bibi-Ka- Maqbara | Ellora Caves,,"an context can resemble personal names. But the key here is the column's actual purpose. The header says ""Name of Monument,"" so the values are place names, not people. 
+
+Looking at the Indian context rules: personal names might look similar to place names, but the header and dataset subject determine the classification. Since the column is clearly about monuments, these are not personal data. The detector is mistaken here. The sample values are all well-known monuments, not people. So the correct classification should be false_positive because the flagged values are not people at all. There's no indication that these are personal names or contact details. The dataset's purpose is statistical, not personal data. Therefore, the answer should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.507009
+d74f0374-5f4b-477a-a9d0-7451a89f41bf,2,Budget at a Glance - 2019-2020 (Interim),Union Budget: 2019-20 (Interim),Budget Receipts,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Primary Deficit,,"d and multi-word, which is common in Indian names. But the context here is financial data. The dataset's title and description clearly indicate it's about budgetary figures, not personal information. 
+
+Looking at the Indian context rules: personal data includes private individuals' names, contact details, etc. But here, the values are aggregate statistics, not individual data. The flagged values are terms related to fiscal policy, not personal names. So the detector is making a false positive. 
+
+The answer should be false_positive because the values are not personal data but financial terms. The dataset is public, but that doesn't make the data permissible. Since it's about aggregate statistics, it's not personal data. So the correct class is false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.507019
+d9c8bd48-456c-46b2-ba8f-b1de0f6e26e2,2,All India Level Purpose and Sex-Wise Detail of Kidnapping & Abduction during 2002,Crime in India - 2002,Purpose,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Unlawaful Activity,," Reported"", which are statistical breakdowns. The ""Purpose"" column likely categorizes the reasons behind the kidnappings, like ""Unlawful Activity"" or other motives. 
+
+The sample value ""Unlawaful Activity"" is a category or code, not a personal name. The detector might be confusing this with a person's name because it's a multi-word phrase. However, in the context of crime data, ""Purpose"" is a categorical variable, not a personal identifier. 
+
+Looking at the Indian context provided, personal data includes names, contact details, etc., but this column doesn't contain any of those. The flagged values are categories, not individuals. Therefore, the correct classification should be false_positive since the detector incorrectly identified non-person data as people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.507029
+db06a45d-64dc-413f-8b4b-315a10406f72,2,"Infrastructure of Universities, 2015-16",All India Survey on Higher Education - 2015-16,instituionname,PERSON,51,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Sido Kanhu | Ch. Devi La | Jullunder | Indira Gandhi | Mohan Lal | Chatrapati Sahuji Maharaj | Sahuji Maharaj |  Babasaheb | Shree Somnath | Krantiguru Shyamji | Hemchandra | Carlox | Mahatama Gandhi | Mahatama Gandhi Antarrashtriya Hindi | Visva Bharati,,"on. The sample values include names that are actually names of institutions or historical figures associated with them. For example, ""Indira Gandhi"" is a university named after her. But the detector is flagging these as people because they are capitalized and multi-word. However, the context here is that these are names of institutions, not individuals. 
+
+The key point is that the column is about institutions, not people. Even though some names might sound like personal names, the dataset's description and headers indicate it's about university infrastructure. Therefore, the flagged values are not personal data but names of institutions. So the correct class should be false_positive because the detector is incorrectly identifying institution names as people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.507042
+db7d2838-bb30-4bdc-b369-0ab725a28f3e,2,Mode of Transport-wise Number of Persons Died in Road Accidents in India during 2021,Accidental Deaths & Suicides in India (ADSI) - 2021,Mode of Transport,PERSON,2,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Two Wheeler | Wheeler,," indicates the data is counts of people, not individual names. 
+
+The flagged column is ""Mode of Transport"", which lists types like Two Wheeler, Wheeler, etc. These are categories of vehicles, not personal names. The detector might be confused because these terms are capitalized and multi-word, similar to names, but context is key. Since the dataset is about transport modes and the values are vehicle types, they shouldn't be classified as people. 
+
+Looking at the Indian context rules, personal names usually include honorifics or specific identifiers. Here, there's no such indicators in the flagged values. The values are straightforward categories. Therefore, the detector's flagging here is a false positive. The correct classification should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.507053
+dde37744-173f-48e6-99ca-33b50c52f44a,2,Details of incentive for surrendered weapons/ammunitions in North-Eastern States,Details of incentive for surrendered weapons/ammunitions in North-Eastern States,Surrendered weapons/ammunitions,PERSON,2,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Stick Grenade | SAM Missiles,," of money given as incentive. But the flagged column is ""Surrendered weapons/ammunitions"", which seems to be the type of weapons surrendered.
+
+The detector is flagging these as people because they are multi-word, capitalized strings. But in this context, ""Stick Grenade"" and ""SAM Missiles"" are clearly types of weapons, not personal names. The dataset is about weapons surrendered, so the column is categorizing the type of weapons. There's no personal data here. 
+
+Looking at the Indian context, personal names would include things like honorifics or specific names, but these are weapon types. The column isn't listing people; it's listing items. Therefore, the detector is incorrect. The flagged values are not people, so the correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.507064
+e1874d07-a1db-4678-80c1-b64a2924b517,2,State-wise Data of First Census of Water Bodies - Maharashtra,First Census of Water Bodies Data,water_body_name,PERSON,38,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,EMENT |  ANJAN VIHIRE | Dhadre | VT BHARAJWADI | Mand | VT KURAKUNDI | Mandvi KH(F.V. | VT RAVER | Zanzale | VT BENWADI | VT BEN | Amkhel | VT BHILWADI |  BHONDANDIGAR | CCB JALKU,,"lar) could be part of the water body's name or a designation. 
+
+Looking at the Indian context, personal names can be similar to place names. However, the dataset's subject is water bodies, so these names are more likely to be locations or specific water body identifiers. The detector might be confusing the capitalization and multi-word structure with personal names. 
+
+The flagged values don't include typical personal identifiers like Aadhaar or PAN. They also don't match public officials or institutional contacts. Since the dataset is about water resources, these names are part of the water body data, not personal information. Therefore, the correct classification should be false_positive because the detector incorrectly identified non-person data as people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.507076
+e43ffee5-95f4-4e5a-8a0a-87538f24f6a1,2,"Town Amenities for Sahibganj District of Jharkhand, 2011","Town Amenities, Census 2011",Nearest Ciity Name with Population of 1 Lakh and more,PERSON,1,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,BHAGALPUR(BIHAR,,"dataset's description mentions it's about town amenities, including population data. The column in question is about the nearest city with a population over 1 lakh, so it's a place name. The detector is incorrectly categorizing place names as people. 
+
+Looking at the Indian context provided: personal names can be similar to place names, but the key is the context. Since the column is explicitly about city names, BHAGALPUR here is a place, not a person. The presence of ""(BIHAR)"" in the sample value further confirms it's a location in Bihar. 
+
+The detector's error is due to the capitalization and structure, but the context of the dataset and the column header clearly indicate it's a place. Therefore, the flagged values are not people, so it's a false positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.507087
+e4fdce35-43e8-4cbb-aa57-d28b9441c792,2,"Hostel Details of Universities, 2015-16",All India Survey on Higher Education - 2015-16,instituionname,PERSON,36,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Ch. Devi La | Jullunder | Chatrapati Sahuji Maharaj | Sahuji Maharaj | Hemchandra | Shree Somnath | Krantiguru Shyamji | Carlox,," individuals. 
+
+The description mentions that the data is from the Ministry of Education and includes hostel-related details. The ""institutionname"" column could be the name of the university or hostel. If the detector is misclassifying these as people, then the correct class would be false_positive. 
+
+Also, considering the Indian context, some names might be similar to personal names but in this case, since the dataset is about hostels, these are likely institutional names. The presence of titles like ""Shree"" or ""Krantiguru"" might be part of the institution's name rather than a person's title. 
+
+Since the column is supposed to be the institution's name, not individuals, the flagged values are not personal data. Therefore, the correct class is false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.507099
+ed96ecc7-ce5c-43dd-a2d4-6874e8518b6f,2,Major LPG & Petroleum Products Pipelines in India from 31.03.2015 to 2016-17,Indian Petroleum and Natural Gas Statistics  - 2016-17,Type of Pipeline / Owner/Name of Pipeline,PERSON,9,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,HPCL | GAIL | Koyali Sanganer Pipeline | Koyali Dahej Pipeline | Digboi Tinsukia Pipeline | Devangonthi Devanhalli Pipeline | Manmad Manglya Piyala | Bina Kota | Kota Jobner,,"names of companies or specific pipeline projects. The automated detector is flagging them as people because they are capitalized and multi-word, but in this context, they are organizational names or project names, not individuals. 
+
+Looking at the Indian context provided, personal names would include honorifics like Shri, Dr., etc., which aren't present here. The flagged values don't have any indicators of being personal names. They are names of companies or specific pipelines, which are organizational entities. Since the dataset is about infrastructure and not personal data, these entries are not personal information. Therefore, the correct classification should be false_positive because the detector is incorrectly identifying non-person entities as people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.507111
+f01326f1-d3c1-41bd-9dba-ccfe9639d5d1,2,"Town Amenities for Satara District of Maharashtra, 2011","Town Amenities, Census 2011",Nearest Ciity Name with Population of 5 Lakh and more,PERSON,3,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,SANGLI MIRAJ ,," is about the nearest city with a population over 5 lakh, so it's a geographical reference. The detector is probably picking up on the capitalization and multi-word nature, thinking it's a person's name. But in this context, it's clearly a city name. 
+
+Looking at the Indian context rules: personal names are often multi-word but can be confused with places. However, the column header explicitly states it's a city name. Also, the dataset is census data, which would include geographical data, not personal information. The values here are names of cities, not individuals. So the flagged values are not people at all. Therefore, it's a false positive. The detector is incorrect here because the column is about cities, not people. The class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.507121
+f252ddd7-3858-4bd1-93ca-473d84a1f0ee,2,State-wise Data of First Census of Water Bodies - Tamil Nadu,First Census of Water Bodies Data,water_body_name,PERSON,90,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,THALAV | Pannaikuttai | aaysavadi kuttai | venkata krishnan | Kulam | Eari | mangul | Karumangulam |  Koil Kulam | Puliyathiekanmaie | AERI | Pidari Tank | Kulam Mayanamum | KADAMBAN KULAM | KANMAI,,"eople because they are capitalized multi-word strings. In this case, the values are names of water bodies, which are places. The dataset's description and title confirm it's about water bodies, so the column is likely listing those. The flagged values are not personal names but names of water bodies. 
+
+Also, the dataset is published by the Ministry of Jal Shakti, and the data is about water resource management. There's no indication that these names are personal data. The presence of terms like 'Kulam' (which can mean a pond or lake in Tamil) supports that these are water bodies. 
+
+Since the column is clearly about water bodies and the values are names of such, the detector's flagging as PERSON is a false positive. The correct class should be false_positive.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.507135
+f5edece1-1ff0-4bc0-b8f9-9e97444040d7,2,State-wise Data of First Census of Water Bodies - Uttar Pradesh,First Census of Water Bodies Data,water_body_name,PERSON,89,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,SHANKRK | ASHOK KE KHET KE | RAMESH | RAMESH KE MAKAN KE   | DAKHINI TALAB | JI KA | LACHUPUR | DHARAMSHALA KE PICHHE | CHAMAD KE | MISHRA | HAGWATI | BHAGWATI | VIEJNDRA GHAR | BELAI KHURD | GAON,,"ght be a river or a specific water body. 
+
+The detector is likely confusing these names with personal names because they are capitalized and multi-word, but the context of the dataset and the column name 'water_body_name' clearly indicate that these are names of water bodies, not people. Therefore, the flagged values are not personal data but are part of the water body data. 
+
+Also, the dataset is published by the Ministry of Jal Shakti, which is related to water resources, so the names in that column are about water bodies. There's no indication that these names are personal names of individuals. Hence, the correct classification should be false_positive because the detector is incorrectly identifying these as people when they are actually water body names.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.507147
+f62c499d-d70c-42d7-8057-0cd402ad25a1,2,Tax Revenue from 2019-20 to 2021-22,Union Budget: 2021-22,Tax Revenue,PERSON,7,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,Miscellaneous Receipts | Krishi Kalyan Cess | Cesses | Cotton,,"nment revenue categories. Terms like ""Krishi Kalyan Cess"" are specific tax categories, not personal names. ""Cotton"" here is a commodity, part of the tax revenue breakdown. The detector might be picking up on capitalized multi-word strings, which are common in Indian context for various entities, but in this case, they're categories, not people. 
+
+The user's guidelines mention that personal data includes private individuals' names, contact details, etc. But here, the data is about tax categories and commodities, not individuals. The flagged column is ""Tax Revenue,"" which is a category, not a person. The sample values are all non-personal. So the correct class should be false_positive because the detector is incorrectly identifying non-personal data as people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.507158
+f9fd8ab9-427c-4f66-b634-1d738a89022d,2,"Town Amenities for Kolhapur District of Maharashtra, 2011","Town Amenities, Census 2011",Nearest Ciity Name with Population of 5 Lakh and more,PERSON,3,false_positive,false_positive,llm,T3-judge,Tier 3 local LLM judge,R12-residual,SANGLI MIRAJ ,,"s it's about town amenities and census data, which includes population statistics. The column in question is about the nearest city with a population over 5 lakh, so it's a geographical reference. The values here are names of cities, not individuals. 
+
+The user's guidelines state that Indian personal names can look similar to place names, but the key is to look at the context. Since the column is about cities and the dataset is census-related, these are place names. The presence of honorifics or public officials isn't here. Also, the values aren't contact details or personal identifiers. 
+
+Therefore, the flagged values are not personal data. The correct classification should be false_positive because the detector incorrectly identified place names as people.
+</think>
+
+CLASS: false_positive",2026-09-10 08:37:51.507168

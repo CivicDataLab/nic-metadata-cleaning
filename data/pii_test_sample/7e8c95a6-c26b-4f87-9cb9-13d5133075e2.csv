@@ -1,0 +1,52 @@
+Academic_Year,State_Code,State_Name,District_Code,District_Name,Block_Code,Udise_Block_Name,School_Category_Id,School_Category_Name,School_Management_Id,School_Management_Name,Location,School_Type_Id,School_Type,Total_Number_of_Schools,Building,Complete_Medical_Checkup,Computer_Available,Functional_Drinking_Water,Drinking_Water,Functional_Electricity,Functional_Boy_Toilet,Functional_Girl_Toilet,Functional_Toilet_Facility,Functional_Toilet_and_Urinal,Functional_Urinal,Functional_Urinal_Boy,Functional_Urinal_Girl,Handwash,Separate_Room_for_Headmaster,Incinerator,Internet,Kitchen_Garden,Land_Available,Librarian,Library_or_Reading_Corner_or_Book_Bank,Medical_Checkup,Newspaper,Playground,Rain_Water_Harvesting,Ramps,Solar_Panel,Furniture,Water_Purifier,Water_Tested
+2018-19,15,Mizoram,1505,SERCHHIP,150501,SERCHHIP,5, HSS (VI-XII),92,Kendriya Vidyalaya / Central School,Urban,3,Co-educational,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,0,0,1,0,1
+2018-19,15,Mizoram,1505,SERCHHIP,150501,SERCHHIP,11,HSS (XI-XII),1,Department of Education,Urban,3,Co-educational,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1,0,1,0,1,0,1
+2018-19,15,Mizoram,1505,SERCHHIP,150501,SERCHHIP,11,HSS (XI-XII),4,Government Aided,Urban,3,Co-educational,1,1,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,1
+2018-19,15,Mizoram,1505,SERCHHIP,150501,SERCHHIP,11,HSS (XI-XII),5,Private Unaided (Recognized),Urban,3,Co-educational,1,1,0,0,1,1,1,1,1,1,1,1,1,1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,1
+2018-19,15,Mizoram,1505,SERCHHIP,150501,SERCHHIP,11,HSS (XI-XII),8,Unrecognized,Urban,3,Co-educational,1,1,0,1,1,1,1,1,1,1,1,1,1,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0
+2018-19,15,Mizoram,1505,SERCHHIP,150501,SERCHHIP,1,PS (I-V) ,1,Department of Education,Rural,3,Co-educational,5,5,4,0,5,5,4,4,5,5,4,4,4,4,4,0,0,0,3,5,0,5,4,0,3,3,5,0,5,0,2
+2018-19,15,Mizoram,1505,SERCHHIP,150501,SERCHHIP,1,PS (I-V) ,1,Department of Education,Urban,3,Co-educational,18,17,16,2,18,18,16,17,17,18,10,10,10,9,17,0,0,0,9,16,0,18,16,4,9,3,17,0,18,3,9
+2018-19,15,Mizoram,1505,SERCHHIP,150501,SERCHHIP,1,PS (I-V) ,5,Private Unaided (Recognized),Urban,3,Co-educational,4,4,4,0,4,4,4,3,3,3,2,3,3,2,3,3,0,0,1,4,0,3,4,1,4,1,1,0,4,1,1
+2018-19,15,Mizoram,1505,SERCHHIP,150501,SERCHHIP,8,SS (IX-X),1,Department of Education,Rural,3,Co-educational,2,2,1,0,2,2,2,2,2,2,2,2,1,1,0,1,0,0,0,2,0,2,1,2,2,0,2,0,2,0,0
+2018-19,15,Mizoram,1505,SERCHHIP,150501,SERCHHIP,8,SS (IX-X),8,Unrecognized,Rural,3,Co-educational,1,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0
+2018-19,15,Mizoram,1505,SERCHHIP,150501,SERCHHIP,8,SS (IX-X),1,Department of Education,Urban,3,Co-educational,7,7,5,5,7,7,7,6,7,7,7,7,6,5,5,4,0,0,0,7,0,7,5,7,6,2,7,0,7,2,4
+2018-19,15,Mizoram,1505,SERCHHIP,150501,SERCHHIP,8,SS (IX-X),4,Government Aided,Urban,3,Co-educational,3,3,1,3,3,3,3,3,3,3,3,3,3,1,0,0,0,0,0,3,0,1,1,1,2,0,0,0,3,0,1
+2018-19,15,Mizoram,1505,SERCHHIP,150501,SERCHHIP,8,SS (IX-X),5,Private Unaided (Recognized),Urban,3,Co-educational,3,3,0,2,3,3,3,2,3,3,3,3,3,0,2,2,0,0,0,3,0,2,0,1,3,1,1,0,3,1,1
+2018-19,15,Mizoram,1505,SERCHHIP,150501,SERCHHIP,8,SS (IX-X),8,Unrecognized,Urban,3,Co-educational,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,0,1,1,1,1,0,1,0,1,0,1
+2018-19,15,Mizoram,1505,SERCHHIP,150501,SERCHHIP,7,SS (VI-X),2,Tribal Welfare Department,Urban,3,Co-educational,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,0,1,1,0,0,1,1,0
+2018-19,15,Mizoram,1505,SERCHHIP,150501,SERCHHIP,2,UPS (I-VIII) ,5,Private Unaided (Recognized),Urban,3,Co-educational,8,8,2,5,8,8,8,8,8,8,4,4,4,4,6,7,0,2,2,6,0,6,7,3,6,3,1,0,8,2,6
+2018-19,15,Mizoram,1505,SERCHHIP,150501,SERCHHIP,4,UPS (VI-VIII) ,1,Department of Education,Rural,3,Co-educational,5,5,4,2,3,5,5,5,4,5,3,3,3,3,5,2,0,0,3,5,0,5,4,0,2,4,5,0,5,1,0
+2018-19,15,Mizoram,1505,SERCHHIP,150501,SERCHHIP,4,UPS (VI-VIII) ,1,Department of Education,Urban,3,Co-educational,13,13,13,6,13,13,13,13,13,13,11,11,11,11,13,12,1,0,6,12,0,13,13,5,9,8,13,0,13,5,7
+2018-19,15,Mizoram,1505,SERCHHIP,150501,SERCHHIP,4,UPS (VI-VIII) ,4,Government Aided,Urban,3,Co-educational,3,3,3,2,3,3,2,2,2,2,2,3,3,2,2,2,0,1,1,3,0,3,3,2,3,1,3,0,3,0,3
+2018-19,15,Mizoram,1505,SERCHHIP,150501,SERCHHIP,4,UPS (VI-VIII) ,5,Private Unaided (Recognized),Urban,3,Co-educational,2,2,2,2,2,2,1,2,2,2,0,0,0,0,2,1,0,0,1,2,0,2,2,1,2,2,1,0,2,1,1
+2018-19,15,Mizoram,1505,SERCHHIP,150502,N.VANLAIPHAI,11,HSS (XI-XII),5,Private Unaided (Recognized),Rural,3,Co-educational,2,2,0,2,2,2,2,1,2,2,2,2,2,1,1,0,0,0,0,2,0,0,0,1,1,0,0,0,2,0,0
+2018-19,15,Mizoram,1505,SERCHHIP,150502,N.VANLAIPHAI,11,HSS (XI-XII),8,Unrecognized,Rural,3,Co-educational,1,1,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0
+2018-19,15,Mizoram,1505,SERCHHIP,150502,N.VANLAIPHAI,11,HSS (XI-XII),4,Government Aided,Urban,3,Co-educational,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,1,0,1,0,0,0,1,0,0
+2018-19,15,Mizoram,1505,SERCHHIP,150502,N.VANLAIPHAI,1,PS (I-V) ,1,Department of Education,Rural,3,Co-educational,23,23,22,4,23,23,20,19,20,20,6,7,7,7,22,1,0,0,9,18,0,23,22,21,10,12,22,0,23,9,1
+2018-19,15,Mizoram,1505,SERCHHIP,150502,N.VANLAIPHAI,1,PS (I-V) ,5,Private Unaided (Recognized),Rural,3,Co-educational,3,3,0,1,3,3,2,3,3,3,1,1,1,1,3,1,0,0,1,2,0,2,1,1,1,0,1,1,3,0,0
+2018-19,15,Mizoram,1505,SERCHHIP,150502,N.VANLAIPHAI,1,PS (I-V) ,1,Department of Education,Urban,3,Co-educational,1,1,1,0,1,1,1,1,1,1,0,0,0,0,1,0,0,0,1,1,0,1,1,1,0,0,1,0,1,0,0
+2018-19,15,Mizoram,1505,SERCHHIP,150502,N.VANLAIPHAI,1,PS (I-V) ,5,Private Unaided (Recognized),Urban,3,Co-educational,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,0,1,1,0,1,1,0,0,1,0,0,1,0,0
+2018-19,15,Mizoram,1505,SERCHHIP,150502,N.VANLAIPHAI,8,SS (IX-X),1,Department of Education,Rural,3,Co-educational,4,4,4,4,4,4,4,4,4,4,4,4,4,1,1,3,0,0,0,4,0,4,4,4,3,1,4,0,4,0,0
+2018-19,15,Mizoram,1505,SERCHHIP,150502,N.VANLAIPHAI,8,SS (IX-X),4,Government Aided,Rural,3,Co-educational,5,5,3,3,4,4,5,5,5,5,4,4,4,2,0,3,0,0,0,5,0,0,3,1,4,0,0,0,5,0,0
+2018-19,15,Mizoram,1505,SERCHHIP,150502,N.VANLAIPHAI,8,SS (IX-X),8,Unrecognized,Rural,3,Co-educational,3,3,0,2,3,3,3,2,3,3,3,3,3,2,1,0,0,0,0,3,0,0,1,0,2,0,0,0,3,0,0
+2018-19,15,Mizoram,1505,SERCHHIP,150502,N.VANLAIPHAI,8,SS (IX-X),1,Department of Education,Urban,3,Co-educational,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,0,1,0,1,1,1,1,0,1,0,1,0,0
+2018-19,15,Mizoram,1505,SERCHHIP,150502,N.VANLAIPHAI,8,SS (IX-X),4,Government Aided,Urban,3,Co-educational,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0
+2018-19,15,Mizoram,1505,SERCHHIP,150502,N.VANLAIPHAI,8,SS (IX-X),5,Private Unaided (Recognized),Urban,3,Co-educational,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,1,1,0,0,0,1,0,0
+2018-19,15,Mizoram,1505,SERCHHIP,150502,N.VANLAIPHAI,8,SS (IX-X),8,Unrecognized,Urban,3,Co-educational,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0
+2018-19,15,Mizoram,1505,SERCHHIP,150502,N.VANLAIPHAI,2,UPS (I-VIII) ,5,Private Unaided (Recognized),Rural,3,Co-educational,12,12,3,10,12,12,11,12,12,12,3,3,3,3,5,7,0,0,1,11,0,4,3,4,5,1,2,0,12,1,0
+2018-19,15,Mizoram,1505,SERCHHIP,150502,N.VANLAIPHAI,2,UPS (I-VIII) ,5,Private Unaided (Recognized),Urban,3,Co-educational,2,2,0,0,1,2,2,1,1,1,0,0,0,0,1,1,0,0,1,2,0,1,0,1,0,0,1,1,2,1,0
+2018-19,15,Mizoram,1505,SERCHHIP,150502,N.VANLAIPHAI,4,UPS (VI-VIII) ,1,Department of Education,Rural,3,Co-educational,15,15,15,11,15,15,13,14,15,15,3,3,3,3,15,6,0,0,6,15,0,15,15,14,9,3,15,0,15,4,1
+2018-19,15,Mizoram,1505,SERCHHIP,150502,N.VANLAIPHAI,4,UPS (VI-VIII) ,4,Government Aided,Rural,3,Co-educational,2,2,2,1,2,2,2,2,2,2,0,0,0,0,2,1,0,1,0,2,0,2,2,1,1,2,1,0,2,1,0
+2018-19,15,Mizoram,1505,SERCHHIP,150502,N.VANLAIPHAI,4,UPS (VI-VIII) ,1,Department of Education,Urban,3,Co-educational,2,2,2,1,2,2,2,2,2,2,0,0,0,0,2,0,0,0,1,2,0,2,2,2,1,2,2,0,2,1,0
+2018-19,15,Mizoram,1505,SERCHHIP,150502,N.VANLAIPHAI,4,UPS (VI-VIII) ,4,Government Aided,Urban,3,Co-educational,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,0,1,1,0,1,1,1,0,1,1,0,1,0,0
+2018-19,15,Mizoram,1505,SERCHHIP,150503,LUNGPHO,11,HSS (XI-XII),4,Government Aided,Rural,3,Co-educational,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,0,1,1,1,1,0,0,0,1,0,0
+2018-19,15,Mizoram,1505,SERCHHIP,150503,LUNGPHO,11,HSS (XI-XII),8,Unrecognized,Rural,3,Co-educational,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0
+2018-19,15,Mizoram,1505,SERCHHIP,150503,LUNGPHO,1,PS (I-V) ,1,Department of Education,Rural,3,Co-educational,18,18,17,2,18,18,15,18,18,18,18,18,18,18,18,1,0,0,14,17,0,18,17,11,11,11,18,0,18,6,3
+2018-19,15,Mizoram,1505,SERCHHIP,150503,LUNGPHO,1,PS (I-V) ,5,Private Unaided (Recognized),Rural,3,Co-educational,2,2,2,0,2,2,2,2,2,2,2,2,2,2,2,1,0,0,0,1,0,2,2,0,2,1,0,0,2,1,0
+2018-19,15,Mizoram,1505,SERCHHIP,150503,LUNGPHO,8,SS (IX-X),1,Department of Education,Rural,3,Co-educational,6,6,4,3,6,6,6,6,6,6,5,5,5,3,3,2,0,0,0,6,0,6,4,6,6,0,6,0,6,0,0
+2018-19,15,Mizoram,1505,SERCHHIP,150503,LUNGPHO,8,SS (IX-X),4,Government Aided,Rural,3,Co-educational,3,3,3,2,3,3,3,3,3,3,3,3,3,2,1,1,0,1,0,3,0,2,3,2,2,0,0,0,3,0,0
+2018-19,15,Mizoram,1505,SERCHHIP,150503,LUNGPHO,8,SS (IX-X),5,Private Unaided (Recognized),Rural,3,Co-educational,2,2,1,1,2,2,2,2,2,2,2,2,2,2,1,0,0,0,0,2,0,1,1,1,2,0,0,0,2,1,1
+2018-19,15,Mizoram,1505,SERCHHIP,150503,LUNGPHO,2,UPS (I-VIII) ,5,Private Unaided (Recognized),Rural,3,Co-educational,9,9,1,4,9,9,7,8,8,8,8,8,8,8,7,1,0,0,0,8,0,4,7,1,6,1,0,0,9,1,0
+2018-19,15,Mizoram,1505,SERCHHIP,150503,LUNGPHO,4,UPS (VI-VIII) ,1,Department of Education,Rural,3,Co-educational,15,15,15,6,15,15,11,15,15,15,15,15,15,15,14,8,0,0,10,14,0,15,15,10,10,7,14,0,15,4,3
+2018-19,15,Mizoram,1505,SERCHHIP,150503,LUNGPHO,4,UPS (VI-VIII) ,4,Government Aided,Rural,3,Co-educational,3,3,3,1,3,3,3,3,3,3,3,3,3,3,3,1,2,0,2,3,0,3,3,3,2,2,3,0,3,1,0
+2018-19,15,Mizoram,1505,SERCHHIP,150503,LUNGPHO,4,UPS (VI-VIII) ,94,Sainik School,Rural,3,Co-educational,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,0,0,1,1,1,0,0,0,1,1,0

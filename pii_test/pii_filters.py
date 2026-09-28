@@ -168,6 +168,35 @@ ORGANISATION_TOKENS = {
     "bhawan", "bhavan", "vidyaniketan", "niketan", "peeth", "vihar",
 }
 
+# Sub-district administrative units. "Kharkutta Block" is the block around
+# Kharkutta, "Ranikor Block" the one around Ranikor, "Vaseitlang MC" a
+# municipal council -- administrative areas, not people. NER tags them PERSON
+# because they are short capitalised phrases, and none of the existing tests
+# catch them: the gazetteer matches exactly, so it knows "kharkutta" but not
+# "kharkutta block"; each spelling is confined to the two or three datasets
+# covering that district, so cross-dataset frequency stays under its
+# threshold; and two capitalised tokens is exactly the shape of a name.
+#
+# On the LOT 1 corpus this was 244 of 655 datasets in batch 8 -- a 37% flag
+# rate from one column of block names.
+#
+# Matched as whole tokens the way ORGANISATION_TOKENS are: no personal name
+# in either reference fixture carries one of these words.
+ADMINISTRATIVE_UNITS = {
+    "block", "blocks", "tehsil", "tahsil", "taluk", "taluka", "taluq",
+    "panchayat", "municipality", "palika", "nigam", "subdivision",
+    "constituency", "circle", "ward", "zone", "sector",
+    "district", "subdistrict", "village", "hamlet",
+    "chc", "phc", "uphc", "anganwadi", "subcentre",
+}
+
+# The same idea for abbreviations too short to match safely anywhere in a
+# value: "MC" (municipal council), "NAC" (notified area council), "CD"
+# (community development). Required to be the final token of a multi-token
+# value, so a bare initial inside a name cannot trigger them.
+ADMINISTRATIVE_SUFFIXES = {"mc", "nac", "cd", "np", "tp", "mb"}
+
+
 REJECTION_VOCABULARIES = {
     "location-category": LOCATION_CATEGORIES,
     "qualification": QUALIFICATIONS,
@@ -232,6 +261,7 @@ GAZETTEER_FILES = {
     "commodity": "commodities.txt",
     "occupation": "occupations.txt",
     "species": "species.txt",
+    "settlement": "settlements.txt",
 }
 
 # Gazetteer entries shorter than this are dropped at load: two- and
@@ -331,6 +361,27 @@ def is_hindi_text(text):
     return bool(_DEVANAGARI_RE.search(text or ""))
 
 
+_AREA_MODIFIERS = None
+
+
+def _strip_area_modifiers(tokens):
+    """Drop leading/trailing area words, leaving the place they qualify.
+
+    Built lazily so it picks up the vocabularies as loaded rather than
+    freezing a copy at import time.
+    """
+    global _AREA_MODIFIERS
+    if _AREA_MODIFIERS is None:
+        _AREA_MODIFIERS = (ADMINISTRATIVE_UNITS | ADMINISTRATIVE_SUFFIXES
+                           | _NORMALIZED_VOCABULARIES["location-category"])
+    result = list(tokens)
+    while result and result[0] in _AREA_MODIFIERS:
+        result.pop(0)
+    while result and result[-1] in _AREA_MODIFIERS:
+        result.pop()
+    return result
+
+
 def rejection_reason(entity_text):
     """Why this text is not a person, or None if nothing rejects it."""
     normalized = normalize_entity_text(entity_text)
@@ -354,6 +405,22 @@ def rejection_reason(entity_text):
     organisation = ORGANISATION_TOKENS.intersection(tokens)
     if organisation:
         return f"organisation ({sorted(organisation)[0]})"
+
+    administrative = ADMINISTRATIVE_UNITS.intersection(tokens)
+    if administrative:
+        return f"administrative-unit ({sorted(administrative)[0]})"
+
+    if len(tokens) > 1 and tokens[-1] in ADMINISTRATIVE_SUFFIXES:
+        return f"administrative-unit ({tokens[-1]})"
+
+    # A known place carrying a modifier is still that place: the gazetteer
+    # matches exactly, so "Kharkutta Block" and "Urban Rajpura" miss it even
+    # though "kharkutta" and "rajpura" are both in the list.
+    stripped = _strip_area_modifiers(tokens)
+    if stripped and stripped != tokens:
+        candidate = " ".join(stripped)
+        if candidate in PLACE_NAMES:
+            return "place-name (modified)"
 
     for label, phrases in _VOCABULARY_PHRASES.items():
         for phrase in phrases:
@@ -739,6 +806,41 @@ FLAG_MAX_MEDIAN_FREQUENCY = 1
 # Share of sampled values that must look like a person's name.
 FLAG_MIN_NAME_SHAPE = 0.5
 
+# Share of the column's scanned rows that must carry a surviving PERSON value
+# before the column can corroborate a dataset flag.
+#
+# The three tests above all read the detections, and a one-off place name
+# defeats every one of them: "Buxar Sadar" is two capitalised tokens
+# (name-shaped), unique to its district file (corpus-rare), in a column of
+# distinct values (cardinality 1.00). What separates it from a roster is not
+# the value but how much of the column looks like it -- the mohfw HMIS files
+# yield one or two names in 250 rows, a roster yields one per row.
+#
+# Measured on LOT 1: the false-positive columns run 0.004-0.008 (one hit in
+# 250 rows) and the wider indicator classes reach 0.18; genuine rosters --
+# msme EnterpriseName, the VC directory -- run 0.21 and up. 0.10 sits in that
+# gap with roughly a factor of two either side.
+#
+# This withdraws a flag, never a detection: a dataset with two real names in
+# a 250-row column still records them, and they remain in the export. That
+# trade is deliberate and is the same one PERSONAL_PHONE_KINDS makes.
+FLAG_MIN_NAME_DENSITY = 0.10
+
+# Distinct surviving PERSON values a column needs before it corroborates.
+#
+# Density cannot discriminate on a short file: the mohfw district tables list
+# four blocks in four rows, two of which are name-shaped, and 2/4 clears any
+# density bar a roster would. But this function is about corroboration, and a
+# single name-shaped value is by definition uncorroborated -- it is one span,
+# from one model, in one cell.
+#
+# Deliberately set at the weakest defensible value. On LOT 1 batch 8 a floor
+# of 2 withdraws 32 of 94 flags, 3 would withdraw 62 and 4 would withdraw 73
+# -- but 3 and 4 start discarding genuine small rosters, which is a policy
+# call rather than a corroboration argument. The detections are recorded
+# either way, so raising this later costs nothing but a re-derivation.
+FLAG_MIN_DISTINCT_NAMES = 2
+
 # 2-5 alphabetic tokens, no digits. Honorifics and initials ("Dr. P.M.
 # Mohan") survive because normalize_entity_text turns the punctuation into
 # spaces, and the token cap is generous enough to absorb them.
@@ -794,7 +896,8 @@ def _flags_on_its_own(detection):
     return classify_phone_number(detection["entity_text"]) in PERSONAL_PHONE_KINDS
 
 
-def evaluate_dataset_flag(detections, cardinality_by_column=None):
+def evaluate_dataset_flag(detections, cardinality_by_column=None,
+                          rows_scanned=None):
     """Decide the dataset-level pii_detected flag, with a reason.
 
     Anything regex-sourced flags on its own. A PERSON-only signal has to come
@@ -804,7 +907,12 @@ def evaluate_dataset_flag(detections, cardinality_by_column=None):
        category is not a roster of people;
     2. its surviving PERSON values are corpus-rare (median cross-dataset
        frequency at or below FLAG_MAX_MEDIAN_FREQUENCY);
-    3. at least FLAG_MIN_NAME_SHAPE of those values have the shape of a name.
+    3. at least FLAG_MIN_NAME_SHAPE of those values have the shape of a name;
+    4. it carries at least FLAG_MIN_DISTINCT_NAMES distinct values -- one
+       span from one model in one cell corroborates nothing;
+    5. and, when the row count is known, names cover at least
+       FLAG_MIN_NAME_DENSITY of the column's scanned rows -- one name in 250
+       rows is a stray span, not a roster.
 
     Cardinality alone used to be the whole test, and on this corpus it is
     anti-correlated with truth: NCRB tables are wide-format, one row per crime
@@ -820,6 +928,10 @@ def evaluate_dataset_flag(detections, cardinality_by_column=None):
     cardinality_by_column : dict[str, float] | None
         Distinct/total ratio per scanned column. Columns missing from the
         map are treated as unknown and do not corroborate on their own.
+    rows_scanned : int | None
+        Rows actually read from this dataset. Omitted means the density test
+        is skipped rather than failed -- a caller that did not supply the
+        evidence must not have its flags silently withdrawn.
 
     Returns
     -------
@@ -867,6 +979,16 @@ def evaluate_dataset_flag(detections, cardinality_by_column=None):
             rejected.append(f"{col} ({name_shaped:.0%} name-shaped)")
             continue
 
+        if len(distinct) < FLAG_MIN_DISTINCT_NAMES:
+            rejected.append(f"{col} ({len(distinct)} distinct name-shaped value)")
+            continue
+
+        if rows_scanned:
+            density = len(distinct) / rows_scanned
+            if density < FLAG_MIN_NAME_DENSITY:
+                rejected.append(f"{col} (names on {density:.1%} of rows)")
+                continue
+
         corroborated.append(f"{col} (cardinality {ratio:.2f}, {name_shaped:.0%} name-shaped)")
 
     if corroborated:
@@ -892,6 +1014,15 @@ if __name__ == "__main__":
         ("Cartap Hydrochloride", 0.85, "presidio", False, "chemical"),
         ("Pradhan Mantri Kisan Samman Nidhi", 0.9, "presidio", False,
          "compound scheme name, matched as a phrase"),
+        # LOT 1 administrative areas: block and council names that NER reads
+        # as PERSON because they are short capitalised phrases.
+        ("Kharkutta Block", 0.85, "presidio", False, "block, not a person"),
+        ("Ranikor Block", 0.85, "presidio", False, "block, not a person"),
+        ("Urban Block", 0.85, "presidio", False, "block with a category word"),
+        ("Vaseitlang MC", 0.85, "presidio", False, "municipal council"),
+        ("Khagaria Sadar", 0.85, "presidio", True,
+         "one-off block name is name-shaped; the dataset flag, not the "
+         "detection, is what withholds it"),
         # The LOT 2 offenders the previous rewrite targeted
         ("Urban", 0.997, "presidio", False, "location category, 47% of LOT 2"),
         ("URBAN", 0.997, "presidio", False, "same, different case"),
@@ -1213,12 +1344,34 @@ if __name__ == "__main__":
           for t in ("Rahul Kumar", "Priya Sharma", "Dr. P.M. Mohan", "Amit Verma")],
          {"Name of Awardee": 0.98}, {}, True),
         ("no detections", [], {}, {}, False),
+        # Density: the one-off place names that defeat all three of the
+        # earlier tests. Two names in a 250-row column is not a roster.
+        ("sparse one-off place names do not flag",
+         [{"entity_type": "PERSON", "column": "Indicator", "entity_text": t,
+           "source": "presidio"}
+          for t in ("Buxar Sadar", "Chowki Chowra")],
+         {"Indicator": 1.00}, {}, False, 250),
+        ("a dense roster still flags at the same row count",
+         [{"entity_type": "PERSON", "column": "Name",
+           "entity_text": f"Rahul {chr(97 + i // 26)}{chr(97 + i % 26)}sharma",
+           "source": "presidio"} for i in range(40)],
+         {"Name": 0.98}, {}, True, 250),
+        ("a lone name-shaped value does not corroborate",
+         [{"entity_type": "PERSON", "column": "Indicator",
+           "entity_text": "Mipi Anini", "source": "presidio"}],
+         {"Indicator": 1.00}, {}, False, 4),
+        ("density is skipped when the row count is unknown",
+         [{"entity_type": "PERSON", "column": "Indicator", "entity_text": t,
+           "source": "presidio"}
+          for t in ("Buxar Sadar", "Chowki Chowra")],
+         {"Indicator": 1.00}, {}, True, None),
     ]
-    for label, dets, card, frequencies, expected in flag_cases:
+    for label, dets, card, frequencies, expected, *rest in flag_cases:
+        rows = rest[0] if rest else None
         saved = dict(CROSS_DATASET_COUNTS)
         CROSS_DATASET_COUNTS.update(frequencies)
         try:
-            flagged, reason = evaluate_dataset_flag(dets, card)
+            flagged, reason = evaluate_dataset_flag(dets, card, rows_scanned=rows)
         finally:
             CROSS_DATASET_COUNTS.clear()
             CROSS_DATASET_COUNTS.update(saved)

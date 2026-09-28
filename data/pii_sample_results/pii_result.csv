@@ -1,0 +1,5 @@
+file,label,rows_scanned,pii_found,pii_flag_reason,entity_count,pii_types,columns_scanned,columns_skipped,degraded,error,final_pii_class,class_columns,class_rule_ids
+2023_Q4.csv,,250,True,"regex-verified EMAIL_ADDRESS,FARMER_REGISTRATION_ID,PHONE_NUMBER in KccAns",46,"EMAIL_ADDRESS,FARMER_REGISTRATION_ID,PERSON,PHONE_NUMBER",3,10,False,,no_detections,0,
+7e8c95a6-c26b-4f87-9cb9-13d5133075e2.csv,,0,False,,0,,0,45,False,,no_detections,0,
+86898b0a-edc1-46e6-b675-81204392e03e.csv,,0,False,,0,,0,12,False,,no_detections,0,
+8cfe0afd-08e1-4113-ad2e-742f4277ab01.csv,,0,False,,0,,0,3,False,,no_detections,0,
