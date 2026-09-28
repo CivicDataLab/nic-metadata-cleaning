@@ -14,3 +14,15 @@ scripts/__pycache__/
 /transformation/metadata.db
 /transformation/token.json
 pii_test/__pycache__
+# Lot 3 downloaded files
+lot3_downloads/
+
+# Files over 100MB (GitHub push limit)
+/data/direct_merged/combined_household_houselist_information_under_annual_health_survey.csv
+/data/direct_merged/annual_health_survey_woman_schedule_section_i.csv
+/data/aikosh_missing_downloads/9b8eaebe-8934-4093-b33d-7d0814aae554.csv
+/transformation/metadata.db.*.bak
+/pii_test/pii-test-sample-files/pii-test-sample/pii-present/Combined Household Houselist Information under Annual Health Survey in Tehri Garhwal, Uttarakhand.csv
+/transformation/text_generation/llm_keyword_results.csv
+
+/transformation/vertical_merge_groups.csv
