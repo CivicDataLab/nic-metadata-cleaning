@@ -5,13 +5,38 @@
 # pip install pandas nltk
 
 import re
+import argparse
 import pandas as pd
 
 # ============================================================
 
-INPUT_FILE = "dublin_core_metadata_.csv"
+DEFAULT_INPUT_FILE = "dublin_core_metadata_.csv"
 
-OUTPUT_FILE = "dataset_signatures.csv"
+DEFAULT_OUTPUT_FILE = "dataset_signatures.csv"
+
+# ============================================================
+
+parser = argparse.ArgumentParser(
+    description="Build title signatures (metric / alternative_metrics) for the relation pipeline."
+)
+
+parser.add_argument(
+    "--input",
+    default=DEFAULT_INPUT_FILE,
+    help="Source CSV; must have nid and Title columns."
+)
+
+parser.add_argument(
+    "--output",
+    default=DEFAULT_OUTPUT_FILE,
+    help="Where to write the signature CSV."
+)
+
+args = parser.parse_args()
+
+INPUT_FILE = args.input
+
+OUTPUT_FILE = args.output
 
 # ============================================================
 

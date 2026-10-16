@@ -1,0 +1,810 @@
+U001	Economy; Revenue	rows=609
+   full value(s) it sits in: Economy; Revenue || Economy; Revenue, Finance; Economy || Economy; Revenue, Finance
+   ministry: Rajya Sabha | Ministry of Statistics and Programme Implementation
+   - Plan Outlay And Expenditure For Public Sector By Heads Of Development
+   - Exports, Imports and Trade Balance till 2012-13 (in Rs. Cr.)
+   - Revised Estimates of Expenditure for 2012-2013
+   - Summary of Expenditure
+   - VAT and GST of Muzaffarpur 2014-18
+   - VAT and GST Collection : Bilaspur 2017-18
+U002	Animal Husbandry; Animal Husbandry	rows=249
+   full value(s) it sits in: Animal Husbandry; Animal Husbandry || Agriculture; Crops, Animal Husbandry; Animal Husbandry || Agriculture; Agricultural Produces, Animal Husbandry; Animal Husbandry
+   ministry:  Ministry of Fisheries, Animal Husbandry and Dairying,Department of Animal Husbandry and Dairying | Rajya Sabha
+   - Value of Export of Livestock and Livestock Products from 2011-12 to 2013-14
+   - Time Series Data  Fodder Development Scheme for distribution of Grass Cutter
+   - Details of mules and donkeys by age and sex in rural and urban combined areas for Bihar - 2012
+   - Details of dogs, rabbits and elephants in rural and urban combined for Chhattisgarh - 2012
+   - Number of stray cattle and dogs for Goa - 2012
+   - Number of households and households enterprises owning animals/poultry birds in rural and urban combined for Gujarat - 2012
+U003	Environment and Forest; Air Quality	rows=161
+   full value(s) it sits in: Environment and Forest; Air Quality || Environment and Forest; Ecology, Environment and Forest; Water Quality, Environment and Forest; Air Quality
+   ministry: Rajya Sabha | Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Surat
+   - air quality PM2  PM10 NO2 SO2 CHANDIGARH from 01 01 2017 to 31 12 2018
+   - Air Quality S02,PM2.5,PM10,NO2,O3 : AURANGABAD : 2017-18
+   - Surat : Air Quality Data Limbayat : 2018
+   - AirQualityS02,PM2.5,PM10,NO2,O3 :Thane : As on Jan 2019
+   - Air Quality S02,PM2.5,PM10,NO2,O3 : Nagpur  : 2017-18
+   - Air Quality S02,PM2.5,PM10,NO2,O3 : Shivamogga 2018-19
+U004	Water and Sanitation; Water Quality	rows=109
+   full value(s) it sits in: Water and Sanitation; Water Quality || Environment and Forest; Water Quality, Water and Sanitation; Water Quality || Water and Sanitation; Water Quality, Social Development; Women
+   ministry: Rajya Sabha | Ministry of Environment, Forest and Climate Change, Central Pollution Control Board
+   - Status of Water Quality in India-2011
+   - Water quality of River Mahi and Its Tributary Streams Shivna, Jammer, Malei & Chillar - 2012
+   - Ganga Shravan Abhiyaan Application
+   - Water Quality : 2016 to 2021
+   - Mandal-wise Number of Habitations as Fluoride Affected in Mehboobnagar District of Erstwhile Andhra Pradesh as on 1/4/2013 (From : Ministry of Drinki…
+   - Fluoride Affected Rural Habitations in Telangana Emerged during 2012-13(From : Ministry of Drinking Water & Sanitation)
+U005	Fisheries; Fishery	rows=94
+   full value(s) it sits in: Fisheries; Fishery
+   ministry: Ministry of Fisheries, Animal Husbandry and Dairying, Department of Fisheries
+   - State and Year-wise Physical and Financial Progress of PMMSY scheme - Andaman and Nicobar Islands - 2022-23
+   - Source-wise Inland Fish Production 2014 -2015
+   - Estimated Marine Fish Production-Craft wise by Districts for the year 2013-14 : SHB 2015
+   - Estimated Marine Fish Production Craft Wise by Districts for the Year 2010-11 : SHB 2012
+   - Inland Fish Production by Districts for the Year 2007-08 : SHB 2009
+   - Number of Families Engaged in Fishing in Dharmapuri District : DHB 2017-18
+U006	Power and Energy; Power	rows=60
+   full value(s) it sits in: Power and Energy; Power || Infrastructure; Infrastructure, Power and Energy; Power, Water and Sanitation; Drinking Water, Health and Family welfare; Health, Education; Elementary, Travel and Tourism; Lodging
+   ministry: Rajya Sabha | Ministry of Development of North Eastern Region
+   - Funds Sanctioned, Released & Utilised under North East Special Infrastructure Development Scheme (NESIDS) for Nagaland during last five years
+   - List of ongoing projects with funds status under NLCPR for Mizoram for Power as on date
+   - New power plants presently under construction in Andhra Pradesh (From: Ministry of Power)
+   - State/ UT-wise Sanction-Disbursement status under Integrated Power Development Scheme (IPDS) from 2014-15 to 2016-17 (Ministry of Power)
+   - State/UTs-wise Expenditure for Transmission Schemes (220kV & above) during the 13th plan (2017-22) in Central and State sector from 2016-17 to 2021-22
+   - Month-wise Details of Power Supply Position in the State of Karnataka from April, 2023 to October, 2023
+U007	Energy; Non Renewable	rows=50
+   full value(s) it sits in: Energy; Non Renewable
+   ministry: Rajya Sabha
+   - State-wise Number of Domestic LPG Connections Registered under Direct Benefits Transfer of LPG (DBTL) as on 05.03.2015  (From: Ministry of Petroleum …
+   - Number of established cases of irregularities of LPG distributors of OMCs during 2012-15 (From :Ministry of Petroleum & Natural Gas)
+   - State-Wise Distribution of Coal Bed Methane (CBM) Resources in India as on April 2016 (From: Ministry of Petroleum and Natural Gas)
+   - State/UT-wise subsidy opt out status of LPG consumers as on 20.11.2016 (From:Ministry of Petroleum & Natural Gas)
+   - State/UT-wise LPG Connection Released under Pradhan Mantri Ujjwala Yojana (PMUY) Scheme during 2016-17 to 2017-18 (From: Ministry of Petroleum and Na…
+   - State/UT-wise Details of LPG Consumers who Availed Cash Discount for making Digital Payment during 01.01.2017 to 30.11.2017 (From: Ministry of Petrol…
+U008	Industries; Handloom	rows=50
+   full value(s) it sits in: Industries; Handloom
+   ministry: Rajya Sabha
+   - State/ UT-wise Weavers Benefitted/ Enrolment under the Handloom Weavers Comprehensive Welfare Scheme during 2014-2016 (From: Ministry of Textiles)
+   - No of Societies and Variety wise Production in Karur District : DHB 2017-18
+   - No of Focal Centres and Location Details 2017-18 in Tiruvannamalai District : DHB 2017-18  
+   - Number of Societies and Variety wise Production in Tiruvarur District : DHB 2017-18
+   - Number of Societies and Variety Wise Production and Value in Ramanathapuram District : DHB 2017-18
+   - Number of Societies and Variety wise Production in Virudhunagar District : DHB 2017-18
+U009	Industries; Mining	rows=50
+   full value(s) it sits in: Industries; Mining
+   ministry: Ministry of Mines, Indian Bureau of Mines | Rajya Sabha
+   - Administration of mineral conservation and development rules 1988 from  2013-2014
+   - Administration Of Mineral Conservation And Development Rules, 1988
+   - Area wise status of mining lease distribution (Frequency in Hect) as on 31.03.2014
+   - Export Of Ores And Minerals From 2008-09 To 2010-11
+   - Exports Of Metals And Alloys From 2008-09 To 2010-11
+   - Imports Of Ores And Minerals From 2008-09 To 2010-11
+U010	Energy; Renewable	rows=37
+   full value(s) it sits in: Energy; Renewable
+   ministry: Rajya Sabha | NITI Aayog
+   - Import of machines for solar and wind energy as (in reply to unstarred question on 21-11-2016)(From:Ministry of New & Renewable Energy)
+   - State/UT-wise Consumers Voluntarily Surrendered their LPG Subsidy under GiveItUp Campaign As on 01.03.2018 (From: Ministry of Petroleum and Natural G…
+   - Details of Tenders by National Thermal Power Corporation (NTPC) for Solar Energy (in reply to Unstarred Question on Jan 1, 2019) (From : Ministry of …
+   - State/UT-wise Details of Domestic LPG Sale by Oil Marketing Companies (OMCs) during 2017-18 (From: Ministry of Petroleum and Natural Gas)
+   - District-wise details of LPG connections released in the State of Assam under Pradhan Mantri Ujjwala Yojana (From: Ministry of Petroleum and Natural …
+   - Month-wise Subsidy Claims under Pradhan Mantri Ujjwala Yojana from 2017 to 2020 (From: Ministry of Petroleum and Natural Gas)
+U011	Transport; Roads	rows=32
+   full value(s) it sits in: Transport; Roads
+   ministry: Rajya Sabha
+   - State/ UT-wise Details of Maintenance of National Highways (NHs) (in reply to Unstarred Question for 24-07-2017) (From: Ministry of Road Transport an…
+   - State/UT-wise Allocation for Repair and Maintenance of National Highways from 2015-16 to 2017-18 (From : Ministry of Road Transport and Highways)
+   - Year-wise Progress of the Construction of the National Highways in Kilometres in Kerala and Andhra Pradesh from 2015-16 to 2017-18 (From : Ministry o…
+   - State/UT-wise Details of the Funds allocated and Expenditure incurred for for Maintenance & Repair work of National Highways from 2015-16 to 2017-18 …
+   - State/UT and Agency-wise Funds Allocated/Utilized for Maintenance and Repair of NHs from 2016-17 to 2019-20 (From: Ministry of Road Transport and Hig…
+   - Project-wise Details of Funds Approved and Utilized in Gujarat under Bharatmala Pariyojana Projects during last 5 years (in reply to Unstarred Questi…
+U012	Land Resources; Land Resources	rows=26
+   full value(s) it sits in: Land Resources; Land Resources
+   ministry: Ministry of Rural Development, Department of Land Resources (DOLR)
+   - Physical Progress Status of Computerization / Digitization of Land Records of JAMMU & KASHMIR as on last month
+   - Physical Progress Status of Computerization / Digitization of Land Records of HIMACHAL PRADESH as on previous month
+   - Physical Progress Status of Computerization / Digitization of Land Records of PUNJAB as on previous month
+   - Physical Progress Status of Computerization / Digitization of Land Records of CHANDIGARH as on previous month
+   - Physical Progress Status of Computerization / Digitization of Land Records of UTTARAKHAND as on previous month
+   - Physical Progress Status of Computerization / Digitization of Land Records of HARYANA as on previous month
+U013	Animal Husbandry; Dairying	rows=23
+   full value(s) it sits in: Animal Husbandry; Dairying || Agriculture; Agricultural Produces, Animal Husbandry; Dairying
+   ministry: Rajya Sabha |  Ministry of Fisheries, Animal Husbandry and Dairying,Department of Animal Husbandry and Dairying
+   - Estimates of production and per capita availability of egg during 1950-51 to 2012-13 -All India
+   - Funds Allocated and Spent under various Activities of Rashtriya Gokul Mission (RGM) from 2014-15 to 2018-19 (From : Ministry of Animal Husbandry, Dai…
+   - State-wise Artificial Insemination being done using Sex Sorted Semen as on 4 March, 2020 (From: Ministry of Fisheries, Animal Husbandry and Dairying)
+   - Year-wise Details of Enforcement Samples of Milk Analyzed, found Non-conforming and action taken as per the Department of Animal Husbandry and Dairyi…
+   - State-wise Details of Milk Production per Capita Availability and Sale in Karnataka and the Manner in which this can be Compared with Major Dairying …
+   - District Wise Estimated Milk Production 2016-17 : SHB 2018
+U014	Social Development; Youth Affairs	rows=22
+   full value(s) it sits in: Social Development; Youth Affairs
+   ministry: Rajya Sabha
+   - Funds Released to NGOs Under National Programme for Youth and Adolescent Development (NPYAD) Scheme during 2013-14 (From: Ministry of Youth Affairs a…
+   - State/UT-wise Achievements made on Training on Youth Leadership Community Development (TYLCD) from 2015-16 to 2017-18 (From : Ministry of Youth Affai…
+   - District-wise Number of Youth Benifitted from Vocational Training Centres Sponsored by Department of ST, SC, Minority & BC Class Welfare, Govt. of Jh…
+   - State/UT-wise Beneficiary Target Allocated under Seekho Aur Kamao Scheme (in reply to Unstarred Question on 09 August, 2021)
+   - State/UTs-wise Nai Manzil Scheme - Beneficiaries Provided Placement Support and Post Placement (in reply to Unstarred Question on 20 December, 2021)
+   - Year-wise Funds Allocated and Released under the Scheme of Panchayat Yuva Krida aur Khel Abhiyan (PYKKA) from 2008-09 to 2013-14
+U015	Industries; Sericulture	rows=19
+   full value(s) it sits in: Industries; Sericulture || Industries; Sericulture, Textiles; Sericulture
+   ministry: Ministry of Statistics and Programme Implementation | Rajya Sabha
+   - Year-wise Details of Financial Assistance Provided by CSB to Stakeholders of the Silk Industry, Including Farmers through the State Governments for D…
+   - Component-wise Details of Assistance/ Benefits given to Odisha state under Silk Samgra-2 Scheme during 2021-22 and 2022-23
+   - 4_4.18_b_sericulture_2018_19
+   - District wise Silk Reelers in Karnataka 2016-17
+   - 4.18a_Sericulture(In Nos)
+   - B_Sericulture 2020_21
+U016	Industries; Mining and Quarrying	rows=16
+   full value(s) it sits in: Industries; Mining and Quarrying
+   ministry: 
+   - Classification-Wise Production in Karur District : DHB 2017-18 
+   - Classification Wise Production during the Year 2017-18 in Tiruvannamalai District : DHB 2017-18 
+   - Classification Wise Production during the Year in Ramanathapuram District : DHB 2017-18
+   - Classification-wise Production in Ariyalur District : DHB 2017-18
+   - Classification Wise Production in Dharmapuri District : DHB 2017-18
+   - Classification Wise Production in Theni District : DHB 2017-18
+U017	Petroleum and Natural Gas; Petroleum and Natural Gas	rows=15
+   full value(s) it sits in: Petroleum and Natural Gas; Petroleum and Natural Gas
+   ministry: Ministry of Petroleum and Natural Gas
+   - State/UT-wise Details of Consumption of Furnace Oil from 2017-18 to 2022-23
+   - State/UT-wise Details of Consumption of Lubes & Greases from 2017-18 to 2022-23
+   - Year-wise Details of Consumption of Various Energy Sources in India from 2017-18 to 2022-23
+   - Company-wise Details of Ethanol Blended with Petrol from 2017-18 to 2022-23
+   - Company-wise Details of Quantity of Bio Diesel Blended with Diesel from 2017-18 to 2022-23
+   - Parameter-wise Status on Compressed Bio Gas (CBG) as on 31-03-2023
+U018	Industries; Employment	rows=13
+   full value(s) it sits in: Industries; Employment
+   ministry: Rajya Sabha | Ministry of Skill Development And Entrepreneurship
+   - State/UT-wise Number of Beneficiaries Benefitted and Estimated Employment Created under PMEGP from 2017-18 to 2019-20 (From: Ministry of Micro, Small…
+   - Year-wise Performance under PMEGP Scheme in Rural Areas of the Country from 2018-19 to 2020-21
+   - Year-wise Position of PMEGP in Respect of Rajasthan from 2018-19 to 2021-22
+   - State/UT-wise Performance under PMEGP (Prime Minister Employment Generation Programme) during 2020-21 and 2021-22
+   - State/UT-wise Number of Direct Jobs Created (self-reported) by Startups Recognized by DPIIT as on 30-04-2023
+   - Year-wise Number of Vacancies under Public Sector Undertaking (PSU) from 2018 to 2023
+U019	Industries; Fertilizers	rows=11
+   full value(s) it sits in: Industries; Fertilizers
+   ministry: Rajya Sabha
+   - Target and Actual Production of Urea from 2011-12 to 2015-16 (Ministry of Chemicals and Fertilizers)
+   - Extent of the Private Sector in Fertilizer Production from 2015-16 to 2019-20 (From: Ministry of Chemicals and Fertilizers)
+   - Arrear Pending and Released to Fertilizer Companies in India from 2017-18 to 2019-20 (From: Ministry of Chemicals and Fertilizers)
+   - Year-wise details of Urea Production in the Country from 2015-16 to 2019-20 (From: Ministry of Chemicals and Fertilizers)
+   - Location-wise Urea Units where Natural Gas is being Used/Ready to Use in Place of Naphtha (in reply to Unstarred Question on 12 March, 2021) (From: M…
+   - Plant-wise Production of Urea during 2020-21
+U020	Fisheries; Fisheries	rows=10
+   full value(s) it sits in: Fisheries; Fisheries
+   ministry: Ministry of Fisheries, Animal Husbandry and Dairying, Department of Fisheries
+   - State and Year-wise Physical and Financial Progress of PMMSY scheme - Himachal Pradesh - 2022-23
+   - State and Year-wise Physical and Financial Progress of PMMSY scheme - Nagaland - 2022-23
+   - State and Year-wise Physical and Financial Progress of PMMSY scheme - Rajasthan - 2022-23
+   - State and Year-wise Physical and Financial Progress of PMMSY scheme - Uttarakhand - 2022-23
+   - State and Year-wise Physical and Financial Progress of PMMSY scheme - Andhra Pradesh - 2020-21
+   - State and Year-wise Physical and Financial Progress of PMMSY scheme - Sikkim - 2020-21
+U021	Industries; Statistics	rows=9
+   full value(s) it sits in: Industries; Statistics
+   ministry: Ministry of Statistics and Programme Implementation
+   - NIC 2 Digit Level Weights of all India Index of Industrial Production for the base year 2004-05
+   - Estimated number of other service enterprises in different States/UTs
+   - Estimated number of trading enterprises in different States/UTs
+   - Use Based weights of all India Index of Industrial Production for the base year 2004-05
+   - Annual Survey Of Industries (Factory Sector)-Selected Characteristics By Industry Group for 2009-10
+   - Use Based Category wise annual indices of all-India Index of Industrial Production from 2012-13 to 2016-17
+U022	Industries; Handicrafts	rows=8
+   full value(s) it sits in: Industries; Handicrafts
+   ministry: Rajya Sabha
+   - State/ UT-wise Fund Released under Various Schemes Implemented by DC (Handicrafts) during 2016-17 upto January, 2017 (From: Ministry of Textiles)
+   - State/UT-wise Artisans Benefitted under various schemes of office of Development Commissioner (Handicrafts) from 2016-17 to 2018-19 (From: Ministry o…
+   - State-wise List of Training Programme Conducted and Amount Sanctioned under HRD Scheme (Handicraft Sector) during 2017-18 and 2018-19 (From: Ministry…
+   - Details of Allocation/Expenditure and Financial Status of SC/ST in the Handloom /Handicraft sector from 2014-15 to 2018-19 (From: Ministry of Textile…
+   - Year-wise Details of the Amount Sanctioned under Ambedkar Hastshilp Vikas Yojana (AHVY) from 2021-22 to 2023-24
+   - Year-wise Total Number of Artisans Benefited From Schemes of Office of Development Commissioner (Handicrafts) and SAMARTH from 2019-20 to 2024-25
+U023	Commerce; Consumer Affairs	rows=7
+   full value(s) it sits in: Commerce; Consumer Affairs
+   ministry: Rajya Sabha
+   - Number of Complaints Received under National Consumer Helpline from 2016-17 to 2018-19 (From: Ministry of Consumer Affairs, Food and Public Distribut…
+   - State/UT-wise Cases Filed in Consumer Commissions during 2019 and 2020
+   - State/UTs-wise State Consumer Disputes Redressal Commissions (SCDRCs) from 2018 to 2020
+   - Sector-wise Total Number of Complaints Registered by the Consumers through the Customer Helpline Numbers at the Complaint Centres of the Service Prov…
+   - State/UT-wise Count for Grievances Regarding Fraudulent Transactions, Registered with the National Consumer Helpline from 2019-20 to 2021-22
+   - Year-wise Number of Consumer Grievances Registered and Resolved under National Consumer Helpline (NCH) in Odisha from 2019-20 to 2023-24
+U024	Animal Husbandry; Health	rows=6
+   full value(s) it sits in: Animal Husbandry; Health
+   ministry: Rajya Sabha
+   - State/UT-wise Funds Released under Livestock Health and Disease Control Scheme during 2018-19 (From: Ministry of Fisheries, Animal Husbandry and Dair…
+   - State/UT-wise Details of Funds Released for Spending on the Development of the Livestock Sector under Livestock Health and Disease Control from 2019-…
+   - Vaccination of Animals in Karnataka for the year 2020-21
+   - Number of Veterinary Hospitals in Pudukkottai District : DHB 2017-18
+   - Number of Veterinary Hospitals in Thanjavur District : DHB 2017-18
+   - Number of Veterinary Hospitals in Cuddalore District : DHB 2018-19
+U025	Industries; Fisheries	rows=5
+   full value(s) it sits in: Industries; Fisheries
+   ministry: Rajya Sabha
+   - State-wise Funded Fishing Harbour Projects have been Completed (in reply to Unstarred Question on 19 July, 2021)
+   - State/UT-wise Details of the Fishermen Population in India during 2020-21
+   - Infrastructure in Private Sector in Dharmapuri District : DHB 2017-18
+   - Infrastructure in Private Sector in Kanniyakumari District : DHB 2018-19
+U026	Industries; Handlooms	rows=5
+   full value(s) it sits in: Industries; Handlooms
+   ministry: 
+   - Number of Focal Centres and Location Details in Sivaganga District : DHB 2017-18
+   - Name of Focal Centres and Location Details in Thanjavur District : DHB 2017-18
+   - Name and Number of Focal Centres and its Location Details in Thoothukudi District : DHB 2017-18
+U027	Water Resources; Water Quality	rows=5
+   full value(s) it sits in: Water and Sanitation; Drinking Water, Water Resources; Water Quality || Water Resources; Water Quality
+   ministry: Ministry of Jal Shakti | Ministry of Environment, Forest and Climate Change, Central Pollution Control Board
+   - Water quality of tributary streams Yagachi, Hemavati, Shimsa, Akravati, Lakshmantirtha, Kabbani, Bhavani, Kalinganarayan Canal, Sarabanga & Thirumani…
+   - Water Quality Affected Habitations As On 1st April 2010
+   - Water Quality Testing Laboratories As On 15 April 2013
+U028	Defence; Defence Products	rows=4
+   full value(s) it sits in: Defence; Defence Products
+   ministry: Rajya Sabha | Ministry of Defence, Department of Defence Production
+   - Foreign Investment in defence Sector (From : Ministry of Defence)
+   - Defence Public Sector Undertakings (DPSUs)-wise Private shareholding in the Defence Sector from 2017-18 to 2021-22
+   - Year-wise Quantum of Import and Export Carried out in Defence Sector from 2017-18 to 2021-22
+   - Defence Production from 2016-17 to 2024-25
+U029	Governance and Administration; Enforcement Organizations	rows=4
+   full value(s) it sits in: Governance and Administration; Enforcement Organizations
+   ministry: 
+   - Classifications of Prisons (Prisons and Convicts) 2013-2015
+   - Cognizable Offence under Indian Penal Code 2009 : SHB 2011 
+   - Police Force 2007 : SHB 2009
+   - Cognizable Offences Under Indian Penal Code in Kancheepuram District : DHB 2017-18
+U030	Industries; Research & Development	rows=4
+   full value(s) it sits in: Industries; Research & Development
+   ministry: Rajya Sabha
+   - City-wsie Total of six Atal Incubation Centres (AICs) has been setup in Tamil Nadu under Atal Innovation Mission from 15 March, 2017 to 21 October, 2…
+   - State/UT-wise Atal Incubation Centres (AIC) Established from 2017 to 2022
+   - Year-wise Details of Budgetary Outlay to Fund Research and Development (R&D) in the Coal Sector from 2019-20 to 2023-24
+   - Year-wise Details of Funds Allocated and Utilized under R&D Component Scheme of Pradhan Mantri Kisan Sampada Yojana (PMKSY) from 2019-20 to 2023-24
+U031	Infrastructure; Power and Energy	rows=4
+   full value(s) it sits in: Infrastructure; Power and Energy || Infrastructure; Power and Energy, Urban; Development
+   ministry: Ministry of Development of North Eastern Region
+   - List of Completed Projects under Non-Lapsable Central Pool of Resources (NLCPR) for Arunachal Pradesh for Power
+   - List of ongoing projects with funds status under NLCPR for Arunachal Pradesh for Power as on Date
+   - Street Light Data within Coimbatore
+U032	Police; Enforcement Organizations	rows=4
+   full value(s) it sits in: Police; Enforcement Organizations
+   ministry: Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)
+   - City-wise Number of Crime/Atrocities against Scheduled Tribe(s) in Metropolitan Cities during 2022
+   - State/UT-wise Number of Indian Penal Code (IPC) and Special and Local Laws (SLL) Crimes against Children during 2022
+   - State/UT-wise Number of Crime/Atrocities against Scheduled Caste(s) during 2022
+   - Crime Head-wise and States/UT-wise Crime/Atrocities against Scheduled Tribe(s) during 2023
+U033	Power and Energy; Petroleum and Natural Gas	rows=4
+   full value(s) it sits in: Power and Energy; Petroleum and Natural Gas
+   ministry: Rajya Sabha | Ministry of Petroleum and Natural Gas
+   - Refinery-wise and Product-wise Production of Petroleum Products during 2014-15
+   - Distributorship Area-wise Refill Ceiling Limit and Feasibility Limit of different types of Distributorships As per Unified Guidelines for Selection o…
+   - Project-wise Details of Current LPG Pipeline Expansion Projects and Joint Ventures (JV) Companies Formed for Implementation of Expansion of Liquefied…
+U034	Rural; Rural Development	rows=4
+   full value(s) it sits in: Rural; Rural Development
+   ministry: Rajya Sabha | Ministry of Panchayati Raj
+   - State/UT-wise Details of delayed compensation paid by State Governments under MGNREGA during 2018-19 (From : Ministry of Rural Development)
+   - State/UT-wise Expenditure Reported in Management Information System (MIS) under MGNREGA from 2014-15 to 2018-19 (From: Ministry of Labour and Employm…
+   - State/UT-wise Details of Funds Sanctioned and Released under Start-up Village Entrepreneurship Programme (SVEP) a Sub-scheme under (DAY-NRLM) from 20…
+   - State-wise/District-wise Allocation and Funds released under Development Grant & Capacity Building Grant Components of Backward Regions Grant Fund (B…
+U035	Rural; Rural Housing	rows=4
+   full value(s) it sits in: Rural; Rural Housing || Rural; Rural Housing, Urban; Urban Housing
+   ministry: Rajya Sabha | Ministry of Statistics and Programme Implementation
+   - Financial and Physical Progress under Indira Awaas Yojana (IAY) during 2014-15
+   - Funds allocated, utilised and houses constructed under Indira Awaas Yojana from 2012-13 to 2015-16 (From :Ministry of Rural Development)
+   - State/UT-wise Allocation of the Total Number of Houses and Budget Sanctioned and Amount Released from 2017-18 to 2019-20 (From: Ministry of Rural Dev…
+   - Physical Performance of Indira Awaas Yojana During Eleventh Plan From 2007-08 To 2011-12
+U036	Social Development; Health	rows=4
+   full value(s) it sits in: Social Development; Health
+   ministry: Rajya Sabha
+   - State/UT-wise Number of Inspection Conducted under the Scheme for Prevention of Alcoholism and Substance (Drugs) Abuse from 2016-17 to 2019-20 (From:…
+   - State/UT-wise Number of Beneficiaries under the Scheme for Prevention of Alcoholism and Substance DRUGS Abuse during 2018-19 (From: Ministry of Socia…
+   - State/UT-wise De-addiction and Rehabilitation Centres (IRCAs), being Funded by Ministry under NAPDDR (in reply to Unstarred Question on 17 March, 202…
+   - State/UTs-wise Human Live Lost due to Cyclonic Storms/ Heavy Rains/ Floods/Landslides etc. during 2021-22
+U037	Tourism; Tourism	rows=4
+   full value(s) it sits in: Tourism; Tourism
+   ministry: Rajya Sabha
+   - List of Prioritized Project Proposals Received during 2012-13 to 2014-15 (upto December 2014) (From: Ministry of Tourism)
+   - Year-wise Details of Projects Sanctioned under Swadesh Darshan Scheme from 2016-17 to 2018-19
+   - Project-wise Details of Projects Sanctioned under Swadesh Darshan scheme in Uttar Pradesh as on 28-02-2025
+U038	Agriculture; Family Welfare	rows=3
+   full value(s) it sits in: Agriculture; Family Welfare
+   ministry: Rajya Sabha
+   - State/UT-wise and Installment-wise Number of Beneficiaries of PM-KISAN Scheme during 1st April 2020 to 31st July 2020 (From: Ministry of Agriculture …
+   - State/UT-wise and Financial Year-wise Data of Failed Payment Transfer under PM-KISAN Scheme from 2019-20 to 2021-22
+   - State/UTs-wise Number of Farmer Benefitted-Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) Scheme from 2018-19 to 2020-21
+U039	Animal Husbandry; Crops	rows=3
+   full value(s) it sits in: Animal Husbandry; Crops
+   ministry:  Ministry of Fisheries, Animal Husbandry and Dairying,Department of Animal Husbandry and Dairying
+   - District wise Details of Backyard Poultry, 2007 - Tamil Nadu
+   - District wise Details of Backyard Poultry, 2007 - Uttar Pradesh
+   - Poultry Development in Salem District : DHB 2017-18
+U040	Animal Husbandry; Poultry Development	rows=3
+   full value(s) it sits in: Animal Husbandry; Poultry Development
+   ministry: 
+   - Poultry Development 2017-18 in Tiruvannamalai District : DHB 2017-18
+   - Poultry Development in Kanniyakumari District : DHB 2018-19
+   - Poultry Development in Cuddalore District : DHB 2018-19
+U041	Art and Culture; Museums	rows=3
+   full value(s) it sits in: Art and Culture; Museums
+   ministry: Rajya Sabha
+   - Museums/Organization-wise Sanctioned Posts Vacant (in reply to Unstarred Question on 16 December, 2021)
+   - Year-wise Details of Ongoing Project and Amount Released for the Establishment of Museums under Museum Grant Scheme in the State of Odisha from 2013-…
+   - Year-wise Details of Ongoing Project and Amount Released for Establishment/Creation and Maintenance of Museums in the State of Odisha from 2013-14 to…
+U042	Commerce; Revenue	rows=3
+   full value(s) it sits in: Commerce; Revenue
+   ministry: 
+   - District-wise Revenue Collection under Medicines Toilet Soap and other Preparation in Punjab from 1986 to 2018 (As on March)
+   - District-wise Revenue Collection under Other Receipts in Punjab from 1986 to 2018 (As on March)
+   - District-wise Revenue Collection under Amount Refunded in Punjab from 1992 to 2018 (As on March)
+U043	Economy; Employment	rows=3
+   full value(s) it sits in: Economy; Employment
+   ministry: NITI Aayog
+   - State-wise employment in public Sector till March 2011
+   - State-wise employment in local bodies of public Sector till March 2011
+   - State-wise employment in private sector having 25 or more workers till March 2011
+U044	Energy; Petroleum and Natural Gas	rows=3
+   full value(s) it sits in: Energy; Petroleum and Natural Gas
+   ministry: Rajya Sabha
+   - District-wise Refills Delivered to PMUY Beneficiaries under PMGKP in the State of Tamil Nadu (in reply to Unstarred Question on 10 March, 2021) (From…
+   - Month-wise Retails Selling Price (RSP) of Domestic Liquefied Petroleum Gas (LPG) (at Delhi) from 01 April, 2017 to 06 July 2022
+   - Particulars-wise Details of Subsidy on Liquefied Petroleum Gas (LPG) given by Government from 2017-18 to 2021-22
+U045	Energy; Power and Energy	rows=3
+   full value(s) it sits in: Energy; Power and Energy
+   ministry: Rajya Sabha
+   - Year-wise Number of Beneficiaries under Direct Benefits Transfer for LPG (DBTL) Pratyaksh Hanstantrit Labh (PAHAL) Scheme, 2014 from as on 01.04.2018…
+   - State/UT-wise Details of Liquefied Petroleum Gas (LPG) Connections Released under Pradhan Mantri Ujjwala Yojana (PMUY) Scheme as on 01-01-2023
+   - Year-wise Details of Liquefied Petroleum Gas (LPG) Distributorships Commissioned by Public Sector Oil Marketing Companies (OMCs) across All Types of …
+U046	Environment and Forest; Wetlands	rows=3
+   full value(s) it sits in: Environment and Forest; Wetlands
+   ministry: Rajya Sabha
+   - List of wetlands identified under National Wetlands Conservation Programme/National Plan for Conservation of Aquatic Eco-systems during 2016 (From: M…
+   - State-wise Wetland Distribution in India (in reply to Unstarred Question on 25-07-2016) (Ministry of Environment, Forest and Climate Change )
+   - State/UT-wise List of 130 Wetlands Identified for Rejuvenation and Restoration of Wetlands (in Reply to Unstarred Question as on 02-02-2023)
+U047	Mining	rows=3
+   full value(s) it sits in: Mining
+   ministry: Ministry of Mines, Indian Bureau of Mines
+   - Status of state-wise registration under rule 45 of MCDR,1988 as on 20.03.2014
+   - Status of state-wise registration under rule 45 of MCDR,1988 as on 31.03.2017
+   - Mineral wise Revenue Collected from 2014-15 to 2024-25
+U048	Statistics	rows=3
+   full value(s) it sits in: Statistics
+   ministry: 
+   - Authorised Automobile Repair and Service Stations in Erode District : DHB 2017-18
+   - Authorised Automobiles Repair and Service Stations in Dharmapuri District : DHB 2017-18
+   - Authorised Automobiles Repair and Service Stations in Kanniyakumari District : DHB 2017-18
+U049	Agriculture; Fodder Crops	rows=2
+   full value(s) it sits in: Agriculture; Fodder Crops
+   ministry: 
+   - Area under Elephant Grass by Districts in Tamil Nadu 2017-18
+   - Area under Giniya Grass by Districts in Tamil Nadu 2018-19
+U050	Agriculture; Health	rows=2
+   full value(s) it sits in: Agriculture; Health
+   ministry: Rajya Sabha
+   - State/UT-wise Financial Assistance Provided by the Government to under Mission for Integrated Development (MIDH) from 2014-15 to 2016-17 (From: Minis…
+   - State/UT-wise Ineligible Beneficiaries and Amount Disbursed (in reply to Unstarred Question on 12 March, 2021) (From: Ministry of Agriculture and Far…
+U051	Agriculture; Public Distribution	rows=2
+   full value(s) it sits in: Agriculture; Public Distribution
+   ministry: Rajya Sabha
+   - State/UT-wise details of Eligible Beneficiaries Uploaded in the PM-KISAN Portal as on 17-09-2020 (From: Ministry of Agriculture and Farmers Welfare)
+   - State/UT-wise Detail of Amount Released under Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) from 2018-19 to 2022-23
+U052	All  (no sector given - classify this one dataset from its title)	rows=1
+   full value(s) it sits in: All
+   ministry: Rajya Sabha
+   - State-wise Active Training Centres (TCs) under DDUGKY (in reply to Unstarred Question on 13 March, 2020) (From: Ministry of Rural Development)
+U053	All  (no sector given - classify this one dataset from its title)	rows=1
+   full value(s) it sits in: All
+   ministry: Rajya Sabha
+   - Operational CPSU-wise Details of Salary and Retirement Due as on February 2025
+U054	Animal Husbandry; Poultry	rows=2
+   full value(s) it sits in: Animal Husbandry; Poultry
+   ministry: Rajya Sabha
+   - Details of Physical and Financial Progress of Poultry components under National Livestock Mission from 2016-17 to 2018-19 (From: Ministry of Fisherie…
+   - Amount of Subsidy Provided for Setting-up of Poultry Farms/Unit from 2017-18 to 2020-21 (From: Ministry of Fisheries, Animal Husbandry and Dairying)
+U055	Census; Census	rows=2
+   full value(s) it sits in: Census; Census
+   ministry: Rajya Sabha
+   - State-wise the Total Number of Census Towns in the Country in Census, 2011 (Ministry of Urban Development)
+   - Hindu and Muslim Religion Wise Population Census 2011
+U056	Energy and Power; Petroleum and Natural Gas	rows=2
+   full value(s) it sits in: Energy and Power; Petroleum and Natural Gas
+   ministry: Rajya Sabha
+   - State/UT-wise Details of Liquefied Petroleum Gas (LPG) Connections Refills Delivered to PMUY Scheme Beneficiaries in Dausa and Karauli Districts of R…
+   - Year-wise Details of the Subsidy on Domestic Liquefied Petroleum Gas (LPG) given by Government from 2017-18 to 2021-22
+U057	Energy; Power	rows=2
+   full value(s) it sits in: Energy; Power
+   ministry: Rajya Sabha
+   - State-wise Bonds Floated by UDAY of Debt/Loan of their Distribution Companies (DISCOMs) as existing as on 30th November, 2015 (From: Ministry of Powe…
+   - State-wise Details of Electrification under Revamped Distribution Sector Scheme (RDSS) (PVTG+Addl HHs+ Vibrant Village Program) under Pradhan Mantri …
+U058	Environment and Forest; Soil and Water Conservation	rows=2
+   full value(s) it sits in: Environment and Forest; Soil and Water Conservation
+   ministry: Rajya Sabha
+   - State-wise salt affected soils in India (From : Ministry of Agriculture & Farmers Welfare)
+   - District-wise Production of Vermi Compost in Punjab from 2000 to 2022
+U059	Environment and Forest; Wet life	rows=2
+   full value(s) it sits in: Environment and Forest; Wet life
+   ministry: Ministry of Environment, Forest and Climate Change | Rajya Sabha
+   - Details of Ramsar Sites - Wetlands
+   - State/UT-wise Details of Wetlands Designated as Ramsar Site during 2022-23
+U060	Food; Food Processing	rows=2
+   full value(s) it sits in: Food; Food Processing
+   ministry: Rajya Sabha
+   - State/UT-wise Projects Approved by MoFPI under Integrated Cold Chain & Value Addition Infrastructure Scheme (in reply to Unstarred Question on 12 Mar…
+   - Project-wise Projects Approved in Karnataka State under Component Schemes of Pradhan Mantri Kisan SAMPADA Yojana (PMKSY) along with Grants Released M…
+U061	Industries; Dairying	rows=2
+   full value(s) it sits in: Industries; Dairying
+   ministry: Rajya Sabha
+   - State/UT-wise Funds Released under National Programme for Dairy Development (NPDD) during 2018-19 (From: Ministry of Fisheries, Animal Husbandry and …
+   - Year-wise Number of Organized Dairy Cooperative Societies Increased from 2019-20 to 2023-24
+U062	Industries; Entrepreneurship Development	rows=2
+   full value(s) it sits in: Industries; Entrepreneurship Development
+   ministry: Rajya Sabha
+   - Project-wise Details of Funds Disbursed and Utilised for Entrepreneurship Development from 2018-19 to 2023-24
+   - State-wise Number of Enterprises Started under Pilot Project for Entrepreneurship Development Program during 2022-23
+U063	Industries; Trade promotion	rows=2
+   full value(s) it sits in: Industries; Trade promotion
+   ministry: 
+   - EXPORT DATA
+   - EXPORT STATISTICS
+U064	Power; Renewable	rows=2
+   full value(s) it sits in: Power; Renewable
+   ministry: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Naya Raipur | Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Thanjavur
+   - Streetlights : Atalnagar : As on Jan 2019
+   - Street Lights Data Thanjavur March 2019
+U065	Revenue; Revenue	rows=2
+   full value(s) it sits in: Revenue; Revenue
+   ministry: 
+   - District-wise percentage of utilisation of funds in Punjab under MPLAD scheme from 1968 to 2022 (As on Dec.)
+   - District-wise Percentage of completed works in Punjab under MPLAD scheme from 1968 to 2022 (As on Dec.)
+U066	Rural: Development	rows=2
+   full value(s) it sits in: Rural: Development
+   ministry: Rajya Sabha
+   - State/UT wise Fund Released under MKSP of M/o Rural Development from 2018-19 to 2020-21
+   - State/UT-wise Fund Released under Mahila Kisan Sashaktikaran Pariyojana (MKSP) of Ministry of Rural Development from 2017-18 to 2022
+U067	Rural >> Statistics	rows=2
+   full value(s) it sits in: Rural; Development, Statistics
+   ministry: Ministry of Statistics and Programme Implementation
+   - All India Physical Progress of Rural Roads under Bharat Nirman from 2005-06 to 2014-15
+   - State-wise Resource Centres at Block Level Sanctioned under Capacity Building Component of BRGF and RGSY as on 31.3.2011 to 30.06.2012
+U068	Tourism; Lodging	rows=2
+   full value(s) it sits in: Tourism; Lodging
+   ministry: Rajya Sabha
+   - State-wise Projects Sanctioned under the PRASHAD Schemes in the State of Uttar Pradesh from 2014-15 to 2018-19
+   - State-wise Details of Projects Sanctioned under Swadesh Darshan in Madhya Pradesh and Rajasthan (in reply to Unstarred Question as on 28 November 202…
+U069	Tourism; Places	rows=2
+   full value(s) it sits in: Tourism; Places
+   ministry: Rajya Sabha
+   - State-wise Projects Sanctioned Under Rural and Spiritual Circuits Theme of Swadesh Darshan Scheme (in reply to Unstarred Question on 16 December, 202…
+   - State/UTs-wise Financial Assistance Provided for Organizing Fairs/Festivals and Tourism Related Events under Domestic Promotion and Publicity includi…
+U070	Transport; Port Employment	rows=2
+   full value(s) it sits in: Transport; Port Employment
+   ministry: Ministry of Ports, Shipping and Waterways
+   - Employment at Major Ports from 2001 to 2025
+   - State-wise Employment at Non-Major Ports from 2001 to 2025
+U071	Transport; Ports	rows=2
+   full value(s) it sits in: Transport; Ports
+   ministry: Rajya Sabha
+   - Course/Year-wise Persons Trained at JNPT and ChPT during 2019
+   - Major Port-wise Details of Cargo Handling Capacity from 2021-22 to 2023-24
+U072	Travel and Tourism; Tourism	rows=2
+   full value(s) it sits in: Travel and Tourism; Tourism
+   ministry: Ministry of Development of North Eastern Region | Rajya Sabha
+   - List of ongoing projects with funds status under NLCPR for Nagaland for Tourism & Culture as on date
+   - Details of CFA to Maharashtra Regarding Fund Allocation and Revenue Generated from Tourism Sector from 2016-17 to 2017-18 (From: Ministry of Tourism)
+U073	Dairying; Dairying	rows=1
+   full value(s) it sits in: Agriculture; Animal Husbandry, Dairying; Dairying, Animal Husbandry; Fishery
+   ministry:  Ministry of Fisheries, Animal Husbandry and Dairying,Department of Animal Husbandry and Dairying
+   - Scheme-wise Outlay and Expenditure during 2013-14 for Department of Animal Husbandry, Dairying and Fisheries
+U074	Horticulture; Horticulture	rows=1
+   full value(s) it sits in: Agriculture; Crops, Horticulture; Horticulture
+   ministry: Ministry of Statistics and Programme Implementation
+   - All India and State Wise Area and Production of Vegetables
+U075	Agriculture; Fishery	rows=1
+   full value(s) it sits in: Agriculture; Fishery
+   ministry:  Ministry of Fisheries, Animal Husbandry and Dairying,Department of Animal Husbandry and Dairying
+   - Training of Overseas Candidates at CIFNET, Kochi as on 30.09.2013
+U076	Agriculture; Fodder	rows=1
+   full value(s) it sits in: Agriculture; Fodder
+   ministry: Rajya Sabha
+   - State/UT-wise Estimates of Demand and Supply of Green Fodder (in Reply to Unstarred Question on 31 March, 2023)
+U077	Agriculture; Fodder Development	rows=1
+   full value(s) it sits in: Agriculture; Fodder Development
+   ministry: 
+   - Fodder Development : SHB 2019
+U078	Agriculture; Oil Seed Production	rows=1
+   full value(s) it sits in: Agriculture; Oil Seed Production
+   ministry: Rajya Sabha
+   - Seed type -wise Oil Seed Production in the Country from 2018-19 to 2022-23
+U079	Agriculture; Oilseeds and Oil Palm	rows=1
+   full value(s) it sits in: Agriculture; Oilseeds and Oil Palm
+   ministry: Rajya Sabha
+   - State-wise Allocation and Release of Funds under Integrated Scheme of Oilseeds Pulses Oil Palm and Maize ISOPOM and National Mission on Oilseeds and …
+U080	Sericulture; Sericulture	rows=1
+   full value(s) it sits in: Agriculture; Sericulture, Sericulture; Sericulture
+   ministry: 
+   - District wise Silk Reelers in Karnataka
+U081	Agriculture; Statistics	rows=1
+   full value(s) it sits in: Agriculture; Statistics
+   ministry: 
+   - Number of Operational Holdings : SHB 2019
+U082	Animal Husbandry; Animal Health	rows=1
+   full value(s) it sits in: Animal Husbandry; Animal Health
+   ministry: 
+   - Number of Veterinary Hospitals in Kanniyakumari District : DHB 2018-19
+U083	Animal Husbandry; Animal Welfare	rows=1
+   full value(s) it sits in: Animal Husbandry; Animal Welfare
+   ministry: Rajya Sabha
+   - AWBI Provides Grant-in-aid to AWOs for maintenance of animal shelters, purchase of medical equipment and conducting of veterinary camps etc. during 2…
+U084	Commerce; Agricultural Marketing	rows=1
+   full value(s) it sits in: Commerce; Agricultural Marketing
+   ministry: 
+   - District wise Cooperative Marketing Societies in Madhya Pradesh as of 30th July 2015
+U085	Commerce; Corporate governance	rows=1
+   full value(s) it sits in: Commerce; Corporate governance
+   ministry: Rajya Sabha
+   - District-wise Corporate Social Responsibility (CSR) Expenditure in Madhya Pradesh by Public Sector Undertaking (PSUs) from 2019-20 to 2020-21
+U086	Commerce; Retail	rows=1
+   full value(s) it sits in: Commerce; Retail
+   ministry: Rajya Sabha
+   - State/UTs-wise Number of Retail Outlets Set up (Commissioned) in the Country from 2019-20 to 2022-22, (April to September) 2022
+U087	Culture; Heritage	rows=1
+   full value(s) it sits in: Culture; Heritage
+   ministry: Rajya Sabha
+   - Language-wise Details of Funds Released to the Classical Langauge from 2020-21 to 2024-25
+U088	Defence; Research and Development	rows=1
+   full value(s) it sits in: Defence; Research and Development
+   ministry: Rajya Sabha
+   - Year-wise Total Spending on R and D (Research and Development) in the Defence Sector, as a Percentage of GDP (Gross Domestic Product) from 2017-18 to…
+U089	Development; Urban	rows=1
+   full value(s) it sits in: Development; Rural, Development; Urban
+   ministry: Ministry of Education, Department of Higher Education
+   - NBA-Physical and financial progress
+U090	Development; Rural	rows=1
+   full value(s) it sits in: Development; Rural, Development; Urban
+   ministry: Ministry of Education, Department of Higher Education
+   - NBA-Physical and financial progress
+U091	Energy and Family welfare; Health	rows=1
+   full value(s) it sits in: Energy and Family welfare; Health
+   ministry: Rajya Sabha
+   - Year-wise Number of Cash Transfer Compliant (CTC) Beneficiaries under Direct Benefit Transfer for LPG (DBTL) from 2022-23 to 2025-26
+U092	Environment and Forest; Air Pollution	rows=1
+   full value(s) it sits in: Environment and Forest; Air Pollution
+   ministry: Rajya Sabha
+   - State/UTs-wise Cities Showing Increased Concentration (22 cities) of PM10 from - 2017-2018 to 2020-2021
+U093	Environment and Forest; Research & Development	rows=1
+   full value(s) it sits in: Environment and Forest; Research & Development
+   ministry: Rajya Sabha
+   - Year-wise Details of Fund Allocated and Utilized under Environmental Research and Development Programme (ERDP) scheme from 2021-22 to 2023-24
+U094	Environment; Ecology	rows=1
+   full value(s) it sits in: Environment; Ecology
+   ministry: Ministry of Housing and Urban Affairs, Smart Cities Mission, Mizoram, Aizawl
+   - Monthly Number of Days :  2020 to 2021
+U095	Food; Agricultural Produces	rows=1
+   full value(s) it sits in: Food; Agricultural Produces
+   ministry: 
+   - Area under Onion by Districts in Tamil Nadu 2016-17
+U096	Food; Fisheries	rows=1
+   full value(s) it sits in: Food; Fisheries
+   ministry: Rajya Sabha
+   - Port-wise and Year-wise Export of Marine Products in the Country during 2019-20 and 2020-21
+U097	Health and Family welfare >> Statistics	rows=1
+   full value(s) it sits in: Health and Family welfare; Health, Statistics
+   ministry: Ministry of Statistics and Programme Implementation
+   - Administrative Structure And Rural Health Infrastructure
+U098	Health and Family welfare; Residential Air Pollution	rows=1
+   full value(s) it sits in: Health and Family welfare; Residential Air Pollution
+   ministry: 
+   - Kolhapur City Air Quality Monitoring Data from Jan 2025 to December 2025
+U099	Health and Family welfare; Sanitation	rows=1
+   full value(s) it sits in: Health and Family welfare; Sanitation
+   ministry: Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Shivamogga
+   - Solid Waste Disposal Data : Shivamogga 2018-19
+U100	Health and Family welfare; Women	rows=1
+   full value(s) it sits in: Health and Family welfare; Women
+   ministry: Rajya Sabha
+   - State/UT-wise Women Trained under the ITIs during 2014-18 (From: Ministry of Skill Development and Entrepreneurship)
+U101	Housing; Drinking Water	rows=1
+   full value(s) it sits in: Housing; Drinking Water
+   ministry: Ministry of Statistics and Programme Implementation
+   - Percentage Distribution Of Rural And Urban Households By Source Of Drinking Water
+U102	Industries; Agricultural Produces	rows=1
+   full value(s) it sits in: Industries; Agricultural Produces
+   ministry: Rajya Sabha
+   - State/UT-wise Details of Number of Products Identified under ODOP (in Reply to Unstarred Question on 21 July, 2023)
+U103	Industries; Animal Husbandry	rows=1
+   full value(s) it sits in: Industries; Animal Husbandry
+   ministry: Rajya Sabha
+   - Year-wise Funds Released and Expenditure Incurred under Rashtriya Gokul Mission in Uttar Pradesh Including Firozabad, Agra and Mainpuri Districts fro…
+U104	Industries; Coal	rows=1
+   full value(s) it sits in: Industries; Coal
+   ministry: Rajya Sabha
+   - Consumer-wise Quantity of Coal Allocated and Lifted by the FSA Consumers from South Eastern Coal Fields Limited from 2014-15 to 2019-20 (From: Minist…
+U105	Industries; Coal India Limited (CIL)	rows=1
+   full value(s) it sits in: Industries; Coal India Limited (CIL)
+   ministry: Rajya Sabha
+   - Number of Outsourcing Companies Engaged in Coal Production under Coal India limited (CIL) (in reply to Unstarred Question on 8 February, 2021) (From:…
+U106	Industries; Companies	rows=1
+   full value(s) it sits in: Industries; Companies
+   ministry: Rajya Sabha
+   - Details of companies to which Funds have been released by MNRE in various schemes under solar programmes (in reply to Unstarred Question on 18.12.201…
+U107	Industries; Cotton	rows=1
+   full value(s) it sits in: Industries; Cotton
+   ministry: Rajya Sabha
+   - Year-wise Demand and Consumption of Cotton in India from 2016-17 to 2021-22
+U108	Industries; Electronics Manufacturing	rows=1
+   full value(s) it sits in: Industries; Electronics Manufacturing
+   ministry: Rajya Sabha
+   - Location-wise Projects under Electronics Manufacturing Clusters (EMC) Scheme and Modi?ed Electronics Manufacturing Clusters (EMC 2.0) Scheme in Telan…
+U109	Industries; Entrepreneurship	rows=1
+   full value(s) it sits in: Industries; Entrepreneurship
+   ministry: Rajya Sabha
+   - Programme-wise Projects Sanctioned Women Entrepreneurship Development Programme (WEDP), Technology based Entrepreneurship Development Programme (TEDP…
+U110	Industries; Entrepreneurship Development Programme (EDP)	rows=1
+   full value(s) it sits in: Industries; Entrepreneurship Development Programme (EDP)
+   ministry: 
+   - EDP Year wise 2005 to 2014 of Madhya Pradesh
+U111	Industries; Handloom and Handicrafts	rows=1
+   full value(s) it sits in: Industries; Handloom and Handicrafts
+   ministry: Rajya Sabha
+   - State/UT-wise Number of Beneficiaries Including Women/SC/ST/OBC Weavers/Artisans under Schemes of Handloom and Handicraft Sectors from 2019-20 to 202…
+U112	Industries; Handloom and Powerloom	rows=1
+   full value(s) it sits in: Industries; Handloom and Powerloom
+   ministry: 
+   - Number of Families Engaged in Handloom and Powerloom in Sivaganga District : DHB 2017-18
+U113	Industries; Handloom and Textiles	rows=1
+   full value(s) it sits in: Industries; Handloom and Textiles
+   ministry: 
+   - Number of Families Engaged in Salem District : DHB 2018-19
+U114	Industries; Industrial Infrastructure Upgradation Scheme	rows=1
+   full value(s) it sits in: Industries; Industrial Infrastructure Upgradation Scheme
+   ministry: Rajya Sabha
+   - State-wise Details of fund sanctioned/Allocated/released and utilized along with progress under IIUS, Recast IIUS (in reply to Unstarred Question on …
+U115	Industries; Infrastructure Development	rows=1
+   full value(s) it sits in: Industries; Infrastructure Development
+   ministry: Rajya Sabha
+   - Year-wise Projects Approved under ID and CFC under Cluster Development Programme (in reply to Unstarred Question on 09 August, 2021)
+U116	Industries >> Small and Medium Enterprises	rows=1
+   full value(s) it sits in: Industries; Micro, Small and Medium Enterprises
+   ministry: Rajya Sabha
+   - Budget Allocation for the Ministry of MSME during 2018-19 and 2019-20 (From: Ministry of Micro, Small and Medium Enterprises)
+U117	Industries; Mining Accidents	rows=1
+   full value(s) it sits in: Industries; Mining Accidents
+   ministry: Rajya Sabha
+   - Number of Mining Accidents from 2018 to 2020 (From: Ministry of Mines)
+U118	Industries; Mining and Mineral Development	rows=1
+   full value(s) it sits in: Industries; Mining and Mineral Development
+   ministry: Rajya Sabha
+   - State/UTs-wise Detail of Projects under Pradhan Mantri Khanij Kshetra Kalyan Yojana (PMKKKY) till May 2022
+U119	Industries; Non Renewable	rows=1
+   full value(s) it sits in: Industries; Non Renewable
+   ministry: Rajya Sabha
+   - Year-wise Details of the Foreign Direct investment (FDI) Equity Inflow Reported in the Non-Conventional Energy Sector from 2019-20 to 2022-23
+U120	Industries; Skill Development	rows=1
+   full value(s) it sits in: Industries; Skill Development
+   ministry: Rajya Sabha
+   - District-wise Number of Candidates Enrolled Under Craftsmen Training Scheme (CTS) in Chhattisgarh from 2020 to 2022
+U121	Industries; Skill India Mission (SIM)	rows=1
+   full value(s) it sits in: Industries; Skill India Mission (SIM)
+   ministry: Rajya Sabha
+   - Scheme-wise Numbers of Training Centres (TCs) under the Skill India Mission (SIM) in Odisha from 2019-20 to 2023-24
+U122	Industries; Tea	rows=1
+   full value(s) it sits in: Industries; Tea
+   ministry: Rajya Sabha
+   - State/District and Gender-wise Tea Garden Workers in North Eastern Region as per the Baseline Survey Conducted by the Tea Board during 2018
+U123	Industries; Telecommunications	rows=1
+   full value(s) it sits in: Industries; Telecommunications
+   ministry: Rajya Sabha
+   - Total Debt of the Telecom industry As per the inter-Ministerial Group Report as on 31 August, 2017 (From: Ministry of Communications)
+U124	Industries; Textile	rows=1
+   full value(s) it sits in: Industries; Textile
+   ministry: Rajya Sabha
+   - State/ UT-wise release of Subsidy under Technology Upgradation Fund Scheme (TUFS) during 2014-15 to 2016-17 (From: Ministry of Textiles)
+U125	Industries; Textile Workers Rehabilitation Fund Scheme	rows=1
+   full value(s) it sits in: Industries; Textile Workers Rehabilitation Fund Scheme
+   ministry: Rajya Sabha
+   - State/UT-wise disbursement of fund under Textile Workers Rehabilitation Fund Scheme (TWRFS) (in reply to Unstarred Question on 4th July, 2019) (From:…
+U126	Industries; Vocational Training	rows=1
+   full value(s) it sits in: Industries; Vocational Training
+   ministry: Ministry of Skill Development And Entrepreneurship
+   - District-wise Enrolled and Assessed in  Jan Shikshan Sansthan (JSS) as on 27 April, 2022
+U127	Information and Communications; Broadcasting	rows=1
+   full value(s) it sits in: Information and Communications; Broadcasting
+   ministry: 
+   - Radio Stations in Tamil Nadu : SHB 2014
+U128	Information and Communications; Print Media	rows=1
+   full value(s) it sits in: Information and Communications; Print Media
+   ministry: 
+   - Number of Printing Press in the District in Tiruvarur District : DHB 2017-18
+U129	Infrastructure; Irrigation	rows=1
+   full value(s) it sits in: Infrastructure; Dams, Infrastructure; Irrigation
+   ministry: 
+   - Details of Dams, Tanks, Wells and Bore Wells in Kancheepuram District : DHB 2017-18
+U130	Infrastructure; Water Quality	rows=1
+   full value(s) it sits in: Infrastructure; Dams, Infrastructure; Water Quality
+   ministry: 
+   - Details of Dams, Tanks, Wells and Bore Wells in Tiruvallur District : DHB 2017-18
+U131	Infrastructure; Infrastructure	rows=1
+   full value(s) it sits in: Infrastructure; Infrastructure, Power and Energy; Power, Water and Sanitation; Drinking Water, Health and Family welfare; Health, Education; Elementary, Travel and Tourism; Lodging
+   ministry: Ministry of Development of North Eastern Region
+   - Funds Sanctioned, Released & Utilised under North East Special Infrastructure Development Scheme (NESIDS) for Nagaland during last five years
+U132	Infrastructure; Ports	rows=1
+   full value(s) it sits in: Infrastructure; Ports
+   ministry: 
+   - Commodity Wise Details Of Import, Export and Value Of Cargo Handled At Minor Ports Of Karnataka During The Year 2018-19
+U133	Infrastructure; Railways	rows=1
+   full value(s) it sits in: Infrastructure; Railways
+   ministry: Rajya Sabha
+   - Project-wise Under Construction New Line Projects, Sanctioned from 2016-17 to 2020-21
+U134	Infrastructure >> Skill Development	rows=1
+   full value(s) it sits in: Infrastructure; Roads, Skill Development
+   ministry: Rajya Sabha
+   - State-wise Number of Infrastructural Development and Skill Development Interventions Approved and Sanctioned during 2022-23 and 2023-24
+U135	Labour and Employment; Enforcement Organizations	rows=1
+   full value(s) it sits in: Labour and Employment; Enforcement Organizations
+   ministry: Rajya Sabha
+   - Enforcement of Labour Laws in Central Sphere Establishments from 2011-12 to 2014-15 (Upto Dec, 2014) (From : Ministry of Home Affairs)
+U136	Land Resources; Land Records	rows=1
+   full value(s) it sits in: Land Resources; Land Records
+   ministry: Ministry of Rural Development, Department of Land Resources (DOLR)
+   - Status of Computerization of Land Records
+U137	Parliament Of india; State Legislative	rows=1
+   full value(s) it sits in: Parliament Of india; State Legislative
+   ministry: Ministry of Statistics and Programme Implementation
+   - Election To The Vidhan Sabhas (State Legislative Assemblies) upto 2013 - States
+U138	Petroleum and Natural Gas; LNG Terminals	rows=1
+   full value(s) it sits in: Petroleum and Natural Gas; LNG Terminals
+   ministry: Ministry of Petroleum and Natural Gas
+   - Terminal-wise Details of Liquefied Natural Gas (LNG) Terminals in India from 2017-18 to 2022-23
+U139	Petroleum and Natural Gas; LPG Distributors	rows=1
+   full value(s) it sits in: Petroleum and Natural Gas; LPG Distributors
+   ministry: Ministry of Petroleum and Natural Gas
+   - State/UT-wise Number of Liquified Petroleum Gas (LPG) Distributors from 2018 to 2023
+U140	Petroleum and Natural Gas; Pipelines	rows=1
+   full value(s) it sits in: Petroleum and Natural Gas; Pipelines
+   ministry: Ministry of Petroleum and Natural Gas
+   - Category-wise Details of Existing Major Liquified Petroleum Gas (LPG) & Petroleum Products Pipelines in India during 2021-22 and 2022-23
+U141	Places; Places	rows=1
+   full value(s) it sits in: Places; Places
+   ministry: 
+   - AAI Policy Statistical Data from June 2023 to December 2025
+U142	Police; Police	rows=1
+   full value(s) it sits in: Police; Police
+   ministry: Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)
+   - Crime Head-wise and City-wise Total Indian Penal Code (IPC) Crimes in Metropolitan Cities during 2023
+U143	Power; Power	rows=1
+   full value(s) it sits in: Power; Power
+   ministry: Rajya Sabha
+   - Category-wise Capital Investment of Nuclear Power Corporation of India Limited (NPCIL) along with the Electricity Generation from 2018-19 to 2020-21
+U144	Urban; Urban Housing	rows=1
+   full value(s) it sits in: Rural; Rural Housing, Urban; Urban Housing
+   ministry: NITI Aayog
+   - Physical Performance of Indira Awaas Yojana During Eleventh Plan From 2007-08 To 2011-12
+U145	Science and Technology >> Mining	rows=1
+   full value(s) it sits in: Science and Technology; Earth Sciences, Geo Technology, Research & Development, Polar Science, Marine Science, Coastal & Island, Mining
+   ministry: Ministry of Mines, Geological Survey of India
+   - Geological Quadrangle Maps of India information from 1997 to 2014
+U146	Social Development; Elderly	rows=1
+   full value(s) it sits in: Social Development; Elderly
+   ministry: Rajya Sabha
+   - State/UT-wise Camps Organised and Number of Beneficiaries Covered under 'Rashtriya Vayoshri Yojana (RVY)' Scheme 2017-18 to 2019-20 (From: Ministry o…
+U147	Transport; Air Transport	rows=1
+   full value(s) it sits in: Transport; Air Transport
+   ministry: Ministry of Civil Aviation
+   - City Pair wise Domestic Passenger Traffic Statistics for the Month of January, 2017
+U148	Transport; Airfares	rows=1
+   full value(s) it sits in: Transport; Airfares
+   ministry: Rajya Sabha
+   - Sector-wise Details of Airfares from the Airport in Uttar Pradesh and Bihar to Other Cities in the country during 2024
+U149	Transport; Sea Transport	rows=1
+   full value(s) it sits in: Transport; Sea Transport
+   ministry: Ministry of Road Transport and Highways
+   - Growth of Overseas Fleet of S.C.I. - by Type As on 31st December from 1992 to 1996
+U150	Water Resources; Irrigation	rows=1
+   full value(s) it sits in: Water Resources; Irrigation
+   ministry: Rajya Sabha
+   - Details of 99 priority Projects under Accelerated Irrigation Benefits Programme (AIBP) (in reply to starred question for 09.05.2016)(From : Ministry …
+U151	Transport; Modes of Travel	rows=1
+   full value(s) it sits in: Water Resources; Surface Water, Transport; Modes of Travel, Social Development; Tribal, Urban; Development
+   ministry: Ministry of Jal Shakti,Department of Water Resources, River Development & Ganga Rejuvenation
+   - Shape files of Inter-Basin Transfer link 
+U152	Irrigation; Irrigation	rows=1
+   full value(s) it sits in: Water and Sanitation; Drinking Water, Irrigation; Irrigation
+   ministry: 
+   - Pune Division District wise Rainfall data from June-2021 to September-2025
+U153	Water and Sanitation; Ground Water	rows=1
+   full value(s) it sits in: Water and Sanitation; Ground Water
+   ministry: 
+   - District-wise Digital Water Level Recorder under National Hydrology Project (NHP) as on 03-12-2025

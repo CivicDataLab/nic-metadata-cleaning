@@ -1,0 +1,37 @@
+id	better_title	convention	reason
+lot2n3:6482913	Status of Mother and Child Tracking System (MCTS)	2	stray space before closing bracket
+lot2n3:6183595	List of Backward Classes (BC), Most Backward Classes (MBC) and Denotified Communities (DNC) in Tamil Nadu	2	missing spaces before abbreviations
+lot2n3:6183628	Public Distribution System (PDS): Fair Price Shops in Tamil Nadu	2	missing space before (PDS)
+lot2n3:85979	Asset Register belonging to Corporation : Coimbatore	3	single city, topic first
+lot2n3:6187411	Atal Mission for Rejuvenation and Urban Transformation (AMRUT): Details of Under Ground Sewerage Schemes (UGSS)	2	missing space before (AMRUT)
+lot2n3:6187413	Atal Mission for Rejuvenation and Urban Transformation (AMRUT): Progress on development of Parks in various ULBs (year-wise)	2	missing space before (AMRUT)
+lot2n3:6187407	Atal Mission for Rejuvenation and Urban Transformation (AMRUT): State Annual Action Plans (SAAP) for Tamil Nadu	2	missing spaces before (AMRUT) and (SAAP)
+lot2n3:6183660	Commissionerate of Municipal Administration (CMA): Regional Offices and ULBs Address Details	2	missing space before (CMA)
+lot2n3:87661	Educational Institutions : Coimbatore	3	single city, topic first
+lot2n3:88157	General Infrastructure : Coimbatore	3	single city, topic first
+lot2n3:88791	Landmark Data : Coimbatore	3	single city, topic first
+lot2n3:111415	Utility GIS Data : Pudukottai Municipality	3	single town, topic first, municipality name kept at end
+lot2n3:90804	Road Data : Coimbatore	3	single city, topic first
+lot2n3:111416	Utility GIS Data : Sivaganga Municipality	3	single town, topic first, municipality name kept at end
+lot2n3:92028	Street Light Data : Coimbatore	3	single city, topic first
+lot2n3:111414	Utility GIS Data : Tambaram Municipality	3	single town, topic first, municipality name kept at end
+lot2n3:111315	Educational Institutions Data : Tiruchirappalli Corporation	3	single city corporation, topic first
+lot2n3:111316	Landmarks GIS Data : Tiruchirappalli Corporation	3	single city corporation, topic first
+lot2n3:602919450	COVID : Davangere	3	city spelled as publisher
+lot2n3:602912420	ITC Nighbourhood : Davangere	3	city spelled as publisher
+lot2n3:602912612	VAT and GST : Davangere	3	city spelled as publisher
+lot2n3:602917174	ITC Neighbourhood 1 : Greater Warangal	3	city spelled as publisher
+lot2n3:602917176	ITC Neighbourhood 2 : Greater Warangal	3	city spelled as publisher
+lot2n3:602917178	ITC Neighbourhood 3 : Greater Warangal	3	city spelled as publisher
+lot2n3:602918705	Ambient Air Quality Data for Heavy Metals Lead (Pb) & Nickel (Ni)-Feb : Guwahati	2	missing spaces before (Pb) and (Ni)
+lot2n3:602918707	Ambient Air Quality Data for Heavy Metals Lead (Pb) & Nickel (Ni)-March : Guwahati	2	missing spaces before (Pb) and (Ni)
+lot2n3:602913302	ITC Neighbourhood : Hubli Dharwad	3	city spelled as publisher
+lot2n3:602917577	WARD WISE D.C.B Of HUBLI DIVISION : Hubli Dharwad	3	city spelled as publisher
+lot2n3:602910904	ITC Neighbourhood : Kalyan Dombivali	3	city spelled as publisher
+lot2n3:602914582	VAT & GST : Kalyan Dombivali	3	city spelled as publisher
+lot2n3:602919550	COVID 19 : Naya Raipur	3	city spelled as publisher
+lot2n3:602911736	VAT and GST Collection : Naya Raipur	3	city spelled as publisher
+lot2n3:602914324	VAT / GST collection : Puduchery	3	city spelled as publisher
+lot2n3:602918879	ITC Neighbourhood : Tiruchirapalli	3	city spelled as publisher
+lot2n3:602916089	VAT & GST from : Tiruchirapalli	3	city spelled as publisher
+lot2n3:602918522	ITC Neighbourhood : Tiruvanantapuram	3	city spelled as publisher

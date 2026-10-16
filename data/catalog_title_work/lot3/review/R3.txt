@@ -1,0 +1,693 @@
+== OWNER: Sikkim / Department of Economics, Statistics, Monitoring & Evaluation
+[1110] new = old: Comparative Statistical figures of Male and Female of Sikkim with India
+[1111] new = old: Compilation of Statistical Data
+[1112] new = old: Socio Economic Census
+[1113] new = old: State Domestic Product - Sikkim
+
+== OWNER: Sikkim / Health Care, Human Services and Family Welfare Department, Sikkim
+[1114] new = old: Health Infrastructure
+[1115] new = old: Health Status
+[1116] new = old: Infant, Child and Maternal Deaths
+[1117] new = old: Status of 3 Ante Natal Checkup (ANC)
+[1118] new = old: Status of Family Planning (FP) Performance
+[1119] new = old: Status of Institutional Delivery (HMIS)
+[1120] new = old: Status of Mother and Child Tracking System (MCTS )
+
+== OWNER: Sikkim / Human Resource Development Department, Sikkim
+[1121] new = old: District & Block-wise Enrolment
+[1122] new = old: Human Resource Development (HRD) Summary
+[1123] new = old: List of Schools
+[1124] new = old: School By Management And Category
+[1125] new = old: School Category
+[1126] new_catalog_title: School Details : Sikkim
+      old_catalog_title (1):
+        - School Details
+[1127] new = old: School Facility Details
+[1128] new = old: School Infrastructure Details
+[1129] new = old: Schools List
+[1130] new = old: Student Enrolment in Government School
+[1131] new = old: Total Teacher
+
+== OWNER: Sikkim / Rural Management and Development Department, Sikkim
+[1132] new = old: Beneficiaries through Photo Survey
+[1133] new = old: Division-wise Target Set of Houses Sanctioned
+[1134] new = old: Houses under Progress and Houses Completed
+[1135] new = old: Prime Minister Gram Sadak Yojna (PMGSY)
+
+== OWNER: Tamil Nadu / Adi Dravidar and Tribal Welfare Department
+[1136] new = old: Contact details of District Adi Dravidar Welfare Officers (DADWO) in Tamil Nadu
+[1137] new = old: Contact details of the Officials of Tamil Nadu Adi Dravidar Housing and Development Corporation (TAHDCO) Limited
+
+== OWNER: Tamil Nadu / Agriculture Department
+[1138] new_catalog_title: Area, Production & Productivity of Flowers by District-wise in Tamil Nadu
+      old_catalog_title (6):
+        - Area, Production & Productivity of Flowers by District-Wise in Tamil Nadu for the Year 2012-13
+        - Area, Production & Productivity of Flowers by District-wise in Tamil Nadu for the Year 2015-16
+        - Area, Production and Productivity of Flowers by District-Wise in Tamil Nadu for the Year 2011-12
+        - Area, Production and Productivity of Flowers by District-Wise in Tamil Nadu for the Year 2013-14
+        - Area, Production and Productivity of Flowers by District-Wise in Tamil Nadu for the Year 2014-15
+        - Area, Production and Productivity of Flowers by District-Wise in Tamil Nadu for the Year 2016-17
+[1139] new_catalog_title: Area, Production & Productivity of Fruits by District-wise in Tamil Nadu
+      old_catalog_title (6):
+        - Area, Production & Productivity of Fruits by District-wise in Tamil Nadu for the Year 2015-16
+        - Area, Production and Productivity of Fruits by District-Wise in Tamil Nadu for the Year 2011-12
+        - Area, Production and Productivity of Fruits by District-Wise in Tamil Nadu for the Year 2012-13
+        - Area, Production and Productivity of Fruits by District-Wise in Tamil Nadu for the Year 2013-14
+        - Area, Production and Productivity of Fruits by District-Wise in Tamil Nadu for the Year 2014-15
+        - Area, Production and Productivity of Fruits by District-Wise in Tamil Nadu for the Year 2016-17
+[1140] new_catalog_title: Area, Production & Productivity of Horticulture and Plantation Crops in Tamil Nadu
+      old_catalog_title (6):
+        - Area, Production & Productivity of Horticulture and Plantation Crops in Tamil Nadu for the Year 2013-14
+        - Area, Production & Productivity of Horticulture and Plantation Crops in Tamil Nadu for the Year 2014-15
+        - Area, Production & Productivity of Horticulture and Plantation Crops in Tamil Nadu for the Year 2015-16
+        - Area, Production and Productivity of Horticulture and Plantation Crops in Tamil Nadu for the Year 2011-12
+        - Area, Production and Productivity of Horticulture and Plantation Crops in Tamil Nadu for the Year 2012-13
+        - Area, Production and Productivity of Horticulture and Plantation Crops in Tamil Nadu for the Year 2016-17
+[1141] new_catalog_title: Area, Production & Productivity of Medicinal and Aromatic Plants by District-Wise in Tamil Nadu
+      old_catalog_title (5):
+        - Area, Production & Productivity of Medicinal and Aromatic Plants by District-Wise in Tamil Nadu for the Year 2012-13
+        - Area, Production & Productivity of Medicinal and Aromatic Plants by District-Wise in Tamil Nadu for the Year 2013-14
+        - Area, Production and Productivity of Medicinal and Aromatic Plants by District-Wise in Tamil Nadu for the Year 2011-12
+        - Area, Production and Productivity of Medicinal and Aromatic Plants by District-Wise in Tamil Nadu for the Year 2014-15
+        - Area, Production and Productivity of Medicinal and Aromatic Plants by District-Wise in Tamil Nadu for the Year 2016-17
+[1142] new = old: Area, Production & Productivity of Medicinal Crops by District-wise in Tamil Nadu for the Year 2015-16
+[1143] new_catalog_title: Area, Production & Productivity of Plantation Crops by District-wise in Tamil Nadu
+      old_catalog_title (6):
+        - Area, Production & Productivity of Plantation Crops by District-Wise in Tamil Nadu for the Year 2012-13
+        - Area, Production & Productivity of Plantation Crops by District-Wise in Tamil Nadu for the Year 2013-14
+        - Area, Production & Productivity of Plantation Crops by District-wise in Tamil Nadu for the Year 2015-16
+        - Area, Production and Productivity of Plantation Crops by District-Wise in Tamil Nadu for the Year 2011-12
+        - Area, Production and Productivity of Plantation Crops by District-Wise in Tamil Nadu for the Year 2014-15
+        - Area, Production and Productivity of Plantation Crops by District-Wise in Tamil Nadu for the Year 2016-17
+[1144] new_catalog_title: Area, Production & Productivity of Spices & Condiments by District-wise in Tamil Nadu
+      old_catalog_title (6):
+        - Area, Production & Productivity of Spices & Condiments By District-Wise In Tamil Nadu For The Year 2013-14
+        - Area, Production & Productivity of Spices & Condiments by District-wise in Tamil Nadu for the Year 2015-16
+        - Area, Production and Productivity of Spices and Condiments by District-Wise in Tamil Nadu for the Year 2011-12
+        - Area, Production and Productivity of Spices and Condiments by District-Wise in Tamil Nadu for the Year 2012-13
+        - Area, Production and Productivity of Spices and Condiments by District-Wise in Tamil Nadu for the Year 2014-15
+        - Area, Production and Productivity of Spices and Condiments by District-Wise in Tamil Nadu for the Year 2016-17
+[1145] new_catalog_title: Area, Production & Productivity of Vegetables by District-wise in Tamil Nadu
+      old_catalog_title (6):
+        - Area, Production & Productivity of Vegetables by District-Wise in Tamil Nadu for the Year 2013-14
+        - Area, Production & Productivity of Vegetables by District-wise in Tamil Nadu for the Year 2015-16
+        - Area, Production and Productivity of Vegetables by District-Wise in Tamil Nadu for the Year 2011-12
+        - Area, Production and Productivity of Vegetables by District-Wise in Tamil Nadu for the Year 2012-13
+        - Area, Production and Productivity of Vegetables by District-Wise in Tamil Nadu for the Year 2014-15
+        - Area, Production and Productivity of Vegetables by District-Wise in Tamil Nadu for the Year 2016-17
+
+== OWNER: Tamil Nadu / Animal Husbandary, Darirying and Fisheries Department
+[1146] new = old: Contact particulars of Officials at various categories of Animal Husbandry and Veterinary Services department
+[1147] new = old: Details of Animal Husbandry Divisions, Veterinary Polyclinics / Hospitals / Dispensaries/ Mobile Veterinary Units and Sub-centres in Tamil Nadu.
+[1148] new = old: Details of different schemes announced for the beneficiaries by Animal Husbandry and Veterinary Services Department
+[1149] new = old: Details of Fund allocated for Medicine, Infrastructure and Institutions under Animal Husbandry and Veterinary Services Department
+[1150] new = old: Details of Institutions under Tamil Nadu University of Vetarinary and Animal Sciences (TANUVAS)
+[1151] new = old: Details of Milk, Egg and Meat Production by Districts in Tamil Nadu from 2009-10 to 2018-19
+[1152] new = old: Disease Prevention and Treatment Strategies by Animal Husbandry and Veterinary Services Department.
+[1153] new = old: District wise list of Veterinary Polyclinics, Clinician Centers and Veterinary Hospitals in Tamil Nadu
+[1154] new = old: Estimates of Livestock Sector at Current and Constant Prices in Tamil Nadu
+[1155] new = old: Insemination Techniques for different Breeds maintained in the departmental farms by Animal Husbandry and Veterinary Services Department
+[1156] new = old: Percentage Share of Tamil Nadu in Leather Exports
+[1157] new_catalog_title: Tamil Nadu Fisheries at a Glance
+      old_catalog_title (3):
+        - Tamil Nadu Fisheries at a Glance 2018-19
+        - Tamil Nadu Fisheries at a Glance 2019-20
+        - Tamil Nadu Fisheries at a Glance 2020-21
+[1158] new = old: Tamil Nadu Livestock Census and beneficiaries under National Livestock Insurance by Animal Husbandry and Veterinary Services Department
+
+== OWNER: Tamil Nadu / Backward Classes Most Backward Classes and Minorities Welfare Department
+[1159] new = old: Details of Minority Hostels in Tamil Nadu
+[1160] new = old: District-wise list of BC/MBC & DNC/MW Hostels in Tamil Nadu with Student Strength (Sanctioned & Admitted (2015-16))
+[1161] new = old: Grant-In-Aid for Repair and Renovation of Churches in Tamil Nadu
+[1162] new = old: Kallar Reclamation Schools in Tamil Nadu
+[1163] new = old: List of Backward Classes(BC), Most Backward Classes(MBC) and Denotified Communities(DNC) in Tamil Nadu
+[1164] new = old: Sanction of Fund under Matching Grant Scheme for Muslim Women Aid Society in Tamil Nadu from 2014-15 to 2018-19
+[1165] new = old: Scheme-wise Loan Disbursement details by Tamil Nadu Minorities Economic Development Corporation Limited (TAMCO) by districts in Tamil Nadu
+[1166] new = old: Scheme-wise Performance Details of Ulemas and Other Employees Welfare Board in Tamil Nadu
+[1167] new = old: Time Series Data - Financial Assistance for Jerusalem Pilgrimage in Tamil Nadu from 2013-14 to 2017-18
+[1168] new = old: Year Wise Scholarship Schemes available for the students under Minorities Welfare in Tamil Nadu
+
+== OWNER: Tamil Nadu / Co-operation, Food and Consumer Protection Department
+[1169] new = old: Details of Banks, Cooperative and Multipurpose Societies under Registrar of Cooperative Societies in Tamil Nadu
+[1170] new = old: Public Distribution System(PDS): Fair Price Shops in Tamil Nadu
+
+== OWNER: Tamil Nadu / Energy Department
+[1171] new = old: Contact Details of TANGEDCO Officials
+[1172] new = old: Details of various Field Offices of Tamil Nadu Electrical Inspectorate
+[1173] new = old: Division-wise HT(High Tension) Installation
+[1174] new = old: List of approved Lift Companies for Maintenance
+[1175] new = old: List of approved Lift Erection and Maintenance Companies
+[1176] new = old: TANGEDCO: Region Wise List of Fuse of Call Centres
+
+== OWNER: Tamil Nadu / Environment and Forests Department
+[1177] new = old: Details of TNPCB Zonal Offices, District Offices and Flying Squads headed by Environmental Engineer in Tamil Nadu
+[1178] new = old: District-wise Forest Cover of Tamil Nadu
+
+== OWNER: Tamil Nadu / Handlooms, Handicrafts and Textiles Department
+[1179] new = old: Details of various Circle Offices of Hand-looms and Textiles Department and the list of Weavers Cooperative Societies in Tamil Nadu
+
+== OWNER: Tamil Nadu / Health and Family Welfare Department
+[1180] new = old: Birth and Death Registrars under Civil Registration System in Tamil Nadu
+[1181] new = old: Blood Banks (Govt./Private/ESI) in Tamil Nadu
+[1182] new = old: Blood Storage Centers (Govt./Private) in Tamil Nadu
+[1183] new = old: Cases and Deaths due to the Acute Diarrhoeal Diseases (ADD) / Cholera from the year 1997 to 2018 in Tamil Nadu
+[1184] new = old: Civil Registration System Annual Report during the period from 2001 to 2017
+[1185] new = old: Contact Numbers of Public Health Department in Chennai and other Districts
+[1186] new = old: COVID-19: Category Wise list of Hospitals, Health Centres and Care Centres by Districts in Tamil Nadu
+[1187] new_catalog_title: COVID-19: Statistics of Tamil Nadu
+      old_catalog_title (711 in all, 6 shown):
+        - COVID-19 : Statistics of Tamil Nadu as on 23/09/2021 (Source: Media Bulletin dated 23.09.2021)
+        - COVID-19: Statistics of Tamil Nadu as on 06/06/2021 (Source: Media Bulletin dated 06.06.2021)
+        - COVID-19: Statistics of Tamil Nadu as on 12/08/2021 (Source: Media Bulletin dated 12.08.2021)
+        - COVID-19: Statistics of Tamil Nadu as on 18/12/2020 (Source: Media Bulletin dated 18/12/2020)
+        - COVID-19: Statistics of Tamil Nadu as on 25/03/2022 (Source: Media Bulletin dated 25.03.2022)
+        - COVID-19: Statistics of Tamil Nadu as on 31/12/2021 (Source: Media Bulletin dated 31.12.2021)
+[1188] new = old: Details of Grant of License, Renewal of License in respect of Ayurveda, Siddha and Unani Drugs
+[1189] new = old: Details of Medical Institutions and Colleges under Indian Systems of Medicine and Homeopathy (ISM & H) in Tamil Nadu
+[1190] new = old: Details of Medical Seat Admission for Under Graduate (UG) and Post Graduate (PG) Courses under Indian Systems Medicine and Homeopathy in Tamil Nadu
+[1191] new = old: Details showing the COVID 19 Testing Laboratories, COVID Health Facilities, COVID Sample Collection Centres and COVID Vaccination Centres across Districts in Tamil Nadu
+[1192] new = old: DME: Statistics on IP, OP, Surgeries, Deliveries, Sterilisations, Accident and Emergency Cases for the years 2013 - 2017
+[1193] new = old: Dosage Chart and Treatment Schedule for Malaria - Age Group wise in Tamil Nadu
+[1194] new = old: Drug Manufacturing Companies in Tamil Nadu
+[1195] new = old: Drug Testing Laboratories in Tamil Nadu
+[1196] new = old: Fee Structure for Registration of Births and Deaths in Tamil Nadu as per G.O 12-10-2017
+[1197] new = old: Homeopathic Manufacturing Units in Tamil Nadu
+[1198] new = old: Hypertension and Diabetes Patients Treated under Indian Systems Medicine and Homeopathy (ISM & H) from 01.04.2018 to 31.03.2019
+[1199] new = old: Immunization Schedule, Immunization Performance and Incidence of Other Vaccine Preventable diseases in Tamil Nadu
+[1200] new = old: Japanese Encephalitis Cases and Deaths during the period 2012-2018 in Tamil Nadu
+[1201] new = old: Licensed Cosmetics Manufacturing Agencies in Tamil Nadu
+[1202] new = old: List of Medical Institutions under the control of Directorate of Medical and Rural Health Services (DMRHS), Tamil Nadu
+[1203] new = old: List of Non-COVID Essential Services, District wise in Tamil Nadu
+[1204] new = old: List of Scan Centres (CT / MRI / LITHO) in Tamil Nadu
+[1205] new = old: Number of Out Patients and In Patients Treated in ISM & H wings from 1996 to 2019 (Till March 2019)
+[1206] new = old: Out-Patients and In-Patients treated under various Categories of Indian Systems Medicine and Homeopathy (ISM & H) from April 2018 to March 2019
+[1207] new = old: Population of Tamil Nadu as per Census 2011 covering Growth rate, sex ratio and Literacy rate
+[1208] new = old: Primary Health Centres month wise Performance from 2010-11 To 2018-19
+[1209] new = old: Rashtriya Bal Swasthya karyakram Performance in Tamil Nadu
+[1210] new = old: Recognised Medical Institutions (RMI) in Tamil Nadu
+[1211] new_catalog_title: Report on the COVID 19 Vaccination Coverage across Health Unit district wise in Tamil Nadu
+      old_catalog_title (504 in all, 6 shown):
+        - Report On The COVID 19 Vaccination Coverage Across Health Unit District Wise In Tamil Nadu As On 03.12.2021
+        - Report on the COVID 19 Vaccination Coverage across Health Unit district wise in Tamil Nadu as on 07.04.2021
+        - Report on the COVID 19 Vaccination Coverage across Health Unit district wise in Tamil Nadu as on 13.06.2021
+        - Report on the COVID 19 Vaccination Coverage across Health Unit district wise in Tamil Nadu as on 19.04.2021
+        - Report on the COVID 19 Vaccination Coverage across Health Unit district wise in Tamil Nadu as on 25.05.2021
+        - Title:Report on the COVID 19 Vaccination Coverage across Health Unit district wise in Tamil Nadu as on 20.06.2021
+[1212] new = old: School Health Programme Physical Achievements during the period 2010-2015
+[1213] new = old: Statistics on the various activities by Directorate of Medical Education in Tamil Nadu
+
+== OWNER: Tamil Nadu / Higher Education Department
+[1214] new = old: List of Polytechnic Colleges in Tamil Nadu
+[1215] new = old: List of Study Centres under Tamil Nadu Open University in 2020
+
+== OWNER: Tamil Nadu / Highways and Minor Ports Department
+[1216] new = old: State and National Highways in Tamil Nadu
+
+== OWNER: Tamil Nadu / Home, Prohibition and Excise Department
+[1217] new = old: Details of Fire Calls received and attended by the Fire and Rescue Services Department for the last five years
+[1218] new = old: Details of Rescue Calls received and attended by the Fire and Rescue Services Department for the last five years
+[1219] new = old: Details of Sanctioned Manpower Strength in Fire and Rescue Services Department
+[1220] new = old: Details of State, District Offices of the Fire and Rescue Services department and Fire Stations in Tamil Nadu
+[1221] new = old: Details of Vehicles in the Fire and Rescue Services Department and the field offices
+
+== OWNER: Tamil Nadu / Housing and Urban Development Department
+[1222] new = old: Tamil Nadu Slum Clearance Board (TNSCB): Tenements / Houses Constructed under various schemes
+
+== OWNER: Tamil Nadu / Industries Department
+[1223] new = old: Contact Details of Tamil Nadu Minerals Limited (TAMIN)
+[1224] new = old: Mineral Products and its Uses from Tamil Nadu Minerals Limited (TAMIN)
+[1225] new = old: Performance of TIIC
+[1226] new_catalog_title: Regional / Branch Offices of TIIC
+      old_catalog_title (2):
+        - Regional / Branch Offices of TIIC
+        - Regional and Branch Offices of TIIC as on 31.12.2019
+[1227] new = old: Time Series Data - Performance of TIIC as on 31.12.2019
+
+== OWNER: Tamil Nadu / Information Technology Department
+[1228] new = old: Academic Programmes by Tamil Virtual Academy (TVA)
+[1229] new = old: Common Service Centers (CSC) in Tamil Nadu
+[1230] new = old: Common Services Centres (CSCs): Service Centre Agencies (SCA)
+[1231] new = old: Contact Centres of Tamil Virtual Academy (TVA)
+[1232] new = old: CSC (DigitalSeva) Services live on Tamil Nadu
+[1233] new = old: Permanent Enrolement Centres operated by ELCOT in Tamil Nadu
+[1234] new = old: Rare Periodic Journals Digitized & Published on TVA Website (up to 08th march 2019)
+[1235] new = old: Rare Printed Books Digitized & Published on TVA Website (up to 08th march 2019)
+[1236] new = old: Services offered at Common Services Centres (CSCs)
+
+== OWNER: Tamil Nadu / Labour and Employment Department
+[1237] new = old: Details showing the Number of Beneficiaries benefitted through different schemes by Tamil Nadu Labour Welfare Board (TNLWB) from 2014-15 to 2018-19
+[1238] new = old: Time series data - Number of Persons trained and placed through Tamil Nadu Skill Development Corporation (TNSDC) in Tamil Nadu
+
+== OWNER: Tamil Nadu / Micro Small and Medium Enterprises Department
+[1239] new = old: Branch Offices of SIDCO in Tamil Nadu
+[1240] new = old: District wise Performance and Achievements of Various Schemes
+[1241] new = old: SIDCO Common Facility Centres (CFCs) under Micro and Small Enterprises Cluster Development Programme (MSE CDP) of Government of India
+[1242] new = old: SIDCO Industrial Estates in Tamil Nadu (as on 31.07.2018)
+[1243] new = old: SIDCO Micro Clusters under Common Production Infrastructure Scheme of Government of Tamil Nadu (as on 31.07.2018)
+[1244] new = old: SIDCO Private Industrial Clusters
+
+== OWNER: Tamil Nadu / Municipal Administration and Water Supply Department
+[1245] new = old: Area-wise Population within corporations and municipalities in Tamil Nadu
+[1246] new = old: Asset Register belonging to Corporation in Coimbatore
+[1247] new = old: Atal Mission for Rejuvenation and Urban Transformation(AMRUT): Details of Under Ground Sewerage Schemes (UGSS)
+[1248] new = old: Atal Mission for Rejuvenation and Urban Transformation(AMRUT): Progress on development of Parks in various ULBs (year-wise)
+[1249] new = old: Atal Mission for Rejuvenation and Urban Transformation(AMRUT): State Annual Action Plans(SAAP) for Tamil Nadu
+[1250] new = old: Chennai Metropolitan Water Supply and Sewerage
+[1251] new = old: Commissionerate of Municipal Administration(CMA): Regional Offices and ULBs Address Details
+[1252] new = old: Details of Individual Household Latrines (IHHL) under Swachh Bharat Mission in Tamil Nadu
+[1253] new = old: Details of various Water supply Distribution / Improvement schemes in various ULBs
+[1254] new = old: Details of Water Supply (HSC) given for Corporations and Municipalities in Tamil Nadu
+[1255] new = old: Educational Institutions in Coimbatore
+[1256] new = old: General Infrastructure - Coimbatore
+[1257] new = old: Landmark Data - Coimbatore
+[1258] new = old: Physical infrastructure facilities in Municipality and corporation schools in Tamil Nadu
+[1259] new = old: Population Distribution across all urban local bodies in Tamil Nadu
+[1260] new = old: Property Details within Erode District in Tamil Nadu
+[1261] new = old: Pudukottai Municipality - Utility GIS Data
+[1262] new = old: Road Data - Coimbatore
+[1263] new = old: Sivaganga Municipality - Utility GIS Data
+[1264] new = old: Street Light Data within Coimbatore
+[1265] new = old: Swachh Bharat Mission: Details of Community Toilets and Toilet Seats (Corporation-wise)
+[1266] new = old: Tambaram Municipality - Utility GIS Data
+[1267] new = old: Tiruchirappalli Corporation - Educational Institutions Data
+[1268] new = old: Tiruchirappalli Corporation - Landmarks GIS Data
+[1269] new = old: Vehicles and Land used for Solid Waste Management
+[1270] new = old: Ward Details of Municipalities within Tamil Nadu
+[1271] new = old: Water bodies under Corporation/Municipal and other areas in Tamil Nadu
+
+== OWNER: Tamil Nadu / Planning, Development and Special Initiatives Department
+[1272] new = old: Abstract of Area under Food Crops by Districts in Tamil Nadu 20116-17
+[1273] new = old: Abstract of Total Area under Food Crops and Non-Food Crops by Districts in Tamil Nadu 2016-17
+[1274] new = old: Allocation of funds under Special Area Development Programme (SADP) in Tamil Nadu from 2016-17 to 2019-20
+[1275] new = old: Allocation of funds under State Balance Growth Fund (SBGF) in Tamil Nadu from 2013-14 to 2019-20
+[1276] new_catalog_title: Area Irrigated by Different Sources of Irrigation by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Area Irrigated by Different Sources of Irrigation by Districts in Tamil Nadu : SCR 2016-17
+        - Area Irrigated by Different Sources of Irrigation by Districts in Tamil Nadu : SCR 2017-18
+        - Area Irrigated by Different Sources of Irrigation by Districts in Tamil Nadu : SCR 2018-19
+[1277] new_catalog_title: Area Under High yielding / Local Varieties of Principal Cereals in Tamil Nadu
+      old_catalog_title (3):
+        - Area Under High yielding / Local Varieties of Principal Cereals in Tamil Nadu 2016-17
+        - Area Under High yielding / Local Varieties of Principal Cereals in Tamil Nadu : SCR 2018-19
+        - Area under High yielding / Local Varieties of Principle Cereals in Tamil Nadu : SCR 2017-18
+[1278] new_catalog_title: Area under Non-Food Crops (Drugs and Narcotics) by Districts in Tamil Nadu
+      old_catalog_title (3):
+        - Area under Non-Food Crops (Drugs and Narcotics) by Districts in Tamil Nadu 2016-17
+        - Area under Non-Food Crops (Drugs and Narcotics) by Districts in Tamil Nadu : SCR 2017-18
+        - Area under Non-Food Crops (Drugs and Narcotics) by Districts in Tamil Nadu : SCR 2018-19
+[1279] new_catalog_title: Area under Non-Food Crops (Dye Crops) by Districts in Tamil Nadu
+      old_catalog_title (3):
+        - Area under Non-Food Crops (Dye Crops) by Districts in Tamil Nadu 2016-17
+        - Area under Non-Food Crops (Dye Crops) by Districts in Tamil Nadu : SCR 2017-18
+        - Area under Non-Food Crops (Dye Crops) by Districts in Tamil Nadu : SCR 2018-19
+[1280] new_catalog_title: Area under Non-Food Crops (Edible and Non-Edible Oil Seeds) by Districts in Tamil Nadu
+      old_catalog_title (3):
+        - Area under Non-Food Crops (Edible and Non-Edible Oil Seeds) by Districts in Tamil Nadu 2016-17
+        - Area under Non-Food Crops (Edible and Non-Edible Oil Seeds) by Districts in Tamil Nadu : SCR 2017-18
+        - Area under Non-Food Crops (Edible and Non-Edible Oil Seeds) by Districts in Tamil Nadu : SCR 2018-19
+[1281] new_catalog_title: Area under Non-Food Crops (Flowers) by Districts in Tamil Nadu
+      old_catalog_title (3):
+        - Area under Non-Food Crops (Flowers) by Districts in Tamil Nadu 2016-17
+        - Area under Non-Food Crops (Flowers) by Districts in Tamil Nadu : SCR 2017-18
+        - Area under Non-Food Crops (Flowers) by Districts in Tamil Nadu : SCR 2018-19
+[1282] new_catalog_title: Area under Non-Food Crops (Fodder Crops) by Districts in Tamil Nadu
+      old_catalog_title (3):
+        - Area under Non-Food Crops (Fodder Crops) by Districts in Tamil Nadu 2016-17
+        - Area under Non-Food Crops (Fodder Crops) by Districts in Tamil Nadu : SCR 2017-18
+        - Area under Non-Food Crops (Fodder Crops) by Districts in Tamil Nadu : SCR 2018-19
+[1283] new_catalog_title: Area under Non-Food Crops (Green Manure Crops) by Districts in Tamil Nadu
+      old_catalog_title (3):
+        - Area under Non-Food Crops (Green Manure Crops) by Districts in Tamil Nadu 2016-17
+        - Area under Non-Food Crops (Green Manure Crops) by Districts in Tamil Nadu : SCR 2017-18
+        - Area under Non-Food Crops (Green Manure Crops) by Districts in Tamil Nadu : SCR 2018-19
+[1284] new_catalog_title: Area under Non-Food Crops (Miscellaneous Crops) by Districts in Tamil Nadu
+      old_catalog_title (3):
+        - Area under Non-Food Crops (Miscellaneous Crops) by Districts in Tamil Nadu 2016-17
+        - Area under Non-Food Crops (Miscellaneous Crops) by Districts in Tamil Nadu : SCR 2017-18
+        - Area under Non-Food Crops (Miscellaneous Crops) by Districts in Tamil Nadu : SCR 2018-19
+[1285] new_catalog_title: Area under various Food Crops (Cereals) by Districts in Tamil Nadu
+      old_catalog_title (3):
+        - Area under various Food Crops (Cereals) by Districts in Tamil Nadu 2016-17
+        - Area under various Food Crops (Cereals) by Districts in Tamil Nadu : SCR 2017-18
+        - Area under various Food Crops (Cereals) by Districts in Tamil Nadu : SCR 2018-19
+[1286] new_catalog_title: Area under various Food Crops (Fresh, Citrus and Dry Fruits) by Districts in Tamil Nadu
+      old_catalog_title (3):
+        - Area under various Food Crops (Fresh, Citrus and Dry Fruits) by Districts in Tamil Nadu 2016-17
+        - Area under various Food Crops (Fresh, Citrus and Dry Fruits) by Districts in Tamil Nadu : SCR 2017-18
+        - Area under various Food Crops (Fresh, Citrus and Dry Fruits) by Districts in Tamil Nadu : SCR 2018-19
+[1287] new_catalog_title: Area under various Food Crops (Pulses) by Districts in Tamil Nadu
+      old_catalog_title (3):
+        - Area under various Food Crops (Pulses) by Districts in Tamil Nadu 2016-17
+        - Area under various Food Crops (Pulses) by Districts in Tamil Nadu : SCR 2017-18
+        - Area under various Food Crops (Pulses) by Districts in Tamil Nadu : SCR 2018-19
+[1288] new_catalog_title: Area under various Food Crops (Spices and Condiments) by Districts in Tamil Nadu
+      old_catalog_title (3):
+        - Area under various Food Crops (Spices and Condiments) by Districts in Tamil Nadu 2016-17
+        - Area under various Food Crops (Spices and Condiments) by Districts in Tamil Nadu : SCR 2017-18
+        - Area under various Food Crops (Spices and Condiments) by Districts in Tamil Nadu : SCR 2018-19
+[1289] new_catalog_title: Area under various Food Crops (Sugar Crops) by Districts in Tamil Nadu
+      old_catalog_title (3):
+        - Area under various Food Crops (Sugar Crops) by Districts in Tamil Nadu 2016-17
+        - Area under various Food Crops (Sugar Crops) by Districts in Tamil Nadu : SCR 2017-18
+        - Area under various Food Crops (Sugar Crops) by Districts in Tamil Nadu : SCR 2018-19
+[1290] new_catalog_title: Area under various Food Crops (Total Foodgrains) by Districts in Tamil Nadu
+      old_catalog_title (3):
+        - Area under various Food Crops (Total Food Grains) by Districts in Tamil Nadu : SCR 2018-19
+        - Area under various Food Crops (Total Food grains) by Districts in Tamil Nadu : SCR 2017-18
+        - Area under various Food Crops (Total Foodgrains) by Districts in Tamil Nadu 2016-17
+[1291] new_catalog_title: Area under various Food Crops (Vegetables) by Districts in Tamil Nadu
+      old_catalog_title (3):
+        - Area under various Food Crops (Vegetables) by Districts in Tamil Nadu 2016-17
+        - Area under various Food Crops (Vegetables) by Districts in Tamil Nadu : SCR 2017-18
+        - Area under various Food Crops (Vegetables) by Districts in Tamil Nadu : SCR 2018-19
+[1292] new_catalog_title: Area under various Non-Food Crops (Fibre Crops) by Districts in Tamil Nadu
+      old_catalog_title (3):
+        - Area under various Non-Food Crops (Fibre Crops) by Districts in Tamil Nadu 2016-17
+        - Area under various Non-Food Crops (Fibre Crops) by Districts in Tamil Nadu : SCR 2017-18
+        - Area under various Non-Food Crops (Fibre Crops) by Districts in Tamil Nadu : SCR 2018-19
+[1293] new_catalog_title: Average Yield Rate of Crops (Cereals) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Average Yield Rate of Crops (Cereals) by Districts in Tamil Nadu : SCR 2016-17
+        - Average Yield Rate of Crops (Cereals) by Districts in Tamil Nadu : SCR 2017-18
+        - Average Yield Rate of Crops (Cereals) by Districts in Tamil Nadu : SCR 2018-19
+[1294] new_catalog_title: Average Yield Rate of Crops (Coconut) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Average Yield Rate of Crops (Coconut) by Districts in Tamil Nadu : SCR 2016-17
+        - Average Yield Rate of Crops (Coconut) by Districts in Tamil Nadu : SCR 2017-18
+        - Average Yield Rate of Crops (Coconut) by Districts in Tamil Nadu : SCR 2018-19
+[1295] new_catalog_title: Average Yield Rate of Crops (Cotton) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Average Yield Rate of Crops (Cotton) by Districts in Tamil Nadu : SCR 2016-17
+        - Average Yield Rate of Crops (Cotton) by Districts in Tamil Nadu : SCR 2017-18
+        - Average Yield Rate of Crops (Cotton) by Districts in Tamil Nadu : SCR 2018-19
+[1296] new_catalog_title: Average Yield Rate of Crops (Fruits) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Average Yield Rate of Crops (Fruits) by Districts in Tamil Nadu : SCR 2016-17
+        - Average Yield Rate of Crops (Fruits) by Districts in Tamil Nadu : SCR 2017-18
+        - Average Yield Rate of Crops (Fruits) by Districts in Tamil Nadu : SCR 2018-19
+[1297] new_catalog_title: Average Yield Rate of Crops (Oil Seeds) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Average Yield Rate of Crops (Oil Seeds) by Districts in Tamil Nadu : SCR 2016-17
+        - Average Yield Rate of Crops (Oil Seeds) by Districts in Tamil Nadu : SCR 2017-18
+        - Average Yield Rate of Crops (Oil Seeds) by Districts in Tamil Nadu : SCR 2018-19
+[1298] new_catalog_title: Average Yield Rate of Crops (Pulses) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Average Yield Rate of Crops (Pulses) by Districts in Tamil Nadu : SCR 2016-17
+        - Average Yield Rate of Crops (Pulses) by Districts in Tamil Nadu : SCR 2017-18
+        - Average Yield Rate of Crops (Pulses) by Districts in Tamil Nadu : SCR 2018-19
+[1299] new_catalog_title: Average Yield Rate of Crops (Spices & Condiments) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Average Yield Rate of Crops (Spices & Condiments) by Districts in Tamil Nadu : SCR 2016-17
+        - Average Yield Rate of Crops (Spices and Condiments) by Districts in Tamil Nadu : SCR 2017-18
+        - Average Yield Rate of Crops (Spices and Condiments) by Districts in Tamil Nadu : SCR 2018-19
+[1300] new_catalog_title: Average Yield Rate of Crops (Sugarcane) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Average Yield Rate of Crops (Sugar Cane) by Districts in Tamil Nadu : SCR 2016-17
+        - Average Yield Rate of Crops (Sugar Cane) by Districts in Tamil Nadu : SCR 2017-18
+        - Average Yield Rate of Crops (Sugarcane) by Districts in Tamil Nadu : SCR 2018-19
+[1301] new_catalog_title: Average Yield Rate of Crops (Tobacco) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Average Yield Rate of Crops (Tobacco) by Districts in Tamil Nadu : SCR 2016-17
+        - Average Yield Rate of Crops (Tobacco) by Districts in Tamil Nadu : SCR 2017-18
+        - Average Yield Rate of Crops (Tobacco) by Districts in Tamil Nadu : SCR 2018-19
+[1302] new_catalog_title: Average Yield Rate of Crops (Vegetables) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Average Yield Rate of Crops (Vegetables) by Districts in Tamil Nadu : SCR 2016-17
+        - Average Yield Rate of Crops (Vegetables) by Districts in Tamil Nadu : SCR 2017-18
+        - Average Yield Rate of Crops (Vegetables) by Districts in Tamil Nadu : SCR 2018-19
+[1303] new_catalog_title: Classification of Ground Water Level by Districts in Tamil Nadu : SCR
+      old_catalog_title (2):
+        - Classification of Ground Water Level by Districts in Tamil Nadu : SCR 2017-18
+        - Classification of Ground Water Level by Districts in Tamil Nadu : SCR 2018-19
+[1304] new_catalog_title: Classification of Land by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Classification of Land by Districts in Tamil Nadu : SCR 2016-17
+        - Classification of Land by Districts in Tamil Nadu : SCR 2017-18
+        - Classification of Land by Districts in Tamil Nadu : SCR 2018-19
+[1305] new_catalog_title: Classification of Usage of Wells by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Classification of Usage of Wells by Districts in Tamil Nadu : SCR 2016-17
+        - Classification of Usage of Wells by Districts in Tamil Nadu : SCR 2017-18
+        - Classification of Usage of Wells by Districts in Tamil Nadu : SCR 2018-19
+[1306] new = old: Cuddalore District Hand Book 2017-18 : Non-Conventional Energy
+[1307] new = old: Cuddalore District Hand Book 2018-19 : Scientific and Research Centre
+[1308] new = old: Dharmapuri District Hand Book 2017-18 : Storage Faculties
+[1309] new_catalog_title: District Hand Book : Agriculture
+      old_catalog_title (38 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Agriculture
+        - Erode District Hand Book 2018-19 : Agriculture
+        - Nagapattinam District Hand Book 2017-18 : Agriculture
+        - Salem District Hand Book 2017-18 : Agriculture
+        - Tirunelveli District Hand Book 2018-19 : Agriculture
+        - Virudhunagar District Hand Book 2017-18 : Agriculture
+[1310] new_catalog_title: District Hand Book : Animal Husbandry
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Animal Husbandry
+        - Erode District Hand Book 2018-19 : Animal Husbandry
+        - Madurai District Hand Book 2017-18 : Animal Husbandary
+        - Salem District Hand Book 2017-18 : Animal Husbandry
+        - Tirunelveli District Hand Book 2017-18 : Animal Husbandry
+        - Virudhunagar District Hand Book 2017-18 : Animal Husbandry
+[1311] new_catalog_title: District Hand Book : Area and Population
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Area and Population
+        - Erode District Hand Book 2018-19 : Area and Population
+        - Madurai District Hand Book 2017-18 : Area and Population
+        - Salem District Hand Book 2017-18 : Area and Population
+        - Tirunelveli District Hand Book 2017-18 : Area and Population
+        - Virudhunagar District Hand Book 2017-18 : Area and Population
+[1312] new_catalog_title: District Hand Book : Banking and Insurance
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Banking and Insurance
+        - Erode District Hand Book 2018-19 : Banking and Insurance
+        - Madurai District Hand Book 2017-18 : Banking and Insurance
+        - Salem District Hand Book 2017-18 : Banking and Insurance
+        - Tirunelveli District Hand Book 2017-18 : Banking and Insurance
+        - Virudhunagar District Hand Book 2017-18 : Banking and Insurance
+[1313] new_catalog_title: District Hand Book : Civil Supplies
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Civil Supplies
+        - Erode District Hand Book 2018-19 : Civil Supplies
+        - Madurai District Hand Book 2017-18 : Civil Supplies
+        - Salem District Hand Book 2017-18 : Civil Supplies
+        - Tirunelveli District Hand Book 2017-18 : Civil Supplies
+        - Virudhunagar District Hand Book 2017-18 : Civil Supplies
+[1314] new_catalog_title: District Hand Book : Climate & Rainfall
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Climate and Rainfall
+        - Erode District Hand Book 2018-19 : Climate and Rainfall
+        - Madurai District Hand Book 2017-18 : Climate and Rainfall
+        - Salem District Hand Book 2017-18 : Climate and Rainfall
+        - Tirunelveli District Hand Book 2017-18 : Climate and Rainfall
+        - Virudhunagar District Hand Book 2017-18 : Climate and Rainfall
+[1315] new_catalog_title: District Hand Book : Co-operation
+      old_catalog_title (28 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Co-operation
+        - Erode District Hand Book 2017-18 : Co-operation
+        - Namakkal District Hand Book 2017-18 : Co-operation
+        - Salem District Hand Book 2018-19 : Co-operation
+        - Tirunelveli District Hand Book 2018-19 : Co-operation
+        - Virudhunagar District Hand Book 2017-18 : Co-operation
+[1316] new_catalog_title: District Hand Book : Co-Operative Societies
+      old_catalog_title (9 in all, 6 shown):
+        - Dindigul District Hand Book 2017-18 : Co-Operative Societies
+        - Kanniyakumari District Hand Book 2018-19 : Co-Operative Societies
+        - Madurai District Hand Book 2017-18 : Co-Operative Societies
+        - Nilgiris District Hand Book 2018-19 : Co-Operative Societies
+        - Tiruchirappalli District Hand Book 2017-18 : Co-Operative Societies
+        - Tiruvarur District Hand Book 2017-18 : Co-Operative Societies
+[1317] new_catalog_title: District Hand Book : Communication
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Communications
+        - Erode District Hand Book 2018-19 : Communications
+        - Madurai District Hand Book 2017-18 : Communication
+        - Salem District Hand Book 2017-18 : Communication
+        - Tirunelveli District Hand Book 2017-18 : Communication
+        - Virudhunagar District Hand Book 2017-18 : Communications
+[1318] new_catalog_title: District Hand Book : Conservancy Services
+      old_catalog_title (5):
+        - Chennai District Hand Book 2017-18 : Conservancy Services
+        - Dharmapuri District Hand Book 2017-18 : Conservancy Services
+        - Kanniyakumari District Hand Book 2017-18 : Conservancy Services
+        - Kanniyakumari District Hand Book 2018-19 : Conservancy Services
+        - Krishnagiri District Handbook 2017-18 : Conservancy Services
+[1319] new_catalog_title: District Hand Book : Education
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Education
+        - Erode District Hand Book 2018-19 : Education
+        - Madurai District Hand Book 2017-18 : Education
+        - Salem District Hand Book 2017-18 : Education
+        - Tirunelveli District Hand Book 2017-18 : Education
+        - Virudhunagar District Hand Book 2017-18 : Education
+[1320] new_catalog_title: District Hand Book : Electricity
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Electricity
+        - Erode District Hand Book 2018-19 : Electricity
+        - Madurai District Hand Book 2017-18 : Electricity
+        - Salem District Hand Book 2017-18 : Electricity
+        - Tirunelveli District Hand Book 2017-18 : Electricity
+        - Virudhunagar District Hand Book 2017-18 : Electricity
+[1321] new_catalog_title: District Hand Book : Factories
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Factories
+        - Erode District Hand Book 2018-19 : Factories
+        - Madurai District Hand Book 2017-18 : Factories
+        - Salem District Hand Book 2017-18 : Factories
+        - Tirunelveli District Hand Book 2017-18 : Factories
+        - Virudhunagar District Hand Book 2017-18 : Factories
+[1322] new_catalog_title: District Hand Book : Fire and Rescue Services
+      old_catalog_title (12 in all, 6 shown):
+        - Chennai District Hand Book 2017-18 : Fire and Rescue Services
+        - Cuddalore District Hand Book 2018-19 : Fire and Rescue Services
+        - Kanniyakumari District Hand Book 2017-18 : Fire and Rescue Services
+        - Nagapattinam District Hand Book 2017-18 : Fire and Rescue Services
+        - Nilgiris District Hand Book 2018-19 : Fire and Rescue Services
+        - Tiruppur District Hand Book 2017-18 : Fire and Rescue Services
+[1323] new_catalog_title: District Hand Book : Fisheries
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Fisheries
+        - Erode District Hand Book 2017-18 : Fisheries
+        - Krishnagiri District Hand Book 2017-18 : Fisheries
+        - Ramanathapuram District Hand Book 2017-18 : Fisheries
+        - Tiruchirappalli District Hand Book 2017-18 : Fisheries
+        - Virudhunagar District Hand Book 2017-18 : Fisheries
+[1324] new_catalog_title: District Hand Book : Forests
+      old_catalog_title (2):
+        - Pudukkottai District Hand Book 2017-18 : Forests
+        - Tiruvallur District Handbook 2017-18 : Forests
+[1325] new_catalog_title: District Hand Book : Handicrafts
+      old_catalog_title (28 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Handicrafts
+        - Dharmapuri District Hand Book 2017-18 : Handicrafts
+        - Karur District Hand Book 2018-19 : Handicrafts
+        - Pudukkottai District Hand Book 2017-18 : Handicrafts
+        - Tiruchirappalli District Hand Book 2017-18 : Handicrafts
+        - Virudhunagar District Hand Book 2017-18 : Handicrafts
+[1326] new_catalog_title: District Hand Book : Handloom
+      old_catalog_title (34 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Handloom
+        - Erode District Hand Book 2018-19 : Handloom
+        - Madurai District Hand Book 2017-18 : Handloom
+        - Sivaganga District Hand Book 2017-18 : Handlooms
+        - Tirunelveli District Hand Book 2018-19 : Handloom
+        - Virudhunagar District Hand Book 2017-18 : Handloom
+[1327] new_catalog_title: District Hand Book : Health and Family Welfare
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Health and Family Welfare
+        - Erode District Hand Book 2018-19 : Health and Family Welfare
+        - Madurai District Hand Book 2017-18 : Health and Family Welfare
+        - Salem District Hand Book 2017-18 : Health and Family Welfare
+        - Tirunelveli District Hand Book 2017-18 : Health and Family Welfare
+        - Virudhunagar District Hand Book 2017-18 : Health and Family Welfare
+[1328] new_catalog_title: District Hand Book : Housing
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Housing
+        - Erode District Hand Book 2018-19 : Housing
+        - Madurai District Hand Book 2017-18 : Housing
+        - Salem District Hand Book 2017-18 : Housing
+        - Tirunelveli District Hand Book 2017-18 : Housing
+        - Virudhunagar District Hand Book 2017-18 : Housing
+[1329] new_catalog_title: District Hand Book : Industries
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Industries
+        - Erode District Hand Book 2018-19 : Industries
+        - Madurai District Hand Book 2017-18 : Industries
+        - Salem District Hand Book 2017-18 : Industries
+        - Tirunelveli District Hand Book 2017-18 : Industries
+        - Virudhunagar District Hand Book 2017-18 : Industries
+[1330] new_catalog_title: District Hand Book : Irrigation
+      old_catalog_title (37 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Irrigation
+        - Erode District Hand Book 2018-19 : Irrigation
+        - Madurai District Hand Book 2017-18 : Irrigation
+        - Salem District Hand Book 2017-18 : Irrigation
+        - Tirunelveli District Hand Book 2018-19 : Irrigation
+        - Virudhunagar District Hand Book 2017-18 : Irrigation
+[1331] new_catalog_title: District Hand Book : Labour and Employment
+      old_catalog_title (38 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Labour and Employment
+        - Erode District Hand Book 2017-18 : Labour and Employment
+        - Madurai District Hand Book 2017-18 : Labour and Employment
+        - Ramanathapuram District Hand Book 2017-18 : Labour and Employment
+        - Tirunelveli District Hand Book 2018-19 : Labour and Employment
+        - Virudhunagar District Hand Book 2017-18 : Labour and Employment
+[1332] new_catalog_title: District Hand Book : Legal Services
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Legal Services
+        - Erode District Hand Book 2018-19 : Legal Services
+        - Madurai District Hand Book 2017-18 : Legal Services
+        - Salem District Hand Book 2017-18 : Legal Services
+        - Tirunelveli District Hand Book 2017-18 : Legal Services
+        - Virudhunagar District Hand Book 2017-18 : Legal Services
+[1333] new_catalog_title: District Hand Book : Libraries
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Libraries
+        - Erode District Hand Book 2018-19 : Libraries
+        - Madurai District Hand Book 2017-18 : Libraries
+        - Salem District Hand Book 2017-18 : Libraries
+        - Tirunelveli District Hand Book 2017-18 : Libraries
+        - Virudhunagar District Hand Book 2017-18 : Libraries
+[1334] new_catalog_title: District Hand Book : Local Bodies
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Local Bodies
+        - Erode District Hand Book 2018-19 : Local Bodies
+        - Madurai District Hand Book 2017-18 : Local Bodies
+        - Salem District Hand Book 2017-18 : Local Bodies
+        - Tirunelveli District Hand Book 2017-18 : Local Bodies
+        - Virudhunagar District Hand Book 2017-18 : Local Bodies
+[1335] new_catalog_title: District Hand Book : Manufacturing Sector
+      old_catalog_title (25 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Manufacturing Sector
+        - Erode District Hand Book 2017-18 : Manufacturing Sector
+        - Madurai District Hand Book 2017-18 : Manufacturing Sector
+        - Nilgiris District Hand Book 2018-19 : Manufacturing Sector
+        - Theni District Hand Book 2017-18 : Manufacturing Sector
+        - Tiruvarur District Hand Book 2017-18 : Manufacturing Sector
+[1336] new_catalog_title: District Hand Book : Medical Services
+      old_catalog_title (38 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Medical Services
+        - Erode District Hand Book 2017-18 : Medical Services
+        - Madurai District Hand Book 2017-18 : Medical Services
+        - Salem District Hand Book 2017-18 : Medical Services
+        - Tirunelveli District Hand Book 2018-19 : Medical Services
+        - Virudhunagar District Hand Book 2017-18 : Medical Services
+[1337] new_catalog_title: District Hand Book : Mining and Quarrying
+      old_catalog_title (34 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Mining and Quarrying
+        - Kanniyakumari District Hand Book 2017-18 : Mining and Quarrying
+        - Nagapattinam District Hand Book 2017-18 : Mining and Quarrying
+        - Sivaganga District Hand Book 2017-18 : Mining and Quarrying
+        - Tirunelveli District Hand Book 2018-19 : Mining and Quarrying
+        - Virudhunagar District Hand Book 2017-18 : Mining and Quarrying
+[1338] new_catalog_title: District Hand Book : Motor Vehicles
+      old_catalog_title (38 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Motor Vehicles
+        - Erode District Hand Book 2017-18 : Motor Vehicles
+        - Madurai District Hand Book 2017-18 : Motor Vehicles
+        - Ramanathapuram District Hand Book 2017-18 : Motor Vehicles
+        - Tirunelveli District Hand Book 2018-19 : Motor Vehicles
+        - Virudhunagar District Hand Book 2017-18 : Motor Vehicles
+[1339] new_catalog_title: District Hand Book : Non Conventional Energy Generation
+      old_catalog_title (19 in all, 6 shown):
+        - Chennai District Hand Book 2017-18 : Non Conventional Energy Generation
+        - Erode District Hand Book 2018-19 : Non-Conventional Energy Generation
+        - Madurai District Hand Book 2017-18 : Non Conventional Energy Generation
+        - Thanjavur District Hand Book 2017-18 : Non Conventional Energy Generation
+        - Tirunelveli District Hand Book 2017-18 : Non Conventional Energy Generation
+        - Tiruvannamalai District Hand Book 2017-18 : Non Conventional Energy Generation
+[1340] new_catalog_title: District Hand Book : Police and Prisons
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Police and Prisons
+        - Erode District Hand Book 2018-19 : Police and Prisons
+        - Madurai District Hand Book 2017-18 : Police and Prisons
+        - Salem District Hand Book 2017-18 : Police and Prisons
+        - Tirunelveli District Hand Book 2017-18 : Police and Prisons
+        - Virudhunagar District Hand Book 2017-18 : Police and Prisons
+[1341] new_catalog_title: District Hand Book : Printing and Publication
+      old_catalog_title (38 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Printing and Publication
+        - Erode District Hand Book 2017-18 : Printing and Publication
+        - Madurai District Hand Book 2017-18 : Printing and Publication
+        - Salem District Hand Book 2017-18 : Printing and Publication
+        - Tirunelveli District Hand Book 2018-19 : Printing and Publication
+        - Virudhunagar District Hand Book 2017-18 : Printing and Publication

@@ -1,0 +1,507 @@
+nid,uuid,file_format,field_resource_type,title,datafile_url
+100962,ce4e5f17-6086-460e-b0ce-335e4a806b44,application/vnd.ms-excel,1,Product-wise And Month-wise Production Of Chemical Fertilizers upto 2013-14,NULL
+101229,18f50ec5-fcd1-49e3-b18b-1d53126fb5af,text/csv,1,Month-wise and Port-wise Import of DAP (Diammonium Phosphate) upto 2013-14,NULL
+101234,d4797972-583f-46e5-8b7b-6887720860a1,text/csv,1,Month-wise and Port-wise Import of MOP (Muriate of Potash) upto 2013-14,NULL
+101235,4559104f-646e-42e6-8f9a-24bed00f4bcc,text/csv,1,"Month-wise and Port-wise Import of NPK (Nitrogen, Phosphorus, Potassium) upto 2013-14",NULL
+101483,28b9e875-1e50-4b23-96e0-5085472f38a1,text/csv,1,State wise and Month wise Requirement and Availability of Chemical Fertilizers - From January to December (2013-14),NULL
+103246,906282c5-28ca-45ad-997b-3b75eb68d741,text/csv,1,"State Wise Distribution of Enterprises by Status of Operation, 2006-07",NULL
+103469,526aab7f-000c-4a52-9cdb-1b20c84bb6f0,text/csv,1,"Summary at a glance of Fourth All India Census of MSME : Registered Sector, 2006-07",NULL
+103473,8ac66fd8-3513-4dc4-b58f-3d77f5af0fe1,application/vnd.ms-excel,1,"State Wise Distribution Of Working Enterprises By Nature Of Activity, 2006-07",NULL
+103476,16dd15ab-814b-475f-946c-1fa8f1f571e2,application/vnd.ms-excel,1,"State Wise Distribution Of Working Enterprises By Nature Of Operation, 2006-07",NULL
+103485,3beaa7cf-279d-440c-a3c1-f8e5b8e3d550,text/csv,1,State-Wise Distribution Of Working Enterprises By Type Of EnterpriseFourth All India Census of MSME 2006-07 : Registered Sector),NULL
+103486,7b9a701f-fae5-4ba5-9bbf-136bc443df0b,text/csv,1,Industry-Wise Distribution Of Working Enteprprises By Type Of Enteprprise (At 2-Digit Level Of Nic-2004) (Fourth All India Census of MSME 2006-07 : Registered Sector),NULL
+103487,7c057144-b3b2-4737-b763-dcab864a06e3,text/csv,1,State-Wise Distribution Of Working Enterprises By Main Source Of Energy  (Fourth All India Census of MSME 2006-07 : Registered Sector),NULL
+103488,c36962eb-706d-4c89-9029-65701f6edff9,text/csv,1,Industry Wise Distribution Of Working Enterprises By Type Of Fuel Used Registered Sector,NULL
+103496,58fe3764-1a3f-4845-90fc-731833b9c465,text/csv,1,Industry-Wise Distribution Of Principal Characteristics (At 2-Digit Level Of NIC-2004)  (Fourth All India Census of MSME 2006-07 : Registered Sector),NULL
+103497,e1013d45-3e2f-4a64-be9f-8cc10aef1bb1,text/csv,1,State Wise Distribution Of Working Enterprises By Religion Of The Owner (Fourth All India Census of MSME 2006-07 : Registered Sector),NULL
+103554,c0673563-096c-4847-8c14-de616d109753,text/csv,1,Summary Results & Comparison With Third All India Census Of SSIs 2001-02: Unregistered Sector. (Fourth All India Census of MSME: Unregistered Sector),NULL
+103568,05dee3a8-cad5-4b35-8b8b-56b7c7a9d24f,text/csv,1,State-Wise Distribution Of  Enterprises By Main Source Of Energy  (Fourth All India Census of MSME 2006-07 : Unregistered Sector),NULL
+103569,1c2d0958-9f7f-4dbe-8872-b9b07993bc53,text/csv,1,Industry-Wise Distribution Of  Enterprises By Main Source Of Energy (Fourth All India Census of MSME 2006-07 : Unregistered Sector),NULL
+103631,626f9732-a367-4735-bf34-4c7751ef2f9b,text/csv,1,Industry-Wise Distribution Of Employment  By Type Of Enterprise  (Fourth All India Census of MSME 2006-07 : Unregistered Sector),NULL
+103632,4c5b41b2-ee08-4eb4-804f-b5c413bd74ea,text/csv,1,State-Wise  Distribution Of Employment By Type Of Sex / Social Category (Fourth All India Census of MSME 2006-07: Unregistered Sector),NULL
+103634,6b8eeb61-a32d-4d61-a8c7-5d7308a17e18,text/csv,1,State Wise Distribution Of Principal Characteristics (Fourth All India Census of MSME 2006-07 : Unregistered Sector),NULL
+103635,d094e3ae-513e-4dd4-8304-312bc7c83ea4,text/csv,1,Industry Wise Distribution Of Principal Characteristics (Fourth All India Census of MSME 2006-07: Unregistered Sector),NULL
+104072,6e1bc7ad-1fed-4ccc-8a81-677c6b2a6da3,text/csv,1,State Wise Distribution Of Employment By Type Of Enterprise (Fourth All India Census of MSME 2006-07: Registered Sector),NULL
+104073,67e054c6-3a25-49ef-98ae-b44083be21d2,text/csv,1,Industry Wise Distribution Of Employment By Type Of Enterprise  (Fourth All India Census of MSME 2006-07: Registered Sector),NULL
+104074,685b04ad-ee8d-4d72-a98d-56f590c8cb89,text/csv,1,State-Wise Distribution Of Employment By Type Of Sex / Social Category  (Fourth All India Census of MSME 2006-07 : Registered Sector),NULL
+105300,3f09b8c8-7fe1-4170-8961-e270dfe95642,application/vnd.ms-excel,1,List of Assembly Constituencies in Meghalaya,NULL
+109339,a208d1c0-6338-4e78-9435-b19e96a88555,text/csv,1,Export of Major Chemicals - Product wise / Group wise from 2007-08 to 2013-14,NULL
+109341,cfc9ada3-8224-4daa-a653-495a43fe7da6,text/csv,1,Import of Major Chemicals - Product-wise / Group-wise from 2007-08 to 2013-14,NULL
+109342,3ffc6d32-d338-4e95-b3f8-56d5af212470,text/csv,1,Import of Major Petrochemicals - Product wise / Group wise from 2007-08 to 2013-14,NULL
+111417,46eca51c-a80c-4e31-86a0-a977cb633276,application/vnd.ms-excel,1,Tambaram Municipality - Utility GIS Data,NULL
+111418,892ea1e3-b82f-4dfb-9289-9050ad98add4,application/vnd.ms-excel,1,Pudukottai Municipality - Utility GIS Data,NULL
+111420,a0051225-8f0f-45c2-8fbc-b792a01ccbd7,application/vnd.ms-excel,1,Sivaganga Municipality - Utility GIS Data,NULL
+1140061,6f960cb5-a551-4bc6-8fe0-f994d2c1661d,text/csv,1,List of Notary Officers of Punjab upto August 2016,NULL
+1140141,aa831a00-2891-4eb5-ba70-e36188717ee7,text/csv,1,List of Notary Officers of Rajasthan upto August 2016,NULL
+1140161,618d4127-a7b6-43f5-a9df-8f40f958fb42,text/csv,1,List of Notary Officers of Tamil Nadu upto August 2016,NULL
+1140201,aad67a74-69c8-4f9e-a8ed-a8519c770300,text/csv,1,List of Notary Officers of Uttarakhand upto September 2016,NULL
+122803,373358c8-63fd-4612-8f2b-9ce483422312,application/vnd.ms-excel,1,Product wise and Month wise production of chemical Fertilizers,NULL
+122805,9ea37710-7d66-4f02-9bea-ec944b6e3307,text/csv,1,State-Wise/Month-Wise Requirement and Availability of chemical Fertilizers - till July 2014-2015,NULL
+122821,c9782b3d-6e57-44c9-bfe8-f4ec861ea75b,text/csv,1,Month wise and Port wise Import of Chemical Fertilizers (DAP) - November and December (2014-2015),NULL
+124179,9191f0d6-5b4e-49fb-b692-ce6533690958,application/vnd.ms-excel,1,Month-wise And Country-wise Import Of Chemical Fertilizers(DAP),NULL
+124180,32f0cc97-0f5d-4c65-9763-7ea2ccb1c973,application/vnd.ms-excel,1,Month-wise And Country-wise Import Of Chemical Fertilizers(MOP),NULL
+124182,1c53bf87-cd6c-4382-8674-d23fdf7dd6dc,application/vnd.ms-excel,1,Month-wise And Country-wise Import Of Chemical Fertilizers(MAP),NULL
+124184,974515c0-5d9e-462f-b9bf-c52ba2905efc,application/vnd.ms-excel,1,Month-wise And Country-wise Import Of Chemical Fertilizers (NPK),NULL
+124186,153767ce-a2c0-42b3-8b57-a284e1df13b2,application/vnd.ms-excel,1,Month-wise And Country-wise Import Of Chemical Fertilizers(UREA),NULL
+124189,e225f771-26ff-4405-873f-f653ab5b2d35,application/vnd.ms-excel,1,Month-wise And Country-wise Import Of Chemical Fertilizers (TSP),NULL
+124202,ea8bb45e-0a88-4d76-97c8-361405d34612,text/csv,1,Month-wise and Port-wise Import of Chemical Fertilizers [DAP]- April-July 2014,NULL
+124203,bd66e572-f44a-4d68-aeed-139f477b0db0,text/csv,1,Month-wise and Port-wise Import of Chemical Fertilizers [MAP]- April-July 2014,NULL
+124204,9aacbfc0-8982-489a-b4b7-be5246e2848d,text/csv,1,Month-wise and Port-wise Import of Chemical Fertilizers [MOP]- April-July 2014,NULL
+124206,493d510b-290c-4dd7-b507-7dd4d9724548,text/csv,1,Month-wise and Port-wise Import of Chemical Fertilizers [NPK]- April-July 2014,NULL
+124208,0c4a3c6e-5c67-42f3-9e18-7e9c2e428689,text/csv,1,Month-wise and Port-wise Import of Chemical Fertilizers [TSP]- April-July 2014,NULL
+124210,5c9ef525-0fbf-46d2-a406-18ce87892e42,text/csv,1,Month-wise and Port-wise Import of Chemical Fertilizers [UREA]- April-July 2014,NULL
+127391,9c251eea-2cde-4fe6-a3b5-3c9366d293a1,application/vnd.ms-excel,1,List of Members of Meghalaya Legislative Assembly 2013,NULL
+135611,64fa1110-03d8-4127-9cb5-3f125c2fa440,text/csv,1,Agriculture production of different foodgrains from year 2003 to 2014 at all India level,NULL
+161461,42291708-f68f-48fb-b638-e85bc0f5a8aa,text/csv,1,National Expenditure on R&D by Sub-Sector of Economic Activity during 2005-06 to 2009-10,NULL
+161992,a8469a91-d501-40b2-bebd-14f7acf7dc2d,text/csv,1,Month-wise & Country-wise import of Chemical Fertilizers-NPK- August-October 2014,NULL
+161995,9a7fee0a-b821-4498-89b4-8745bd7d291d,text/csv,1,Month-wise & Country-wise import of Chemical Fertilizers-TSP- August-October 2014,NULL
+161998,692c4d7f-d3b9-4201-8074-935512f82846,text/csv,1,Month-wise & Country-wise import of Chemical Fertilizers-Urea- August-October 2014,NULL
+162001,f7ec9f0a-31c1-41c6-8679-78126a0c74c9,text/csv,1,Month-wise & Port-wise import of Chemical Fertilizer- DAP August-October 2014,NULL
+162004,ca681154-3c23-4e82-af44-0a8ba601a93e,text/csv,1,Month-wise & Port-wise import of Chemical Fertilizers- MAP August-October 2014,NULL
+162007,bb1818ba-c47c-453c-9941-39482a3ce051,text/csv,1,Month-wise & Port-wise import of Chemical Fertilizers- MOP August-October 2014,NULL
+162010,38128a07-8dd6-4708-8996-a7c7c6705a5a,text/csv,1,Month-wise & Port-wise import of Chemical Fertilizers- NPK August-October 2014,NULL
+162013,0e024bbd-c082-4013-a48f-a996b0b51cec,text/csv,1,Month-wise & Port-wise import of Chemical Fertilizers-TSP August-October 2014,NULL
+162016,1fa69f5d-4c11-4760-a583-792e9f79e8d8,text/csv,1,Month-wise & Port-wise import of Chemical Fertilizers-Urea- August-October 2014,NULL
+162022,1a210a75-b92e-4af7-b324-b9e28d51134d,text/csv,1,State-wise and Month-wise Requirement and Availability of Chemical Fertilizers- August-October 2014,NULL
+1893421,329112ce-a7ff-4f55-ae3e-835f67c3e029,text/csv,1,Export of Major Chemicals - Product wise / Group wise from 2009-10 to 2016-17 (upto September 2016),NULL
+196023,9f7400ea-d517-4ca7-bae1-37e0db2e0db5,text/csv,1,Export of Major Chemicals - Product wise / Group wise from 2007-08 to 2014-15 (upto September 2014),NULL
+196303,ec84929f-5cbb-4d2f-bdc6-d7bae7226985,text/csv,1,Month wise & Country wise Import of Chemical Fertilizers-DAP for November and December (2014-2015),NULL
+196323,b571bd36-751a-4093-b8d8-01c8e7502965,text/csv,1,Month wise & Country wise Import of Chemical Fertilizers-MAP for November and December (2014-2015),NULL
+196343,d913a658-6404-454c-975e-6ca092f349c3,text/csv,1,Month wise & Country wise Import of Chemical Fertilizers-MOP for November and December (2014-2015),NULL
+196363,57dcab06-2e5b-44de-ba22-21fcad757a96,text/csv,1,Month wise & Country wise Import of Chemical Fertilizers-NPK for November and December (2014-2015),NULL
+196383,964382e6-a8eb-40d2-9060-9fa81cfad546,text/csv,1,Month wise & Country wise Import of Chemical Fertilizers-TSP for November and December (2014-2015),NULL
+196403,2e880e1d-a11a-40e5-90ab-0ba6a934f899,text/csv,1,Month wise & Country wise Import of Chemical Fertilizers-UREA for November and December (2014-2015),NULL
+196443,4b242749-1020-4db2-ad6e-3817eb57d8fa,text/csv,1,Month wise and Port wise Import of Chemical Fertilizers (MAP) - November and December (2014-2015),NULL
+196463,0accb56b-525f-4408-a45b-67d4bd25bdc2,text/csv,1,Month wise and Port wise Import of Chemical Fertilizers (MOP) - November and December (2014-2015),NULL
+196483,b2ea979f-e442-4844-b462-a8e8935d756e,text/csv,1,Month wise and Port wise Import of Chemical Fertilizers (NPK) - November and December (2014-2015),NULL
+196503,72feab7a-8c8e-4619-a64a-391122f4732c,text/csv,1,Month wise and Port wise Import of Chemical Fertilizers (TSP) - November and December (2014-2015),NULL
+196523,57e1b189-efd5-43e0-a3e4-98012f0627e9,text/csv,1,Month wise and Port wise Import of Chemical Fertilizers (UREA) - November and December (2014-2015),NULL
+197823,bb71e677-78c5-4541-b5c8-bec6dfc37b49,text/csv,1,Export data of major commodities through Port ICD CHETTIPALAYAM for the year 2012-13 and 2013-14,NULL
+197863,d7697164-13fa-40f9-81b4-980c04861130,text/csv,1,Export data of major commodities through Port ICD GARHIHARSARU for the year 2012-13 and 2013-14,NULL
+198203,3df2b0ea-9274-40d8-9d6b-3cae79e99479,text/csv,1,Export data of major commodities through Port MUMBAI AIR for the year 2012-13 and 2013-14,NULL
+198283,cbbe80e0-3564-4ae7-9876-ea8a78961132,text/csv,1,Export data of major commodities through Port PETRAPOLE LAND for the year 2012-13 and 2013-14,NULL
+198343,65986ea1-22c3-4846-a530-4e2f643e99e9,text/csv,1,Export data of major commodities through Port RAXAUL LAND for the year 2012-13 and 2013-14,NULL
+198423,fd454bea-8a26-41ef-ae3e-a26df6eafc24,text/csv,1,"Export data of major commodities through Port ACC CALICUT,KARIPUR (COCHIN) for the year 2012-13 and 2013-14",NULL
+198523,a771c9c5-62a9-4f20-8346-9bc2dd2c5b14,text/csv,1,State wise and Month wise Requirement and Availability of chemical Fertilizers - November and December (2014-2015),NULL
+198843,55e4a154-d336-4ef9-ae4e-6270ff1da268,text/csv,1,Import data of major commodities through Port CHENNAI SEA for the year 2012-13 and 2013-14,NULL
+198903,b18e57c4-2e07-4564-9ba8-cd04f037fb0a,text/csv,1,Import data of major commodities through Port DELHI AIR for the year 2012-13 and 2013-14,NULL
+198983,b0f1dd55-98c4-44c0-8d33-c84b52d95f70,text/csv,1,Import data of major commodities through Port ICD FARIDABAD for the year 2012-13 and 2013-14,NULL
+199003,5ed2f5f1-73c2-4f04-aef9-8b6a774ebb6c,text/csv,1,Import data of major commodities through Port ICD GARHIHARSARU for the year 2012-13 and 2013-14,NULL
+199023,44406c89-4f35-423c-b950-db0999d12938,text/csv,1,Import data of major commodities through Port ICD HYDERABAD for the year 2012-13 and 2013-14,NULL
+199483,2793ef61-b506-4800-af41-4bafe721ad8b,text/csv,1,Import data of major commodities through Port TUTICORIN SEA for the year 2012-13 and 2013-14,NULL
+253663,9ea33c8c-1f3d-4bbb-9634-ac1537305bea,text/csv,1,"Month wise and Country wise Import of Chemical Fertilizers -DAP for January, February and March (2014-2015)",NULL
+253683,a567682e-4391-4c61-a284-734ef48814eb,text/csv,1,"Month wise and Country wise Import of Chemical Fertilizers -MAP for January, February and March (2014-2015)",NULL
+253703,5141dd83-8285-406f-9b65-794d4d3e64cd,text/csv,1,"Month wise and Country wise Import of Chemical Fertilizers -MOP for January, February and March (2014-2015)",NULL
+253723,4c0af1c9-f738-4151-a653-28ed274f29cd,text/csv,1,"Month wise and Country wise Import of Chemical Fertilizers -NPK for January, February and March (2014-2015)",NULL
+253743,af2c4123-e35e-4e74-aadd-447bb65d1db7,text/csv,1,"Month wise and Country wise Import of Chemical Fertilizers -TSP for January, February and March (2014-2015)",NULL
+253763,f8554dfb-43a0-4fc6-80fc-87ff52e80181,text/csv,1,"Month wise and Country wise Import of Chemical Fertilizers -Urea for January, February and March (2014-2015)",NULL
+253783,ce3c84aa-cc1b-4280-acad-88e0ad81c9da,text/csv,1,"Month wise and Port wise Import of Chemical Fertilizers (DAP) - January, February and March (2014-2015)",NULL
+253803,209ff85d-904c-4d61-8489-4b8b0978a0f1,text/csv,1,"Month wise and Port wise Import of Chemical Fertilizers (MAP) - January, February and March (2014-2015)",NULL
+253843,d1c37ad3-faa6-4cca-974e-f55ce5df0357,text/csv,1,"Month wise and Port wise Import of Chemical Fertilizers (NPK) - January, February and March (2014-2015)",NULL
+253863,6556dafa-ddc4-456f-bb99-cf48b9b364f5,text/csv,1,"Month wise and Port wise Import of Chemical Fertilizers (MOP) - January, February and March (2014-2015)",NULL
+253883,cfc64532-92a4-46a0-8afc-094e92ec8a40,text/csv,1,"Month wise and Port wise Import of Chemical Fertilizers (TSP) - January, February and March (2014-2015)",NULL
+253903,e1133b69-5aa1-4385-ab77-a7836993d34b,text/csv,1,Month-wise Telephones (Public Vs Private) from April 2009 to Feb 2015,NULL
+253943,660095b2-7665-4164-b6db-cc108fb2a01b,text/csv,1,"Month wise and Port wise Import of Chemical Fertilizers (Urea) - January, February and March (2014-2015)",NULL
+254023,ca3b62dc-9e50-4303-a6a6-405ccef0f8d6,text/csv,1,Service Area-wise Telephone from Mar 2002 to February 15,NULL
+254083,ab2ee3db-2b11-4bfd-8bdb-b0ba5d3baf82,text/csv,1,"State wise and Month wise Requirement and Availability of Chemical Fertilizers -January, February and March (2014-15)",NULL
+2899201,02b29f6b-9041-4235-a7ac-4c09e9c272f4,text/csv,1,Principal Commodity wise Import for the year 2014-15,NULL
+2899221,f6c89db6-40d4-4005-91a3-4bcf744c7029,text/csv,1,Principal Commodity wise Import for the year 2015-16,NULL
+2899241,0b2e165b-7a89-43cf-b2f6-7d3f721ad7b0,text/csv,1,Principal Commodity wise Import for the year 2016-17,NULL
+2899261,5c9f6e83-cf91-4e8a-84fc-f817febf51c2,text/csv,1,Principal Commodity wise Export for the year 2014-15,NULL
+2899281,fb6e967c-102f-40e1-989b-1b60ce55569b,text/csv,1,Principal Commodity wise Export for the year 2015-16,NULL
+2899301,c118fab2-1782-450b-9593-14b77985b0c0,text/csv,1,Principal Commodity wise Export for the year 2016-17,NULL
+2970001,b71db183-2d15-4f61-9cee-7de3c83561a1,text/csv,4,Flight Schedule,https://api.data.gov.in/resource/b71db183-2d15-4f61-9cee-7de3c83561a1?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+2970061,93710e81-db2b-4f95-9223-89156dfd8bc9,text/csv,4,AirSewa - Airport Services Data,"https://api.data.gov.in/resource/93710e81-db2b-4f95-9223-89156dfd8bc9?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+"
+3084841,ccf9fad3-34fd-4355-bd64-050d8283b930,application/json,2,State-wise India's GDP from Agriculture on yearly basis,https://mospi.gov.in/nitiaayog/data/9-indicator_nad_9.csv
+3087721,68db9248-5dc2-46f2-b884-5985b533ea81,text/json,2,State-wise Total number of persons employed for all broad activities taken together by sector and type of establishment on yearly basis,https://mospi.gov.in/nitiaayog/data/17-indicator_esd_4.csv
+3147821,a3806a82-81de-4a63-90ed-1843ae2b986c,text/csv,1,Production of Major Chemicals - Product-wise / Group-wise from 2009-10 to 2016-17,NULL
+3147841,4dcf4bb6-473d-4c1d-b088-677247ea5965,text/csv,1,Import of Major Petrochemicals - Product wise / Group wise from 2009-10 to 2016-17,NULL
+3147881,03ce3532-1b72-4cb9-a513-6ab36cf35711,text/csv,1,Export of Major Petrochemicals - Product wise / Group wise from 2009-10 to 2016-17,NULL
+322541,17d6a19b-a88a-4d50-81e5-c7038f1d5499,text/csv,1,Export of Major Petrochemicals - Product wise / Group wise from 2007-08 to 2014-15,NULL
+322561,b1918419-e258-4214-be2f-2a18903b1753,text/csv,1,Import of Major Petrochemicals - Product wise / Group wise from 2007-08 to 2014-15,NULL
+322641,6bb78447-1092-4058-8114-a5aa43e8cb35,text/csv,1,Import of Major Chemicals - Product-wise / Group-wise from 2007-08 to 2014-15,NULL
+327921,89da2759-ff1d-4f4f-8fc5-388677b9e483,text/csv,1,Daily retail price of Brinjal upto April - 2015,https://data.gov.in/sites/default/files/daily_retail_price_Brinjal_upto_apr_2015.csv
+327941,a276d7ed-c3ed-4782-9d22-2bb1dad3d821,text/csv,1,Daily retail price of Cabbage upto April - 2015,https://data.gov.in/sites/default/files/daily_retail_price_Cabbage_upto_apr_2015.csv
+327961,8e93372b-a15b-40a4-a7a6-d9dde5de002d,text/csv,1,Daily retail price of Gram Dal upto April - 2015,https://data.gov.in/sites/default/files/daily_retail_price_GramDal_upto_apr_2015.csv
+327981,3f283864-b037-4fc1-8865-c35d254d02ce,text/csv,1,Daily retail price of Groundnut Oil (Packed) upto April - 2015,https://data.gov.in/sites/default/files/daily_retail_price_GroundnutOilPacked_upto_apr_2015.csv
+328001,9f717ac3-eee9-4145-ab7e-4f2690ac6ae0,text/csv,1,Daily retail price of Gur upto April - 2015,https://data.gov.in/sites/default/files/daily_retail_price_Gur_upto_apr_2015.csv
+328021,98de9e65-0541-4cd7-a1e6-3c1b6a3ede79,text/csv,1,Daily retail price of Masoor Dal upto April - 2015,https://data.gov.in/sites/default/files/daily_retail_price_MasoorDal_upto_apr_2015.csv
+328041,e5e37e68-faed-46bd-b6c2-001cbc633e29,text/csv,1,Daily retail price of Milk upto April - 2015,https://data.gov.in/sites/default/files/daily_retail_price_Milk_upto_apr_2015.csv
+328081,7db42115-1b33-4f94-a233-fb825ad90d73,text/csv,1,Daily retail price of Mustard Oil (Packed) upto April - 2015,https://data.gov.in/sites/default/files/daily_retail_price_MustardOilPacked_upto_apr_2015.csv
+328101,b29a9c8f-d028-483f-aba5-c55020fd740f,text/csv,1,Daily retail price of Onion upto April - 2015,https://data.gov.in/sites/default/files/daily_retail_price_Onion_upto_apr_2015.csv
+328121,f1c71238-f156-43ea-8638-8ccfffc88f4d,text/csv,1,Daily retail price of Palm Oil (Packed) upto April - 2015,https://data.gov.in/sites/default/files/daily_retail_price_PalmOilPacked_upto_apr_2015.csv
+328141,b456889d-4d5a-4802-9228-264ec298c673,text/csv,1,Daily retail price of Potato upto April - 2015,https://data.gov.in/sites/default/files/daily_retail_price_Potato_upto_apr_2015.csv
+328161,735adaf2-4b8e-4fd3-8bf6-5cfa007b3de8,text/csv,1,Daily retail price of Rice upto April - 2015,https://data.gov.in/sites/default/files/daily_retail_price_Rice_upto_apr_2015.csv
+328201,737e9147-78ae-49f3-883d-ced344e2955e,text/csv,1,Daily retail price of Soya Oil (Packed) upto April - 2015,https://data.gov.in/sites/default/files/daily_retail_price_SoyaOilPacked_upto_apr_2015.csv
+328221,6e299ccc-9aaa-4106-a03a-856f899b9fbb,text/csv,1,Daily retail price of Sugar upto April - 2015,https://data.gov.in/sites/default/files/daily_retail_price_Sugar_upto_apr_2015.csv
+328281,19f9c868-1ea9-4857-8893-b44a7d6d071e,text/csv,1,Daily retail price of Tomato upto April - 2015,https://data.gov.in/sites/default/files/daily_retail_price_Tomato_upto_apr_2015.csv
+328301,88eb9083-d47e-4816-8e92-3b341938f999,text/csv,1,Daily retail price of Tur/Arhar Dal upto April - 2015,https://data.gov.in/sites/default/files/daily_retail_price_TurArharDal_upto_apr_2015.csv
+328321,002b7ab9-66fc-4589-9ba2-608883531a2d,text/csv,1,Daily retail price of Urad Dal upto April - 2015,https://data.gov.in/sites/default/files/daily_retail_price_UradDal_upto_apr_2015.csv
+328341,c90d4835-563b-4be8-b901-c1672ddf9940,text/csv,1,Daily retail price of Vanaspati Packed upto April - 2015,https://data.gov.in/sites/default/files/daily_retail_price_VanaspatiPacked_upto_apr_2015.csv
+328361,54a75bb0-833f-4b2f-97f6-1b41509a51d1,text/csv,1,Daily retail price of Wheat upto April - 2015,https://data.gov.in/sites/default/files/daily_retail_price_Wheat_upto_apr_2015.csv
+328381,6c9581ed-2421-4ed0-a186-e33cd5c6706b,text/csv,1,Weekly retail price of Atta (Wheat) upto 2012,https://data.gov.in/sites/default/files/weekly_retail_price_atta_upto_2012.csv
+328401,4fdfcf53-43af-4de2-a77d-630b635c37cb,text/csv,1,Weekly retail price of Gram Dal upto 2012,https://data.gov.in/sites/default/files/weekly_retail_price_gram_upto_2012.csv
+328421,50a77fe8-472a-4ebc-a3e6-b59ffb9ad161,text/csv,1,Weekly retail price of Groundnut Oil (Packed) upto 2012,https://data.gov.in/sites/default/files/weekly_retail_price_groil_upto_2012.csv
+328441,cbe27864-3ebf-48a3-9a81-05a6964b623d,text/csv,1,Weekly retail price of Gur upto 2012,https://data.gov.in/sites/default/files/weekly_retail_price_gur_upto_2012.csv
+328461,f8c61bb2-3b00-4c2c-be23-42562de90cee,text/csv,1,Weekly retail price of Milk upto 2012,https://data.gov.in/sites/default/files/weekly_retail_price_milk_upto_2012.csv
+328481,bee37d83-29d2-4410-aacd-d91fab8a2d38,text/csv,1,Weekly retail price of Mustard Oil (Packed) upto 2012,https://data.gov.in/sites/default/files/weekly_retail_price_musoil_upto_2012.csv
+328501,b3eff3be-2a72-4f2b-9d17-7ea4557eecc3,text/csv,1,Weekly retail price of Onion upto 2012,https://data.gov.in/sites/default/files/weekly_retail_price_onion_upto_2012.csv
+328521,7da00724-a7fe-4342-b964-28b7186bd4f3,text/csv,1,Weekly retail price of Potato upto 2012,https://data.gov.in/sites/default/files/weekly_retail_price_potato_upto_2012.csv
+328541,490e51f1-8208-40d5-881c-529734844506,text/csv,1,Weekly retail price of Rice upto 2012,https://data.gov.in/sites/default/files/weekly_retail_price_rice_upto_2012.csv
+328561,2e5ce956-3f25-4428-bfbe-ccf21ec72dda,text/csv,1,Weekly retail price of Loose Salt upto 2012,https://data.gov.in/sites/default/files/weekly_retail_price_salt_l_upto_2012.csv
+328581,06b8db79-062f-44d6-88ba-5bbfecb9210f,text/csv,1,Weekly retail price of Salt Packed upto 2012,https://data.gov.in/sites/default/files/weekly_retail_price_salt_p_upto_2012.csv
+328601,5b33a1d2-b8f3-4d61-bc2c-6b34ae5fe468,text/csv,1,Weekly retail price of Sugar upto 2012,https://data.gov.in/sites/default/files/weekly_retail_price_sugar_upto_2012.csv
+328621,670e6b9e-47d3-4a3c-9ea3-17edf249e856,text/csv,1,Weekly retail price of Tea Loose upto 2012,https://data.gov.in/sites/default/files/weekly_retail_price_tea_loose_upto_2012.csv
+328641,78862230-3e71-4a09-b853-116a0ba8b49d,text/csv,1,Weekly retail price of Tur/Arhar Dal upto 2012,https://data.gov.in/sites/default/files/weekly_retail_price_tur_upto_2012.csv
+328661,7e0df073-6906-4a10-8b0f-978a44ff2a84,text/csv,1,Weekly retail price of Vanaspati (Packed) upto 2012,https://data.gov.in/sites/default/files/weekly_retail_price_vanaspati_upto_2012.csv
+328681,bacbd5f3-1ebd-4071-9470-c1693c8a7d5a,text/csv,1,Weekly retail price of Wheat upto 2012,https://data.gov.in/sites/default/files/weekly_retail_price_wheat_upto_2012.csv
+328701,dc9dcb6c-7fd6-494d-99b3-baad5380addc,text/csv,1,Daily wholesale price of Atta (Wheat) upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_AttaWheat_upto_apr_2015.csv
+328721,4cf82264-04dc-425b-80ff-1da5bf0a2132,text/csv,1,Daily wholesale price of Brinjal upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_Brinjal_upto_apr_2015.csv
+3287281,98fa254e-c5f8-4910-a19b-4828939b477d,text/csv,1,National Hospital Directory with Geo Code and additional parameters (updated till last month),https://data.gov.in/sites/default/files/datafile/hospital_directory.csv
+3287301,0dfebd78-bac4-44be-9291-025a983323f4,text/csv,2,NIN Health Faclities with Geo Code and additional parameters (updated till last month),https://info.nhp.gov.in/api/nin-health-facilities.csv
+3287321,fced6df9-a360-4e08-8ca0-f283fc74ce15,text/csv,2,Blood Bank Directory (updated till last month),https://info.nhp.gov.in/api/blood-banks.csv
+328741,b39f26af-7c18-4eed-a3b3-52f56f9b2833,text/csv,1,Daily wholesale price of Cabbage upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_Cabbage_upto_apr_2015.csv
+328761,24719faf-dcc5-444f-9abb-119725096a65,text/csv,1,Daily wholesale price of Gram Dal upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_GramDal_upto_apr_2015.csv
+328781,e6db48dd-b461-4a76-8fa0-f3edf39525df,text/csv,1,Daily wholesale price of Groundnut Oil (Packed) upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_GroundnutOilPacked_upto_apr_2015.csv
+328801,6949ad1f-adf2-46f0-a53f-14e5c0d94cf6,text/csv,1,Daily wholesale price of Gur upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_Gur_upto_apr_2015.csv
+328821,1d380d32-bf11-469f-b43d-2512ffbd594c,text/csv,1,Daily wholesale price of Masoor Dal upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_MasoorDal_upto_apr_2015.csv
+328841,4a5f7723-0f4f-47ef-9b10-40e4309ddf58,text/csv,1,Daily wholesale price of Milk upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_Milk_upto_apr_2015.csv
+328861,0e7ae80b-6769-4622-9435-b4bae8001fa6,text/csv,1,Daily wholesale price of Moong Dal upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_MoongDal_upto_apr_2015.csv
+328901,522e708a-8c44-47d5-80c5-b62bf357f2b8,text/csv,1,Daily wholesale price of Onion upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_Onion_upto_apr_2015.csv
+328921,159795cf-07d2-4abe-986b-29142c644c7c,text/csv,1,Daily wholesale price of Palm Oil (Packed) upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_PalmOilPacked_upto_apr_2015.csv
+328941,594382fa-45a5-4f10-a9e1-2e9c7ceae037,text/csv,1,Daily wholesale price of Potato upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_Potato_upto_apr_2015.csv
+328961,dae038d5-1e5d-4469-b233-1dd9d04ea3f7,text/csv,1,Daily wholesale price of Rice upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_Rice_upto_apr_2015.csv
+328981,62090d86-5aa1-463c-9fa4-d94acbdfd229,text/csv,1,Daily wholesale price of Salt Pack (Iodised) upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_SaltPackIodised_upto_apr_2015.csv
+329001,81c65509-2c57-4267-9808-139a7f73d99d,text/csv,1,Daily wholesale price of Soya Oil (Packed) upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_SoyaOilPacked_upto_apr_2015.csv
+329021,3b2b77da-c55c-4e57-b2b4-08b92c5c371c,text/csv,1,Daily wholesale price of Sugar upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_Sugar_upto_apr_2015.csv
+329041,99515971-c773-4376-b4ba-97fa29376d94,text/csv,1,Daily wholesale price of Sunflower Oil (Packed) upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_SunflowerOilPacked_upto_apr_2015.csv
+329061,33903b62-0001-4f57-9a6d-515d8f18ad00,text/csv,1,Daily wholesale price of Tea Loose upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_TeaLoose_upto_apr_2015.csv
+329081,294b486d-1b66-4f3d-88e1-b19451bd8c08,text/csv,1,Daily wholesale price of Tomato upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_Tomato_upto_apr_2015.csv
+329101,f6e6eee2-21f9-4e81-a82c-afd7b8d99f64,text/csv,1,Daily wholesale price of Tur/Arhar Dal upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_TurArharDal_upto_apr_2015.csv
+329121,994da238-87d1-4668-83b3-3f70e4750da0,text/csv,1,Daily wholesale price of Urad Dal upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_UradDal_upto_apr_2015.csv
+329141,340c127b-754e-4e07-b253-43e9159c7254,text/csv,1,Daily wholesale price of Vanaspati Packed upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_VanaspatiPacked_upto_apr_2015.csv
+329161,39c1865b-5483-41f6-9c9b-3d32c0d63824,text/csv,1,Daily wholesale price of Wheat upto April - 2015,https://data.gov.in/sites/default/files/daily_wholesale_price_Wheat_upto_apr_2015.csv
+329181,8b7e1db5-0b1d-4b48-bd87-00005ca9ade5,text/csv,1,Weekly wholesale price of Atta (Wheat) upto 2012,https://data.gov.in/sites/default/files/weekly_wholesale_price_atta_upto_2012.csv
+329201,f0c04e7c-5ffb-4042-bc56-4ef6710daa13,text/csv,1,Weekly wholesale price of Gram Dal upto 2012,https://data.gov.in/sites/default/files/weekly_wholesale_price_gram_upto_2012.csv
+329221,1af425a6-dd7a-403f-a62f-54691b42b49f,text/csv,1,Weekly wholesale price of Groundnut Oil (Packed) upto 2012,https://data.gov.in/sites/default/files/weekly_wholesale_price_groil_upto_2012.csv
+329241,48936eb4-2ca2-4d97-be11-70cae1b25df4,text/csv,1,Weekly wholesale price of Gur upto 2012,https://data.gov.in/sites/default/files/weekly_wholesale_price_gur_upto_2012.csv
+329261,ad988926-bb09-4985-88dc-85042791a36f,text/csv,1,Weekly wholesale price of Milk upto 2012,https://data.gov.in/sites/default/files/weekly_wholesale_price_milk_upto_2012.csv
+329281,95d351f8-6803-43f1-b6b2-5d3183b9ba0b,text/csv,1,Weekly wholesale price of Mustard Oil (Packed) upto 2012,https://data.gov.in/sites/default/files/weekly_wholesale_price_musoil_upto_2012.csv
+329301,8daef6b2-f1c8-4ddf-8b6a-a4353bd4b53e,text/csv,1,Weekly wholesale price of Onion upto 2012,https://data.gov.in/sites/default/files/weekly_wholesale_price_onion_upto_2012.csv
+329321,efa96317-cf6a-4245-a786-73bb6e8b0249,text/csv,1,Weekly wholesale price of Potato upto 2012,https://data.gov.in/sites/default/files/weekly_wholesale_price_potato_upto_2012.csv
+329341,e2aa7422-c179-43c8-8bc7-a4f0305d360e,text/csv,1,Weekly wholesale price of Rice upto 2012,https://data.gov.in/sites/default/files/weekly_wholesale_price_rice_upto_2012.csv
+329361,4fcc9410-4d7a-48fb-84ea-3a072ef6b382,text/csv,1,Weekly wholesale price of Loose Salt upto 2012,https://data.gov.in/sites/default/files/weekly_wholesale_price_salt_l_upto_2012.csv
+329381,7e6249e9-f1cb-4f58-bc7d-c586f9538c04,text/csv,1,Weekly wholesale price of Salt Packed upto 2012,https://data.gov.in/sites/default/files/weekly_wholesale_price_salt_p_upto_2012.csv
+329401,f6e405ce-94e7-4918-9ad2-c6b2447c4254,text/csv,1,Weekly wholesale price of Sugar upto 2012,https://data.gov.in/sites/default/files/weekly_wholesale_price_sugar_upto_2012.csv
+329421,79968202-10b3-460a-b65a-9b21230d3503,text/csv,1,Weekly wholesale price of Tea Loose upto 2012,https://data.gov.in/sites/default/files/weekly_wholesale_price_tea_loose_upto_2012.csv
+329441,d1c6eebd-94e0-4d20-b129-7dd893dc474b,text/csv,1,Weekly wholesale price of Tur/Arhar Dal upto 2012,https://data.gov.in/sites/default/files/weekly_wholesale_price_tur_upto_2012.csv
+329461,505998f4-e799-441c-b921-ea3b6fd2ab27,text/csv,1,Weekly wholesale price of Vanaspati (Packed) upto 2012,https://data.gov.in/sites/default/files/weekly_wholesale_price_vanaspati_upto_2012.csv
+329481,b9528b08-05d1-4764-9093-67458558eff2,text/csv,1,Weekly wholesale price of Wheat upto 2012,https://data.gov.in/sites/default/files/weekly_wholesale_price_wheat_upto_2012.csv
+355501,4dbe5667-7b6b-41d7-82af-211562424d9a,text/csv,5,Registrars of Companies (RoC)-wise Company Master Data,https://data.gov.in/sites/default/files/dataurl15092015/company_master_data_upto_Mar_2015_Goa.csv
+356941,0578a6c3-056e-4182-af7a-4307f1e0c2a7,application/vnd.ms-excel,1,Dispensaries Directory with Geo Code as on September 2015,NULL
+393021,5608551e-0eeb-4763-8c24-3a0b8ed4c869,text/csv,1,Month-wise & Country-wise import of  chemical Fertilizers- DAP April to August 2015,NULL
+393041,7ccc14f3-46ca-46fe-8cd3-796a10794d41,text/csv,1,Month-wise & Country-wise import of  chemical Fertilizers MAP April to August 2015,NULL
+393061,4ab23c6e-761b-4d42-a84d-27584fea5303,text/csv,1,Month-wise & Country-wise import of  chemical Fertilizers MOP April to August 2015,NULL
+393101,a7bd97db-c480-45fd-a5a5-106fc85fa9f3,text/csv,1,Month-wise and Country-wise import of chemical Fertilizers TSP April to August 2015,NULL
+393121,39f6ecd7-2c70-4079-8f85-077d459aeeed,text/csv,1,Month-wise & Country-wise import of  chemical Fertilizers UREA April to August 2015,NULL
+393361,91dad814-403b-4ca2-b3b2-a9a23f2197c1,text/csv,1,Month-wise & Port-wise import of  chemical Fertilizers DAP April to August 2015,NULL
+393381,34d2fef5-20a1-4687-8851-731fd2b2a218,text/csv,1,Month-wise & Port-wise import of  chemical Fertilizers MAP April to August 2015,NULL
+393401,5b06407f-a40e-4b1c-8d2a-09f797666fe4,text/csv,1,Month-wise and Port-wise import of chemical Fertilizers MOP April to August 2015,NULL
+393421,0c1a2782-3187-4dc4-b02b-524ede507aa9,text/csv,1,Month-wise & Port-wise import of  chemical Fertilizers NPK April to August 2015,NULL
+393441,81673404-ab38-494f-a4c9-76574d359bf4,text/csv,1,Month-wise & Port-wise import of  chemical Fertilizers TSP April to August 2015,NULL
+393461,00c05157-b4e8-406c-bc87-3218b4516d35,text/csv,1,Month-wise & Port-wise import of  chemical Fertilizers UREA April to August 2015,NULL
+393501,8f1d0e5a-010f-4393-9c12-8313965b1a65,text/csv,1,State-Wise/Month-Wise Requirement and Availability of chemical Fertilizers April to August 2015,NULL
+3995441,98e76922-ab13-474e-9bce-78942583cd0e,text/csv,5,Voice Call Quality Customer Experience till last month,https://api.data.gov.in/resource/98e76922-ab13-474e-9bce-78942583cd0e?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+418881,792f1b9b-1c70-4c74-bd59-b2c27dbf9df9,text/csv,1,Industry groupwise distribution of number of EMII filed by the MSMEs at DICs,NULL
+418901,b72bd1bc-9e66-4f4b-a861-a508e80478d9,text/csv,1,State/UT-wise distribution of number of EM-II filed by the MSMEs at DICs under various State/UT Commissionerates/Directorates of Industries during 2007-08 to 2014-15,NULL
+4206401,3fd7957b-4071-4548-9d3c-89f461e0bce4,text/csv,1,Production of Major Petrochemicals - Product-wise / Group-wise from 2009-10 to 2017-18 (Upto September 2017),NULL
+4898201,ade6e644-91b8-4d27-97ba-e8c42c48f278,text/csv,5,Month-wise All India Crowdsourced Mobile Data Speed Measurement,https://api.data.gov.in/resource/ade6e644-91b8-4d27-97ba-e8c42c48f278?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+513961,08b7b568-0290-4d4e-bbf2-4195a6972fe1,text/csv,4,Weekly data on Passport Related Services,NULL
+5200581,964f3b1c-c2e5-4735-b29c-ba682b7abdb8,text/csv,1,Production of Major Chemicals - Product-wise / Group-wise from 2009-10 to 2017-18,NULL
+5200621,2dbe0ec5-0e7f-4f4d-a791-a84c2af96ba3,text/csv,1,Export of Major Petrochemicals - Product wise / Group wise from 2009-10 to 2017-18,NULL
+5849381,0c3ca485-1a41-44a4-b00f-79f03358b18b,text/csv,1,Principal Commodity wise Import for the year 2017-18,NULL
+602939089,d4206736-a28b-4552-8900-7e0c23c707ac,text/csv,5,Village-wise Self Help Group (SHG) and Members Count,https://api.data.gov.in/resource/d4206736-a28b-4552-8900-7e0c23c707ac?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+602979105,a66f8149-d060-43f9-bc94-e9daeb2c0188,text/csv,1,Principal Commodity wise Export for the year 2021-22,NULL
+602979118,d7999d61-6ea9-4455-95b1-ad3b9467a015,text/csv,1,Principal Commodity wise Export for the year 2022-23,NULL
+602979123,51877f63-3128-485f-a7ab-830ae517b8c0,text/csv,1,Principal Commodity wise Import for the year 2021-22,NULL
+602979125,88348278-0099-4b9c-87ca-253e195d72b9,text/csv,1,Principal Commodity wise Import for the year 2022-23,NULL
+603033702,1e65b0d8-9cf3-4c79-9fa1-6962f4400dd0,application/vnd.ms-excel,1,District-wise Service Ready Gram Panchayat as on 31-03-2024,NULL
+603072177,35985678-0d79-46b4-9ed6-6f13308a1d24,text/csv,5,Variety-wise Daily Market Prices Data of Commodity,https://api.data.gov.in/resource/35985678-0d79-46b4-9ed6-6f13308a1d24?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+603074430,8b68ae56-84cf-4728-a0a6-1be11028dea7,text/csv,5,List of MSME Registered Units under UDYAM,https://api.data.gov.in/resource/8b68ae56-84cf-4728-a0a6-1be11028dea7?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+603137753,cef25fe2-9231-4128-8aec-2c948fedd43f,text/json,5,Kisan Call Centre (KCC) - Transcripts of farmers queries & answers,https://api.data.gov.in/resource/cef25fe2-9231-4128-8aec-2c948fedd43f?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+603144547,d4361151-6d41-43c7-98cd-9a6cd90b5ca4,text/csv,4,Physical & Financial Progress of Pradhan Mantri Gram Sadak Yojna (PMGSY) as on date,https://api.data.gov.in/resource/d4361151-6d41-43c7-98cd-9a6cd90b5ca4?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all
+603491108,39d6a65e-c91a-4972-ad31-4ff99ae9c33c,text/json,2,Senior/Young Artist Scheme Data,https://csms.life/all_scheme_public/Senior_Young_Artist_Scheme.php
+603501203,f7f1bf09-7633-4474-96b2-62630c70f33c,text/csv,1,State-wise Voters Information during 2024,NULL
+603663754,60eed46c-190a-45e1-9807-c5b37f960fff,text/csv,5,Daily FCI Stock Position of the Commodity,https://api.data.gov.in/resource/60eed46c-190a-45e1-9807-c5b37f960fff?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+603750134,19eac040-0b94-49fa-b239-4f2fd8677d53,text/csv,5,Aadhaar Demographic Monthly Update Data,https://api.data.gov.in/resource/19eac040-0b94-49fa-b239-4f2fd8677d53?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+603750139,65454dab-1517-40a3-ac1d-47d4dfe6891c,text/csv,5,Aadhaar Biometric Monthly Update Data,https://api.data.gov.in/resource/65454dab-1517-40a3-ac1d-47d4dfe6891c?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+603773102,3b703c15-a41e-4545-82e5-4b743a7f62d8,text/csv,5,National eTransaction Count - eTaal,https://api.data.gov.in/resource/3b703c15-a41e-4545-82e5-4b743a7f62d8?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+6183568,b1080219-2d9c-4d39-9055-98b12e88ac95,text/csv,1,NGOs running Integrated Complex with State Grant,NULL
+6183569,0eef8f72-7beb-4d89-8391-ab51bb0d693f,text/csv,1,Integrated Programme for Older Persons with GOI Grant,NULL
+6187001,96fd48d4-1e72-4567-95e2-77d5498afbf9,text/csv,1,District-wise list of Veterinary Hospitals,NULL
+6187041,ac129d94-27bb-41f9-8eb3-27351e0db8e7,text/csv,1,District-wise list of Veterinary Dispensaries,NULL
+6187061,920302c0-bb5e-4e31-9cfa-3a2bb47f20dd,text/csv,1,District-wise list of Veterinary Sub-centres,NULL
+648061,027dfca2-5502-494c-8ba5-4cb6d70ad28e,text/csv,1,"State wise and Month wise Requirement and Availability of Chemical Fertilizers during September-November, 2015",NULL
+6481006,2485c8e1-4381-4e47-9fff-03e7ae21f2e4,text/csv,1,Work Demand and Allocation under MGNREGA - 2011-12,NULL
+6481007,a000738b-e946-40fb-b6b0-825f3ff66928,text/csv,1,Work Demand and Allocation under MGNREGA - 2012-13,NULL
+6481008,c6575501-11f3-4805-815c-773f40e9f7b1,text/csv,1,Work Demand and Allocation under MGNREGA - 2013-2014,NULL
+6481009,428fa054-45d1-4225-99a0-46c90a626716,text/csv,1,Work Demand and Allocation under MGNREGA - 2014-15,NULL
+648101,4186e93e-64fd-4e31-89d3-1dde0ec869c9,text/csv,1,Month wise and Port wise Import of Chemical Fertilizer-UREA during September-November 2015,NULL
+6481010,49214697-d57d-453b-9740-31825d294f58,text/csv,1,Work Demand and Allocation under MGNREGA - 2015-16,NULL
+648141,58898d49-e147-4eeb-b888-e64f6e69c97c,text/csv,1,"Month wise and Port wise Import of Chemical Fertilizer-DAP during September-November, 2015",NULL
+648161,708630cf-4ada-40a5-a8b7-0edb0e5b3f33,text/csv,1,"Month wise and Port wise Import of Chemical Fertilizer-MAP during September-November, 2015",NULL
+648181,e22cb37d-4205-4f58-a2ad-6962ff9116e3,text/csv,1,"Month wise and Port wise Import of Chemical Fertilizer-MOP during September-November, 2015",NULL
+650201,eb57fa38-d16c-47f5-b70d-01d5530a1592,text/csv,1,"Month wise and Port wise Import of Chemical Fertilizer-NPK during September-November, 2015",NULL
+650881,54a2aa47-3a41-4816-b3bf-d71ed6286ac5,text/csv,1,"Month wise and Port wise Import of Chemical Fertilizer-TSP during September-November, 2015",NULL
+650921,c1e0ded3-5ef4-49e2-b736-2ac78c9f6178,text/csv,1,"Month wise and Country wise Import of Chemical Fertilizer-UREA during September-November, 2015",NULL
+650941,d0f8191e-c6a3-400d-b1ea-d4527e4c03d3,text/csv,1,"Month wise and Country wise Import of Chemical Fertilizer-DAP during September-November, 2015",NULL
+650961,eb2550be-ce73-43f4-8246-24a5e5af49ec,text/csv,1,"Month wise and Country wise Import of Chemical Fertilizer-MAP during September-November, 2015",NULL
+650981,990ed183-10ee-45a7-9236-68e72572bac2,text/csv,1,"Month wise and Country wise Import of Chemical Fertilizer-MOP during September-November, 2015",NULL
+651001,d4d2780a-0c95-4fad-97ec-65b7f0f40220,text/csv,1,"Month wise and Country wise Import of Chemical Fertilizer-NPK during September-November, 2015",NULL
+6626286,34e827e1-03e0-4193-a0e7-1fcc62e306b5,text/csv,4,List of Diagnostics Centers empaneled under CGHS all over India,https://api.data.gov.in/resource/34e827e1-03e0-4193-a0e7-1fcc62e306b5?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+6626300,de59e770-2333-4eaf-9088-a3643de040c8,text/csv,4,List of Hospitals empaneled under CGHS all over India,https://api.data.gov.in/resource/de59e770-2333-4eaf-9088-a3643de040c8?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+6626709,f79de553-700c-4ef4-82f9-063b3ab5dfca,text/csv,4,Wellness Centre-wise Beneficiaries registered under CGHS in different cities,https://api.data.gov.in/resource/f79de553-700c-4ef4-82f9-063b3ab5dfca?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+6629925,0b4bac5d-1066-4355-bb8e-2b68769a6b22,text/csv,4,Self Printing of CGHS Card as on date,https://api.data.gov.in/resource/0b4bac5d-1066-4355-bb8e-2b68769a6b22?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+6660432,41b833c4-510d-4e23-ab2a-04b7528e66c2,text/csv,1,Import of Major Petrochemicals - Product wise / Group wise from 2010-11 to 2018-19,NULL
+6660433,6d286d7f-478d-4c4a-9cd1-e339c893bf9f,text/csv,1,Export of Major Chemicals - Product wise / Group wise from 2010-11 to 2018-19,NULL
+6681074,842a3805-7cf3-4172-931f-020625a97003,text/csv,1,District-wise Production under Potato Cultivation in Punjab from 1968 to 2018 (April to March),NULL
+6690674,f14027a0-ca4a-4911-b4e5-5a00d17e0140,application/json,4,MSME Bihar - List of Registered Units under Udyog Aadhaar Memorandum,https://api.data.gov.in/catalog/2c895ab9-8042-4653-bfeb-7dc71281fd57?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&format=json&offset=0&limit=all&filters[State]=BIHAR
+6690676,408e1f52-5c06-426f-b090-da1a45063551,application/json,4,List of MSME Registered Units under Udyog Aadhaar Memorandum - Gujarat,https://api.data.gov.in/catalog/2c895ab9-8042-4653-bfeb-7dc71281fd57?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&format=json&offset=0&limit=all&filters[State]=GUJARAT
+6690677,97a54964-c92e-45a5-b377-2410df89a11a,application/json,4,List of MSME Registered Units under Udyog Aadhaar Memorandum - Haryana,https://api.data.gov.in/catalog/2c895ab9-8042-4653-bfeb-7dc71281fd57?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&format=json&offset=0&limit=all&filters[State]=HARYANA
+6690681,470d74ee-ba1a-4ce8-aeb9-f11b00116a5e,application/json,4,List of MSME Registered Units under Udyog Aadhaar Memorandum - Jharkhand,https://api.data.gov.in/catalog/2c895ab9-8042-4653-bfeb-7dc71281fd57?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&format=json&offset=0&limit=all&filters[State]=JHARKHAND
+6690682,ec1d4f75-c000-4053-b9d2-cd5e58a25385,application/json,4,List of MSME Registered Units under Udyog Aadhaar Memorandum - Karnataka,https://api.data.gov.in/catalog/2c895ab9-8042-4653-bfeb-7dc71281fd57?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&format=json&offset=0&limit=all&filters[State]=KARNATAKA
+6690683,f5f251a1-951b-422f-95ab-3b593e2c57d5,application/json,4,List of MSME Registered Units under Udyog Aadhaar Memorandum - Kerala,https://api.data.gov.in/catalog/2c895ab9-8042-4653-bfeb-7dc71281fd57?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&format=json&offset=0&limit=all&filters[State]=KERALA
+6690684,55321bb2-233c-4996-8ddf-8e69c8e98c26,application/json,4,List of MSME Registered Units under Udyog Aadhaar Memorandum - Madhya Pradesh,https://api.data.gov.in/catalog/2c895ab9-8042-4653-bfeb-7dc71281fd57?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&format=json&offset=0&limit=all&filters[State]=MADHYA+PRADESH
+6690690,9d196ae8-d923-4266-ad23-fefb157d200d,application/json,4,List of MSME Registered Units under Udyog Aadhaar Memorandum - Odisha,https://api.data.gov.in/catalog/2c895ab9-8042-4653-bfeb-7dc71281fd57?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&format=json&offset=0&limit=all&filters[State]=ODISHA
+6690691,c4740b04-65e4-4295-8b95-b6a9b030b6a6,application/json,4,List of MSME Registered Units under Udyog Aadhaar Memorandum - Punjab,https://api.data.gov.in/catalog/2c895ab9-8042-4653-bfeb-7dc71281fd57?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&format=json&offset=0&limit=all&filters[State]=PUNJAB
+6690693,7964d703-46b2-46c8-919b-fb5b1280c42c,application/json,4,MSME Rajasthan - List of Registered Units under Udyog Aadhaar Memorandum,https://api.data.gov.in/catalog/2c895ab9-8042-4653-bfeb-7dc71281fd57?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&format=json&offset=0&limit=all&filters[State]=RAJASTHAN
+6690695,925e9f0e-47b7-42fe-96ab-dde92686be46,application/json,4,List of MSME Registered Units under Udyog Aadhaar Memorandum - Tamil Nadu,https://api.data.gov.in/catalog/2c895ab9-8042-4653-bfeb-7dc71281fd57?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&format=json&offset=0&limit=all&filters[State]=TAMIL+NADU
+6690696,ce820e7f-7319-4380-9d75-48b42dbb75cc,application/json,4,List of MSME Registered Units under Udyog Aadhaar Memorandum - Telangana,https://api.data.gov.in/catalog/2c895ab9-8042-4653-bfeb-7dc71281fd57?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&format=json&offset=0&limit=all&filters[State]=TELANGANA
+6690698,93f761f4-0db2-48f6-a9a8-990c2c1bb250,application/json,4,List of MSME Registered Units under Udyog Aadhaar Memorandum - Uttar Pradesh,https://api.data.gov.in/catalog/2c895ab9-8042-4653-bfeb-7dc71281fd57?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&format=json&offset=0&limit=all&filters[State]=UTTAR+PRADESH
+6690701,d71ca878-c9d8-445c-ba52-7fddc33c794b,application/json,4,List of MSME Registered Units under Udyog Aadhaar Memorandum - West Bengal,https://api.data.gov.in/catalog/2c895ab9-8042-4653-bfeb-7dc71281fd57?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&format=json&offset=0&limit=all&filters[State]=WEST+BENGAL
+6690706,c48bbb48-cd34-4752-930f-84a96dc150cf,application/json,4,List of MSME Registered Units under Udyog Aadhaar Memorandum - Delhi,https://api.data.gov.in/catalog/2c895ab9-8042-4653-bfeb-7dc71281fd57?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&format=json&offset=0&limit=all&filters[State]=DELHI
+6771373,2b07aa13-faea-4ec1-8709-38df9852e6fd,text/csv,1,Principal Commodity wise Export during 2018-19,NULL
+6771374,14e36e38-047a-4d25-b580-f6d7c7f5bcaf,text/csv,1,Principal Commodity wise Import during 2018-19,NULL
+6789946,36e01bc4-9a07-4d02-9e7b-5b481d13ab24,text/csv,1,Principal Commodity wise Export during 2019-20,NULL
+6789947,44274c81-cef0-4a7a-b4b2-aecc7ca94ce5,text/csv,1,Principal Commodity wise Import during 2019-20,NULL
+6898372,bb357aa4-9d2f-45ec-a03e-8a744e16aa4d,text/csv,1,Production of Major Petrochemicals - Product-wise / Group-wise from 2012-13 to 2019-20,NULL
+6898373,329e335d-ac83-4f09-8bc8-2b9293cb0204,text/csv,1,Production of Major Chemicals - Product-wise / Group-wise from 2012-13 to 2019-20,NULL
+6898374,b98ab867-11ce-4607-b94f-23b2efc76edc,text/csv,1,Import of Major Chemicals - Product-wise / Group-wise from 2012-13 to 2019-20,NULL
+6905440,fe82eba3-683f-4c45-af4b-a51c28e3f80e,text/csv,1,Production of Major Chemicals - Product-wise / Group-wise from 2013-14 to 2020-21,NULL
+6905442,e7a2feb0-859a-4842-8cc1-f05cdb393250,text/csv,1,Imports of Major Chemicals - Product-wise / Group-wise from 2013-14 to 2020-21,NULL
+692521,a15783ff-0108-4dfd-a66d-919ac1454c1d,text/csv,1,Pay Non-news Channels carrying more than 12 minutes average duration per  hour of Advertisements during peak hours for the period 28 September to 27 December 2015,NULL
+7041579,37ca30d3-ea8c-48a5-a5dc-50ec5f46edd5,text/csv,4,People Plan Campaign 2020-2021,https://api.data.gov.in/resource/37ca30d3-ea8c-48a5-a5dc-50ec5f46edd5?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+7041598,96acd415-c968-4931-be10-c124cbb3bc61,text/csv,1,Panchayat Awards 2019-2020,NULL
+7053516,aba2108a-0c50-4075-8a7a-ed7fe4a7769e,text/json,2,"Coal/Lignite Production and Dispatch CIL,SCCL,NLCIL  As on date",https://api.coalindia.in:7000/cil/moc_api
+7055746,4db08c8e-266b-4b7f-9e16-3256bc902599,text/csv,1,Monthly Defaulter List of Sugar Mills for the Month of February 2022,NULL
+7066452,b7f21a24-0cb4-4f66-a84b-bd261f063504,text/csv,1,State/UT wise quota of sugar for PDS as per existing guidelines for AAY families and amount of subsidy released to the States/UTs during 2021-22,NULL
+7076928,4554a3c8-74e3-4f93-8727-8fd92161e345,text/csv,5,Daily data of Soil Moisture,https://api.data.gov.in/resource/4554a3c8-74e3-4f93-8727-8fd92161e345?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+7077059,1fc2148c-fc41-46f5-a364-bdc03f77053f,text/csv,5,Daily data of reservoir level of Central Water Commission (CWC),https://api.data.gov.in/resource/1fc2148c-fc41-46f5-a364-bdc03f77053f?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+7128400,a5d860b4-785b-4d09-b642-23c5a96e0daa,text/csv,1,District resource maps of India information from 1997 to 2022,NULL
+7145816,cc5883c0-30d7-4e9b-a27e-fe461a58325c,text/csv,1,Geological Quadrangle Maps of India information from 1997 to 2014,NULL
+7166950,a71e60f0-a21d-43de-a6c5-fa5d21600cdb,text/csv,4,Local Government Directory (LGD) - States,https://api.data.gov.in/resource/a71e60f0-a21d-43de-a6c5-fa5d21600cdb?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+7166951,37231365-78ba-44d5-ac22-3deec40b9197,text/csv,4,Local Government Directory (LGD) - Districts,https://api.data.gov.in/resource/37231365-78ba-44d5-ac22-3deec40b9197?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+7166952,6be51a29-876a-403a-a6da-42fde795e751,text/csv,4,Local Government Directory (LGD) - Sub-Districts,https://api.data.gov.in/resource/6be51a29-876a-403a-a6da-42fde795e751?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+7166957,1a6c26ed-d67c-40ea-aa20-d38d35f341a5,text/csv,5,Local Government Directory (LGD) - Local Bodies,https://api.data.gov.in/resource/1a6c26ed-d67c-40ea-aa20-d38d35f341a5?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+7215976,f978ad28-9827-4afe-8484-17133f736af7,text/csv,4,Property Card Distribution,https://api.data.gov.in/resource/f978ad28-9827-4afe-8484-17133f736af7?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+7215982,e2edbd3f-de22-4ed3-a96e-a1ca28603a9a,text/csv,4,Drone Flown Villages,https://api.data.gov.in/resource/e2edbd3f-de22-4ed3-a96e-a1ca28603a9a?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+7247865,f17a1608-5f10-4610-bb50-a63c80d83974,text/csv,5,Local Government Directory (LGD) - Villages with PIN Codes,https://api.data.gov.in/resource/f17a1608-5f10-4610-bb50-a63c80d83974?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+7247877,71818d1a-c114-46cb-aa9b-56ed70d4bc4a,text/csv,4,Local Government Directory (LGD) - Local Bodies with PIN Codes,https://api.data.gov.in/resource/71818d1a-c114-46cb-aa9b-56ed70d4bc4a?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+7255240,da428447-700a-41e9-a56a-d7855ffb672f,text/csv,5,Daily Sub-basin-wise Rainfall Data,"https://api.data.gov.in/resource/da428447-700a-41e9-a56a-d7855ffb672f?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all
+"
+7258237,a45eb99a-e44d-4b3a-a97b-af4e3ceeea40,text/json,2,Locations of National Hydrology Projects (NHPs) RTDAS Stations,https://nhp.mowr.gov.in/DGQI/StationData.asmx/GetStationsDetails
+7375443,3544b7b3-44fa-4002-a1ff-eb1c01d9bef2,text/csv,1,Production of Major Chemicals - Product-wise / Group-wise from 2014-15 to 2021-22,NULL
+7375448,f1aae0fe-fa73-48f0-aa89-95268de77aec,text/csv,1,Production of Major Petrochemicals  - Product-wise / Group-wise from 2014-15 to 2021-22,NULL
+7375455,b0215c95-57dc-453f-91bb-ce331f72781a,text/csv,1,Exports of Major Chemical - Product wise / Group wise from 2014-15 to 2021-22,NULL
+7375461,6b0af3dd-3aa5-47aa-b83c-b4d68d89a9b4,text/csv,1,Exports of Major Petrochemical - Product wise / Group wise from 2014-15 to 2021-22,NULL
+7375468,955b3280-0762-46e8-b471-54c629f56905,text/csv,1,Imports of Major Chemical - Product-wise / Group-wise from 2014-15 to 2021-22,NULL
+7375474,31452ba8-e573-4e3e-9799-e20431030eb8,text/csv,1,Imports of Major Petrochemical - Product wise / Group wise  from 2014-15 to 2021-22,NULL
+7514806,304d93df-87fb-4441-9cc5-be8d9b49cf90,application/vnd.ms-excel,1,Year-wise Teledensity (per 100 Inhabitants) from 2008 to 2022,NULL
+7514809,e4086b45-eb70-47a4-b743-c6b4d336141a,application/vnd.ms-excel,1,Year-wise Telecom Subscribers from 2008 to 2022,NULL
+7526598,bb717792-f491-44cf-aa45-9304c1bc4bab,text/csv,1,District Income and Per Capita Income,NULL
+7526695,8e603dc7-6d21-4dd2-95dc-9e8a038ce177,application/vnd.ms-excel,1,Total Households as per 2011 Census Projected Total Households in 2021,NULL
+7527303,c26c7eb9-07ae-463e-b97d-82b7b7274f2b,application/vnd.ms-excel,1,Scheduled Caste and Scheduled Tribes Households As per 2011 Census,NULL
+7527313,67021b66-31fa-4aaa-8399-23b5dffa6abb,application/vnd.ms-excel,1,Area Population Density and Population 2011 Census,NULL
+7527324,6443ab94-b5eb-4af0-aaf8-fb71c523189e,application/vnd.ms-excel,1,Projected Population for 2022,NULL
+7527331,a9590c03-80a3-4438-bc20-6ee87828fb1b,application/vnd.ms-excel,1,Rural and Urban Population and Decadal Change,NULL
+7527351,d9d1ae34-f630-4cc5-8da1-ebbbc42f11ae,application/vnd.ms-excel,1,Sex Ratio 2001 and 2011,NULL
+7527356,e2816274-5beb-4cd4-9517-be73cbeb5e95,application/vnd.ms-excel,1,Child Population 0-6 Years and Projected Child Population 2011,NULL
+7527366,6753a147-16cf-4902-8d46-454a054a7c1d,application/vnd.ms-excel,1,Percentage of  Child Population to the Total population,NULL
+7527372,ee907335-db98-4793-a193-0105910a2aa5,application/vnd.ms-excel,1,Child Sex Ratio 0 to 6 Years 2001 and 2011,NULL
+7527375,d8ca860a-6a78-4370-b1b7-a331503d4453,application/vnd.ms-excel,1,Scheduled Caste Population and Decadal Change,NULL
+7527379,5ac15c2b-41c1-4286-9ea6-37ad1fe7a4c8,application/vnd.ms-excel,1,Projected Population of Scheduled Castes 2022,NULL
+7527385,9ba0a9db-ac77-4dce-b97f-c22cb8f0717a,application/vnd.ms-excel,1,Percentage of Scheduled Caste Population to Total Population,NULL
+7527387,c6b8e09f-d403-4ab5-ba3c-c8ea8653ad44,application/vnd.ms-excel,1,Scheduled Tribe Population and Decadal Change,NULL
+7527391,2b222b87-d9da-4dc3-b20c-3f25f73a1c39,application/vnd.ms-excel,1,Projected Population of Scheduled Tribes 2022,NULL
+7527397,719bcd26-a693-417c-a016-6e4d89904087,application/vnd.ms-excel,1,Percentage of Scheduled Tribes Population to Total Population,NULL
+7527482,f9af42c2-b2cd-4a02-b2e9-55798db33a31,application/vnd.ms-excel,1,Projected Population In Numbers Part A,NULL
+7528199,9bc62b94-b9a3-46f9-940a-d4a14a292ad1,text/csv,1,Projected Population in Numbers Part B,NULL
+7528223,0fe26b19-8694-437c-8609-29a936022d27,text/csv,1,Religionwise_Population_ 2011_a,NULL
+7528225,8c22bc2f-9f7e-48b3-9e5f-4ecfcf389982,text/csv,1,Religion wise Population 2011 Part C,NULL
+7528232,d7a28324-a5f8-4f7c-a86b-202cfb96b045,text/csv,1,Religion wise Population 2012 Part c,NULL
+7528233,d034eee1-8595-45e9-b887-58809c653bb1,text/csv,1,Religion wise Population 2011 Part D,NULL
+7528234,3123623e-5d4c-41e7-9d4e-51df2a8d89c5,text/csv,1,Main workers 2011 census In numbers,NULL
+7528238,03026621-925c-4fcc-b0a1-8e0cbef13bf2,text/csv,1,Marginal workers 2011 census in numbers,NULL
+7528239,42eed138-3765-46d0-a6f7-be179f1d1cda,text/csv,1,Non workers 2011 census in numbers,NULL
+7528241,06ada79e-7a62-4b5d-bd82-8f57b44fa49a,text/csv,1,Agriculture cultivators 2011 census in numbers,NULL
+7528246,4f50bd76-2054-4db6-ac4f-4404a7ae7cf2,text/csv,1,Agriculture laborer 2011 census in numbers,NULL
+7528250,7cb70cc9-3b93-427c-8ebe-e611cc3b320b,text/csv,1,workers in household industries 2011 census in numbers,NULL
+7528254,429a42cf-de8b-4ba0-8501-bad9400b000f,text/csv,1,Total workers 2011 census in numbers,NULL
+7528258,2d415ae7-9d79-4513-bd36-38923a31fd16,text/csv,1,Non agriculture workers 2011 census in numbers,NULL
+7528292,dd72f44a-7cf9-4bdd-b862-05434dea2208,text/csv,1,Land Utilization in Hectares 2019 20 Part A,NULL
+7528294,5ecdd041-fcf1-471c-80f8-fa3cc4770f00,text/csv,1,Land Utilization in Hectares 2019 20 part B,NULL
+7528301,ae3ed687-0ef4-4e5d-9f46-18afb931866c,text/csv,1,Gross and Net area Irrigated under different Sources 2019 20,NULL
+7528315,7670041c-3c6d-4b35-810f-d3d6049fcb45,text/csv,1,Area under Micro Irrigation in 2020 21,NULL
+7528366,04cdddc2-4dab-4905-b6d4-474d08d9e59f,text/csv,1,Net Area Sown in Khariff Rabi Under PMFBY in 2020 21 Part D,NULL
+7528418,8f3632de-fc01-475f-a6cd-fbca57d4dee4,text/csv,1,Area Under Principal crops in Hectares 2019 20 Part B,NULL
+7528440,4a83b178-15ad-40f0-a8dc-e51b0f3c2ffb,text/csv,1,Area Under Principal crops in Hectares 2019 20,NULL
+7528458,10dff21d-4f22-46ef-82b6-d855c57b0602,text/csv,1,Area Under Principal Horticulture Crops in Hectares 2019 20,NULL
+7528515,294ea95f-1da8-4f5e-9588-d8533a5fac60,text/csv,1,Area Under Principal Horticulture Crops in Hectares 2019 20 Part A,NULL
+7528518,6cec0b00-8f54-4931-91e0-fae176cc8c69,text/csv,1,Area Under Principal Horticulture Crops in Hectares 2019 20 Part B,NULL
+7528523,37aa9fd4-c641-400a-bbc2-dccc339fa8ca,text/csv,1,Area Under Principal Horticulture Crops in Hectares 2019 20 Part C,NULL
+7528531,ed3c6366-b7e3-407c-a4b8-441ab62d6e24,text/csv,1,Area Under Principal Horticulture Crops in Hectares 2019 20,NULL
+7528540,e872a160-5295-4671-ae12-188fb92dad43,text/csv,1,Area under Commercial Crops 2019 20 in Hectares,NULL
+7528543,bb5d7407-5b98-422c-831e-90697a8c7406,text/csv,1,Production of Important Crops in Tones 2019 20 Part A,NULL
+7528548,aeda8cab-07c6-4b8f-9f99-0b25773aa396,text/csv,1,Production_of_Important_Crops_in_Tonnes_2019_20_PART_B,NULL
+7528602,2227a06d-feca-43fd-b4cb-363b9c398655,text/csv,1,Production of Important Oil Seeds in Tones 2019 20,NULL
+7528603,0ad952e0-9ae1-45bd-b06b-f621fbf2c7e2,text/csv,1,Production of Commercial Crops 2019 - 20 in tones,NULL
+7528606,340d683a-13b9-4505-bb1d-b5adca34e7dc,text/csv,1,Production of Plantation Crops In Tones 2019 - 20,NULL
+7528613,7f235e4a-64f5-4bb9-90dc-1cea3797043e,text/csv,1,Production of Important Horticulture crops Fruits in Metric Tones 2019 20,NULL
+7528617,d8dfcced-b32a-4fb7-b9a7-9d1e577344e8,text/csv,1,Production of Important Vegetable crops in Tones 2019 20 Part A,NULL
+7528620,b5cdf1a6-68c0-411c-bf12-63ac671ec6b8,text/csv,1,Yield of Important Crops 2019-20,NULL
+7528626,fdcba939-3bbe-4ea8-99d5-2e9e3aa616b6,text/csv,1,Yield of Important  Oil seeds In kgs Hectares 2019 20,NULL
+7528641,78b43346-dd2e-4abc-a0c8-1cd8e61724d1,text/csv,1,Productivity of Major Crop 1 and 2 in Kharif Rabi 2019 20 Kgs or Hectares,NULL
+7528646,f3fff43b-c00b-4a82-9895-2c4fc908d25c,text/csv,1,Yield of Plantation Crops In Kgs or Hectares and Forest Area 2019 20,NULL
+7528650,f7e961eb-f498-403b-a105-84ee2dadebfe,text/csv,1,Cold Storage Facilities for Horticulture Crops Capacity in Tones 2019 20,NULL
+7528663,8e305422-344f-4508-bb42-7cb2cc8937d7,text/csv,1,Chemical Fertilizers distributed in Tones Kisan Credit Card and Soil Health Card  2020 21,NULL
+7528671,d6021732-2fc3-4f71-be53-5bb0ec99bf77,text/csv,1,Seeds Distributed 2019 20 Quintals (Part - A),NULL
+7528791,08a27c66-26b7-487a-a893-ca9df0df9d5a,text/csv,1,Farm Harvest Price and Minimum Support Price in Quintals or Rupees 2020 21,NULL
+7528794,fd514080-cdc3-4742-8c21-c0eb49d09a01,text/csv,1,Sericulture  2020 21 (Part A),NULL
+7528795,bba29836-4ef6-4faf-85b7-b86c8f891498,text/csv,1,Sericulture,NULL
+7528809,c711306f-1f71-41c0-8006-a78cf55a63c5,text/csv,1,Marginal Agriculture land holders below 1 hectare Schedule caste,NULL
+7528811,35a69205-5b61-43cc-91c8-48e17c0e923f,text/csv,1,Marginal Agriculture land holders below 1 hectares Schedule Tribe,NULL
+7528815,28887f24-26bf-4854-9140-13854077912d,text/csv,1,Marginal Agriculture land holders below 1 hectares Others,NULL
+7528820,c7e69e8e-86f7-405b-80c2-4902e18aac43,text/csv,1,Marginal Agriculture land holders below 1 hectares Total,NULL
+7528827,afab51a4-5dd3-4612-a708-4286766c6a11,text/csv,1,Small agriculture land holders 1 to 2 hectare Schedule Caste,NULL
+7528833,785bf764-097e-4f4f-9574-d95d166e6640,text/csv,1,Small agriculture land holders 1 to 2 hectare Schedule Tribe,NULL
+7528836,b35f469d-7e13-4c8c-a535-80aeab1f5255,text/csv,1,Small agriculture land holders 1 to 2 hectare Others,NULL
+7528842,37a7f4af-8c8d-4471-97ac-855ca98bb0a4,text/csv,1,Small agriculture land holders 1 to 2 hectare Total,NULL
+7528847,cfb30c9a-56a4-4569-a166-2f474c038a91,text/csv,1,Semi Medium agriculture Land holders 2 to 4 hectares Schedule Caste,NULL
+7528853,3bd2a775-6f51-4474-8c5d-cdfeaf08c313,text/csv,1,Semi Medium agriculture Land holder 2 to 4 hectares Schedule Tribe,NULL
+7528858,0921cc9f-b59c-4603-87c8-48a902e97b2f,text/csv,1,Semi Medium agriculture Land holders 2 to 4 hectares Others,NULL
+7528863,c09ed6cb-3461-4c5b-b958-7a6d60d6fd94,NULL,1,Semi Medium agriculture Land holders 2 to 4 hectares Total,NULL
+7528864,cd82ab35-1975-4221-83df-337d7f139db9,text/csv,1,Medium agriculture land holders 4 to 10 hectares Schedule Caste,NULL
+7528868,bfded8f3-d3c5-490b-adc7-ed3749b9949e,text/csv,1,Medium agriculture land holders 4 to 10 hectares Schedule Tribe,NULL
+7528872,2921bb86-864c-4556-9b3a-19946ef0b8d1,text/csv,1,Medium Agriculture land holders 4 to 10 hectares Others,NULL
+7528879,7b0b22e5-2b53-4e73-9a2b-39d1d88e1ee7,text/csv,1,Medium agriculture land holders 4 to 10 hectares Total,NULL
+7528881,6d61fc6a-bfa0-4fc9-9b3c-c70d60acd916,text/csv,1,Large agriculture land holders more than 10 hectares Schedule Caste,NULL
+7528885,a1803609-0196-4566-89d4-f4c060fe0e24,text/csv,1,Large agriculture land holders more than 10 hectares Schedule Tribe,NULL
+7528891,5fe856af-d4ed-493a-bb5b-03fec10fee51,text/csv,1,Large agriculture land holders more than 10 hectares Others,NULL
+7528892,cf89ebb4-fd28-4874-b780-47b0daaac43a,text/csv,1,Large agriculture land holders more than 10 hectares Total,NULL
+7528894,51f51cb4-ba15-4c0e-9a2d-ab5d63f277ef,text/csv,1,Total agriculture land holders Schedule Caste,NULL
+7528896,021aeb95-a486-47f1-b0ca-903e3697418c,text/csv,1,Total agriculture land holders Schedule Tribe,NULL
+7528899,37500755-f13e-4c77-8174-d1af83c65b53,text/csv,1,Total agriculture land holders Others,NULL
+7528903,10a4e950-52b8-4f71-85f0-0a43e983cc3e,text/csv,1,Total agriculture land holders Total,NULL
+7528909,3f348ec2-4ab2-4a1c-855e-5cef6d98713c,text/csv,1,Literates 2011 Census,NULL
+7528916,425d3072-10cd-46f3-9643-07a265e008f2,text/csv,1,Literacy Rate In Percentage as per 2011 Census,NULL
+7528922,42a8b284-910a-49a4-bf46-8998a83036e2,text/csv,1,Households by Source of Lighting as per 2011 Census in Percentage,NULL
+7528928,7281acd9-8b85-4876-94ae-b8bb3487a262,text/csv,1,Households by Source Of Drinking Water as per 2011 Census in Percentage,NULL
+7528949,aebd6a2a-1f2c-4256-9d4b-1c1bf4a3eb54,text/csv,1,Households by Type of Fuel used for Cooking as per 2011 Census in  Percentage,NULL
+7528953,a6ae99fe-762d-4234-b35d-9864b3021242,text/csv,1,Registration of Births and Deaths,NULL
+7564658,8d2ef9e1-6621-4a63-aeab-596226171398,text/json,2,Physical and Financial Progress of Surface Minor Irrigation (PMKSY-SMI) Scheme as on date,https://pmksy-mowr.nic.in/smi-dashboard/webservice.asmx/GetProgressProjectwise
+7564675,45cd018f-6565-45a3-90a7-a1491d8842b8,text/json,2,"Physical and Financial Progress of Repair, Renovation and Restoration of Water Bodies (PMKSY-RRR) Scheme as on date",https://pmksy-mowr.nic.in/rrr-dashboard/webservice.asmx/GetProgressProjectwise
+7598536,f7a8398a-3ab0-4047-910b-b13ada743ac5,text/csv,1,Month-wise Telephone Subscribers Rural vs Urban Wireless vs Wireline April 2014 to March 2023,NULL
+7668987,78dab912-a409-46c1-a535-46d89920e905,application/vnd.ms-excel,1,"District wise, Disability wise, Age group wise , Gender wise Unique Disability ID (UDID) data as on 11.06.2024",NULL
+7699411,4e08c99c-c732-4329-8331-4ca251e99992,text/csv,1,Gram Panchayatwise Permanent Wait List as on 18 september 2023,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl20092023/OGDSECCAwaasPlusData_18092023.csv
+7699594,ac18328d-6bee-40e5-ad3f-16c0ebdb2657,application/vnd.ms-excel,1,List of Ethics committees received final registration certificates (Details as on 21st September 2023),NULL
+7707170,13a04237-db29-43a4-8d87-8a70f03e43a9,text/json,2,Physical Progress Status of Computerization / Digitization of Land Records of KERALA as on previous month,https://dilrmp.gov.in/meityDashboard?level=1&scode=32
+7714889,f527248b-cf84-48b4-8d84-11762025f62b,application/json,2,District-wise Data on Key Performance Indicators of WDC - PMKSY 2.0 as on date,https://wdcpmksy.dolr.gov.in/wdcpmksyapi/getDistrictWiseAchData
+7763134,564771d5-8d99-4fce-9095-134e6166712b,text/csv,1,Village-wise Survey Data of Andaman & Nicobar Islands for Mission Antyodaya 2020,NULL
+7765531,5390b5b9-167e-40a8-914b-df38e6e1be13,text/csv,1,Village-wise Survey Data of THE DADRA AND NAGAR HAVELI AND DAMAN AND DIU for Mission Antyodaya 2020,NULL
+7765539,38212fb9-2bb7-47fc-a7a5-27bb07db360c,text/csv,1,Village-wise Survey Data of LADAKH for Mission Antyodaya 2020,NULL
+7765542,4465bbc3-9ed6-4863-8da2-868c9dced119,text/csv,1,Goa - Village-wise Survey Data for Mission Antyodaya 2020,NULL
+7765546,37b67864-bcb4-4182-802c-f9d80ea326ab,text/csv,1,Village-wise Survey Data of Sikkim for Mission Antyodaya 2020,NULL
+7765549,5a4c0ceb-4112-46d4-9f71-6a988b21bd8c,text/csv,1,Village-wise Survey Data of MIZORAM for Mission Antyodaya 2020,NULL
+7765552,44025d9c-833a-4201-bbf8-9b4dc1c995c2,text/csv,1,Village-wise Survey Data of NAGALAND   for Mission Antyodaya 2020,NULL
+7765557,db60baa9-58e3-40dc-8f1b-7729a6c8c04b,text/csv,1,Village-wise Survey Data of TRIPURA for Mission Antyodaya 2020,NULL
+7765560,dc53040e-6fa1-4a59-8a0d-67e77ce6f554,text/csv,1,Village-wise Survey Data of KERALA for Mission Antyodaya 2020,NULL
+7765564,c7abc427-401f-4f3a-95b1-22e11eaeece2,text/csv,1,Village-wise Survey Data of MANIPUR  for Mission Antyodaya 2020,NULL
+7769230,9ad46487-e346-4aff-87cf-6722c32a4b84,text/csv,1,Village-wise Survey Data of ANDHRA PRADESH for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_ANDHRA_PRADESH.csv
+7769234,f7369f3d-aa4f-486c-a784-4244245e7ad1,text/csv,1,Village-wise Survey Data of ARUNACHAL PRADESH for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_ARUNACHAL_PRADESH.csv
+7769235,d6d6c961-6298-43c8-9b77-00dc7d777bc7,text/csv,1,Village-wise Survey Data of ASSAM for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_ASSAM.csv
+7769238,6b58bfeb-2aa5-49c7-bd96-667695f67acb,text/csv,1,Village-wise Survey Data of BIHAR for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_BIHAR.csv
+7769251,3b296250-fec4-4372-9aba-eb6afee75ce0,text/csv,1,Village-wise Survey Data of CHHATTISGARH for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_CHHATTISGARH.csv
+7769255,509178b3-b6a8-4380-8db6-2948909fb650,text/csv,1,GUJARAT - Village-wise Survey Data for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_GUJARAT.csv
+7769257,98109f34-54ec-44be-bc7c-bd5acab15346,text/csv,1,Haryana - Village-wise Survey Data for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_HARYANA.csv
+7769260,785027a0-a774-47ec-8c6b-cba9320c2a35,text/csv,1,Village-wise Survey Data of HIMACHAL PRADESH for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_HIMACHAL_PRADESH.csv
+7769275,74a44531-0968-4cf9-b563-0ef4f555e5e1,text/csv,1,Village-wise Survey Data of JAMMU AND KASHMIR for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_JAMMU_AND_KASHMIR.csv
+7769316,1e386a6a-00a6-4888-9679-4e4ff44b22da,text/csv,1,Village-wise Survey Data of JHARKHAND for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_JHARKHAND.csv
+7769317,9ac90e46-cc75-4c73-9268-38c3c0fc6e06,text/csv,1,Village-wise Survey Data of KARNATAKA for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_KARNATAKA.csv
+7769319,fe310933-1b9f-4ed7-b83e-b4f1a86e3f9a,text/csv,1,Village-wise Survey Data of MADHYA PRADESH for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_MADHYA_PRADESH.csv
+7769321,3317be7e-02ec-4b82-9942-726496a09310,text/csv,1,Village-wise Survey Data of MAHARASHTRA for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_MAHARASHTRA.csv
+7769325,dff5cd0e-d720-4cd4-90ff-d6167910233d,text/csv,1,Village-wise Survey Data of MA2020_MEGHALAYA for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_MEGHALAYA.csv
+7769352,2b9c651d-a678-46e9-b1e7-40731b4d5b79,text/csv,1,Village-wise Survey Data of ODISHA for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_ODISHA.csv
+7769356,23780808-e0ba-4a0f-bf48-1a4139f4b3cf,text/csv,1,Village-wise Survey Data of PUNJAB for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_PUNJAB.csv
+7769365,93296ed5-a74f-4f06-8dbc-7c7e130b1316,text/csv,1,Village-wise Survey Data of RAJASTHAN for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_RAJASTHAN.csv
+7770112,745174c9-d898-410c-84bc-61b33778860c,text/csv,1,Village-wise Survey Data of TAMILNADU  for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_TAMIL_NADU.csv
+7770118,a03a54ce-c639-4fac-9b0a-fe44fead6fe1,text/csv,1,Village-wise Survey Data of TELANGANA for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_TELANGANA.csv
+7770121,ed84c39a-ea5a-46e5-b19c-1f81771142df,text/csv,1,Village-wise Survey Data of UTTARAKHAND for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_UTTARAKHAND.csv
+7770125,9b8eaebe-8934-4093-b33d-7d0814aae554,text/csv,1,Village-wise Survey Data of UTTAR PRADESH for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_UTTAR_PRADESH.csv
+7770129,964442ef-c940-4ae0-a7fa-cbf6a91a163b,text/csv,1,Village-wise Survey Data of WEST BENGAL for Mission Antyodaya 2020,https://data.gov.in/files/ogdpv2dms/s3fs-public/dataurl30102023/MA2020_WEST_BENGAL.csv
+7785895,81ebd89d-a528-4d33-bdd1-430527b6f8aa,text/csv,4,Indira Gandhi National Old Aged Pension Scheme (IGNOAPS) Beneficiaries Abstract during FY 2023-24,https://api.data.gov.in/resource/81ebd89d-a528-4d33-bdd1-430527b6f8aa?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+7785934,6ffcdce4-bcbc-45a7-8bd4-286b7e2860e3,text/csv,4,Indira Gandhi Widow Pension Scheme (IGNWPS) Beneficiaries Abstract during FY 2023-24,https://api.data.gov.in/resource/6ffcdce4-bcbc-45a7-8bd4-286b7e2860e3?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+7785946,e1a7ca20-36b6-46ba-b6ed-6495f11c4242,text/csv,4,Indira Gandhi National Disability Pension Scheme (IGNDPS) Beneficiaries Abstract during FY 2023-24,https://api.data.gov.in/resource/e1a7ca20-36b6-46ba-b6ed-6495f11c4242?api-key=579b464db66ec23bdd000001cdc3b564546246a772a26393094f5645&offset=0&limit=all&format=csv
+7839915,1d4d1c5a-feea-423b-be4f-c3636fdd1d82,text/csv,5,District-wise Demographic Data of Unorganised Workers registered on eShram as on Previous Day,NULL
+805321,ef70ccad-9dfe-46fc-a663-d92f1557ee83,text/csv,1,Import of Major Petrochemicals - Product wise / Group wise from 2008-09 to 2015-16,NULL
+805361,6aeb4e42-4958-4594-8789-4e701e654651,text/csv,1,Import of Major Chemicals - Product-wise / Group-wise from 2008-09 to 2015-16,NULL
+806361,f28eb2e6-6d0b-43aa-a3c3-9b7cfed06d5d,text/csv,1,Export of Major Chemicals - Product wise / Group wise from 2008-09 to 2015-16,NULL
+839441,b0842d7b-2f7d-466d-84b9-5f8b2e7a9e32,text/csv,1,Financial Year-wise FDI Equity Inflows (2000-01 to 2015-16),NULL
+86088,385f45fa-e23e-4cb5-8dde-a8313d1797b2,application/vnd.ms-excel,2,Authorization of External Assistance by Source (US $ Mn.),http://indiabudget.nic.in/tab2012/tab82.xls
+86561,5a11bf2c-f6d9-43bb-ae5c-41b10c1246a9,application/vnd.ms-excel,2,Branch Expansion of Public Sector Banks and Other Commercial Banks,http://indiabudget.gov.in/tab2012/tab45.xls
+86589,c2c0eb45-89da-4cc1-8f61-cfc2f2ff8c43,application/vnd.ms-excel,1,CAG Local Bodies Audit Reports From 2003-04 To 2010-11,NULL
+86591,cc16b918-9219-4e24-8f7c-90297c248e97,application/vnd.ms-excel,1,CAG State Audit Reports From 2008-09 To 2012-13,NULL
+86593,c70fc7f7-b166-42bb-affe-d423c3e3246e,application/vnd.ms-excel,1,CAG Union Audit Reports From 2000 To 2013,NULL
+86599,1d970e82-15e3-4949-871a-570839b1b320,application/vnd.ms-excel,1,Capital Expenditure FY 2000-11,NULL
+86607,c078ca86-051a-4bc5-9c4c-4c69dc00991f,application/vnd.ms-excel,1,Capital Receipts FY 2000-11,NULL
+87087,1f8b7765-81bd-4e6d-bb56-948f8af314b6,WMS,2,Digital Seismotectonic Atlas of India and its Environs,https://bhukosh.gsi.gov.in/arcgis/services/Seismotectonic/Seismotectonic/MapServer/WMSServer?request=GetCapabilities&service=WMS
+87095,64b6f813-6572-483b-b4da-9941e7e331ca,application/vnd.ms-excel,2,Direction of Imports: Imports by Regions and Countries (Rs. Cr.),http://indiabudget.nic.in/tab2012/tab74.xls
+87866,4613475d-df77-4c96-8bb1-829d8cca0a80,application/vnd.ms-excel,1,Export of Major Chemicals - Product wise / Group wise from 2006-07 to 2011-12,NULL
+87874,d6b4d63e-5717-4608-949a-d4735884be56,application/vnd.ms-excel,1,Export of Major Petrochemicals - Product-wise / Group-wise from 2006-07 to 2012-13 (Updated),NULL
+87884,ef11b44a-89f0-4681-9a46-1174eef9f4e1,application/vnd.ms-excel,2,"Exports, Imports and Trade Balance (Us $ Mn.)",http://indiabudget.nic.in/tab2012/tab71.xls
+87901,67e6e449-a9a0-445c-bccc-a5f50ad92300,application/vnd.ms-excel,1,Faculty-wise students enrolment in higher education in different streams from 2007-08 to 2009-10,NULL
+87978,fa7f5806-8632-4644-9d4e-7731e3a8a416,application/vnd.ms-excel,2,Foreign Exchange Reserves (US $ Mn.),http://indiabudget.nic.in/tab2012/tab61.xls
+88156,c632089c-7e35-4a9a-859c-c92eee291e71,application/vnd.ms-excel,1,General Infrastructure - Coimbatore,NULL
+88559,55428c88-16ed-4c07-95ae-ca00454a1fa1,application/vnd.ms-excel,1,Import of Major Petrochemicals - Product-wise / Group-wise from 2006-07 to 2012-13 (Updated),NULL
+88604,78cff964-045e-4907-8604-533ddaa072cf,application/vnd.ms-excel,2,Index Numbers of Yield of Principal Crops,http://indiabudget.nic.in/tab2012/tab111.xls
+88628,c2f5b3a8-d1bb-4ce1-9a8b-0824f59faae6,application/vnd.ms-excel,2,India's External Debt Outstanding (US $ Mn.),http://indiabudget.nic.in/tab2012/tab84.xls
+88790,72050aaa-b480-499a-a7e5-f454d236eca7,application/vnd.ms-excel,1,Landmark Data - Coimbatore,NULL
+88872,3cc09c33-0bad-40f0-802f-cb5dc464df5d,application/vnd.ms-excel,1,Loans And Advances Disbursements FY 2000-11,NULL
+88874,23ad375c-0545-4dc8-9a90-ea5d645e6c0d,application/vnd.ms-excel,1,Loans And Advances Receipts FY 2000-11,NULL
+89035,28091679-b360-42ab-a7fa-b693d1e60ce1,application/vnd.ms-excel,1,Month-wise and Country-wise Import of Chemical Fertilizers during 2008-2014 (till November),NULL
+89038,46580882-52f5-47ab-bbc2-d52d377d3e50,application/vnd.ms-excel,1,Month-wise and Port-wise Import of Chemical Fertilizers during 2008-2014 (till November),NULL
+89720,5b6ba5d6-5855-49e8-8373-0bb7825fb0c2,application/vnd.ms-excel,1,Paid-up Capital of Government Companies Limited by Shares As On 31st March 2012 - Distribution By Industrial Activity,NULL
+89980,c718b2f4-cb77-4773-9ffe-155cb7021d32,application/vnd.ms-excel,1,Ph.D. Degrees Awarded By National Centre For Cell Science During Year 2008 Onwards,NULL
+90059,b747b6a5-0382-4512-aebc-50b75b00aa82,application/vnd.ms-excel,1,Plan Expenditure FY 2000-11,NULL
+90363,3c745c6e-281d-46ff-b54b-bc306578b10e,application/vnd.ms-excel,1,Production of Major Chemicals - Product-wise / Group-wise from 2006-07 to 2012-13 (upto September 2012),NULL
+90364,3fe5125c-9836-4f5f-a7c9-8eacd0d3a026,text/csv,1,Production of Major Chemicals - Product-wise / Group-wise from 2007-08 to 2013-14 (upto September 2013),NULL
+90540,13aaff9a-8613-48bf-bd2b-fe2ad29f7d57,application/vnd.ms-excel,1,Public Account Disbursements FY 2000-11,NULL
+90542,d48d8d30-bb9e-45e6-90bc-76fc8be556af,application/vnd.ms-excel,1,Public Account Receipts FY 2000-11,NULL
+90544,8212e32c-e581-48a7-90a2-289fe9396603,application/vnd.ms-excel,1,Public Debt Disbursements FY 2000-11,NULL
+90546,b97dc124-45f3-4ebb-85e4-c351e348b104,application/vnd.ms-excel,1,Public Debt Receipts FY 2000-11,NULL
+90785,efe499a8-1905-4a9f-935e-1697e63a8916,application/vnd.ms-excel,2,Revenue Earning Goods Traffic on Indian Railways: Goods Carried,http://indiabudget.nic.in/tab2012/tab126.xls
+90787,d5429c7a-a930-4594-9c17-3772e2d90860,application/vnd.ms-excel,1,Revenue Expenditure FY 2000-11,NULL
+90796,2879cfd2-ac97-4b5a-a913-58726d410183,application/vnd.ms-excel,1,Revenue Receipts FY 2000-11,NULL
+90919,b769aef4-4c3c-4d8b-a81b-66923bbe879c,application/vnd.ms-excel,2,Share and Percentage Change of Major Exports,http://indiabudget.nic.in/tab2012/tab73.xls
+90921,2518aa09-6e0c-4281-b123-3d1538afcb65,application/vnd.ms-excel,2,Share and Percentage Growth/Change of Major Imports,http://indiabudget.nic.in/tab2012/tab72.xls
+90923,86e5d1fd-27c8-48bf-a124-4ef79cb021ae,application/vnd.ms-excel,1,Share of Each Fuel In Total Energy Production And Consumption,NULL
+91690,9a362ec2-2cfc-4e08-8c74-7926b2159a69,application/vnd.ms-excel,1,State/UT-wise HIV Prevalence in different population groups based on HIV Sentinel Surveillance up to 2010-11,NULL
+91740,f5d4ae53-e797-4827-ba42-fc28fd0565c7,application/vnd.ms-excel,2,State-wise average rate of electricity for domestic and industrial consumers,http://indiabudget.gov.in/tab2012/tab132.xls
+91946,7e7a98ab-7d11-4efa-9c35-53aaa320f218,text/csv,1,State-wise total area under wastelands during 2008-09 vis-a-vis 2005-06,NULL
+91950,6e0349bc-8f8e-4d1d-aab4-767fb6f047b2,application/vnd.ms-excel,1,State-Wise/Month-Wise Requirement and Availability of Chemical Fertilizers - till November 2013-14,NULL
+92105,b7e707b2-3479-4361-9694-3b65a2bb92a0,application/vnd.ms-excel,1,Total Expenditure And Disbursements FY 2000-11,NULL
+92137,2bf988c8-df94-4aa1-8a76-a787c729d072,application/vnd.ms-excel,1,Total Receipts FY 2000-11,NULL
+94685,186921c9-752f-4dec-8f3c-a40b70de0a47,text/csv,1,Ward Details of Municipalities within Tamil Nadu,NULL
+96420,501df947-019e-4bcd-89fc-f7498c4683ec,application/vnd.ms-excel,1,Physical and Financial Performance of 88 IAP Districts of Selected Tribal and Backward Districts - Districts-wise,NULL
+96421,241d79ae-2a67-467d-add5-a35c8c86b97e,application/vnd.ms-excel,1,Physical and Financial Performance of 88 IAP Districts of Selected Tribal and Backward Districts - State-wise,NULL
+96422,474bedcf-9f0f-4eba-8ffc-480444dbd7a8,application/vnd.ms-excel,1,Physical and Financial Performance of 88 IAP Districts of Selected Tribal and Backward Districts - Districts-wise for Chhattisgarh State,NULL

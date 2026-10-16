@@ -1,0 +1,113 @@
+state,basis,format_version,district,from_month,from_fy,to_month,to_fy,financial_years,months_present,months_in_span,missing_months,datasets
+Assam,cumulative,Old (pre 2017-18),Baksa,November,2009-10,March,2016-17,8,87,89,2,87
+Assam,cumulative,Old (pre 2017-18),Barpeta,October,2009-10,March,2016-17,8,90,90,0,90
+Assam,cumulative,Old (pre 2017-18),Bongaigaon,April,2009-10,March,2016-17,8,96,96,0,96
+Assam,cumulative,Old (pre 2017-18),Cachar,April,2011-12,March,2016-17,6,72,72,0,72
+Assam,cumulative,Old (pre 2017-18),Chirang,July,2010-11,March,2016-17,7,81,81,0,81
+Assam,cumulative,Old (pre 2017-18),Darrang,September,2009-10,March,2016-17,8,85,91,6,85
+Assam,cumulative,Old (pre 2017-18),Dhemaji,April,2013-14,March,2016-17,4,48,48,0,48
+Assam,cumulative,Old (pre 2017-18),Dhubri,September,2009-10,March,2016-17,8,82,91,9,82
+Assam,cumulative,Old (pre 2017-18),Dibrugarh,April,2011-12,March,2016-17,6,72,72,0,72
+Assam,cumulative,Old (pre 2017-18),Dima Hasao,April,2015-16,March,2016-17,2,24,24,0,24
+Assam,cumulative,Old (pre 2017-18),Goalpara,April,2009-10,March,2016-17,8,93,96,3,93
+Assam,cumulative,Old (pre 2017-18),Golaghat,April,2013-14,March,2016-17,4,48,48,0,48
+Assam,cumulative,Old (pre 2017-18),Hailakandi,April,2011-12,March,2016-17,6,72,72,0,72
+Assam,cumulative,Old (pre 2017-18),Jorhat,April,2011-12,March,2016-17,6,72,72,0,72
+Assam,cumulative,Old (pre 2017-18),Kamrup M,April,2010-11,March,2016-17,7,84,84,0,84
+Assam,cumulative,Old (pre 2017-18),Kamrup R,April,2009-10,March,2016-17,8,92,96,4,92
+Assam,cumulative,Old (pre 2017-18),Karbi Anglong,April,2010-11,March,2016-17,7,84,84,0,84
+Assam,cumulative,Old (pre 2017-18),Karimganj,April,2011-12,March,2016-17,6,72,72,0,72
+Assam,cumulative,Old (pre 2017-18),Kokrajhar,April,2009-10,March,2016-17,8,96,96,0,96
+Assam,cumulative,Old (pre 2017-18),Lakhimpur,August,2009-10,March,2016-17,8,89,92,3,89
+Assam,cumulative,Old (pre 2017-18),Marigaon,April,2010-11,March,2016-17,7,84,84,0,84
+Assam,cumulative,Old (pre 2017-18),Nagaon,April,2013-14,March,2016-17,4,48,48,0,48
+Assam,cumulative,Old (pre 2017-18),Nalbari,July,2010-11,March,2016-17,7,81,81,0,81
+Assam,cumulative,Old (pre 2017-18),North Cachar Hills,July,2010-11,March,2014-15,5,57,57,0,57
+Assam,cumulative,Old (pre 2017-18),Sibsagar,April,2009-10,March,2016-17,8,96,96,0,96
+Assam,cumulative,Old (pre 2017-18),Sonitpur,April,2013-14,March,2016-17,4,48,48,0,48
+Assam,cumulative,Old (pre 2017-18),Tinsukia,April,2012-13,March,2016-17,5,60,60,0,60
+Assam,cumulative,Old (pre 2017-18),Udalguri,October,2009-10,March,2016-17,8,90,90,0,90
+Assam,cumulative,Revised (2017-18 onwards),Baksa,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Barpeta,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Bongaigaon,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Cachar,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Chirang,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Darrang,April,2017-18,June,2020-21,4,38,39,1,38
+Assam,cumulative,Revised (2017-18 onwards),Dhemaji,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Dhubri,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Dibrugarh,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Dima Hasao,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Goalpara,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Golaghat,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Hailakandi,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Jorhat,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Kamrup M,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Kamrup R,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Karbi Anglong,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Karimganj,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Kokrajhar,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Lakhimpur,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Marigaon,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Nagaon,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Nalbari,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Sibsagar,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Sonitpur,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Tinsukia,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,cumulative,Revised (2017-18 onwards),Udalguri,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Old (pre 2017-18),Baksa,November,2009-10,March,2016-17,8,87,89,2,87
+Assam,monthly,Old (pre 2017-18),Barpeta,October,2009-10,March,2016-17,8,90,90,0,90
+Assam,monthly,Old (pre 2017-18),Bongaigaon,April,2009-10,March,2016-17,8,96,96,0,96
+Assam,monthly,Old (pre 2017-18),Cachar,April,2011-12,March,2016-17,6,72,72,0,72
+Assam,monthly,Old (pre 2017-18),Chirang,July,2010-11,March,2016-17,7,81,81,0,81
+Assam,monthly,Old (pre 2017-18),Darrang,September,2009-10,March,2016-17,8,85,91,6,85
+Assam,monthly,Old (pre 2017-18),Dhemaji,April,2013-14,March,2016-17,4,48,48,0,48
+Assam,monthly,Old (pre 2017-18),Dhubri,September,2009-10,March,2016-17,8,82,91,9,82
+Assam,monthly,Old (pre 2017-18),Dibrugarh,April,2011-12,March,2016-17,6,72,72,0,72
+Assam,monthly,Old (pre 2017-18),Dima Hasao,April,2015-16,March,2016-17,2,24,24,0,24
+Assam,monthly,Old (pre 2017-18),Goalpara,April,2009-10,March,2016-17,8,93,96,3,93
+Assam,monthly,Old (pre 2017-18),Golaghat,April,2013-14,March,2016-17,4,48,48,0,48
+Assam,monthly,Old (pre 2017-18),Hailakandi,April,2011-12,March,2016-17,6,72,72,0,72
+Assam,monthly,Old (pre 2017-18),Jorhat,April,2011-12,March,2016-17,6,72,72,0,72
+Assam,monthly,Old (pre 2017-18),Kamrup M,April,2011-12,March,2016-17,6,72,72,0,72
+Assam,monthly,Old (pre 2017-18),Kamrup Metropolitan,April,2010-11,March,2010-11,1,12,12,0,12
+Assam,monthly,Old (pre 2017-18),Kamrup R,April,2011-12,March,2016-17,6,72,72,0,72
+Assam,monthly,Old (pre 2017-18),Kamrup Rural,April,2009-10,March,2010-11,2,20,24,4,20
+Assam,monthly,Old (pre 2017-18),Karbi Anglong,April,2010-11,March,2016-17,7,84,84,0,84
+Assam,monthly,Old (pre 2017-18),Karimganj,April,2011-12,March,2016-17,6,72,72,0,72
+Assam,monthly,Old (pre 2017-18),Kokrajhar,April,2009-10,March,2016-17,8,96,96,0,96
+Assam,monthly,Old (pre 2017-18),Lakhimpur,August,2009-10,March,2016-17,8,89,92,3,89
+Assam,monthly,Old (pre 2017-18),Marigaon,April,2010-11,March,2016-17,7,84,84,0,84
+Assam,monthly,Old (pre 2017-18),Nagaon,April,2013-14,March,2016-17,4,48,48,0,48
+Assam,monthly,Old (pre 2017-18),Nalbari,July,2010-11,March,2016-17,7,81,81,0,81
+Assam,monthly,Old (pre 2017-18),North Cachar Hills,July,2010-11,March,2014-15,5,57,57,0,57
+Assam,monthly,Old (pre 2017-18),Sibsagar,April,2009-10,March,2016-17,8,96,96,0,96
+Assam,monthly,Old (pre 2017-18),Sonitpur,April,2013-14,March,2016-17,4,48,48,0,48
+Assam,monthly,Old (pre 2017-18),Tinsukia,April,2012-13,March,2016-17,5,60,60,0,60
+Assam,monthly,Old (pre 2017-18),Udalguri,October,2009-10,March,2016-17,8,90,90,0,90
+Assam,monthly,Revised (2017-18 onwards),Baksa,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Barpeta,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Bongaigaon,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Cachar,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Chirang,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Darrang,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Dhemaji,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Dhubri,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Dibrugarh,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Dima Hasao,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Goalpara,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Golaghat,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Hailakandi,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Jorhat,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Kamrup M,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Kamrup R,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Karbi Anglong,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Karimganj,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Kokrajhar,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Lakhimpur,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Marigaon,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Nagaon,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Nalbari,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Sibsagar,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Sonitpur,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Tinsukia,April,2017-18,June,2020-21,4,39,39,0,39
+Assam,monthly,Revised (2017-18 onwards),Udalguri,April,2017-18,June,2020-21,4,39,39,0,39

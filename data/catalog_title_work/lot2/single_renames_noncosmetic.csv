@@ -1,0 +1,726 @@
+old_title,new_title,ministry,statedept,datasets,n_old,trivial,lost,added,lost_year,lost_place
+Community Facilities of Muzaffarpur City,Community Facilities : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,2,1,False,[],[],False,False
+Infrastructure distribution in Bhubaneswar 2019,Infrastructure distribution : Bhubaneswar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Odisha, Bhubaneswar",,1,1,False,['2019'],[],True,False
+Earnings from Bus trips : Solapur City,Earnings from Bus trips : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+CONDITIONS OF ROADS IN KAKINADA,Conditions Of Roads : Kakinada,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Andhra Pradesh, Kakinada",,1,1,False,[],[],False,False
+Financial Health in Saharanpur,Financial Health : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+VAT & GST Collection in Saharanpur,VAT & GST Collection : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Public Transport Access in Saharanpur,Public Transport Access : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Budget for Open spaces development in Saharanpur,Budget for Open spaces development : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+D21-PropertyTax_Saharanpur,Property Tax : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,"['d21', 'propertytax']","['property', 'tax']",False,False
+D20-SolidWasteManagement-Revenue_Saharanpur,Solid Waste Management-Revenue : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,"['d20', 'solidwastemanagement']","['management', 'solid', 'waste']",False,False
+Solid Waste Collection Revenue Data in Saharanpur,Solid Waste Collection Revenue Data : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Water & Sanitation:Varanasi City,Water & Sanitation : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,1,1,False,[],[],False,False
+Water Revenue Data in Saharanpur,Water Revenue Data : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Crimes of Bilaspur,Crimes : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+Digital Payments of Bilaspur,Digital Payments : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,2,1,False,[],[],False,False
+Diseases of Bilaspur,Diseases : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+Area Bifurcation Data : Solapur City,Area Bifurcation Data : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+D42_Water_Supply_Kohima_2016,Water Supply : Kohima,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima",,1,1,False,"['2016', 'd42']",[],True,False
+Circle Rate : Solapur City,Circle Rate : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+SOLID WASTE MANAGEMENT EFFICIENCY IN RANCHI 2019 DATA,Solid Waste Management Efficiency - Data : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,1,1,False,['2019'],[],True,False
+Traffic of Bilaspur,Traffic : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+Public Transport Accessibility of Muzaffarpur,Public Transport Accessibility : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Financial health: Kanpur nagar,Financial health : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,1,1,False,['nagar'],[],False,False
+Rajkot Municipal Corporation : Financial Details,Financial Details : Rajkot,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Rajkot",,1,1,False,"['corporation', 'municipal']",[],False,False
+Bins and Community Bins Ward Wise Data : Solapur City,Bins and Community Bins Ward Wise Data : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Monthy Ambient Air Quality Report Of Rourkela,Monthy Ambient Air Quality Report : Rourkela,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Odisha, Rourkela",,2,1,False,[],[],False,False
+Rajkot Municipal Corporation : Shop and Establishment,Shop and Establishment : Rajkot,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Rajkot",,5,1,False,"['corporation', 'municipal']",[],False,False
+Solid Waste  Ward wise Segregation Data of Guwahati,Solid Waste Ward wise Segregation Data : Guwahati,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Assam, Guwahati",,1,1,False,[],[],False,False
+City Consumption in saharanpur,City Consumption : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Number of water connection from WTP in guwahati,Number of water connection from WTP : Guwahati,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Assam, Guwahati",,1,1,False,[],[],False,False
+ITC Neighbourhood : 2 of Muzaffarpur,ITC Neighbourhood : 2 : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+D49- Financial Health information of Gwalior MP,Financial Health information : Gwalior,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior",,1,1,False,"['d49', 'mp']",[],False,False
+Road Safety : Kanpur Nagar,Road Safety : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,1,1,False,['nagar'],[],False,False
+Solid Waste Management : Kanpur Nagar,Solid Waste Management : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,9,1,False,['nagar'],[],False,False
+Injuries and Fatalities,Injuries and Fatalities : Jaipur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Rajasthan, Jaipur",,1,1,False,[],['jaipur'],False,False
+Solid Waste Segregation : HUBLI DHARWAD,Solid Waste Segregation : Hubballi-Dharwad,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Hubli Dharwad",,1,1,False,['hubli'],['hubballi'],False,False
+Discom final of Ujjain,Discom final : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Infrastructure Distribution in saharanpur,Infrastructure Distribution : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Ujjain Railway station,Railway station : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Pre primary sections in school of Ujjain,Pre primary sections in school : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Girls toilet facility in school of Ujjain,Girls toilet facility in school : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Details of Toilet of Ujjain,Details of Toilet : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Furniture For Students of Ujjain,Furniture For Students : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Natural Features : Shivamogga 2018-19,Natural Features : Shivamogga,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Shivamogga",,1,1,False,"['19', '2018']",[],True,False
+Details of Cultural Heritage places in Puducherry,Details of Cultural Heritage places : Puducherry,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Puducherry, Puduchery",,1,1,False,[],[],False,False
+Crimes: Kanpur nagar,Crimes : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,1,1,False,['nagar'],[],False,False
+Slum Housing and Population data :  Solapur City,Slum Housing and Population data : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+VAT & GST : Bareilly Smart City,VAT & GST : Bareilly,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Bareilly",,1,1,False,['smart'],[],False,False
+Diseases: Kanpur Nagar,Diseases : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,1,1,False,['nagar'],[],False,False
+Traffic: Kanpur Nagar,Traffic : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,1,1,False,['nagar'],[],False,False
+Namchi Citizen Facilitation Center,Citizen Facilitation Center : Namchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Sikkim, Namchi",,1,1,False,[],[],False,False
+VAT / GST collection in Puducherry,VAT / GST collection : Puducherry,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Puducherry, Puduchery",,1,1,False,[],[],False,False
+Public Transport Accessibility of Gwalior MP,Public Transport Accessibility : Gwalior,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior",,1,1,False,['mp'],[],False,False
+Community Facilities Jammu 2018,Community Facilities : Jammu,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jammu and Kashmir, Jammu",,1,1,False,['2018'],[],True,False
+Electricity : Solapur City,Electricity : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Community Facilities : Solapur City,Community Facilities : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Solid Waste Processing Kakinada 2018-2019,Solid Waste Processing : Kakinada,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Andhra Pradesh, Kakinada",,1,1,False,"['2018', '2019']",[],True,False
+Small Medium Irrigation Plan of Ujjan,Small Medium Irrigation Plan : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,['ujjan'],['ujjain'],False,False
+Trend of Ground Water Level of Ujjain,Trend of Ground Water Level : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+BPL of Ujjain,BPL : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Fishery Cooperatives of Ujjain,Fishery Cooperatives : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Population Segregation of Ujjain,Population Segregation : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+SWM Year-2018 of Ujjain,SWM Year : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,['2018'],[],True,False
+Ujjain Ward Wise Medical Infrastructure,Ward Wise Medical Infrastructure : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Agra: Hospitals Nursing Homes Location,Hospitals Nursing Homes Location : Agra,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Agra",,1,1,False,[],[],False,False
+Agartala-Ward Wise Water Supply Coverage,Ward Wise Water Supply Coverage : Agartala,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala",,1,1,False,[],[],False,False
+Chandigarh: Number of CCTV Cameras,Number of CCTV Cameras : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Water Borne Diseases in Chandigarh,Water Borne Diseases : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Municipal Budget O&M : GREATER WARANGAL,Municipal Budget O&M : Warangal,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Telangana, Greater Warangal",,1,1,False,['greater'],[],False,False
+Chandigarh: Renewable Energy,Renewable Energy : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Water Supply Distribution in Chandigarh,Water Supply Distribution : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Dumping Grounds in Chandigarh,Dumping Grounds : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Mortality in Chandigarh,Mortality : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Agartala: Wardwise Hospital Coverage,Wardwise Hospital Coverage : Agartala,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala",,1,1,False,[],[],False,False
+Financial Health of Ranchi,Financial Health : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,1,1,False,[],[],False,False
+Property Tax: RMC,Property Tax : Rajkot,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Rajkot",,2,1,False,['rmc'],['rajkot'],False,False
+Community Facilities: RMC,Community Facilities : Rajkot,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Rajkot",,1,1,False,['rmc'],['rajkot'],False,False
+Citizen Facilities : RMC,Citizen Facilities : Rajkot,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Rajkot",,2,1,False,['rmc'],['rajkot'],False,False
+Mortality Data Shimla City,Mortality Data : Shimla,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Himachal Pradesh, Shimla",,1,1,False,[],[],False,False
+Education:Jabalpur Urban,Education - Urban : Jabalpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Jabalpur",,1,1,False,[],[],False,False
+Digital payments (Commercial),Digital payments (Commercial) : NDMC,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Delhi, NDMC",,1,1,False,[],['ndmc'],False,False
+Unobstructed Footpath : GREATER WARANGAL,Unobstructed Footpath : Warangal,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Telangana, Greater Warangal",,1,1,False,['greater'],[],False,False
+D69 SERVICES THROUGH ICCC ERODE,Services Through ICCC : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,['d69'],[],False,False
+Community facilities : Bhubaneshwar,Community facilities : Bhubaneswar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Odisha, Bhubaneswar",,1,1,False,['bhubaneshwar'],['bhubaneswar'],False,False
+Door to Door Collection of Muzaffarpur,Door to Door Collection : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Roads of Muzaffarpur,Roads : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Open Spaces : Solapur City,Open Spaces : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+D2D COLLECTION COVERAGE IN KAKINADA,D2D Collection Coverage : Kakinada,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Andhra Pradesh, Kakinada",,1,1,False,[],[],False,False
+Education of Muzaffarpur,Education : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+"Air Quality S02,PM2.5,PM10,NO2,O3 : Solapur City","Air Quality S02,PM2.5,PM10,NO2,O3 : Solapur","Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Registered Voters in Saharanpur,Registered Voters : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Thane: Solid Waste Management,Solid Waste Management : Thane,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Thane",,26,1,False,[],[],False,False
+Vehicle Registrations Data in Saharanpur,Vehicle Registrations Data : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Solid Waste Disposal Data in Saharanpur,Solid Waste Disposal Data : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Mortality Rate in Saharanpur,Mortality Rate : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Housing & Slums : Varanasi City,Housing & Slums : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,3,1,False,[],[],False,False
+ITC Neighbourhood : Varanasi City,ITC Neighbourhood : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,3,1,False,[],[],False,False
+Housing and Slum Population of Muzaffarpur,Housing and Slum Population : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Financial Health : Varanasi City,Financial Health : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,1,1,False,[],[],False,False
+Environment of Muzaffarpur,Environment : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Road Safety of Bilaspur,Road Safety : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+Street Lights of Bilaspur,Street Lights : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+STREET LIGHT OF RANCHI CITY,Street Light : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,1,1,False,[],[],False,False
+ITC Neighbourhood of Bilaspur,ITC Neighbourhood : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,3,1,False,[],[],False,False
+Solid Waste Management Basic of Gwalior MP,Solid Waste Management Basic : Gwalior,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior",,1,1,False,['mp'],[],False,False
+Registered Voters : Solapur City,Registered Voters : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Electricity : TIRUPPUR APR to DEC18,Electricity : Tiruppur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Tiruppur",,1,1,False,"['apr', 'dec18', 'to']",[],False,False
+VAT & GST Collection of Ujjain,VAT & GST Collection : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Water Consumption of Ujjain,Water Consumption : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Intake capacity of WTP of Guwahati,Intake capacity of WTP : Guwahati,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Assam, Guwahati",,1,1,False,[],[],False,False
+Crimes Visakhapatnam 2014 to 2018,Crimes : Visakhapatnam,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Andhra Pradesh, Visakhapatnam",,1,1,False,"['2014', '2018', 'to']",[],True,False
+Demographic Profile,Demographic Profile : Hubballi-Dharwad,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Hubli Dharwad",,1,1,False,[],"['dharwad', 'hubballi']",False,False
+Street Light : Kanpur Nagar,Street Light : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,1,1,False,['nagar'],[],False,False
+Unemployment Rate in Saharanpur,Unemployment Rate : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Cultural Heritage in saharanpur,Cultural Heritage : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Water Bodies of Ujjain,Water Bodies : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Urination Vulnerable Points of Ujjain,Urination Vulnerable Points : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Electricity : Kanpur Nagar,Electricity : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,3,1,False,['nagar'],[],False,False
+Itanagar Water and Sanitation,Water and Sanitation : Itanagar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Arunachal Pradesh, Itanagar",,1,1,False,[],[],False,False
+Open Spaces in saharanpur,Open Spaces : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Head Master Required of Ujjain,Head Master Required : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Seprate Room For Head Master of Ujjain,Seprate Room For Head Master : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Transportation: Hubballi-Dharawad,Transportation : Hubballi-Dharwad,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Hubli Dharwad",,1,1,False,['dharawad'],['dharwad'],False,False
+Schools Established Since 1994 of Ujjain,Schools Established Since : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,['1994'],[],True,False
+Without Classroom of Ujjain,Without Classroom : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Visits By  BRC Coordinator of Ujjain,Visits By BRC Coordinator : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Condition of Roads : Solapur City,Condition of Roads : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Children Facilities Provision in Solapur City,Children Facilities Provision : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Water Tax Visakhapatnam : 2013 to 2018,Water Tax : Visakhapatnam,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Andhra Pradesh, Visakhapatnam",,1,1,False,"['2013', '2018', 'to']",[],True,False
+Information on Development Authority for Guwahati,Information on Development Authority : Guwahati,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Assam, Guwahati",,1,1,False,[],[],False,False
+Infrastructure Distribution of Muzaffarpur,Infrastructure Distribution : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Buses transport of Gwalior Mp,Buses transport : Gwalior,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior",,1,1,False,['mp'],[],False,False
+Rajkot Municipal Corporatoin : Marriage Registration Data,Marriage Registration Data : Rajkot,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Rajkot",,5,1,False,"['corporatoin', 'municipal']",[],False,False
+Financial health for Chennai,Financial health : Chennai,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Chennai",,1,1,False,[],[],False,False
+Governance Thiruvanananthapuram,Governance : Thiruvananthapuram,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Kerala, Tiruvanantapuram",,1,1,False,['thiruvanananthapuram'],['thiruvananthapuram'],False,False
+Ranchi City Household Profile,Household Profile : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,1,1,False,[],[],False,False
+Cultural Heritage of bilaspur,Cultural Heritage : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+Water Consumption Sagar 2017 2018,Water Consumption : Sagar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Sagar",,2,1,False,"['2017', '2018']",[],True,False
+No of Vehicle Registration of Ujjain,No of Vehicle Registration : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Shillong Health Infrastructure,Health Infrastructure : Shillong,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Meghalaya, Shillong",,1,1,False,[],[],False,False
+Unemployment Rate: Prayagrag,Unemployment Rate : Prayagraj,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Prayagraj",,1,1,False,['prayagrag'],['prayagraj'],False,False
+ITC Neighbourhood Kakinada 2018,ITC Neighbourhood : Kakinada,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Andhra Pradesh, Kakinada",,1,1,False,['2018'],[],True,False
+Solid Waste Management Efficiency of Ujjain,Solid Waste Management Efficiency : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Solid Waste Processing of Ujjain,Solid Waste Processing : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Geographical info of Ujjain,Geographical info : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Endangered Wildlife species of Ujjain,Endangered Wildlife species : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Structure of Development Block Level Disaster Management Committee of Ujjain,Structure of Development Block Level Disaster Management Committee : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Medical Data of Ujjain,Medical Data : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Ujjain Area According Year of Ujjain,Area According Year : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Environment : ERODE 2017 TO 2018,Environment : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,"['2017', '2018', 'to']",[],True,False
+Ujjain Hotspot Containment Area,Hotspot Containment Area : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Ward-wise Hospital Details,Ward-wise Hospital Details : Bareilly,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Bareilly",,1,1,False,[],['bareilly'],False,False
+Pune Fire Call Statistics,Fire Call Statistics : Pune,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pune",,3,1,False,[],[],False,False
+Agartala-Ward wise per capita and continuity,Ward wise per capita and continuity : Agartala,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala",,1,1,False,[],[],False,False
+Agartala:Electricity-consumption-by-sub-sector,Electricity-consumption-by-sub-sector : Agartala,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala",,1,1,False,[],[],False,False
+Chandigarh: Citizen Centric Services integrated with ICCC,Citizen Centric Services integrated with ICCC : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Open Dumping Grounds : Greater Warangal,Open Dumping Grounds : Warangal,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Telangana, Greater Warangal",,1,1,False,['greater'],[],False,False
+Agra: Services Through ICCC,Services Through ICCC : Agra,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Agra",,1,1,False,[],[],False,False
+Agra: Covid Bed,Covid Bed : Agra,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Agra",,1,1,False,[],[],False,False
+Households in Chandigarh,Households : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Agartala: Advance Pollutant,Advance Pollutant : Agartala,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala",,1,1,False,[],[],False,False
+Child Welfare Centres and Counselling Centres in Chandigarh,Child Welfare Centres and Counselling Centres : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Cash collection from Online Challans (Traffic) in Chandigarh,Cash collection from Online Challans (Traffic) : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+"Environment Pollutants(NO, NOX, Benzene, Toluene, Oxylene, WS, RH, SR, RG) in Chandigarh","Environment Pollutants(NO, NOX, Benzene, Toluene, Oxylene, WS, RH, SR, RG) : Chandigarh","Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Vector Borne Diseases in Chandigarh,Vector Borne Diseases : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Public Transport accessibilities in Chandigarh,Public Transport accessibilities : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Medical Infrastructure in Chandigarh,Medical Infrastructure : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Solid Waste Management in Chandigarh,Solid Waste Management : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Slums in Chandigarh,Slums : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Parks_Gardens_Open Spaces : Greater Warangal,Parks Gardens Open Spaces : Warangal,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Telangana, Greater Warangal",,1,1,False,['greater'],[],False,False
+Solid Waste Collection Equipments in Shimla City,Solid Waste Collection Equipments : Shimla,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Himachal Pradesh, Shimla",,1,1,False,[],[],False,False
+Households and Property tax - RMC,Households and Property tax : Rajkot,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Rajkot",,2,1,False,['rmc'],['rajkot'],False,False
+Bifurcation of Covid Vaccination in Chandigarh,Bifurcation of Covid Vaccination : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Governance: RMC,Governance : Rajkot,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Rajkot",,1,1,False,['rmc'],['rajkot'],False,False
+Street Parking,Street Parking : Kohima,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima",,2,1,False,[],['kohima'],False,False
+Bangalore: Traffic Lights,Traffic Lights : Bengaluru,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Bengaluru",,1,1,False,['bangalore'],['bengaluru'],False,False
+Water Treatment Plant,Water Treatment Plant : Indore,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Indore",,1,1,False,[],['indore'],False,False
+D 30 Natural Features,Natural Features : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,"['30', 'd']",['erode'],False,False
+PropertyTax MC Shimla (2013-2018),Property Tax MC - ( : Shimla,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Himachal Pradesh, Shimla",,1,1,False,"['2013', '2018', 'propertytax']","['property', 'tax']",True,False
+D80 ITC OPEN DUMPING GROUNDS,ITC Open Dumping Grounds : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,['d80'],['erode'],False,False
+City profile - Monthly rainfall,City profile - Monthly rainfall : Madurai,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Madurai",,1,1,False,[],['madurai'],False,False
+Bangalore: Electric Supply,Electric Supply : Bengaluru,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Bengaluru",,1,1,False,['bangalore'],['bengaluru'],False,False
+Bangalore: Crimes,Crimes : Bengaluru,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Bengaluru",,1,1,False,['bangalore'],['bengaluru'],False,False
+Property Tax,Property Tax : Kohima,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima",,1,1,False,[],['kohima'],False,False
+Solid Waste Processing of Muzaffarpur City,Solid Waste Processing : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Solid Waste Disposal of Muzaffarpur City,Solid Waste Disposal : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Open Spaces of Muzaffarpur City,Open Spaces : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Mode Of Transport In Bhubaneswar City,Mode Of Transport : Bhubaneswar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Odisha, Bhubaneswar",,1,1,False,[],[],False,False
+Citizen Facilities of Gwalior MP,Citizen Facilities : Gwalior,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior",,1,1,False,['mp'],[],False,False
+Signalized Intersections in kakinada,Signalized Intersections : Kakinada,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Andhra Pradesh, Kakinada",,1,1,False,[],[],False,False
+Digital Access in Saharanpur,Digital Access : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Digital Access : Solapur City,Digital Access : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,2,1,False,[],[],False,False
+Demographic Profile : Solapur City,Demographic Profile : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Traffic : Varanasi City,Traffic : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,1,1,False,[],[],False,False
+mortality rate: kanpur nagar,Mortality rate : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,1,1,False,['nagar'],[],False,False
+Water : Varanasi City,Water : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,1,1,False,[],[],False,False
+Thane: VAT & GST,VAT & GST : Thane,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Thane",,3,1,False,[],[],False,False
+Governance : Varanasi City,Governance : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,1,1,False,[],[],False,False
+Electricity of Bilaspur,Electricity : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+D32_ITC_Neighbouhood_1_Kohima_2011,ITC Neighbouhood 1 : Kohima,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima",,1,1,False,"['2011', 'd32']",[],True,False
+Buses of Muzaffarpur,Buses : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+No of Vehicle Registration of Muzaffarpur,No of Vehicle Registration : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Road Safety : Tiruppur 2016 to 2018,Road Safety : Tiruppur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Tiruppur",,1,1,False,"['2016', '2018', 'to']",[],True,False
+Environment of Gwalior MP,Environment : Gwalior,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior",,1,1,False,['mp'],[],False,False
+Solid Waste Management Segregation of Gwalior MP,Solid Waste Management Segregation : Gwalior,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior",,1,1,False,['mp'],[],False,False
+Natural Landscape of Bilaspur,Natural Landscape : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+Solid Waste Processing Data : Solapur City,Solid Waste Processing Data : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Solid Waste Disposal Data : Solapur City,Solid Waste Disposal Data : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Water & Sanitation of Bilaspur,Water & Sanitation : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+Water Tax of Bilaspur,Water Tax : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+Door to door garbage Collection of Guwahati,Door to door garbage Collection : Guwahati,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Assam, Guwahati",,2,1,False,[],[],False,False
+Mortality Rate :  Solapur City,Mortality Rate : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,2,1,False,[],[],False,False
+Diseases in saharanpur,Diseases : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,2,1,False,[],[],False,False
+Electricity Consumption of Ujjain,Electricity Consumption : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Roads information of Gwalior MP,Roads information : Gwalior,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior",,1,1,False,['mp'],[],False,False
+Property Tax Data : Solapur City,Property Tax Data : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Ahmedabad Hawkers Licence,Hawkers Licence : Ahmedabad,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Ahmedabad",,2,1,False,[],[],False,False
+Summary of crimes recorded during last 4 years in Puducherry,Summary of crimes recorded during last 4 years : Puducherry,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Puducherry, Puduchery",,1,1,False,[],[],False,False
+Ahmedabad : Mortality,Mortality : Ahmedabad,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Ahmedabad",,1,1,False,[],[],False,False
+Drinking water availability in school of Ujjain,Drinking water availability in school : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+single classroom in school of Ujjain,Single classroom in school : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+student classroom ratio of Ujjain,Student classroom ratio : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Community Facilities in saharanpur,Community Facilities : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Slum Housing and Population data in saharanpur,Slum Housing and Population data : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Residential Areas of Ujjain,Residential Areas : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Water Body Pollution for Pune,Water Body Pollution : Pune,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pune",,6,1,False,[],[],False,False
+Water Tax : Bareilly Smart City,Water Tax : Bareilly,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Bareilly",,1,1,False,['smart'],[],False,False
+Mortality Rate : Bareilly Smart City,Mortality Rate : Bareilly,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Bareilly",,1,1,False,['smart'],[],False,False
+Area Bifurcation Data in saharanpur,Area Bifurcation Data : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Distribution of School Having Fulfill Teacher ratio of Ujjain,Distribution of School Having Fulfill Teacher ratio : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Furniture for Teacher of Ujjain,Furniture for Teacher : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Housing and Slums Davangere,Housing and Slums : Davanagere,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Davangere",,1,1,False,['davangere'],['davanagere'],False,False
+Street Lights in saharanpur,Street Lights : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,2,1,False,[],[],False,False
+DISEASES : TUMKAURU,Diseases : Tumakuru,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Tumakuru",,1,1,False,['tumkauru'],['tumakuru'],False,False
+Public Transport Mode Share in saharanpur,Public Transport Mode Share : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Water & Sanitation : Kanpur Nagar,Water & Sanitation : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,1,1,False,['nagar'],[],False,False
+Education : Varanasi City,Education : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,1,1,False,[],[],False,False
+Rajkot Municipal Corporation : Birth and Death,Birth and Death : Rajkot,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Rajkot",,11,1,False,"['corporation', 'municipal']",[],False,False
+No of Vehicle Registration in Gwalior MP,No of Vehicle Registration : Gwalior,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior",,1,1,False,['mp'],[],False,False
+VAT& GST Collection for Guwahati,VAT& GST Collection : Guwahati,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Assam, Guwahati",,1,1,False,[],[],False,False
+Digital Usage for Pune,Digital Usage : Pune,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pune",,1,1,False,[],[],False,False
+Unemployment Rate : Tiruchirappalli City,Unemployment Rate : Tiruchirappalli,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Tiruchirapalli",,1,1,False,[],[],False,False
+This catalog describes the number of street lights available in the city which are LED and connected to renewable resources,This catalog describes the number of street lights available in the city which are LED and connected to renewable resources : Thanjavur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Thanjavur",,1,1,False,[],['thanjavur'],False,False
+Ranchi City Housing and Slum Population,Housing and Slum Population : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,1,1,False,[],[],False,False
+Crimes of Ujjain,Crimes : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Road Safety of Ranchi City,Road Safety : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,1,1,False,[],[],False,False
+Budget for Open Spaces Development for Jaipur,Budget for Open Spaces Development : Jaipur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Rajasthan, Jaipur",,1,1,False,[],[],False,False
+Unemployment Rate : Hubli Dharwad,Unemployment Rate : Hubballi-Dharwad,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Hubli Dharwad",,1,1,False,['hubli'],['hubballi'],False,False
+No of Vehicle Registration : Hubli Dharwad,No of Vehicle Registration : Hubballi-Dharwad,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Hubli Dharwad",,1,1,False,['hubli'],['hubballi'],False,False
+Solid Waste Collection Equipment,Solid Waste Collection Equipment : Davanagere,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Davangere",,1,1,False,[],['davanagere'],False,False
+Endangered Plant Species of Ujjain,Endangered Plant Species : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+RS Session of Ujjain,RS Session : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Registered Vehicles of Ujjain,Registered Vehicles : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Solid Waste Disposal of Erode,Solid Waste Disposal : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,[],[],False,False
+Ward wise Hospital Details,Ward wise Hospital Details : Shivamogga,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Shivamogga",,1,1,False,[],['shivamogga'],False,False
+Agartala:Traffic lights,Traffic lights : Agartala,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala",,1,1,False,[],[],False,False
+Agartala: CC TV Cameras,CC TV Cameras : Agartala,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala",,1,1,False,[],[],False,False
+Agartala:RenewableEnergy,Renewable Energy : Agartala,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala",,1,1,False,['renewableenergy'],"['energy', 'renewable']",False,False
+Agra: Traffic Lights,Traffic Lights : Agra,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Agra",,1,1,False,[],[],False,False
+Rainy days in Chandigarh,Rainy days : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Natural Features in Chandigarh,Natural Features : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Citizen Services in Chandigarh,Citizen Services : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Early Childhood Development Facilities in Chandigarh,Early Childhood Development Facilities : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Taxes in Chandigarh,Taxes : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Fatal road crash in Chandigarh,Fatal road crash : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Anganwadi and Chreches in Chandigarh,Anganwadi and Chreches : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+MC total receipts in Chandigarh,MC total receipts : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Ward Wise Water Connections -Shimla City,Ward Wise Water Connections : Shimla,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Himachal Pradesh, Shimla",,1,1,False,[],[],False,False
+Ward Wise Households in Shimla City,Ward Wise Households : Shimla,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Himachal Pradesh, Shimla",,1,1,False,[],[],False,False
+Energy,Energy : Kohima,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima",,1,1,False,[],['kohima'],False,False
+Bangalore: Environment - Advance Pollutants,Environment - Advance Pollutants : Bengaluru,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Bengaluru",,1,1,False,['bangalore'],['bengaluru'],False,False
+Environment : RMC,Environment : Rajkot,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Rajkot",,1,1,False,['rmc'],['rajkot'],False,False
+D39 PUBLIC TRANSPORT MODESHARE ERODE,Public Transport Modeshare : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,['d39'],[],False,False
+Financial Health of Ujjain,Financial Health : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Solid Waste Segregation of Muzaffarpur,Solid Waste Segregation : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+City Profile of Ujjain,City Profile : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,2,1,False,[],[],False,False
+VAT&GSTCollection : Solapur City,VAT&GSTCollection : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+PUBLIC TOILETS IN KAKINADA,Public Toilets : Kakinada,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Andhra Pradesh, Kakinada",,1,1,False,[],[],False,False
+Environment:Varanasi City,Environment : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,2,1,False,[],[],False,False
+D13-SolidWasteManagement-Efficiency_Saharanpur,Solid Waste Management-Efficiency : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,"['d13', 'solidwastemanagement']","['management', 'solid', 'waste']",False,False
+D2D Collection Coverage in Saharanpur,D2D Collection Coverage : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Governance: kanpur nagar,Governance : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,1,1,False,['nagar'],[],False,False
+Unemployment Rate : Solapur City,Unemployment Rate : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+VAT & GST : Varanasi City,VAT & GST : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,2,1,False,[],[],False,False
+D05 Public Amenities (Panchayats) Per Capita,Public Amenities (Panchayats) Per Capita : Kohima,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima",,1,1,False,['d05'],['kohima'],False,False
+D2D Collection Coverage : Solapur City,D2D Collection Coverage : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+D19 Solid Waste Disposal Methods Assessment Kohima,Solid Waste Disposal Methods Assessment : Kohima,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima",,1,1,False,['d19'],[],False,False
+Buses of Bilaspur,Buses : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,3,1,False,[],[],False,False
+Water of Bilaspur,Water : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+PROPERTY TAX OF RANCHI CITY,Property Tax : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,1,1,False,[],[],False,False
+Surat Citizen Centric Services,Citizen Centric Services : Surat,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Surat",,11,1,False,[],[],False,False
+Housing & Slums of Bilaspur,Housing & Slums : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,5,1,False,[],[],False,False
+Solid Waste  Ward wise Segregation Data :  Solapur City,Solid Waste Ward wise Segregation Data : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Community Facilities of bilaspur,Community Facilities : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+Health Infrastructure of bilaspur,Health Infrastructure : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+Citizen Facilities of bilaspur,Citizen Facilities : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+Vehicle Registrations Data : Solapur City,Vehicle Registrations Data : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Collection of VAT/GST of Rourkela,Collection of VAT/GST : Rourkela,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Odisha, Rourkela",,1,1,False,[],[],False,False
+Area Bifurcation Data for Pune,Area Bifurcation Data : Pune,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pune",,2,1,False,[],[],False,False
+"Solid Waste Generated, Collected, Processed Data of Guwahati","Solid Waste Generated, Collected, Processed Data : Guwahati","Ministry of Housing and Urban Affairs, Smart Cities Mission, Assam, Guwahati",,1,1,False,[],[],False,False
+Water Revenue Data of Ujjain,Water Revenue Data : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+City Profile (Demographic Profile) of Gwalior MP,City Profile (Demographic Profile) : Gwalior,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior",,1,1,False,['mp'],[],False,False
+Solid Waste Collection vehicle information of Gwalior MP,Solid Waste Collection vehicle information : Gwalior,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior",,1,1,False,['mp'],[],False,False
+Ahmedabad Shops And Establishment Licence,Shops And Establishment Licence : Ahmedabad,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Ahmedabad",,2,1,False,[],[],False,False
+Transportation Visakhapatnam 2015 to 2018,Transportation : Visakhapatnam,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Andhra Pradesh, Visakhapatnam",,2,1,False,"['2015', '2018', 'to']",[],True,False
+Waste Collection Vehicle Data in saharanpur,Waste Collection Vehicle Data : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Bus Station of Ujjain,Bus Station : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Toilets in Vegetable market of ujjain,Toilets in Vegetable market : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Transport Hub of Ujjain,Transport Hub : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Electricity facility of Ujjain,Electricity facility : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Noise Pollution For Pune,Noise Pollution : Pune,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pune",,1,1,False,[],[],False,False
+Water_Kanpur Nagar,Water : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,1,1,False,['nagar'],[],False,False
+Itanagar Smart City Profile,Profile : Itanagar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Arunachal Pradesh, Itanagar",,1,1,False,['smart'],[],False,False
+BudgetforOpenspacesdevelopment:<udaipur> 2011	,Budgetfor Openspacesdevelopment : Udaipur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Rajasthan, Udaipur",,1,1,False,"['2011', 'budgetforopenspacesdevelopment']","['budgetfor', 'openspacesdevelopment']",True,False
+All other teacher for teaching subject of Ujjain,All other teacher for teaching subject : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Kitchen Shed School of Ujjain,Kitchen Shed School : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Regular Head Master of Ujjain,Regular Head Master : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+School Grant of Ujjain,School Grant : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Schools Hand Washing Facility Toilets Urinals of Ujjain,Schools Hand Washing Facility Toilets Urinals : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Public Amenities in saharanpur,Public Amenities : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Citizen services available online in Puducherry,Citizen services available online : Puducherry,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Puducherry, Puduchery",,1,1,False,[],[],False,False
+Public Toilets Data : Solapur City,Public Toilets Data : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+SOLID WASTE COLLECTION VEHICLE IN RANCHI CITY,Solid Waste Collection Vehicle : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,2,1,False,[],[],False,False
+Solid Waste Processing in Ranchi City,Solid Waste Processing : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,2,1,False,[],[],False,False
+Education Data in saharanpur,Education Data : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Citizen Facilitation Center in saharanpur,Citizen Facilitation Center : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Crimes Report of Erode,Crimes Report : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,[],[],False,False
+Total number of operational signalized intersections in Ranchi City,Total number of operational signalized intersections : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,1,1,False,[],[],False,False
+No. of Buses in Ranchi City,No. of Buses : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,2,1,False,[],[],False,False
+Public Transport Accessibility in Ranchi City,Public Transport Accessibility : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,1,1,False,[],[],False,False
+Digital Payment of Ujjain,Digital Payment : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+RANCHI CITY DIGITAL ACCESS,Digital Access : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,1,1,False,[],[],False,False
+VAT & GST Collection for Jaipur,VAT & GST Collection : Jaipur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Rajasthan, Jaipur",,1,1,False,[],[],False,False
+Transportation of Ranchi City,Transportation : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,1,1,False,[],[],False,False
+Total Number of Different Types of Vehicle Registered in Ranchi,Total Number of Different Types of Vehicle Registered : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,1,1,False,[],[],False,False
+Digital Payment of Ranchi City,Digital Payment : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,2,1,False,[],[],False,False
+Diseases : Solapur City,Diseases : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Solid Waste Collection Equipment of Ujjain,Solid Waste Collection Equipment : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Vaniki Pradarshan Prashetra of Ujjain,Vaniki Pradarshan Prashetra : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Categorization of Change in Water Level of Ujjain,Categorization of Change in Water Level : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Population and Growth Rate of Ujjain,Population and Growth Rate : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Division Wise Breakup of Staff Strength of Ujjain,Division Wise Breakup of Staff Strength : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Industrial Aspects Town Level of Ujjain,Industrial Aspects Town Level : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+VAT & GST : ERODE : 2014 to 2018,VAT & GST : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,"['2014', '2018', 'to']",[],True,False
+COVID-19 Details,COVID-19 Details : Gwalior,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior",,1,1,False,[],['gwalior'],False,False
+Agra: Bulk Waste Generators,Bulk Waste Generators : Agra,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Agra",,1,1,False,[],[],False,False
+Agra: River Ghat,River Ghat : Agra,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Agra",,1,1,False,[],[],False,False
+Basic Facilities in Chandigarh,Basic Facilities : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+VAT and GST collection in Chandigarh,VAT and GST collection : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Chandigarh: Demographic Profile,Demographic Profile : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Fatalities_traffic accidents,Fatalities traffic accidents : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],['chandigarh'],False,False
+Vehicle Registration in Chandigarh,Vehicle Registration : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Parking Lots in Chandigarh,Parking Lots : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Citizen Facilitation Centers in Chandigarh,Citizen Facilitation Centers : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,2,1,False,[],[],False,False
+Hotels in Chandigarh,Hotels : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Religious Amenities in Chandigarh,Religious Amenities : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Sampark Centers in Chandigarh,Sampark Centers : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Hospitals in Chandigarh,Hospitals : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Monthly Rainfall in Chandigarh,Monthly Rainfall : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Water Supply in Chandigarh,Water Supply : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Housing Circle Rates in Chandigarh,Housing Circle Rates : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Police Stations in Faridabad,Police Stations : Faridabad,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Haryana, Faridabad",,1,1,False,[],[],False,False
+PEDESTRIAN FATALITIES : GREATER WARANGAL,Pedestrian Fatalities : Warangal,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Telangana, Greater Warangal",,1,1,False,['greater'],[],False,False
+VAT AND GST OF RANCHI,VAT And GST : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,1,1,False,[],[],False,False
+Ward Wise Public Amenities in Shimla City,Ward Wise Public Amenities : Shimla,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Himachal Pradesh, Shimla",,1,1,False,[],[],False,False
+Health Care Facilities : Greater Warangal,Health Care Facilities : Warangal,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Telangana, Greater Warangal",,1,1,False,['greater'],[],False,False
+solid waste management of bilaspur,Solid waste management : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,9,1,False,[],[],False,False
+Natural Landscape of Ujjain,Natural Landscape : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Rajkot Municipal Corporation,Rajkot Municipal Corporation : Rajkot,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Rajkot",,39,1,False,[],[],False,False
+Solid Waste Management of Muzaffarpur City.,Solid Waste Management - . : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Housing and Slum Population In Bhubaneswar,Housing and Slum Population : Bhubaneswar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Odisha, Bhubaneswar",,1,1,False,[],[],False,False
+Crimes :  Solapur City,Crimes : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Environment,Environment : Visakhapatnam,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Andhra Pradesh, Visakhapatnam",,1,1,False,[],['visakhapatnam'],False,False
+Education Data : Solapur City,Education Data : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Street Lights : Solapur City,Street Lights : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+No. of Buses :  Solapur City,No. of Buses : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Unemployment Rate for Pune,Unemployment Rate : Pune,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pune",,1,1,False,[],[],False,False
+Unemployment Rate of Muzaffarpur,Unemployment Rate : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Financial Health of Muzaffarpur,Financial Health : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Citizen Facilities:Varanasi City,Citizen Facilities : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,1,1,False,[],[],False,False
+Buses : Varanasi City,Buses : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,2,1,False,[],[],False,False
+VAT and GST of Muzaffarpur,VAT and GST : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+VAT & GST of Bilaspur,VAT & GST : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+Digital Availability : Varanasi City,Digital Availability : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,1,1,False,[],[],False,False
+D45_Digital_Availability_Kohima_2019,Digital Availability : Kohima,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima",,1,1,False,"['2019', 'd45']",[],True,False
+"Solid Waste Generated, Collected, Processed Data : Solapur City","Solid Waste Generated, Collected, Processed Data : Solapur","Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Electricity Consumption of Bengaluru City,Electricity Consumption : Bengaluru,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Bengaluru",,1,1,False,[],[],False,False
+Extra_ULB_Details_Kohima_2019,Extra ULB Details : Kohima,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima",,2,1,False,['2019'],[],True,False
+VAT & GST: KANPUR NAGAR,VAT & GST : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,2,1,False,['nagar'],[],False,False
+Street Lights : Varanasi City,Street Lights : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,1,1,False,[],[],False,False
+Diseases : Varanasi City,Diseases : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,1,1,False,[],[],False,False
+Citizen Facilitation Center : Solapur City,Citizen Facilitation Center : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+ITC Neighbourhood : 3 of Muzaffarpur,ITC Neighbourhood : 3 : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Environment : Kanpur Nagar,Environment : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,1,1,False,['nagar'],[],False,False
+City profile,City profile : Udaipur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Rajasthan, Udaipur",,1,1,False,[],['udaipur'],False,False
+Ahmedabad Birth Registration,Birth Registration : Ahmedabad,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Ahmedabad",,1,1,False,[],[],False,False
+Demographic Profile in Saharanpur,Demographic Profile : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Education Data of Ujjain,Education Data : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Number of Crimes Bengaluru City,Number of Crimes : Bengaluru,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Bengaluru",,1,1,False,[],[],False,False
+Teacher data of Ujjain,Teacher data : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Hubballi-Dharwad Junctions and Intersections as on 12-02-2019,Junctions and Intersections : Hubballi-Dharwad,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Hubli Dharwad",,1,1,False,"['02', '12', '2019', 'as', 'on']",[],True,False
+Shift School in Ujjain,Shift School : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Ramps for handycap in school of Ujjain,Ramps for handycap in school : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Recreational Parks of Ujjain,Recreational Parks : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Housing & Basic Infrastructure data in saharanpur,Housing & Basic Infrastructure data : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Citizen Facilitation Center Davangere,Citizen Facilitation Center : Davanagere,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Davangere",,1,1,False,['davangere'],['davanagere'],False,False
+Itanagar Smart City Digital Payments,Digital Payments : Itanagar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Arunachal Pradesh, Itanagar",,1,1,False,['smart'],[],False,False
+Public Amenities Davanagere : 2018,Public Amenities : Davanagere,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Davangere",,1,1,False,['2018'],[],True,False
+Itanagar Solid Waste Management  Basic,Solid Waste Management Basic : Itanagar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Arunachal Pradesh, Itanagar",,1,1,False,[],[],False,False
+Education Davangere,Education : Davanagere,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Davangere",,1,1,False,['davangere'],['davanagere'],False,False
+Traffic : Bareilly Smart City,Traffic : Bareilly,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Bareilly",,1,1,False,['smart'],[],False,False
+Housing & Slums Cricle : Bareilly Smart City,Housing & Slums Cricle : Bareilly,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Bareilly",,1,1,False,['smart'],[],False,False
+Roads : Kanpur Nagar,Roads : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,1,1,False,['nagar'],[],False,False
+Public Transport Mode Share of Gwalior MP,Public Transport Mode Share : Gwalior,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior",,1,1,False,['mp'],[],False,False
+Digital Availability Reports of Erode,Digital Availability Reports : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,2,1,False,[],[],False,False
+Signalized Intersections of Erode,Signalized Intersections : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,[],[],False,False
+Property Tax : Varanasi City,Property Tax : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,1,1,False,[],[],False,False
+Health Department Data Sagar 2018,Health Department Data : Sagar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Sagar",,3,1,False,['2018'],[],True,False
+Solid Waste Management : Management,Solid Waste Management : Management : Mangaluru,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Mangaluru",,1,1,False,[],['mangaluru'],False,False
+Solid Waste Management Disposal Data of Ranchi,Solid Waste Management Disposal Data : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,2,1,False,[],[],False,False
+Solid Waste Segregation of Ujjain,Solid Waste Segregation : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Street Light : Hubli Dharwad,Street Light : Hubballi-Dharwad,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Hubli Dharwad",,1,1,False,['hubli'],['hubballi'],False,False
+Chain link fencing of Ujjain,Chain link fencing : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Jalau Kasht Utpadan of Ujjain,Jalau Kasht Utpadan : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Disaster Management of Ujjain,Disaster Management : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Categories of Houses of Ujjain,Categories of Houses : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+House less population of Ujjain,House less population : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Natural Features Tripura,Natural Features : Agartala,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala",,1,1,False,['tripura'],['agartala'],False,True
+Solid Waste Processing of ERODE,Solid Waste Processing : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,[],[],False,False
+Thane: Quarantine Centre Facilities,Quarantine Centre Facilities : Thane,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Thane",,1,1,False,[],[],False,False
+Agra: Police Stations,Police Stations : Agra,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Agra",,1,1,False,[],[],False,False
+Agra: Parking Locations,Parking Locations : Agra,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Agra",,1,1,False,[],[],False,False
+Community Facilities of Ranchi City,Community Facilities : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,1,1,False,[],[],False,False
+Agra: CCTV Cameras,CCTV Cameras : Agra,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Agra",,2,1,False,[],[],False,False
+Lighting in Streets Public Parks Gardens and Open Spaces in Chandigarh,Lighting in Streets Public Parks Gardens and Open Spaces : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Governance in Chandigarh,Governance : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Worker Participation Ratio in Chandigarh,Worker Participation Ratio : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Services through ICCC in Chandigarh,Services through ICCC : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Food Vending Dhabas in Chandigarh,Food Vending Dhabas : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Registered FIR in Chandigarh,Registered FIR : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Solid Waste Recycled in Chandigarh,Solid Waste Recycled : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Water Supply Connections in Chandigarh,Water Supply Connections : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Agartala:Public Toilet Coverage,Public Toilet Coverage : Agartala,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala",,1,1,False,[],[],False,False
+Solid Waste Collection Vehicles in Chandigarh,Solid Waste Collection Vehicles : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Ward Wise Sewerage Connections -Shimla City,Ward Wise Sewerage Connections : Shimla,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Himachal Pradesh, Shimla",,1,1,False,[],[],False,False
+Solid Waste Disposal  in Chandigarh,Solid Waste Disposal : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Length of Roads in Shimla City,Length of Roads : Shimla,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Himachal Pradesh, Shimla",,1,1,False,[],[],False,False
+Crimes against Children : Greater Warangal,Crimes against Children : Warangal,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Telangana, Greater Warangal",,1,1,False,['greater'],[],False,False
+Agartala: Wardwise Vaccination Centres,Wardwise Vaccination Centres : Agartala,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala",,1,1,False,[],[],False,False
+Agartala: Wardwise Medical Infra,Wardwise Medical Infra : Agartala,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala",,1,1,False,[],[],False,False
+ITC Neighbourhood : RMC,ITC Neighbourhood : Rajkot,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Rajkot",,3,1,False,['rmc'],['rajkot'],False,False
+Jabalpur : Shop_licenses,Shop licenses : Jabalpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Jabalpur",,2,1,False,[],[],False,False
+D53 Water Supply Distribution,Water Supply Distribution : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,['d53'],['erode'],False,False
+Demographic Profile of Bilaspur,Demographic Profile : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,3,1,False,[],[],False,False
+Property Tax Data of Ujjain				,Property Tax Data : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Muzaffarpur City Profile,Profile : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Citizen Facilities Visakhaptnam,Citizen Facilities : Visakhapatnam,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Andhra Pradesh, Visakhapatnam",,1,1,False,['visakhaptnam'],['visakhapatnam'],False,False
+Budget for Open spaces development : Solapur City,Budget for Open spaces development : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Cultural Heritage in kakinada,Cultural Heritage : Kakinada,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Andhra Pradesh, Kakinada",,1,1,False,[],[],False,False
+City Profile:Varanasi City,City Profile : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,6,1,False,[],[],False,False
+"Buses: Kanpur, Uttar Pradesh",Buses : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,3,1,False,"['pradesh', 'uttar']",[],False,True
+Solid Waste Management : Varanasi City,Solid Waste Management : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,10,1,False,[],[],False,False
+Digital Payments : Varanasi City,Digital Payments : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,1,1,False,[],[],False,False
+Natural Landscape  :  Solapur City,Natural Landscape : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Transportation of Bilaspur,Transportation : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,2,1,False,[],[],False,False
+Road Safety of Muzaffarpur,Road Safety : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Governance of Bilaspur,Governance : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+Cultural Heritage : Tiruppur : 2018 to 2019,Cultural Heritage : Tiruppur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Tiruppur",,1,1,False,"['2018', '2019', 'to']",[],True,False
+Water Consumption : Solapur City,Water Consumption : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Mortality Rate of Bilaspur,Mortality Rate : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+Water Tax : TIRUPPUR 2013 to 2018,Water Tax : Tiruppur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Tiruppur",,1,1,False,"['2013', '2018', 'to']",[],True,False
+Environment : Tiruppur 2017 to 2018,Environment : Tiruppur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Tiruppur",,1,1,False,"['2017', '2018', 'to']",[],True,False
+"Air Quality S02,PM2.5,PM10,NO2,O3 in saharanpur","Air Quality S02,PM2.5,PM10,NO2,O3 : Saharanpur","Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Total Connection capacity of WTP for Guwahati,Total Connection capacity of WTP : Guwahati,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Assam, Guwahati",,1,1,False,[],[],False,False
+Door to Door Collection of Solid Waste in Jaipur,Door to Door Collection of Solid Waste : Jaipur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Rajasthan, Jaipur",,1,1,False,[],[],False,False
+Water Supply of Muzaffarpur,Water Supply : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Water and Sanitation of Ujjain,Water and Sanitation : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Transportation : Kanpur Nagar,Transportation : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,2,1,False,['nagar'],[],False,False
+Digital Availability : Kanpur Nagar,Digital Availability : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,1,1,False,['nagar'],[],False,False
+Education of Bilaspur,Education : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+Ahmedabad : VAT & GST Collection,VAT & GST Collection : Ahmedabad,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Ahmedabad",,1,1,False,[],[],False,False
+Ahmedabad : Intersections,Intersections : Ahmedabad,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Ahmedabad",,1,1,False,[],[],False,False
+Boys toilet facility of Ujjain,Boys toilet facility : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Treatment Plant of Ujjain,Treatment Plant : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Buses : KOTA : 2018,Buses : Kota,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Rajasthan, Kota",,3,1,False,['2018'],[],True,False
+Solid Waste Processing Data for Guwahati,Solid Waste Processing Data : Guwahati,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Assam, Guwahati",,1,1,False,[],[],False,False
+Public Toilets Data in saharanpur,Public Toilets Data : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Children Facilities Provision in saharanpur,Children Facilities Provision : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+ITC Neighbourhood : Bareilly Smart City,ITC Neighbourhood : Bareilly,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Bareilly",,3,1,False,['smart'],[],False,False
+Itanagar Street Light,Street Light : Itanagar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Arunachal Pradesh, Itanagar",,1,1,False,[],[],False,False
+Cast Wise Enrollment of Ujjain,Cast Wise Enrollment : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Distribution of adverse fulfill teachers ratio of Ujjain,Distribution of adverse fulfill teachers ratio : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Itanagar Solid Waste Collection Equipment,Solid Waste Collection Equipment : Itanagar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Arunachal Pradesh, Itanagar",,1,1,False,[],[],False,False
+School functional Toilet For Girls of Ujjain,School functional Toilet For Girls : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+School Inspected of Ujjain,School Inspected : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+School Having Functional Toilet for girls of Ujjain,School Having Functional Toilet for girls : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Environment : Bareilly Smart City,Environment : Bareilly,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Bareilly",,1,1,False,['smart'],[],False,False
+Community Facilities for Guwahati,Community Facilities : Guwahati,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Assam, Guwahati",,1,1,False,[],[],False,False
+VAT & GST from 2014-15 to 2017-18 : Tiruchirappalli,VAT & GST from : Tiruchirappalli,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Tiruchirapalli",,1,1,False,"['15', '18', '2014', '2017', 'to']",[],True,False
+VAT & GST : TIRUPPUR : 2014 to 2018,VAT & GST : Tiruppur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Tiruppur",,1,1,False,"['2014', '2018', 'to']",[],True,False
+Street Lights Jammu City,Street Lights : Jammu,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jammu and Kashmir, Jammu",,1,1,False,[],[],False,False
+Environmental Jammu 2018,Environmental : Jammu,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jammu and Kashmir, Jammu",,1,1,False,['2018'],[],True,False
+Water and Sanitation: Patna Nagar Nigam,Water and Sanitation : Patna,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Patna",,1,1,False,"['nagar', 'nigam']",[],False,False
+Ranchi City Budget for Open spaces development,Budget for Open spaces development : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,1,1,False,[],[],False,False
+ITCNeighbouhood1 of Ujjain,ITCNeighbouhood1 : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Households of Erode,Households : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,[],[],False,False
+Forest Area Acc to new work Plan of Ujjain,Forest Area Acc to new work Plan : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Ujjain Vanmandal of Ujjain,Vanmandal : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Water Level Fluctuation of Ujjain,Water Level Fluctuation : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Ambient Air Quality Data for Heavy Metals Lead(Pb) & Nickel(Ni)-March- 2019-Guwahati,Ambient Air Quality Data for Heavy Metals Lead(Pb) & Nickel(Ni)-March : Guwahati,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Assam, Guwahati",,1,1,False,['2019'],[],True,False
+Employees of SWM of Ujjain,Employees of SWM : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Air Pollution Concentration of Ujjain,Air Pollution Concentration : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Railway of Ujjain,Railway : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Telecommunication of Ujjain,Telecommunication : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Earnings Bus Trips : ERODE 2015 to 2018,Earnings Bus Trips : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,"['2015', '2018', 'to']",[],True,False
+Municipal Boundary Hospital Food & Shelter PCMC,Municipal Boundary Hospital Food & Shelter : Pimpri Chinchwad,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pimpri Chinchwad",,4,1,False,['pcmc'],"['chinchwad', 'pimpri']",False,False
+Agra: SWM Transfer Stations,SWM Transfer Stations : Agra,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Agra",,1,1,False,[],[],False,False
+"Area covered under parks, playgrounds and open spaces in Chandigarh","Area covered under parks, playgrounds and open spaces : Chandigarh","Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Municipal budget allocation for open spaces and parks in Chandigarh,Municipal budget allocation for open spaces and parks : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Police Stations in Chandigarh,Police Stations : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Municipal Budget for Public Art and Parks in Chandigarh,Municipal Budget for Public Art and Parks : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+CCTV cameras integrated with ICCC in Chandigarh,CCTV cameras integrated with ICCC : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Unobstructed Footpath In Chandigarh,Unobstructed Footpath : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+SWM PUNE 2022,SWM : Pune,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pune",,8,1,False,['2022'],[],True,False
+Road Accidents in Chandigarh,Road Accidents : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Hospital with Lab facility in Chandigarh,Hospital with Lab facility : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Hospital Coverage in Chandigarh,Hospital Coverage : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Water and Sanitization in Chandigarh,Water and Sanitization : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Healthcare Facilities in Chandigarh,Healthcare Facilities : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Solid Waste Management Efficiency in Chandigarh,Solid Waste Management Efficiency : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Intersections/Junctions in Chandigarh,Intersections/Junctions : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Solid Waste segregation in Chandigarh,Solid Waste segregation : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Solid Waste Management Revenue in Chandigarh,Solid Waste Management Revenue : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Transportation : RMC,Transportation : Rajkot,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Rajkot",,1,1,False,['rmc'],['rajkot'],False,False
+Covid Vaccination in Chandigarh,Covid Vaccination : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Gangtok: Water,Water : Gangtok,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Sikkim, Gangtok",,1,1,False,[],[],False,False
+Bangalore: Electricity Consumption By Sub-Sector,Electricity Consumption By Sub-Sector : Bengaluru,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Bengaluru",,1,1,False,['bangalore'],['bengaluru'],False,False
+Financial Health : RMC,Financial Health : Rajkot,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Rajkot",,1,1,False,['rmc'],['rajkot'],False,False
+Bangalore: Police stations,Police stations : Bengaluru,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Bengaluru",,1,1,False,['bangalore'],['bengaluru'],False,False
+D07 CITIZEN FACILITATION CENTRES,Citizen Facilitation Centres : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,['d07'],['erode'],False,False
+Public Amenities,Public Amenities : Chennai,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Chennai",,1,1,False,[],['chennai'],False,False
+D72 Wardwise Water Supply -Per Capita and Continuity,Wardwise Water Supply -Per Capita and Continuity : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,['d72'],['erode'],False,False
+Earnings-BusTrips,Earnings-Bus Trips : Dharamshala,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Himachal Pradesh, Dharamshala",,1,1,False,['bustrips'],"['bus', 'dharamshala', 'trips']",False,False
+Madurai- Water_Treatment_Plants,Water Treatment Plants : Madurai,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Madurai",,1,1,False,[],[],False,False
+D82 ITC_Unobstructed Footpath Erode,ITC Unobstructed Footpath : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,['d82'],[],False,False
+Erode Financial Health,Financial Health : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,[],[],False,False
+Agra: Mobility (Traffic),Mobility (Traffic) : Agra,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Agra",,3,1,False,[],[],False,False
+Pune Municipal Corporation,Pune Municipal Corporation : Pune,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pune",,1,1,False,[],[],False,False
+Households of Muzaffarpur,Households : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Water and Sanitation of Muzaffarpur,Water and Sanitation : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Household of Bhubaneswar,Household : Bhubaneswar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Odisha, Bhubaneswar",,1,1,False,[],[],False,False
+Roads,Roads : Kohima,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima",,1,1,False,[],['kohima'],False,False
+Waste Management Revenue Expenditure Data in saharanpur,Waste Management Revenue Expenditure Data : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Digital Availability,Digital Availability : Bareilly,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Bareilly",,1,1,False,[],['bareilly'],False,False
+Health Infrastructure of Muzaffarpur,Health Infrastructure : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Digital Availability of Muzaffarpur,Digital Availability : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Digital Payments of Muzaffarpur,Digital Payments : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Crimes in Saharanpur,Crimes : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Surat: Citizen Facilities,Citizen Facilities : Surat,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Surat",,11,1,False,[],[],False,False
+Mortality Rate:Varanasi City,Mortality Rate : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,2,1,False,[],[],False,False
+Solid Waste Ward wise Seggeration Data in Saharanpur,Solid Waste Ward wise Seggeration Data : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Housing and Slums: 1 of Muzaffarpur,Housing and Slums : 1 : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Transportation : Varanasi City,Transportation : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,2,1,False,[],[],False,False
+Electricity : Varanasi City,Electricity : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,1,1,False,[],[],False,False
+D48_VAT_GST_Kohima_2014_2018,VAT GST : Kohima,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima",,1,1,False,"['2014', '2018', 'd48']",[],True,False
+No Of Vehicle Registration : TIRUPPUR 2014 to 2018,No Of Vehicle Registration : Tiruppur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Tiruppur",,1,1,False,"['2014', '2018', 'to']",[],True,False
+Earnings Bus Trips of Muzaffarpur,Earnings Bus Trips : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Waste Management Revenue Expenditure Data  :  Solapur City,Waste Management Revenue Expenditure Data : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Rajkot Municipal Corporation - Tax Collection Details,Tax Collection Details : Rajkot,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Rajkot",,6,1,False,"['corporation', 'municipal']",[],False,False
+Property Tax of Bilaspur,Property Tax : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+ITC Neighbourhood : 1 of Muzaffarpur,ITC Neighbourhood : 1 : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Community Facilities : Varanasi City,Community Facilities : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,1,1,False,[],[],False,False
+Street Lights information of Gwalior MP,Street Lights information : Gwalior,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior",,1,1,False,['mp'],[],False,False
+Demographic Profile : Kanpur Nagar,Demographic Profile : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,3,1,False,['nagar'],[],False,False
+Public Amenities of bilaspur,Public Amenities : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+Household: Gandinagar,Household : Gandhinagar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Gandhinagar",,1,1,False,['gandinagar'],['gandhinagar'],False,False
+Teacher ratio of Ujjain,Teacher ratio : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Tourist Spots of Ujjain,Tourist Spots : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Diseases : KOTA : 2018,Diseases : Kota,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Rajasthan, Kota",,1,1,False,['2018'],[],True,False
+Governance : Bareilly Smart City,Governance : Bareilly,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Bareilly",,1,1,False,['smart'],[],False,False
+Natural Landscape : Bareilly Smart City,Natural Landscape : Bareilly,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Bareilly",,1,1,False,['smart'],[],False,False
+Health Infrastructure: Kanpur Nagar,Health Infrastructure : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,1,1,False,['nagar'],[],False,False
+Digital Payments : Kanpur Nagar,Digital Payments : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,1,1,False,['nagar'],[],False,False
+Demographic Profile Shillong Unemployment,Demographic Profile - Unemployment : Shillong,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Meghalaya, Shillong",,1,1,False,[],[],False,False
+Itanagar Smart City HouseHolds,House Holds : Itanagar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Arunachal Pradesh, Itanagar",,1,1,False,"['households', 'smart']","['holds', 'house']",False,False
+Water Tax Davangere : 2013-14 to 2017-18,Water Tax : Davanagere,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Davangere",,1,1,False,"['14', '18', '2013', '2017', 'davangere', 'to']",['davanagere'],True,False
+Development Grant of Ujjain,Development Grant : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Female Teacher of Ujjain,Female Teacher : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Jan Shikshak CRC Visits of Ujjain,Jan Shikshak CRC Visits : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+School Between Number of Working Days Primary of Ujjain,School Between Number of Working Days Primary : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Schools having Toilet of Ujjain,Schools having Toilet : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Roads  in Amritsar,Roads : Amritsar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Punjab, Amritsar",,1,1,False,[],[],False,False
+Slums : Bareilly Smart City,Slums : Bareilly,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Bareilly",,1,1,False,['smart'],[],False,False
+Traffic : Pimpri-Chincwad,Traffic : Pimpri Chinchwad,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pimpri Chinchwad",,2,1,False,['chincwad'],['chinchwad'],False,False
+Communities Amenities availability in Puducherry,Communities Amenities availability : Puducherry,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Puducherry, Puduchery",,1,1,False,[],[],False,False
+Public Amenities : Bareilly Smart City,Public Amenities : Bareilly,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Bareilly",,1,1,False,['smart'],[],False,False
+Solid Waste Wardwise Segregation Data:Mangaluru 2019,Solid Waste Wardwise Segregation Data : Mangaluru,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Mangaluru",,1,1,False,['2019'],[],True,False
+Diseases data of Gwalior MP,Diseases data : Gwalior,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior",,1,1,False,['mp'],[],False,False
+Environment of Ujjain,Environment : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Crimes from 2014-15 to 2017-18 : Tiruchirappalli,Crimes from : Tiruchirappalli,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Tiruchirapalli",,1,1,False,"['15', '18', '2014', '2017', 'to']",[],True,False
+test catalog : city name,Test catalog : city name : Pune,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pune",,1,1,False,[],['pune'],False,False
+RANCHI CITY PROFILE,Profile : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,1,1,False,[],[],False,False
+Public Toilets Data of Ranchi City as per Swachhta Survekshan  2019,Public Toilets Data - as per Swachhta Survekshan : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,1,1,False,['2019'],[],True,False
+Housing and  Slum Population kakinada 2017,Housing and Slum Population : Kakinada,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Andhra Pradesh, Kakinada",,1,1,False,['2017'],[],True,False
+Public Transport Mode Share Kakinada 2018,Public Transport Mode Share : Kakinada,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Andhra Pradesh, Kakinada",,1,1,False,['2018'],[],True,False
+Demographic Profile of Erode,Demographic Profile : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,[],[],False,False
+Solid Waste Collection Vehicle of Ujjain,Solid Waste Collection Vehicle : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Solid Waste Management Revenue of Ujjain,Solid Waste Management Revenue : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Min max average Water Levels of Ujjain,Min max average Water Levels : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Fire of Ujjain,Fire : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Health Infrastructure of Ujjain,Health Infrastructure : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Thane: Electricity,Electricity : Thane,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Thane",,6,1,False,[],[],False,False
+Mortality of ERODE,Mortality : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,[],[],False,False
+Wardwisequarantinefacility,Wardwisequarantinefacility : Bareilly,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Bareilly",,1,1,False,[],['bareilly'],False,False
+Thane: Public Amenities,Public Amenities : Thane,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Thane",,17,1,False,[],[],False,False
+Website Statistics,Website Statistics : Pune,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pune",,1,1,False,[],['pune'],False,False
+Kohima Wi-Fi Users,Wi-Fi Users : Kohima,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima",,1,1,False,[],[],False,False
+Agartala: Police Stations,Police Stations : Agartala,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala",,1,1,False,[],[],False,False
+Ujjain Urban Primary Health Care Facility,Urban Primary Health Care Facility : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Bus trips earning in Chandigarh,Bus trips earning : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Unemployment Rate in Chandigarh,Unemployment Rate : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Hospital with covid beds in Chandigarh,Hospital with covid beds : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Sewerage Treatment Plants in Chandigarh,Sewerage Treatment Plants : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Water Supply Coverage in Chandigarh,Water Supply Coverage : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Water Treatment Plants in Chandigarh,Water Treatment Plants : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Lighting in Streets Public Parks Gardens and Open Spaces : Greater Warangal,Lighting in Streets Public Parks Gardens and Open Spaces : Warangal,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Telangana, Greater Warangal",,1,1,False,['greater'],[],False,False
+Child Welfare Facilities and Counselling Centres  : GREATER WARANGAL,Child Welfare Facilities and Counselling Centres : Warangal,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Telangana, Greater Warangal",,1,1,False,['greater'],[],False,False
+Solid Waste Door2Door Collection Revenue in Chandigarh,Solid Waste Door2Door Collection Revenue : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Agartala: City Governance,City Governance : Agartala,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala",,1,1,False,[],[],False,False
+Bangalore: CCTV Cameras,CCTV Cameras : Bengaluru,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Bengaluru",,1,1,False,['bangalore'],['bengaluru'],False,False
+Pune: Environment,Environment : Pune,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pune",,2,1,False,[],[],False,False
+Citizen Facilitation Centers in Shimla City,Citizen Facilitation Centers : Shimla,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Himachal Pradesh, Shimla",,1,1,False,[],[],False,False
+City Profile - Madurai - Rainy days,City Profile - Rainy days : Madurai,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Madurai",,1,1,False,[],[],False,False
+D31 CULTURAL HERITAGE ERODE,Cultural Heritage : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,['d31'],[],False,False
+Street Lights of Ujjain,Street Lights : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Electricity of Muzaffarpur City.,Electricity - . : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Governance,Governance : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],['solapur'],False,False
+Solid Waste Collection Equipment of Muzaffarpur City,Solid Waste Collection Equipment : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Solid Waste Collection Vehicle of Muzaffarpur City,Solid Waste Collection Vehicle : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Natural Features of Muzaffarpur City,Natural Features : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Street Lights of Muzaffarpur,Street Lights : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Water in Saharanpur,Water : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+No. of Buses in saharanpur,No. of Buses : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Signalized Intersections in saharanpur,Signalized Intersections : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Solid Waste Processing Data in Saharanpur,Solid Waste Processing Data : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Household Profile in Saharanpur,Household Profile : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Crimes of Muzaffarpur,Crimes : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+Household Profile : Solapur City,Household Profile : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+Digital Availability of Bilaspur,Digital Availability : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+SOLID WASTE MANAGEMENT BASIC RANCHI CITY,Solid Waste Management Basic : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,1,1,False,[],[],False,False
+Rajkot Municipal Corporation - Grievance Details,Grievance Details : Rajkot,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Rajkot",,11,1,False,"['corporation', 'municipal']",[],False,False
+Crimes : Tiruppur 2014 to 2018,Crimes : Tiruppur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Tiruppur",,1,1,False,"['2014', '2018', 'to']",[],True,False
+Roads of Bilaspur,Roads : Bilaspur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur",,1,1,False,[],[],False,False
+Property Tax of Gwalior MP,Property Tax : Gwalior,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior",,1,1,False,['mp'],[],False,False
+Citizen Facilitation Centers (Citizen Facilities) of Gwalior MP,Citizen Facilitation Centers (Citizen Facilities) : Gwalior,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior",,1,1,False,['mp'],[],False,False
+Roads : Varanasi City,Roads : Varanasi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Varanasi",,1,1,False,[],[],False,False
+Property Tax : TIRUPPUR 2013 to 2018,Property Tax : Tiruppur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Tiruppur",,1,1,False,"['2013', '2018', 'to']",[],True,False
+D10_Water_Tax_Bhopal,Water Tax : Bhopal,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Bhopal",,1,1,False,['d10'],[],False,False
+Cultural Heritage of Muzaffarpur,Cultural Heritage : Muzaffarpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Muzaffarpur",,1,1,False,[],[],False,False
+D2D Collection Coverage of UJJAIN	,D2D Collection Coverage : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Solid Waste Collection Revenue Data  of UJJAIN		,Solid Waste Collection Revenue Data : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Water and Sanitation of Gwalior MP,Water and Sanitation : Gwalior,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior",,1,1,False,['mp'],[],False,False
+VAT and GST information of Gwalior MP,VAT and GST information : Gwalior,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior",,1,1,False,['mp'],[],False,False
+Ahmedabad Hospital Licence,Hospital Licence : Ahmedabad,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Ahmedabad",,2,1,False,[],[],False,False
+Ahmedabad : Digital Payment,Digital Payment : Ahmedabad,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Ahmedabad",,1,1,False,[],[],False,False
+Best toilets of Ujjain,Best toilets : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Boundriwal of Ujjain,Boundriwal : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+SOLID WASTE MANAGEMENT  DOOR TO DOOR COLLECTION: HUBLI DHARWAD,Solid Waste Management Door To Door Collection : Hubballi-Dharwad,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Hubli Dharwad",,1,1,False,['hubli'],['hubballi'],False,False
+Injuries & Fatalities in saharanpur,Injuries & Fatalities : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Commercial Area of Ujjain,Commercial Area : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Open Defection,Open Defection : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],['ujjain'],False,False
+Community Toilet of Ujjain,Community Toilet : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Religious places of Ujjain,Religious places : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Schools of Ujjain,Schools : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Slum Areas of Ujjain,Slum Areas : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Water Tax: Kanpur Nagar,Water Tax : Kanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Kanpur",,1,1,False,['nagar'],[],False,False
+Solid Waste Disposal Data  for Guwahati,Solid Waste Disposal Data : Guwahati,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Assam, Guwahati",,1,1,False,[],[],False,False
+Buses In Bhubaneswar,Buses : Bhubaneswar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Odisha, Bhubaneswar",,1,1,False,[],[],False,False
+Itanagar Digital Availiability,Digital Availiability : Itanagar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Arunachal Pradesh, Itanagar",,1,1,False,[],[],False,False
+Itanagar Solid Waste Collection Vehicle,Solid Waste Collection Vehicle : Itanagar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Arunachal Pradesh, Itanagar",,1,1,False,[],[],False,False
+Open Spaces : Bareilly Smart City,Open Spaces : Bareilly,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Bareilly",,1,1,False,['smart'],[],False,False
+Condition of Roads in saharanpur,Condition of Roads : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Itanagar Smart City Solid Waste D2D collection Revenue,Solid Waste D2D collection Revenue : Itanagar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Arunachal Pradesh, Itanagar",,1,1,False,['smart'],[],False,False
+Itanagar Smart city Crime,Crime : Itanagar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Arunachal Pradesh, Itanagar",,1,1,False,['smart'],[],False,False
+Enrollment and Repeaters  by Stream of Ujjain,Enrollment and Repeaters by Stream : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Teacher Learning Material Grant of Ujjain,Teacher Learning Material Grant : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Solid Waste Door to Door Collection in Ranchi City,Solid Waste Door to Door Collection : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,1,1,False,[],[],False,False
+Natural Landscape in saharanpur,Natural Landscape : Saharanpur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Saharanpur",,1,1,False,[],[],False,False
+Public Transport Access : Solapur City,Public Transport Access : Solapur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur",,1,1,False,[],[],False,False
+List of parks in Guwahati,List of parks : Guwahati,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Assam, Guwahati",,1,1,False,[],[],False,False
+Cultural Heritage of Gwalior MP,Cultural Heritage : Gwalior,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior",,1,1,False,['mp'],[],False,False
+Buses Transport Earnings of Gwalior MP,Buses Transport Earnings : Gwalior,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior",,1,1,False,['mp'],[],False,False
+Diseases : Tiruppur 2015 to 2018,Diseases : Tiruppur,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Tiruppur",,1,1,False,"['2015', '2018', 'to']",[],True,False
+SUPPLY WATER CONSUMER OF RANCHI CITY,Supply Water Consumer : Ranchi,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi",,1,1,False,[],[],False,False
+Solid Waste Disposal of Ujjain,Solid Waste Disposal : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Ambient Air Quality Data for Heavy Metals Lead(Pb) & Nickel(Ni)-Feb- 2019-Guwahati,Ambient Air Quality Data for Heavy Metals Lead(Pb) & Nickel(Ni)-Feb : Guwahati,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Assam, Guwahati",,1,1,False,['2019'],[],True,False
+Public Amenities,Public Amenities : Indore,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Indore",,1,1,False,[],['indore'],False,False
+Animal Husbandry of Ujjain,Animal Husbandry : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Drains Sewerage of Ujjain,Drains Sewerage : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Education Facilities of Ujjain,Education Facilities : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Housing Data of Ujjain,Housing Data : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Major Storm Water Drains of Ujjain,Major Storm Water Drains : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Waste Segregation of Ujjain,Waste Segregation : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Master Development Plan of Ujjain,Master Development Plan : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Self Help Group of Ujjain,Self Help Group : Ujjain,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Ujjain",,1,1,False,[],[],False,False
+Public Amenities Tiruchirapplli,Public Amenities : Tiruchirappalli,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Tiruchirapalli",,1,1,False,['tiruchirapplli'],['tiruchirappalli'],False,False
+Health Infrastructure of Erode,Health Infrastructure : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,[],[],False,False
+COVID 19 Naya Raipur,COVID 19 : Atal Nagar,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Naya Raipur",,1,1,False,"['naya', 'raipur']","['atal', 'nagar']",False,False
+Agartala:Services through ICCC,Services through ICCC : Agartala,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala",,1,1,False,[],[],False,False
+Agra: Wardwise Covid Vaccination Centers,Wardwise Covid Vaccination Centers : Agra,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Agra",,1,1,False,[],[],False,False
+ITC_Municipal Budget for Public Art and O&M of Parks 2022,ITC Municipal Budget for Public Art and O&M of Parks : Pune,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pune",,1,1,False,['2022'],['pune'],True,False
+Public Parks Gardens and Open Spaces in Chandigarh,Public Parks Gardens and Open Spaces : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Restaurants in Chandigarh,Restaurants : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Votors in MC elections in Chandigarh,Votors in MC elections : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Hospitals Location in Chandigarh,Hospitals Location : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Public Toilets in Chandigarh,Public Toilets : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Solid Waste Management Household Coverage in Chandigarh,Solid Waste Management Household Coverage : Chandigarh,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh",,1,1,False,[],[],False,False
+Agartala: Wardwise Covid Beds,Wardwise Covid Beds : Agartala,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala",,1,1,False,[],[],False,False
+Agartala: Health Infrastructure MC-owned and Private,Health Infrastructure MC-owned and Private : Agartala,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala",,1,1,False,[],[],False,False
+Agartala: Parking Lots,Parking Lots : Agartala,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala",,1,1,False,[],[],False,False
+City Profile : RMC,City Profile : Rajkot,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Rajkot",,1,1,False,['rmc'],['rajkot'],False,False
+Age of Establishment,Age of Establishment : Kohima,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima",,2,1,False,[],['kohima'],False,False
+D67 Rainfall Monthly Total,Rainfall Monthly Total : Erode,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode",,1,1,False,['d67'],['erode'],False,False
+Housing and Slums_1,Housing and Slums 1 : Dharamshala,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Himachal Pradesh, Dharamshala",,2,1,False,[],['dharamshala'],False,False
+Madurai - Ward wise per capita water supply,Ward wise per capita water supply : Madurai,"Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Madurai",,1,1,False,[],[],False,False

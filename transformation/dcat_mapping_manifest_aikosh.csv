@@ -1,0 +1,66 @@
+source_column,dcat_column,sheet_row,action,note
+nid,nid,,unchanged,
+Title,dcterms:title,2,renamed,
+Identifier[UUID],dcterms:identifier,13,renamed,
+Relation,dcterms:relation,12,renamed,
+Access Rights,dcterms:accessRights,21,renamed,sheet writes 'dcterms:accessRight '
+Type,dcterms:type,9,renamed,
+Accrual Method,dcterms:accrualMethod,44,renamed,values are codes '1'/'5'
+Relation[Catalog Title],dcat:inCatalog,30,renamed,
+Jurisdiction,dcatin:jurisdictionLevel,19,renamed,
+Publisher[ministry_department],dcterms:publisher,47,derived,ministry only; the first body of the cell
+,dcat:hadRole,48,derived,'publisher' where the row has a prov:qualifiedAttribution
+Publisher[ministry_department],prov:qualifiedAttribution[1],48,derived,department 1 split off ministry_department (list slot 2)
+Publisher[ministry_department],prov:qualifiedAttribution[2],48,derived,department 2 split off ministry_department (list slot 3)
+Publisher[ministry_department],prov:qualifiedAttribution[3],48,derived,department 3 split off ministry_department (list slot 4)
+Publisher[state_department],dcterms:publisher[state],46,renamed,aikosh populates this
+Date Issued,dcterms:issued,7,renamed,
+Date Created,dcterms:created,6,renamed,
+Date Modified,dcterms:modified,8,renamed,
+data_time_period_from,data_time_period_from,,unchanged,raw; the labelled start endpoint is rendered into dcterms:temporal
+data_time_period_to,data_time_period_to,,unchanged,raw; the labelled end endpoint is rendered into dcterms:temporal
+Subject[sector],Subject[sector],26,unchanged,dcat:theme reserved for sector_resource per instruction
+Subject[sector_resource],dcat:theme,4,renamed,
+Accrual Periodicity,dcterms:accrualPeriodicity,22,renamed,sheet writes dct: prefix
+Coverage,dcat:temporalResolution,23,renamed,
+Format,dcat:mediaType,11,renamed,
+Extent,dcat:byteSize,10,renamed,sheet writes dcat:ByteSize
+field_from_api,field_from_api,79,unchanged,sheet lists it as 'from_api'
+is_api_available,is_api_available,77,unchanged,
+external_api_reference,external_api_reference,76,unchanged,
+Relation[download_url],dcat:downloadURL,27,renamed,
+Relation[endpointURL],dcat:endpointURL,56,renamed,
+High Value Dataset Category,dcatin:hvdCategory,43,renamed,
+field_show_export,field_show_export,74,unchanged,
+Note,dcatin:note,51,renamed,
+is_visualized,is_visualized,78,unchanged,
+cdo_username,vcard:fn,32,renamed,CDO name
+cdo_email,vcard:hasEmail,36,renamed,CDO email
+till_date,till_date,,unchanged,"data-currency marker, no DC/DCAT term"
+Alternative Title,dcterms:alternative,55,renamed,
+Abstract,dcterms:abstract,54,renamed,
+Description,dcterms:description,3,renamed,
+Subject[keyword],dcat:keyword,24,renamed,sheet writes dcat:Keywords
+spatial_coverage,spatial_coverage,,unchanged,raw source col; dcterms:spatial holds the mapped value
+Identifier[landing_page],dcat:landingPage,14,renamed,sheet row 15 also offers foaf:homePage
+Spatial Coverage,dcterms:spatial,17,renamed,sheet has a trailing space
+Temporal Coverage,dcterms:temporal,18,derived,"both endpoints in one cell, 'dcat:startDate: <from>; dcat:endDate: <to>'"
+Rights,dcterms:rights,42,renamed,
+Creator,dcterms:creator,45,renamed,
+License,dcterms:license,52,renamed,
+Language,dcterms:language,53,renamed,
+Source,dcterms:source,16,renamed,
+Rights Statement,dcatin:applicableLegislation,20,renamed,sheet has a space after the colon
+Conforms To,dcterms:conformsTo,,renamed,sheet omits it; holds the CSV header list
+Depiction,foaf:depiction,29,renamed,
+Relation[Access URL],dcat:accessURL,28,renamed,
+Relation[Has Part],dcterms:hasPart,60,renamed,
+Relation[Is Referenced By],dcterms:isReferencedBy,62,renamed,
+Relation[Is Replaced By],dcterms:isReplacedBy,63,renamed,
+Relation[Replaces],dcterms:replaces,64,renamed,
+Relation[Is Version Of],dcterms:isVersionOf,65,renamed,
+Relation[Has Version],dcterms:hasVersion,66,renamed,
+Description[endpointDescription],dcat:endpointDescription,67,renamed,
+Collection,Collection,68,unchanged,"sheet says dcat:DatasetSeries, which is a class not a property"
+Relation[Is Part Of],dcterms:isPartOf,61,renamed,sheet row 69 also offers dcat:inSeries
+batch,batch,,unchanged,

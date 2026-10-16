@@ -1,0 +1,222 @@
+{
+ "batch": "CAL",
+ "collections": {
+  "All India Level Category-wise Distribution of Female Inmates in the Country and Percentage Share at the end": {
+   "nids": [
+    "3644921",
+    "3637661",
+    "3636081",
+    "3644901",
+    "3637641",
+    "3636061"
+   ],
+   "groups": {
+    "G1": [
+     "3644921",
+     "3637661",
+     "3636081"
+    ],
+    "G2": [
+     "3644901",
+     "3637641",
+     "3636061"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "All India level Disposal of Crime under Local and Special Laws by Police (schema 1)": {
+   "nids": [
+    "1300681",
+    "1174801",
+    "1169261",
+    "1118901",
+    "1093341",
+    "1087361"
+   ],
+   "groups": {
+    "G3": [
+     "1300681",
+     "1174801",
+     "1169261",
+     "1118901",
+     "1093341",
+     "1087361"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "All India Level Incidence and Volume of Accidental Deaths (schema 1)": {
+   "nids": [
+    "2956381",
+    "2956041",
+    "2955241",
+    "2951741",
+    "2950821",
+    "2920301",
+    "2919901",
+    "2919401",
+    "2953501"
+   ],
+   "groups": {
+    "G4": [
+     "2956041",
+     "2955241",
+     "2951741",
+     "2950821",
+     "2920301",
+     "2919901",
+     "2919401"
+    ],
+    "G5": [
+     "2956381"
+    ],
+    "G6": [
+     "2953501"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "All India Level Incidence and Volume of Suicides (schema 1)": {
+   "nids": [
+    "2948721",
+    "2920901",
+    "2920421",
+    "2920021",
+    "2919521"
+   ],
+   "groups": {
+    "G7": [
+     "2948721",
+     "2920901",
+     "2920421",
+     "2920021",
+     "2919521"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "All India Level Incidence of Accidental Deaths due to Various Causes": {
+   "nids": [
+    "2957761",
+    "2956361",
+    "2956021",
+    "2953481",
+    "2955221",
+    "2952781"
+   ],
+   "groups": {
+    "G8": [
+     "2957761",
+     "2956361",
+     "2955221",
+     "2952781"
+    ],
+    "G9": [
+     "2956021",
+     "2953481"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "All India level Incidence of Crime, Volume of Crime Per Lakh of Population and Percentage Variation during 1987 over 1977, over Quinquennial Average of 1982 to 1986 and over (schema 1)": {
+   "nids": [
+    "774581",
+    "1037921",
+    "1067281",
+    "839941",
+    "768701",
+    "750801"
+   ],
+   "groups": {
+    "G10": [
+     "774581"
+    ],
+    "G11": [
+     "839941"
+    ],
+    "G12": [
+     "768701"
+    ],
+    "G13": [
+     "750801"
+    ],
+    "G14": [
+     "1037921"
+    ],
+    "G15": [
+     "1067281"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "All India Level Incidence of Crime, Volume of Crime Per One Lakh of Population from 1960 to 1969 and their Percentage Variation (schema 1)": {
+   "nids": [
+    "2009881",
+    "1912541",
+    "1300401",
+    "1174521",
+    "1118661"
+   ],
+   "groups": {
+    "G16": [
+     "2009881",
+     "1300401"
+    ],
+    "G17": [
+     "1912541",
+     "1174521"
+    ],
+    "G18": [
+     "1118661"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "All India level Juveniles Apprehended by Age Group (schema 1)": {
+   "nids": [
+    "1119341",
+    "1093041",
+    "1087121",
+    "1080541",
+    "1073801",
+    "1068001",
+    "1038641",
+    "840101"
+   ],
+   "groups": {
+    "G19": [
+     "1119341",
+     "1093041",
+     "1087121",
+     "1080541",
+     "1073801",
+     "1068001",
+     "1038641",
+     "840101"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "All India level Juveniles Apprehended by Age Group (schema 2)": {
+   "nids": [
+    "1080501",
+    "1073761",
+    "1038601",
+    "805961",
+    "1067961"
+   ],
+   "groups": {
+    "G20": [
+     "1080501",
+     "1073761",
+     "1038601",
+     "805961"
+    ],
+    "G21": [
+     "1067961"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  }
+ }
+}

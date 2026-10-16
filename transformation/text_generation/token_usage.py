@@ -11,11 +11,12 @@ import glob
 import json
 import os
 
-# gpt-4.1-nano batch pricing ($/1M tokens)
+# gpt-5.4-nano Batch API pricing ($/1M tokens) — 50% off standard
+# (standard: input 0.20, cached 0.02, output 1.25)
 PRICING = {
-    "input":  0.05,
-    "cached": 0.025,   
-    "output": 0.20,
+    "input":  0.10,
+    "cached": 0.01,
+    "output": 0.625,
 }
 
 

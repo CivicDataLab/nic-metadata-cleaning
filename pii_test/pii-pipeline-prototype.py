@@ -137,7 +137,6 @@ def detect_language(text: str) -> str:
     # Simple heuristic to guess whether the snippet is Hindi (default to English).
     return "hi" if Hindi_RE.search(text or "") else "en"
 
-
 def regex_pii_matches(text: str) -> list[tuple[str, str, int, int]]:
     # regex for pii
     matches: list[tuple[str, str, int, int]] = []

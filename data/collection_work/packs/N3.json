@@ -1,0 +1,505 @@
+{
+ "batch": "N3",
+ "collections": {
+  "State & UT-wise Percentage Distribution of Foreigner Undertrials to Total Foreigners Undertrials by Age-groups at the end (schema 1)": {
+   "nids": [
+    "3634601",
+    "3631501",
+    "3629261",
+    "3611241",
+    "3512801",
+    "3414241",
+    "3390981",
+    "3086721",
+    "6722574"
+   ],
+   "groups": {
+    "G650": [
+     "3634601",
+     "3631501",
+     "3629261",
+     "3611241",
+     "3512801",
+     "3414241",
+     "3390981",
+     "3086721"
+    ],
+    "G651": [
+     "6722574"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State & UT-wise Percentage of Convicts by Period of Sentence at the end (schema 1)": {
+   "nids": [
+    "3638261",
+    "3636681",
+    "3635021",
+    "3631921",
+    "3629681",
+    "3611661",
+    "3513241",
+    "3414761",
+    "3391401",
+    "3087161"
+   ],
+   "groups": {
+    "G652": [
+     "3638261",
+     "3636681",
+     "3635021",
+     "3631921",
+     "3629681",
+     "3611661",
+     "3513241",
+     "3414761",
+     "3391401",
+     "3087161"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State & UT-wise Percentage of Undertrial Prisoners by Period of Detention at the end (schema 1)": {
+   "nids": [
+    "3634981",
+    "3631881",
+    "3629641",
+    "3611621",
+    "3513201",
+    "3414701"
+   ],
+   "groups": {
+    "G653": [
+     "3634981",
+     "3631881",
+     "3629641",
+     "3611621",
+     "3513201",
+     "3414701"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State, UT & City-wise Comparative Statement of Incidence of Suicides (schema 1)": {
+   "nids": [
+    "2912861",
+    "2911261",
+    "2910561",
+    "2910021",
+    "2906161",
+    "2905581"
+   ],
+   "groups": {
+    "G654": [
+     "2912861",
+     "2911261",
+     "2910561",
+     "2910021",
+     "2906161",
+     "2905581"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State, UT & City-wise Comparative Statement of Incidence of Suicides (schema 2)": {
+   "nids": [
+    "2957921",
+    "2956521",
+    "2956181",
+    "2953641",
+    "2955381",
+    "2952961"
+   ],
+   "groups": {
+    "G655": [
+     "2957921",
+     "2956521",
+     "2956181",
+     "2953641",
+     "2955381",
+     "2952961"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State, UT & City-Wise Incidence of Cognizable Crime and Volume Per One Lakh of Population under Important Heads of Indian Penal Code (IPC) (schema 1)": {
+   "nids": [
+    "1067341",
+    "1086921",
+    "1079881",
+    "1073141",
+    "1037981"
+   ],
+   "groups": {
+    "G656": [
+     "1079881",
+     "1073141"
+    ],
+    "G657": [
+     "1086921"
+    ],
+    "G658": [
+     "1067341"
+    ],
+    "G659": [
+     "1037981"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State, UT & City-wise Incidence of Other Railway Accidents during Various Quarters": {
+   "nids": [
+    "1914001",
+    "1310521",
+    "1913981",
+    "1310501",
+    "1913961",
+    "1310481"
+   ],
+   "groups": {
+    "G660": [
+     "1914001",
+     "1310521"
+    ],
+    "G661": [
+     "1913981",
+     "1310501"
+    ],
+    "G662": [
+     "1913961",
+     "1310481"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State, UT & City-wise Incidence of Suicides": {
+   "nids": [
+    "2919081",
+    "2876661",
+    "2869901",
+    "2064301",
+    "1914161",
+    "1310961"
+   ],
+   "groups": {
+    "G663": [
+     "2919081",
+     "2876661",
+     "2869901",
+     "2064301",
+     "1914161",
+     "1310961"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State, UT & City-wise Incidence of Total Cognizable Crimes (IPC) from 1983 to 1988 Along with Percentage Changes (schema 1)": {
+   "nids": [
+    "5849541",
+    "5845621",
+    "5692921",
+    "5310901",
+    "5289921",
+    "5696181"
+   ],
+   "groups": {
+    "G664": [
+     "5692921",
+     "5310901"
+    ],
+    "G665": [
+     "5289921"
+    ],
+    "G666": [
+     "5845621"
+    ],
+    "G667": [
+     "5696181"
+    ],
+    "G668": [
+     "5849541"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State, UT & City-wise Incidence of Traffic Accidents during Various Quarters": {
+   "nids": [
+    "2919001",
+    "2876601",
+    "2869761",
+    "2064161",
+    "1914021",
+    "1310541"
+   ],
+   "groups": {
+    "G669": [
+     "2919001",
+     "2876601",
+     "2869761",
+     "2064161",
+     "1914021",
+     "1310541"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State, UT & City-wise Juveniles Apprehended by Age Group for Committing Crimes under Local and Special Laws (schema 1)": {
+   "nids": [
+    "1080621",
+    "1073921",
+    "1068081",
+    "1038721",
+    "840201",
+    "1119421",
+    "768961",
+    "1301201",
+    "1175321",
+    "1169781",
+    "1093321",
+    "1087301",
+    "751421",
+    "806101",
+    "774841",
+    "742381"
+   ],
+   "groups": {
+    "G670": [
+     "1301201",
+     "1175321",
+     "1169781",
+     "1093321",
+     "1087301",
+     "751421"
+    ],
+    "G671": [
+     "1080621",
+     "1073921",
+     "1068081",
+     "1038721",
+     "840201"
+    ],
+    "G672": [
+     "774841",
+     "742381"
+    ],
+    "G673": [
+     "1119421"
+    ],
+    "G674": [
+     "768961"
+    ],
+    "G675": [
+     "806101"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State, UT & City-wise Juveniles Apprehended By Sex for Committing Crime under IPC": {
+   "nids": [
+    "1080601",
+    "1073861",
+    "1068061",
+    "1038701",
+    "840181",
+    "1301181",
+    "1175301",
+    "1169761",
+    "1119401",
+    "1093181",
+    "1087241",
+    "806081",
+    "774821",
+    "751361",
+    "768941",
+    "742361"
+   ],
+   "groups": {
+    "G676": [
+     "1301181",
+     "1175301",
+     "1169761",
+     "1119401",
+     "1087241",
+     "806081"
+    ],
+    "G677": [
+     "1080601",
+     "1073861",
+     "1068061",
+     "1038701",
+     "840181"
+    ],
+    "G678": [
+     "768941",
+     "742361"
+    ],
+    "G679": [
+     "1093181"
+    ],
+    "G680": [
+     "774821"
+    ],
+    "G681": [
+     "751361"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State, UT & City-wise Motive of Murder and Culpable Homicide Not Amounting to Murder (schema 1)": {
+   "nids": [
+    "5842561",
+    "5845921",
+    "5693221",
+    "5696481",
+    "5849841"
+   ],
+   "groups": {
+    "G682": [
+     "5842561",
+     "5845921",
+     "5693221",
+     "5696481"
+    ],
+    "G683": [
+     "5849841"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State, UT & City-Wise Number of Burglary Cases Reported and Value of Property Stolen by Place of Occurrence (schema 4)": {
+   "nids": [
+    "775121",
+    "775161",
+    "840401",
+    "806301",
+    "769161",
+    "752021",
+    "769181",
+    "752081"
+   ],
+   "groups": {
+    "G684": [
+     "840401",
+     "806301",
+     "752021"
+    ],
+    "G685": [
+     "752081"
+    ],
+    "G686": [
+     "775121"
+    ],
+    "G687": [
+     "775161"
+    ],
+    "G688": [
+     "769161"
+    ],
+    "G689": [
+     "769181"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State, UT & City-wise Particulars of Juveniles Arrested under IPC Crimes and Offences under Local and Special Laws (schema 1)": {
+   "nids": [
+    "1087481",
+    "1301281",
+    "1175401",
+    "1169861",
+    "1119501",
+    "1093561"
+   ],
+   "groups": {
+    "G690": [
+     "1301281",
+     "1175401",
+     "1169861",
+     "1119501",
+     "1093561"
+    ],
+    "G691": [
+     "1087481"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State, UT & City-wise Percentage Distribution of Suicide by Causes": {
+   "nids": [
+    "2910721",
+    "2910161",
+    "2906301",
+    "2905761",
+    "2913001",
+    "2911401"
+   ],
+   "groups": {
+    "G692": [
+     "2910721",
+     "2910161",
+     "2906301",
+     "2905761"
+    ],
+    "G693": [
+     "2913001",
+     "2911401"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State/UT & Age Group-wise Victims of C.H. Not Amounting To Murder (Sec.304 and 308 IPC) (schema 1)": {
+   "nids": [
+    "5693261",
+    "5311241",
+    "5290261",
+    "5293661",
+    "5297021",
+    "5314641"
+   ],
+   "groups": {
+    "G694": [
+     "5693261",
+     "5311241"
+    ],
+    "G695": [
+     "5290261",
+     "5293661"
+    ],
+    "G696": [
+     "5297021"
+    ],
+    "G697": [
+     "5314641"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State/UT & Age Group-wise Victims of Murder (Section 302 IPC) (schema 1)": {
+   "nids": [
+    "5696501",
+    "5311221",
+    "5293641",
+    "5297001",
+    "5290241",
+    "5693241"
+   ],
+   "groups": {
+    "G698": [
+     "5696501",
+     "5311221"
+    ],
+    "G699": [
+     "5293641",
+     "5297001"
+    ],
+    "G700": [
+     "5290241"
+    ],
+    "G701": [
+     "5693241"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  }
+ }
+}

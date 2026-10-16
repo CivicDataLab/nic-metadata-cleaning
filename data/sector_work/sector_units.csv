@@ -1,0 +1,152 @@
+unit,new_value,rows,agent_1,agent_2,decided_by
+Economy; Revenue,Finance; Revenue,609,Finance; Revenue,"Finance; Revenue, Economy; Macro Economy",agent 1
+Animal Husbandry; Animal Husbandry,Agriculture; Animal Husbandry,249,Agriculture; Animal Husbandry,Agriculture; Animal Husbandry,both agents
+Environment and Forest; Air Quality,"Environment and Forest; Industrial Air Pollution, Environment and Forest; Residential Air Pollution, Environment and Forest; Vehicular Air Pollution",161,Environment and Forest; Residential Air Pollution,Environment and Forest,reviewer
+Water and Sanitation; Water Quality,Environment and Forest; Water Quality,109,Environment and Forest; Water Quality,Environment and Forest; Water Quality,both agents
+Fisheries; Fishery,Agriculture; Fisheries,94,Agriculture; Fisheries,Agriculture; Fisheries,both agents
+Power and Energy; Power,Infrastructure; Power,60,Infrastructure; Power,Infrastructure; Power,both agents
+Energy; Non Renewable,Industries; Petroleum and Natural Gas,50,Industries; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,both agents
+Industries; Handloom,Industries; Textiles,50,Industries; Textiles,Industries; Textiles,both agents
+Industries; Mining,Industries,50,Industries,Industries,both agents
+Energy; Renewable,Industries; Petroleum and Natural Gas,37,"Power and Energy; Renewable, Industries; Petroleum and Natural Gas","Power and Energy; Renewable, Industries; Petroleum and Natural Gas",reviewer
+Transport; Roads,Infrastructure; Roads,32,Infrastructure; Roads,Infrastructure; Roads,both agents
+Land Resources; Land Resources,Rural; Land Resources,26,Rural; Land Resources,Rural; Land Resources,both agents
+Animal Husbandry; Dairying,Agriculture; Dairying,23,Agriculture; Dairying,Agriculture; Dairying,both agents
+Social Development; Youth Affairs,Youth and Sports; Youth Affairs,22,Youth and Sports; Youth Affairs,Youth and Sports; Youth Affairs,both agents
+Industries; Sericulture,Textiles; Sericulture,19,Textiles; Sericulture,Textiles; Sericulture,both agents
+Industries; Mining and Quarrying,Industries,16,Industries,Industries,both agents
+Petroleum and Natural Gas; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,15,Industries; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,both agents
+Industries; Employment,Labour and Employment; Employment,13,Labour and Employment; Employment,Labour and Employment; Employment,both agents
+Industries; Fertilizers,Agriculture; Fertilizers,11,Agriculture; Fertilizers,Agriculture; Fertilizers,both agents
+Fisheries; Fisheries,Agriculture; Fisheries,10,Agriculture; Fisheries,Agriculture; Fisheries,both agents
+Industries; Statistics,Industries,9,Industries; Manufacturing,Economy; Macro Economy,reviewer
+Industries; Handicrafts,Art and Culture; Handicrafts,8,Art and Culture; Handicrafts,Art and Culture; Handicrafts,both agents
+Commerce; Consumer Affairs,Food; Consumer Affairs,7,Food; Consumer Affairs,Food; Consumer Affairs,both agents
+Animal Husbandry; Health,Agriculture; Animal Husbandry,6,Agriculture; Animal Husbandry,Agriculture; Animal Husbandry,both agents
+Industries; Fisheries,Agriculture; Fisheries,5,Agriculture; Fisheries,Agriculture; Fisheries,both agents
+Industries; Handlooms,Industries; Textiles,5,Industries; Textiles,Industries; Textiles,both agents
+Water Resources; Water Quality,Environment and Forest; Water Quality,5,Environment and Forest; Water Quality,Environment and Forest; Water Quality,both agents
+Defence; Defence Products,Industries; Defence Products,4,Industries; Defence Products,Industries; Defence Products,both agents
+Governance and Administration; Enforcement Organizations,Home Affairs and Enforcement; Enforcement Organizations,4,Home Affairs and Enforcement; Enforcement Organizations,Home Affairs and Enforcement; Enforcement Organizations,both agents
+Industries; Research & Development,Science and Technology; Research & Development,4,Science and Technology; Research & Development,Science and Technology; Research & Development,both agents
+Infrastructure; Power and Energy,Infrastructure; Power,4,Infrastructure; Power,Infrastructure; Power,both agents
+Police; Enforcement Organizations,Home Affairs and Enforcement; Police,4,Home Affairs and Enforcement; Police,Home Affairs and Enforcement; Police,both agents
+Power and Energy; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,4,Industries; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,both agents
+Rural; Rural Development,Rural; Development,4,Rural; Development,Rural; Development,both agents
+Rural; Rural Housing,Housing; Rural Housing,4,Housing; Rural Housing,Housing; Rural Housing,both agents
+Social Development; Health,Social Development,4,Social Development,Social Development,both agents
+Tourism; Tourism,Travel and Tourism; Places,4,Industries; Tourism,Travel and Tourism; Places,agent 2
+Agriculture; Family Welfare,Agriculture,3,Agriculture,Agriculture,both agents
+Animal Husbandry; Crops,Agriculture; Animal Husbandry,3,Agriculture; Animal Husbandry,Agriculture; Animal Husbandry,both agents
+Animal Husbandry; Poultry Development,Agriculture; Animal Husbandry,3,Agriculture; Animal Husbandry,Agriculture; Animal Husbandry,both agents
+Art and Culture; Museums,Art and Culture; Heritage,3,Art and Culture; Heritage,Art and Culture; Heritage,both agents
+Commerce; Revenue,Finance; Revenue,3,Finance; Revenue,Finance; Revenue,both agents
+Economy; Employment,Labour and Employment; Employment,3,Labour and Employment; Employment,Labour and Employment; Employment,both agents
+Energy; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,3,Industries; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,both agents
+Energy; Power and Energy,Industries; Petroleum and Natural Gas,3,Industries; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,both agents
+Environment and Forest; Wetlands,Environment and Forest; Ecology,3,Environment and Forest; Ecology,Environment and Forest; Ecology,both agents
+Mining,Industries,3,Industries,Industries,both agents
+Statistics,Transport; Road Transport,3,Transport; Road Transport,Transport; Road Transport,both agents
+Agriculture; Fodder Crops,Agriculture; Crops,2,Agriculture; Crops,Agriculture; Crops,both agents
+Agriculture; Health,Agriculture,2,Agriculture; Horticulture,Agriculture; Horticulture,reviewer
+Agriculture; Public Distribution,Agriculture,2,Agriculture,Agriculture,both agents
+Animal Husbandry; Poultry,Agriculture; Animal Husbandry,2,Agriculture; Animal Husbandry,Agriculture; Animal Husbandry,both agents
+Census; Census,Census and Surveys; Census,2,Census and Surveys; Census,Census and Surveys; Census,both agents
+Energy and Power; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,2,Industries; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,both agents
+Energy; Power,Infrastructure; Power,2,Infrastructure; Power,Infrastructure; Power,both agents
+Environment and Forest; Soil and Water Conservation,Agriculture; Soil and Water Conservation,2,Agriculture; Soil and Water Conservation,Agriculture; Soil and Water Conservation,both agents
+Environment and Forest; Wet life,Environment and Forest; Ecology,2,Environment and Forest; Ecology,Environment and Forest; Ecology,both agents
+Food; Food Processing,Industries; Food Processing,2,Industries; Food Processing,Industries; Food Processing,both agents
+Industries; Dairying,Agriculture; Dairying,2,Agriculture; Dairying,Agriculture; Dairying,both agents
+Industries; Entrepreneurship Development,Industries,2,Industries,Industries,both agents
+Industries; Trade promotion,Commerce; Export,2,Commerce; Export,Commerce; Export,both agents
+Power; Renewable,Urban; Development,2,Infrastructure; Power,Urban; Development,agent 2
+Revenue; Revenue,Finance; Revenue,2,Governance and Administration; Local Government,Governance and Administration,reviewer
+Rural: Development,Rural; Development,2,Social Development; Women,Rural; Development,agent 2
+Rural >> Statistics,Rural; Development,2,Rural; Development,Rural; Development,both agents
+Tourism; Lodging,Travel and Tourism; Places,2,Industries; Tourism,Travel and Tourism; Places,agent 2
+Tourism; Places,Travel and Tourism; Places,2,Travel and Tourism; Places,Travel and Tourism; Places,both agents
+Transport; Port Employment,Transport; Water ways,2,Transport; Water ways,Transport; Water ways,both agents
+Transport; Ports,Transport; Water ways,2,Transport; Water ways,Transport; Water ways,both agents
+Travel and Tourism; Tourism,Travel and Tourism; Places,2,Industries; Tourism,Travel and Tourism; Places,agent 2
+Dairying; Dairying,Agriculture; Dairying,1,Agriculture; Dairying,Agriculture; Dairying,both agents
+Horticulture; Horticulture,Agriculture; Horticulture,1,Agriculture; Horticulture,Agriculture; Horticulture,both agents
+Agriculture; Fishery,Agriculture; Fisheries,1,Agriculture; Fisheries,Agriculture; Fisheries,both agents
+Agriculture; Fodder,Agriculture; Crops,1,Agriculture; Crops,Agriculture; Animal Husbandry,agent 1
+Agriculture; Fodder Development,Agriculture; Crops,1,Agriculture; Crops,Agriculture; Animal Husbandry,agent 1
+Agriculture; Oil Seed Production,Agriculture; Crops,1,Agriculture; Crops,Agriculture; Crops,both agents
+Agriculture; Oilseeds and Oil Palm,Agriculture; Crops,1,Agriculture; Crops,Agriculture; Crops,both agents
+Sericulture; Sericulture,Textiles; Sericulture,1,Textiles; Sericulture,Textiles; Sericulture,both agents
+Agriculture; Statistics,Agriculture,1,Agriculture,Agriculture,both agents
+Animal Husbandry; Animal Health,Agriculture; Animal Husbandry,1,Agriculture; Animal Husbandry,Agriculture; Animal Husbandry,both agents
+Animal Husbandry; Animal Welfare,Agriculture; Animal Husbandry,1,Agriculture; Animal Husbandry,Agriculture; Animal Husbandry,both agents
+Commerce; Agricultural Marketing,Agriculture; Agricultural Marketing,1,Agriculture; Agricultural Marketing,Agriculture; Agricultural Marketing,both agents
+Commerce; Corporate governance,Industries; Corportae governance,1,Industries; Corportae governance,Industries; Corportae governance,both agents
+Commerce; Retail,Industries; Retail,1,Industries; Retail,Industries; Retail,both agents
+Culture; Heritage,Art and Culture; Heritage,1,Art and Culture; Heritage,Art and Culture; Literature,agent 1
+Defence; Research and Development,"Defence, Science and Technology; Research & Development",1,Science and Technology; Research & Development,Defence,reviewer
+Development; Urban,Urban; Development,1,Education; Higher Education,Education; Higher Education,reviewer
+Development; Rural,Rural; Development,1,Education; Higher Education,Education; Higher Education,reviewer
+Energy and Family welfare; Health,Industries; Petroleum and Natural Gas,1,Industries; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,both agents
+Environment and Forest; Air Pollution,"Environment and Forest; Industrial Air Pollution, Environment and Forest; Residential Air Pollution, Environment and Forest; Vehicular Air Pollution",1,Environment and Forest; Residential Air Pollution,Environment and Forest,reviewer
+Environment and Forest; Research & Development,"Environment and Forest, Science and Technology; Research & Development",1,Science and Technology; Research & Development,Environment and Forest,reviewer
+Environment; Ecology,Environment and Forest; Ecology,1,Environment and Forest; Ecology,Environment and Forest; Ecology,both agents
+Food; Agricultural Produces,Agriculture; Crops,1,Agriculture; Crops,Agriculture; Crops,both agents
+Food; Fisheries,"Agriculture; Fisheries, Commerce; Export",1,Commerce; Export,"Agriculture; Fisheries, Commerce; Export",agent 2
+Health and Family welfare >> Statistics,Health and Family welfare; Health,1,Health and Family welfare; Health,Health and Family welfare; Health,both agents
+Health and Family welfare; Residential Air Pollution,"Environment and Forest; Industrial Air Pollution, Environment and Forest; Residential Air Pollution, Environment and Forest; Vehicular Air Pollution",1,Environment and Forest; Residential Air Pollution,Environment and Forest,reviewer
+Health and Family welfare; Sanitation,Environment and Forest; Municipal Waste,1,Environment and Forest; Municipal Waste,Environment and Forest; Municipal Waste,both agents
+Health and Family welfare; Women,Social Development; Women,1,Social Development; Women,Social Development; Women,both agents
+Housing; Drinking Water,Water and Sanitation; Drinking Water,1,Water and Sanitation; Drinking Water,Water and Sanitation; Drinking Water,both agents
+Industries; Agricultural Produces,Industries,1,Industries; Cottage,Industries,agent 2
+Industries; Animal Husbandry,Agriculture; Animal Husbandry,1,Agriculture; Animal Husbandry,Agriculture; Animal Husbandry,both agents
+Industries; Coal,Power and Energy; Non Renewable,1,Power and Energy; Non Renewable,Power and Energy; Non Renewable,both agents
+Industries; Coal India Limited (CIL),Power and Energy; Non Renewable,1,Power and Energy; Non Renewable,Power and Energy; Non Renewable,both agents
+Industries; Companies,Power and Energy; Renewable,1,Power and Energy; Renewable,Power and Energy; Renewable,both agents
+Industries; Cotton,Industries; Textiles,1,Industries; Textiles,Industries; Textiles,both agents
+Industries; Electronics Manufacturing,Industries; Manufacturing,1,Industries; Manufacturing,Industries; Manufacturing,both agents
+Industries; Entrepreneurship,Industries,1,Industries,Industries,both agents
+Industries; Entrepreneurship Development Programme (EDP),Industries,1,Industries,Industries,both agents
+Industries; Handloom and Handicrafts,"Industries; Textiles, Art and Culture; Handicrafts",1,"Industries; Textiles, Art and Culture; Handicrafts","Industries; Textiles, Art and Culture; Handicrafts",both agents
+Industries; Handloom and Powerloom,Industries; Textiles,1,Industries; Textiles,Industries; Textiles,both agents
+Industries; Handloom and Textiles,Industries; Textiles,1,Industries; Textiles,Industries; Textiles,both agents
+Industries; Industrial Infrastructure Upgradation Scheme,Industries,1,Industries,Industries,both agents
+Industries; Infrastructure Development,Industries,1,Industries,Industries,both agents
+Industries >> Small and Medium Enterprises,"Industries; Small Scale, Industries; Medium",1,Industries; Small Scale,Industries; Small Scale,reviewer
+Industries; Mining Accidents,Industries,1,Industries,Industries,both agents
+Industries; Mining and Mineral Development,Industries,1,Industries,Industries,both agents
+Industries; Non Renewable,Power and Energy; Renewable,1,Power and Energy; Renewable,Power and Energy; Renewable,both agents
+Industries; Skill Development,Labour and Employment; Employment,1,Labour and Employment; Employment,Labour and Employment; Employment,both agents
+Industries; Skill India Mission (SIM),Labour and Employment; Employment,1,Labour and Employment; Employment,Labour and Employment; Employment,both agents
+Industries; Tea,Industries,1,Agriculture; Crops,Industries,agent 2
+Industries; Telecommunications,Information and Communications; Telecom,1,Information and Communications; Telecom,Information and Communications; Telecom,both agents
+Industries; Textile,Industries; Textiles,1,Industries; Textiles,Industries; Textiles,both agents
+Industries; Textile Workers Rehabilitation Fund Scheme,Industries; Textiles,1,Industries; Textiles,Industries; Textiles,both agents
+Industries; Vocational Training,Labour and Employment; Employment,1,Labour and Employment; Employment,Labour and Employment; Employment,both agents
+Information and Communications; Broadcasting,Information and Broadcasting; Broadcasting,1,Information and Broadcasting; Broadcasting,Information and Broadcasting; Broadcasting,both agents
+Information and Communications; Print Media,Information and Broadcasting; Print Media,1,Information and Broadcasting; Print Media,Information and Broadcasting; Print Media,both agents
+Infrastructure; Irrigation,Agriculture; Irrigation,1,Infrastructure; Dams,Agriculture; Irrigation,agent 2
+Infrastructure; Water Quality,Agriculture; Irrigation,1,Infrastructure; Dams,Agriculture; Irrigation,agent 2
+Infrastructure; Infrastructure,Infrastructure,1,Infrastructure,Infrastructure,both agents
+Infrastructure; Ports,Transport; Water ways,1,Transport; Water ways,Transport; Water ways,both agents
+Infrastructure; Railways,Transport; Railways,1,Transport; Railways,Transport; Railways,both agents
+Infrastructure >> Skill Development,Labour and Employment; Employment,1,Labour and Employment; Employment,Labour and Employment; Employment,both agents
+Labour and Employment; Enforcement Organizations,Labour and Employment; Employment,1,Labour and Employment; Employment,Labour and Employment; Employment,both agents
+Land Resources; Land Records,Rural; Land Resources,1,Rural; Land Resources,Rural; Land Resources,both agents
+Parliament Of india; State Legislative,Governance and Administration; State Legislative,1,Governance and Administration; State Legislative,Governance and Administration; State Legislative,both agents
+Petroleum and Natural Gas; LNG Terminals,Industries; Petroleum and Natural Gas,1,Industries; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,both agents
+Petroleum and Natural Gas; LPG Distributors,Industries; Petroleum and Natural Gas,1,Industries; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,both agents
+Petroleum and Natural Gas; Pipelines,Industries; Petroleum and Natural Gas,1,Industries; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,both agents
+Places; Places,Transport; Aviation,1,Transport; Aviation,Transport; Aviation,both agents
+Police; Police,Home Affairs and Enforcement; Police,1,Home Affairs and Enforcement; Police,Home Affairs and Enforcement; Police,both agents
+Power; Power,Infrastructure; Power,1,Infrastructure; Power,Infrastructure; Power,both agents
+Urban; Urban Housing,Housing; Rural Housing,1,Housing; Rural Housing,Housing; Rural Housing,both agents
+Science and Technology >> Mining,Science and Technology; Earth Sciences,1,Science and Technology; Earth Sciences,Science and Technology; Earth Sciences,both agents
+Social Development; Elderly,Social Development,1,Social Development,Social Development,both agents
+Transport; Air Transport,Transport; Aviation,1,Transport; Aviation,Transport; Aviation,both agents
+Transport; Airfares,Transport; Aviation,1,Transport; Aviation,Transport; Aviation,both agents
+Transport; Sea Transport,Transport; Water ways,1,Transport; Water ways,Transport; Water ways,both agents
+Water Resources; Irrigation,Agriculture; Irrigation,1,Agriculture; Irrigation,Agriculture; Irrigation,both agents
+Transport; Modes of Travel,Water Resources; Surface Water,1,Water Resources; Surface Water,Water Resources; Surface Water,both agents
+Irrigation; Irrigation,Science and Technology; Atmospheric Science,1,Science and Technology; Atmospheric Science,Water Resources; Surface Water,agent 1
+Water and Sanitation; Ground Water,Water Resources; Ground Water,1,Water Resources; Ground Water,Water Resources; Ground Water,both agents

@@ -1,0 +1,292 @@
+issue,sector,rows,lot2,lot3
+Census and Surveys + a sub-sector of 'Census',Census and Surveys; Population Enumerator,28629,28616,13
+Census and Surveys + a sub-sector of 'Census',Census and Surveys; House listing and Housing Census,236,236,0
+Census and Surveys + a sub-sector of 'Census',"Census and Surveys; Census, Census and Surveys; Population Enumerator",46,46,0
+Census and Surveys + a sub-sector of 'Census',"Census and Surveys; Population Enumerator, Census; Population Enumerator",3,3,0
+Census and Surveys + a sub-sector of 'Census',"Census and Surveys; Population Enumerator, Census; Population Enumerator, Health and Family welfare; Health",3,3,0
+Census and Surveys + a sub-sector of 'Census',"Census and Surveys; Population Enumerator, Census",2,2,0
+Census and Surveys + a sub-sector of 'Census',"Census and Surveys; Population Enumerator, Health and Family welfare; Health",2,2,0
+Census and Surveys + a sub-sector of 'Census',"Census and Surveys; House listing and Housing Census, Education; Secondary",1,1,0
+Census and Surveys + a sub-sector of 'Census',"Census and Surveys; House listing and Housing Census, Water and Sanitation; Sanitation",1,1,0
+Census and Surveys + a sub-sector of 'Census',"Census and Surveys; Population Enumerator, Census; House listing and Housing Census",1,1,0
+Census and Surveys + a sub-sector of 'Census',"Census and Surveys; Population Enumerator, Social Development; Disabled",1,1,0
+Census and Surveys + a sub-sector of 'Census',"Census and Surveys; Population Enumerator, Water and Sanitation; Drinking Water, Water and Sanitation; Sanitation, Power and Energy; Renewable",1,1,0
+bare sub-sector (sector not repeated per pair),"Education; Elementary, Secondary",1938,1938,0
+bare sub-sector (sector not repeated per pair),"Industries; Micro, Small Scale",39,39,0
+bare sub-sector (sector not repeated per pair),"Governance and Administration; Lok Sabha, Rajya Sabha",38,38,0
+bare sub-sector (sector not repeated per pair),"Social Development; Tribal, Women",26,13,13
+bare sub-sector (sector not repeated per pair),"Water and Sanitation; Drinking Water, Sanitation",26,25,1
+bare sub-sector (sector not repeated per pair),"Industries; Medium, Micro, Small Scale",18,18,0
+bare sub-sector (sector not repeated per pair),"Water Resources; Ground Water, Surface Water",12,12,0
+bare sub-sector (sector not repeated per pair),"Power and Energy; Non Renewable, Renewable",9,9,0
+bare sub-sector (sector not repeated per pair),"Commerce; Export, Import",7,6,1
+bare sub-sector (sector not repeated per pair),"Education; Elementary, Secondary, Higher Education",6,6,0
+bare sub-sector (sector not repeated per pair),"Industries; Micro, Small Scale, Medium",6,5,1
+bare sub-sector (sector not repeated per pair),"Infrastructure; Dams, Power, Roads",6,5,1
+bare sub-sector (sector not repeated per pair),"Judiciary; High Court, Subordinate Court",6,6,0
+bare sub-sector (sector not repeated per pair),"Education; Elementary, Higher Education, Secondary",5,5,0
+bare sub-sector (sector not repeated per pair),"Judiciary; High Court, Supreme Court",5,5,0
+bare sub-sector (sector not repeated per pair),"Environment and Forest; Industrial Air Pollution, Residential Air Pollution, Vehicular Air Pollution",4,3,1
+bare sub-sector (sector not repeated per pair),"Housing; Rural Housing, Urban Housing",4,4,0
+bare sub-sector (sector not repeated per pair),"Judiciary; District Court, Subordinate Court",4,4,0
+bare sub-sector (sector not repeated per pair),"Transport; Metro, Railways",4,4,0
+bare sub-sector (sector not repeated per pair),"Water Resources; Surface Water, Ground Water",4,4,0
+bare sub-sector (sector not repeated per pair),"Economy; Macro Economy, Prices",3,3,0
+bare sub-sector (sector not repeated per pair),"Education; Elementary, Higher Education",3,3,0
+bare sub-sector (sector not repeated per pair),"Home Affairs and Enforcement; Enforcement Organizations, Police",3,3,0
+bare sub-sector (sector not repeated per pair),"Judiciary; Supreme Court, High Court",3,3,0
+bare sub-sector (sector not repeated per pair),"Transport; Railways, Road Transport",3,3,0
+bare sub-sector (sector not repeated per pair),"Agriculture; Fertilizers, Plant Protection",2,0,2
+bare sub-sector (sector not repeated per pair),"Defence; Air Force, Army, Navy, Para Military Forces",2,0,2
+bare sub-sector (sector not repeated per pair),"Defence; Army, Navy, Air Force",2,2,0
+bare sub-sector (sector not repeated per pair),"Education; Adult Education, Education, Elementary, Secondary",2,2,0
+bare sub-sector (sector not repeated per pair),"Environment and Forest; Residential Air Pollution, Vehicular Air Pollution",2,2,0
+bare sub-sector (sector not repeated per pair),"Finance; Revenue, Insurance",2,2,0
+bare sub-sector (sector not repeated per pair),"Infrastructure; Bridges, Dams, Power, Roads",2,1,1
+bare sub-sector (sector not repeated per pair),"Infrastructure; Dams, Power",2,2,0
+bare sub-sector (sector not repeated per pair),"Judiciary; Supreme Court, High Court, Subordinate Court",2,2,0
+bare sub-sector (sector not repeated per pair),"Social Development; Women, Children, Disabled, Minority, Tribal",2,2,0
+bare sub-sector (sector not repeated per pair),"Social Development; Women, Disabled",2,1,1
+bare sub-sector (sector not repeated per pair),"Social Development; Women, Tribal",2,2,0
+bare sub-sector (sector not repeated per pair),"Agriculture; Agricultural Marketing, Fisheries",1,1,0
+bare sub-sector (sector not repeated per pair),"Agriculture; Agricultural Produces, Agricultural Marketing",1,0,1
+bare sub-sector (sector not repeated per pair),"Agriculture; Agricultural Research & Extension, Crops, Horticulture",1,1,0
+bare sub-sector (sector not repeated per pair),"Agriculture; Agricultural Research & Extension, Crops, Horticulture, Irrigation, Soil and Water Conservation",1,1,0
+bare sub-sector (sector not repeated per pair),"Agriculture; Animal Husbandry, Dairying",1,1,0
+bare sub-sector (sector not repeated per pair),"Agriculture; Animal Husbandry, Fisheries",1,1,0
+bare sub-sector (sector not repeated per pair),"Agriculture; Fertilizers, Agricultural Produces",1,0,1
+bare sub-sector (sector not repeated per pair),"Agriculture; Fisheries, Dairying, Animal Husbandry",1,1,0
+bare sub-sector (sector not repeated per pair),"Art and Culture; Festivals, Music, Painting, Theatre",1,0,1
+bare sub-sector (sector not repeated per pair),"Art and Culture; Heritage, Monuments, Travel and Tourism; Places",1,1,0
+bare sub-sector (sector not repeated per pair),"Census; Population Enumerator, Water and Sanitation; Drinking Water, Sanitation",1,1,0
+bare sub-sector (sector not repeated per pair),"Defence; Air Force, Army, Navy",1,1,0
+bare sub-sector (sector not repeated per pair),"Economy; Prices, Finance; Economy, Revenue",1,1,0
+bare sub-sector (sector not repeated per pair),"Economy; Prices, Macro Economy, Finance; Banking",1,1,0
+bare sub-sector (sector not repeated per pair),"Education; Adult Education, Elementary, Secondary",1,1,0
+bare sub-sector (sector not repeated per pair),"Environment and Forest; Ecology, Water Quality, Sanitation",1,1,0
+bare sub-sector (sector not repeated per pair),"Environment and Forest; Forest, Water Quality",1,1,0
+bare sub-sector (sector not repeated per pair),"Environment and Forest; Industrial Air Pollution, Residential Air Pollution",1,1,0
+bare sub-sector (sector not repeated per pair),"Environment and Forest; Industrial Air Pollution, Water Quality",1,1,0
+bare sub-sector (sector not repeated per pair),"Environment and Forest; Water Quality, Natural Resources",1,1,0
+bare sub-sector (sector not repeated per pair),"Environment and Forest; Water Quality, Noise Pollution",1,1,0
+bare sub-sector (sector not repeated per pair),"Finance; Economy, Revenue",1,1,0
+bare sub-sector (sector not repeated per pair),"Governance and Administration; State Legislative, Union/State Government Administration, District Adminstration, Local Government, Grievances, Constitution, Lok Sabha, Rajya Sabha, Pensions, State Legislative",1,1,0
+bare sub-sector (sector not repeated per pair),"Governance and Administration; Union/State Government Administration, Social Development; Tribal, Women",1,1,0
+bare sub-sector (sector not repeated per pair),"Health and Family welfare; Family Welfare, Health",1,1,0
+bare sub-sector (sector not repeated per pair),"Housing; Rural Housing, Urban Housing, Water and Sanitation; Drinking Water",1,1,0
+bare sub-sector (sector not repeated per pair),"Industries; Micro, Small Scale, Medium, Manufacturing",1,1,0
+bare sub-sector (sector not repeated per pair),"Industries; Small Scale, Medium, Micro",1,1,0
+bare sub-sector (sector not repeated per pair),"Industries; Small Scale, Micro, Medium",1,1,0
+bare sub-sector (sector not repeated per pair),"Information and Broadcasting; Print Media, Broadcasting",1,1,0
+bare sub-sector (sector not repeated per pair),"Infrastructure; Dams, Roads",1,1,0
+bare sub-sector (sector not repeated per pair),"Infrastructure; Dams, Roads, Power",1,1,0
+bare sub-sector (sector not repeated per pair),"Infrastructure; Roads, Bridges",1,0,1
+bare sub-sector (sector not repeated per pair),"Infrastructure; Roads, Bridges, Dams, Power",1,1,0
+bare sub-sector (sector not repeated per pair),"Infrastructure; Roads, Dams, Power, Bridges",1,1,0
+bare sub-sector (sector not repeated per pair),"Judiciary; District Court, High Court, Subordinate Court",1,1,0
+bare sub-sector (sector not repeated per pair),"Judiciary; District Court, High Court, Subordinate Court, Supreme Court",1,1,0
+bare sub-sector (sector not repeated per pair),"Judiciary; District Court, High Court, Supreme Court",1,1,0
+bare sub-sector (sector not repeated per pair),"Judiciary; High Court, District Court",1,1,0
+bare sub-sector (sector not repeated per pair),"Judiciary; High Court, District Court, Subordinate Court",1,1,0
+bare sub-sector (sector not repeated per pair),"Labour and Employment; Organized Sector Workers, Unorganized Sector Workers",1,1,0
+bare sub-sector (sector not repeated per pair),"Power and Energy; Renewable, Non Renewable",1,1,0
+bare sub-sector (sector not repeated per pair),"Rural; Development, Panchayati Raj",1,0,1
+bare sub-sector (sector not repeated per pair),"Science and Technology; Atmospheric Science, Earth Sciences",1,1,0
+bare sub-sector (sector not repeated per pair),"Social Development; Children, Disabled, Education; Higher Education, Secondary",1,1,0
+bare sub-sector (sector not repeated per pair),"Social Development; Children, Women",1,0,1
+bare sub-sector (sector not repeated per pair),"Social Development; Minority, Tribal",1,1,0
+bare sub-sector (sector not repeated per pair),"Social Development; Minority, Tribal, Women",1,0,1
+bare sub-sector (sector not repeated per pair),"Social Development; Tribal, Women, Children, Disabled",1,1,0
+bare sub-sector (sector not repeated per pair),"Social Development; Women, Children, Disabled, Minority",1,1,0
+bare sub-sector (sector not repeated per pair),"Social Development; Women, Disabled, Minority, Children",1,1,0
+bare sub-sector (sector not repeated per pair),"Social Development; Women, Tribal, Disabled, Minority",1,1,0
+bare sub-sector (sector not repeated per pair),"Transport; Road Transport, Railways, Water ways",1,1,0
+bare sub-sector (sector not repeated per pair),"Water Resources; Drinking Water, Surface Water",1,1,0
+sector not in vocabulary,Fisheries; Fishery,94,81,13
+sector not in vocabulary,Energy; Non Renewable,50,50,0
+sector not in vocabulary,Energy; Renewable,37,36,1
+sector not in vocabulary,Land Resources; Land Resources,26,26,0
+sector not in vocabulary,Petroleum and Natural Gas; Petroleum and Natural Gas,15,15,0
+sector not in vocabulary,Fisheries; Fisheries,10,10,0
+sector not in vocabulary,Police; Enforcement Organizations,4,4,0
+sector not in vocabulary,Tourism; Tourism,4,4,0
+sector not in vocabulary,Energy; Petroleum and Natural Gas,3,3,0
+sector not in vocabulary,Energy; Power and Energy,3,3,0
+sector not in vocabulary,Mining,3,2,1
+sector not in vocabulary,Statistics,3,0,3
+sector not in vocabulary,Energy and Power; Petroleum and Natural Gas,2,2,0
+sector not in vocabulary,Energy; Power,2,2,0
+sector not in vocabulary,Power; Renewable,2,2,0
+sector not in vocabulary,Revenue; Revenue,2,0,2
+sector not in vocabulary,Rural: Development,2,2,0
+sector not in vocabulary,"Rural; Development, Statistics",2,2,0
+sector not in vocabulary,Tourism; Lodging,2,2,0
+sector not in vocabulary,Tourism; Places,2,2,0
+sector not in vocabulary,"Agriculture; Animal Husbandry, Dairying; Dairying, Animal Husbandry; Fishery",1,1,0
+sector not in vocabulary,"Agriculture; Crops, Horticulture; Horticulture",1,1,0
+sector not in vocabulary,"Agriculture; Sericulture, Sericulture; Sericulture",1,0,1
+sector not in vocabulary,Culture; Heritage,1,1,0
+sector not in vocabulary,"Development; Rural, Development; Urban",1,1,0
+sector not in vocabulary,Energy and Family welfare; Health,1,1,0
+sector not in vocabulary,Environment; Ecology,1,1,0
+sector not in vocabulary,"Health and Family welfare; Health, Statistics",1,1,0
+sector not in vocabulary,"Industries; Micro, Small and Medium Enterprises",1,1,0
+sector not in vocabulary,"Infrastructure; Roads, Skill Development",1,1,0
+sector not in vocabulary,Land Resources; Land Records,1,1,0
+sector not in vocabulary,Petroleum and Natural Gas; LNG Terminals,1,1,0
+sector not in vocabulary,Petroleum and Natural Gas; LPG Distributors,1,1,0
+sector not in vocabulary,Petroleum and Natural Gas; Pipelines,1,1,0
+sector not in vocabulary,Places; Places,1,0,1
+sector not in vocabulary,Police; Police,1,1,0
+sector not in vocabulary,Power; Power,1,1,0
+sector not in vocabulary,"Science and Technology; Earth Sciences, Geo Technology, Research & Development, Polar Science, Marine Science, Coastal & Island, Mining",1,1,0
+sector not in vocabulary,"Water and Sanitation; Drinking Water, Irrigation; Irrigation",1,0,1
+sector repeated as its own sub-sector / two sectors in one pair,Animal Husbandry; Animal Husbandry,240,161,79
+sector repeated as its own sub-sector / two sectors in one pair,"Agriculture; Crops, Animal Husbandry; Animal Husbandry",6,5,1
+sector repeated as its own sub-sector / two sectors in one pair,Infrastructure; Power and Energy,3,3,0
+sector repeated as its own sub-sector / two sectors in one pair,"Agriculture; Agricultural Produces, Animal Husbandry; Animal Husbandry",2,1,1
+sector repeated as its own sub-sector / two sectors in one pair,Census; Census,2,1,1
+sector repeated as its own sub-sector / two sectors in one pair,"Agriculture; Horticulture, Animal Husbandry; Animal Husbandry",1,0,1
+sector repeated as its own sub-sector / two sectors in one pair,Industries; Animal Husbandry,1,1,0
+sector repeated as its own sub-sector / two sectors in one pair,"Infrastructure; Power and Energy, Urban; Development",1,0,1
+sub-sector listed under a different sector,Economy; Revenue,600,503,97
+sub-sector listed under a different sector,Water and Sanitation; Water Quality,107,106,1
+sub-sector listed under a different sector,Power and Energy; Power,59,17,42
+sub-sector listed under a different sector,Transport; Roads,32,11,21
+sub-sector listed under a different sector,Animal Husbandry; Dairying,22,8,14
+sub-sector listed under a different sector,Social Development; Youth Affairs,22,22,0
+sub-sector listed under a different sector,Industries; Sericulture,14,3,11
+sub-sector listed under a different sector,Industries; Employment,13,9,4
+sub-sector listed under a different sector,Land Resources,12,11,1
+sub-sector listed under a different sector,Industries; Fertilizers,11,11,0
+sub-sector listed under a different sector,"Census and Surveys; Annual Health Survey, Census, Sample Registration System",8,8,0
+sub-sector listed under a different sector,Industries; Handicrafts,8,6,2
+sub-sector listed under a different sector,Commerce; Consumer Affairs,7,7,0
+sub-sector listed under a different sector,Animal Husbandry; Health,6,2,4
+sub-sector listed under a different sector,Industries; Fisheries,5,3,2
+sub-sector listed under a different sector,"Industries; Sericulture, Textiles; Sericulture",5,5,0
+sub-sector listed under a different sector,Defence; Defence Products,4,3,1
+sub-sector listed under a different sector,Governance and Administration; Enforcement Organizations,4,0,4
+sub-sector listed under a different sector,Industries; Research & Development,4,4,0
+sub-sector listed under a different sector,Power and Energy; Petroleum and Natural Gas,4,4,0
+sub-sector listed under a different sector,Social Development; Health,4,4,0
+sub-sector listed under a different sector,"Water and Sanitation; Drinking Water, Water Resources; Water Quality",4,4,0
+sub-sector listed under a different sector,Agriculture; Family Welfare,3,3,0
+sub-sector listed under a different sector,Animal Husbandry; Crops,3,2,1
+sub-sector listed under a different sector,Commerce; Revenue,3,0,3
+sub-sector listed under a different sector,Economy; Employment,3,3,0
+sub-sector listed under a different sector,"Economy; Revenue, Finance; Economy",3,2,1
+sub-sector listed under a different sector,Fisheries,3,3,0
+sub-sector listed under a different sector,"Governance and Administration; District Adminstration, Police",3,3,0
+sub-sector listed under a different sector,Rural; Rural Housing,3,3,0
+sub-sector listed under a different sector,Agriculture; Health,2,2,0
+sub-sector listed under a different sector,Agriculture; Public Distribution,2,2,0
+sub-sector listed under a different sector,"Economy; Revenue, Finance",2,2,0
+sub-sector listed under a different sector,"Economy; Revenue, Finance; Banking",2,2,0
+sub-sector listed under a different sector,Environment and Forest; Soil and Water Conservation,2,1,1
+sub-sector listed under a different sector,Food; Food Processing,2,2,0
+sub-sector listed under a different sector,Industries; Dairying,2,2,0
+sub-sector listed under a different sector,Industries; Trade promotion,2,0,2
+sub-sector listed under a different sector,Revenue,2,0,2
+sub-sector listed under a different sector,Travel and Tourism; Tourism,2,2,0
+sub-sector listed under a different sector,"Water and Sanitation; Drinking Water, Water Quality, Sanitation",2,2,0
+sub-sector listed under a different sector,"Water and Sanitation; Sanitation, Water Quality",2,2,0
+sub-sector listed under a different sector,"Agriculture; Agricultural Produces, Animal Husbandry; Dairying",1,1,0
+sub-sector listed under a different sector,"Agriculture; Crops, Horticulture, Animal Husbandry, Fisheries, Agricultural Research & Extension, Fertilizers, Irrigation, Organic farming, Seeds, Soil and Water Conservation, Agricultural Produces, Agricultural Marketing",1,1,0
+sub-sector listed under a different sector,"Agriculture; Crops, Horticulture, Animal Husbandry, Fisheries, Agricultural Research & Extension, Irrigation, Organic farming, Seeds, Soil and Water Conservation, Agricultural Produces, Agricultural Marketing",1,1,0
+sub-sector listed under a different sector,Agriculture; Fishery,1,1,0
+sub-sector listed under a different sector,"Art and Culture; Heritage, Monuments, Places, Travel and Tourism; Places",1,1,0
+sub-sector listed under a different sector,"Art and Culture; Heritage, Tourism",1,1,0
+sub-sector listed under a different sector,Banking,1,0,1
+sub-sector listed under a different sector,Commerce; Agricultural Marketing,1,0,1
+sub-sector listed under a different sector,Commerce; Retail,1,1,0
+sub-sector listed under a different sector,"Economy; Macro Economy, Economy; Revenue",1,1,0
+sub-sector listed under a different sector,"Economy; Prices, Macro Economy, Revenue",1,1,0
+sub-sector listed under a different sector,Environment and Forest; Research & Development,1,1,0
+sub-sector listed under a different sector,"Environment and Forest; Water Quality, Water and Sanitation; Water Quality",1,1,0
+sub-sector listed under a different sector,"Finance; Economy, Prices",1,1,0
+sub-sector listed under a different sector,Food; Agricultural Produces,1,0,1
+sub-sector listed under a different sector,Food; Fisheries,1,1,0
+sub-sector listed under a different sector,Health and Family welfare; Residential Air Pollution,1,0,1
+sub-sector listed under a different sector,Health and Family welfare; Sanitation,1,1,0
+sub-sector listed under a different sector,Health and Family welfare; Women,1,1,0
+sub-sector listed under a different sector,Housing; Drinking Water,1,1,0
+sub-sector listed under a different sector,Industries; Agricultural Produces,1,1,0
+sub-sector listed under a different sector,Industries; Companies,1,1,0
+sub-sector listed under a different sector,Industries; Non Renewable,1,1,0
+sub-sector listed under a different sector,Information and Communications; Broadcasting,1,0,1
+sub-sector listed under a different sector,Information and Communications; Print Media,1,0,1
+sub-sector listed under a different sector,"Infrastructure; Dams, Infrastructure; Irrigation",1,0,1
+sub-sector listed under a different sector,"Infrastructure; Dams, Infrastructure; Water Quality",1,0,1
+sub-sector listed under a different sector,"Infrastructure; Infrastructure, Power and Energy; Power, Water and Sanitation; Drinking Water, Health and Family welfare; Health, Education; Elementary, Travel and Tourism; Lodging",1,1,0
+sub-sector listed under a different sector,Infrastructure; Railways,1,1,0
+sub-sector listed under a different sector,"Labour and Employment; Employment, Organized Sector Workers, Pension Reforms",1,0,1
+sub-sector listed under a different sector,Labour and Employment; Enforcement Organizations,1,1,0
+sub-sector listed under a different sector,"Parliament Of india; Lok Sabha, Economy; Revenue",1,1,0
+sub-sector listed under a different sector,Parliament Of india; State Legislative,1,1,0
+sub-sector listed under a different sector,"Rural; Rural Housing, Urban; Urban Housing",1,1,0
+sub-sector listed under a different sector,"Social Development; Tribal, Health",1,1,0
+sub-sector listed under a different sector,"Social Development; Women, Health",1,1,0
+sub-sector listed under a different sector,"Water Resources; Ground Water, Water Quality",1,1,0
+sub-sector listed under a different sector,Water Resources; Irrigation,1,1,0
+sub-sector listed under a different sector,"Water Resources; Surface Water, Transport; Modes of Travel, Social Development; Tribal, Urban; Development",1,1,0
+sub-sector listed under a different sector,"Water Resources; Surface Water, Water Quality",1,1,0
+sub-sector listed under a different sector,Water Resources; Water Quality,1,1,0
+sub-sector listed under a different sector,Water and Sanitation; Ground Water,1,0,1
+sub-sector listed under a different sector,"Water and Sanitation; Water Quality, Social Development; Women",1,1,0
+sub-sector not in vocabulary,Environment and Forest; Air Quality,160,126,34
+sub-sector not in vocabulary,Industries; Handloom,50,1,49
+sub-sector not in vocabulary,Industries; Mining,50,45,5
+sub-sector not in vocabulary,Industries; Mining and Quarrying,16,0,16
+sub-sector not in vocabulary,Industries; Statistics,9,9,0
+sub-sector not in vocabulary,Industries; Handlooms,5,0,5
+sub-sector not in vocabulary,Rural; Rural Development,4,3,1
+sub-sector not in vocabulary,Animal Husbandry; Poultry Development,3,0,3
+sub-sector not in vocabulary,Art and Culture; Museums,3,3,0
+sub-sector not in vocabulary,Environment and Forest; Wetlands,3,3,0
+sub-sector not in vocabulary,Agriculture; Fodder Crops,2,0,2
+sub-sector not in vocabulary,Animal Husbandry; Poultry,2,2,0
+sub-sector not in vocabulary,Environment and Forest; Wet life,2,2,0
+sub-sector not in vocabulary,Industries; Entrepreneurship Development,2,2,0
+sub-sector not in vocabulary,Transport; Port Employment,2,2,0
+sub-sector not in vocabulary,Transport; Ports,2,2,0
+sub-sector not in vocabulary,Agriculture; Fodder,1,1,0
+sub-sector not in vocabulary,Agriculture; Fodder Development,1,0,1
+sub-sector not in vocabulary,Agriculture; Oil Seed Production,1,1,0
+sub-sector not in vocabulary,Agriculture; Oilseeds and Oil Palm,1,1,0
+sub-sector not in vocabulary,Agriculture; Statistics,1,0,1
+sub-sector not in vocabulary,Animal Husbandry; Animal Health,1,0,1
+sub-sector not in vocabulary,Animal Husbandry; Animal Welfare,1,1,0
+sub-sector not in vocabulary,Commerce; Corporate governance,1,1,0
+sub-sector not in vocabulary,Defence; Research and Development,1,1,0
+sub-sector not in vocabulary,Environment and Forest; Air Pollution,1,1,0
+sub-sector not in vocabulary,"Environment and Forest; Ecology, Environment and Forest; Water Quality, Environment and Forest; Air Quality",1,1,0
+sub-sector not in vocabulary,Industries; Coal,1,1,0
+sub-sector not in vocabulary,Industries; Coal India Limited (CIL),1,1,0
+sub-sector not in vocabulary,Industries; Cotton,1,1,0
+sub-sector not in vocabulary,Industries; Electronics Manufacturing,1,1,0
+sub-sector not in vocabulary,Industries; Entrepreneurship,1,1,0
+sub-sector not in vocabulary,Industries; Entrepreneurship Development Programme (EDP),1,0,1
+sub-sector not in vocabulary,Industries; Handloom and Handicrafts,1,1,0
+sub-sector not in vocabulary,Industries; Handloom and Powerloom,1,0,1
+sub-sector not in vocabulary,Industries; Handloom and Textiles,1,0,1
+sub-sector not in vocabulary,Industries; Industrial Infrastructure Upgradation Scheme,1,1,0
+sub-sector not in vocabulary,Industries; Infrastructure Development,1,1,0
+sub-sector not in vocabulary,Industries; Mining Accidents,1,1,0
+sub-sector not in vocabulary,Industries; Mining and Mineral Development,1,1,0
+sub-sector not in vocabulary,Industries; Skill Development,1,1,0
+sub-sector not in vocabulary,Industries; Skill India Mission (SIM),1,1,0
+sub-sector not in vocabulary,Industries; Tea,1,1,0
+sub-sector not in vocabulary,Industries; Telecommunications,1,1,0
+sub-sector not in vocabulary,Industries; Textile,1,1,0
+sub-sector not in vocabulary,Industries; Textile Workers Rehabilitation Fund Scheme,1,1,0
+sub-sector not in vocabulary,Industries; Vocational Training,1,0,1
+sub-sector not in vocabulary,Infrastructure; Ports,1,0,1
+sub-sector not in vocabulary,Social Development; Elderly,1,1,0
+sub-sector not in vocabulary,Transport; Air Transport,1,1,0
+sub-sector not in vocabulary,Transport; Airfares,1,1,0
+sub-sector not in vocabulary,Transport; Sea Transport,1,1,0
+value is 'All',All,2,2,0
+vocabulary typo spelled correctly,Industries; Corporate governance,164,158,6
+vocabulary typo spelled correctly,Governance and Administration; District Administration,5,0,5
+vocabulary typo spelled correctly,"Industries; Corporate governance, Social Development; Women",1,1,0

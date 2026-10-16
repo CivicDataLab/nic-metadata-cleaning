@@ -1,0 +1,9 @@
+All India Level Category-wise Distribution of Female Inmates in the Country and Percentage Share at the end
+All India Level Incidence and Volume of Accidental Deaths (schema 1)
+All India Level Incidence and Volume of Suicides (schema 1)
+All India Level Incidence of Accidental Deaths due to Various Causes
+All India Level Incidence of Crime, Volume of Crime Per One Lakh of Population from 1960 to 1969 and their Percentage Variation (schema 1)
+All India level Disposal of Crime under Local and Special Laws by Police (schema 1)
+All India level Incidence of Crime, Volume of Crime Per Lakh of Population and Percentage Variation during 1987 over 1977, over Quinquennial Average of 1982 to 1986 and over (schema 1)
+All India level Juveniles Apprehended by Age Group (schema 1)
+All India level Juveniles Apprehended by Age Group (schema 2)

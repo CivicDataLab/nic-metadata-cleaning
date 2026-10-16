@@ -1,0 +1,154 @@
+id,unit,rows,a1,a2,v1,v2,agree
+U001,Economy; Revenue,609,Finance; Revenue,"Finance; Revenue, Economy; Macro Economy",True,True,False
+U002,Animal Husbandry; Animal Husbandry,249,Agriculture; Animal Husbandry,Agriculture; Animal Husbandry,True,True,True
+U003,Environment and Forest; Air Quality,161,Environment and Forest; Residential Air Pollution,Environment and Forest,True,True,False
+U004,Water and Sanitation; Water Quality,109,Environment and Forest; Water Quality,Environment and Forest; Water Quality,True,True,True
+U005,Fisheries; Fishery,94,Agriculture; Fisheries,Agriculture; Fisheries,True,True,True
+U006,Power and Energy; Power,60,Infrastructure; Power,Infrastructure; Power,True,True,True
+U007,Energy; Non Renewable,50,Industries; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,True,True,True
+U008,Industries; Handloom,50,Industries; Textiles,Industries; Textiles,True,True,True
+U009,Industries; Mining,50,Industries,Industries,True,True,True
+U010,Energy; Renewable,37,"Power and Energy; Renewable, Industries; Petroleum and Natural Gas","Power and Energy; Renewable, Industries; Petroleum and Natural Gas",True,True,True
+U011,Transport; Roads,32,Infrastructure; Roads,Infrastructure; Roads,True,True,True
+U012,Land Resources; Land Resources,26,Rural; Land Resources,Rural; Land Resources,True,True,True
+U013,Animal Husbandry; Dairying,23,Agriculture; Dairying,Agriculture; Dairying,True,True,True
+U014,Social Development; Youth Affairs,22,Youth and Sports; Youth Affairs,Youth and Sports; Youth Affairs,True,True,True
+U015,Industries; Sericulture,19,Textiles; Sericulture,Textiles; Sericulture,True,True,True
+U016,Industries; Mining and Quarrying,16,Industries,Industries,True,True,True
+U017,Petroleum and Natural Gas; Petroleum and Natural Gas,15,Industries; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,True,True,True
+U018,Industries; Employment,13,Labour and Employment; Employment,Labour and Employment; Employment,True,True,True
+U019,Industries; Fertilizers,11,Agriculture; Fertilizers,Agriculture; Fertilizers,True,True,True
+U020,Fisheries; Fisheries,10,Agriculture; Fisheries,Agriculture; Fisheries,True,True,True
+U021,Industries; Statistics,9,Industries; Manufacturing,Economy; Macro Economy,True,True,False
+U022,Industries; Handicrafts,8,Art and Culture; Handicrafts,Art and Culture; Handicrafts,True,True,True
+U023,Commerce; Consumer Affairs,7,Food; Consumer Affairs,Food; Consumer Affairs,True,True,True
+U024,Animal Husbandry; Health,6,Agriculture; Animal Husbandry,Agriculture; Animal Husbandry,True,True,True
+U025,Industries; Fisheries,5,Agriculture; Fisheries,Agriculture; Fisheries,True,True,True
+U026,Industries; Handlooms,5,Industries; Textiles,Industries; Textiles,True,True,True
+U027,Water Resources; Water Quality,5,Environment and Forest; Water Quality,Environment and Forest; Water Quality,True,True,True
+U028,Defence; Defence Products,4,Industries; Defence Products,Industries; Defence Products,True,True,True
+U029,Governance and Administration; Enforcement Organizations,4,Home Affairs and Enforcement; Enforcement Organizations,Home Affairs and Enforcement; Enforcement Organizations,True,True,True
+U030,Industries; Research & Development,4,Science and Technology; Research & Development,Science and Technology; Research & Development,True,True,True
+U031,Infrastructure; Power and Energy,4,Infrastructure; Power,Infrastructure; Power,True,True,True
+U032,Police; Enforcement Organizations,4,Home Affairs and Enforcement; Police,Home Affairs and Enforcement; Police,True,True,True
+U033,Power and Energy; Petroleum and Natural Gas,4,Industries; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,True,True,True
+U034,Rural; Rural Development,4,Rural; Development,Rural; Development,True,True,True
+U035,Rural; Rural Housing,4,Housing; Rural Housing,Housing; Rural Housing,True,True,True
+U036,Social Development; Health,4,Social Development,Social Development,True,True,True
+U037,Tourism; Tourism,4,Industries; Tourism,Travel and Tourism; Places,True,True,False
+U038,Agriculture; Family Welfare,3,Agriculture,Agriculture,True,True,True
+U039,Animal Husbandry; Crops,3,Agriculture; Animal Husbandry,Agriculture; Animal Husbandry,True,True,True
+U040,Animal Husbandry; Poultry Development,3,Agriculture; Animal Husbandry,Agriculture; Animal Husbandry,True,True,True
+U041,Art and Culture; Museums,3,Art and Culture; Heritage,Art and Culture; Heritage,True,True,True
+U042,Commerce; Revenue,3,Finance; Revenue,Finance; Revenue,True,True,True
+U043,Economy; Employment,3,Labour and Employment; Employment,Labour and Employment; Employment,True,True,True
+U044,Energy; Petroleum and Natural Gas,3,Industries; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,True,True,True
+U045,Energy; Power and Energy,3,Industries; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,True,True,True
+U046,Environment and Forest; Wetlands,3,Environment and Forest; Ecology,Environment and Forest; Ecology,True,True,True
+U047,Mining,3,Industries,Industries,True,True,True
+U048,Statistics,3,Transport; Road Transport,Transport; Road Transport,True,True,True
+U049,Agriculture; Fodder Crops,2,Agriculture; Crops,Agriculture; Crops,True,True,True
+U050,Agriculture; Health,2,Agriculture; Horticulture,Agriculture; Horticulture,True,True,True
+U051,Agriculture; Public Distribution,2,Agriculture,Agriculture,True,True,True
+U052,All#6853411,1,Labour and Employment; Employment,Labour and Employment; Employment,True,True,True
+U053,All#603899990,1,Governance and Administration; Pensions,Governance and Administration; Pensions,True,True,True
+U054,Animal Husbandry; Poultry,2,Agriculture; Animal Husbandry,Agriculture; Animal Husbandry,True,True,True
+U055,Census; Census,2,Census and Surveys; Census,Census and Surveys; Census,True,True,True
+U056,Energy and Power; Petroleum and Natural Gas,2,Industries; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,True,True,True
+U057,Energy; Power,2,Infrastructure; Power,Infrastructure; Power,True,True,True
+U058,Environment and Forest; Soil and Water Conservation,2,Agriculture; Soil and Water Conservation,Agriculture; Soil and Water Conservation,True,True,True
+U059,Environment and Forest; Wet life,2,Environment and Forest; Ecology,Environment and Forest; Ecology,True,True,True
+U060,Food; Food Processing,2,Industries; Food Processing,Industries; Food Processing,True,True,True
+U061,Industries; Dairying,2,Agriculture; Dairying,Agriculture; Dairying,True,True,True
+U062,Industries; Entrepreneurship Development,2,Industries,Industries,True,True,True
+U063,Industries; Trade promotion,2,Commerce; Export,Commerce; Export,True,True,True
+U064,Power; Renewable,2,Infrastructure; Power,Urban; Development,True,True,False
+U065,Revenue; Revenue,2,Governance and Administration; Local Government,Governance and Administration,True,True,False
+U066,Rural: Development,2,Social Development; Women,Rural; Development,True,True,False
+U067,Rural >> Statistics,2,Rural; Development,Rural; Development,True,True,True
+U068,Tourism; Lodging,2,Industries; Tourism,Travel and Tourism; Places,True,True,False
+U069,Tourism; Places,2,Travel and Tourism; Places,Travel and Tourism; Places,True,True,True
+U070,Transport; Port Employment,2,Transport; Water ways,Transport; Water ways,True,True,True
+U071,Transport; Ports,2,Transport; Water ways,Transport; Water ways,True,True,True
+U072,Travel and Tourism; Tourism,2,Industries; Tourism,Travel and Tourism; Places,True,True,False
+U073,Dairying; Dairying,1,Agriculture; Dairying,Agriculture; Dairying,True,True,True
+U074,Horticulture; Horticulture,1,Agriculture; Horticulture,Agriculture; Horticulture,True,True,True
+U075,Agriculture; Fishery,1,Agriculture; Fisheries,Agriculture; Fisheries,True,True,True
+U076,Agriculture; Fodder,1,Agriculture; Crops,Agriculture; Animal Husbandry,True,True,False
+U077,Agriculture; Fodder Development,1,Agriculture; Crops,Agriculture; Animal Husbandry,True,True,False
+U078,Agriculture; Oil Seed Production,1,Agriculture; Crops,Agriculture; Crops,True,True,True
+U079,Agriculture; Oilseeds and Oil Palm,1,Agriculture; Crops,Agriculture; Crops,True,True,True
+U080,Sericulture; Sericulture,1,Textiles; Sericulture,Textiles; Sericulture,True,True,True
+U081,Agriculture; Statistics,1,Agriculture,Agriculture,True,True,True
+U082,Animal Husbandry; Animal Health,1,Agriculture; Animal Husbandry,Agriculture; Animal Husbandry,True,True,True
+U083,Animal Husbandry; Animal Welfare,1,Agriculture; Animal Husbandry,Agriculture; Animal Husbandry,True,True,True
+U084,Commerce; Agricultural Marketing,1,Agriculture; Agricultural Marketing,Agriculture; Agricultural Marketing,True,True,True
+U085,Commerce; Corporate governance,1,Industries; Corportae governance,Industries; Corportae governance,True,True,True
+U086,Commerce; Retail,1,Industries; Retail,Industries; Retail,True,True,True
+U087,Culture; Heritage,1,Art and Culture; Heritage,Art and Culture; Literature,True,True,False
+U088,Defence; Research and Development,1,Science and Technology; Research & Development,Defence,True,True,False
+U089,Development; Urban,1,Education; Higher Education,Education; Higher Education,True,True,True
+U090,Development; Rural,1,Education; Higher Education,Education; Higher Education,True,True,True
+U091,Energy and Family welfare; Health,1,Industries; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,True,True,True
+U092,Environment and Forest; Air Pollution,1,Environment and Forest; Residential Air Pollution,Environment and Forest,True,True,False
+U093,Environment and Forest; Research & Development,1,Science and Technology; Research & Development,Environment and Forest,True,True,False
+U094,Environment; Ecology,1,Environment and Forest; Ecology,Environment and Forest; Ecology,True,True,True
+U095,Food; Agricultural Produces,1,Agriculture; Crops,Agriculture; Crops,True,True,True
+U096,Food; Fisheries,1,Commerce; Export,"Agriculture; Fisheries, Commerce; Export",True,True,False
+U097,Health and Family welfare >> Statistics,1,Health and Family welfare; Health,Health and Family welfare; Health,True,True,True
+U098,Health and Family welfare; Residential Air Pollution,1,Environment and Forest; Residential Air Pollution,Environment and Forest,True,True,False
+U099,Health and Family welfare; Sanitation,1,Environment and Forest; Municipal Waste,Environment and Forest; Municipal Waste,True,True,True
+U100,Health and Family welfare; Women,1,Social Development; Women,Social Development; Women,True,True,True
+U101,Housing; Drinking Water,1,Water and Sanitation; Drinking Water,Water and Sanitation; Drinking Water,True,True,True
+U102,Industries; Agricultural Produces,1,Industries; Cottage,Industries,True,True,False
+U103,Industries; Animal Husbandry,1,Agriculture; Animal Husbandry,Agriculture; Animal Husbandry,True,True,True
+U104,Industries; Coal,1,Power and Energy; Non Renewable,Power and Energy; Non Renewable,True,True,True
+U105,Industries; Coal India Limited (CIL),1,Power and Energy; Non Renewable,Power and Energy; Non Renewable,True,True,True
+U106,Industries; Companies,1,Power and Energy; Renewable,Power and Energy; Renewable,True,True,True
+U107,Industries; Cotton,1,Industries; Textiles,Industries; Textiles,True,True,True
+U108,Industries; Electronics Manufacturing,1,Industries; Manufacturing,Industries; Manufacturing,True,True,True
+U109,Industries; Entrepreneurship,1,Industries,Industries,True,True,True
+U110,Industries; Entrepreneurship Development Programme (EDP),1,Industries,Industries,True,True,True
+U111,Industries; Handloom and Handicrafts,1,"Industries; Textiles, Art and Culture; Handicrafts","Industries; Textiles, Art and Culture; Handicrafts",True,True,True
+U112,Industries; Handloom and Powerloom,1,Industries; Textiles,Industries; Textiles,True,True,True
+U113,Industries; Handloom and Textiles,1,Industries; Textiles,Industries; Textiles,True,True,True
+U114,Industries; Industrial Infrastructure Upgradation Scheme,1,Industries,Industries,True,True,True
+U115,Industries; Infrastructure Development,1,Industries,Industries,True,True,True
+U116,Industries >> Small and Medium Enterprises,1,Industries; Small Scale,Industries; Small Scale,True,True,True
+U117,Industries; Mining Accidents,1,Industries,Industries,True,True,True
+U118,Industries; Mining and Mineral Development,1,Industries,Industries,True,True,True
+U119,Industries; Non Renewable,1,Power and Energy; Renewable,Power and Energy; Renewable,True,True,True
+U120,Industries; Skill Development,1,Labour and Employment; Employment,Labour and Employment; Employment,True,True,True
+U121,Industries; Skill India Mission (SIM),1,Labour and Employment; Employment,Labour and Employment; Employment,True,True,True
+U122,Industries; Tea,1,Agriculture; Crops,Industries,True,True,False
+U123,Industries; Telecommunications,1,Information and Communications; Telecom,Information and Communications; Telecom,True,True,True
+U124,Industries; Textile,1,Industries; Textiles,Industries; Textiles,True,True,True
+U125,Industries; Textile Workers Rehabilitation Fund Scheme,1,Industries; Textiles,Industries; Textiles,True,True,True
+U126,Industries; Vocational Training,1,Labour and Employment; Employment,Labour and Employment; Employment,True,True,True
+U127,Information and Communications; Broadcasting,1,Information and Broadcasting; Broadcasting,Information and Broadcasting; Broadcasting,True,True,True
+U128,Information and Communications; Print Media,1,Information and Broadcasting; Print Media,Information and Broadcasting; Print Media,True,True,True
+U129,Infrastructure; Irrigation,1,Infrastructure; Dams,Agriculture; Irrigation,True,True,False
+U130,Infrastructure; Water Quality,1,Infrastructure; Dams,Agriculture; Irrigation,True,True,False
+U131,Infrastructure; Infrastructure,1,Infrastructure,Infrastructure,True,True,True
+U132,Infrastructure; Ports,1,Transport; Water ways,Transport; Water ways,True,True,True
+U133,Infrastructure; Railways,1,Transport; Railways,Transport; Railways,True,True,True
+U134,Infrastructure >> Skill Development,1,Labour and Employment; Employment,Labour and Employment; Employment,True,True,True
+U135,Labour and Employment; Enforcement Organizations,1,Labour and Employment; Employment,Labour and Employment; Employment,True,True,True
+U136,Land Resources; Land Records,1,Rural; Land Resources,Rural; Land Resources,True,True,True
+U137,Parliament Of india; State Legislative,1,Governance and Administration; State Legislative,Governance and Administration; State Legislative,True,True,True
+U138,Petroleum and Natural Gas; LNG Terminals,1,Industries; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,True,True,True
+U139,Petroleum and Natural Gas; LPG Distributors,1,Industries; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,True,True,True
+U140,Petroleum and Natural Gas; Pipelines,1,Industries; Petroleum and Natural Gas,Industries; Petroleum and Natural Gas,True,True,True
+U141,Places; Places,1,Transport; Aviation,Transport; Aviation,True,True,True
+U142,Police; Police,1,Home Affairs and Enforcement; Police,Home Affairs and Enforcement; Police,True,True,True
+U143,Power; Power,1,Infrastructure; Power,Infrastructure; Power,True,True,True
+U144,Urban; Urban Housing,1,Housing; Rural Housing,Housing; Rural Housing,True,True,True
+U145,Science and Technology >> Mining,1,Science and Technology; Earth Sciences,Science and Technology; Earth Sciences,True,True,True
+U146,Social Development; Elderly,1,Social Development,Social Development,True,True,True
+U147,Transport; Air Transport,1,Transport; Aviation,Transport; Aviation,True,True,True
+U148,Transport; Airfares,1,Transport; Aviation,Transport; Aviation,True,True,True
+U149,Transport; Sea Transport,1,Transport; Water ways,Transport; Water ways,True,True,True
+U150,Water Resources; Irrigation,1,Agriculture; Irrigation,Agriculture; Irrigation,True,True,True
+U151,Transport; Modes of Travel,1,Water Resources; Surface Water,Water Resources; Surface Water,True,True,True
+U152,Irrigation; Irrigation,1,Science and Technology; Atmospheric Science,Water Resources; Surface Water,True,True,False
+U153,Water and Sanitation; Ground Water,1,Water Resources; Ground Water,Water Resources; Ground Water,True,True,True

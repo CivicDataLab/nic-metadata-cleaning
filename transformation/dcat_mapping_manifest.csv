@@ -1,0 +1,90 @@
+source_column,dcat_column,sheet_row,action,note
+Title,dcterms:title,2,renamed,
+Description,dcterms:description,3,renamed,
+Abstract,dcterms:abstract,54,renamed,
+Subject[keyword],dcat:keyword,24,renamed,sheet writes dcat:Keywords
+Subject[sponsored_keyword],dcat:keyword[sponsored],25,renamed,qualified; sheet leaves the DCAT cell blank
+Conforms To,dcterms:conformsTo,,renamed,sheet omits it; holds the CSV header list
+Collection,Collection,68,unchanged,"sheet says dcat:DatasetSeries, which is a class not a property"
+new_title,new_title,,unchanged,
+nid,nid,,unchanged,
+Identifier[UUID],dcterms:identifier,13,renamed,
+Relation,dcterms:relation,12,renamed,
+Access Rights,dcterms:accessRights,21,renamed,sheet writes 'dcterms:accessRight '
+Type,dcterms:type,9,renamed,
+Accrual Method,dcterms:accrualMethod,44,renamed,values are codes '1'/'5'
+Relation[Catalog Title],dcat:inCatalog,30,renamed,
+Jurisdiction,dcatin:jurisdictionLevel,19,renamed,
+Publisher[ministry_department],dcterms:publisher,47,derived,ministry only; the first body of the cell
+,dcat:hadRole,48,derived,'publisher' where the row has a prov:qualifiedAttribution
+Publisher[ministry_department],prov:qualifiedAttribution[1],48,derived,department 1 split off ministry_department (list slot 2)
+Publisher[ministry_department],prov:qualifiedAttribution[2],48,derived,department 2 split off ministry_department (list slot 3)
+Publisher[state_department],,46,dropped,"0 non-null; dropped per instruction, ministry kept"
+Date Issued,dcterms:issued,7,renamed,
+Date Modified,dcterms:modified,8,renamed,
+Date Created,dcterms:created,6,renamed,
+Subject[sector],Subject[sector],26,unchanged,dcat:theme reserved for sector_resource per instruction
+Subject[sector_resource],dcat:theme,4,renamed,
+Accrual Periodicity,dcterms:accrualPeriodicity,22,renamed,sheet writes dct: prefix
+Coverage,dcat:temporalResolution,23,renamed,
+Extent,dcat:byteSize,10,renamed,sheet writes dcat:ByteSize
+Format,dcat:mediaType,11,renamed,
+field_from_api,field_from_api,79,unchanged,sheet lists it as 'from_api'
+is_api_available,is_api_available,77,unchanged,
+external_api_reference,external_api_reference,76,unchanged,
+Relation[download_url],dcat:downloadURL,27,renamed,
+Relation[endpointURL],dcat:endpointURL,56,renamed,
+High Value Dataset Category,dcatin:hvdCategory,43,renamed,
+field_show_export,field_show_export,74,unchanged,
+Creator,dcterms:creator,45,renamed,
+Note,dcatin:note,51,renamed,
+ogdp_download_count,ogdp_download_count,72,unchanged,
+ogdp_view_count,ogdp_view_count,71,unchanged,
+is_visualized,is_visualized,78,unchanged,
+api_request_count,api_request_count,73,unchanged,
+is_rated,is_rated,75,unchanged,
+batch,batch,,unchanged,
+Identifier[landing_page],dcat:landingPage,14,renamed,sheet row 15 also offers foaf:homePage
+Rights,dcterms:rights,42,renamed,
+License,dcterms:license,52,renamed,
+Language,dcterms:language,53,renamed,
+Alternative Title,dcterms:alternative,55,renamed,
+Source,dcterms:source,16,renamed,
+Spatial Coverage,dcterms:spatial,17,renamed,sheet has a trailing space
+Temporal Coverage,dcterms:temporal,18,renamed,
+Rights Statement,dcatin:applicableLegislation,20,renamed,sheet has a space after the colon
+Depiction,foaf:depiction,29,renamed,
+Relation[Access URL],dcat:accessURL,28,renamed,
+Relation[Has Part],dcterms:hasPart,60,renamed,
+Relation[Is Referenced By],dcterms:isReferencedBy,62,renamed,
+Relation[Is Replaced By],dcterms:isReplacedBy,63,renamed,
+Relation[Replaces],dcterms:replaces,64,renamed,
+Relation[Is Version Of],dcterms:isVersionOf,65,renamed,
+Relation[Has Version],dcterms:hasVersion,66,renamed,
+Description[endpointDescription],dcat:endpointDescription,67,renamed,
+Relation[Is Part Of],dcterms:isPartOf,61,renamed,sheet row 69 also offers dcat:inSeries
+pii_tested,pii_tested,,unchanged,
+pii_detected,pii_detected,,unchanged,
+headers_cleaned,headers_cleaned,,unchanged,
+row_count,row_count,,unchanged,
+pii_test_timestamp,pii_test_timestamp,,unchanged,
+archive,archive,,unchanged,
+header_count,header_count,,unchanged,
+archive_reason,archive_reason,,unchanged,
+merge_method,merge_method,,unchanged,
+merge_add_columns,merge_add_columns,,unchanged,
+Remark for change in header,Remark for change in header,,unchanged,
+new_catalog_title,new_catalog_title,,unchanged,
+Year,Year,,unchanged,
+Month,Month,,unchanged,
+Financial_Year,Financial_Year,,unchanged,
+Quarter,Quarter,,unchanged,
+Temporal_Raw,Temporal_Raw,,unchanged,
+facility,facility,,unchanged,
+new_unmerged_dataset_title,new_unmerged_dataset_title,,unchanged,"Title, cleaned where too short or misspelt"
+new_unmerged_dataset_description,new_unmerged_dataset_description,,unchanged,"Description, made true for the one dataset"
+cdo_name,vcard:fn,32,renamed,CDO name
+cdo_email,vcard:hasEmail,36,renamed,CDO email
+cdo_designation,vcard:title,33,renamed,"CDO designation, from the CDO API"
+cdo_phone,vcard:hasTelephone,,renamed,"CDO phone, from the CDO API; no sheet row"
+cdo_address,vcard:hasAddress,37,renamed,"CDO address, from the CDO API"

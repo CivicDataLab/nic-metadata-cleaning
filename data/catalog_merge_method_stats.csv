@@ -1,0 +1,40 @@
+new_catalog_title,merge_method,old_catalogs,old_datasets,new_datasets
+HMIS State and District Item-wise Monthly Reports,curate,74,141819,5611
+HMIS State and District Item-wise Monthly Reports,Minor change in header,78,15841,4
+HMIS State and District Item-wise Monthly Reports,non-mergeable,6,25,25
+HMIS State and District Item-wise Monthly Reports,to be removed,3,10,0
+HMIS State and District Item-wise Monthly Reports,TOTAL,151,157695,5640
+Range-wise Performance of Public Health Facilities,curate,30,30243,15
+Range-wise Performance of Public Health Facilities,non-mergeable,1,5,5
+Range-wise Performance of Public Health Facilities,TOTAL,30,30248,20
+Performance of Key HMIS Indicators,Minor change in header,41,12984,7
+Performance of Key HMIS Indicators,non-mergeable,4,7,7
+Performance of Key HMIS Indicators,to be removed,2,5,0
+Performance of Key HMIS Indicators,TOTAL,41,12996,14
+National Health Surveys and Statistical Reports,non-mergeable,31,1550,1550
+National Health Surveys and Statistical Reports,direct,3,1134,4
+National Health Surveys and Statistical Reports,curate,1,267,1
+National Health Surveys and Statistical Reports,to be removed,7,18,0
+National Health Surveys and Statistical Reports,TOTAL,31,2969,1555
+Family Planning and Reproductive Health,major_changes_in_headers,4,2807,20
+Family Planning and Reproductive Health,Minor change in header,2,56,2
+Family Planning and Reproductive Health,non-mergeable,11,18,18
+Family Planning and Reproductive Health,TOTAL,14,2881,40
+"Vital Statistics, Fertility and Mortality Indicators",non-mergeable,30,51,51
+"Vital Statistics, Fertility and Mortality Indicators",to be removed,1,1,0
+"Vital Statistics, Fertility and Mortality Indicators",TOTAL,30,52,51
+Disease Prevalence and Health Conditions,non-mergeable,7,37,37
+Disease Prevalence and Health Conditions,to be removed,1,1,0
+Disease Prevalence and Health Conditions,TOTAL,7,38,37
+Maternal Health and Antenatal Care,non-mergeable,16,22,22
+Child and Newborn Health and Nutrition,non-mergeable,11,20,20
+Immunisation and Vaccination Coverage,non-mergeable,11,17,17
+Health Workforce and Manpower,non-mergeable,11,11,11
+Health Workforce and Manpower,to be removed,4,5,0
+Health Workforce and Manpower,TOTAL,11,16,11
+Health Infrastructure and Facilities,non-mergeable,9,12,12
+Health Infrastructure and Facilities,to be removed,3,3,0
+Health Infrastructure and Facilities,TOTAL,9,15,12
+Health Service Utilisation and Access,non-mergeable,2,2,2
+List of High Priority Districts identified by the department of Health and Family Welfare,non-mergeable,1,1,1
+ALL CATALOGS,GRAND TOTAL,365,206972,7442

@@ -1,0 +1,805 @@
+== OWNER: Madhya Pradesh / Co-operation Department, Madhya Pradesh
+[487] new = old: District Central Cooperative Bank -branches with IFSC
+[488] new = old: District level Cooperative Societies
+[489] new = old: District wise Cooperative Consumer Stores in Madhya Pradesh
+[490] new = old: District wise Cooperative Housing Societies in Madhya Pradesh
+[491] new = old: District wise Cooperative Marketing Societies in Madhya Pradesh
+[492] new = old: District wise Seed Federation Cooperative Societies in Madhya Pradesh
+[493] new = old: M.P. Apex Bank (MP Rajya Sahakari Bank) and their branches detail
+[494] new = old: MP District Central Cooperative Bank Head Office IFSC Code and contact detail
+[495] new = old: MP Head Office level Cooperative Societies
+[496] new = old: Primary Agriculture Credit Cooperative Societies (PACS) in Madhya Pradesh
+
+== OWNER: Madhya Pradesh / Commerce, Industry and Employment Department, Madhya Pradesh
+[497] new = old: ASIDE Scheme Funds Given by Government of India (GoI) to Madhya Pradesh
+[498] new = old: Entrepreneurship Development Programme (EDP) in Madhya Pradesh from Year 2005 to 2014
+[499] new = old: Expenditure in Development and Maintenance work in Industrial Area of Madhya Pradesh
+[500] new = old: Online Registration of Job Seekers in Madhya Pradesh
+[501] new = old: Year wise Establishment of Large and Medium Industries in Madhya Pradesh
+
+== OWNER: Madhya Pradesh / Farmer Welfare and Agriculture Development Department, Madhya Pradesh
+[502] new = old: Annual Rainfall in Madhya Pradesh
+
+== OWNER: Madhya Pradesh / Food, Civil Supplies and Consumer Protection Department, Madhya Pradesh
+[503] new = old: Aadhar Seeding Status of eligible Households Covered Under NFSA, 2013 of Madhya Pradesh
+[504] new = old: District wise Bank Account Seeding Status of eligible Households Covered Under NFSA
+[505] new = old: District wise Fair Price Shops in Madhya Pradesh
+[506] new = old: District wise Ration Card in Madhya Pradesh
+[507] new = old: Monthly Ration Allocation
+
+== OWNER: Madhya Pradesh / Information Technology Department, Madhya Pradesh
+[508] new = old: Detail information on Madhya Pradesh State Wide Area Network Presence at District and Block level
+[509] new = old: e-Governance Societies in Madhya Pradesh
+[510] new = old: Employment Registration in MP
+[511] new = old: Installed Capacity of Madhya Pradesh Power Generating Company Limited (MPPGCL)
+[512] new = old: Master Data of Madhya Pradesh
+[513] new = old: Power Generation in MP
+[514] new = old: Regional capacity building centre of Madhya Pradesh
+[515] new = old: Year wise Energy Supplied in MP
+
+== OWNER: Madhya Pradesh / Planning, Economics and Statistics Department, Madhya Pradesh
+[516] new = old: Advance Estimates of GDP for the year 2013-14 at Factor Cost by Economic Activity At Current and Constant (2004-05) prices
+[517] new = old: Advance Estimates of State Income of Madhya Pradesh
+[518] new = old: Average Annual Growth Rates* in G.S.D.P [At Constant (2004-05) Prices]
+[519] new = old: Average Annual Growth Rates* in N.S.D.P [At Constant (2004-05) Prices]
+[520] new = old: Average Annual Growth Rates* in Per Capita G.S.D.P.[At Constant (2004-05) Prices]
+[521] new = old: Average Annual Growth Rates* in Per Capita N.S.D.P.[At Constant (2004-05) Prices]
+[522] new = old: Average Production of Major Crops in Madhya Pradesh
+[523] new = old: Broad Sector-wise Gross State Domestic Product
+[524] new = old: District wise Cotton Farming Area in Madhya Pradesh
+[525] new = old: District wise Cotton Production in Madhya Pradesh
+[526] new = old: District wise Gram Farming Area in Madhya Pradesh
+[527] new = old: District wise Gram Production in Madhya Pradesh
+[528] new = old: District wise Jowar Farming Area in Madhya Pradesh
+[529] new = old: District wise Jowar Production in Madhya Pradesh
+[530] new = old: District wise Maize Paddy Farming Area in Madhya Pradesh
+[531] new = old: District wise Maize Production in Madhya Pradesh
+[532] new = old: District wise Net Domestic Product at Current Prices
+[533] new = old: District wise Paddy Farming Area in Madhya Pradesh
+[534] new = old: District wise Paddy Production in Madhya Pradesh
+[535] new = old: District wise Per Capita Income at Constant (2004-2005) Prices
+[536] new = old: District wise Per Capita Income at Current Prices
+[537] new = old: District wise Soyabean Farming Area in Madhya Pradesh
+[538] new = old: District wise Soyabean Production in Madhya pradesh
+[539] new = old: District wise Sugarcane Farming in Madhya Pradesh
+[540] new = old: District wise Wheat Farming Area in Madhya Pradesh
+[541] new = old: District wise Wheat Production in Madhya Pradesh
+[542] new = old: Employment in public sector establishments
+[543] new = old: Gross District Domestic Product At Constant (2004-2005) Prices
+[544] new = old: Gross District Domestic Product at Current Prices
+[545] new = old: Gross Domestic Product - All India and Madhya Pradesh
+[546] new = old: Gross state domestic product by industry of origin at current prices
+[547] new = old: Gross state domestic product of Madhya Pradesh
+[548] new = old: Gross state domestic product of Madhya Pradesh at factor cost by industry of origin at constant(2004-2005) prices
+[549] new = old: Growth Rates of Madhya Pradesh
+[550] new = old: Labour and Employment Statistics in Madhya Pradesh
+[551] new = old: Land Utilization
+[552] new = old: Madhya Pradesh Economic Indicator
+[553] new = old: Net District Domestic Product At Constant (2004-2005) Prices
+[554] new = old: Net Domestic Product - All India and Madhya Pradesh
+[555] new = old: Net Domestic Product in Rural and Urban Areas of Madhya Pradesh
+[556] new = old: Net state domestic product of Madhya Pradesh at factor cost by industry of origin at constant (2004-05) prices
+[557] new = old: Net State Domestic Product Of Madhya Pradesh At Factor Cost By Industry Of Origin At Current Prices
+[558] new = old: Per Capita Income - All India and Madhya Pradesh
+[559] new = old: Per Metric ton production value of Major Minerals in Madhya Pradesh
+[560] new = old: Price Indices (2004-05)
+[561] new_catalog_title: Production of Major Minerals
+      old_catalog_title (2):
+        - Production of Major Minerals
+        - Production of Major Minerals in Madhya Pradesh
+[562] new = old: Purpose wise Classification of Administrative Departments Expenditure 2011-2012 (Accounts)
+[563] new = old: Purpose wise Classification of Administrative Departments Expenditure 2012-2013 (Revised)
+[564] new = old: Sector wise Employment in Madhya Pradesh
+[565] new = old: Selected Indicators for Madhya Pradesh and India
+[566] new = old: State Domestic Product at Constant (2004-05) Prices
+[567] new = old: State Domestic Product at Current prices at a glance
+[568] new = old: State Industries Working days, Off days, Incident in Madhya Pradesh
+[569] new = old: Value of Major Minerals in Madhya Pradesh
+
+== OWNER: Madhya Pradesh / Transport Department, Madhya Pradesh
+[570] new = old: Madhya Pradesh - Driving Licence Details Year Wise(2011-2014)
+[571] new = old: Madhya Pradesh - Issue Permit Details Year Wise(2011-2014)
+[572] new = old: Madhya Pradesh Lerner Licence Year Wise(2011-2014)
+[573] new = old: Madhya Pradesh New Vehicle Registration Year Wise(2011-2014)
+
+== OWNER: Maharashtra / Animal Husbandry, Dairy Development and Fisheries Department, Maharashtra
+[574] new = old: Maharashtra Livestock Census
+[575] new = old: Maharashtra Major Livestock Products
+
+== OWNER: Maharashtra / Collector Office, Pune
+[576] new = old: Census Data of Pune District
+
+== OWNER: Maharashtra / Dairy Development Department of Maharashtra
+[577] new = old: Milk Procurement and Distribution Data of Maharashtra
+
+== OWNER: Maharashtra / Directorate of Municipal Administration Belapur
+[578] new = old: Property Tax Recovery Campaign of all Municipal Councils and Town Panchayats in Maharshtra
+
+== OWNER: Maharashtra / Environment Department, Maharashtra
+[579] new = old: Maharashtra Pollution Control Board (MPCB) Notification
+
+== OWNER: Maharashtra / Fisheries Department, Maharashtra
+[580] new = old: Maharashtra State Fish Production
+
+== OWNER: Maharashtra / Food, Civil Supplies and Consumer Protection Department, Maharashtra
+[581] new = old: Fair Price Shop Details Maharashtra
+[582] new = old: Maharashtra Food Civil Supplies & Consumer Protection Departments of Godown
+[583] new = old: Maharashtra Shivbhojan Eatery Details
+
+== OWNER: Maharashtra / Forest Department
+[584] new = old: 10 crore Plantation Status of Maharashtra Forest Department
+[585] new = old: Forest Cover of Maharashtra
+[586] new = old: Recorded Forest area of Maharashtra
+[587] new = old: Wildlife Sancturies, National Parks & Conservation Reserve Area
+
+== OWNER: Maharashtra / General Administration Department, Maharashtra
+[588] new = old: Ambulance Details in Maharashtra - District Nagpur
+[589] new = old: Daily Rainfall Data for Dhule district, Maharashtra
+[590] new = old: Daily Rainfall Data for Kolhapur, Maharashtra
+[591] new = old: Employment Generated under MGNREGA in Thane Zilla Parishad
+[592] new = old: Group No. Survey No. Kolhapur in a peripheral area of 200 m from village limits
+[593] new = old: Information on Encroachment Free Panand Road Kolhapur
+[594] new = old: Jal Jeevan Mission (JJM) Zilla Parishad Sangli
+[595] new = old: Kolhapur City Air Quality Monitoring
+[596] new = old: Pensioners DLC Data of Amravati District, Maharashtra
+[597] new = old: Pink OPD Kolhapur
+[598] new = old: Pune Division District wise Rainfall
+[599] new = old: Rainfall Data for Raigad, Maharashtra
+[600] new = old: Zilla Parishad Amravati School Enrollment Data
+
+== OWNER: Maharashtra / General Administration Department, Maharashtra, Zilla Parishad, Pune
+[601] new = old: Zilla Parishad Pune Data
+
+== OWNER: Maharashtra / Higher and Technical Education Department, Maharashtra
+[602] new = old: Affiliated Institutes with Maharashtra State Board of Technical Education (MSBTE)
+
+== OWNER: Maharashtra / Home Department, Maharashtra
+[603] new = old: Crime Statistics Thane Rural
+[604] new = old: Daily Rainfall Data for Nashik City, Maharashtra
+[605] new = old: Dharashiv District Crime Analytics
+[606] new = old: Nagpur Rural Body Offences
+[607] new = old: Palghar District Police Station Information
+[608] new = old: Total Crime in Konkan Range and Detection Rate
+
+== OWNER: Maharashtra / Housing Department, Maharashtra
+[609] new = old: Slum Rehabilitation Authority, Brihanmumbai
+
+== OWNER: Maharashtra / Industries, Energy and Labour Department, Maharashtra
+[610] new = old: Cooperative Industrial Estate
+[611] new = old: Maharashtra Industrial Development Corporation (MIDC) Water Supply Scheme
+[612] new = old: MIDC Land Rates 2024
+[613] new = old: MSI-CDP (Maharashtra State Industrial Cluster Development Programme)
+[614] new = old: Peak Demand of Power, Maharashtra
+[615] new = old: PM Kusum Scheme
+[616] new = old: RAMP-Maharashtra
+[617] new = old: Sanctioned Loans Maharashtra
+
+== OWNER: Maharashtra / Kulgaon Badlapur Municipal Council
+[618] new = old: Kulgaon Badlapur Municipal Council (KBMC), Maharashtra
+
+== OWNER: Maharashtra / Labour Department, Maharashtra
+[619] new = old: Boilers data in Maharashtra state
+[620] new = old: Maharashtra Building and Other Construction Workers Active Workers Count
+[621] new = old: Maharashtra Industrial Court List
+[622] new = old: Maharashtra Labour Cases Counts under PAMS (Personal Advisory Management System) 2A, 2k & General Demands under Industrial Dispute Act 1947
+[623] new = old: Maharashtra Labour Department and Allied Offices List
+[624] new = old: Maharashtra Labour Welfare Centers (Kamgar Kalyan Kendras)
+
+== OWNER: Maharashtra / Maharashtra Housing and Area Development Authority (MHADA)
+[625] new = old: Maharashtra Housing & Area Development Authority (MHADA)
+
+== OWNER: Maharashtra / Maharashtra Maritime Board
+[626] new = old: Cargo Traffic of Ports other than Major Ports in Maharashtra
+[627] new = old: Statistics of Annual Passenger Water Transport in Maharashtra
+
+== OWNER: Maharashtra / Mining Department
+[628] new = old: Mining Department, Maharshtra
+
+== OWNER: Maharashtra / Mumbai Metropolitan Region Development Authority (MMRDA)
+[629] new = old: Ridership Data (Metro Line 2A, 7, Monorail)
+
+== OWNER: Maharashtra / Navi Mumbai Municipal Corporation
+[630] new = old: Scholarship Data for Navi Mumbai Municipal Corporation
+
+== OWNER: Maharashtra / Panvel Municipal Corporation Office
+[631] new = old: Asian Waterbird Census (AWC) in Panvel Municipal Corporation
+
+== OWNER: Maharashtra / Persons with Disabilities Welfare Department, Maharashtra
+[632] new = old: Unique Disability Identification Card, Maharashtra
+
+== OWNER: Maharashtra / Pimpri Chinchwad Municipal Corporation (PCMC)
+[633] new = old: PCMC Grievance Data
+[634] new = old: PCMC RTS Data
+
+== OWNER: Maharashtra / Planning Department, Maharashtra
+[635] new = old: Agriculture land use held land and cultivating account holders
+[636] new = old: Area under Irrigation using various means Jalna District
+[637] new = old: Particulars of Khidmatmash Madatmash and Other Devasthan Inam lands in urban and rural areas
+[638] new = old: Yearly Land Use Information - Jalna District, Maharashtra
+
+== OWNER: Maharashtra / Public Health and Family Welfare Department, Maharashtra
+[639] new = old: Health Budget Overview Public Health Department, Maharashtra
+
+== OWNER: Maharashtra / Public Works Department, Maharashtra
+[640] new = old: Budgeted Provisions Maharashtra
+
+== OWNER: Maharashtra / Pune Metropolitan Region Development Authority (PMRDA)
+[641] new = old: Pune Metropolitan Region Development Authority
+
+== OWNER: Maharashtra / Revenue and Forest Department, Maharashtra
+[642] new = old: Aaple Sarkar Seva Kendra in Beed District
+[643] new = old: Application wise Document Count, Stamp Duty and Registration Fees
+[644] new = old: Census Data Bhandara District, Maharashtra
+[645] new = old: Circle office wise Cumulative rainfall data, Jalgaon, Maharashtra
+[646] new = old: Circle wise cumulative rainfall data for district Jalgaon, Maharashtra
+[647] new = old: Daily Rainfall Data for Beed, Maharashtra
+[648] new = old: Daily Rainfall Data for Hingoli District Maharashtra
+[649] new = old: Daily Rainfall Data for Nanded Maharashtra
+[650] new = old: Daily Rainfall Data for Solapur, Maharashtra
+[651] new = old: Daily Rainfall Data for Washim District Maharashtra
+[652] new = old: Daily rainfall data of Nandurbar
+[653] new = old: District wise Rainfall of Nagpur Division
+[654] new = old: Districts wise rainfall for all districts of Amravati Division, Maharashtra
+[655] new = old: E-Chavadi Progress Report Nashik Division
+[656] new = old: eKYC Report of Beneficiaries under National Food Security Sindhudurg
+[657] new = old: Fair Price Shop, Sangli Maharashtra
+[658] new = old: Farmer Suicide Cases in Latur District
+[659] new = old: Maharashtra State administrative Juridiction
+[660] new = old: Police Station-wise Crime and Service Performance Statistics of Akola
+[661] new = old: Progress of Implementation of FRA (Forest Rights Act) in Thane District, Maharashtra
+[662] new = old: Rainfall Data for Parbhani Mahrashtra
+[663] new = old: Rainfall Data for Yavatmal District, Maharashtra
+[664] new = old: Rainfall Data of Akola, Maharashtra
+[665] new = old: Rainfall Data of Buldhana, Maharashtra
+[666] new = old: Rainfall data of Dharashiv (Osmanabad), Maharashtra
+[667] new = old: Rainfall Data of Latur District, Maharahstra
+[668] new = old: Rainfall Data of Mumbai City, Maharashtra
+[669] new = old: Rainfall Data Thane, Maharashtra
+[670] new = old: Right to Service Report
+[671] new = old: RTS Online Services All Department Nanded District
+[672] new = old: Sindhudurg - Right to Service ( RTS) Application Report
+[673] new = old: Sindhudurg District Rainfall Data
+[674] new = old: Taluka wise Ration Card and Member Details Sindhudurg
+[675] new = old: Voter Data - Satara District, Maharashtra
+[676] new = old: Water Storage in Dams Sindhudurg District
+
+== OWNER: Maharashtra / Revenue and Forest Department, Maharashtra, District Collector Office, Mumbai Suburban
+[677] new = old: Rainfall Dataset Mumbai Suburban, Maharashtra
+
+== OWNER: Maharashtra / Rural Development and Panchayat Raj Department, Maharashtra
+[678] new = old: Livestock Census District Hingoli 20th
+[679] new = old: TCL Test Report Maharashtra
+
+== OWNER: Maharashtra / School Education and Sports Department, Maharashtra
+[680] new = old: Sqaaf District Wise Self Evaluation Status of Maharashtra
+
+== OWNER: Maharashtra / Skill, Employment, Entrepreneurship and Innovation Department
+[681] new = old: Short Term Training Programs in Government of Maharashtra ITIs
+
+== OWNER: Maharashtra / Social Justice and Special Assistance Department, Maharashtra
+[682] new = old: CM Tirth Darshan Scheme
+[683] new = old: CM Vayoshree Scheme, Maharashtra State
+
+== OWNER: Maharashtra / Tourism and Cultural Affairs Department, Maharashtra
+[684] new = old: AAI policy
+[685] new = old: Film City - Booking Portal
+[686] new = old: Maharashtra Archives Record
+
+== OWNER: Maharashtra / Ulhasnagar Municipal Corporation
+[687] new = old: Ulhasnagar Municipal Corporation - Electrical Department
+
+== OWNER: Maharashtra / Water Supply and Sanitation Department, Maharashtra
+[688] new = old: District wise PWS and FHTC Coverage in Maharashtra
+[689] new = old: Ground Water Survey Maharashtra
+[690] new = old: Swachh Bharat Mission (G), Maharashtra State
+
+== OWNER: Maharashtra / Women and Child Development Department, Maharashtra
+[691] new = old: Lek Ladki Yojna
+
+== OWNER: Maharashtra / Zilla Parishad Chandrapur
+[692] new = old: Scheme and Blockwise Aadhar Seeding Status for Ramai Shabari Adim Pardhi Scheme
+[693] new = old: Work Completion Report in PMAY-G scheme in NREGA for Ballarpur Block in Chandrapur district for Zilla Parishad Chandrapur
+
+== OWNER: Maharashtra, Amravati Municipal Corporation
+[694] new = old: Amravati Municipal Schools
+
+== OWNER: Maharashtra, Maharashtra Pollution Control Board (MPCB)
+[695] new = old: NWMP Water Sampling Data for Maharashtra
+
+== OWNER: Maharashtra, School Education and Sports Department, Maharashtra, Commissionerate of Education
+[696] new = old: School Data of Maharashtra State
+
+== OWNER: Meghalaya
+[697] new = old: Daily Market Prices of all Commodities in Meghalaya Markets for 2014
+[698] new = old: List of Members (MDC) of Garo Hills Autonomous District Council (GHADC)
+[699] new = old: List of Members of Meghalaya Legislative Assembly.
+[700] new = old: Livestock Census 2012 of Meghalaya
+[701] new = old: Meghalaya Employment Exchange
+[702] new = old: VAT (Value Added Tax) Commodity Rates for Meghalaya
+
+== OWNER: Meghalaya / Agriculture Department, Meghalaya
+[703] new = old: List of Krishi Vigyan Kendra (KVK) in North East Region
+[704] new = old: List of Primary Wholesale Market
+[705] new = old: Monthly market arrival of Agricultural Produce
+[706] new = old: State Plan Schemes of the Department of Agriculture - Meghalaya
+
+== OWNER: Meghalaya / Co-operation Department, Meghalaya
+[707] new = old: Get list of Branch Offices and address of Meghalaya Cooperative Apex Bank Ltd
+
+== OWNER: Meghalaya / District Council Affairs Department, Meghalaya
+[708] new = old: List of Members (MDC) of Jaintia Hills Autonomous District Council (JHADC)
+[709] new = old: List of Members (MDC) of Khasi Hills Autonomous District Council (KHADC)
+
+== OWNER: Meghalaya / Education Department, Meghalaya
+[710] new = old: List of Schools in Meghalaya from Primary to Secondary School Level
+
+== OWNER: Meghalaya / Election Department, Meghalaya
+[711] new = old: List of Meghalaya Assembly Constituencies
+
+== OWNER: Meghalaya / Excise, Registration, Taxation and Stamps (ERTS) Department, Meghalaya
+[712] new = old: Commodities with the corresponding Tax Rate
+
+== OWNER: Meghalaya / Finance Department, Meghalaya
+[713] new = old: Meghalaya Rural Bank - Branches with Address
+
+== OWNER: Meghalaya / Health and Family Welfare Department, Meghalaya
+[714] new = old: List of Government Health Facilities in Meghalaya
+
+== OWNER: Meghalaya / Home (Police) Department, Meghalaya
+[715] new = old: List of Police Station, Out Post, Beat House in Meghalaya
+
+== OWNER: Meghalaya / Information Technology Department, Meghalaya
+[716] new = old: List of Common Services Center (CSC) in Meghalaya
+
+== OWNER: Meghalaya / Social Welfare Department, Meghalaya
+[717] new = old: List of Child Care Institutions (CCI) registered under Juvenile Justice Act in Meghalaya
+
+== OWNER: Mines & Geology
+[718] new = old: Online Mineral e-Permit System
+
+== OWNER: Ministry of AYUSH
+[719] new = old: Annual record of patient in OPD and IPD of NIH
+[720] new = old: Annual record of radiology, ultrasonography, ECG & pft investigations done at NIH
+[721] new = old: Annual record of scientific articles published from NIH
+[722] new = old: Annual record of surgery done in NIH
+[723] new = old: Ayush Colleges in India
+[724] new = old: Ayush Hospitals & Bed Strength and Dispensaries in India
+[725] new = old: Ayush Registered Practitioners in India
+[726] new = old: Investigations done at (clinical bio-chemistry) laboratory medicine division at NIH year
+[727] new = old: Investigations done at (haematology and clinical pathology) laboratory medicine division at NIH
+[728] new = old: Research Proposals completed as part of PG Programme at National Institute of Unani Medicine, Bangalore
+[729] new = old: State-wise and Sex-wise AYUSH (Ayurveda, Naturopathy, Unani, Siddha and Homoeopathy) registered practitioners (Doctors)
+[730] new = old: State-wise distribution of AYUSH (Ayurveda, Yoga, Naturopathy, Unani, Siddha, Sowa-Rigpa and Homoeopathy) hospitals, beds and dispensaries
+[731] new = old: State-wise distribution of Post Graduate AYUSH colleges and their admission capacity
+[732] new = old: State-wise distribution of Under Graduate AYUSH colleges and their admission capacity
+
+== OWNER: Ministry of Coal
+[733] new = old: Coal/Lignite Production and Dispatch (CIL and its subsidiaries, SCCL, NLCIL, Captive & Others)
+[734] new = old: Coal/Lignite Production and Dispatch (CIL,SCCL,NLCIL)
+
+== OWNER: Ministry of Culture
+[735] new = old: Cultural Function and Production Grant (CFPG)
+[736] new = old: Festival of India
+[737] new = old: Financial Assistance for Allied Cultural Activities Dataset
+[738] new = old: Financial Assistance for Development of Buddhist/Tibetan Arts and Culture
+[739] new = old: Financial Assistance for Preservation and Development of Cultural Heritage of the Himalayas
+[740] new = old: Financial Assistance for Tagore Cultural Complexes (TCC)
+[741] new = old: Grants-in-aid to Indo-Foreign Friendship Cultural Societies
+[742] new = old: Junior Fellowship Scheme
+[743] new = old: Museum Grant Scheme
+[744] new = old: Repertory Grant Scheme
+[745] new = old: Scheme for Promotion of Culture of Science (SPOCS)
+[746] new = old: Senior Fellowship Scheme Data
+[747] new = old: Senior/Young Artist Scheme
+
+== OWNER: Ministry of Defence
+[748] new = old: Advanced Demolition Device Products of DRDO
+[749] new = old: Aircraft Mounted Accessory Gearbox for LIGHT COMBAT AIRCRAFT TEJAS
+[750] new = old: Annual Budget for Different Technology Cluster of DRDO
+[751] new = old: Armament Products
+[752] new = old: Books procured by DRDO laboratories
+[753] new = old: Breakup of Orders executed Against Research and Development Cost for Various Disciplines
+[754] new = old: Budgetary allocations to technological areas
+[755] new = old: Combat Vehicles Product of DRDO
+[756] new = old: Defence Production and Export
+[757] new = old: Defence Science Journal (DSJ)
+[758] new = old: DESIDOC Journal of Library & Information Technology
+[759] new = old: DRDO in Parliament
+[760] new = old: Electrical-Optical Sensors for Target Acquisition
+[761] new = old: Electro-Optical Instruments for Arjun MK-II
+[762] new = old: Electro-optical Sensors for Airborne Application
+[763] new = old: High Precision Aircraft Bearings for LIGHT COMBAT AIRCRAFT- TEJAS
+[764] new = old: Hydraulic and Lubrication Filters for Combat Vehicles from DRDO
+[765] new = old: Image Intensification Based Devices from DRDO
+[766] new = old: Manpower details in DRDO
+[767] new = old: Microwave Power Module for Electronics Warfare from DRDO
+[768] new = old: Power Take-off Shaft for LIGHT COMBAT AIRCRAFT-TEJAS
+[769] new = old: Project portfolios of DRDO
+[770] new = old: Pulsed Coupled Cavity Traveling-Wave Tube (TWT) from DRDO
+[771] new = old: Reserved Category Human Resource Pool of DRDO
+[772] new = old: Rotary and Wankel type Engine
+[773] new = old: Technology Developments from DRDO in the fields of Electronics and Computer Sciences (ECS)
+[774] new = old: Thermal Imaging Products of DRDO
+
+== OWNER: Ministry of Electronics and Information Technology (MeitY)
+[775] new = old: Aadhaar Enrolment and Update Data
+[776] new = old: Actual and Estimated Budget
+[777] new = old: Annual Report
+[778] new = old: Biometric Device Performance
+[779] new = old: Budget Provisions For The Financial Year
+[780] new = old: Copyrights for Softwares Developed under DeitY Funding
+[781] new = old: District Wise Community Service Centers(CSC) Roll out and Connectivity
+[782] new = old: Electronics and IT Exports
+[783] new = old: Electronics and IT Production
+[784] new = old: eTaal- Electronic Transaction Aggregation and Analysis Layer
+[785] new = old: MeitY Startup Hub
+[786] new = old: Modified Special Incentive Package Scheme (M-SIPS)
+[787] new = old: Patents Granted Under Research and Development Funding of DeitY
+[788] new = old: Startup Hub
+[789] new = old: State Wide Area Network (SWAN) Poin of Presence (PoP)
+
+== OWNER: Ministry of External Affairs
+[790] new = old: Passport Seva
+
+== OWNER: Ministry of Health and Family Welfare
+[791] new = old: Maximum & Minimum Performing Public Health Facilities on Selected Data Items
+
+== OWNER: Ministry of Heavy Industries and Public Enterprises
+[792] new = old: Excise duty concession certificate to physically handicapped persons
+[793] new = old: Export Performance of CPSEs under DHI
+[794] new = old: General Information about CPSEs under DHI
+[795] new = old: Inputs sanctioned by the Govt. for revival / Re-structuring of CPSEs under DHI
+[796] new = old: Paid up capital, net worth and accumulated profit /loss of the CPSEs under DHI
+[797] new = old: Production Performance of CPSEs under DHI
+[798] new = old: PSE wise Salary and Wage & Social overheads as % of turnover of CPSEs under DHI
+[799] new = old: Public Grievances of CPSEs under DHI
+[800] new = old: Status of RTI Applications and Appeals
+
+== OWNER: Ministry of Information and Broadcasting
+[801] new = old: 12th Five Year Plan
+[802] new = old: Country wise Certified Foreign Feature Films (Digital)
+[803] new = old: Details of Operational Channel list
+[804] new = old: Indian Panorama
+[805] new = old: National Film Awards
+[806] new = old: Operational Community Radio Stations
+[807] new = old: Region and Language wise Certified Indian Feature Films (Celluloid)
+[808] new = old: Region and Language wise Certified Indian Feature Films (Digital)
+[809] new = old: Revised Scheme-wise Budgetary Support for XII Plan (2012-17)
+[810] new = old: Thematic Classification of certified Indian Feature Films (Celluloid)
+[811] new = old: Thematic Classification of Certified Indian Feature Films (Digital)
+[812] new = old: Thematic Classification of Foreign Feature Films (Digital) certified
+
+== OWNER: Ministry of Labour and Employment
+[813] new = old: Demographic Data of Unorganised Workers registered on eShram portal
+[814] new = old: eShram Registrations
+[815] new = old: Labour Welfare Scheme Health under Directorate General Labour Welfare (MoLE)
+[816] new = old: National Career Service (NCS)
+[817] new = old: National Career Service Centre for SC/STs
+[818] new = old: Quarterly Employment Survey (QES)
+
+== OWNER: Ministry of Law and Justice
+[819] new = old: All India Advocate List
+[820] new = old: Court Cases through Legal Information Management and Briefing System
+[821] new = old: Development of Infrastructure Facilities for Districts and Subordinate Judiciary Scheme
+[822] new = old: Employee Statistics of Department of Legal Affairs
+[823] new = old: Fast Track Special Courts Scheme
+[824] new = old: References Received from various Ministries /Departments of the Central Government Seeking Legal Advice from Department of Legal Affairs
+[825] new = old: References received from various Ministries/Departments seeking legal advice from Department of Legal Affairs
+[826] new = old: State-wise List of Notaries Appointed by the Central Government
+[827] new = old: Tele-Law Program under Designing Innovative Solution for Holistic Access to Justice (DISHA)
+
+== OWNER: Ministry of New and Renewable Energy
+[828] new = old: Commissioned Grid Solar Power Projects
+[829] new = old: Estimated Renewable Energy Potential
+[830] new = old: Ministry of New And Renewable Energy Cumulative Achievements
+[831] new = old: Net Exported Power - Summary Phase I, Migration
+[832] new = old: Net Exported Solar Power - Summary of Phase I, Batch I
+[833] new = old: Net Exported Solar Power - Summary of Phase I, Batch II
+[834] new = old: Net Exported Solar Power-Summary Batch I
+[835] new = old: Net Exported Solar Power-Summary Batch II
+[836] new = old: Net Exported Solar Power-Summary Migration
+[837] new = old: Net Exported Solar Power-Summary Phase I, RPSSGP
+[838] new = old: Net Exported Solar Power-Summary RPSSGP
+[839] new = old: Physical Targets And Achievement During The 11th Plan
+[840] new = old: State Wise Numbers And Aggregate Capacity Of SHP Projects (Upto 25 MW)
+[841] new = old: State-wise Cumulative Installation of SPV Systems
+[842] new = old: State-wise Installed Capacity of Grid Interactive Renewable Power
+[843] new = old: State-wise Potential of Various Renewable Energy Technologies
+
+== OWNER: Ministry of Panchayati Raj
+[844] new = old: Allocation and Fund Release under BRGF
+[845] new = old: Basic Computer Course Training NIELIT formerly known as DOEACC
+[846] new = old: Local Government Directory (LGD)
+[847] new = old: Number of Accounting Units onboard
+[848] new = old: Panchayat Awards Data
+[849] new = old: Panchayat Finance
+[850] new = old: People Plan Campaign Planning Data
+[851] new = old: Release of Funds to States under e-Panchayat MMP
+[852] new = old: Survey of Villages Abadi and Mapping with Improvised Technology in Village Areas (SVAMITVA)
+
+== OWNER: Ministry of Personnel
+[853] new = old: CPGRAM Nodal Public Grievance Officers Details
+[854] new = old: Department-wise receipts, disposal and pendency of Public Grievance detailed statistics
+[855] new = old: Details of registered users of CPGRAMS
+[856] new = old: Monthly Department-wise public grievance receipts and disposals
+
+== OWNER: Ministry of Skill Development And Entrepreneurship
+[857] new = old: MSDE - Jan Shikshan Sansthan
+[858] new = old: MSDE - National Promotion Apprenticeship Scheme (NAPS)
+[859] new = old: MSDE - Pradhan Mantri Kaushal Vikas Yojana (PMKVY)
+
+== OWNER: Ministry of Social Justice and Empowerment
+[860] new = old: Indian Sign Language Dictionary
+[861] new = old: Unique Disability ID (UDID)
+
+== OWNER: Ministry of Steel
+[862] new = old: Production, Consumption, Import and Export Data of Steel
+[863] new = old: Steel Companies Financials
+[864] new = old: Time Series Data on Crude Steel Production and Capacity Utilization by Steel Industry
+[865] new = old: Time Series Data on Production of Pig Iron and Sponge Iron in Steel Industry
+[866] new = old: Time Series Data on Production, Export, Import and Consumption of Finished Steel Items
+[867] new = old: Time Series Data on Route-wise Production
+
+== OWNER: Ministry of Textiles
+[868] new = old: Cotton Production and Consumption - Textiles
+[869] new = old: Silk Data
+
+== OWNER: Ministry of Tribal Affairs
+[870] new = old: Data pertaining to Scheduled Tribes of India
+
+== OWNER: Mizoram / Information and Communication Technology Department, Mizoram
+[871] new = old: Citizen Centric e-Services in Mizoram
+[872] new = old: List of Common Service Center (CSC)
+[873] new = old: List of Police Station
+[874] new = old: Livestock Census in Mizoram
+[875] new = old: Members of Mizoram Legislative Assembly
+[876] new = old: Vehicles registered in Mizoram
+
+== OWNER: Odisha / Information Technology Department, Odisha
+[877] new = old: Ambient Air Quality Data of Odisha
+[878] new = old: District wise forest cover in Odisha
+[879] new = old: District wise list of Colleges in Odisha
+[880] new = old: District-wise crime cases (IPC and SLL) reported in Odisha
+[881] new = old: List of departments in Govt of Odisha
+[882] new = old: Primary Census Abstract of Odisha
+
+== OWNER: Punjab / Planning Department, Punjab
+[883] new = old: Accidents according to class of Vehicle involved in Punjab
+[884] new = old: Accidents in Factories of Punjab
+[885] new = old: Agricultural Workers & Total Workers in Punjab
+[886] new = old: Air Polluting Industries in Punjab
+[887] new = old: All India Index Numbers of Wholesale Prices
+[888] new = old: Amount of Grants and Loans disbursed to the various Village Industries in Punjab by Khadi & Village Industries Board
+[889] new = old: Annual Building Construction Cost index for Punjab
+[890] new = old: Annual Construction Cost Index for Punjab state
+[891] new = old: Annual forest planting of major species in Punjab
+[892] new = old: Area and Plots in Industrial Focal Points in Punjab
+[893] new = old: Area and Production of Different Fruits in Punjab
+[894] new = old: Area of Forest under Control of the Forest Department in Punjab
+[895] new = old: Area protected against fire and cattle grazing in Punjab
+[896] new = old: Area under different Vegetables Cultivation in Punjab
+[897] new = old: Area under Food and Non Food Crops Cultivation during Kharif and Rabi season in Punjab
+[898] new = old: Area, Population, Income, Expenditure and Zila Parishads in Punjab
+[899] new = old: Area, Production and Yield of Food Grains Cultivation in Punjab
+[900] new = old: Average Retail Prices of selected commodities in Punjab
+[901] new = old: Average Revenue per Unit Sold and Per Consumer in Punjab
+[902] new = old: Banking Development in Punjab
+[903] new = old: Banking Offices
+[904] new = old: Classification of area in Punjab
+[905] new = old: Classification of Loans advanced by Punjab Backward Classes Land Development and Finance Corporation
+[906] new = old: Classification of Loans and Advances (Sanctioned) by the Punjab Financial Corporation
+[907] new = old: Consumer Price Index for Agricultural Labourers in the Punjab
+[908] new = old: Consumer Price Index for Industrial Workers at Amritsar,Ludhiana & Jalandhar
+[909] new = old: Consumption of Chemical Fertilizers in Punjab
+[910] new = old: Consumption of Petroleum Products in Punjab
+[911] new = old: Convicts by age, sex and literacy in Punjab
+[912] new = old: Convicts classified as "Habituals" admitted into Punjab jails
+[913] new = old: Cotton Textiles Mills, Spindles and Looms in Punjab
+[914] new = old: Crop wise Gross Irrigated Area in Punjab
+[915] new = old: Daily Kilometre Allotted to Bus Operators in Punjab
+[916] new = old: Deep Tubewells installed by Punjab Water Resources Management and Development Corporation Limited
+[917] new = old: Distribution of trade union according to their membership size in Punjab
+[918] new = old: District and Area-wise State Public Medical Institutions in Punjab
+[919] new = old: District wise Annual Average Rainfall in Punjab
+[920] new = old: District wise Focal Points in Punjab
+[921] new = old: District wise No. of Blocks, Area, Villages and Population in Punjab
+[922] new = old: District-wise and Area wise State Special Medical Institutions in the Punjab State
+[923] new = old: District-wise Area, Population and Population Density in Punjab
+[924] new = old: District-wise Artificial Insemination Development Centers in Punjab
+[925] new = old: District-wise Ayurvedic, Unani and Homeopathic Institutions in Punjab
+[926] new = old: District-wise Buffaloes in Punjab
+[927] new = old: District-wise Co-Operative Societies, Membership, Working Capital, Loan Advanced and Banks in Punjab
+[928] new = old: District-wise Cross Breeds in Punjab
+[929] new = old: District-wise Decadal Sex ratio in Punjab
+[930] new = old: District-wise Desi Cows in Punjab
+[931] new = old: District-wise Disbursements under Annual Credit Plan in Punjab
+[932] new = old: District-wise Dropout Ratio in Schools of Punjab
+[933] new = old: District-wise Fisheries Statistics in Punjab
+[934] new = old: District-wise Gross Enrollment Ratio GER in Schools of Punjab
+[935] new = old: District-wise Horses and Ponies, Mules and Donkeys in Punjab
+[936] new = old: District-wise Industrial training institutions and their actual intake in Punjab
+[937] new = old: District-wise Livestock and Poultry Statistics in Punjab
+[938] new = old: District-wise Market Arrivals of Food Grains and Non-Food Grains in Punjab
+[939] new = old: District-wise market arrivals of important crops
+[940] new = old: District-wise Medical Termination of Pregnancies in Punjab
+[941] new = old: District-Wise Number of Accounts for Outstanding Credit of Scheduled Commercial Banks for various Occupation Classification in Punjab
+[942] new = old: District-wise Number of Industrial training institutes and their actual intake in Punjab
+[943] new = old: District-wise number of patients affected by different diseases in Punjab
+[944] new = old: District-wise Number of Scheduled Caste Students in Institutions of Punjab
+[945] new = old: District-wise Number of Students in institutions of Punjab
+[946] new = old: District-wise Outstanding Credit of Scheduled Commercial Bank for various Occupation Classification in Punjab
+[947] new = old: District-wise Pigs and Dogs in Punjab
+[948] new = old: District-wise Places of Confinement in Punjab
+[949] new = old: District-wise Population by Religion in Punjab
+[950] new = old: District-wise Population Served per Institution and Bed, Area Covered per Institution and Bed in Punjab
+[951] new = old: District-wise Population Served per Medical and Para Medical Personnel in Punjab
+[952] new = old: District-wise Population, Area, Membership, Income & Expenditure of Municipal Committees/ Corporations in Punjab
+[953] new = old: District-wise Poultry in Punjab
+[954] new = old: District-wise progress of Family Welfare Programme in Punjab
+[955] new = old: District-wise Ranking of Population and its Percentage in Punjab
+[956] new = old: District-wise Recognized Institutions in Punjab
+[957] new = old: District-wise Recognized Slaughter Houses and Animals Slaughtered there in Punjab
+[958] new = old: District-wise Registered Medical and Para Medical Personnel in Punjab
+[959] new = old: District-wise Registration Offices and Statistics of Immovable & Movable Property in Punjab
+[960] new = old: District-wise regulated markets in Punjab
+[961] new = old: District-wise Rural and Urban Child Population (0-6 years) and their sex ratio in Punjab
+[962] new = old: District-wise Rural and Urban Population by Sex in Punjab
+[963] new = old: District-wise Rural and urban Scheduled Castes Population in Punjab
+[964] new = old: District-wise Scheduled Caste Students in Schools of Punjab
+[965] new = old: District-wise Scheduled Castes Population and their Literacy Rate in Punjab
+[966] new = old: District-wise Sheep, Goats and Camels in Punjab
+[967] new = old: District-wise Stage wise Teacher-Pupil Ratio
+[968] new = old: District-wise Students in Institutions of Punjab
+[969] new = old: District-wise Students in Schools of Punjab
+[970] new = old: District-wise Teachers in Institutions of Punjab
+[971] new = old: District-wise Teachers in Schools of Punjab
+[972] new = old: District-wise Veterinary Institutions and their staff in Punjab
+[973] new = old: District-wise work done in Veterinary Institutions of Punjab
+[974] new = old: District-wise Workers and Non-workers by Sex in Punjab
+[975] new = old: District/Area-wise Sanctioned Beds in State Public Medical Institutions and in State Special Public Medical Institutions in Punjab
+[976] new = old: Districtwise Number of Electric Consumers
+[977] new = old: Employment in forestry in Punjab
+[978] new = old: Expenditure of Municipalities/ Corporations in Punjab
+[979] new = old: Expenditure of Zila Parishads in Punjab
+[980] new = old: Export of Principal Items from Industrial Sector in Punjab
+[981] new = old: Factories and Workers Employed
+[982] new = old: Government Employees in Punjab
+[983] new = old: Government expenditure on rural development programme in Punjab by major heads
+[984] new = old: Gross Installed Capacity and Electricity Generated in Punjab
+[985] new = old: Gross State Domestic Capital Formation by Industry of use in Punjab at Constant Prices
+[986] new = old: Gross State Domestic Capital Formation by Industry of use in Punjab at Current Prices & its Percentage
+[987] new = old: Gross State Domestic Capital Formation by type of Assets in Punjab at Constant Prices
+[988] new = old: Gross State Domestic Capital Formation by type of Assets in Punjab at Current Prices
+[989] new = old: Gross State Value Added by Sectors in Punjab at Constant Prices
+[990] new = old: Gross State Value Added by Sectors in Punjab at Current Prices
+[991] new = old: Gross, Net and Per Capita Net State Domestic Product in Punjab
+[992] new = old: Growth of Employment in the Organised Sector in Punjab
+[993] new = old: Hottest and Coldest places in Punjab
+[994] new = old: Incentives to the Large and Small Scale Industrial Units under various State Govt.Industrial Policies
+[995] new = old: Incidence of crimes in Punjab
+[996] new = old: Incidence of crimes in Punjab against SC ST
+[997] new = old: Income and Expenditure of Red Cross Societies in Punjab
+[998] new = old: Income of Municipalities/Corporations in Punjab
+[999] new = old: Index of Production of Selected Industrial items
+[1000] new = old: Industrial disputes in Punjab
+[1001] new = old: Industrial disputes resulting in strikes and lockouts by different causes in Punjab
+[1002] new = old: Inward and Outward Consignment of Selected Commodities in Punjab
+[1003] new = old: Loans advances by the Punjab Scheduled Castes Land Development & Finance Corporation to the Scheduled Castes in Punjab
+[1004] new = old: Loans received and houses constructed by Punjab Urban Planning and Development Authority
+[1005] new = old: Major forest produce in Punjab State Forest only
+[1006] new = old: Membership, Income and Expenditure of Improvement Trusts in Punjab
+[1007] new = old: Mini/Micro Hydel Projects in Punjab
+[1008] new = old: Minor forest produce in Punjab State Forest only
+[1009] new = old: Murder, kidnapping, abduction, dacoity and robbery cases in Punjab
+[1010] new = old: Net State Value Added by Sectors in Punjab at Constant Prices
+[1011] new = old: Net State Value Added by Sectors in Punjab at Current Prices
+[1012] new = old: Net/Gross Irrigated Area in Punjab by Source
+[1013] new = old: Newspapers,periodicals and books published in Punjab
+[1014] new = old: No. of Solar System Installed in Punjab
+[1015] new_catalog_title: Non-agricultural own account enterprises by major activity groups in Punjab
+      old_catalog_title (2):
+        - Non-Agricultural Own Account Enterprises by major activity groups in Punjab
+        - Non-agricultural own account enterprises by major activity groups in Punjab
+[1016] new = old: Number of Domestic Electric Connections and Total Household
+[1017] new = old: Number of Enterprises and Persons usually working in Punjab (Rural & Urban) of 1980,1998,2005 and 2013)
+[1018] new = old: Number of Non-agricultural Establishment and persons usually working as in Economic Census (1977,1980, 1990,1998,2005 and 2013) in Punjab
+[1019] new = old: Number of Operational Holdings by Size group in Punjab
+[1020] new = old: Number of Prisoners by Class in Punjab
+[1021] new = old: Number of Un-Employeed Educated and Un-educated applicants in punjab
+[1022] new = old: Number of Un-Employeed Skilled and Un-skilled applicants in punjab
+[1023] new = old: Party Affiliation of the Registered Trade Union in Punjab
+[1024] new = old: Pending Applications for Electric Connections by Uses in Punjab
+[1025] new = old: Per Capita Annual Earning of Workers in Punjab
+[1026] new = old: Per Capita Sale of Electricity in Punjab
+[1027] new = old: Percentage Distribution of Gross State Value Added by Sectors in Punjab at Constant Prices
+[1028] new = old: Percentage Distribution of Gross State Value Added by Sectors in Punjab at Current Prices
+[1029] new = old: Percentage Distribution of Net State Value Added by Sectors in Punjab at Constant Prices
+[1030] new = old: Performance of Pepsu Road Transport Corporation
+[1031] new = old: Performance of Punjab Punbus (Commercial Wing)
+[1032] new = old: Performance of Punjab Roadways (Commercial Wing)
+[1033] new = old: Permit Position by Category of Vehicles in Punjab
+[1034] new = old: Persons on the Live-Register of Employment Exchanges in Punjab
+[1035] new = old: Persons on the Live-Register of employment exchanges in Punjab(profession-wise)
+[1036] new = old: Persons prosecuted under murder, kidnapping, abduction, dacoity and robbery cases in Punjab
+[1037] new_catalog_title: Plants Planted in Punjab
+      old_catalog_title (2):
+        - Plants Planted in Punjab
+        - Plants planted in Punjab
+[1038] new = old: Post Offices & Telephone Exchanges
+[1039] new = old: Post Offices & Telephone Exchanges Statistics
+[1040] new = old: Posts advertised and candidates recommended by the Punjab Public Service Commission
+[1041] new = old: Printing presses in Punjab
+[1042] new = old: Priority Sector Advances to Agriculture Sector by Scheduled Commercial Banks in Punjab
+[1043] new = old: Procurement of Important crops by different agencies
+[1044] new = old: Production and Employment of Manufacturing Industries
+[1045] new = old: Production and Employment of Selected Industries in Punjab
+[1046] new = old: Production and Value of Cotton Khadi in Punjab
+[1047] new = old: Production of Yarn, Cloth and Average Daily Employment in cotton Textiles Mills
+[1048] new_catalog_title: Production, Sale and Employment in Village Industries
+      old_catalog_title (2):
+        - Production, Sale and Employment in Village Industries
+        - Production,Sale and Employment in village industries in Punjab
+[1049] new = old: Progress of jail industries in Punjab
+[1050] new = old: Protected Area Network in Punjab
+[1051] new = old: Railway Route Length
+[1052] new = old: Red Cross Branches and their Membership, Junior and Senior Red Cross Groups and their Membership and First Aid Posts run by Red Cross Society in Punjab
+[1053] new = old: Registered Dealers and Tax Realised in Punjab
+[1054] new = old: Registered Working Factories and Workers Employed
+[1055] new = old: Registration and Placements by Employment Exchanges in Punjab
+[1056] new = old: Representation of Punjab Government Employees
+[1057] new = old: Revenue Collection under State Excise Act in Punjab
+[1058] new = old: Revenue Position of Punjab at a Glance
+[1059] new = old: Riverwise Annual Average concentration of B.O.D, C.O.D, D.O, and coliforms in Punjab
+[1060] new = old: Road Accidents in Punjab
+[1061] new = old: Road length maintained by Public Works Department (B&R)
+[1062] new = old: Road length Per unit of area and population and Villages linked with Roads
+[1063] new = old: Sale of Cotton Khadi in Punjab
+[1064] new = old: Sale of Electricity by uses in Punjab
+[1065] new = old: Sale of Electricity per Consumer
+[1066] new = old: Sale of Power
+[1067] new = old: Sanctioned strength of civil police by categories as on 31st March
+[1068] new = old: Scheme-wise Financial and Physical Progress of Supplementary Nutrition Programme in Punjab
+[1069] new = old: Schemewise Financial and Physical Progress in Punjab
+[1070] new = old: Schools covered under National Green Corps Programme in Punjab
+[1071] new = old: Selected Economic Indicator in Punjab (Rural Area)
+[1072] new = old: Selected Information relating to Large/Medium Industries
+[1073] new = old: Selected Information relating to working Small Scale Industries
+[1074] new = old: Semi Government Employees Working in different Enterprises in Punjab
+[1075] new = old: Small Savings: Targets, Net Receipts and Award Money Received
+[1076] new = old: Solid waste collected and treated in Punjab
+[1077] new = old: State Budget-Capital Account Expenditure
+[1078] new = old: State Budget-Capital Accounts Receipts
+[1079] new = old: State Budget-Expenditure on Revenue Account
+[1080] new = old: State Budget-Overall Budgetary Position
+[1081] new = old: State Budget-Receipt on Revenue Account
+[1082] new = old: State Carriage Permits/ Buses held by different Category of Operators in Punjab
+[1083] new = old: State Index of Industrial Production
+[1084] new = old: Statistics of all type of Co-Operative Societies in Punjab
+[1085] new = old: Statistics of Index Number of Agricultural Production and Percentage contribution of Agriculture to Total State income in Punjab
+[1086] new = old: Statistics of Livestock,Animal Husbandry and Dairying
+[1087] new = old: Statistics of Marketing and Storage of Punjab
+[1088] new = old: Statistics regarding Panchayats in Punjab
+[1089] new = old: Technical Training Institutions and Seats available in Punjab
+[1090] new = old: Towns,shops,commercial establishments,hotels and restaurants and persons employed therein
+[1091] new = old: Trade union under the trade unions act,1926 in Punjab
+[1092] new = old: Tubewells Energised/Operated in Punjab
+[1093] new = old: Tubewells in Punjab
+[1094] new = old: Unemployed according to qualification in Punjab
+[1095] new = old: Uni-lingual books published in different Indian and other Asian languages in Punjab
+[1096] new = old: Utilisation of MPLAD Scheme funds and detail of works-15th lok sabha MPs
+[1097] new = old: Utilisation of MPLAD Scheme funds and detail of works-16th lok sabha MPs
+[1098] new = old: Utilisation of MPLAD Scheme funds and detail of works-Since inception of scheme
+[1099] new = old: Utilisation of MPLAD Scheme funds and detail of works-sitting rajya sabha MPs (upto 31-12-2022)
+[1100] new = old: Villages covered under Vermi Compost Technology in Punjab
+[1101] new_catalog_title: Villages/Towns affected, Human Lives and Cattle lost due to Floods
+      old_catalog_title (2):
+        - Villages/Towns Affected, Human Lives and Cattle lost due to Floods
+        - Villages/Towns affected, Human Lives and Cattle lost due to Floods
+[1102] new = old: Vital Statistics of Medical and Health in Punjab
+[1103] new = old: Vocational Guidance Programme at Employment Exchanges in Punjab
+[1104] new = old: Wages paid to agricultural and skilled labourers(Men) in punjab
+[1105] new = old: Wagons loaded with important Commodities on Broad Gauge
+[1106] new = old: Water Polluting Industries in Punjab
+[1107] new = old: Wetlands and Area Covered under Conservation Programme in Punjab
+[1108] new = old: Working of Small Scale Industries
+[1109] new = old: Yearwise Consumer Price Index Number for the Working Class in Punjab

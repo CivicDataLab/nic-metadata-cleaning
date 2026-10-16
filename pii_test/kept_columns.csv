@@ -1,0 +1,7 @@
+lot,uuid_prefix,column,holds
+2,f26b2921,enumerator_name,field staff names
+2,bd9bdf79,individual_owner_name,scheme owners' names
+2,b7803577,Name Beneficiary,beneficiaries' names (single-word names)
+2,a54c9ed9,Allegation in Brief,people named in the allegation text
+2,8d7d991e,Unnamed: 25,PAN numbers
+3,492f1bd5,ADDRESS,a person named in the address

@@ -1,0 +1,436 @@
+{
+ "batch": "N4",
+ "collections": {
+  "State/UT & City-wise Burglary (Sec.449-452, 454, 455, 457-460 IPC) Cases reported and Value of Property Stolen by Place of Occurrence (schema 1)": {
+   "nids": [
+    "5291701",
+    "5295101",
+    "5298461",
+    "5316081",
+    "5312681"
+   ],
+   "groups": {
+    "G702": [
+     "5291701",
+     "5295101",
+     "5298461"
+    ],
+    "G703": [
+     "5316081"
+    ],
+    "G704": [
+     "5312681"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State/UT & City-wise Incidence of Cases Registered under Cyber Crimes during 2002 & 2003 and percentage Variation (schema 1)": {
+   "nids": [
+    "5848701",
+    "5695961",
+    "5699221",
+    "5313981",
+    "5317361",
+    "5292981"
+   ],
+   "groups": {
+    "G705": [
+     "5695961",
+     "5699221",
+     "5313981"
+    ],
+    "G706": [
+     "5317361",
+     "5292981"
+    ],
+    "G707": [
+     "5848701"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State/UT & City-wise Incidence of Cyber Crimes Cases Registered (Offences under IPC) (schema 1)": {
+   "nids": [
+    "5317481",
+    "5314101",
+    "5293101",
+    "5296501",
+    "5299861"
+   ],
+   "groups": {
+    "G708": [
+     "5293101",
+     "5296501",
+     "5299861"
+    ],
+    "G709": [
+     "5317481"
+    ],
+    "G710": [
+     "5314101"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State/UT and Cause-wise Distribution of Railway Accidents (schema 1)": {
+   "nids": [
+    "6863206",
+    "1917381",
+    "6722450",
+    "6748905",
+    "6748947",
+    "7277036"
+   ],
+   "groups": {
+    "G711": [
+     "1917381",
+     "6722450",
+     "6748905",
+     "6748947"
+    ],
+    "G712": [
+     "6863206"
+    ],
+    "G713": [
+     "7277036"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State/UT, City and Age Group-wise Victims of Incest Rape, Other Rape and Total Rape Cases (Sec. 376 IPC)": {
+   "nids": [
+    "5315141",
+    "5290761",
+    "5294161",
+    "5297521",
+    "5300901"
+   ],
+   "groups": {
+    "G714": [
+     "5315141",
+     "5290761",
+     "5294161",
+     "5297521",
+     "5300901"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State/UT-wise Disposal of Persons Arrested under IPC Crimes by Courts (schema 2)": {
+   "nids": [
+    "6749390",
+    "6750704",
+    "6749387",
+    "6750701",
+    "6749389",
+    "6750703",
+    "6749302",
+    "6750620",
+    "6854724",
+    "4227061",
+    "6854670"
+   ],
+   "groups": {
+    "G715": [
+     "6749387",
+     "6750701"
+    ],
+    "G716": [
+     "6749389",
+     "6750703"
+    ],
+    "G717": [
+     "6749302",
+     "6750620"
+    ],
+    "G718": [
+     "6749390",
+     "6750704"
+    ],
+    "G719": [
+     "4227061"
+    ],
+    "G720": [
+     "6854724"
+    ],
+    "G721": [
+     "6854670"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State/UT-wise Incidence of Crime under Railways Act from 2003 to 2005 and Percentage Variation (schema 1)": {
+   "nids": [
+    "5699421",
+    "5314201",
+    "5317541",
+    "5293221",
+    "5296581",
+    "5299941"
+   ],
+   "groups": {
+    "G722": [
+     "5699421",
+     "5314201",
+     "5317541",
+     "5293221",
+     "5296581",
+     "5299941"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State/UT-wise Incidence of IPC Crimes Reported by GRP": {
+   "nids": [
+    "5699401",
+    "5314161",
+    "5314181",
+    "5293161",
+    "5293181"
+   ],
+   "groups": {
+    "G723": [
+     "5699401",
+     "5314161",
+     "5314181"
+    ],
+    "G724": [
+     "5293161",
+     "5293181"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State/UT-wise Incidence of Total IPC Crimes Reported by GRP from 2003 to 2005 and Percentage Variation (schema 1)": {
+   "nids": [
+    "5699381",
+    "5314141",
+    "5317521",
+    "5293141",
+    "5296541"
+   ],
+   "groups": {
+    "G725": [
+     "5317521",
+     "5293141",
+     "5296541"
+    ],
+    "G726": [
+     "5699381",
+     "5314141"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State/UT-wise Information on Police Housing (schema 1)": {
+   "nids": [
+    "5852161",
+    "5845261",
+    "5848581",
+    "5695841",
+    "5699101"
+   ],
+   "groups": {
+    "G727": [
+     "5852161",
+     "5845261",
+     "5695841"
+    ],
+    "G728": [
+     "5848581"
+    ],
+    "G729": [
+     "5699101"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State/UT-wise Information on Police Housing (schema 2)": {
+   "nids": [
+    "5313841",
+    "5317241",
+    "5292861",
+    "5296261",
+    "5299621"
+   ],
+   "groups": {
+    "G730": [
+     "5313841",
+     "5292861",
+     "5296261",
+     "5299621"
+    ],
+    "G731": [
+     "5317241"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State/UT-wise Juveniles Apprehended under IPC Crimes by Age Group & Sex (schema 3)": {
+   "nids": [
+    "5851301",
+    "5844381",
+    "5847721",
+    "5851321",
+    "5844401",
+    "5847741"
+   ],
+   "groups": {
+    "G732": [
+     "5851301",
+     "5844381"
+    ],
+    "G733": [
+     "5851321",
+     "5844401"
+    ],
+    "G734": [
+     "5847721"
+    ],
+    "G735": [
+     "5847741"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State/UT-wise Unidentified Dead Bodies Recovered and Inquest Conducted": {
+   "nids": [
+    "5849921",
+    "5842681",
+    "5846041",
+    "5693321",
+    "5696601",
+    "5311321",
+    "5290341",
+    "5293741",
+    "5314721"
+   ],
+   "groups": {
+    "G736": [
+     "5849921",
+     "5842681",
+     "5846041",
+     "5693321",
+     "5696601",
+     "5311321",
+     "5290341",
+     "5293741"
+    ],
+    "G737": [
+     "5314721"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State/UT/City and Cause-wise Distribution of Road Accidents and Unmanned Railway Crossing Accidents (schema 1)": {
+   "nids": [
+    "6863202",
+    "1917741",
+    "6722446",
+    "6748901",
+    "6748943",
+    "7277031"
+   ],
+   "groups": {
+    "G738": [
+     "1917741",
+     "6722446",
+     "6748901",
+     "6748943"
+    ],
+    "G739": [
+     "6863202"
+    ],
+    "G740": [
+     "7277031"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State/UT/City-wise Cases Reported and Persons Injured & Died due to Traffic Accidents (schema 1)": {
+   "nids": [
+    "6863097",
+    "6722439",
+    "1917401",
+    "6748894",
+    "6748936",
+    "7277024"
+   ],
+   "groups": {
+    "G741": [
+     "1917401",
+     "6748894",
+     "6748936"
+    ],
+    "G742": [
+     "6863097"
+    ],
+    "G743": [
+     "6722439"
+    ],
+    "G744": [
+     "7277024"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State/UT/City-wise Percentage Variation of Accidental Deaths due to Forces of Nature, Other Causes and Total Accidental Deaths (schema 1)": {
+   "nids": [
+    "603005976",
+    "6863086",
+    "6722429",
+    "6748884",
+    "7277013"
+   ],
+   "groups": {
+    "G745": [
+     "603005976"
+    ],
+    "G746": [
+     "6863086"
+    ],
+    "G747": [
+     "6722429"
+    ],
+    "G748": [
+     "6748884"
+    ],
+    "G749": [
+     "7277013"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "Suicides Classified by Means Adopted": {
+   "nids": [
+    "2951861",
+    "2950941",
+    "2922961",
+    "2923741",
+    "2934021",
+    "2947801",
+    "2948781",
+    "2920961",
+    "2920481",
+    "2920081",
+    "2919581"
+   ],
+   "groups": {
+    "G750": [
+     "2951861",
+     "2950941",
+     "2922961",
+     "2923741",
+     "2934021",
+     "2947801",
+     "2948781",
+     "2920961",
+     "2920481",
+     "2920081",
+     "2919581"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  }
+ }
+}

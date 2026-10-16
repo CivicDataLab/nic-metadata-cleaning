@@ -14,6 +14,7 @@ DB_PATH = "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metad
 
 S3_BUCKET = "nic-ogdp-datasets"
 S3_PREFIX = "metadata"  # Base path in S3
+TABLES_TO_UPLOAD = ["remaining-raw-datasets"]  # Only upload these tables
 
 
 def get_s3_client():
@@ -72,11 +73,11 @@ def upload_metadata_to_s3():
     logging.info("Starting metadata export to S3...")
     logging.info("=" * 60)
 
-    # Get list of tables
-    tables = get_tables_from_db()
+    # Use predefined tables to upload
+    tables = TABLES_TO_UPLOAD
 
     if not tables:
-        logging.error("No tables found in database. Exiting.")
+        logging.error("No tables specified for upload. Exiting.")
         return False
 
     # Create temporary directory for parquet files

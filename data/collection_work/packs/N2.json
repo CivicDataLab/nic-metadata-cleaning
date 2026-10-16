@@ -1,0 +1,561 @@
+{
+ "batch": "N2",
+ "collections": {
+  "Crime Head-wise Disposal of Persons Arrested for Crime against Children in Metropolitan Cities (schema 1)": {
+   "nids": [
+    "6749144",
+    "6750460",
+    "4225161",
+    "6749173",
+    "6750490",
+    "6854884"
+   ],
+   "groups": {
+    "G593": [
+     "6749173",
+     "6750490",
+     "6854884"
+    ],
+    "G594": [
+     "6749144",
+     "6750460"
+    ],
+    "G595": [
+     "4225161"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "Crimes under Indian Penal Code (IPC) and Special & Local Laws (SLL)": {
+   "nids": [
+    "6750527",
+    "6749210",
+    "6854755",
+    "6903547",
+    "7275215",
+    "604518412",
+    "603005422"
+   ],
+   "groups": {
+    "G596": [
+     "6854755"
+    ],
+    "G597": [
+     "7275215"
+    ],
+    "G598": [
+     "604518412"
+    ],
+    "G599": [
+     "603005422"
+    ],
+    "G600": [
+     "6750527"
+    ],
+    "G601": [
+     "6749210"
+    ],
+    "G602": [
+     "6903547"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "Disposal of Persons Arrested Under SLL Crimes by Police (schema 3)": {
+   "nids": [
+    "5844661",
+    "5848001",
+    "5313261",
+    "5844741",
+    "5695341"
+   ],
+   "groups": {
+    "G603": [
+     "5844661",
+     "5848001"
+    ],
+    "G604": [
+     "5313261"
+    ],
+    "G605": [
+     "5695341"
+    ],
+    "G606": [
+     "5844741"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "Incidence of Suicides by Means Adopted": {
+   "nids": [
+    "2912841",
+    "2911241",
+    "2910541",
+    "2910001",
+    "2906141",
+    "2905561",
+    "2919181"
+   ],
+   "groups": {
+    "G607": [
+     "2912841",
+     "2911241",
+     "2910541",
+     "2910001",
+     "2906141",
+     "2905561",
+     "2919181"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "Persons Arrested under IPC Crimes during 2000 and Percentage Variation in 2000 over (schema 2)": {
+   "nids": [
+    "5698361",
+    "5316481",
+    "5292101",
+    "5295501",
+    "5302241"
+   ],
+   "groups": {
+    "G608": [
+     "5698361",
+     "5316481",
+     "5292101",
+     "5295501",
+     "5302241"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "Sanctioned & Actual Strength of Civil Police including District Armed Police as on 31.12.1998 (Women only) (schema 1)": {
+   "nids": [
+    "731001",
+    "731021",
+    "732461",
+    "732481",
+    "676041",
+    "676001",
+    "641981"
+   ],
+   "groups": {
+    "G609": [
+     "731001",
+     "732461"
+    ],
+    "G610": [
+     "731021",
+     "732481"
+    ],
+    "G611": [
+     "676001"
+    ],
+    "G612": [
+     "676041"
+    ],
+    "G613": [
+     "641981"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "Sanctioned and Actual Strength of Armed Police as on 31.12.2000 (Men+Women) (State, UT & City -Wise ) (schema 2)": {
+   "nids": [
+    "5699041",
+    "5852061",
+    "5852121",
+    "5845141",
+    "5845201",
+    "5848481",
+    "5848521",
+    "5695741"
+   ],
+   "groups": {
+    "G614": [
+     "5852061",
+     "5845141",
+     "5848481",
+     "5695741"
+    ],
+    "G615": [
+     "5845201",
+     "5848521"
+    ],
+    "G616": [
+     "5699041"
+    ],
+    "G617": [
+     "5852121"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "Sanctioned and Actual Strength of Armed Police as on 31.12.2000 (Men+Women) (State, UT & City -Wise ) (schema 3)": {
+   "nids": [
+    "722941",
+    "723101",
+    "906701",
+    "906721",
+    "1024521",
+    "1024561"
+   ],
+   "groups": {
+    "G618": [
+     "722941",
+     "906701"
+    ],
+    "G619": [
+     "723101",
+     "906721"
+    ],
+    "G620": [
+     "1024521"
+    ],
+    "G621": [
+     "1024561"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "Sanctioned and Actual Strength of Civil Police Including District Armed Police as on 31.12.2000 (Men+Women) (State, UT & City -wise ) (schema 3)": {
+   "nids": [
+    "722661",
+    "722821",
+    "906661",
+    "906681",
+    "1024501",
+    "1024541"
+   ],
+   "groups": {
+    "G622": [
+     "722661",
+     "906661"
+    ],
+    "G623": [
+     "722821",
+     "906681"
+    ],
+    "G624": [
+     "1024501"
+    ],
+    "G625": [
+     "1024541"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State & UT-wise Age-group wise Percentage of Foreign Detenues to Total Foreign Detenues at the end (schema 1)": {
+   "nids": [
+    "3634641",
+    "3631541",
+    "3629301",
+    "3611281",
+    "3512841",
+    "3414301",
+    "3086761",
+    "3391021",
+    "6749041"
+   ],
+   "groups": {
+    "G626": [
+     "3634641",
+     "3631541",
+     "3629301",
+     "3611281",
+     "3512841",
+     "3414301",
+     "3086761"
+    ],
+    "G627": [
+     "3391021"
+    ],
+    "G628": [
+     "6749041"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State & UT-wise Details of Educational Facilities to Prisoners (schema 1)": {
+   "nids": [
+    "3635441",
+    "3632361",
+    "3630101",
+    "3612081",
+    "3513681",
+    "3415261",
+    "3391841",
+    "3087621"
+   ],
+   "groups": {
+    "G629": [
+     "3635441",
+     "3632361",
+     "3630101",
+     "3612081",
+     "3513681",
+     "3415261",
+     "3391841"
+    ],
+    "G630": [
+     "3087621"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State & UT-wise Details of Escapees (schema 1)": {
+   "nids": [
+    "3635341",
+    "3632261",
+    "3630001",
+    "3611981",
+    "3513581",
+    "3415141",
+    "3391741",
+    "3087501"
+   ],
+   "groups": {
+    "G631": [
+     "3635341",
+     "3632261",
+     "3630001",
+     "3611981",
+     "3513581",
+     "3415141",
+     "3391741",
+     "3087501"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State & UT-wise Distribution of Convicts in Jails by Sex and Age-groups at the end (schema 1)": {
+   "nids": [
+    "3634461",
+    "3631361",
+    "3629121",
+    "3611081",
+    "3512661",
+    "3414081",
+    "3390841",
+    "3086581",
+    "3634541",
+    "3631441",
+    "3629201",
+    "3611181",
+    "3512741",
+    "3414161",
+    "3390921",
+    "3086661",
+    "3634621",
+    "3631521",
+    "3629281",
+    "3611261",
+    "3512821",
+    "3414261",
+    "3391001",
+    "3086741",
+    "6749040"
+   ],
+   "groups": {
+    "G632": [
+     "3634461",
+     "3631361",
+     "3629121",
+     "3611081",
+     "3512661",
+     "3414081",
+     "3390841",
+     "3086581"
+    ],
+    "G633": [
+     "3634541",
+     "3631441",
+     "3629201",
+     "3611181",
+     "3512741",
+     "3414161",
+     "3390921",
+     "3086661"
+    ],
+    "G634": [
+     "3634621",
+     "3631521",
+     "3629281",
+     "3611261",
+     "3512821",
+     "3414261",
+     "3391001",
+     "3086741"
+    ],
+    "G635": [
+     "6749040"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State & UT-wise Distribution of Convicts in Jails by Sex and Age-groups at the end (schema 2)": {
+   "nids": [
+    "3645121",
+    "3637881",
+    "3636301",
+    "3645201",
+    "3637961",
+    "3636381"
+   ],
+   "groups": {
+    "G636": [
+     "3645121",
+     "3637881",
+     "3636301"
+    ],
+    "G637": [
+     "3645201",
+     "3637961"
+    ],
+    "G638": [
+     "3636381"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State & UT-wise Distribution of Foreigner Undertrials in Jails by Sex and Age-groups at the end (schema 1)": {
+   "nids": [
+    "3634581",
+    "3631481",
+    "3629241",
+    "3611221",
+    "3512781",
+    "3414221",
+    "3390961",
+    "3086701",
+    "3629161",
+    "3611121",
+    "3512701",
+    "3414121",
+    "3390881",
+    "3086621",
+    "3634501",
+    "3631401"
+   ],
+   "groups": {
+    "G639": [
+     "3634581",
+     "3631481",
+     "3629241",
+     "3611221",
+     "3512781",
+     "3414221",
+     "3390961",
+     "3086701"
+    ],
+    "G640": [
+     "3629161",
+     "3611121",
+     "3414121",
+     "3390881",
+     "3086621"
+    ],
+    "G641": [
+     "3634501",
+     "3631401"
+    ],
+    "G642": [
+     "3512701"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State & UT-wise Incidence of Jail Breaks, Group Clashes and Firing in Jail (schema 1)": {
+   "nids": [
+    "3645741",
+    "3638441",
+    "3636861",
+    "3635381",
+    "3632301",
+    "3630041",
+    "3612021",
+    "3513621",
+    "3415181",
+    "3391781",
+    "3087561",
+    "6846441"
+   ],
+   "groups": {
+    "G643": [
+     "3645741",
+     "3638441",
+     "3636861",
+     "3635381",
+     "3632301",
+     "3630041",
+     "3612021",
+     "3513621",
+     "3415181"
+    ],
+    "G644": [
+     "3391781"
+    ],
+    "G645": [
+     "3087561"
+    ],
+    "G646": [
+     "6846441"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State & UT-wise Percentage Distribution of Convicts to Total Convicts by Age-groups at the end (schema 1)": {
+   "nids": [
+    "3634481",
+    "3631381",
+    "3629141",
+    "3611101",
+    "3512681",
+    "3414101",
+    "3390861",
+    "3086601"
+   ],
+   "groups": {
+    "G647": [
+     "3634481",
+     "3631381",
+     "3629141",
+     "3611101",
+     "3512681",
+     "3414101",
+     "3390861",
+     "3086601"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "State & UT-wise Percentage Distribution of Foreigner Convicts to Total Foreigners Convicted by Age-groups at the end (schema 1)": {
+   "nids": [
+    "3634561",
+    "3631461",
+    "3629221",
+    "3611201",
+    "3512761",
+    "3414181",
+    "3390941",
+    "3086681",
+    "6722568"
+   ],
+   "groups": {
+    "G648": [
+     "3634561",
+     "3631461",
+     "3629221",
+     "3611201",
+     "3512761",
+     "3414181",
+     "3390941",
+     "3086681"
+    ],
+    "G649": [
+     "6722568"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  }
+ }
+}

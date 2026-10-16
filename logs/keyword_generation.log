@@ -1,0 +1,26 @@
+2026-09-22 14:46:47,469 | INFO | Starting keyword generation...
+2026-09-22 14:46:47,469 | INFO | Loading vocabulary: /media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/text_generation/controlled_vocab_lot3.yaml
+2026-09-22 14:47:00,064 | INFO | Loaded 16204 rules (29456 patterns)
+2026-09-22 14:47:00,064 | INFO | Loading input file: /media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/text_generation/llm_keyword_results_lot3.xlsx
+2026-09-22 14:47:02,418 | INFO | Loaded 29596 datasets.
+2026-09-22 14:47:03,816 | INFO | Remaining datasets : 29596
+2026-09-22 15:05:56,131 | INFO | Starting keyword generation...
+2026-09-22 15:05:56,464 | INFO | Loading vocabulary: /media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/text_generation/controlled_vocab_lot3.yaml
+2026-09-22 15:06:11,134 | INFO | Loaded 16204 rules (29456 patterns)
+2026-09-22 15:06:11,134 | INFO | Loading input file: /media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/text_generation/llm_keyword_results_lot3.xlsx
+2026-09-22 15:06:14,048 | INFO | Loaded 29596 datasets.
+2026-09-22 15:06:15,573 | INFO | Remaining datasets : 29596
+2026-09-22 15:08:43,778 | INFO | Starting keyword generation...
+2026-09-22 15:08:43,778 | INFO | Loading vocabulary: /media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/text_generation/controlled_vocab_lot3.yaml
+2026-09-22 15:08:57,132 | INFO | Loaded 16204 rules (29456 patterns)
+2026-09-22 15:08:57,133 | INFO | Loading input file: /media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/text_generation/llm_keyword_results_lot3.xlsx
+2026-09-22 15:08:59,682 | INFO | Loaded 29596 datasets.
+2026-09-22 15:09:01,272 | INFO | Remaining datasets : 29596
+2026-09-22 15:31:30,168 | INFO | Checkpoint saved (5000 rows)
+2026-09-22 15:54:30,220 | INFO | Checkpoint saved (10000 rows)
+2026-09-22 16:17:41,906 | INFO | Checkpoint saved (15000 rows)
+2026-09-22 16:39:17,262 | INFO | Checkpoint saved (20000 rows)
+2026-09-22 17:01:49,871 | INFO | Checkpoint saved (25000 rows)
+2026-09-22 17:23:02,852 | INFO | Checkpoint saved (29596 rows)
+2026-09-22 17:23:02,966 | INFO | Processing completed.
+2026-09-22 17:23:03,043 | INFO | Done.

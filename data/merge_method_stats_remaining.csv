@@ -1,0 +1,7 @@
+merge_method,old datasets,new datasets,old catalogs,new catalogs
+non-mergeable,55827,55827,6555,6153
+curate,41256,833,692,491
+direct,16210,28,18,18
+change_in_header,3877,415,222,54
+to be removed,551,0,189,1
+TOTAL,117721,57103,6922,6436

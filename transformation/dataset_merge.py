@@ -1,10 +1,17 @@
 
 import argparse
+import csv
 import re
 import duckdb
 
 DB_PATH = "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db"
 TABLE = "dublin_core_metadata"
+# Column holding the comma-joined cleaned file headers. Present on
+# dublin_core_metadata and dublin_core_remaining (filled by
+# fill_headers_remaining.py). Used only as a *reported* coherence signal —
+# never as a grouping key: on Rajya Sabha data there are ~28k distinct header
+# signatures across ~33k rows, so blocking on it would shatter every group.
+HEADER_COL = "Conforms To"
 MERGE_THRESHOLD = 2
 FUZZY_THRESHOLD = 92   # token_sort_ratio; 92 merges surface variants without
                        # merging genuinely different collections
@@ -345,10 +352,89 @@ def _merge_into_parent(
             continue
         result[key] = (canonical, list(titles))
 
-    for from_key, to_key in merge_map.items():
-        result[to_key][1].extend(groups[from_key][1])
+    def _resolve(key: str) -> str:
+        """
+        Follow A -> B -> C chains to the group that actually survived.
+
+        A merge target can itself be a merge source ("X for Y" -> "X", and
+        "X" -> "X"'s own parent), in which case it was dropped from `result`
+        above and extending it raises KeyError. Sizes increase strictly along
+        a chain so cycles cannot form, but the seen-set keeps that assumption
+        from becoming a hang if the size rule ever changes.
+        """
+        seen = {key}
+        while key in merge_map:
+            key = merge_map[key]
+            if key in seen:
+                break
+            seen.add(key)
+        return key
+
+    for from_key in merge_map:
+        to_key = _resolve(from_key)
+        if to_key in result:
+            result[to_key][1].extend(groups[from_key][1])
 
     return result
+
+
+CDIST_CHUNK = 2000          # max keys per row-slice
+CDIST_MAX_CELLS = 70_000_000   # ~525 MB at 8 bytes/cell; caps chunk x N
+
+
+def _candidate_pairs(keys: list[str], threshold: int):
+    """
+    Yield (i, j) index pairs, i < j, whose token_sort_ratio >= threshold.
+
+    Fast path: rapidfuzz.process.cdist over row-slices of CDIST_CHUNK keys, so
+    peak memory is chunk x len(keys) rather than the full square (32k keys
+    would otherwise be a ~1 GB uint8 matrix, and 538M pure-Python comparisons).
+    Slow path: the original thefuzz double loop, kept so the script still runs
+    where rapidfuzz is unavailable.
+    """
+    n = len(keys)
+    try:
+        from rapidfuzz import fuzz as rfuzz
+        from rapidfuzz.process import cdist
+        from rapidfuzz.utils import default_process
+    except ImportError:
+        from thefuzz import fuzz
+
+        for i in range(n):
+            for j in range(i + 1, n):
+                if fuzz.token_sort_ratio(keys[i], keys[j]) >= threshold:
+                    yield i, j
+        return
+
+    # thefuzz rounds the raw ratio to an int before comparing, so a raw 91.6
+    # passes at threshold 92. Cut off half a point low to catch those, then
+    # re-apply the exact int(round(...)) >= threshold test per surviving pair.
+    cutoff = threshold - 0.5
+
+    # Each slice materialises a chunk x (n - start) score matrix. Shrink the
+    # chunk on large key sets so peak memory stays bounded: 33k Rajya Sabha
+    # keys is ~525 MB at chunk 2000, but the full 116k-row dublin_core_remaining
+    # would be ~1.8 GB.
+    chunk = max(1, min(CDIST_CHUNK, CDIST_MAX_CELLS // max(n, 1)))
+
+    for start in range(0, n, chunk):
+        end = min(start + chunk, n)
+        # Only compare against keys at index >= start; the lower triangle is
+        # redundant and the columns below `start` were covered by earlier chunks.
+        scores = cdist(
+            keys[start:end], keys[start:],
+            scorer=rfuzz.token_sort_ratio,
+            processor=default_process,
+            score_cutoff=cutoff,
+            workers=-1,
+        )
+        for local_i, row in enumerate(scores):
+            i = start + local_i
+            # row index k maps to key index start + k; keep strictly upper.
+            for k in row.nonzero()[0]:
+                j = start + int(k)
+                if j > i and int(round(row[k])) >= threshold:
+                    yield i, j
 
 
 def _fuzzy_merge(
@@ -365,9 +451,15 @@ def _fuzzy_merge(
 
     Groups that differ on a known contrasting word pair (rural/urban,
     male/female, north/south …) are blocked from merging regardless of score.
-    """
-    from thefuzz import fuzz
 
+    Candidate pairs come from rapidfuzz.process.cdist when available (chunked
+    so the score matrix never materialises in full) and fall back to the
+    original thefuzz double loop otherwise. Both paths are score-identical:
+    thefuzz applies default_process to its inputs, so the rapidfuzz path must
+    pass processor=default_process to match. Without the processor the two
+    disagree on ~70% of real pairs (punctuation like "state/ut-wise" changes
+    token boundaries), which would silently change the grouping.
+    """
     keys = list(groups.keys())
 
     # union-find with path compression
@@ -389,12 +481,10 @@ def _fuzzy_merge(
         else:
             parent[ra] = rb
 
-    for i in range(len(keys)):
-        for j in range(i + 1, len(keys)):
-            if _has_contrasting_difference(keys[i], keys[j]):
-                continue   # e.g. rural vs urban — block regardless of score
-            if fuzz.token_sort_ratio(keys[i], keys[j]) >= threshold:
-                union(keys[i], keys[j])
+    for i, j in _candidate_pairs(keys, threshold):
+        if _has_contrasting_difference(keys[i], keys[j]):
+            continue   # e.g. rural vs urban — block regardless of score
+        union(keys[i], keys[j])
 
     result: dict[str, tuple[str, list[str]]] = {}
     for key, (canonical, titles) in groups.items():
@@ -406,23 +496,67 @@ def _fuzzy_merge(
     return result
 
 
+def _columns(conn: duckdb.DuckDBPyConnection, table: str) -> set[str]:
+    return {
+        r[0] for r in conn.execute(
+            "SELECT column_name FROM information_schema.columns "
+            "WHERE table_name = ?", [table],
+        ).fetchall()
+    }
+
+
+def title_filter_sql(conn: duckdb.DuckDBPyConnection, table: str,
+                     batch: str | None = None,
+                     where: str | None = None) -> str:
+    """
+    Build the WHERE clause selecting the population to collect.
+
+    "merge_method IS NULL" (skip rows an earlier pipeline stage already
+    classified) is only applied when the target table actually has that
+    column — dublin_core_remaining does not.
+    """
+    clauses = []
+    if "merge_method" in _columns(conn, table):
+        clauses.append('"merge_method" IS NULL')
+    if batch is not None:
+        # batch is INTEGER on dublin_core_metadata but VARCHAR on
+        # dublin_core_remaining; cast both sides to text so either works.
+        clauses.append(f"CAST(batch AS VARCHAR) = '{batch}'")
+    if where:
+        clauses.append(f"({where})")
+    return " AND ".join(clauses) if clauses else "TRUE"
+
+
 def build_collection_map(conn: duckdb.DuckDBPyConnection,
-                         batch: int | None = None) -> dict[str, str]:
+                         batch: str | None = None,
+                         table: str = TABLE,
+                         where: str | None = None,
+                         return_bases: bool = False):
     """
     Returns {title: collection_name} for every distinct Title.
+
+    With return_bases=True, returns (collection_map, {title: normalized_base})
+    so callers can audit what Pass 1 stripped.
 
     Passes:
       1. Regex normalisation — strip temporal + geographic parts
       2. _merge_into_parent — fold leftover district-name variants
       3. _fuzzy_merge — collapse surface variants (case, plural, separators)
     """
-    query = f'SELECT DISTINCT "Title" FROM {TABLE}'
-    if batch is not None:
-        query += f" WHERE batch = {batch}"
-    rows = conn.execute(query).fetchall()
+    filter_sql = title_filter_sql(conn, table, batch=batch, where=where)
+    # ORDER BY is load-bearing, not cosmetic: DuckDB's parallel hash aggregate
+    # returns DISTINCT rows in a different order on every run, and both the
+    # union-find tie-break ("merge smaller into larger" — ties resolve by
+    # encounter order) and the resulting canonical collection NAME depend on
+    # that order. Without it, reruns produce identical group membership under
+    # different collection names, which breaks anything joining on Collection.
+    rows = conn.execute(
+        f'SELECT DISTINCT "Title" FROM "{table}" WHERE {filter_sql} ORDER BY 1'
+    ).fetchall()
 
     # Pass 1: regex normalisation
     groups: dict[str, tuple[str, list[str]]] = {}
+    bases: dict[str, str] = {}
 
     for (title,) in rows:
         base = normalize_title(title)
@@ -431,6 +565,7 @@ def build_collection_map(conn: duckdb.DuckDBPyConnection,
         if len(base.split()) < 2 or len(base) < 8:
             base = title   # treat original title as its own unique key
 
+        bases[title] = base
         key = _normalize_key(base)   # Option A: surface-variant collapse
         if key not in groups:
             groups[key] = (base, [])
@@ -449,7 +584,7 @@ def build_collection_map(conn: duckdb.DuckDBPyConnection,
         for t in titles:
             result[t] = name
 
-    return result
+    return (result, bases) if return_bases else result
 
 
 
@@ -494,6 +629,154 @@ def apply(conn: duckdb.DuckDBPyConnection,
     """)
 
     conn.execute("DROP TABLE IF EXISTS _tmp_coll_map")
+
+
+CSV_COLUMNS = [
+    "nid", "Title", "normalized_base", "Collection",
+    "n_in_collection", "dataset_merge",
+    "header_hash", "header_sig",
+    "n_distinct_header_sigs", "n_rows_missing_header", "headers_consistent",
+]
+
+SUMMARY_COLUMNS = [
+    "Collection", "n_rows", "dataset_merge",
+    "n_distinct_header_sigs", "n_rows_missing_header", "headers_consistent",
+    "sample_titles",
+]
+
+# Some "Conforms To" values are not header lists at all but multi-megabyte JSON
+# dumps of the source file (the Rajya Sabha Synopsis feeds). Excel's cell limit
+# is 32,767 chars, so the raw value is written truncated and the full value is
+# identified by header_hash — distinctness is always computed on the full value.
+HEADER_SIG_MAXLEN = 300
+
+
+def _header_hash(value) -> str:
+    """Stable short id for a header signature; "" when the header is unknown."""
+    import hashlib
+
+    if value is None or not str(value).strip():
+        return ""
+    return hashlib.md5(str(value).encode("utf-8", "replace")).hexdigest()[:10]
+
+
+def _headers_consistent(sigs: set[str], missing: int) -> str:
+    """
+    TRUE / FALSE / "" for a collection's header coherence.
+
+    Blank means *unknown*, not consistent: a collection whose rows all have a
+    NULL "Conforms To" has one distinct (empty) signature, and reporting that
+    as TRUE would read as "schema verified identical" when nothing was checked.
+    """
+    if not sigs:
+        return ""            # no row has a header at all — unknown
+    if len(sigs) == 1 and missing == 0:
+        return "True"
+    return "False"
+
+
+def _header_display(value) -> str:
+    if value is None:
+        return ""
+    text = str(value)
+    if len(text) <= HEADER_SIG_MAXLEN:
+        return text
+    return text[:HEADER_SIG_MAXLEN] + f"… [truncated, {len(text)} chars]"
+
+
+def export_csv(conn: duckdb.DuckDBPyConnection,
+               collection_map: dict[str, str],
+               bases: dict[str, str],
+               out_path: str,
+               table: str = TABLE,
+               batch: str | None = None,
+               where: str | None = None,
+               summary_path: str | None = None) -> tuple[int, int]:
+    """
+    Write the collection assignment to CSV at ROW grain, touching nothing in
+    the database.
+
+    dataset_merge is computed from the row count per Collection (not the
+    distinct-title count), matching apply()'s COUNT(*) semantics — the two
+    differ wherever a Title repeats across nids.
+
+    Header coherence is reported, never used to group: header_sig is the row's
+    "Conforms To" value, and n_distinct_header_sigs / headers_consistent say
+    whether every row of the collection shares one signature. A collection
+    flagged dataset_merge=True with headers_consistent=False is mergeable by
+    title but would need schema reconciliation first.
+    """
+    cols = _columns(conn, table)
+    filter_sql = title_filter_sql(conn, table, batch=batch, where=where)
+
+    nid_expr = '"nid"' if "nid" in cols else 'NULL'
+    header_expr = f'"{HEADER_COL}"' if HEADER_COL in cols else 'NULL'
+    rows = conn.execute(
+        f'SELECT {nid_expr}, "Title", {header_expr} '
+        f'FROM "{table}" WHERE {filter_sql}'
+    ).fetchall()
+
+    # Pass 1 over rows: per-collection row counts and header signature sets.
+    # Signatures are compared by hash so the multi-megabyte values above do not
+    # get copied into a set 33k times.
+    row_counts: dict[str, int] = {}
+    header_sigs: dict[str, set] = {}
+    missing_headers: dict[str, int] = {}
+    hashes: list[str] = []
+    for _nid, title, header in rows:
+        h = _header_hash(header)
+        hashes.append(h)
+        name = collection_map.get(title)
+        if name is None:
+            continue
+        row_counts[name] = row_counts.get(name, 0) + 1
+        header_sigs.setdefault(name, set())
+        missing_headers.setdefault(name, 0)
+        if h:
+            header_sigs[name].add(h)
+        else:
+            missing_headers[name] += 1
+
+    merged_rows = 0
+    samples: dict[str, list[str]] = {}
+    with open(out_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(CSV_COLUMNS)
+        for (nid, title, header), h in zip(rows, hashes):
+            name = collection_map.get(title)
+            if name is None:
+                continue
+            count = row_counts[name]
+            n_sigs = len(header_sigs[name])
+            missing = missing_headers[name]
+            is_merge = count >= MERGE_THRESHOLD
+            merged_rows += is_merge
+            if len(samples.setdefault(name, [])) < 3:
+                samples[name].append(title)
+            writer.writerow([
+                nid, title, bases.get(title, ""), name,
+                count, is_merge,
+                h, _header_display(header),
+                n_sigs, missing, _headers_consistent(header_sigs[name], missing),
+            ])
+
+    if summary_path:
+        with open(summary_path, "w", newline="", encoding="utf-8") as f:
+            writer = csv.writer(f)
+            writer.writerow(SUMMARY_COLUMNS)
+            for name, count in sorted(
+                row_counts.items(), key=lambda kv: (-kv[1], kv[0])
+            ):
+                n_sigs = len(header_sigs[name])
+                missing = missing_headers[name]
+                writer.writerow([
+                    name, count, count >= MERGE_THRESHOLD,
+                    n_sigs, missing,
+                    _headers_consistent(header_sigs[name], missing),
+                    " | ".join(samples.get(name, [])),
+                ])
+
+    return len(rows), merged_rows
 
 
 _UPTO_RE = re.compile(rf"\bupto\s+{_MONTH}", re.I)
@@ -610,8 +893,26 @@ def main() -> None:
     )
     parser.add_argument("--dry-run", action="store_true",
                         help="Preview without modifying the database")
-    parser.add_argument("--batch", type=int, default=None,
+    parser.add_argument("--batch", default=None,
                         help="Process only this batch number")
+    parser.add_argument("--table", default=TABLE,
+                        help=f"Source table (default: {TABLE}). "
+                             f"Use dublin_core_remaining for the remaining "
+                             f"(header-filled) datasets.")
+    parser.add_argument("--where", default=None,
+                        help="Extra SQL predicate restricting the population, "
+                             "e.g. \"\\\"Publisher[ministry_department]\\\" = "
+                             "'Rajya Sabha'\"")
+    parser.add_argument("--ministry", default=None,
+                        help="Shorthand for --where on "
+                             "Publisher[ministry_department] (case-insensitive "
+                             "exact match), e.g. --ministry 'Rajya Sabha'")
+    parser.add_argument("--output-csv", default=None, metavar="PATH",
+                        help="Write results to CSV instead of the database. "
+                             "The connection is opened read-only in this mode.")
+    parser.add_argument("--summary-csv", default=None, metavar="PATH",
+                        help="Also write a collection-grain summary CSV "
+                             "(one row per Collection). Requires --output-csv.")
     parser.add_argument(
         "--split-collections",
         nargs="+",
@@ -622,18 +923,58 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    conn = duckdb.connect(DB_PATH)
-    collection_map = build_collection_map(conn, batch=args.batch)
+    where = args.where
+    if args.ministry:
+        ministry = args.ministry.replace("'", "''").lower()
+        clause = f'lower("Publisher[ministry_department]") = \'{ministry}\''
+        where = f"{where} AND {clause}" if where else clause
+
+    csv_mode = args.output_csv is not None
+    if args.summary_csv and not csv_mode:
+        parser.error("--summary-csv requires --output-csv")
+    if not csv_mode and args.table != TABLE:
+        parser.error(
+            f"--table {args.table} is only supported with --output-csv; "
+            f"the database write path (Collection, dataset_merge, temporal "
+            f"splits) targets {TABLE}."
+        )
+
+    # Read-only in CSV mode: the whole point of --output-csv is to leave the
+    # database untouched, and this table has been corrupted by bulk writes before.
+    conn = duckdb.connect(DB_PATH, read_only=csv_mode)
+    collection_map, bases = build_collection_map(
+        conn, batch=args.batch, table=args.table, where=where,
+        return_bases=True,
+    )
 
     name_counts: dict[str, int] = {}
     for name in collection_map.values():
         name_counts[name] = name_counts.get(name, 0) + 1
     merge_count = sum(1 for c in name_counts.values() if c >= MERGE_THRESHOLD)
 
+    print(f"Source table           : {args.table}")
+    if where:
+        print(f"Filter                 : {where}")
     print(f"Distinct titles        : {len(collection_map)}")
     print(f"Collections detected   : {len(name_counts)}")
-    print(f"  mergeable (>= {MERGE_THRESHOLD})    : {merge_count}")
+    print(f"  mergeable (>= {MERGE_THRESHOLD})    : {merge_count} "
+          f"(by distinct title; CSV counts rows)")
     print(f"  singletons           : {len(name_counts) - merge_count}")
+
+    if csv_mode:
+        total, merged = export_csv(
+            conn, collection_map, bases, args.output_csv,
+            table=args.table, batch=args.batch, where=where,
+            summary_path=args.summary_csv,
+        )
+        print(f"\nWrote {total} rows to {args.output_csv}")
+        if args.summary_csv:
+            print(f"Wrote collection summary to {args.summary_csv}")
+        print(f"  dataset_merge=TRUE  : {merged}")
+        print(f"  dataset_merge=FALSE : {total - merged}")
+        conn.close()
+        print("\nDone (database not modified).")
+        return
 
     if args.dry_run:
         print(f"\n[DRY RUN] Top 40 collections:\n")

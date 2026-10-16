@@ -1,0 +1,28 @@
+id	new_catalog_title	reason
+83	Himachal Pradesh State Abstract - Power	Typo: HImachal -> Himachal
+107	Pradhan Mantri Fasal Bima Yojana	ALL CAPS -> Title Case
+109	Artificial Insemination of Cattle and Buffaloes in Karnataka	Typo: Artifical, tfor; remove trailing year
+112	Estimated Milk Egg Meat and Wool Production in Karnataka as per the Integrated Sample Survey	Typos: Karnatakaas, Integarted; remove trailing year
+116	Fisheries Water Resource	Replace underscores with spaces
+119	Vaccination of Animals in Karnataka	Remove trailing year language
+132	Export Statistics of Karnataka	ALL CAPS -> Title Case
+145	Minor Irrigation Sub Basin	ALL CAPS -> Title Case
+190	Details of Museums in Karnataka	ALL CAPS -> Title Case
+191	Karnataka Darshan Project under SCSP & TSP Act	ALL CAPS -> Title Case
+194	Tourist Footfalls in Karnataka	ALL CAPS -> Title Case; "into" -> "in"
+203	Augmentation of Stations	ALL CAPS -> Title Case
+204	Category Wise Installations and Consumption	Title Case: wise -> Wise
+221	Branch Wise Operational Performance	Remove trailing "year"
+267	Crime Review 2025	Typo: REVEIW; ALL CAPS -> Title Case; remove "for the"
+268	Crime Review	ALL CAPS -> Title Case
+269	Crime Review Report	ALL CAPS -> Title Case
+291	Details of Karnataka Udyam Registration	Remove "FY" (not in all old titles)
+346	Cases instituted in the High Court of Karnataka	Title Case: OF -> of
+347	Cases Instituted from January to October 2023 in High Court of Karnataka, Bengaluru	Remove underscores; proper spacing and Title Case; add comma
+372	District Wise Hobli Level Average Yield Data for Kharif Season	Add "District Wise" (common to all old titles per rule 2)
+373	District Wise Hobli Level Average Yield Data for Rabi Season	Add "District Wise" (common to all old titles per rule 2)
+374	District Wise Hobli Level Average Yield Data for Summer Season	Add "District Wise" (common to all old titles per rule 2)
+376	Karnataka at a Glance	Title Case: At A -> at a
+385	School Details	Remove ": Karnataka" (not in old title, violates rule 3)
+431	Water Consumption Data	Title Case
+470	Agriculture Department - PMKISAN	Typo: Departrment -> Department

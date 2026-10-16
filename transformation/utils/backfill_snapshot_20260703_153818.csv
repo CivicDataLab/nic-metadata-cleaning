@@ -1,0 +1,1430 @@
+nid,new_title,Description,Note,Alternative Title,Abstract,Subject[sector]
+86585,,,,,,"Family Welfare, Health and Family welfare"
+86929,,,,,,"Family Welfare, Health and Family welfare"
+86931,,,,,,"Family Welfare, Health and Family welfare"
+87003,,,,,,"Family Welfare, Health and Family welfare"
+88639,,,,,,"Family Welfare, Health, Health and Family welfare"
+88667,,,,,,"Family Welfare, Health and Family welfare"
+88934,,,,,,"Family Welfare, Health and Family welfare"
+88936,,,,,,"Family Welfare, Health and Family welfare"
+88946,,,,,,"Family Welfare, Health and Family welfare"
+89174,,,,,,"Family Welfare, Health and Family welfare"
+89516,,,,,,"Family Welfare, Health and Family welfare"
+89518,,,,,,"Family Welfare, Health and Family welfare"
+89520,,,,,,"Family Welfare, Health and Family welfare"
+89522,,,,,,"Family Welfare, Health and Family welfare"
+89569,,,,,,"Family Welfare, Health and Family welfare"
+89599,,,,,,"Family Welfare, Health and Family welfare"
+89601,,,,,,"Family Welfare, Health and Family welfare"
+89623,,,,,,"Family Welfare, Health and Family welfare"
+89625,,,,,,"Family Welfare, Health and Family welfare"
+89627,,,,,,"Family Welfare, Health and Family welfare"
+89629,,,,,,Health and Family welfare
+89982,,,,,,"Family Welfare, Health and Family welfare"
+90935,,,,,,"Family Welfare, Health and Family welfare"
+91719,,,,,,"Family Welfare, Health and Family welfare"
+91721,,,,,,"Family Welfare, Health and Family welfare"
+91723,,,,,,"Family Welfare, Health and Family welfare"
+91725,,,,,,"Family Welfare, Health and Family welfare"
+92025,,,,,,"Family Welfare, Health and Family welfare"
+92035,,,,,,"Family Welfare, Health and Family welfare"
+92111,,,,,,"Family Welfare, Health and Family welfare"
+92135,,,,,,"Family Welfare, Health and Family welfare"
+92176,,,,,,"Family Welfare, Health and Family welfare"
+95302,,,,,,"Family Welfare, Health, Health and Family welfare"
+95303,,,,,,"Family Welfare, Health and Family welfare"
+95304,,,,,,"Family Welfare, Health and Family welfare"
+95305,,,,,,"Family Welfare, Health and Family welfare"
+95306,,,,,,"Family Welfare, Health and Family welfare"
+95307,,,,,,"Family Welfare, Health and Family welfare"
+95308,,,,,,"Family Welfare, Health and Family welfare"
+95310,,,,,,"Family Welfare, Health and Family welfare"
+95311,,,,,,"Family Welfare, Health and Family welfare"
+95313,,,,,,"Family Welfare, Health and Family welfare"
+95348,,,,,,"Family Welfare, Health and Family welfare"
+95349,,,,,,"Family Welfare, Health and Family welfare"
+95351,,,,,,"Family Welfare, Health and Family welfare"
+95353,,,,,,"Family Welfare, Health and Family welfare"
+95355,,,,,,"Family Welfare, Health and Family welfare"
+95364,,,,,,"Family Welfare, Health and Family welfare"
+95365,,,,,,"Family Welfare, Health and Family welfare"
+95368,,,,,,"Family Welfare, Health and Family welfare"
+95371,,,,,,"Family Welfare, Health and Family welfare"
+95372,,,,,,"Family Welfare, Health and Family welfare"
+95377,,,,,,"Family Welfare, Health and Family welfare"
+95379,,,,,,"Family Welfare, Health and Family welfare"
+95380,,,,,,"Family Welfare, Health and Family welfare"
+95381,,,,,,"Family Welfare, Health and Family welfare"
+95382,,,,,,"Family Welfare, Health and Family welfare"
+95384,,,,,,"Family Welfare, Health and Family welfare"
+95385,,,,,,"Family Welfare, Health and Family welfare"
+95386,,,,,,"Family Welfare, Health and Family welfare"
+95388,,,,,,"Family Welfare, Health and Family welfare"
+95389,,,,,,"Family Welfare, Health and Family welfare"
+95390,,,,,,"Family Welfare, Health and Family welfare"
+95393,,,,,,"Family Welfare, Health and Family welfare"
+95399,,,,,,"Family Welfare, Health and Family welfare"
+95496,,"The dataset reports building position for Sub-Centres, Primary Health Centres, and Community Health Centres, covering required and functioning buildings. It supports planning and monitoring of health infrastructure by tracking government buildings, under-construction status, and surplus observations across States and UTs. Source is the Ministry of Health and Family Welfare; temporal coverage is as on March 2011 and noted status as on 30th June 2013.","Required buildings are derived as Total Functioning minus (Government Buildings plus Under Construction), ignoring excess. Surplus refers to States/UTs with construction beyond the required number, while the all-India required figure aggregates available State/UT figures excluding surplus effects in some locations.","Health Centre Building Status (Sub-centres, PHCs, CHCs) as on March 2011","Shows how many Sub-Centres, PHCs, and CHCs were functioning and how many buildings were under construction. Helps assess gaps and surplus in health facility infrastructure planning.",Health and Family welfare; Family Welfare
+95523,,The dataset reports the crude death rate for India for the year 2011. It supports population health monitoring and comparisons across time for public health planning. Source is the Sample Registration System (SRS) under the Ministry of Health and Family Welfare. Frequency is annual and granularity is national.,Source: Sample Registration System (SRS). 'NA - Not Available' indicates missing entries where applicable.,India Crude Death Rate for 2011,Annual crude death rate figures for India in 2011. Useful for assessing overall mortality levels and informing public health analysis and planning.,Health and Family welfare; Health
+95533,,,,,,"Family Welfare, Health and Family welfare"
+95557,,,,,,Health and Family welfare
+95628,,"The dataset reports health worker staffing status at Sub-Centres and Primary Health Centres, including sanctioned, vacancy and shortfall figures. It supports planning of workforce requirements and monitoring availability at service delivery points under the Ministry of Health and Family Welfare. Scope is all India, with positions aligned to March 2011 and annual updates.","For vacancy and shortfall, all-India totals are compiled by aggregating state-wise figures, while ignoring surplus where applicable. If manpower position data are unavailable for some states/UTs, those states may be excluded when computing overall percentages.",Health Worker Staffing at Sub-Centres and PHCs (March 2011),Covers manpower availability and gaps at Sub-Centres and Primary Health Centres for March 2011. Useful for assessing health workforce vacancies and shortfalls for improved staffing and planning at facilities across India.,Health and Family welfare; Family Welfare
+95630,,"The dataset reports manpower availability at Sub-Centres and Primary Health Centres, including sanctioned positions and vacancies. It covers health workers and auxiliary nurse midwives, with vacancy and shortfall calculations referenced to all-India totals. Source is the Ministry of Health and Family Welfare, and the snapshot is as on March 2011.","Vacancy and shortfall totals are computed as all-India sums of state-wise values, ignoring surplus in some states/UTs. For vacancy and shortfall percentages, states/UTs without manpower position availability may be excluded. Where stated, 2010 sanctioned data and 2010 figures repeated for some components are used.",Health Staff Strength at Sub-Centres and PHCs (March 2011),"A March 2011 snapshot of health manpower at Sub-Centres and Primary Health Centres. It helps assess sanctioned strength, vacancies, and shortfalls to support workforce planning.",Health and Family welfare; Family Welfare
+95677,,,,,,"Family Welfare, Health and Family welfare"
+95688,,,,,,"Family Welfare, Health and Family welfare"
+95690,,"The dataset provides all-India counts of sanctioned workforce positions for pharmacists, laboratory technicians, and nursing staff across Primary Health Centres and Community Health Centres. It supports workforce planning, assessing vacancy and shortfall, and service readiness analysis. Figures are reported with one entry per facility type grouping and are based on 2010 information repeated, as referenced for March 2011 status.","Note indicates that 2010 data are repeated. Vacancy and shortfall totals aggregate state-wise values while ignoring surplus in some States/UTs, and states/UTs lacking manpower position availability may be excluded when calculating overall percentages.","Sanctioned PHC and CHC staffing (pharmacists, lab techs, nursing) as of March 2011","All-India sanctioned staffing positions for pharmacists, laboratory technicians, and nursing staff at PHCs and CHCs. Useful for understanding manpower availability, planning, and interpreting vacancy and shortfall in health facilities.",Health and Family welfare; Family Welfare
+95725,,"The dataset maps required, in-position, shortfall, and surplus health infrastructure items against India’s 2011 provisional population figures. It supports planning and monitoring of health facility capacity and resource allocation by comparing infrastructure gaps with population demand. Source is the Ministry of Health and Family Welfare, with annual updates indicated in the metadata.","Legend codes: R—Required, P—In Position, S—Shortfall, Surplus. Use these indicators to interpret infrastructure gap status against 2011 provisional population figures.","Health Infrastructure Gap with 2011 Population, March 2011","Shows which health infrastructure components are required, present, or in shortfall when measured against 2011 provisional population figures. Useful for capacity planning and gap analysis in healthcare services.",Health and Family welfare; Family Welfare
+95744,,"The dataset reports the number of Sub Divisional Hospitals, District Hospitals, and Mobile Medical Units that were functioning in March 2011. It supports planning and monitoring of healthcare service delivery under the National Rural Health Mission. Coverage is by administrative units within India, with updates captured on an annual basis.","",Hospitals and mobile medical units working status in March 2011,"A snapshot of healthcare facility functioning status for Sub Divisional Hospitals, District Hospitals, and Mobile Medical Units in March 2011. Useful for programme monitoring and service delivery planning.",Health and Family welfare; Health
+95792,,,,,,"Family Welfare, Health and Family welfare"
+95796,,,,,,"Family Welfare, Health and Family welfare"
+95797,,,,,,"Family Welfare, Health and Family welfare"
+95800,,,,,,"Family Welfare, Health and Family welfare"
+95802,,,,,,"Family Welfare, Health and Family welfare"
+95803,,,,,,"Family Welfare, Health and Family welfare"
+95804,,,,,,"Family Welfare, Health and Family welfare"
+95806,,,,,,"Family Welfare, Health and Family welfare"
+95807,,,,,,"Family Welfare, Health and Family welfare"
+95809,,,,,,"Family Welfare, Health and Family welfare"
+95811,,,,,,"Family Welfare, Health and Family welfare"
+95813,,,,,,"Family Welfare, Health and Family welfare"
+95818,,,,,,"Family Welfare, Health and Family welfare"
+95821,,,,,,"Family Welfare, Health and Family welfare"
+95824,,,,,,"Family Welfare, Health and Family welfare"
+95825,,,,,,"Family Welfare, Health and Family welfare"
+95829,,,,,,"Family Welfare, Health and Family welfare"
+95834,,,,,,"Family Welfare, Health and Family welfare"
+95836,,,,,,"Family Welfare, Health and Family welfare"
+95840,,,,,,"Family Welfare, Health and Family welfare"
+95842,,,,,,"Family Welfare, Health and Family welfare"
+95844,,,,,,"Family Welfare, Health and Family welfare"
+95845,,,,,,"Family Welfare, Health and Family welfare"
+95847,,,,,,"Family Welfare, Health and Family welfare"
+95849,,,,,,"Family Welfare, Health and Family welfare"
+95850,,,,,,"Family Welfare, Health and Family welfare"
+95851,,,,,,"Family Welfare, Health and Family welfare"
+95853,,,,,,"Family Welfare, Health and Family welfare"
+95855,,,,,,"Family Welfare, Health and Family welfare"
+95856,,,,,,"Family Welfare, Health and Family welfare"
+95858,,,,,,"Family Welfare, Health and Family welfare"
+95860,,,,,,"Family Welfare, Health and Family welfare"
+95861,,,,,,"Family Welfare, Health and Family welfare"
+95863,,,,,,"Family Welfare, Health and Family welfare"
+95868,,,,,,"Family Welfare, Health and Family welfare"
+95890,,,,,,"Family Welfare, Health and Family welfare"
+95892,,,,,,"Family Welfare, Health and Family welfare"
+95957,,,,,,All
+95961,,,,,,"Family Welfare, Health and Family welfare"
+95963,,,,,,"Family Welfare, Health and Family welfare"
+95967,,,,,,"Family Welfare, Health and Family welfare"
+95969,,,,,,"Family Welfare, Health and Family welfare"
+95971,,,,,,"Family Welfare, Health and Family welfare"
+95974,,,,,,"Family Welfare, Health and Family welfare"
+95976,,,,,,"Family Welfare, Health and Family welfare"
+95978,,,,,,"Family Welfare, Health and Family welfare"
+95979,,,,,,"Family Welfare, Health and Family welfare"
+95982,,,,,,"Family Welfare, Health and Family welfare"
+95984,,,,,,"Family Welfare, Health and Family welfare"
+95986,,,,,,"Family Welfare, Health and Family welfare"
+95988,,,,,,"Family Welfare, Health and Family welfare"
+95990,,,,,,"Family Welfare, Health and Family welfare"
+95992,,,,,,"Family Welfare, Health and Family welfare"
+95994,,,,,,"Family Welfare, Health and Family welfare"
+95996,,,,,,"Family Welfare, Health and Family welfare"
+95998,,,,,,"Family Welfare, Health and Family welfare"
+96000,,,,,,"Family Welfare, Health and Family welfare"
+96002,,,,,,"Family Welfare, Health and Family welfare"
+96004,,,,,,"Family Welfare, Health and Family welfare"
+96006,,,,,,"Family Welfare, Health and Family welfare"
+96011,,,,,,"Family Welfare, Health and Family welfare"
+96013,,,,,,"Family Welfare, Health and Family welfare"
+96015,,,,,,"Family Welfare, Health and Family welfare"
+96016,,,,,,"Family Welfare, Health and Family welfare"
+96018,,,,,,"Family Welfare, Health and Family welfare"
+96020,,,,,,"Family Welfare, Health and Family welfare"
+96021,,,,,,"Family Welfare, Health and Family welfare"
+96023,,,,,,"Family Welfare, Health and Family welfare"
+96025,,,,,,"Family Welfare, Health and Family welfare"
+96027,,,,,,"Family Welfare, Health and Family welfare"
+96030,,,,,,"Family Welfare, Health and Family welfare"
+96031,,,,,,"Family Welfare, Health and Family welfare"
+96033,,,,,,"Family Welfare, Health and Family welfare"
+96036,,,,,,"Family Welfare, Health and Family welfare"
+96037,,,,,,"Family Welfare, Health and Family welfare"
+96040,,,,,,"Family Welfare, Health and Family welfare"
+96041,,,,,,"Family Welfare, Health and Family welfare"
+96042,,,,,,"Family Welfare, Health and Family welfare"
+96044,,,,,,"Family Welfare, Health and Family welfare"
+96046,,,,,,"Family Welfare, Health and Family welfare"
+96048,,,,,,"Family Welfare, Health and Family welfare"
+96050,,,,,,"Family Welfare, Health and Family welfare"
+96052,,,,,,"Family Welfare, Health and Family welfare"
+96058,,,,,,"Family Welfare, Health and Family welfare"
+96061,,,,,,"Family Welfare, Health and Family welfare"
+96063,,,,,,"Family Welfare, Health and Family welfare"
+96066,,,,,,"Family Welfare, Health and Family welfare"
+96069,,,,,,"Family Welfare, Health and Family welfare"
+96071,,,,,,"Family Welfare, Health and Family welfare"
+96073,,,,,,"Family Welfare, Health and Family welfare"
+114436,,,,,,Health and Family welfare
+114438,,,,,,Health and Family welfare
+114439,,,,,,Health and Family welfare
+114442,,,,,,Health and Family welfare
+114449,,,,,,Health and Family welfare
+114451,,,,,,Health and Family welfare
+114452,,,,,,Health and Family welfare
+114453,,,,,,Health and Family welfare
+114454,,,,,,Health and Family welfare
+114455,,,,,,Health and Family welfare
+114456,,,,,,Health and Family welfare
+114458,,,,,,Health and Family welfare
+114460,,,,,,Health and Family welfare
+114462,,,,,,Health and Family welfare
+114464,,,,,,Health and Family welfare
+114466,,,,,,Health and Family welfare
+114467,,,,,,Health and Family welfare
+114471,,,,,,Health and Family welfare
+114473,,,,,,Health and Family welfare
+114475,,,,,,Health and Family welfare
+114476,,,,,,Health and Family welfare
+114477,,,,,,Health and Family welfare
+114479,,,,,,Health and Family welfare
+114480,,,,,,Health and Family welfare
+114481,,,,,,Health and Family welfare
+114482,,,,,,Health and Family welfare
+114483,,,,,,Health and Family welfare
+114484,,,,,,Health and Family welfare
+114486,,,,,,Health and Family welfare
+114487,,,,,,Health and Family welfare
+114488,,,,,,Health and Family welfare
+114491,,,,,,Health and Family welfare
+114492,,,,,,Health and Family welfare
+114494,,,,,,Health and Family welfare
+114499,,,,,,Health and Family welfare
+114500,,,,,,Health and Family welfare
+114501,,,,,,Health and Family welfare
+114502,,,,,,Health and Family welfare
+114504,,,,,,Health and Family welfare
+114506,,,,,,Health and Family welfare
+114507,,,,,,Health and Family welfare
+114509,,,,,,Health and Family welfare
+114510,,,,,,Health and Family welfare
+114516,,,,,,Health and Family welfare
+114519,,,,,,Health and Family welfare
+114520,,,,,,Health and Family welfare
+114521,,,,,,Health and Family welfare
+114522,,,,,,Health and Family welfare
+114523,,,,,,Health and Family welfare
+114525,,,,,,Health and Family welfare
+114528,,,,,,Health and Family welfare
+114529,,,,,,Health and Family welfare
+114531,,,,,,Health and Family welfare
+114533,,,,,,Health and Family welfare
+114534,,,,,,Health and Family welfare
+114538,,,,,,Health and Family welfare
+114540,,,,,,Health and Family welfare
+114542,,,,,,Health and Family welfare
+114544,,,,,,Health and Family welfare
+114546,,,,,,Health and Family welfare
+114548,,,,,,Health and Family welfare
+114549,,,,,,Health and Family welfare
+114550,,,,,,Health and Family welfare
+114551,,,,,,Health and Family welfare
+114552,,,,,,Health and Family welfare
+114554,,,,,,Health and Family welfare
+114555,,,,,,Health and Family welfare
+114559,,,,,,Health and Family welfare
+114560,,,,,,Health and Family welfare
+114562,,,,,,Health and Family welfare
+114566,,,,,,Health and Family welfare
+114568,,,,,,Health and Family welfare
+114569,,,,,,Health and Family welfare
+114570,,,,,,Health and Family welfare
+114572,,,,,,Health and Family welfare
+114574,,,,,,Health and Family welfare
+114575,,,,,,Health and Family welfare
+114578,,,,,,Health and Family welfare
+114585,,,,,,Health and Family welfare
+114588,,,,,,Health and Family welfare
+114589,,,,,,Health and Family welfare
+114590,,,,,,Health and Family welfare
+114591,,,,,,Health and Family welfare
+114592,,,,,,Health and Family welfare
+114594,,,,,,Health and Family welfare
+114598,,,,,,Health and Family welfare
+114600,,,,,,Health and Family welfare
+114601,,,,,,Health and Family welfare
+114602,,,,,,Health and Family welfare
+114603,,,,,,Health and Family welfare
+114607,,,,,,Health and Family welfare
+114608,,,,,,Health and Family welfare
+114610,,,,,,Health and Family welfare
+114612,,,,,,Health and Family welfare
+114613,,,,,,Health and Family welfare
+114614,,,,,,Health and Family welfare
+114615,,,,,,Health and Family welfare
+114616,,,,,,Health and Family welfare
+114617,,,,,,Health and Family welfare
+114619,,,,,,Health and Family welfare
+114620,,,,,,Health and Family welfare
+114624,,,,,,Health and Family welfare
+114625,,,,,,Health and Family welfare
+114627,,,,,,Health and Family welfare
+114628,,,,,,Health and Family welfare
+114633,,,,,,Health and Family welfare
+114634,,,,,,Health and Family welfare
+114635,,,,,,Health and Family welfare
+114636,,,,,,Health and Family welfare
+114637,,,,,,Health and Family welfare
+114639,,,,,,Health and Family welfare
+114640,,,,,,Health and Family welfare
+114642,,,,,,Health and Family welfare
+114643,,,,,,Health and Family welfare
+114644,,,,,,Health and Family welfare
+114649,,,,,,Health and Family welfare
+114650,,,,,,Health and Family welfare
+114653,,,,,,Health and Family welfare
+114654,,,,,,Health and Family welfare
+114655,,,,,,Health and Family welfare
+114656,,,,,,Health and Family welfare
+114657,,,,,,Health and Family welfare
+114659,,,,,,Health and Family welfare
+114663,,,,,,Health and Family welfare
+114665,,,,,,Health and Family welfare
+114666,,,,,,Health and Family welfare
+114667,,,,,,Health and Family welfare
+114668,,,,,,Health and Family welfare
+114672,,,,,,Health and Family welfare
+114674,,,,,,Health and Family welfare
+114676,,,,,,Health and Family welfare
+114680,,,,,,Health and Family welfare
+114681,,,,,,Health and Family welfare
+114682,,,,,,Health and Family welfare
+114683,,,,,,Health and Family welfare
+114684,,,,,,Health and Family welfare
+114686,,,,,,Health and Family welfare
+114687,,,,,,Health and Family welfare
+114689,,,,,,Health and Family welfare
+114691,,,,,,Health and Family welfare
+114692,,,,,,Health and Family welfare
+114694,,,,,,Health and Family welfare
+114701,,,,,,Health and Family welfare
+114702,,,,,,Health and Family welfare
+114703,,,,,,Health and Family welfare
+114705,,,,,,Health and Family welfare
+114707,,,,,,Health and Family welfare
+114708,,,,,,Health and Family welfare
+114711,,,,,,Health and Family welfare
+114719,,,,,,Health and Family welfare
+114720,,,,,,Health and Family welfare
+114721,,,,,,Health and Family welfare
+114723,,,,,,Health and Family welfare
+114725,,,,,,Health and Family welfare
+114731,,,,,,Health and Family welfare
+114732,,,,,,Health and Family welfare
+114733,,,,,,Health and Family welfare
+114734,,,,,,Health and Family welfare
+114738,,,,,,Health and Family welfare
+114740,,,,,,Health and Family welfare
+114741,,,,,,Health and Family welfare
+114744,,,,,,Health and Family welfare
+114745,,,,,,Health and Family welfare
+114746,,,,,,Health and Family welfare
+114747,,,,,,Health and Family welfare
+114748,,,,,,Health and Family welfare
+114750,,,,,,Health and Family welfare
+114751,,,,,,Health and Family welfare
+114754,,,,,,Health and Family welfare
+114755,,,,,,Health and Family welfare
+114757,,,,,,Health and Family welfare
+114760,,,,,,Health and Family welfare
+114763,,,,,,Health and Family welfare
+114764,,,,,,Health and Family welfare
+114766,,,,,,Health and Family welfare
+114768,,,,,,Health and Family welfare
+114770,,,,,,Health and Family welfare
+114771,,,,,,Health and Family welfare
+114773,,,,,,Health and Family welfare
+114774,,,,,,Health and Family welfare
+114776,,,,,,Health and Family welfare
+114780,,,,,,Health and Family welfare
+114784,,,,,,Health and Family welfare
+114785,,,,,,Health and Family welfare
+114788,,,,,,Health and Family welfare
+114790,,,,,,Health and Family welfare
+114795,,,,,,Health and Family welfare
+114797,,,,,,Health and Family welfare
+114798,,,,,,Health and Family welfare
+114802,,,,,,Health and Family welfare
+114803,,,,,,Health and Family welfare
+114805,,,,,,Health and Family welfare
+114808,,,,,,Health and Family welfare
+114809,,,,,,Health and Family welfare
+114810,,,,,,Health and Family welfare
+114811,,,,,,Health and Family welfare
+114812,,,,,,Health and Family welfare
+114814,,,,,,Health and Family welfare
+114815,,,,,,Health and Family welfare
+114816,,,,,,Health and Family welfare
+114818,,,,,,Health and Family welfare
+114819,,,,,,Health and Family welfare
+114825,,,,,,Health and Family welfare
+114826,,,,,,Health and Family welfare
+114827,,,,,,Health and Family welfare
+114829,,,,,,Health and Family welfare
+114831,,,,,,Health and Family welfare
+114832,,,,,,Health and Family welfare
+114835,,,,,,Health and Family welfare
+114836,,,,,,Health and Family welfare
+114841,,,,,,Health and Family welfare
+114842,,,,,,Health and Family welfare
+114845,,,,,,Health and Family welfare
+114846,,,,,,Health and Family welfare
+114848,,,,,,Health and Family welfare
+114850,,,,,,Health and Family welfare
+114855,,,,,,Health and Family welfare
+114856,,,,,,Health and Family welfare
+114857,,,,,,Health and Family welfare
+114858,,,,,,Health and Family welfare
+114862,,,,,,Health and Family welfare
+114863,,,,,,Health and Family welfare
+114865,,,,,,Health and Family welfare
+114867,,,,,,Health and Family welfare
+114868,,,,,,Health and Family welfare
+114869,,,,,,Health and Family welfare
+114870,,,,,,Health and Family welfare
+114871,,,,,,Health and Family welfare
+114872,,,,,,Health and Family welfare
+114874,,,,,,Health and Family welfare
+114875,,,,,,Health and Family welfare
+114876,,,,,,Health and Family welfare
+114877,,,,,,Health and Family welfare
+114878,,,,,,Health and Family welfare
+114879,,,,,,Health and Family welfare
+114883,,,,,,Health and Family welfare
+114884,,,,,,Health and Family welfare
+114885,,,,,,Health and Family welfare
+114886,,,,,,Health and Family welfare
+114887,,,,,,Health and Family welfare
+114888,,,,,,Health and Family welfare
+114889,,,,,,Health and Family welfare
+114890,,,,,,Health and Family welfare
+114891,,,,,,Health and Family welfare
+114892,,,,,,Health and Family welfare
+114894,,,,,,Health and Family welfare
+114895,,,,,,Health and Family welfare
+114898,,,,,,Health and Family welfare
+114899,,,,,,Health and Family welfare
+114901,,,,,,Health and Family welfare
+114904,,,,,,Health and Family welfare
+114905,,,,,,Health and Family welfare
+114907,,,,,,Health and Family welfare
+114908,,,,,,Health and Family welfare
+114910,,,,,,Health and Family welfare
+114911,,,,,,Health and Family welfare
+114912,,,,,,Health and Family welfare
+114913,,,,,,Health and Family welfare
+114914,,,,,,Health and Family welfare
+114917,,,,,,Health and Family welfare
+114918,,,,,,Health and Family welfare
+114919,,,,,,Health and Family welfare
+114921,,,,,,Health and Family welfare
+114922,,,,,,Health and Family welfare
+114924,,,,,,Health and Family welfare
+114926,,,,,,Health and Family welfare
+114927,,,,,,Health and Family welfare
+114928,,,,,,Health and Family welfare
+114931,,,,,,Health and Family welfare
+114932,,,,,,Health and Family welfare
+114933,,,,,,Health and Family welfare
+114934,,,,,,Health and Family welfare
+114935,,,,,,Health and Family welfare
+114936,,,,,,Health and Family welfare
+114937,,,,,,Health and Family welfare
+114938,,,,,,Health and Family welfare
+114939,,,,,,Health and Family welfare
+114990,,,,,,Health and Family welfare
+114997,,,,,,Health and Family welfare
+114998,,,,,,Health and Family welfare
+114999,,,,,,Health and Family welfare
+115000,,,,,,Health and Family welfare
+151519,,,,,,"Family Welfare, Health, Health and Family welfare"
+151522,,,,,,"Family Welfare, Health, Health and Family welfare"
+151525,,,,,,"Family Welfare, Health, Health and Family welfare"
+151528,,,,,,"Family Welfare, Health, Health and Family welfare"
+151531,,,,,,"Family Welfare, Health, Health and Family welfare"
+151534,,,,,,"Family Welfare, Health, Health and Family welfare"
+151537,,,,,,"Family Welfare, Health, Health and Family welfare"
+151540,,,,,,"Family Welfare, Health, Health and Family welfare"
+151543,,,,,,"Family Welfare, Health, Health and Family welfare"
+151546,,,,,,"Family Welfare, Health, Health and Family welfare"
+151549,,,,,,"Family Welfare, Health, Health and Family welfare"
+151552,,,,,,"Family Welfare, Health, Health and Family welfare"
+151555,,,,,,"Family Welfare, Health, Health and Family welfare"
+151558,,,,,,"Family Welfare, Health, Health and Family welfare"
+151561,,,,,,"Family Welfare, Health, Health and Family welfare"
+151564,,,,,,"Family Welfare, Health, Health and Family welfare"
+151567,,,,,,"Family Welfare, Health, Health and Family welfare"
+151570,,,,,,"Family Welfare, Health, Health and Family welfare"
+151573,,,,,,"Family Welfare, Health, Health and Family welfare"
+151576,,,,,,"Family Welfare, Health, Health and Family welfare"
+151579,,,,,,"Family Welfare, Health, Health and Family welfare"
+151582,,,,,,"Family Welfare, Health, Health and Family welfare"
+151585,,,,,,"Family Welfare, Health, Health and Family welfare"
+151588,,,,,,"Family Welfare, Health, Health and Family welfare"
+151591,,,,,,"Family Welfare, Health, Health and Family welfare"
+151594,,,,,,"Family Welfare, Health, Health and Family welfare"
+151597,,,,,,"Family Welfare, Health, Health and Family welfare"
+151600,,,,,,"Family Welfare, Health, Health and Family welfare"
+151603,,,,,,"Family Welfare, Health, Health and Family welfare"
+151606,,,,,,"Family Welfare, Health, Health and Family welfare"
+151609,,,,,,"Family Welfare, Health, Health and Family welfare"
+151612,,,,,,"Family Welfare, Health, Health and Family welfare"
+151615,,,,,,"Family Welfare, Health, Health and Family welfare"
+151618,,,,,,"Family Welfare, Health, Health and Family welfare"
+151621,,,,,,"Family Welfare, Health, Health and Family welfare"
+151624,,,,,,"Family Welfare, Health, Health and Family welfare"
+151627,,,,,,"Family Welfare, Health, Health and Family welfare"
+151630,,,,,,"Family Welfare, Health, Health and Family welfare"
+151636,,,,,,"Family Welfare, Health, Health and Family welfare"
+151642,,,,,,"Family Welfare, Health, Health and Family welfare"
+151645,,,,,,"Family Welfare, Health, Health and Family welfare"
+151648,,,,,,"Family Welfare, Health, Health and Family welfare"
+151651,,,,,,"Family Welfare, Health, Health and Family welfare"
+151654,,,,,,"Family Welfare, Health, Health and Family welfare"
+151657,,,,,,"Family Welfare, Health, Health and Family welfare"
+151660,,,,,,"Family Welfare, Health, Health and Family welfare"
+151663,,,,,,"Family Welfare, Health, Health and Family welfare"
+151666,,,,,,"Family Welfare, Health, Health and Family welfare"
+151669,,,,,,"Family Welfare, Health, Health and Family welfare"
+151672,,,,,,"Family Welfare, Health, Health and Family welfare"
+151675,,,,,,"Family Welfare, Health, Health and Family welfare"
+151678,,,,,,"Family Welfare, Health, Health and Family welfare"
+151681,,,,,,"Family Welfare, Health, Health and Family welfare"
+151684,,,,,,"Family Welfare, Health, Health and Family welfare"
+151687,,,,,,"Family Welfare, Health, Health and Family welfare"
+151690,,,,,,"Family Welfare, Health, Health and Family welfare"
+151693,,,,,,"Family Welfare, Health, Health and Family welfare"
+151696,,,,,,"Family Welfare, Health, Health and Family welfare"
+151699,,,,,,"Family Welfare, Health, Health and Family welfare"
+151702,,,,,,"Family Welfare, Health, Health and Family welfare"
+151705,,,,,,"Family Welfare, Health, Health and Family welfare"
+151708,,,,,,"Family Welfare, Health, Health and Family welfare"
+151711,,,,,,"Family Welfare, Health, Health and Family welfare"
+151714,,,,,,"Family Welfare, Health, Health and Family welfare"
+151717,,,,,,"Family Welfare, Health, Health and Family welfare"
+151720,,,,,,"Family Welfare, Health, Health and Family welfare"
+151723,,,,,,"Family Welfare, Health, Health and Family welfare"
+151726,,,,,,"Family Welfare, Health, Health and Family welfare"
+151729,,,,,,"Family Welfare, Health, Health and Family welfare"
+151732,,,,,,"Family Welfare, Health, Health and Family welfare"
+151735,,,,,,"Family Welfare, Health, Health and Family welfare"
+151738,,,,,,"Family Welfare, Health, Health and Family welfare"
+151741,,,,,,"Family Welfare, Health, Health and Family welfare"
+151744,,,,,,"Family Welfare, Health, Health and Family welfare"
+151747,,,,,,"Family Welfare, Health, Health and Family welfare"
+151750,,,,,,"Family Welfare, Health, Health and Family welfare"
+151753,,,,,,"Family Welfare, Health, Health and Family welfare"
+151759,,,,,,"Family Welfare, Health, Health and Family welfare"
+151762,,,,,,"Family Welfare, Health, Health and Family welfare"
+151765,,,,,,"Family Welfare, Health, Health and Family welfare"
+151768,,,,,,"Family Welfare, Health, Health and Family welfare"
+151771,,,,,,"Family Welfare, Health, Health and Family welfare"
+151774,,,,,,"Family Welfare, Health, Health and Family welfare"
+151777,,,,,,"Family Welfare, Health, Health and Family welfare"
+151780,,,,,,"Family Welfare, Health, Health and Family welfare"
+151783,,,,,,"Family Welfare, Health, Health and Family welfare"
+151786,,,,,,"Family Welfare, Health, Health and Family welfare"
+151789,,,,,,"Family Welfare, Health, Health and Family welfare"
+151792,,,,,,"Family Welfare, Health, Health and Family welfare"
+151795,,,,,,"Family Welfare, Health, Health and Family welfare"
+151798,,,,,,"Family Welfare, Health, Health and Family welfare"
+151801,,,,,,"Family Welfare, Health, Health and Family welfare"
+151804,,,,,,"Family Welfare, Health, Health and Family welfare"
+151807,,,,,,"Family Welfare, Health, Health and Family welfare"
+151810,,,,,,"Family Welfare, Health, Health and Family welfare"
+151813,,,,,,"Family Welfare, Health, Health and Family welfare"
+151816,,,,,,"Family Welfare, Health, Health and Family welfare"
+151819,,,,,,"Family Welfare, Health, Health and Family welfare"
+151822,,,,,,"Family Welfare, Health, Health and Family welfare"
+151825,,,,,,"Family Welfare, Health, Health and Family welfare"
+151828,,,,,,"Family Welfare, Health, Health and Family welfare"
+151834,,,,,,"Family Welfare, Health, Health and Family welfare"
+151843,,,,,,"Family Welfare, Health, Health and Family welfare"
+151846,,,,,,"Family Welfare, Health, Health and Family welfare"
+151849,,,,,,"Family Welfare, Health, Health and Family welfare"
+151852,,,,,,"Family Welfare, Health, Health and Family welfare"
+151855,,,,,,"Family Welfare, Health, Health and Family welfare"
+151858,,,,,,"Family Welfare, Health, Health and Family welfare"
+151861,,,,,,"Family Welfare, Health, Health and Family welfare"
+151864,,,,,,"Family Welfare, Health, Health and Family welfare"
+151867,,,,,,"Family Welfare, Health, Health and Family welfare"
+151870,,,,,,"Family Welfare, Health, Health and Family welfare"
+151873,,,,,,"Family Welfare, Health, Health and Family welfare"
+151876,,,,,,"Family Welfare, Health, Health and Family welfare"
+151879,,,,,,"Family Welfare, Health, Health and Family welfare"
+151882,,,,,,"Family Welfare, Health, Health and Family welfare"
+151885,,,,,,"Family Welfare, Health, Health and Family welfare"
+151888,,,,,,"Family Welfare, Health, Health and Family welfare"
+151891,,,,,,"Family Welfare, Health, Health and Family welfare"
+151894,,,,,,"Family Welfare, Health, Health and Family welfare"
+151897,,,,,,"Family Welfare, Health, Health and Family welfare"
+151900,,,,,,"Family Welfare, Health, Health and Family welfare"
+151903,,,,,,"Family Welfare, Health, Health and Family welfare"
+151906,,,,,,"Family Welfare, Health, Health and Family welfare"
+151909,,,,,,"Family Welfare, Health, Health and Family welfare"
+151912,,,,,,"Family Welfare, Health, Health and Family welfare"
+151915,,,,,,"Family Welfare, Health, Health and Family welfare"
+151918,,,,,,"Family Welfare, Health, Health and Family welfare"
+151921,,,,,,"Family Welfare, Health, Health and Family welfare"
+158614,,,,,,"Family Welfare, Health, Health and Family welfare"
+163831,,,,,,"Family Welfare, Health, Health and Family welfare"
+163834,,,,,,"Family Welfare, Health, Health and Family welfare"
+163837,,,,,,"Family Welfare, Health, Health and Family welfare"
+163840,,,,,,"Family Welfare, Health, Health and Family welfare"
+163843,,,,,,"Family Welfare, Health, Health and Family welfare"
+163846,,,,,,"Family Welfare, Health, Health and Family welfare"
+163849,,,,,,"Family Welfare, Health, Health and Family welfare"
+163852,,,,,,"Family Welfare, Health, Health and Family welfare"
+163855,,,,,,"Family Welfare, Health, Health and Family welfare"
+163858,,,,,,"Family Welfare, Health, Health and Family welfare"
+163861,,,,,,"Family Welfare, Health, Health and Family welfare"
+163864,,,,,,"Family Welfare, Health, Health and Family welfare"
+163867,,,,,,"Family Welfare, Health, Health and Family welfare"
+163870,,,,,,"Family Welfare, Health, Health and Family welfare"
+163873,,,,,,"Family Welfare, Health, Health and Family welfare"
+163876,,,,,,"Family Welfare, Health, Health and Family welfare"
+163879,,,,,,"Family Welfare, Health, Health and Family welfare"
+163882,,,,,,"Family Welfare, Health, Health and Family welfare"
+163885,,,,,,"Family Welfare, Health, Health and Family welfare"
+163888,,,,,,"Family Welfare, Health, Health and Family welfare"
+163891,,,,,,"Family Welfare, Health, Health and Family welfare"
+163894,,,,,,"Family Welfare, Health, Health and Family welfare"
+163897,,,,,,"Family Welfare, Health, Health and Family welfare"
+163900,,,,,,"Family Welfare, Health, Health and Family welfare"
+163903,,,,,,"Family Welfare, Health, Health and Family welfare"
+163906,,,,,,"Family Welfare, Health, Health and Family welfare"
+163909,,,,,,"Family Welfare, Health, Health and Family welfare"
+163912,,,,,,"Family Welfare, Health, Health and Family welfare"
+163915,,,,,,"Family Welfare, Health, Health and Family welfare"
+163918,,,,,,"Family Welfare, Health, Health and Family welfare"
+163921,,,,,,"Family Welfare, Health, Health and Family welfare"
+163924,,,,,,"Family Welfare, Health, Health and Family welfare"
+163927,,,,,,"Family Welfare, Health, Health and Family welfare"
+163930,,,,,,"Family Welfare, Health, Health and Family welfare"
+163933,,,,,,"Family Welfare, Health, Health and Family welfare"
+163936,,,,,,"Family Welfare, Health, Health and Family welfare"
+163939,,,,,,"Family Welfare, Health, Health and Family welfare"
+163942,,,,,,"Family Welfare, Health, Health and Family welfare"
+163945,,,,,,"Family Welfare, Health, Health and Family welfare"
+163948,,,,,,"Family Welfare, Health, Health and Family welfare"
+163951,,,,,,"Family Welfare, Health, Health and Family welfare"
+163954,,,,,,"Family Welfare, Health, Health and Family welfare"
+163957,,,,,,"Family Welfare, Health, Health and Family welfare"
+163960,,,,,,"Family Welfare, Health, Health and Family welfare"
+163963,,,,,,"Family Welfare, Health, Health and Family welfare"
+163966,,,,,,"Family Welfare, Health, Health and Family welfare"
+163969,,,,,,"Family Welfare, Health, Health and Family welfare"
+163972,,,,,,"Family Welfare, Health, Health and Family welfare"
+163975,,,,,,"Family Welfare, Health, Health and Family welfare"
+163978,,,,,,"Family Welfare, Health, Health and Family welfare"
+163981,,,,,,"Family Welfare, Health, Health and Family welfare"
+163984,,,,,,"Family Welfare, Health, Health and Family welfare"
+227863,,,,,,"Family Welfare, Health, Health and Family welfare"
+268743,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719451,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719452,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719453,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719454,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719455,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719456,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719457,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719458,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719459,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719460,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719461,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719462,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719463,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719464,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719465,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719466,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719467,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719468,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719469,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719470,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719471,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719472,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719473,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719474,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719475,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719476,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719477,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719478,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719479,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719480,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719481,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719482,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719483,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719484,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719485,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719486,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719487,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719488,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719489,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719490,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719491,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719492,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719493,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719494,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719495,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719496,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719497,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719498,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719499,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719500,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719501,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719502,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719503,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719504,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719505,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719506,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719507,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719508,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719509,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719510,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719511,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719512,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719513,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719514,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719515,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719516,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719517,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719518,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719519,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719520,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719521,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719522,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719523,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719524,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719525,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719526,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719527,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719528,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719529,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719530,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719531,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719532,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719533,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719534,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719535,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719536,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719537,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719538,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719539,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719540,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719541,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719542,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719543,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719544,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719545,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719546,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719547,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719548,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719549,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719550,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719551,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719552,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719553,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719554,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719555,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719556,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719557,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719558,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719559,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719560,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719561,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719563,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719565,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719567,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719568,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719569,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719570,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719571,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719572,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719573,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719574,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719575,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719576,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719577,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719578,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719579,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719580,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719581,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719582,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719583,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719584,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719585,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719586,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719587,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719588,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719589,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719590,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719591,,,,,,"Family Welfare, Health, Health and Family welfare"
+6719592,,,,,,"Family Welfare, Health, Health and Family welfare"
+6737140,,,,,,"Family Welfare, Health, Health and Family welfare"
+6749547,,,,,,"Health, Health and Family welfare"
+6749548,,,,,,"Health, Health and Family welfare"
+6749549,,,,,,"Health, Health and Family welfare"
+6749550,,,,,,"Health, Health and Family welfare"
+6749551,,,,,,"Health, Health and Family welfare"
+6749552,,,,,,"Health, Health and Family welfare"
+6749553,,,,,,"Health, Health and Family welfare"
+6749554,,,,,,"Health, Health and Family welfare"
+6749555,,,,,,"Health, Health and Family welfare"
+6749556,,,,,,"Health, Health and Family welfare"
+6749557,,,,,,"Health, Health and Family welfare"
+6749558,,,,,,"Health, Health and Family welfare"
+6749559,,,,,,"Health, Health and Family welfare"
+6749560,,,,,,"Health, Health and Family welfare"
+6749561,,,,,,"Health, Health and Family welfare"
+6749562,,,,,,"Health, Health and Family welfare"
+6749563,,,,,,"Health, Health and Family welfare"
+6749564,,,,,,"Health, Health and Family welfare"
+6749565,,,,,,"Health, Health and Family welfare"
+6749566,,,,,,"Health, Health and Family welfare"
+6749567,,,,,,"Health, Health and Family welfare"
+6749568,,,,,,"Health, Health and Family welfare"
+6749569,,,,,,"Health, Health and Family welfare"
+6749570,,,,,,"Health, Health and Family welfare"
+6749571,,,,,,"Health, Health and Family welfare"
+6749572,,,,,,"Health, Health and Family welfare"
+6749573,,,,,,"Health, Health and Family welfare"
+6749574,,,,,,"Health, Health and Family welfare"
+6749575,,,,,,"Health, Health and Family welfare"
+6749576,,,,,,"Health, Health and Family welfare"
+6749577,,,,,,"Health, Health and Family welfare"
+6749578,,,,,,"Health, Health and Family welfare"
+6749579,,,,,,"Health, Health and Family welfare"
+6749580,,,,,,"Health, Health and Family welfare"
+6749581,,,,,,"Health, Health and Family welfare"
+6749582,,,,,,"Health, Health and Family welfare"
+6749583,,,,,,"Health, Health and Family welfare"
+6749584,,,,,,"Health, Health and Family welfare"
+6749585,,,,,,"Health, Health and Family welfare"
+6749586,,,,,,"Health, Health and Family welfare"
+6749587,,,,,,"Health, Health and Family welfare"
+6749588,,,,,,"Health, Health and Family welfare"
+6749589,,,,,,"Health, Health and Family welfare"
+6749590,,,,,,"Health, Health and Family welfare"
+6749591,,,,,,"Health, Health and Family welfare"
+6749592,,,,,,"Health, Health and Family welfare"
+6749593,,,,,,"Health, Health and Family welfare"
+6749594,,,,,,"Health, Health and Family welfare"
+6749595,,,,,,"Health, Health and Family welfare"
+6749596,,,,,,"Health, Health and Family welfare"
+6749597,,,,,,"Health, Health and Family welfare"
+6749599,,,,,,"Health, Health and Family welfare"
+6749602,,,,,,"Health, Health and Family welfare"
+6749603,,,,,,"Health, Health and Family welfare"
+6749604,,,,,,"Health, Health and Family welfare"
+6749605,,,,,,"Health, Health and Family welfare"
+6749606,,,,,,"Health, Health and Family welfare"
+6749608,,,,,,"Health, Health and Family welfare"
+6749609,,,,,,"Health, Health and Family welfare"
+6749610,,,,,,"Health, Health and Family welfare"
+6749611,,,,,,"Health, Health and Family welfare"
+6749612,,,,,,"Health, Health and Family welfare"
+6749614,,,,,,"Health, Health and Family welfare"
+6749615,,,,,,"Health, Health and Family welfare"
+6749616,,,,,,"Health, Health and Family welfare"
+6749617,,,,,,"Health, Health and Family welfare"
+6749618,,,,,,"Health, Health and Family welfare"
+6749619,,,,,,"Health, Health and Family welfare"
+6749620,,,,,,"Health, Health and Family welfare"
+6749622,,,,,,"Health, Health and Family welfare"
+6749623,,,,,,"Health, Health and Family welfare"
+6749625,,,,,,"Health, Health and Family welfare"
+6749626,,,,,,"Health, Health and Family welfare"
+6749627,,,,,,"Health, Health and Family welfare"
+6749628,,,,,,"Health, Health and Family welfare"
+6749629,,,,,,"Health, Health and Family welfare"
+6749630,,,,,,"Health, Health and Family welfare"
+6749632,,,,,,"Health, Health and Family welfare"
+6749633,,,,,,"Health, Health and Family welfare"
+6749634,,,,,,"Health, Health and Family welfare"
+6751639,,,,,,"Health, Health and Family welfare"
+6680171,,,,,,"Family Welfare, Health"
+6680174,,,,,,"Family Welfare, Health"
+6680175,,,,,,"Family Welfare, Health"
+6680176,,,,,,"Family Welfare, Health"
+6680178,,,,,,"Family Welfare, Health"
+6680179,,,,,,"Family Welfare, Health"
+6680186,,,,,,"Family Welfare, Health"
+6680187,,,,,,"Family Welfare, Health"
+6680188,,,,,,"Family Welfare, Health"
+6680190,,,,,,"Family Welfare, Health"
+6680191,,,,,,"Family Welfare, Health"
+6680193,,,,,,"Family Welfare, Health"
+6680194,,,,,,"Family Welfare, Health"
+6680195,,,,,,"Family Welfare, Health"
+6680196,,,,,,"Family Welfare, Health"
+6680197,,,,,,"Family Welfare, Health"
+6680198,,,,,,"Family Welfare, Health"
+6680199,,,,,,"Family Welfare, Health"
+6680200,,,,,,"Family Welfare, Health"
+6680201,,,,,,"Family Welfare, Health"
+6680203,,,,,,"Family Welfare, Health"
+6680204,,,,,,"Family Welfare, Health"
+6680206,,,,,,"Family Welfare, Health"
+6680208,,,,,,"Family Welfare, Health"
+6680211,,,,,,"Family Welfare, Health"
+6680213,,,,,,"Family Welfare, Health"
+6680215,,,,,,"Family Welfare, Health"
+6680218,,,,,,"Family Welfare, Health"
+6680219,,,,,,"Family Welfare, Health"
+6680220,,,,,,"Family Welfare, Health"
+6680221,,,,,,"Family Welfare, Health"
+6680222,,,,,,"Family Welfare, Health"
+6680223,,,,,,"Family Welfare, Health"
+6680224,,,,,,"Family Welfare, Health"
+6680225,,,,,,"Family Welfare, Health"
+6680226,,,,,,"Family Welfare, Health"
+6680227,,,,,,"Family Welfare, Health"
+6680228,,,,,,"Family Welfare, Health"
+6680229,,,,,,"Family Welfare, Health"
+6680231,,,,,,"Family Welfare, Health"
+6680232,,,,,,"Family Welfare, Health"
+6680236,,,,,,"Family Welfare, Health"
+6680237,,,,,,"Family Welfare, Health"
+6680238,,,,,,"Family Welfare, Health"
+6680239,,,,,,"Family Welfare, Health"
+6680241,,,,,,"Family Welfare, Health"
+6680245,,,,,,"Family Welfare, Health"
+6680246,,,,,,"Family Welfare, Health"
+6680247,,,,,,"Family Welfare, Health"
+6680248,,,,,,"Family Welfare, Health"
+6680252,,,,,,"Family Welfare, Health"
+6680254,,,,,,"Family Welfare, Health"
+6680255,,,,,,"Family Welfare, Health"
+6680256,,,,,,"Family Welfare, Health"
+6680258,,,,,,"Family Welfare, Health"
+6680259,,,,,,"Family Welfare, Health"
+6680260,,,,,,"Family Welfare, Health"
+6680261,,,,,,"Family Welfare, Health"
+6846676,,,,,,"Family Welfare, Health"
+6846677,,,,,,"Family Welfare, Health"
+6846713,,,,,,"Family Welfare, Health"
+6846714,,,,,,"Family Welfare, Health"
+6846715,,,,,,"Family Welfare, Health"
+6846716,,,,,,"Family Welfare, Health"
+6846717,,,,,,"Family Welfare, Health"
+6846718,,,,,,"Family Welfare, Health"
+6846719,,,,,,"Family Welfare, Health"
+6846720,,,,,,"Family Welfare, Health"
+6846721,,,,,,"Family Welfare, Health"
+6846722,,,,,,"Family Welfare, Health"
+6846723,,,,,,"Family Welfare, Health"
+6846724,,,,,,"Family Welfare, Health"
+6846725,,,,,,"Family Welfare, Health"
+6846726,,,,,,"Family Welfare, Health"
+6846727,,,,,,"Family Welfare, Health"
+6846728,,,,,,"Family Welfare, Health"
+6846729,,,,,,"Family Welfare, Health"
+6846730,,,,,,"Family Welfare, Health"
+6846731,,,,,,"Family Welfare, Health"
+6846732,,,,,,"Family Welfare, Health"
+6846733,,,,,,"Family Welfare, Health"
+6846734,,,,,,"Family Welfare, Health"
+6846735,,,,,,"Family Welfare, Health"
+6846736,,,,,,"Family Welfare, Health"
+6846737,,,,,,"Family Welfare, Health"
+6846738,,,,,,"Family Welfare, Health"
+6846739,,,,,,"Family Welfare, Health"
+6846740,,,,,,"Family Welfare, Health"
+6846741,,,,,,"Family Welfare, Health"
+6846742,,,,,,"Family Welfare, Health"
+6846743,,,,,,"Family Welfare, Health"
+6846744,,,,,,"Family Welfare, Health"
+6846745,,,,,,"Family Welfare, Health"
+6846748,,,,,,"Family Welfare, Health"
+6846749,,,,,,"Family Welfare, Health"
+6846750,,,,,,"Family Welfare, Health"
+6846751,,,,,,"Family Welfare, Health"
+6846752,,,,,,"Family Welfare, Health"
+6846753,,,,,,"Family Welfare, Health"
+6846754,,,,,,"Family Welfare, Health"
+6846755,,,,,,"Family Welfare, Health"
+6846756,,,,,,"Family Welfare, Health"
+6846757,,,,,,"Family Welfare, Health"
+6846758,,,,,,"Family Welfare, Health"
+6846759,,,,,,"Family Welfare, Health"
+6846760,,,,,,"Family Welfare, Health"
+6846761,,,,,,"Family Welfare, Health"
+6846762,,,,,,"Family Welfare, Health"
+6846763,,,,,,"Family Welfare, Health"
+6846764,,,,,,"Family Welfare, Health"
+6846765,,,,,,"Family Welfare, Health"
+6846766,,,,,,"Family Welfare, Health"
+6846767,,,,,,"Family Welfare, Health"
+6846768,,,,,,"Family Welfare, Health"
+6846769,,,,,,"Family Welfare, Health"
+6846770,,,,,,"Family Welfare, Health"
+6846771,,,,,,"Family Welfare, Health"
+6846772,,,,,,"Family Welfare, Health"
+6920340,,,,,,"Family Welfare, Health and Family welfare"
+6920798,,,,,,"All, Health and Family welfare"
+7071566,,,,,,"Health, Health and Family welfare"
+7176989,,,,,,"Health, Health and Family welfare"
+7490777,,,,,,Health
+7490791,,,,,,Health
+7494993,,,,,,Health
+7495073,,,,,,Health
+7495095,,,,,,Health
+7495180,,,,,,Health
+7495195,,,,,,Health
+7495226,,,,,,Health
+7496481,,,,,,Health
+7496495,,,,,,Health
+7505752,,,,,,Health
+7505777,,,,,,Health
+7505793,,,,,,Health
+7505804,,,,,,Health
+7505818,,,,,,Health
+7505856,,,,,,Health
+7505865,,,,,,Health
+7505875,,,,,,Health
+7505883,,,,,,Health
+7505893,,,,,,Health
+7505932,,,,,,Health
+7506040,,,,,,Health
+7506144,,,,,,Health
+7506147,,,,,,Health
+7506153,,,,,,Health
+7506169,,,,,,Health
+7506174,,,,,,Health
+7506199,,,,,,Health
+7506215,,,,,,Health
+7506220,,,,,,Health
+7506239,,,,,,Health
+507041,,,,,,"Family Welfare, Health, Health and Family welfare"
+507081,,,,,,"Family Welfare, Health, Health and Family welfare"
+507241,,,,,,"Family Welfare, Health, Health and Family welfare"
+508141,,,,,,"Family Welfare, Health and Family welfare"
+586981,,,,,,"Family Welfare, Health, Health and Family welfare"
+587001,,,,,,"Family Welfare, Health, Health and Family welfare"
+587021,,,,,,"Family Welfare, Health, Health and Family welfare"
+692961,,,,,,"Family Welfare, Health, Health and Family welfare"
+693001,,,,,,"Family Welfare, Health, Health and Family welfare"
+704881,,,,,,"Family Welfare, Health, Health and Family welfare"
+704901,,,,,,"Family Welfare, Health, Health and Family welfare"
+705481,,,,,,"Family Welfare, Health, Health and Family welfare"
+705661,,,,,,"Family Welfare, Health, Health and Family welfare"
+706081,,,,,,"Family Welfare, Health, Health and Family welfare"
+706321,,,,,,"Family Welfare, Health, Health and Family welfare"
+706401,,,,,,"Family Welfare, Health, Health and Family welfare"
+707221,,,,,,"Family Welfare, Health, Health and Family welfare"
+707361,,,,,,"Family Welfare, Health, Health and Family welfare"
+707441,,,,,,"Family Welfare, Health, Health and Family welfare"
+707941,,,,,,"Family Welfare, Health, Health and Family welfare"
+708161,,,,,,"Family Welfare, Health, Health and Family welfare"
+708321,,,,,,"Family Welfare, Health, Health and Family welfare"
+708361,,,,,,"Family Welfare, Health, Health and Family welfare"
+708381,,,,,,"Family Welfare, Health, Health and Family welfare"
+740761,,,,,,"Family Welfare, Health, Health and Family welfare"
+779681,,,,,,"Family Welfare, Health, Health and Family welfare"
+779721,,,,,,"Family Welfare, Health, Health and Family welfare"
+779741,,,,,,"Family Welfare, Health, Health and Family welfare"
+779761,,,,,,"Family Welfare, Health, Health and Family welfare"
+779781,,,,,,"Family Welfare, Health, Health and Family welfare"
+779801,,,,,,"Family Welfare, Health, Health and Family welfare"
+779821,,,,,,"Family Welfare, Health, Health and Family welfare"
+779841,,,,,,"Family Welfare, Health, Health and Family welfare"
+779861,,,,,,"Family Welfare, Health, Health and Family welfare"
+779881,,,,,,"Family Welfare, Health, Health and Family welfare"
+779901,,,,,,"Family Welfare, Health, Health and Family welfare"
+779921,,,,,,"Family Welfare, Health, Health and Family welfare"
+779941,,,,,,"Family Welfare, Health, Health and Family welfare"
+779961,,,,,,"Family Welfare, Health, Health and Family welfare"
+779981,,,,,,"Family Welfare, Health, Health and Family welfare"
+780001,,,,,,"Family Welfare, Health, Health and Family welfare"
+780021,,,,,,"Family Welfare, Health, Health and Family welfare"
+780041,,,,,,"Family Welfare, Health, Health and Family welfare"
+780061,,,,,,"Family Welfare, Health, Health and Family welfare"
+780081,,,,,,"Family Welfare, Health, Health and Family welfare"
+780101,,,,,,"Family Welfare, Health, Health and Family welfare"
+780121,,,,,,"Family Welfare, Health, Health and Family welfare"
+780141,,,,,,"Family Welfare, Health, Health and Family welfare"
+780161,,,,,,"Family Welfare, Health, Health and Family welfare"
+780181,,,,,,"Family Welfare, Health, Health and Family welfare"
+780201,,,,,,"Family Welfare, Health, Health and Family welfare"
+780221,,,,,,"Family Welfare, Health, Health and Family welfare"
+780241,,,,,,"Family Welfare, Health, Health and Family welfare"
+780261,,,,,,"Family Welfare, Health, Health and Family welfare"
+780281,,,,,,"Family Welfare, Health, Health and Family welfare"
+780301,,,,,,"Family Welfare, Health, Health and Family welfare"
+780321,,,,,,"Family Welfare, Health, Health and Family welfare"
+780341,,,,,,"Family Welfare, Health, Health and Family welfare"
+780361,,,,,,"Family Welfare, Health, Health and Family welfare"
+780381,,,,,,"Family Welfare, Health, Health and Family welfare"
+780401,,,,,,"Family Welfare, Health, Health and Family welfare"
+780421,,,,,,"Family Welfare, Health, Health and Family welfare"
+780441,,,,,,"Family Welfare, Health, Health and Family welfare"
+780461,,,,,,"Family Welfare, Health, Health and Family welfare"
+780481,,,,,,"Family Welfare, Health, Health and Family welfare"
+780501,,,,,,"Family Welfare, Health, Health and Family welfare"
+780521,,,,,,"Family Welfare, Health, Health and Family welfare"
+780541,,,,,,"Family Welfare, Health, Health and Family welfare"
+780561,,,,,,"Family Welfare, Health, Health and Family welfare"
+780581,,,,,,"Family Welfare, Health, Health and Family welfare"
+780601,,,,,,"Family Welfare, Health, Health and Family welfare"
+780621,,,,,,"Family Welfare, Health, Health and Family welfare"
+780641,,,,,,"Family Welfare, Health, Health and Family welfare"
+780661,,,,,,"Family Welfare, Health, Health and Family welfare"
+780681,,,,,,"Family Welfare, Health, Health and Family welfare"
+780701,,,,,,"Family Welfare, Health, Health and Family welfare"
+780721,,,,,,"Family Welfare, Health, Health and Family welfare"
+780741,,,,,,"Family Welfare, Health, Health and Family welfare"
+780761,,,,,,"Family Welfare, Health, Health and Family welfare"
+780781,,,,,,"Family Welfare, Health, Health and Family welfare"
+780801,,,,,,"Family Welfare, Health, Health and Family welfare"
+780841,,,,,,"Family Welfare, Health, Health and Family welfare"
+780861,,,,,,"Family Welfare, Health, Health and Family welfare"
+780881,,,,,,"Family Welfare, Health, Health and Family welfare"
+780901,,,,,,"Family Welfare, Health, Health and Family welfare"
+780921,,,,,,"Family Welfare, Health, Health and Family welfare"
+780941,,,,,,"Family Welfare, Health, Health and Family welfare"
+780961,,,,,,"Family Welfare, Health, Health and Family welfare"
+780981,,,,,,"Family Welfare, Health, Health and Family welfare"
+781001,,,,,,"Family Welfare, Health, Health and Family welfare"
+781021,,,,,,"Family Welfare, Health, Health and Family welfare"
+781041,,,,,,"Family Welfare, Health, Health and Family welfare"
+781061,,,,,,"Family Welfare, Health, Health and Family welfare"
+781081,,,,,,"Family Welfare, Health, Health and Family welfare"
+781101,,,,,,"Family Welfare, Health, Health and Family welfare"
+781121,,,,,,"Family Welfare, Health, Health and Family welfare"
+781141,,,,,,"Family Welfare, Health, Health and Family welfare"
+781161,,,,,,"Family Welfare, Health, Health and Family welfare"
+781201,,,,,,"Family Welfare, Health, Health and Family welfare"
+781221,,,,,,"Family Welfare, Health, Health and Family welfare"
+781241,,,,,,"Family Welfare, Health, Health and Family welfare"
+781261,,,,,,"Family Welfare, Health, Health and Family welfare"
+781281,,,,,,"Family Welfare, Health, Health and Family welfare"
+781301,,,,,,"Family Welfare, Health, Health and Family welfare"
+781321,,,,,,"Family Welfare, Health, Health and Family welfare"
+781341,,,,,,"Family Welfare, Health, Health and Family welfare"
+781361,,,,,,"Family Welfare, Health, Health and Family welfare"
+781381,,,,,,"Family Welfare, Health, Health and Family welfare"
+781401,,,,,,"Family Welfare, Health, Health and Family welfare"
+781421,,,,,,"Family Welfare, Health, Health and Family welfare"
+781441,,,,,,"Family Welfare, Health, Health and Family welfare"
+781461,,,,,,"Family Welfare, Health, Health and Family welfare"
+781481,,,,,,"Family Welfare, Health, Health and Family welfare"
+781501,,,,,,"Family Welfare, Health, Health and Family welfare"
+781521,,,,,,"Family Welfare, Health, Health and Family welfare"
+781541,,,,,,"Family Welfare, Health, Health and Family welfare"
+781561,,,,,,"Family Welfare, Health, Health and Family welfare"
+781581,,,,,,"Family Welfare, Health, Health and Family welfare"
+781601,,,,,,"Family Welfare, Health, Health and Family welfare"
+781621,,,,,,"Family Welfare, Health, Health and Family welfare"
+781641,,,,,,"Family Welfare, Health, Health and Family welfare"
+781661,,,,,,"Family Welfare, Health, Health and Family welfare"
+781681,,,,,,"Family Welfare, Health, Health and Family welfare"
+781701,,,,,,"Family Welfare, Health, Health and Family welfare"
+781721,,,,,,"Family Welfare, Health, Health and Family welfare"
+781741,,,,,,"Family Welfare, Health, Health and Family welfare"
+781761,,,,,,"Family Welfare, Health, Health and Family welfare"
+781781,,,,,,"Family Welfare, Health, Health and Family welfare"
+781801,,,,,,"Family Welfare, Health, Health and Family welfare"
+781821,,,,,,"Family Welfare, Health, Health and Family welfare"
+781841,,,,,,"Family Welfare, Health, Health and Family welfare"
+781861,,,,,,"Family Welfare, Health, Health and Family welfare"
+781881,,,,,,"Family Welfare, Health, Health and Family welfare"
+781901,,,,,,"Family Welfare, Health, Health and Family welfare"
+781921,,,,,,"Family Welfare, Health, Health and Family welfare"
+781941,,,,,,"Family Welfare, Health, Health and Family welfare"
+781961,,,,,,"Family Welfare, Health, Health and Family welfare"
+781981,,,,,,"Family Welfare, Health, Health and Family welfare"
+782001,,,,,,"Family Welfare, Health, Health and Family welfare"
+782021,,,,,,"Family Welfare, Health, Health and Family welfare"
+782041,,,,,,"Family Welfare, Health, Health and Family welfare"
+782061,,,,,,"Family Welfare, Health, Health and Family welfare"
+782081,,,,,,"Family Welfare, Health, Health and Family welfare"
+782101,,,,,,"Family Welfare, Health, Health and Family welfare"
+782121,,,,,,"Family Welfare, Health, Health and Family welfare"
+782141,,,,,,"Family Welfare, Health, Health and Family welfare"
+782161,,,,,,"Family Welfare, Health, Health and Family welfare"
+782181,,,,,,"Family Welfare, Health, Health and Family welfare"
+782201,,,,,,"Family Welfare, Health, Health and Family welfare"
+782221,,,,,,"Family Welfare, Health, Health and Family welfare"
+782241,,,,,,"Family Welfare, Health, Health and Family welfare"
+782261,,,,,,"Family Welfare, Health, Health and Family welfare"
+782281,,,,,,"Family Welfare, Health, Health and Family welfare"
+782301,,,,,,"Family Welfare, Health, Health and Family welfare"
+782321,,,,,,"Family Welfare, Health, Health and Family welfare"
+782341,,,,,,"Family Welfare, Health, Health and Family welfare"
+782361,,,,,,"Family Welfare, Health, Health and Family welfare"
+782381,,,,,,"Family Welfare, Health, Health and Family welfare"
+782401,,,,,,"Family Welfare, Health, Health and Family welfare"
+782421,,,,,,"Family Welfare, Health, Health and Family welfare"
+782441,,,,,,"Family Welfare, Health, Health and Family welfare"
+782461,,,,,,"Family Welfare, Health, Health and Family welfare"
+782481,,,,,,"Family Welfare, Health, Health and Family welfare"
+782501,,,,,,"Family Welfare, Health, Health and Family welfare"
+782521,,,,,,"Family Welfare, Health, Health and Family welfare"
+782541,,,,,,"Family Welfare, Health, Health and Family welfare"
+782561,,,,,,"Family Welfare, Health, Health and Family welfare"
+782581,,,,,,"Family Welfare, Health, Health and Family welfare"
+782601,,,,,,"Family Welfare, Health, Health and Family welfare"
+782621,,,,,,"Family Welfare, Health, Health and Family welfare"
+782641,,,,,,"Family Welfare, Health, Health and Family welfare"
+782661,,,,,,"Family Welfare, Health, Health and Family welfare"
+782681,,,,,,"Family Welfare, Health, Health and Family welfare"
+782701,,,,,,"Family Welfare, Health, Health and Family welfare"
+782721,,,,,,"Family Welfare, Health, Health and Family welfare"
+782741,,,,,,"Family Welfare, Health, Health and Family welfare"
+782761,,,,,,"Family Welfare, Health, Health and Family welfare"
+782781,,,,,,"Family Welfare, Health, Health and Family welfare"
+782801,,,,,,"Family Welfare, Health, Health and Family welfare"
+782821,,,,,,"Family Welfare, Health, Health and Family welfare"
+782841,,,,,,"Family Welfare, Health, Health and Family welfare"
+782861,,,,,,"Family Welfare, Health, Health and Family welfare"
+782881,,,,,,"Family Welfare, Health, Health and Family welfare"
+782901,,,,,,"Family Welfare, Health, Health and Family welfare"
+782921,,,,,,"Family Welfare, Health, Health and Family welfare"
+782941,,,,,,"Family Welfare, Health, Health and Family welfare"
+782961,,,,,,"Family Welfare, Health, Health and Family welfare"
+782981,,,,,,"Family Welfare, Health, Health and Family welfare"
+783001,,,,,,"Family Welfare, Health, Health and Family welfare"
+783021,,,,,,"Family Welfare, Health, Health and Family welfare"
+783041,,,,,,"Family Welfare, Health, Health and Family welfare"
+783061,,,,,,"Family Welfare, Health, Health and Family welfare"
+783081,,,,,,"Family Welfare, Health, Health and Family welfare"
+783101,,,,,,"Family Welfare, Health, Health and Family welfare"
+783121,,,,,,"Family Welfare, Health, Health and Family welfare"
+783141,,,,,,"Family Welfare, Health, Health and Family welfare"
+783161,,,,,,"Family Welfare, Health, Health and Family welfare"
+783181,,,,,,"Family Welfare, Health, Health and Family welfare"
+783201,,,,,,"Family Welfare, Health, Health and Family welfare"
+783221,,,,,,"Family Welfare, Health, Health and Family welfare"
+783241,,,,,,"Family Welfare, Health, Health and Family welfare"
+783261,,,,,,"Family Welfare, Health, Health and Family welfare"
+783281,,,,,,"Family Welfare, Health, Health and Family welfare"
+783301,,,,,,"Family Welfare, Health, Health and Family welfare"
+783321,,,,,,"Family Welfare, Health, Health and Family welfare"
+783341,,,,,,"Family Welfare, Health, Health and Family welfare"
+783361,,,,,,"Family Welfare, Health, Health and Family welfare"
+783381,,,,,,"Family Welfare, Health, Health and Family welfare"
+783401,,,,,,"Family Welfare, Health, Health and Family welfare"
+783421,,,,,,"Family Welfare, Health, Health and Family welfare"
+783441,,,,,,"Family Welfare, Health, Health and Family welfare"
+783461,,,,,,"Family Welfare, Health, Health and Family welfare"
+783581,,,,,,"Family Welfare, Health, Health and Family welfare"
+783601,,,,,,"Family Welfare, Health, Health and Family welfare"
+783621,,,,,,"Family Welfare, Health, Health and Family welfare"
+783641,,,,,,"Family Welfare, Health, Health and Family welfare"
+783661,,,,,,"Family Welfare, Health, Health and Family welfare"
+783681,,,,,,"Family Welfare, Health, Health and Family welfare"
+783701,,,,,,"Family Welfare, Health, Health and Family welfare"
+783721,,,,,,"Family Welfare, Health, Health and Family welfare"
+783741,,,,,,"Family Welfare, Health, Health and Family welfare"
+783761,,,,,,"Family Welfare, Health, Health and Family welfare"
+783781,,,,,,"Family Welfare, Health, Health and Family welfare"
+783801,,,,,,"Family Welfare, Health, Health and Family welfare"
+783821,,,,,,"Family Welfare, Health, Health and Family welfare"
+783841,,,,,,"Family Welfare, Health, Health and Family welfare"
+783861,,,,,,"Family Welfare, Health, Health and Family welfare"
+783881,,,,,,"Family Welfare, Health, Health and Family welfare"
+783901,,,,,,"Family Welfare, Health, Health and Family welfare"
+783921,,,,,,"Family Welfare, Health, Health and Family welfare"
+783941,,,,,,"Family Welfare, Health, Health and Family welfare"
+783961,,,,,,"Family Welfare, Health, Health and Family welfare"
+783981,,,,,,"Family Welfare, Health, Health and Family welfare"
+784021,,,,,,"Family Welfare, Health, Health and Family welfare"
+784041,,,,,,"Family Welfare, Health, Health and Family welfare"
+784061,,,,,,"Family Welfare, Health, Health and Family welfare"
+784081,,,,,,"Family Welfare, Health, Health and Family welfare"
+784101,,,,,,"Family Welfare, Health, Health and Family welfare"
+784121,,,,,,"Family Welfare, Health, Health and Family welfare"
+784141,,,,,,"Family Welfare, Health, Health and Family welfare"
+784161,,,,,,"Family Welfare, Health, Health and Family welfare"
+784181,,,,,,"Family Welfare, Health, Health and Family welfare"
+784201,,,,,,"Family Welfare, Health, Health and Family welfare"
+784221,,,,,,"Family Welfare, Health, Health and Family welfare"
+784241,,,,,,"Family Welfare, Health, Health and Family welfare"
+784261,,,,,,"Family Welfare, Health, Health and Family welfare"
+784281,,,,,,"Family Welfare, Health, Health and Family welfare"
+784301,,,,,,"Family Welfare, Health, Health and Family welfare"
+784401,,,,,,"Family Welfare, Health, Health and Family welfare"
+784421,,,,,,"Family Welfare, Health, Health and Family welfare"
+784441,,,,,,"Family Welfare, Health, Health and Family welfare"
+784461,,,,,,"Family Welfare, Health, Health and Family welfare"
+784481,,,,,,"Family Welfare, Health, Health and Family welfare"
+784501,,,,,,"Family Welfare, Health, Health and Family welfare"
+784521,,,,,,"Family Welfare, Health, Health and Family welfare"
+784541,,,,,,"Family Welfare, Health, Health and Family welfare"
+784561,,,,,,"Family Welfare, Health, Health and Family welfare"
+784581,,,,,,"Family Welfare, Health, Health and Family welfare"
+784601,,,,,,"Family Welfare, Health, Health and Family welfare"
+784621,,,,,,"Family Welfare, Health, Health and Family welfare"
+784641,,,,,,"Family Welfare, Health, Health and Family welfare"
+784661,,,,,,"Family Welfare, Health, Health and Family welfare"
+784681,,,,,,"Family Welfare, Health, Health and Family welfare"
+784701,,,,,,"Family Welfare, Health, Health and Family welfare"
+784721,,,,,,"Family Welfare, Health, Health and Family welfare"
+784741,,,,,,"Family Welfare, Health, Health and Family welfare"
+784761,,,,,,"Family Welfare, Health, Health and Family welfare"
+784781,,,,,,"Family Welfare, Health, Health and Family welfare"
+784801,,,,,,"Family Welfare, Health, Health and Family welfare"
+784821,,,,,,"Family Welfare, Health, Health and Family welfare"
+784841,,,,,,"Family Welfare, Health, Health and Family welfare"
+784861,,,,,,"Family Welfare, Health, Health and Family welfare"
+784881,,,,,,"Family Welfare, Health, Health and Family welfare"
+784901,,,,,,"Family Welfare, Health, Health and Family welfare"
+784921,,,,,,"Family Welfare, Health, Health and Family welfare"
+784941,,,,,,"Family Welfare, Health, Health and Family welfare"
+784961,,,,,,"Family Welfare, Health, Health and Family welfare"
+784981,,,,,,"Family Welfare, Health, Health and Family welfare"
+785001,,,,,,"Family Welfare, Health, Health and Family welfare"
+785021,,,,,,"Family Welfare, Health, Health and Family welfare"
+785041,,,,,,"Family Welfare, Health, Health and Family welfare"
+785061,,,,,,"Family Welfare, Health, Health and Family welfare"
+785081,,,,,,"Family Welfare, Health, Health and Family welfare"
+785101,,,,,,"Family Welfare, Health, Health and Family welfare"
+785121,,,,,,"Family Welfare, Health, Health and Family welfare"
+1106881,,,,,,"Health, Health and Family welfare"
+1112601,,,,,,"Family Welfare, Health, Health and Family welfare"
+4215221,,,,,,"Family Welfare, Health, Health and Family welfare"
+4215281,,,,,,"Family Welfare, Health, Health and Family welfare"
+4215301,,,,,,"Family Welfare, Health, Health and Family welfare"
+4216441,,,,,,"Family Welfare, Health, Health and Family welfare"
+4217821,,,,,,"Family Welfare, Health, Health and Family welfare"
+4217841,,,,,,"Family Welfare, Health, Health and Family welfare"
+4217861,,,,,,"Family Welfare, Health, Health and Family welfare"
+4217881,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220161,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220181,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220201,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220221,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220241,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220261,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220281,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220301,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220441,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220481,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220521,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220661,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220681,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220701,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220721,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220741,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220761,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220781,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220801,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220821,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220841,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220861,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220881,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220901,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220921,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220941,,,,,,"Family Welfare, Health, Health and Family welfare"
+4220961,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221001,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221041,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221061,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221081,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221161,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221261,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221281,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221301,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221321,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221341,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221381,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221401,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221421,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221501,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221521,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221541,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221561,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221581,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221601,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221621,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221741,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221761,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221781,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221801,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221821,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221841,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221861,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221881,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221901,,,,,,"Family Welfare, Health, Health and Family welfare"
+4221921,,,,,,"Family Welfare, Health, Health and Family welfare"
+323921,,,,,,"Family Welfare, Health, Health and Family welfare"
+356921,,,,,,"Family Welfare, Health, Health and Family welfare"
+448841,,,,,,"Family Welfare, Health, Health and Family welfare"
+484681,,,,,,"Family Welfare, Health, Health and Family welfare"
+499581,,,,,,"Family Welfare, Health, Health and Family welfare"
+501521,,,,,,"Family Welfare, Health and Family welfare"
+501741,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006021,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006041,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006061,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006081,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006101,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006181,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006201,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006221,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006261,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006281,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006321,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006401,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006421,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006441,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006461,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006481,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006501,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006561,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006681,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006721,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006781,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006801,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006841,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006861,,,,,,"Family Welfare, Health, Health and Family welfare"
+2006881,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008041,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008061,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008081,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008121,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008141,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008161,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008201,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008221,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008241,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008301,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008321,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008361,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008461,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008481,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008501,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008521,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008541,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008581,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008601,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008681,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008701,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008721,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008741,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008781,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008901,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008961,,,,,,"Family Welfare, Health, Health and Family welfare"
+2008981,,,,,,"Family Welfare, Health, Health and Family welfare"
+2009001,,,,,,"Family Welfare, Health, Health and Family welfare"
+2009021,,,,,,"Family Welfare, Health, Health and Family welfare"
+2009041,,,,,,"Family Welfare, Health, Health and Family welfare"
+2009061,,,,,,"Family Welfare, Health, Health and Family welfare"
+3786601,,,,,,"Health, Health and Family welfare"
+3787781,,,,,,"Health, Health and Family welfare"
+6284956,,,,,,"Family Welfare, Health, Health and Family welfare"
+6436141,,,,,,"Family Welfare, Health, Health and Family welfare"
+6436281,,,,,,"Family Welfare, Health, Health and Family welfare"
+6436421,,,,,,"Family Welfare, Health, Health and Family welfare"
+6436561,,,,,,"Family Welfare, Health, Health and Family welfare"
+6436701,,,,,,"Family Welfare, Health, Health and Family welfare"

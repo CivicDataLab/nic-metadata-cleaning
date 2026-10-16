@@ -1,0 +1,28 @@
+2026-10-08 14:20:10,037 : INFO - Loaded 50 unnamed catalog rows -> 50 single-title catalogs
+2026-10-08 14:20:10,037 : INFO - Split 50 catalogs into 1 chunk(s) of up to 390
+2026-10-08 14:20:10,037 : INFO - Submitting chunk 1/1 (50 catalogs) — window 1
+2026-10-08 14:20:10,050 : INFO - Wrote 50 requests to /media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/text_generation/catalog_batch_requests_20261008_142010_chunk1.jsonl
+2026-10-08 14:20:14,854 : INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2026-10-08 14:20:14,855 : INFO - Uploaded catalog_batch_requests_20261008_142010_chunk1.jsonl → file_id=file-SJSZKybb5cjmLav7kMaWqa
+2026-10-08 14:20:17,969 : INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2026-10-08 14:20:17,974 : INFO - Batch submitted - batch_id=batch_6ac759498d988190bc33c88620de143a  status=validating
+2026-10-08 14:20:17,974 : INFO - Window 1: polling ['batch_6ac759498d988190bc33c88620de143a']
+2026-10-08 14:20:18,319 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6ac759498d988190bc33c88620de143a "HTTP/1.1 200 OK"
+2026-10-08 14:20:18,320 : INFO - [batch_6ac759498d988190bc33c88620de143a] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-10-08 14:21:23,940 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6ac759498d988190bc33c88620de143a "HTTP/1.1 200 OK"
+2026-10-08 14:21:23,941 : INFO - [batch_6ac759498d988190bc33c88620de143a] status=in_progress error_file_id=None total=50  completed=0  failed=0
+2026-10-08 14:22:24,523 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6ac759498d988190bc33c88620de143a "HTTP/1.1 200 OK"
+2026-10-08 14:22:24,524 : INFO - [batch_6ac759498d988190bc33c88620de143a] status=in_progress error_file_id=None total=50  completed=46  failed=0
+2026-10-08 14:23:30,826 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6ac759498d988190bc33c88620de143a "HTTP/1.1 200 OK"
+2026-10-08 14:23:30,827 : INFO - [batch_6ac759498d988190bc33c88620de143a] status=completed error_file_id=None total=50  completed=50  failed=0
+2026-10-08 14:23:31,717 : INFO - HTTP Request: GET https://api.openai.com/v1/files/file-AwXmG7EbTctvnXZmCnxcK6/content "HTTP/1.1 200 OK"
+2026-10-08 14:23:32,023 : INFO - Parsed 50 result(s) from output file
+2026-10-08 14:23:32,025 : INFO - Raw output saved to /media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/text_generation/catalog_batch_output_batch_6ac759498d988190bc33c88620de143a.jsonl
+2026-10-08 14:23:32,054 : INFO - Appended 50 rows to /media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/text_generation/remaining_catalog_llm_results.csv
+2026-10-08 14:23:32,686 : INFO - Updated 50 unnamed remaining_catalog rows across 50 catalogs (by nid)
+2026-10-08 14:23:32,687 : INFO - Window 1/1 done. 50/50 catalogs saved so far.
+2026-10-08 14:23:32,687 : INFO - All done. 50 catalogs over 1 batch job(s).
+
+Done. batch_ids=['batch_6ac759498d988190bc33c88620de143a']
+CSV → /media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/text_generation/remaining_catalog_llm_results.csv
+DB  → /media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/metadata.db::remaining_catalog (generated_sector, generated_description)

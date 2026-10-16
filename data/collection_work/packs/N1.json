@@ -1,0 +1,547 @@
+{
+ "batch": "N1",
+ "collections": {
+  "All India Level Distribution of Female Inmates in the Country by Age group and Percentage Share at the end": {
+   "nids": [
+    "3644961",
+    "3637701",
+    "3636121",
+    "3637681",
+    "3636101",
+    "3644941"
+   ],
+   "groups": {
+    "G529": [
+     "3644961",
+     "3637701",
+     "3636121"
+    ],
+    "G530": [
+     "3637681",
+     "3636101"
+    ],
+    "G531": [
+     "3644941"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "All India level Juveniles Apprehended by Sex (schema 1)": {
+   "nids": [
+    "1038621",
+    "1073781",
+    "1067981",
+    "840081",
+    "805981",
+    "2010181",
+    "1912861",
+    "1301101",
+    "1175221",
+    "1169681",
+    "1119321",
+    "1092961",
+    "1087081",
+    "1080521",
+    "774721",
+    "768841",
+    "751141",
+    "742261"
+   ],
+   "groups": {
+    "G532": [
+     "2010181",
+     "1912861",
+     "1301101",
+     "1175221",
+     "1169681",
+     "1119321",
+     "1092961",
+     "1087081",
+     "1080521",
+     "774721",
+     "768841",
+     "751141",
+     "742261"
+    ],
+    "G533": [
+     "1073781",
+     "1067981",
+     "840081",
+     "805981"
+    ],
+    "G534": [
+     "1038621"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "All India level Percentage Distribution of Crime under Important IPC Crime Heads (schema 1)": {
+   "nids": [
+    "2374161",
+    "2065601",
+    "2009901",
+    "1912561",
+    "1300421",
+    "1174541"
+   ],
+   "groups": {
+    "G535": [
+     "2374161",
+     "2065601",
+     "2009901"
+    ],
+    "G536": [
+     "1300421"
+    ],
+    "G537": [
+     "1912561"
+    ],
+    "G538": [
+     "1174541"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "All India level Percentage of Disposal of Cases under IPC by the Courts (schema 2)": {
+   "nids": [
+    "905701",
+    "905781",
+    "718341",
+    "718361",
+    "729941",
+    "719101",
+    "731441",
+    "718741",
+    "718761"
+   ],
+   "groups": {
+    "G539": [
+     "731441",
+     "718741",
+     "718761"
+    ],
+    "G540": [
+     "718341",
+     "718361"
+    ],
+    "G541": [
+     "905701"
+    ],
+    "G542": [
+     "905781"
+    ],
+    "G543": [
+     "729941"
+    ],
+    "G544": [
+     "719101"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "All India level Persons Arrested under IPC Crime Heads By Sex (schema 2)": {
+   "nids": [
+    "1023561",
+    "905821",
+    "718901",
+    "718921",
+    "719261",
+    "719281",
+    "5298881"
+   ],
+   "groups": {
+    "G545": [
+     "718901",
+     "718921",
+     "719261",
+     "719281"
+    ],
+    "G546": [
+     "1023561"
+    ],
+    "G547": [
+     "905821"
+    ],
+    "G548": [
+     "5298881"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "All India level Total Cognizable Crime under IPC, Juvenile Crime under IPC, Proportion of Juvenile Crime to Total Crime and Volume of Juvenile Crime Per One Lakh of Population (schema 1)": {
+   "nids": [
+    "1073661",
+    "1067861",
+    "839961",
+    "805861",
+    "768721",
+    "750841"
+   ],
+   "groups": {
+    "G549": [
+     "1073661"
+    ],
+    "G550": [
+     "805861"
+    ],
+    "G551": [
+     "1067861"
+    ],
+    "G552": [
+     "839961"
+    ],
+    "G553": [
+     "768721"
+    ],
+    "G554": [
+     "750841"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "All India level Value of Property Stolen and Percentage of Recovery (schema 1)": {
+   "nids": [
+    "1087521",
+    "1080741",
+    "1074081",
+    "1068181",
+    "1038821",
+    "840301",
+    "806201"
+   ],
+   "groups": {
+    "G555": [
+     "1087521",
+     "1080741",
+     "1074081",
+     "1068181",
+     "1038821",
+     "840301",
+     "806201"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "All-India level Crime Head & Gender-wise Persons Arrested under Local and Special Laws": {
+   "nids": [
+    "1023621",
+    "719661",
+    "719221",
+    "719241",
+    "719681",
+    "730161",
+    "731561"
+   ],
+   "groups": {
+    "G556": [
+     "719221",
+     "719241"
+    ],
+    "G557": [
+     "730161",
+     "731561"
+    ],
+    "G558": [
+     "1023621"
+    ],
+    "G559": [
+     "719661"
+    ],
+    "G560": [
+     "719681"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "All-India level Incidence of Cases Registered and Persons Arrested under Cyber Crimes (IT Act + IPC Section)": {
+   "nids": [
+    "5296441",
+    "5314041",
+    "5317421",
+    "5293041",
+    "5696021",
+    "5699281",
+    "5299801",
+    "5303181"
+   ],
+   "groups": {
+    "G561": [
+     "5314041",
+     "5317421",
+     "5293041"
+    ],
+    "G562": [
+     "5696021",
+     "5699281"
+    ],
+    "G563": [
+     "5299801",
+     "5303181"
+    ],
+    "G564": [
+     "5296441"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "All-India level Juvenile Delinquency (LSL) under different Crime Heads (schema 1)": {
+   "nids": [
+    "906101",
+    "720861",
+    "730381",
+    "731781",
+    "720101",
+    "720121"
+   ],
+   "groups": {
+    "G565": [
+     "730381",
+     "731781"
+    ],
+    "G566": [
+     "720101",
+     "720121"
+    ],
+    "G567": [
+     "906101"
+    ],
+    "G568": [
+     "720861"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "All-India level Person Arrested under Cyber Crime (IT Act + IPC Section) by Age Group": {
+   "nids": [
+    "5314061",
+    "5317441",
+    "5293061",
+    "5296461",
+    "5696041",
+    "5699301",
+    "5299821",
+    "5303201"
+   ],
+   "groups": {
+    "G569": [
+     "5696041",
+     "5699301",
+     "5299821",
+     "5303201"
+    ],
+    "G570": [
+     "5314061",
+     "5317441",
+     "5293061"
+    ],
+    "G571": [
+     "5296461"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "Cases Reported and Value of Property Stolen by Place of Occurrence (schema 2)": {
+   "nids": [
+    "5312621",
+    "5316021",
+    "5291641",
+    "5295041",
+    "5298401",
+    "5301781"
+   ],
+   "groups": {
+    "G572": [
+     "5291641",
+     "5295041",
+     "5298401",
+     "5301781"
+    ],
+    "G573": [
+     "5312621",
+     "5316021"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "Category-wise Female Inmates in Different Jails (schema 1)": {
+   "nids": [
+    "6722498",
+    "6722363",
+    "6749092",
+    "6846401",
+    "7648909"
+   ],
+   "groups": {
+    "G574": [
+     "6722498",
+     "6722363",
+     "6749092",
+     "6846401",
+     "7648909"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "City-wise Crime/Atrocities against Scheduled Castes in Metropolitan Cities (schema 1)": {
+   "nids": [
+    "604518334",
+    "604518350",
+    "603005540",
+    "603005404",
+    "7275098",
+    "7275114"
+   ],
+   "groups": {
+    "G575": [
+     "604518334"
+    ],
+    "G576": [
+     "604518350"
+    ],
+    "G577": [
+     "603005540"
+    ],
+    "G578": [
+     "603005404"
+    ],
+    "G579": [
+     "7275098"
+    ],
+    "G580": [
+     "7275114"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "City-wise Incidence of Cognizable Crimes Reported (schema 1)": {
+   "nids": [
+    "1300521",
+    "1174641",
+    "1169101",
+    "1119841",
+    "1093141",
+    "1087061",
+    "1079941",
+    "1073201",
+    "1038041",
+    "840661",
+    "806621",
+    "775481",
+    "769421",
+    "752481"
+   ],
+   "groups": {
+    "G581": [
+     "1300521",
+     "1174641",
+     "1169101",
+     "1119841",
+     "1093141",
+     "1087061",
+     "1079941",
+     "1073201",
+     "1038041",
+     "840661",
+     "806621",
+     "775481"
+    ],
+    "G582": [
+     "769421"
+    ],
+    "G583": [
+     "752481"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "Crime Head and Gender-wise Persons Arrested under IPC Crimes (schema 1)": {
+   "nids": [
+    "5851421",
+    "5844501",
+    "5847841",
+    "5695101",
+    "5313101",
+    "5316501",
+    "5292121",
+    "5295521",
+    "5302261"
+   ],
+   "groups": {
+    "G584": [
+     "5851421",
+     "5695101",
+     "5313101",
+     "5316501",
+     "5292121",
+     "5295521"
+    ],
+    "G585": [
+     "5844501",
+     "5847841"
+    ],
+    "G586": [
+     "5302261"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "Crime Head and Sex-wise Persons Arrested under SLL Crimes (schema 1)": {
+   "nids": [
+    "5313181",
+    "5851501",
+    "5844581",
+    "5847921",
+    "5695181",
+    "5292201",
+    "5295601",
+    "5316581",
+    "5716241",
+    "5298961",
+    "5302341"
+   ],
+   "groups": {
+    "G587": [
+     "5851501",
+     "5695181",
+     "5292201",
+     "5295601"
+    ],
+    "G588": [
+     "5316581",
+     "5716241",
+     "5298961",
+     "5302341"
+    ],
+    "G589": [
+     "5844581",
+     "5847921"
+    ],
+    "G590": [
+     "5313181"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  },
+  "Crime Head-wise Court Disposal of Crime against Children in Metropolitan Cities (schema 1)": {
+   "nids": [
+    "6749142",
+    "6750458",
+    "6749134",
+    "6750450",
+    "6854804"
+   ],
+   "groups": {
+    "G591": [
+     "6749134",
+     "6750450",
+     "6854804"
+    ],
+    "G592": [
+     "6749142",
+     "6750458"
+    ]
+   },
+   "ministry": "Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB)"
+  }
+ }
+}

@@ -1,0 +1,726 @@
+### NEW: Accidental Deaths & Suicides in India (ADSI)  | owner: Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB) | 38 old titles, 970 datasets
+  - Accidental Deaths & Suicides in India (ADSI) - 1967
+  - Accidental Deaths & Suicides in India (ADSI) - 1968
+  - Accidental Deaths & Suicides in India (ADSI) - 1969
+  - Accidental Deaths & Suicides in India (ADSI) - 1970
+  - Accidental Deaths & Suicides in India (ADSI) - 1971
+  - Accidental Deaths & Suicides in India (ADSI) - 1972
+  - Accidental Deaths & Suicides in India (ADSI) - 1973
+  - Accidental Deaths & Suicides in India (ADSI) - 1974
+  -    ... (27 more) ...
+  - Accidental Deaths & Suicides in India (ADSI) - 2022
+  - Accidental Deaths & Suicides in India (ADSI) - 2023
+  - Accidental Deaths & Suicides in India - 2015
+### NEW: Air Traffic Statistics  | owner: Ministry of Civil Aviation | 3 old titles, 578 datasets
+  - Air Traffic Statistics 2015-16
+  - Air Traffic Statistics 2016-17
+  - Monthly Air Traffic Statistics
+### NEW: Allocation / Release And Expenditure of NRDWP Fund  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District-Wise Allocation / Release And Expenditure of NRDWP Fund
+  - State-wise Allocation / Release And Expenditure of NRDWP Fund
+### NEW: Answers Data of Rajya Sabha Questions  | owner: Rajya Sabha | 30 old titles, 31358 datasets
+  - Answers Data of Rajya Sabha Questions for Session 234
+  - Answers Data of Rajya Sabha Questions for Session 237
+  - Answers Data of Rajya Sabha Questions for Session 238
+  - Answers Data of Rajya Sabha Questions for Session 239
+  - Answers Data of Rajya Sabha Questions for Session 240
+  - Answers Data of Rajya Sabha Questions for Session 241
+  - Answers Data of Rajya Sabha Questions for Session 242
+  - Answers Data of Rajya Sabha Questions for Session 243
+  -    ... (19 more) ...
+  - Answers Data of Rajya Sabha Questions for Session 265
+  - Answers Data of Rajya Sabha Questions for Session 266
+  - Answers Data of Rajya Sabha Questions for Session 267
+### NEW: Average length of water conveyance channel of surface lift schemes  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise average length of water conveyance channel of surface lift schemes
+  - State wise average length of water conveyance channel of surface lift schemes
+### NEW: Basic Road Statistics of India  | owner: Ministry of Road Transport and Highways | 7 old titles, 325 datasets
+  - Basic Road Statistics of India 2016-17
+  - Basic Road Statistics of India 2017-18
+  - Basic Road Statistics of India 2018-19
+  - Basic Road Statistics of India 2020-21
+  - Basic Road Statistics of India 2021-22
+  - Basic Road Statistics of India : 2013-14 and 2014-15
+  - Basic Road Statistics of India : 2015-16 and 2016-17
+### NEW: Buses : Ahmedabad  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Ahmedabad | 2 old titles, 3 datasets
+  - Buses : Ahmedabad
+  - Buses: Ahmedabad
+### NEW: Buses : Aurangabad  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Aurangabad | 2 old titles, 3 datasets
+  - Buses : AURANGABAD
+  - Buses: AURANGABAD
+### NEW: Buses : Bareilly  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Bareilly | 2 old titles, 2 datasets
+  - Buses : Bareilly
+  - Buses : Bareilly Smart City
+### NEW: Buses : Erode  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode | 2 old titles, 2 datasets
+  - Buses : ERODE
+  - D 36 BUSES
+### NEW: Buses : Nagpur  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Nagpur | 3 old titles, 3 datasets
+  - Buses  :  Nagpur
+  - Buses : Nagpur
+  - Buses: Nagpur
+### NEW: Buses : Tiruchirappalli  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Tiruchirapalli | 2 old titles, 3 datasets
+  - Buses Tiruchirappalli
+  - Buses:Tiruchirappalli
+### NEW: Census Data : Sagar  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Sagar | 2 old titles, 8 datasets
+  - Census Data :  Sagar
+  - Census Data : Sagar
+### NEW: Citizen Facilities : Pimpri Chinchwad  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pimpri Chinchwad | 2 old titles, 3 datasets
+  - Citizen Facilities : Pimpri Chinchwad
+  - Citizen Facilities Pimpri Chinchwad
+### NEW: City Profile : Belagavi  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Belagavi | 2 old titles, 3 datasets
+  - City Profile Belagavi
+  - City Profile Belgavi
+### NEW: City Profile : Bhubaneswar  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Odisha, Bhubaneswar | 2 old titles, 2 datasets
+  - City Profile Bhubaneswar
+  - City Profile of Bhubaneswar
+### NEW: City Profile : Chandigarh  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh | 2 old titles, 3 datasets
+  - Chandigarh: City Profile
+  - City Profile : Chandigarh
+### NEW: City Profile : Coimbatore  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Coimbatore | 2 old titles, 2 datasets
+  - City Profile : Coimbatore
+  - city profile coimbatore
+### NEW: City Profile : Patna  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Patna | 2 old titles, 3 datasets
+  - City Profile- Patna
+  - City Profile: Patna
+### NEW: City Profile : Salem  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Salem | 2 old titles, 4 datasets
+  - City Profile : Salem
+  - City Profile Salem
+### NEW: Classification of Main Workers in Non-Household Industry, Trade, Business, Profession or Service by Class of Worker, Age and Sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 72 datasets
+  - Classification of Main Workers in Non-Household Industry, Trade, Business, Profession or Service by Class of Worker, Age and Sex, Census 2001 - India and States
+  - Classification of Main Workers in Non-Household Industry, Trade, Business, Profession or Service by Class of Worker, Age and Sex, Census 2011 - India and States
+### NEW: Committee Meetings Schedule of Lok Sabha  | owner: Lok Sabha Secretariat | 2 old titles, 2 datasets
+  - Committee Meetings Schedule of Lok Sabha (English)
+  - Committee Meetings Schedule of Lok Sabha (Hindi)
+### NEW: Committee Meetings Schedule of Rajya Sabha  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Committee Meetings Schedule of Rajya Sabha (English)
+  - Committee Meetings Schedule of Rajya Sabha (Hindi)
+### NEW: Committee Membership by Lok Sabha Members  | owner: Lok Sabha Secretariat | 2 old titles, 2 datasets
+  - Committee Membership by Lok Sabha Members (English)
+  - Committee Membership by Lok Sabha Members (Hindi)
+### NEW: Committee Membership by Rajya Sabha Members  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Committee Membership by Rajya Sabha Members (English)
+  - Committee Membership by Rajya Sabha Members (Hindi)
+### NEW: Community Facilities : Chandigarh  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh | 2 old titles, 3 datasets
+  - Community Facilities : Chandigarh
+  - Community Facilities in Chandigarh
+### NEW: Community Facilities : Kohima  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima | 2 old titles, 3 datasets
+  - Community Facilities : Kohima
+  - Community Facilities Kohima
+### NEW: Community Facilities : Nagpur  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Nagpur | 2 old titles, 2 datasets
+  - Community Facilities : Nagpur
+  - Community Facilities:Nagpur
+### NEW: Community Facilities : Sagar  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Sagar | 2 old titles, 6 datasets
+  - Community Facilities : Sagar
+  - Community Facilities: Sagar
+### NEW: Community Facilities : Tiruchirappalli  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Tiruchirapalli | 2 old titles, 2 datasets
+  - Community Facilities Tiruchirappalli
+  - Community Facilities:Tiruchirappalli
+### NEW: Condition of Roads : Udaipur  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Rajasthan, Udaipur | 2 old titles, 2 datasets
+  - Condition of Roads: Udaipur	
+  - Condition of Roads: udaipur
+### NEW: Construction of deep tubewells over the years  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise construction of deep tubewells over the years
+  - State wise construction of deep tubewells over the years
+### NEW: Construction of dugwells over the years  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise construction of dugwells over the years
+  - State wise construction of dugwells over the years
+### NEW: Construction of shallow tubewells over the years  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise construction of shallow tubewells over the years
+  - State wise construction of shallow tubewells over the years
+### NEW: Construction of surface flow schemes over the years  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise construction of surface flow schemes over the years
+  - State wise construction of surface flow schemes over the years
+### NEW: Construction of surface lift schemes over the years  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise construction of surface lift schemes over the years
+  - State wise construction of surface lift schemes over the years
+### NEW: Consumption of Petroleum Products in India  | owner: Ministry of Petroleum and Natural Gas, Petroleum Planning & Analysis Cell (PPAC) | 2 old titles, 5 datasets
+  - Consumption of Petroleum Products
+  - Consumption of Petroleum Products in India
+### NEW: Covid 19 : Pimpri Chinchwad  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pimpri Chinchwad | 2 old titles, 21 datasets
+  - Covid 19
+  - Covid 19 Pimpri Chinchwad
+### NEW: Covid 19 : Pune  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pune | 2 old titles, 14 datasets
+  - Covid 19: Pune
+  - Covid 19: Pune_2021
+### NEW: Covid Vaccination Centres : Chandigarh  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh | 2 old titles, 2 datasets
+  - Covid Vaccination Centres in Chandigarh
+  - Covid vaccination centers in Chandigarh
+### NEW: Crime committed against Schedule Castes  | owner: Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB) | 2 old titles, 6 datasets
+  - Crime committed against Schedule Castes
+  - District-wise crimes committed against Schedule Caste
+### NEW: Crime committed against Schedule Tribes  | owner: Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB) | 2 old titles, 6 datasets
+  - Crime committed against Schedule Tribes
+  - District-wise crimes committed against Schedule Tribe
+### NEW: Crime in India  | owner: Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB) | 67 old titles, 7252 datasets
+  - Crime in India - 1953
+  - Crime in India - 1954
+  - Crime in India - 1955
+  - Crime in India - 1956
+  - Crime in India - 1957
+  - Crime in India - 1958
+  - Crime in India - 1959
+  - Crime in India - 1960
+  -    ... (56 more) ...
+  - Crime in India - 2021
+  - Crime in India - 2022
+  - Crime in India - 2023
+### NEW: Crimes : Dharamshala  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Himachal Pradesh, Dharamshala | 2 old titles, 2 datasets
+  - Crimes Dharamshala
+  - Crimes: Dharamshala
+### NEW: Crimes : Kohima  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima | 2 old titles, 4 datasets
+  - Crimes Kohima
+  - D47_Crimes_Kohima_2016_2018
+### NEW: Crimes : Pune  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pune | 2 old titles, 4 datasets
+  - Crime : Pune
+  - Crimes : Pune
+### NEW: Crimes : Sagar  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Sagar | 2 old titles, 2 datasets
+  - Crimes : Sagar
+  - Crimes: Sagar
+### NEW: Crimes : Salem  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Salem | 2 old titles, 2 datasets
+  - Crimes : Salem
+  - Crimes Salem
+### NEW: Crimes committed against Children  | owner: Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB) | 2 old titles, 7 datasets
+  - Crime committed against Children
+  - District-wise crimes committed against Children
+### NEW: Crimes committed against Women  | owner: Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB) | 2 old titles, 7 datasets
+  - Crime committed against Women
+  - District-wise crimes committed against Women
+### NEW: Culturable command area and potential created through deep tubewells  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise culturable command area and potential created through deep tubewells
+  - State wise culturable command area and potential created through deep tubewells
+### NEW: Culturable command area and potential created through dugwells  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise culturable command area and potential created through dugwells
+  - State wise culturable command area and potential created through dugwells
+### NEW: Culturable command area and potential created through shallow tubewells  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise culturable command area and potential created through shallow tubewells
+  - State wise culturable command area and potential created through shallow tubewells
+### NEW: Culturable command area and potential created through surface flow scheme  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise culturable command area and potential created through surface flow scheme
+  - State wise culturable command area and potential created through surface flow scheme
+### NEW: Culturable command area and potential created through surface lift schemes  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise culturable command area and potential created through surface lift schemes
+  - State wise culturable command area and potential created through surface lift schemes
+### NEW: Cultural Heritage : Kota  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Rajasthan, Kota | 2 old titles, 2 datasets
+  - Cultural Heritage : KOTA
+  - Cultural of Heritage : KOTA
+### NEW: Cultural Heritage : Salem  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Salem | 2 old titles, 2 datasets
+  - Cultural Heritage : Salem
+  - Cultural Heritage Salem
+### NEW: Current Members of Rajya Sabha  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Current Members of Rajya Sabha in English
+  - Current Members of Rajya Sabha in Hindi
+### NEW: Daily Birthday List of Lok Sabha Members  | owner: Lok Sabha Secretariat | 2 old titles, 2 datasets
+  - Daily Birthday List of Lok Sabha Members (English)
+  - Daily Birthday List of Lok Sabha Members (Hindi)
+### NEW: Daily Birthday List of Rajya Sabha Members  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Daily Birthday List of Rajya Sabha Members (English)
+  - Daily Birthday List of Rajya Sabha Members (Hindi)
+### NEW: Daily List of Rajya Sabha Starred Questions  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Daily List of Rajya Sabha Starred Questions (English)
+  - Daily List of Starred Questions (Hindi)
+### NEW: Daily List of Rajya Sabha Unstarred Questions  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Daily List of Rajya Sabha Unstarred Questions (English)
+  - Daily List of Unstarred Questions (Hindi)
+### NEW: Daily Synopsis of Lok Sabha  | owner: Lok Sabha Secretariat | 2 old titles, 2 datasets
+  - Daily Synopsis of Lok Sabha (English)
+  - Daily Synopsis of Lok Sabha (Hindi)
+### NEW: Daily Synopsis of Rajya Sabha  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Daily Synopsis of Rajya Sabha (English)
+  - Daily Synopsis of Rajya Sabha (Hindi)
+### NEW: Date-wise Committee Meetings of Lok Sabha  | owner: Lok Sabha Secretariat | 2 old titles, 2 datasets
+  - Date-wise Committee Meetings of Lok Sabha (English)
+  - Date-wise Committee Meetings of Lok Sabha (Hindi)
+### NEW: Date-wise Committee Meetings of Rajya Sabha  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Date-wise Committee Meetings of Rajya Sabha (English)
+  - Date-wise Committee Meetings of Rajya Sabha (Hindi)
+### NEW: Deep tubewells according to water distribution system  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise deep tubewells according to water distribution system
+  - State wise deep tubewells according to water distribution system
+### NEW: Deep tubewells in the command of major/medium projects and supplementary irrigation  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise deep tubewells in the command of major/medium projects and supplementary irrigation
+  - State wise deep tubewells in the command of major/medium projects and supplementary irrigation
+### NEW: Demographic Profile : Bareilly  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Bareilly | 2 old titles, 3 datasets
+  - Demographic Profile : Bareilly smart city
+  - Demographic Profile of Bareilly
+### NEW: Demographic Profile : Nagpur  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Nagpur | 3 old titles, 5 datasets
+  - Demographic Profile   :  Nagpur
+  - Demographic Profile  :  Nagpur
+  - Demographic Profile  : Nagpur
+### NEW: Demographic Profile : Pune  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pune | 2 old titles, 7 datasets
+  - Demographic Profile for Pune
+  - Demographic Profile: Pune
+### NEW: Details of Adhoc Committees of Rajya Sabha  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Details of Adhoc Committees of Rajya Sabha (English)
+  - Details of Adhoc Committees of Rajya Sabha (Hindi)
+### NEW: Details of Department Related Parliamentary Standing Committees of Lok Sabha  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Details of Department Related Parliamentary Standing Committees of Lok Sabha (English)
+  - Details of Department Related Parliamentary Standing Committees of Lok Sabha (Hindi)
+### NEW: Details of Department Related to Parliamentary Standing Committees of Rajya Sabha  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Details of Department Related to Parliamentary Standing Committees of Rajya Sabha (English)
+  - Details of Department Related to Parliamentary Standing Committees of Rajya Sabha (Hindi)
+### NEW: Details of Joint Committees of Rajya Sabha  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Details of Joint Committees of Rajya Sabha (English)
+  - Details of Joint Committees of Rajya Sabha (Hindi)
+### NEW: Details of Lok Sabha Women Members  | owner: Lok Sabha Secretariat | 2 old titles, 2 datasets
+  - Details of Lok Sabha Women Members (English)
+  - Details of Lok Sabha Women Members (Hindi)
+### NEW: Details of Rajya Sabha Women Members  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Details of Rajya Sabha Women Members (English)
+  - Details of Rajya Sabha Women Members (Hindi)
+### NEW: Details of Select Committees of Rajya Sabha  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Details of Select Committees of Rajya Sabha (English)
+  - Details of Select Committees of Rajya Sabha (Hindi)
+### NEW: Details of Standing Committees of Rajya Sabha  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Details of Standing Committees of Rajya Sabha (English)
+  - Details of Standing Committees of Rajya Sabha (Hindi)
+### NEW: Digital Availability : Amritsar  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Punjab, Amritsar | 2 old titles, 2 datasets
+  - Digital  Availability Amritsar
+  - Digital Availability Amritsar
+### NEW: Digital Availability : Dharamshala  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Himachal Pradesh, Dharamshala | 2 old titles, 2 datasets
+  - Digital Availability- Dharamshala
+  - Digital Availability: Dharamshala
+### NEW: Digital Availability : Indore  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Indore | 2 old titles, 2 datasets
+  - Digital Availability : Indore
+  - Digital Availability : indore
+### NEW: Digital Availability : NDMC  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Delhi, NDMC | 2 old titles, 2 datasets
+  - Digital Availability
+  - Digital Availability : NDMC
+### NEW: Digital Availability : Salem  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Salem | 2 old titles, 2 datasets
+  - Digital Availability : Salem
+  - Digital Availability Salem
+### NEW: Digital Payments : Chandigarh  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh | 2 old titles, 2 datasets
+  - Digital Payments in Chandigarh
+  - Digital payments : Chandigarh
+### NEW: Digital Payments : Kohima  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima | 2 old titles, 2 datasets
+  - Digital Payments
+  - Digital Payments: Kohima
+### NEW: Digital Payments : Pimpri Chinchwad  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pimpri Chinchwad | 2 old titles, 3 datasets
+  - Digital Payments : Pimpri Chinchwad
+  - Digital Payments Pimpri Chinchwad
+### NEW: Digital Payments : Thoothukudi  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Thoothukudi | 2 old titles, 3 datasets
+  - Digital Payment : Thootukudi
+  - Digital Payments : Thoothukudi
+### NEW: Digital Payments : Udaipur  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Rajasthan, Udaipur | 2 old titles, 2 datasets
+  - Digital Payments: <Udaipur> 2018	
+  - Digital Payments: Udaipur
+### NEW: Digital availability : Chandigarh  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh | 2 old titles, 2 datasets
+  - Digital availability : Chandigarh
+  - Digital availability in Chandigarh
+### NEW: Directors and Joint Directors of various sections in Rajya Sabha  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Directors and Joint Directors of Various Sections in Rajya Sabha (English)
+  - Directors and Joint Directors of various sections in Rajya Sabha (Hindi)
+### NEW: Disabled Population by Type of Disability, Age and Sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 3 old titles, 234 datasets
+  - Disabled Population by Type of Disability, Age and Sex, Census 2001 - India and States
+  - Disabled Population by type of Disability, Age and Sex, Census 2001 - India and States
+  - Disabled Population by type of Disability, Age and Sex, Census 2011 - India and States
+### NEW: Disabled Population by Type of Disability, Type of Households and Sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 37 datasets
+  - Disabled Population by Type of Disability, Type of Households and Sex, Census 2001 - India and States
+  - Disabled Population by type of Disability, type of Households and Sex - India and States
+### NEW: Disabled non-workers by type of disability and sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 73 datasets
+  - Disabled Non-workers by Type of Disability and Sex, Census 2001 - India and States
+  - Disabled non-workers by type of disability and sex - India and States
+### NEW: Disabled population among main workers, marginal workers, non-workers by type of disability, age and sex - India And States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 72 datasets
+  - Disabled Population among Main Workers, Marginal Workers, Non-Workers by Type of Disability, Age and Sex, Census 2001 - India and States
+  - Disabled population among main workers, marginal workers, non-workers by type of disability, age and sex - India And States
+### NEW: Diseases : Chandigarh  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh | 2 old titles, 3 datasets
+  - Diseases : Chandigarh
+  - Diseases in Chandigarh
+### NEW: Diseases : Kohima  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima | 2 old titles, 2 datasets
+  - D46_Diseases_Kohima_2017_2018
+  - Diseases Kohima
+### NEW: Diseases : Nagpur  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Nagpur | 2 old titles, 4 datasets
+  - Diseases
+  - Diseases  :  Nagpur
+### NEW: Diseases : Pune  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pune | 2 old titles, 3 datasets
+  - Diseases:Pune
+  - Pune Diseases 2012-19
+### NEW: Distribution of Deep Tubewells in use and their Potential Created/Utilized according to Public and Private  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of deep tubewells in use and their potential created/utilized according to public and private
+  - State wise distribution of Deep Tubewells in use and their Potential Created/Utilized according to Public and Private
+### NEW: Distribution of Dugwells according to depth of the Dugwells  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of Dugwells according to depth of the Dugwells
+  - State wise Distribution of Dugwells according to depth of the Dugwells
+### NEW: Distribution of Dugwells according to source of energy  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of Dugwells according to source of energy
+  - State wise Distribution of Dugwells according to source of energy
+### NEW: Distribution of Dugwells according to total hours of pumping operation  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of Dugwells according to total hours of pumping operation
+  - State wise Distribution of Dugwells according to total hours of pumping operation
+### NEW: Distribution of Dugwells by cost of maintenance  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of Dugwells by cost of maintenance
+  - State wise Distribution of Dugwells by cost of maintenance
+### NEW: Distribution of Dugwells by location in the command of Major/Medium projects  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of Dugwells by location in the command of Major/Medium projects
+  - State wise Distribution of Dugwells by location in the command of Major/Medium projects
+### NEW: Distribution of Dugwells permanently not is use by reasons  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of Dugwells permanently not is use by reasons
+  - State wise Distribution of Dugwells permanently not is use by reasons
+### NEW: Distribution of Dugwells temporary not is use by reasons  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of Dugwells temporary not is use by reasons
+  - State wise Distribution of Dugwells temporary not is use by reasons
+### NEW: Distribution of Lift Schemes according to source of energy  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of Lift Schemes according to source of energy
+  - State wise Distribution of Lift Schemes according to source of energy
+### NEW: Distribution of Lift Schemes according to total hours of pumping operation  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of Lift Schemes according to total hours of pumping operation
+  - State wise Distribution of Lift Schemes according to total hours of pumping operation
+### NEW: Distribution of Lift Schemes by cost of maintenance  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of Lift Schemes by cost of maintenance
+  - State wise Distribution of Lift Schemes by cost of maintenance
+### NEW: Distribution of Lift Schemes by location in the command of Major/Medium projects  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of Lift Schemes by location in the command of Major/Medium projects
+  - State wise Distribution of Lift Schemes by location in the command of Major/Medium projects
+### NEW: Distribution of Lift Schemes permanently not is use by reasons  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of Lift Schemes permanently not is use by reasons
+  - State wise Distribution of Lift Schemes permanently not is use by reasons
+### NEW: Distribution of Lift Schemes temporary not is use by reasons  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of Lift Schemes temporary not is use by reasons
+  - State wise Distribution of Lift Schemes temporary not is use by reasons
+### NEW: Distribution of Shallow Tubewells according to depth of the Dugwell  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of Shallow Tubewells according to depth of the Dugwell
+  - State wise Distribution of Shallow Tubewells according to depth of the Dugwell
+### NEW: Distribution of Tanks/Ponds/Reservoir of Lift Schemes by CCA classes  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of Tanks/Ponds/Reservoir of Lift Schemes by CCA classes
+  - State wise Distribution of Tanks/Ponds/Reservoir of Lift Schemes by CCA classes
+### NEW: Distribution of Tanks/Ponds/Reservoir of Lift Schemes by storage size  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of Tanks/Ponds/Reservoir of Lift Schemes by storage size
+  - State wise Distribution of Tanks/Ponds/Reservoir of Lift Schemes by storage size
+### NEW: Distribution of Tanks/Ponds/Reservoir of surface flow schemes by CCA classes  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of Tanks/Ponds/Reservoir of surface flow schemes by CCA classes
+  - State wise Distribution of Tanks/Ponds/Reservoir of surface flow schemes by CCA classes
+### NEW: Distribution of Tanks/Ponds/Reservoir of surface flow schemes by storage size  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of Tanks/Ponds/Reservoir of surface flow schemes by storage size
+  - State wise Distribution of Tanks/Ponds/Reservoir of surface flow schemes by storage size
+### NEW: Distribution of deep tubewell according to depth of the deep tubewells  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District-wise distribution of deep tubewell according to depth of the deep tubewells
+  - State-wise distribution of deep tubewell according to depth of the deep tubewells
+### NEW: Distribution of deep tubewells according to average length of water conveyance channel  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of deep tubewells according to average length of water conveyance channel
+  - State wise distribution of deep tubewells according to average length of water conveyance channel
+### NEW: Distribution of deep tubewells according to average pumping hours  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of deep tubewells according to average pumping hours
+  - State wise distribution of deep tubewells according to average pumping hours
+### NEW: Distribution of deep tubewells according to horse power of lifting device  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of deep tubewells according to horse power of lifting device
+  - State wise distribution of deep tubewells according to horse power of lifting device
+### NEW: Distribution of deep tubewells according to irrigation through supplementary source  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of deep tubewells according to irrigation through supplementary source
+  - State wise distribution of deep tubewells according to irrigation through supplementary source
+### NEW: Distribution of deep tubewells according to ownership  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of deep tubewells according to ownership
+  - State wise distribution of deep tubewells according to ownership
+### NEW: Distribution of deep tubewells according to social status  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of deep tubewells according to social status
+  - State wise distribution of deep tubewells according to social status
+### NEW: Distribution of deep tubewells according to source of energy  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of deep tubewells according to source of energy
+  - State wise distribution of deep tubewells according to source of energy
+### NEW: Distribution of deep tubewells according to source of finance  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of deep tubewells according to source of finance
+  - State wise distribution of deep tubewells according to source of finance
+### NEW: Distribution of deep tubewells according to the constraints  | owner: Ministry of Jal Shakti | 2 old titles, 4 datasets
+  - District wise distribution of deep tubewells according to the constraints
+  - State wise distribution of deep tubewells according to the constraints
+### NEW: Distribution of deep tubewells according to the farmers holding size  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of deep tubewells according to the farmers holding size
+  - State wise distribution of deep tubewells according to the farmers holding size
+### NEW: Distribution of deep tubewells according to total hours of pumping operation  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of deep tubewells according to total hours of pumping operation
+  - State wise distribution of deep tubewells according to total hours of pumping operation
+### NEW: Distribution of deep tubewells according to water lifting device  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of deep tubewells according to water lifting device
+  - State wise distribution of deep tubewells according to water lifting device
+### NEW: Distribution of deep tubewells by cost of maintenance  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of deep tubewells by cost of maintenance
+  - State wise distribution of deep tubewells by cost of maintenance
+### NEW: Distribution of deep tubewells by location in the command of major/medium projects  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of deep tubewells by location in the command of major/medium projects
+  - State wise distribution of deep tubewells by location in the command of major/medium projects
+### NEW: Distribution of deep tubewells by status  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of deep tubewells by status
+  - State wise distribution of deep tubewells by status
+### NEW: Distribution of deep tubewells by type  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of deep tubewells by type
+  - State wise distribution of deep tubewells by type
+### NEW: Distribution of deep tubewells in use according to utilization of potential created  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of deep tubewells in use according to utilization of potential created
+  - State wise distribution of deep tubewells in use according to utilization of potential created
+### NEW: Distribution of deep tubewells permanently not is use by reasons  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of deep tubewells permanently not is use by reasons
+  - State wise distribution of deep tubewells permanently not is use by reasons
+### NEW: Distribution of deep tubewells temporary not is use by reasons  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of deep tubewells temporary not is use by reasons
+  - State wise distribution of deep tubewells temporary not is use by reasons
+### NEW: Distribution of dugwells according to average pumping hours  | owner: Ministry of Jal Shakti | 2 old titles, 4 datasets
+  - District wise distribution of dugwells according to average pumping hours
+  - State wise distribution of dugwells according to average pumping hours
+### NEW: Distribution of dugwells according to horse power of lifting device  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of dugwells according to horse power of lifting device
+  - State wise distribution of dugwells according to horse power of lifting device
+### NEW: Distribution of dugwells according to ownership  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of dugwells according to ownership
+  - State wise distribution of dugwells according to ownership
+### NEW: Distribution of dugwells according to social status  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of dugwells according to social status
+  - State wise distribution of dugwells according to social status
+### NEW: Distribution of dugwells according to source of finance  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of dugwells according to source of finance
+  - State wise distribution of dugwells according to source of finance
+### NEW: Distribution of dugwells according to the farmers holding size  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of dugwells according to the farmers holding size
+  - State wise distribution of dugwells according to the farmers holding size
+### NEW: Distribution of dugwells according to water lifting device  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of dugwells according to water lifting device
+  - State wise distribution of dugwells according to water lifting device
+### NEW: Distribution of dugwells by status  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of dugwells by status
+  - State wise distribution of dugwells by status
+### NEW: Distribution of dugwells by type  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of dugwells by type
+  - State wise distribution of dugwells by type
+### NEW: Distribution of dugwells in use according to utilization of potential created  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of dugwells in use according to utilization of potential created
+  - State wise distribution of dugwells in use according to utilization of potential created
+### NEW: Distribution of dugwells in use and their Potential Created/Utilized according to Public and Private  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of dugwells in use and their potential created/utilized according to public and private
+  - State wise distribution of dugwells in use and their Potential Created/Utilized according to Public and Private
+### NEW: Distribution of shallow tubewells according to average length of water conveyance channel  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of shallow tubewells according to average length of water conveyance channel
+  - State wise distribution of shallow tubewells according to average length of water conveyance channel
+### NEW: Distribution of shallow tubewells according to average pumping hours  | owner: Ministry of Jal Shakti | 2 old titles, 4 datasets
+  - District wise distribution of shallow tubewells according to average pumping hours
+  - State wise distribution of shallow tubewells according to average pumping hours
+### NEW: Distribution of shallow tubewells according to horse power of lifting device  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of shallow tubewells according to horse power of lifting device
+  - State wise distribution of shallow tubewells according to horse power of lifting device
+### NEW: Distribution of shallow tubewells according to irrigation through supplementary source  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of shallow tubewells according to irrigation through supplementary source
+  - State wise distribution of shallow tubewells according to irrigation through supplementary source
+### NEW: Distribution of shallow tubewells according to major/medium projects and average pumping hours  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of shallow tubewells according to major/medium projects and average pumping hours
+  - State wise distribution of shallow tubewells according to major/medium projects and average pumping hours
+### NEW: Distribution of shallow tubewells according to ownership  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of shallow tubewells according to ownership
+  - State wise distribution of shallow tubewells according to ownership
+### NEW: Distribution of shallow tubewells according to social status  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of shallow tubewells according to social status
+  - State wise distribution of shallow tubewells according to social status
+### NEW: Distribution of shallow tubewells according to source of energy  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of shallow tubewells according to source of energy
+  - State wise Distribution of shallow tubewells according to source of energy
+### NEW: Distribution of shallow tubewells according to source of finance  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of shallow tubewells according to source of finance
+  - State wise distribution of shallow tubewells according to source of finance
+### NEW: Distribution of shallow tubewells according to the constraints  | owner: Ministry of Jal Shakti | 2 old titles, 4 datasets
+  - District wise distribution of shallow tubewells according to the constraints
+  - State wise distribution of shallow tubewells according to the constraints
+### NEW: Distribution of shallow tubewells according to the farmers holding size  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of shallow tubewells according to the farmers holding size
+  - State wise distribution of shallow tubewells according to the farmers holding size
+### NEW: Distribution of shallow tubewells according to total hours of pumping operation  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of shallow tubewells according to total hours of pumping operation
+  - State wise Distribution of shallow tubewells according to total hours of pumping operation
+### NEW: Distribution of shallow tubewells according to water lifting device  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of shallow tubewells according to water lifting device
+  - State wise distribution of shallow tubewells according to water lifting device
+### NEW: Distribution of shallow tubewells by cost of maintenance  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of shallow tubewells by cost of maintenance
+  - State wise Distribution of shallow tubewells by cost of maintenance
+### NEW: Distribution of shallow tubewells by location in the command of Major/Medium projects  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of shallow tubewells by location in the command of Major/Medium projects
+  - State wise Distribution of shallow tubewells by location in the command of Major/Medium projects
+### NEW: Distribution of shallow tubewells by status  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of shallow tubewells by status
+  - State wise distribution of shallow tubewells by status
+### NEW: Distribution of shallow tubewells by type  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of shallow tubewells by type
+  - State wise distribution of shallow tubewells by type
+### NEW: Distribution of shallow tubewells in use according to utilization of potential created  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of shallow tubewells in use according to utilization of potential created
+  - State wise distribution of shallow tubewells in use according to utilization of potential created
+### NEW: Distribution of shallow tubewells in use and their potential created/utilized according to public and private  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of shallow tubewells in use and their potential created/utilized according to public and private
+  - State wise distribution of shallow tubewells in use and their potential created/utilized according to public and private
+### NEW: Distribution of shallow tubewells permanently not is use by reasons  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of shallow tubewells permanently not is use by reasons
+  - State wise Distribution of shallow tubewells permanently not is use by reasons
+### NEW: Distribution of shallow tubewells temporary not is use by reasons  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of shallow tubewells temporary not is use by reasons
+  - State wise Distribution of shallow tubewells temporary not is use by reasons
+### NEW: Distribution of surface flow schemes according to ownership  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of surface flow schemes according to ownership
+  - State wise distribution of surface flow schemes according to ownership
+### NEW: Distribution of surface flow schemes according to social status  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of surface flow schemes according to social status
+  - State wise distribution of surface flow schemes according to social status
+### NEW: Distribution of surface flow schemes according to source of finance  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of surface flow schemes according to source of finance
+  - State wise distribution of surface flow schemes according to source of finance
+### NEW: Distribution of surface flow schemes according to the farmers holding size  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of surface flow schemes according to the farmers holding size
+  - State wise distribution of surface flow schemes according to the farmers holding size
+### NEW: Distribution of surface flow schemes by cost of maintenance  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of surface flow schemes by cost of maintenance
+  - State wise Distribution of surface flow schemes by cost of maintenance
+### NEW: Distribution of surface flow schemes by location in the command of Major/Medium projects  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of surface flow schemes by location in the command of Major/Medium projects
+  - State wise Distribution of surface flow schemes by location in the command of Major/Medium projects
+### NEW: Distribution of surface flow schemes by status  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of surface flow schemes by status
+  - State wise distribution of surface flow schemes by status
+### NEW: Distribution of surface flow schemes by type  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of surface flow schemes by type
+  - State wise distribution of surface flow schemes by type
+### NEW: Distribution of surface flow schemes in use according to utilization of potential created  | owner: Ministry of Jal Shakti | 2 old titles, 4 datasets
+  - District wise distribution of surface flow schemes in use according to utilization of potential created
+  - State wise distribution of surface flow schemes in use according to utilization of potential created
+### NEW: Distribution of surface flow schemes in use and their potential created and utilized according to public and private  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of surface flow schemes in use and their potential created and utilized according to public and private
+  - State wise distribution of surface flow schemes in use and their potential created and utilized according to public and private
+### NEW: Distribution of surface flow schemes permanently not is use by reasons  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of surface flow schemes permanently not is use by reasons
+  - State wise Distribution of surface flow schemes permanently not is use by reasons
+### NEW: Distribution of surface flow schemes temporary not is use by reasons  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise Distribution of surface flow schemes temporary not is use by reasons
+  - State wise Distribution of surface flow schemes temporary not is use by reasons
+### NEW: Distribution of surface flow schemes(other storage) in use and their potential created and utilized according to public and private  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of surface flow schemes(other storage) in use and their potential created and utilized according to public and private
+  - State wise distribution of surface flow schemes(other storage) in use and their potential created and utilized according to public and private
+### NEW: Distribution of surface flow schemes(permanent diversion) in use and their potential created and utilized according to public and private  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of surface flow schemes(permanent diversion) in use and their potential created and utilized according to public and private
+  - State wise distribution of surface flow schemes(permanent diversion) in use and their potential created and utilized according to public and private
+### NEW: Distribution of surface flow schemes(tanks) in use and their potential created and utilized according to public and private  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of surface flow schemes(tanks) in use and their potential created and utilized according to public and private
+  - State wise distribution of surface flow schemes(tanks) in use and their potential created and utilized according to public and private
+### NEW: Distribution of surface flow schemes(temporary diversion) in use and their potential created and utilized according to public and private  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of surface flow schemes(temporary diversion) in use and their potential created and utilized according to public and private
+  - State wise distribution of surface flow schemes(temporary diversion) in use and their potential created and utilized according to public and private
+### NEW: Distribution of surface lift schemes according to average pumping hours  | owner: Ministry of Jal Shakti | 2 old titles, 4 datasets
+  - District wise distribution of surface lift schemes according to average pumping hours
+  - State wise distribution of surface lift schemes according to average pumping hours
+### NEW: Distribution of surface lift schemes according to horsepower  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of surface lift schemes according to horsepower
+  - State wise distribution of surface lift schemes according to horsepower
+### NEW: Distribution of surface lift schemes according to ownership  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of surface lift schemes according to ownership
+  - State wise distribution of surface lift schemes according to ownership
+### NEW: Distribution of surface lift schemes according to social status  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of surface lift schemes according to social status
+  - State wise distribution of surface lift schemes according to social status
+### NEW: Distribution of surface lift schemes according to source of finance  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of surface lift schemes according to source of finance
+  - State wise distribution of surface lift schemes according to source of finance
+### NEW: Distribution of surface lift schemes according to the farmers holding size  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of surface lift schemes according to the farmers holding size
+  - State wise distribution of surface lift schemes according to the farmers holding size
+### NEW: Distribution of surface lift schemes according to water lifting device  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of surface lift schemes according to water lifting device
+  - State wise distribution of surface lift schemes according to water lifting device
+### NEW: Distribution of surface lift schemes by status  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of surface lift schemes by status
+  - State wise distribution of surface lift schemes by status
+### NEW: Distribution of surface lift schemes by type  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise distribution of surface lift schemes by type
+  - State wise distribution of surface lift schemes by type
+### NEW: Distribution of surface lift schemes in use according to utilization of potential created  | owner: Ministry of Jal Shakti | 2 old titles, 4 datasets
+  - District wise distribution of surface lift schemes in use according to utilization of potential created
+  - State wise distribution of surface lift schemes in use according to utilization of potential created
+### NEW: Distribution of surface lift schemes(on drain/canal) in use and their potential created and utilized according to public and private  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of surface lift schemes(on drain/canal) in use and their potential created and utilized according to public and private
+  - State wise distribution of surface lift schemes(on drain/canal) in use and their potential created and utilized according to public and private
+### NEW: Distribution of surface lift schemes(on river) in use and their potential created and utilized according to public and private  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of surface lift schemes(on river) in use and their potential created and utilized according to public and private
+  - State wise distribution of surface lift schemes(on river) in use and their potential created and utilized according to public and private
+### NEW: Distribution of surface lift schemes(on stream) in use and their potential created and utilized according to public and private  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of surface lift schemes(on stream) in use and their potential created and utilized according to public and private
+  - State wise distribution of surface lift schemes(on stream) in use and their potential created and utilized according to public and private
+### NEW: Distribution of surface lift schemes(on tank/pond) in use and their potential created and utilized according to public and private  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise distribution of surface lift schemes(on tank/pond) in use and their potential created and utilized according to public and private
+  - State wise distribution of surface lift schemes(on tank/pond) in use and their potential created and utilized according to public and private
+### NEW: District Wise GDP and Growth Rate at Constant Price  | owner: NITI Aayog | 2 old titles, 34 datasets
+  - District Wise GDP and Growth Rate at Constant Price(1999-2000)
+  - District Wise GDP and Growth Rate at Constant Price(2004-05)
+### NEW: District Wise GDP and Growth Rate at Current Price  | owner: NITI Aayog | 2 old titles, 34 datasets
+  - District Wise GDP and Growth Rate at Current Price(1999-2000)
+  - District wise GDP and Growth Rate at Current Price(2004-05)
+### NEW: Dugwells according to the constraints  | owner: Ministry of Jal Shakti | 2 old titles, 4 datasets
+  - District wise dugwells according to the constraints
+  - State wise dugwells according to the constraints
+### NEW: Dugwells according to water distribution system  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise dugwells according to water distribution system
+  - State wise dugwells according to water distribution system
+### NEW: Dugwells average length of water conveyance channel  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise dugwells average length of water conveyance channel
+  - State wise dugwells average length of water conveyance channel
+### NEW: Dugwells in the command of major/medium projects and average pumping hours  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise dugwells in the command of major/medium projects and average pumping hours
+  - State wise dugwells in the command of major/medium projects and average pumping hours
+### NEW: Dugwells in the command of major/medium projects and supplementary irrigation  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise dugwells in the command of major/medium projects and supplementary irrigation
+  - State wise dugwells in the command of major/medium projects and supplementary irrigation
+### NEW: Education : Dehradun  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttarakhand, Dehradun | 2 old titles, 2 datasets
+  - Education - Dehradun
+  - Education : Dehradun
+### NEW: Education Data : Pune  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pune | 2 old titles, 5 datasets
+  - Education Data : Pune
+  - Education Data for Pune
+### NEW: Education Level Graduate and Above by Sex for Population Age 15 and Above - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 227 datasets
+  - Education Level Graduate and Above by Sex for Population Age 15 and Above - India and States
+  - Education Level Graduate and Above by Sex for Population Age 15 and Above, Census 2001 - India and States
+### NEW: Educational Institutions, Scholars And Expenditure  | owner: Ministry of Statistics and Programme Implementation | 2 old titles, 5 datasets
+  - Educational Institutions, Scholars And Expenditure
+  - Educational Institutions, Scholars And Expenditure (All India)
+### NEW: Educational level by age and sex for population age 7 and above - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 199 datasets
+  - Educational Level by Age and Sex for Population Age 7 and Above, 2011 - India and States
+  - Educational level by age and sex for population age 7 and above - India and States
+### NEW: Electricity : NDMC  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Delhi, NDMC | 2 old titles, 2 datasets
+  - Electricity : NDMC
+  - Electricity-FY (2020-21)
+### NEW: Electricity : Nagpur  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Nagpur | 2 old titles, 3 datasets
+  - Electricity : Nagpur
+  - Electricity:Nagpur
+### NEW: Electricity : Thanjavur  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Thanjavur | 2 old titles, 3 datasets
+  - Electricity Thanjavur
+  - Electricity: Thanjavur
+### NEW: Electricity Consumption : Chandigarh  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh | 2 old titles, 2 datasets
+  - Electricity Consumption in Chandigarh
+  - Electricity consumption in Chandigarh
+### NEW: Electricity Consumption : Udaipur  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Rajasthan, Udaipur | 2 old titles, 4 datasets
+  - Electricity Consumption: Udaipur
+  - ElectricityConsumption:<Udaipur> 2019	
+### NEW: Employment in railways  | owner: Ministry of Statistics and Programme Implementation | 2 old titles, 6 datasets
+  - Employment In Railways
+  - Employment in railways
+### NEW: Enrolment in School Education  | owner: Ministry of Education | 2 old titles, 36 datasets
+  - Enrolment In School Education - Statistics of School Education
+  - Enrolment in school education
+### NEW: Environment : Amaravati  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Andhra Pradesh, Amravati | 2 old titles, 2 datasets
+  - Environment : Amaravati
+  - Environment:Amaravati
+### NEW: Environment : Bengaluru  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Bengaluru | 2 old titles, 2 datasets
+  - Bangalore: Environment
+  - Environment:Bengaluru
+### NEW: Environment : Bilaspur  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Bilaspur | 2 old titles, 2 datasets
+  - Environment of Bilaspur
+  - Environment: Bilaspur
+### NEW: Environment : Chandigarh  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh | 2 old titles, 3 datasets
+  - Environment : Chandigarh
+  - Environment in Chandigarh
+### NEW: Environment : Coimbatore  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Coimbatore | 2 old titles, 2 datasets
+  - Environment Coimbatore
+  - Environment: Coimbatore
+### NEW: Environment : Dharamshala  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Himachal Pradesh, Dharamshala | 2 old titles, 2 datasets
+  - Environment : Dharamshala
+  - Environment: Dharamshala
+### NEW: Environment : Indore  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Indore | 2 old titles, 2 datasets
+  - Environment
+  - Environment Indore
+### NEW: Environment : Madurai  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Madurai | 2 old titles, 2 datasets
+  - Environment Madurai
+  - Environment: Madurai
+### NEW: Environment : Ranchi  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi | 2 old titles, 2 datasets
+  - Environment Ranchi
+  - Environment of Ranchi
+### NEW: Environment : Thane  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Thane | 2 old titles, 4 datasets
+  - Environment : Thane
+  - Environment: Thane
