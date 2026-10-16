@@ -1,0 +1,198 @@
+sheet,new_column,old_label
+dublin_core_all_lots,Title,title
+dublin_core_all_lots,Description,Description
+dublin_core_all_lots,Subject[sector_resource],sector_resource
+dublin_core_all_lots,Date Created,created
+dublin_core_all_lots,Date Issued,published_date
+dublin_core_all_lots,Date Modified,changed
+dublin_core_all_lots,Type,resource_category
+dublin_core_all_lots,Extent,file_size
+dublin_core_all_lots,Format,file_format
+dublin_core_all_lots,Relation,Reference URL of Resource
+dublin_core_all_lots,Identifier[UUID],Identifier[UUID]
+dublin_core_all_lots,Identifier[landing_page],domain+node_alias
+dublin_core_all_lots,Source,Sourced Webservices/API
+dublin_core_all_lots,Spatial Coverage,field_asset_jurisdiction
+dublin_core_all_lots,Temporal Coverage,Duration of Date (from- to)
+dublin_core_all_lots,Jurisdiction,govt_type
+dublin_core_all_lots,Rights Statement,Released Under
+dublin_core_all_lots,Access Rights,Access Type
+dublin_core_all_lots,Accrual Periodicity,frequency
+dublin_core_all_lots,Coverage,granularity
+dublin_core_all_lots,Subject[keyword],keyword
+dublin_core_all_lots,Subject[sponsored_keyword],Sponsored Keywords
+dublin_core_all_lots,Subject[sector],sector
+dublin_core_all_lots,Relation[download_url],datafile
+dublin_core_all_lots,Relation[Access URL],Relation[Access URL]
+dublin_core_all_lots,Depiction,Thumbnail
+dublin_core_all_lots,Relation[Catalog Title],catalog_title
+dublin_core_all_lots,cdo_name,cdo_name
+dublin_core_all_lots,cdo_email,cdo_email
+dublin_core_all_lots,Rights,Rights
+dublin_core_all_lots,High Value Dataset Category,field_high_value_dataset
+dublin_core_all_lots,Accrual Method,field_resource_type
+dublin_core_all_lots,Creator,cdos_state_ministry
+dublin_core_all_lots,Publisher[ministry_department],ministry_department
+dublin_core_all_lots,Note,note
+dublin_core_all_lots,License,License
+dublin_core_all_lots,Language,Language
+dublin_core_all_lots,Abstract,Abstract
+dublin_core_all_lots,Alternative Title,Alternative Title
+dublin_core_all_lots,Relation[endpointURL],Relation[endpointURL]
+dublin_core_all_lots,Relation[Has Part],Relation[Has Part]
+dublin_core_all_lots,Relation[Is Part Of],Relation[Is Part Of]
+dublin_core_all_lots,Relation[Is Referenced By],Relation[Is Referenced By]
+dublin_core_all_lots,Relation[Is Replaced By],Relation[Is Replaced By]
+dublin_core_all_lots,Relation[Replaces],Relation[Replaces]
+dublin_core_all_lots,Relation[Is Version Of],Relation[Is Version Of]
+dublin_core_all_lots,Relation[Has Version],Relation[Has Version]
+dublin_core_all_lots,Description[endpointDescription],Description[endpointDescription]
+dublin_core_all_lots,ogdp_view_count,ogdp_view_count
+dublin_core_all_lots,ogdp_download_count,ogdp_download_count
+dublin_core_all_lots,field_show_export,field_show_export
+dublin_core_all_lots,external_api_reference,external_api_reference
+dublin_core_all_lots,is_api_available,is_api_available
+dublin_core_all_lots,is_visualized,is_visualized
+dublin_core_all_lots,field_from_api,from_api
+dublin_core_all_lots,Conforms To,Conforms To
+dublin_core_all_lots,Publisher[state_department],state_department
+dublin_core_all_lots,api_request_count,api_request_count
+dublin_core_all_lots,is_rated,is_rated
+dublin_core_all_lots,pii_tested,pii_tested
+dublin_core_all_lots,pii_detected,pii_detected
+dublin_core_all_lots,row_count,row_count
+dublin_core_all_lots,pii_test_timestamp,pii_test_timestamp
+dublin_core_all_lots,archive,archive
+dublin_core_all_lots,cdo_designation,cdo_designation
+dublin_core_all_lots,cdo_phone,cdo_phone
+dublin_core_all_lots,cdo_address,cdo_address
+dcat_all_lots,dcterms:title,title
+dcat_all_lots,dcterms:description,dcterms:description
+dcat_all_lots,dcat:theme,sector_resource
+dcat_all_lots,dcterms:created,created
+dcat_all_lots,dcterms:issued,published_date
+dcat_all_lots,dcterms:modified,changed
+dcat_all_lots,dcterms:type,resource_category
+dcat_all_lots,dcat:byteSize,file_size
+dcat_all_lots,dcat:mediaType,file_format
+dcat_all_lots,dcterms:relation,Reference URL of Resource
+dcat_all_lots,dcterms:identifier,dcterms:identifier
+dcat_all_lots,dcat:landingPage,domain+node_alias
+dcat_all_lots,dcterms:source,Sourced Webservices/API
+dcat_all_lots,dcterms:spatial,field_asset_jurisdiction
+dcat_all_lots,dcterms:temporal,Duration of Date (from- to)
+dcat_all_lots,dcatin:jurisdictionLevel,govt_type
+dcat_all_lots,dcatin:applicableLegislation,Released Under
+dcat_all_lots,dcterms:accessRights,Access Type
+dcat_all_lots,dcterms:accrualPeriodicity,frequency
+dcat_all_lots,dcat:temporalResolution,granularity
+dcat_all_lots,dcat:keyword,keyword
+dcat_all_lots,dcat:keyword[sponsored],Sponsored Keywords
+dcat_all_lots,Subject[sector],sector
+dcat_all_lots,dcat:downloadURL,datafile
+dcat_all_lots,dcat:accessURL,dcat:accessURL
+dcat_all_lots,foaf:depiction,Thumbnail
+dcat_all_lots,dcat:inCatalog,catalog_title
+dcat_all_lots,vcard:fn,cdo_name
+dcat_all_lots,vcard:hasEmail,cdo_email
+dcat_all_lots,dcterms:rights,dcterms:rights
+dcat_all_lots,dcatin:hvdCategory,field_high_value_dataset
+dcat_all_lots,dcterms:accrualMethod,field_resource_type
+dcat_all_lots,dcterms:creator,cdos_state_ministry
+dcat_all_lots,dcterms:publisher,ministry_department
+dcat_all_lots,prov:qualifiedAttribution[1],department[1]
+dcat_all_lots,prov:qualifiedAttribution[2],department[2]
+dcat_all_lots,prov:qualifiedAttribution[3],department[3]
+dcat_all_lots,dcatin:note,note
+dcat_all_lots,dcterms:license,dcterms:license
+dcat_all_lots,dcterms:language,dcterms:language
+dcat_all_lots,dcterms:abstract,dcterms:abstract
+dcat_all_lots,dcterms:alternative,dcterms:alternative
+dcat_all_lots,dcat:endpointURL,dcat:endpointURL
+dcat_all_lots,dcterms:hasPart,dcterms:hasPart
+dcat_all_lots,dcterms:isPartOf,dcterms:isPartOf
+dcat_all_lots,dcterms:isReferencedBy,dcterms:isReferencedBy
+dcat_all_lots,dcterms:isReplacedBy,dcterms:isReplacedBy
+dcat_all_lots,dcterms:replaces,dcterms:replaces
+dcat_all_lots,dcterms:isVersionOf,dcterms:isVersionOf
+dcat_all_lots,dcterms:hasVersion,dcterms:hasVersion
+dcat_all_lots,dcat:endpointDescription,dcat:endpointDescription
+dcat_all_lots,ogdp_view_count,ogdp_view_count
+dcat_all_lots,ogdp_download_count,ogdp_download_count
+dcat_all_lots,field_show_export,field_show_export
+dcat_all_lots,external_api_reference,external_api_reference
+dcat_all_lots,is_api_available,is_api_available
+dcat_all_lots,is_visualized,is_visualized
+dcat_all_lots,field_from_api,from_api
+dcat_all_lots,dcterms:conformsTo,dcterms:conformsTo
+dcat_all_lots,api_request_count,api_request_count
+dcat_all_lots,is_rated,is_rated
+dcat_all_lots,pii_tested,pii_tested
+dcat_all_lots,pii_detected,pii_detected
+dcat_all_lots,pii_test_timestamp,pii_test_timestamp
+dcat_all_lots,vcard:title,cdo_designation
+dcat_all_lots,vcard:hasTelephone,cdo_phone
+dcat_all_lots,vcard:hasAddress,cdo_address
+dublin_catalog_all_lots,Identifier[UUID],uuid
+dublin_catalog_all_lots,Title,title
+dublin_catalog_all_lots,Description,body:value
+dublin_catalog_all_lots,Date Modified,changed
+dublin_catalog_all_lots,Date Created,created
+dublin_catalog_all_lots,Date Issued,published_date
+dublin_catalog_all_lots,Spatial Coverage,field_asset_jurisdiction:name
+dublin_catalog_all_lots,Jurisdiction,field_ds_govt_type
+dublin_catalog_all_lots,Creator,field_ministry_department:name
+dublin_catalog_all_lots,Contributor,field_ministry_department:name
+dublin_catalog_all_lots,Publisher,field_ministry_department:name
+dublin_catalog_all_lots,Subject[sector],field_sector:name
+dublin_catalog_all_lots,Subject[keyword],keywords
+dublin_catalog_all_lots,Relation_from_api,from_api
+dublin_catalog_all_lots,High Value Dataset Category,high_value_dataset
+dublin_catalog_all_lots,unmappable_is_api_available,is_api_available
+dublin_catalog_all_lots,unmappable_ogdp_view_count,ogdp_view_count
+dublin_catalog_all_lots,Identifier,ogpl_module_domain_name+node_alias
+dublin_catalog_all_lots,Relation,Relation (no OGD field)
+dublin_catalog_all_lots,Rights Statement,Rights Statement (no OGD field)
+dublin_catalog_all_lots,Access Rights,Access Rights (no OGD field)
+dublin_catalog_all_lots,Relation[Has Part],Relation[Has Part] (no OGD field)
+dublin_catalog_all_lots,Relation[Is Referenced By],Relation[Is Referenced By] (no OGD field)
+dublin_catalog_all_lots,Relation[Is Replaced By],Relation[Is Replaced By] (no OGD field)
+dublin_catalog_all_lots,Relation[Replaces],Relation[Replaces] (no OGD field)
+dublin_catalog_all_lots,Relation[Is Version Of],Relation[Is Version Of] (no OGD field)
+dublin_catalog_all_lots,Relation[Has Version],Relation[Has Version] (no OGD field)
+dublin_catalog_all_lots,Relation[Is Part Of],Relation[Is Part Of] (no OGD field)
+dublin_catalog_all_lots,group_catalog_name,group_catalog_name (no OGD field)
+dcat_catalog_all_lots,dcterms:identifier,uuid
+dcat_catalog_all_lots,dcterms:title,title
+dcat_catalog_all_lots,new_catalog_title,new_catalog_title (no OGD field)
+dcat_catalog_all_lots,dcterms:description,body:value
+dcat_catalog_all_lots,dcterms:modified,changed
+dcat_catalog_all_lots,dcterms:created,created
+dcat_catalog_all_lots,dcterms:issued,published_date
+dcat_catalog_all_lots,dcterms:spatial,field_asset_jurisdiction:name
+dcat_catalog_all_lots,dcatin:jurisdictionLevel,field_ds_govt_type
+dcat_catalog_all_lots,dcterms:creator,field_ministry_department:name
+dcat_catalog_all_lots,dcterms:contributor,field_ministry_department:name
+dcat_catalog_all_lots,dcterms:publisher,field_ministry_department:name
+dcat_catalog_all_lots,dcat:hadRole,dcat:hadRole (no OGD field)
+dcat_catalog_all_lots,prov:qualifiedAttribution[1],field_ministry_department:name
+dcat_catalog_all_lots,prov:qualifiedAttribution[2],field_ministry_department:name
+dcat_catalog_all_lots,prov:qualifiedAttribution[3],field_ministry_department:name
+dcat_catalog_all_lots,Subject[sector],field_sector:name
+dcat_catalog_all_lots,dcat:keyword,keywords
+dcat_catalog_all_lots,Relation_from_api,from_api
+dcat_catalog_all_lots,dcatin:hvdCategory,high_value_dataset
+dcat_catalog_all_lots,unmappable_is_api_available,is_api_available
+dcat_catalog_all_lots,unmappable_ogdp_view_count,ogdp_view_count
+dcat_catalog_all_lots,dcat:landingPage,ogpl_module_domain_name+node_alias
+dcat_catalog_all_lots,dcterms:relation,dcterms:relation (no OGD field)
+dcat_catalog_all_lots,dcatin:applicableLegislation,dcatin:applicableLegislation (no OGD field)
+dcat_catalog_all_lots,dcterms:accessRights,dcterms:accessRights (no OGD field)
+dcat_catalog_all_lots,dcterms:hasPart,dcterms:hasPart (no OGD field)
+dcat_catalog_all_lots,dcterms:isReferencedBy,dcterms:isReferencedBy (no OGD field)
+dcat_catalog_all_lots,dcterms:isReplacedBy,dcterms:isReplacedBy (no OGD field)
+dcat_catalog_all_lots,dcterms:replaces,dcterms:replaces (no OGD field)
+dcat_catalog_all_lots,dcterms:isVersionOf,dcterms:isVersionOf (no OGD field)
+dcat_catalog_all_lots,dcterms:hasVersion,dcterms:hasVersion (no OGD field)
+dcat_catalog_all_lots,dcterms:isPartOf,dcterms:isPartOf (no OGD field)
+dcat_catalog_all_lots,group_catalog_name,group_catalog_name (no OGD field)

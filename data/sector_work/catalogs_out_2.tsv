@@ -1,0 +1,114 @@
+C0391	Finance; Banking	bank branch listing, not governance
+C0392	Industries; Manufacturing	MIDC industrial land rates
+C0397	Water and Sanitation; Sanitation	storm water drains, not roads
+C0403	Water Resources; Ground Water	water levels, not water quality
+C0408	Health and Family welfare; Health	mortality rate is a health measure
+C0409	Health and Family welfare; Health	mortality rate is a health measure
+C0410	Health and Family welfare; Health	mortality rate is a health measure
+C0411	Health and Family welfare; Health	mortality rate is a health measure
+C0412	Rural; Development, Urban; Development	NSAP social pensions run by rural/urban development
+C0414	Environment and Forest; Natural Resources	natural features are environmental
+C0417	Environment and Forest; Ecology	natural landscape is ecology
+C0424	Transport; Road Transport	bus counts are transport
+C0427	Governance and Administration; Union/State Government Administration	NLCPR is a cross-sector central fund, not roads/health
+C0438	Science and Technology; Marine Science	ocean wind stress is oceanography
+C0439	Science and Technology; Marine Science	ocean wind stress curl is oceanography
+C0440	Science and Technology; Marine Science	ocean wind velocity is oceanography
+C0442	Commerce; Trade promotion	online transactions are commerce, not prices
+C0444	Urban; Development	city open spaces, not forest
+C0450	Urban; Development	city open spaces, not forest
+C0453	Urban; Development	city open spaces, not forest
+C0456	Urban; Development	city open spaces, not forest
+C0457	Urban; Development	city open spaces, not forest
+C0458	Urban; Development	city open spaces, not forest
+C0460	Urban; Development	city open spaces, not forest
+C0461	Urban; Development	city open spaces, not forest
+C0463	Transport; Road Transport	road transport operations
+C0464	Urban; Development	municipal citizen-service data, not roads
+C0471	Commerce; Export	leather export statistics
+C0474	Rural; Development, Urban; Development	NSAP components, as C0412
+C0475	Water and Sanitation; Sanitation	Total Sanitation Campaign
+C0477	Rural; Development	MGNREGA rural employment
+C0479	Home Affairs and Enforcement; Police	police station list
+C0480	Home Affairs and Enforcement; Police	police station list
+C0481	Home Affairs and Enforcement; Police	police station list
+C0482	Home Affairs and Enforcement; Police	police station list
+C0483	Home Affairs and Enforcement; Police	police station list
+C0484	Home Affairs and Enforcement; Police	police station list
+C0485	Census and Surveys; Census	population counts
+C0488	Finance; Banking	PACS are rural credit cooperatives
+C0489	Education; Elementary	primary school list
+C0491	Agriculture; Animal Husbandry	livestock and fish production
+C0508	Finance; Revenue	property tax collection
+C0511	Finance; Revenue	property tax DCB
+C0531	Urban; Development	public amenities, not roads
+C0534	Urban; Development	public transport access is not housing
+C0539	Water Resources; Surface Water	rainfall
+C0552	Social Development; Disabled	ramps for the disabled
+C0553	Urban; Development	city recreational parks
+C0554	Home Affairs and Enforcement; Police	FIR records
+C0562	Transport; Road Transport	road safety
+C0565	Transport; Road Transport	road safety
+C0568	Transport; Road Transport	road safety
+C0573	Infrastructure; Roads	road works
+C0574	Infrastructure; Roads	road works
+C0576	Transport; Road Transport	road safety
+C0578	Governance and Administration; Pensions	pensioner data
+C0582	Education; Elementary	school inspection
+C0584	Water Resources; Surface Water	rainfall, not census
+C0586	Education	education expenditure
+C0588	Social Development; Women	self help groups
+C0593	Commerce; Import	imports
+C0594	Education; Elementary	school
+C0596	Education; Elementary	classrooms in school
+C0599	Social Development; Children	children's social status
+C0604	Environment and Forest; Sanitation	solid waste collection vehicles
+C0606	Environment and Forest; Sanitation	solid waste collection vehicle data
+C0607	Environment and Forest; Sanitation	solid waste collection vehicles
+C0611	Environment and Forest; Municipal Waste	solid waste disposal
+C0615	Environment and Forest; Municipal Waste	solid waste management
+C0616	Environment and Forest; Sanitation	solid waste management, not health
+C0617	Environment and Forest; Municipal Waste	solid waste management
+C0619	Environment and Forest; Municipal Waste	solid waste management, not health
+C0620	Environment and Forest; Municipal Waste	solid waste management
+C0622	Environment and Forest; Municipal Waste	solid waste management
+C0623	Environment and Forest; Municipal Waste	solid waste management
+C0624	Environment and Forest; Municipal Waste	solid waste management
+C0625	Environment and Forest; Municipal Waste	solid waste management
+C0627	Environment and Forest; Municipal Waste	solid waste management
+C0629	Environment and Forest; Municipal Waste	solid waste management
+C0633	Environment and Forest; Sanitation	solid waste revenue, not health
+C0641	Industries	DPIIT startup recognition is industrial policy
+C0642	Labour and Employment; Employment	agricultural wages
+C0646	Science and Technology; Research & Development	R&D proposals
+C0651	Commerce; Companies	Statistical Hand Book on companies
+C0652	Food; Public Distribution	Statistical Hand Book on civil supplies
+C0653	Industries; Manufacturing	Statistical Hand Book on factories
+C0654	Finance; Banking	Statistical Hand Book on institutional finance
+C0655	Finance; Insurance	Statistical Hand Book on insurance
+C0656	Finance; Insurance	Statistical Hand Book on insurance
+C0658	Judiciary	Statistical Hand Book on judicial administration
+C0659	Governance and Administration; State Legislative	state legislature, not Lok Sabha
+C0660	Information and Broadcasting; Broadcasting	recreation datasets are mostly broadcasting
+C0661	Transport; Road Transport	Statistical Hand Book on road and transport
+C0679	Urban; Development	street lights in city
+C0693	Education; Elementary	student classroom ratio
+C0700	Education; Elementary	teacher data
+C0701	Infrastructure; Power	RGGVY rural electrification
+C0703	Rural; Land Resources	land classification
+C0704	Water Resources; Surface Water	rainfall
+C0705	Industries; Heavy	steel production
+C0706	Social Development; Women	social welfare schemes
+C0724	Water Resources; Ground Water	ground water level
+C0727	Labour and Employment; Employment	unemployment rate
+C0732	Food; Public Distribution	foodgrain utilisation
+C0733	Finance; Revenue	VAT and GST is tax revenue
+C0734	Finance; Revenue	VAT and GST is tax revenue
+C0735	Finance; Revenue	VAT and GST is tax revenue
+C0736	Finance; Revenue	VAT and GST is tax revenue
+C0737	Finance; Revenue	VAT and GST is tax revenue
+C0738	Finance; Revenue	VAT and GST is tax revenue
+C0740	Science and Technology; Research & Development	posts at a research institute
+C0748	Water and Sanitation; Drinking Water	water revenue from water supply
+C0762	Water and Sanitation; Drinking Water	water consumption
+C0765	Education; Elementary	students without classrooms

@@ -1,0 +1,20 @@
+kind	old_title	new_title	reason	suggested_name
+FRAGMENT	Crimes from 2014-15 to 2017-18 : Tiruchirappalli	Crimes from : Tiruchirappalli	Dangling 'from' after period removal	Crimes : Tiruchirappalli
+FRAGMENT	Electricity of Muzaffarpur City.	Electricity - . : Muzaffarpur	Stray ' - .' punctuation introduced	Electricity : Muzaffarpur
+OTHER	"BudgetforOpenspacesdevelopment:<udaipur> 2011 "	Budgetfor Openspacesdevelopment : Udaipur	Words still run together/mis-split ('Budgetfor')	Budget for Open Spaces Development : Udaipur
+OTHER	Itanagar Smart City HouseHolds	House Holds : Itanagar	Typo introduced: 'House Holds' split	Households : Itanagar
+OTHER	COVID 19 Naya Raipur	COVID 19 : Atal Nagar	City renamed to Atal Nagar; not supported by old title (Naya Raipur is the Smart City name)	COVID 19 : Naya Raipur
+WRONG_PLACE	COVID-19 Details	COVID-19 Details : Gwalior	Old title names no place; city 'Gwalior' introduced from outside the title (unverifiable here; confirm against catalog source/publisher)	
+WRONG_PLACE	Age of Establishment	Age of Establishment : Kohima	Old title names no place; city 'Kohima' introduced from outside the title (unverifiable here; confirm against catalog source/publisher)	
+WRONG_PLACE	Digital Availability	Digital Availability : Bareilly	Old title names no place; city 'Bareilly' introduced from outside the title (unverifiable here; confirm against catalog source/publisher)	
+WRONG_PLACE	Energy	Energy : Kohima	Old title names no place; city 'Kohima' introduced from outside the title (unverifiable here; confirm against catalog source/publisher)	
+WRONG_PLACE	Environment	Environment : Visakhapatnam	Old title names no place; city 'Visakhapatnam' introduced from outside the title (unverifiable here; confirm against catalog source/publisher)	
+WRONG_PLACE	Governance	Governance : Solapur	Old title names no place; city 'Solapur' introduced from outside the title (unverifiable here; confirm against catalog source/publisher)	
+WRONG_PLACE	Demographic Profile	Demographic Profile : Hubballi-Dharwad	Old title names no place; city 'Hubballi-Dharwad' introduced from outside the title (unverifiable here; confirm against catalog source/publisher)	
+WRONG_PLACE	City profile	City profile : Udaipur	Old title names no place; city 'Udaipur' introduced from outside the title (unverifiable here; confirm against catalog source/publisher)	
+WRONG_PLACE	Injuries and Fatalities	Injuries and Fatalities : Jaipur	Old title names no place; city 'Jaipur' introduced from outside the title (unverifiable here; confirm against catalog source/publisher)	
+WRONG_PLACE	Digital payments (Commercial)	Digital payments (Commercial) : NDMC	Old title names no place; city 'NDMC' introduced from outside the title (unverifiable here; confirm against catalog source/publisher)	
+WRONG_PLACE	Earnings-BusTrips	Earnings-Bus Trips : Dharamshala	Old title names no place; city 'Dharamshala' introduced from outside the title (unverifiable here; confirm against catalog source/publisher)	
+WRONG_PLACE	Housing and Slums_1	Housing and Slums 1 : Dharamshala	Old title names no place; city 'Dharamshala' introduced from outside the title (unverifiable here; confirm against catalog source/publisher)	
+WRONG_PLACE	City profile - Monthly rainfall	City profile - Monthly rainfall : Madurai	Old title names no place; city 'Madurai' introduced from outside the title (unverifiable here; confirm against catalog source/publisher)	
+WRONG_PLACE	Fatalities_traffic accidents	Fatalities traffic accidents : Chandigarh	Old title names no place; city 'Chandigarh' introduced from outside the title (unverifiable here; confirm against catalog source/publisher)	

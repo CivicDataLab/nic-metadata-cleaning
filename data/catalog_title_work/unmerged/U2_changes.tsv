@@ -1,0 +1,7 @@
+id	better_title	convention	reason
+lot2n3:604371974	Air Quality Monitoring : Kolhapur City	3	city-level title; city name moved to end after colon
+lot2n3:604368934	Sindhudurg - Right to Service (RTS) Application Report	2	missing space before abbreviation bracket
+lot2n3:87159	District Wise Community Service Centers (CSC) Roll out and Connectivity	2	missing space before abbreviation bracket
+lot2n3:95460	Air Quality with respect to Respirable Suspended Particulate Matter (RSPM) in air quality stations under National Air Quality Monitoring Programme (NAMP)	2	missing space before abbreviation bracket
+lot2n3:90070	Plan Outlay by Heads of Development: Centre, States/UTs	1	auto rule dropped comma and changed wording; restore original list form
+lot2n3:150205	Special Tabulation on Adolescent and youth population classified by various parameters for India, States/UTs - India and States	1	auto rule changed "India, States and Union Territories" wording; restore comma

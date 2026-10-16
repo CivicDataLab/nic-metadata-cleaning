@@ -2,6 +2,7 @@ import argparse
 import json
 import logging
 import os
+import sys
 import time
 import tempfile
 import duckdb
@@ -25,23 +26,62 @@ logging.basicConfig(
 
 
 
-DB_PATH = "/home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db"
+DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "metadata.db")
 SOURCE_TABLE = "dublin_core_metadata"
 RESULTS_TABLE = "llm_keyword_results"
+# --fields description writes here instead: RESULTS_TABLE holds six-field rows
+# and merge_and_save appends by position, so the two shapes cannot share a table.
+DESCRIPTION_RESULTS_TABLE = "llm_dataset_description_results"
 
 MODEL = "gpt-5.4-nano"
 POLL_INTERVAL = 60          # seconds between status checks
-MAX_CONCURRENT_BATCHES = 1  # OpenAI concurrent batch limit
+MAX_CONCURRENT_BATCHES = 2  # 2 x chunk_size must stay under the 2M enqueued-token cap
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "text_generation")
 OUTPUT_CSV = os.path.join(OUTPUT_DIR, "llm_keyword_results.csv")
+DESCRIPTION_OUTPUT_CSV = os.path.join(OUTPUT_DIR, "llm_dataset_description_results.csv")
 
-# Fields pulled from dublin_core_metadata for each request
+# Constant across every request so the Batch API routes same-prefix requests to
+# the same machine — without it the shared system prompt measured a 0% cache hit
+# rate on gpt-5.4-nano, while the (longer) collection prompt hit 82-85%.
+PROMPT_CACHE_KEY = "nic-metadata-dataset-v1"
+
+# Fields pulled from the source table for each request. `build_user_content`
+# reads rows by these names, so every source table aliases its own columns to
+# them in SOURCES below.
 SOURCE_FIELDS = [
     "nid", "Title", "Relation[Catalog Title]",
     "Note", "Accrual Periodicity", "Jurisdiction", "Coverage",
     "Publisher[ministry_department]", "Subject[sector_resource]",
-    "High Value Dataset Category",
 ]
+
+# {source name: {table, columns {SOURCE_FIELDS name: actual column}}}.
+# dublin_core_metadata already uses the Dublin names, so it maps to itself and
+# is resolved case-insensitively against the live schema; remaining-raw-datasets
+# carries the raw snake_case names and needs an explicit mapping.
+SOURCES = {
+    "dublin": {
+        "table": "dublin_core_metadata",
+        "columns": {c: c for c in SOURCE_FIELDS},
+        # dublin_core_metadata.Note is written per collection, so it quotes one
+        # member's provisional year, month and status date for every other
+        # member. Each dataset's own note is still in raw_metadata.
+        "dataset_note": ("raw_metadata", "note"),
+    },
+    "remaining": {
+        "table": "remaining-raw-datasets",
+        "columns": {
+            "nid": "nid",
+            "Title": "title",
+            "Relation[Catalog Title]": "catalog_title",
+            "Note": "note",
+            "Accrual Periodicity": "frequency",
+            "Jurisdiction": "govt_type",
+            "Coverage": "granularity",
+            "Publisher[ministry_department]": "ministry_department",
+            "Subject[sector_resource]": "sector_resource",
+        },
+    },
+}
 
 
 
@@ -56,7 +96,7 @@ categorize_system_prompt='''
 You are an expert metadata curator for Indian government open data. Generate enriched metadata fields from dataset resource metadata following Dublin Core and DCAT v3 standards.
 
 ## Input Fields
-title, catalog_title, ministry_department, sector_resource, note, frequency, govt_type, granularity, HVD Flag (0|1).
+title, catalog_title, ministry_department, sector_resource, note, frequency, govt_type, granularity.
 Semicolon-separated values in any field should be parsed individually.
 
 ## Output: Strict JSON
@@ -66,10 +106,7 @@ Semicolon-separated values in any field should be parsed individually.
   "generated_note": "",
   "generated_alt_title": "",
   "generated_short_description": "",
-  "generated_keywords": "",
-  "generated_sponsored_keywords": "",
-  "generated_theme": "",
-  "hvd_category": "",
+  "generated_theme": ""
 }
 
 Return ONLY valid JSON. No markdown fences, no preamble.
@@ -83,13 +120,20 @@ ONLY TRY TO ATTEMPT CHANGING WHEN ABSOLUTELY NECESSARY. Compare your draft to th
 - Well-known medical and public health acronyms (TB, HIV, AIDS, NCD, ASHA, ANM, OPD, IPD, MCH, ANC, etc.) must remain fully uppercase — never apply Title Case to individual letters within an acronym.
 - Expand non-obvious abbreviations (KCC → Kisan Call Centre, RoC → Registrars of Companies), but do NOT expand standard medical acronyms — leave TB as TB, HIV as HIV, etc.
 - Preserve punctuation from the original title (e.g., commas, hyphens, colons) unless it is clearly erroneous.
-- Add geographic scope ("in India" / state name) ONLY if genuinely unclear from context.
+- NEVER DROP A GEOGRAPHIC NAME THAT IS ALREADY IN THE SOURCE TITLE. Every state, UT, division, district, sub-district, tehsil, taluk, block, city or village named in the source title MUST still be present in the generated title.
+- In particular, when the source names an administrative unit TOGETHER WITH ITS PARENT ("<District> District of <State>", "<Taluk> Taluk of <State>", "<Block> Block of <District>"), keep BOTH parts. Compressing the parent away is WRONG — a district name alone is ambiguous, because many districts share a name across states, and these datasets are published one per district.
+    - "... for Scheduled Tribe (Each Tribe Separately) for Koriya District of Chhattisgarh, 2001" → "... for Scheduled Tribe in Koriya District, Chhattisgarh, 2001"   (state RETAINED)
+    - WRONG: "... for Scheduled Tribe in Koriya District, 2001"   (state silently lost)
+    - "... for Udupi District of Karnataka" → "... for Udupi District, Karnataka"   (state RETAINED)
+  You may change the connecting words ("of" → a comma) but never the names themselves.
+- This retention rule OUTRANKS the 10–20 word guidance and every shortening instruction below: if the title cannot fit the word budget, shorten the subject wording, never the geography. A slightly long title is always better than one missing its state or district.
+- Add geographic scope ("in India" / state name) ONLY if genuinely unclear from context. This permits ADDING a missing scope; it never licenses REMOVING a scope that the source title already carries.
 - Add temporal range ONLY if absent from the original title.
 - Do not rephrase temporal markers unnecessarily (e.g., keep "upto March 2015-16" as "upto March 2015-16" — do not change it to "as on", "as of", or put it in brackets).
 - No redundancy with catalog_title.
 - Do not hallucinate content not present in or clearly implied by the source metadata.
 - Change the title if title is less than 3-4 words or is too vague on its own
-- Think Deeply before changing the title, and if you decide to change it make sure it makes sense to other metadata fields and is not just a rephrasing of the original title. The title should be concise and informative, but not necessarily a full sentence. 
+- Do not use terms like "in India" or "Number of" if they are already implied by the context of the dataset and do not add meaningful specificity. For example, a title like "Monthly IUD Distribution Report" may not need "in India" added if it's already clear from the context that this dataset is about IUD distribution in India.
 
 ### generated_description (40–60 words)
 - 2–3 sentences: what the dataset contains, its purpose/use cases, source ministry, geographic & temporal scope, granularity, and update frequency.
@@ -102,23 +146,6 @@ ONLY TRY TO ATTEMPT CHANGING WHEN ABSOLUTELY NECESSARY. Compare your draft to th
 
 ### generated_short_description (20–40 words)
 - 1–2 sentences. What + why. No technical details. For quick previews.
-
-### Enhanced Layman Keywords (`generated_keywords`)
-Produce 6–10 layman-friendly keywords:
-- Simple, everyday language — avoid jargon where possible, but retain well-known leyman medical terms (e.g., "tuberculosis", "AIDS", "coinfection") since these are meaningful to the target audience
-- 1–2 words each, lowercase, singular form, no punctuation
-- Avoid overly generic terms that add no search value — do NOT include words very common words like "health", "data", "india", "dataset"
-- Avoid ministry/department names
-- Prefer specific over broad: "coinfection" over "disease", "tuberculosis" over "illness", "patient" over "person"
-- Include relevant disease names, conditions, affected populations, and medical concepts directly present in or strongly implied by the title and description
-- Keywords are must
-
-### Sponsored Keywords (`generated_sponsored_keywords`)
-Produce 3–5 domain-specific / policy-aligned keywords (may be multi-word phrases):
-- Use official programme names, policy frameworks, or institutional terms (e.g., "AIDS control programme", "national tuberculosis elimination programme")
-- May include relevant acronyms where they are standard in the policy/health domain (e.g., "NACP", "RNTCP"), avoid making mistakes. 
-- Avoid generic phrases like "government data" or "public health policy" and use phrases about the datasets content that the user
-- Use the title and catalog_title fields to identify relevant programmes, policies, and institutional terms to include as sponsored keywords. These are often explicitly mentioned in the title/catalog_title of datasets, especially for health datasets.
 
 ### generated_theme
 Map to SECTOR_VOCAB only. Format: "Sector; Sub-sector" pairs, comma-separated if multiple. Example: "Agriculture; Agricultural Marketing, Health and Family welfare; Health". If no sub-sector fits, use sector only. Never invent sectors outside the vocabulary.
@@ -160,8 +187,33 @@ Transport: Aviation, Metro, Railways, Road Transport, Water ways
 Travel and Tourism: Lodging, Modes of Travel, Places
 Youth and Sports: Games, Youth Affairs
 
-### hvd_category
-If HVD Flag=0: "". If HVD Flag=1: classify into exactly one of: geospatial | earth observation and environment | meteorological | statistics | companies and company ownership | mobility.
+## Reference: Indian States, Union Territories and Common Title Variants
+Reference data only — use it to RECOGNISE geographic names that appear in a
+title. Do NOT rewrite, modernise, correct or expand a geographic name that the
+source title already uses, and never add a name from this list that the title
+does not contain. The title rules above take precedence.
+
+States: Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa,
+Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya
+Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab,
+Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand,
+West Bengal.
+
+Union Territories: Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar
+Haveli and Daman and Diu, Delhi (NCT of Delhi), Jammu and Kashmir, Ladakh,
+Lakshadweep, Puducherry.
+
+Historic state/UT spellings common in older OGD titles, shown so you can
+recognise them — NOT a mandate to change them: Orissa (Odisha), Pondicherry
+(Puducherry), Uttaranchal (Uttarakhand), Madhya Bharat, NCT of Delhi. The same
+applies to older city and district spellings (Bombay, Madras, Calcutta,
+Bangalore, Balasore, Allahabad, ...): recognise them, reproduce them exactly as
+the source title writes them.
+
+Administrative granularity terms that may appear in titles: State, Union
+Territory, Division, District, Sub-district, Tehsil, Taluk, Taluka, Block,
+Mandal, Circle, Range, Zone, Ward, Village, Gram Panchayat, Municipality,
+Municipal Corporation, Census Town, Urban Agglomeration, Rural, Urban, Combined.
 
 '''
 
@@ -195,8 +247,9 @@ You will receive metadata fields for a single dataset resource.
 Produce 6–10 layman-friendly keywords:
 - Simple, everyday language — avoid jargon where possible, but retain well-known medical terms (e.g., "tuberculosis", "AIDS", "coinfection") since these are meaningful to the target audience
 - 1–2 words each, lowercase, singular form, no punctuation
+- If the title is not that informative, you can also use the note and description fields to identify keywords. For example, if the title is "Monthly IUD Distribution Report" but the note mentions that the dataset contains data on "IUD distribution, broken down by state and district", you could extract keywords like "iud", "contraceptive", "family planning", etc. The note and description fields often contain useful context that can help you generate better keywords, especially when the title is vague.
 - Avoid overly generic terms that add no search value — do NOT include words like "health", "data", "india", "report", "dataset", or "information"
-- Avoid ministry/department names
+- Avoid ministry/department names or any district name. 
 - Prefer specific over broad: "coinfection" over "disease", "tuberculosis" over "illness", "patient" over "person"
 - Include relevant disease names, conditions, affected populations, and medical concepts directly present in or strongly implied by the title and description
 
@@ -232,6 +285,55 @@ Return ONLY valid JSON — no prose, no markdown fences:
 }
 """.strip()
 
+# Description-only prompt (--fields description). Kept short on purpose: at
+# ~280 tokens it is far below the ~1,024-token floor for prompt caching (a
+# 40-row test billed 0 cached tokens), so every input token bills at the full
+# rate — ~475 tokens a request, which the long prompt above only beats if more
+# than ~99% of requests hit the cache.
+DESCRIPTION_SYSTEM_PROMPT = '''
+You are a metadata curator for Indian government open data (OGD platform, data.gov.in). Write the description of ONE dataset from its metadata.
+
+Input fields: title, catalog_title, ministry_department, sector_resource, note, frequency, govt_type, granularity. Any of them may be empty.
+
+Return ONLY valid JSON, no markdown fences, no preamble:
+{"generated_description": ""}
+
+generated_description (40-55 words, never more than 60; 2-3 sentences):
+- Describe THIS dataset, not the series it belongs to: what it contains and what it is used for, for exactly the place and period named in the title.
+- Carry every geographic name (state, UT, district, sub-district, block, city) and every period (month, year, financial year, "upto <month>") from the title into the description, spelled as the title spells them. catalog_title only tells you the series and the reporting level.
+- Name the source ministry once, without the department under it, and the update frequency when given. Do not repeat the sector_resource wording.
+- Do not start with "This dataset contains" or with the title pasted word for word.
+- Use only what the input states or clearly implies. Do not invent figures, indicators, years or places. Leave status timestamps and totals formulas from the note out.
+'''
+
+# {--fields value: what to ask for and where the answers go}. "all" is the
+# original six-field job; its table also keeps the raw llm_response.
+FIELD_SETS = {
+    "all": {
+        "system_prompt": categorize_system_prompt,
+        "cache_key": PROMPT_CACHE_KEY,
+        "generated": [
+            "generated_title", "generated_description", "generated_note",
+            "generated_alt_title", "generated_short_description", "generated_theme",
+        ],
+        "keep_response": True,
+        "dataset_note": False,
+        "table": RESULTS_TABLE,
+        "csv": OUTPUT_CSV,
+        "chunk_size": 390,
+    },
+    "description": {
+        "system_prompt": DESCRIPTION_SYSTEM_PROMPT,
+        "cache_key": "nic-metadata-dataset-description-v1",
+        "generated": ["generated_description"],
+        "keep_response": False,
+        "dataset_note": True,
+        "table": DESCRIPTION_RESULTS_TABLE,
+        "csv": DESCRIPTION_OUTPUT_CSV,
+        "chunk_size": 1500,
+    },
+}
+
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
@@ -240,13 +342,6 @@ def _clean(value) -> str:
     if pd.isna(value) or str(value).strip() in ("nan", ""):
         return ""
     return str(value).strip()
-
-
-def _hvd_flag(value) -> int:
-    try:
-        return int(value) if value == value else 0   # handles NaN
-    except (ValueError, TypeError):
-        return 0
 
 
 def build_user_content(row: dict) -> str:
@@ -258,13 +353,13 @@ def build_user_content(row: dict) -> str:
         f"Note: {_clean(row.get('Note', ''))}\n"
         f"Frequency: {_clean(row.get('Accrual Periodicity', ''))}\n"
         f"Govt Type: {_clean(row.get('Jurisdiction', ''))}\n"
-        f"Granularity: {_clean(row.get('Coverage', ''))}\n"
-        f"HVD Flag: {_hvd_flag(row.get('High Value Dataset Category', 0))}"
+        f"Granularity: {_clean(row.get('Coverage', ''))}"
     )
 
 
-def build_request_line(row: dict) -> dict:
+def build_request_line(row: dict, fields: str = "all") -> dict:
     """Return one JSONL request object. custom_id = nid (string)."""
+    spec = FIELD_SETS[fields]
     return {
         "custom_id": str(int(row["nid"])),
         "method": "POST",
@@ -273,53 +368,152 @@ def build_request_line(row: dict) -> dict:
             "model": MODEL,
             "response_format": {"type": "json_object"},
             "prompt_cache_retention": "24h",
+            "prompt_cache_key": spec["cache_key"],
+            # Default temperature (1.0) made this job disagree with itself: two
+            # identical runs over the same 300 rows matched on only 68% of
+            # generated_theme. At 0 that rises to 88%, and invalid-sector rows
+            # fall from 2.3% to ~0. Not fully deterministic — ~12% of themes
+            # still vary between runs.
+            "temperature": 0,
+            "seed": 42,
             "messages": [
-                {"role": "system", "content": categorize_system_prompt},
+                {"role": "system", "content": spec["system_prompt"]},
                 {"role": "user", "content": build_user_content(row)},
             ],
         },
     }
 
 
-def load_rows(batch_number: int | None, limit: int | None) -> pd.DataFrame:
-    # Only select columns that exist in the table
-    con = duckdb.connect(DB_PATH)
+def _select_clause(con, source: str) -> tuple[str, str]:
+    """Return (select_list, quoted_table) for `source`, skipping absent columns.
+
+    Column names are matched case-insensitively against the live schema and
+    aliased back to their SOURCE_FIELDS name, so `row.get('Title')` works no
+    matter which table the row came from.
+    """
+    spec = SOURCES[source]
+    table = spec["table"]
     available = [
         r[0] for r in con.execute(
-            f"SELECT column_name FROM information_schema.columns "
-            f"WHERE table_name = '{SOURCE_TABLE}'"
+            "SELECT column_name FROM information_schema.columns WHERE table_name = ?",
+            [table],
         ).fetchall()
     ]
-    # Case-insensitive match: use the actual stored column name for the SELECT,
-    # but alias it to the SOURCE_FIELDS name so row.get('Title') works downstream.
     available_lower = {c.lower(): c for c in available}
 
-    col = [
-        c for c in SOURCE_FIELDS
-        if c.lower() in available_lower]
     cols = [
-        f'"{available_lower[c.lower()]}" AS "{c}"'
-        for c in SOURCE_FIELDS
-        if c.lower() in available_lower
+        f'"{available_lower[actual.lower()]}" AS "{field}"'
+        for field, actual in spec["columns"].items()
+        if actual.lower() in available_lower
     ]
-    select = ", ".join(cols)
+    if not cols:
+        raise ValueError(f"No usable columns found on table {table!r} for source {source!r}")
 
-    query = f"SELECT {select} FROM {SOURCE_TABLE} WHERE nid IS NOT NULL"
+    missing = [f for f, a in spec["columns"].items() if a.lower() not in available_lower]
+    if missing:
+        logging.warning(f"{table}: missing column(s) for {missing} — sent empty")
+
+    return ", ".join(cols), f'"{table}"'
+
+
+def _ministry_column(con, source: str) -> str:
+    """Quoted actual name of the ministry column on `source`'s table.
+
+    The column is named differently per source (`Publisher[ministry_department]`
+    on dublin, `ministry_department` on remaining), so the WHERE clause has to
+    go through the SOURCES mapping the same way the SELECT list does. The
+    brackets in the Dublin name make quoting mandatory.
+    """
+    spec = SOURCES[source]
+    actual = spec["columns"]["Publisher[ministry_department]"]
+    available = {
+        r[0].lower(): r[0]
+        for r in con.execute(
+            "SELECT column_name FROM information_schema.columns WHERE table_name = ?",
+            [spec["table"]],
+        ).fetchall()
+    }
+    if actual.lower() not in available:
+        raise ValueError(
+            f"--ministry needs column {actual!r} on table {spec['table']!r}, which has none"
+        )
+    return f'"{available[actual.lower()]}"'
+
+
+def load_rows(
+    batch_number: int | None,
+    limit: int | None,
+    source: str = "dublin",
+    offset: int = 0,
+    ministry: str | None = None,
+    skip_done_table: str | None = None,
+) -> pd.DataFrame:
+    con = duckdb.connect(DB_PATH)
+    select, table = _select_clause(con, source)
+
+    query = f"SELECT {select} FROM {table} WHERE nid IS NOT NULL"
     if batch_number is not None:
         query += f" AND batch = {batch_number}"
-        #query += f" OFFSET 10"
-
+    if skip_done_table and con.execute(
+        "SELECT COUNT(*) FROM information_schema.tables WHERE table_name = ?",
+        [skip_done_table],
+    ).fetchone()[0]:
+        # A row whose response failed to parse is saved with an empty
+        # description; it does not count as done, so a re-run picks it up.
+        query += (
+            f" AND CAST(nid AS BIGINT) NOT IN (SELECT CAST(nid AS BIGINT) FROM {skip_done_table}"
+            f" WHERE COALESCE(generated_description, '') <> '')"
+        )
+    if ministry:
+        # Substring match, not equality: a ministry also appears inside joint
+        # attributions ("NITI Aayog, Unique Identification Authority of India
+        # (UIDAI)"), and those rows belong to the ministry's run too.
+        col = _ministry_column(con, source)
+        pattern = ministry.replace("'", "''")
+        query += f" AND {col} ILIKE '%{pattern}%'"
+        matched = con.execute(
+            f"SELECT {col}, count(*) FROM {table} WHERE nid IS NOT NULL "
+            f"AND {col} ILIKE '%{pattern}%' GROUP BY 1 ORDER BY 2 DESC"
+        ).fetchall()
+        if not matched:
+            logging.warning(f"--ministry {ministry!r} matched no rows in {table}")
+        for value, count in matched:
+            logging.info(f"  ministry match: {value!r} -> {count} row(s)")
+    # ORDER BY nid keeps the window stable across runs, so --offset resumes
+    # where the previous run stopped instead of re-sending arbitrary rows.
+    query += " ORDER BY nid"
     if limit is not None:
         query += f" LIMIT {limit}"
+    if offset:
+        query += f" OFFSET {offset}"
 
     df = con.execute(query).fetchdf()
     con.close()
-    logging.info(f"Loaded {len(df)} rows from {SOURCE_TABLE}")
+    logging.info(f"Loaded {len(df)} rows from {table} (source={source}, offset={offset})")
     return df
 
 
 
-def upload_requests(df: pd.DataFrame, suffix: str = "") -> str:
+def _use_dataset_notes(df: pd.DataFrame, source: str) -> pd.DataFrame:
+    """Swap Note for each dataset's own note (see SOURCES[...]["dataset_note"]).
+
+    A nid with no note of its own gets an empty Note rather than keeping the
+    collection-level one.
+    """
+    table, column = SOURCES[source]["dataset_note"]
+    con = duckdb.connect(DB_PATH, read_only=True)
+    notes = dict(con.execute(
+        f'SELECT CAST(nid AS BIGINT), "{column}" FROM "{table}" WHERE nid IS NOT NULL'
+    ).fetchall())
+    con.close()
+
+    df = df.copy()
+    df["Note"] = [notes.get(int(nid), "") for nid in df["nid"]]
+    logging.info(f"Note taken per dataset from {table}.{column}")
+    return df
+
+
+def upload_requests(df: pd.DataFrame, suffix: str = "", fields: str = "all") -> str:
     """Write JSONL to a timestamped file, upload to OpenAI, return file_id."""
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     ts = time.strftime("%Y%m%d_%H%M%S")
@@ -328,7 +522,7 @@ def upload_requests(df: pd.DataFrame, suffix: str = "") -> str:
 
     with open(jsonl_path, "w", encoding="utf-8") as f:
         for _, row in df.iterrows():
-            f.write(json.dumps(build_request_line(row.to_dict())) + "\n")
+            f.write(json.dumps(build_request_line(row.to_dict(), fields)) + "\n")
 
     logging.info(f"Wrote {len(df)} requests to {jsonl_path}")
 
@@ -434,37 +628,25 @@ def download_results(batch) -> dict[str, dict]:
     return results
 
 
-def _list_to_str(value) -> str:
-    if isinstance(value, list):
-        return "; ".join(str(v) for v in value)
-    return str(value) if value else ""
-
-
-def merge_and_save(df: pd.DataFrame, results: dict[str, dict]) -> pd.DataFrame:
+def merge_and_save(df: pd.DataFrame, results: dict[str, dict], fields: str = "all") -> pd.DataFrame:
     """
     Join LLM results back to source rows by nid, write CSV + DuckDB table.
     Only rows with an actual LLM result are written — skips unprocessed rows.
     """
+    spec = FIELD_SETS[fields]
+    results_table, output_csv = spec["table"], spec["csv"]
+
     records = []
     for _, row in df.iterrows():
         nid = str(int(row["nid"]))
         if nid not in results:
             continue
         r = results[nid]
-        records.append({
-            "nid": nid,
-            "title": _clean(row.get("Title", "")),
-            "llm_response": json.dumps(r, ensure_ascii=False),
-            "generated_title": r.get("generated_title", ""),
-            "generated_description": r.get("generated_description", ""),
-            "generated_note": r.get("generated_note", ""),
-            "generated_alt_title": r.get("generated_alt_title", ""),
-            "generated_short_description": r.get("generated_short_description", ""),
-            "generated_keywords": _list_to_str(r.get("generated_keywords", [])),
-            "generated_sponsored_keywords": _list_to_str(r.get("generated_sponsored_keywords", [])),
-            "generated_theme": r.get("generated_theme", ""),
-            "hvd_category": r.get("hvd_category", ""),
-        })
+        record = {"nid": nid, "title": _clean(row.get("Title", ""))}
+        if spec["keep_response"]:
+            record["llm_response"] = json.dumps(r, ensure_ascii=False)
+        record.update({f: r.get(f, "") for f in spec["generated"]})
+        records.append(record)
 
     if not records:
         logging.warning("merge_and_save: no matching results found — nothing written.")
@@ -474,27 +656,27 @@ def merge_and_save(df: pd.DataFrame, results: dict[str, dict]) -> pd.DataFrame:
 
     # CSV
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    write_header = not os.path.exists(OUTPUT_CSV)
-    results_df.to_csv(OUTPUT_CSV, mode="a", header=write_header, index=False, encoding="utf-8")
-    logging.info(f"Appended {len(results_df)} rows to {OUTPUT_CSV}")
+    write_header = not os.path.exists(output_csv)
+    results_df.to_csv(output_csv, mode="a", header=write_header, index=False, encoding="utf-8")
+    logging.info(f"Appended {len(results_df)} rows to {output_csv}")
 
     # DuckDB
     con = duckdb.connect(DB_PATH)
     table_exists = con.execute(
-        f"SELECT COUNT(*) FROM information_schema.tables WHERE table_name = '{RESULTS_TABLE}'"
+        f"SELECT COUNT(*) FROM information_schema.tables WHERE table_name = '{results_table}'"
     ).fetchone()[0]
     if table_exists:
-        con.execute(f"INSERT INTO {RESULTS_TABLE} SELECT * FROM results_df" )
+        con.execute(f"INSERT INTO {results_table} SELECT * FROM results_df" )
     else:
-        con.execute(f"CREATE TABLE {RESULTS_TABLE} AS SELECT * FROM results_df")
-    count = con.execute(f"SELECT COUNT(*) FROM {RESULTS_TABLE}").fetchone()[0]
+        con.execute(f"CREATE TABLE {results_table} AS SELECT * FROM results_df")
+    count = con.execute(f"SELECT COUNT(*) FROM {results_table}").fetchone()[0]
     con.close()
-    logging.info(f"Appended {len(results_df)} rows to {DB_PATH}::{RESULTS_TABLE} (total: {count})")
+    logging.info(f"Appended {len(results_df)} rows to {DB_PATH}::{results_table} (total: {count})")
 
     return results_df
 
 
-def _submit_with_autosplit(df: pd.DataFrame, suffix: str = "") -> list[str]:
+def _submit_with_autosplit(df: pd.DataFrame, suffix: str = "", fields: str = "all") -> list[str]:
     """
     Upload df as a batch. If OpenAI rejects it for exceeding limits,
     split in half and retry each half recursively.
@@ -507,7 +689,7 @@ def _submit_with_autosplit(df: pd.DataFrame, suffix: str = "") -> list[str]:
         return []
 
     try:
-        file_id = upload_requests(df, suffix=suffix)
+        file_id = upload_requests(df, suffix=suffix, fields=fields)
         batch_id = submit_batch(file_id)
         return [batch_id]
     except BadRequestError as e:
@@ -517,17 +699,56 @@ def _submit_with_autosplit(df: pd.DataFrame, suffix: str = "") -> list[str]:
             logging.warning(
                 f"Batch limit exceeded ({len(df)} rows) — splitting into two halves of {mid} and {len(df) - mid}."
             )
-            left  = _submit_with_autosplit(df.iloc[:mid],  suffix=f"{suffix}_a")
-            right = _submit_with_autosplit(df.iloc[mid:], suffix=f"{suffix}_b")
+            left  = _submit_with_autosplit(df.iloc[:mid],  suffix=f"{suffix}_a", fields=fields)
+            right = _submit_with_autosplit(df.iloc[mid:], suffix=f"{suffix}_b", fields=fields)
             return left + right
         logging.error(f"Batch submission failed ({len(df)} rows): {e}")
         raise
 
 
+def _retry_failed_batches(batches: list) -> list:
+    """Resubmit any batch that ended non-completed, one at a time.
+
+    The enqueued-token cap (2M/org) is reported *after* creation succeeds — the
+    batch simply ends up status=failed with a token_limit_exceeded error, which
+    `_submit_with_autosplit` cannot see. Without this, those rows are dropped
+    silently. Retrying sequentially also guarantees the cap has cleared.
+    """
+    out = []
+    for batch in batches:
+        if batch.status == "completed":
+            out.append(batch)
+            continue
+        reason = ""
+        if getattr(batch, "errors", None) and getattr(batch.errors, "data", None):
+            reason = "; ".join(e.code or "" for e in batch.errors.data)
+        logging.warning(
+            f"Batch {batch.id} ended status={batch.status} ({reason or 'no error detail'}) "
+            f"— resubmitting its input file once, sequentially."
+        )
+        try:
+            retried = client.batches.create(
+                input_file_id=batch.input_file_id,
+                endpoint="/v1/chat/completions",
+                completion_window="24h",
+                metadata={"project": "nic-metadata-cleaning", "model": MODEL, "retry_of": batch.id},
+            )
+            out.append(poll_batch(retried.id))
+        except Exception as e:
+            logging.error(f"Retry of {batch.id} could not be submitted: {e}")
+            out.append(batch)
+    return out
+
+
 def run_batch_job(
     batch_number: int | None = None,
     limit: int | None = None,
-    chunk_size: int = 500,
+    chunk_size: int | None = None,
+    source: str = "dublin",
+    offset: int = 0,
+    ministry: str | None = None,
+    fields: str = "all",
+    skip_done: bool = False,
 ) -> list[str]:
     """
     Full pipeline:
@@ -536,10 +757,15 @@ def run_batch_job(
       3. Poll that window concurrently; wait for all to finish before the next window
       4. Download results and merge into CSV + DuckDB
     """
-    df = load_rows(batch_number, limit)
+    spec = FIELD_SETS[fields]
+    chunk_size = chunk_size or spec["chunk_size"]
+    df = load_rows(batch_number, limit, source=source, offset=offset, ministry=ministry,
+                   skip_done_table=spec["table"] if skip_done else None)
     if df.empty:
         logging.warning("Nothing to process.")
         return []
+    if spec["dataset_note"] and "dataset_note" in SOURCES[source]:
+        df = _use_dataset_notes(df, source)
 
     chunks = [df.iloc[i:i + chunk_size] for i in range(0, len(df), chunk_size)]
     logging.info(f"Split {len(df)} rows into {len(chunks)} chunk(s) of up to {chunk_size}")
@@ -560,30 +786,37 @@ def run_batch_job(
                 f"({len(chunk)} rows) — "
                 f"window {window_start // MAX_CONCURRENT_BATCHES + 1} ..."
             )
-            batch_ids = _submit_with_autosplit(chunk, suffix=f"_chunk{global_idx}")
+            batch_ids = _submit_with_autosplit(chunk, suffix=f"_chunk{global_idx}", fields=fields)
             window_ids.extend(batch_ids)
 
         logging.info(
             f"Window {window_start // MAX_CONCURRENT_BATCHES + 1}: "
             f"{len(window_ids)} batch(es) in flight — polling until complete: {window_ids}"
         )
-        completed = poll_all_batches(window_ids)
+        completed = _retry_failed_batches(poll_all_batches(window_ids))
 
+        window_results: dict[str, dict] = {}
         for batch in completed:
-            all_results.update(download_results(batch))
+            window_results.update(download_results(batch))
+        all_results.update(window_results)
+
+        # Persist per window, not at the very end: a full run is ~150 windows
+        # over many hours, and an end-only write loses everything on a crash.
+        if window_results:
+            merge_and_save(pd.concat(window), window_results, fields=fields)
 
         all_batch_ids.extend(window_ids)
         logging.info(
-            f"Window {window_start // MAX_CONCURRENT_BATCHES + 1} done. "
-            f"Running total: {len(all_batch_ids)} batch(es) finished."
+            f"Window {window_start // MAX_CONCURRENT_BATCHES + 1}"
+            f"/{(len(chunks) + MAX_CONCURRENT_BATCHES - 1) // MAX_CONCURRENT_BATCHES} done. "
+            f"{len(all_results)}/{len(df)} rows saved so far."
         )
 
-    merge_and_save(df, all_results)
-    logging.info(f"All done. Total batch jobs: {len(all_batch_ids)}")
+    logging.info(f"All done. {len(all_results)} rows over {len(all_batch_ids)} batch job(s).")
     return all_batch_ids
 
 
-def resume_poll(batch_id: str) -> None:
+def resume_poll(batch_id: str, source: str = "dublin", fields: str = "all") -> None:
     """
     Resume polling an already-submitted batch by its ID.
     Fetches the nids directly from the batch's input file on OpenAI
@@ -602,43 +835,52 @@ def resume_poll(batch_id: str) -> None:
     logging.info(f"Reconstructed {len(nids)} nids from input file")
 
     con = duckdb.connect(DB_PATH)
-    available = [
-        r[0] for r in con.execute(
-            f"SELECT column_name FROM information_schema.columns "
-            f"WHERE table_name = '{SOURCE_TABLE}'"
-        ).fetchall()
-    ]
-    available_lower = {c.lower(): c for c in available}
-    cols = [
-        f'"{available_lower[c.lower()]}" AS "{c}"'
-        for c in SOURCE_FIELDS
-        if c.lower() in available_lower
-    ]
+    select, table = _select_clause(con, source)
     placeholder = ", ".join(str(n) for n in nids)
     df = con.execute(
-        f"SELECT {', '.join(cols)} FROM {SOURCE_TABLE} WHERE nid IN ({placeholder})"
+        f"SELECT {select} FROM {table} WHERE CAST(nid AS BIGINT) IN ({placeholder})"
     ).fetchdf()
     con.close()
 
     results = download_results(batch)
-    merge_and_save(df, results)
+    merge_and_save(df, results, fields=fields)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="LLM Batch Classifier — gpt-5-nano via OpenAI Batch API")
     parser.add_argument("--batch", type=int, default=None, help="Process rows from a specific batch partition")
     parser.add_argument("--limit", type=int, default=None, help="Cap number of rows (for testing)")
-    parser.add_argument("--chunk-size", type=int, default=500, help="Number of rows per OpenAI batch (default: 500)")
+    parser.add_argument("--offset", type=int, default=0, help="Skip the first N rows (nid order) before selecting")
+    parser.add_argument("--source", choices=sorted(SOURCES), default="dublin",
+                        help="Source table: 'dublin' (dublin_core_metadata) or "
+                             "'remaining' (remaining-raw-datasets). Default: dublin")
+    parser.add_argument("--fields", choices=sorted(FIELD_SETS), default="all",
+                        help="'all' generates the six fields into llm_keyword_results; 'description' "
+                             "generates only generated_description, with a short prompt, into "
+                             "llm_dataset_description_results. Default: all")
+    parser.add_argument("--chunk-size", type=int, default=None,
+                        help="Rows per OpenAI batch. MAX_CONCURRENT_BATCHES x chunk-size x p99 prompt "
+                             "tokens (~2540 for 'all', ~650 for 'description') must stay under the 2M "
+                             "enqueued-token cap (default: 390 for 'all', 1500 for 'description')")
+    parser.add_argument("--skip-done", action="store_true",
+                        help="Leave out nids that already have a description in the results table, "
+                             "so a crashed run restarts without --offset. Do not combine with --offset")
+    parser.add_argument("--ministry", type=str, default=None,
+                        help="Only process rows whose ministry_department contains this text "
+                             "(case-insensitive substring, e.g. 'NITI Aayog')")
     parser.add_argument("--poll", type=str, default=None, metavar="BATCH_ID",
                         help="Resume polling an existing batch job by its ID")
     args = parser.parse_args()
 
     if args.poll:
-        resume_poll(args.poll)
+        resume_poll(args.poll, source=args.source, fields=args.fields)
     else:
-        batch_ids = run_batch_job(batch_number=args.batch, limit=args.limit, chunk_size=args.chunk_size)
+        batch_ids = run_batch_job(batch_number=args.batch, limit=args.limit,
+                                  chunk_size=args.chunk_size, source=args.source,
+                                  offset=args.offset, ministry=args.ministry,
+                                  fields=args.fields, skip_done=args.skip_done)
         if batch_ids:
             print(f"\nDone. batch_ids={batch_ids}")
-            print(f"CSV → {OUTPUT_CSV}")
-            print(f"DB  → {DB_PATH}::{RESULTS_TABLE}")
+            print(f"CSV → {FIELD_SETS[args.fields]['csv']}")
+            print(f"DB  → {DB_PATH}::{FIELD_SETS[args.fields]['table']}")
 

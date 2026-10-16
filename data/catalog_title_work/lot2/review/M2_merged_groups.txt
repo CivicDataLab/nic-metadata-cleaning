@@ -1,0 +1,788 @@
+### NEW: Environment : Thiruvananthapuram  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Kerala, Tiruvanantapuram | 2 old titles, 2 datasets
+  - Environment Thiruvananthapuram
+  - Environment:Thiruvananthapuram
+### NEW: Environment : Tirunelveli  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Tirunelveli | 2 old titles, 4 datasets
+  - Environment : TIRUNELVELI
+  - Environment: Tirunelveli
+### NEW: Environment Advance Pollutant : Chandigarh  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh | 2 old titles, 4 datasets
+  - Chandigarh: Environment Advance Pollutant
+  - Environment - Advance pollutants in Chandigarh
+### NEW: Estimates of Egg Production  | owner:  Ministry of Fisheries, Animal Husbandry and Dairying,Department of Animal Husbandry and Dairying | 2 old titles, 8 datasets
+  - Estimates of Egg Production
+  - State/UT-wise Estimates of Egg Production
+### NEW: Ever Married and Currently Married Population by Age at Marriage, Duration of Marriage and Educational Level - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 41 datasets
+  - Ever Married and Currently Married Population by Age at Marriage, Duration of Marriage and Educational Level, Census 2001 - India and States
+  - Ever married and currently married population by age at marriage, duration of marriage and educational level - India and States
+### NEW: Ever Married and Currently Married Population by Age at Marriage, Duration of Marriage and Religious Community - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 41 datasets
+  - Ever Married and Currently Married Population by Age at Marriage, Duration of Marriage and Religious Community, Census 2001 - India and States
+  - Ever married and currently married population by age at marriage, duration of marriage and religious community - India and States
+### NEW: Ever married and currently married population by age at marriage and duration of marriage - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 235 datasets
+  - Ever Married and Currently Married Population by Age at Marriage and Duration of Marriage, Census 2001 - India and States
+  - Ever married and currently married population by age at marriage and duration of marriage - India and States
+### NEW: Extra Housing Amenities : Kohima  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima | 2 old titles, 2 datasets
+  - Extra Housing Amenities Kohima
+  - Extra_Housing and Amenities: Kohima
+### NEW: Factory Employment  | owner: Ministry of Statistics and Programme Implementation | 2 old titles, 12 datasets
+  - Factory Employment
+  - Factory Employment By States
+### NEW: Female Workers Classified by Industrial Category and Marital Status - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 72 datasets
+  - Female Workers Classified by Industrial Category and Marital Status, Census 2001 - India and States
+  - Female Workers Classified by Industrial Category and Marital Status, Census 2011 - India and States
+### NEW: Field Crop varieties released (Central Release)  | owner: Ministry of Agriculture and Farmers Welfare, Department of Agricultural Research and Education (DARE) | 2 old titles, 2 datasets
+  - Field Crop varieties released (Central Release)
+  - Field crops varieties released (Central release)
+### NEW: Financial Health : Chandigarh  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh | 2 old titles, 2 datasets
+  - Chandigarh: Financial Health
+  - Financial Health : Chandigarh
+### NEW: Financial Health : Nagpur  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Nagpur | 2 old titles, 2 datasets
+  - Financial Health  :  Nagpur
+  - Financial Health : Nagpur
+### NEW: Financial Health : Solapur  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Solapur | 2 old titles, 2 datasets
+  - Financial Health  : Solapur City
+  - Financial Health Details Solapur City
+### NEW: Financial Health : Thanjavur  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Thanjavur | 2 old titles, 2 datasets
+  - Financial Health Thanjavur
+  - Financial Health: Thanjavur
+### NEW: Fleet, Personnel and Financial Statistics  | owner: Ministry of Civil Aviation | 2 old titles, 304 datasets
+  - Fleet, Personnel and Financial Statistics 2015-16
+  - Fleet, Personnel and Financial Statistics 2016-17
+### NEW: Forest Cover  | owner: NITI Aayog | 4 old titles, 83 datasets
+  - District wise forest cover
+  - Forest Cover Andaman and Nicobar Islands
+  - Forest Cover in States/UTs in India
+  - Forest Cover of India
+### NEW: Forest and tree cover  | owner: NITI Aayog | 2 old titles, 74 datasets
+  - Forest and tree cover
+  - States/UTs-wise Forest and Tree Cover
+### NEW: Former Members of Rajya Sabha  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Former Members of Rajya Sabha in English
+  - Former Members of Rajya Sabha in Hindi
+### NEW: Gender Parity Index (GPI) in Higher Education  | owner: Ministry of Education, Department of Higher Education | 2 old titles, 24 datasets
+  - Gender Parity Index (GPI) in higher education (AISHE Survey)
+  - Gender parity index (GPI) in Higher Education
+### NEW: Governance : Ahmedabad  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Gujarat, Ahmedabad | 2 old titles, 2 datasets
+  - Ahmedabad : Governance
+  - Governance: Ahmedabad
+### NEW: Governance : Nagpur  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Nagpur | 2 old titles, 2 datasets
+  - Governance : Nagpur
+  - Governance: Nagpur
+### NEW: Governance : Patna  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Bihar, Patna | 2 old titles, 2 datasets
+  - Governance Patna
+  - Governance: Patna
+### NEW: Health Infrastructure : Bhubaneswar  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Odisha, Bhubaneswar | 2 old titles, 2 datasets
+  - Health Infrastructure Bhubaneswar
+  - Health Infrastructure Bhubaneswar 2019
+### NEW: Health Infrastructure : Chandigarh  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh | 2 old titles, 3 datasets
+  - Health Infrastructure : Chandigarh
+  - Health Infrastructure in Chandigarh
+### NEW: Health Infrastructure : Coimbatore  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Coimbatore | 2 old titles, 2 datasets
+  - Health Infrastructure : Coimbatore
+  - Health Infrastructure : coimbatore
+### NEW: Health Infrastructure : Pimpri Chinchwad  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pimpri Chinchwad | 2 old titles, 32 datasets
+  - Health Infrastructure
+  - Health-Infrastructure : Pimpri-Chinchwad
+### NEW: Health Infrastructure : Ranchi  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Jharkhand, Ranchi | 2 old titles, 2 datasets
+  - Health Infrastructure Ranchi
+  - Health Infrastructure of Ranchi
+### NEW: Health Infrastructure : Salem  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Salem | 2 old titles, 4 datasets
+  - Health Infrastructure : Salem
+  - Health Infrastructure Salem
+### NEW: Health Infrastructure : Thanjavur  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Thanjavur | 2 old titles, 2 datasets
+  - Health Infrastructure Thanjavur
+  - Health Infrastructure: Thanjavur
+### NEW: Household : Agartala  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala | 2 old titles, 2 datasets
+  - Household Agartala
+  - Household-Agartala
+### NEW: Household : Dharamshala  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Himachal Pradesh, Dharamshala | 2 old titles, 2 datasets
+  - HOUSEHOLDS DHARAMSHALA
+  - household Dharamshala
+### NEW: Household with number of workers by household size - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 135 datasets
+  - Household with Numbers of Workers by Household Size, Census 2001 - India and States
+  - Household with number of workers by household size - India and States
+### NEW: Households by Availability of Separate Kitchen and Type of Fuel Used for Cooking - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 100 datasets
+  - Households by Availability of Separate Kitchen and Type of Fuel Used for Cooking, Census 2001 - India and States
+  - Households by availability of separate kitchen and type of fuel used for cooking
+### NEW: Households by marital status, sex and age of the head of household - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 102 datasets
+  - Households by Marital Status, Sex and Age of the Head of the Household, Census 2001 - India and States
+  - Households by marital status, sex and age of the head of household - India and States
+### NEW: Households with number of aged persons 60 years and above by sex and household size - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 72 datasets
+  - Households with Number of Aged Persons 60 Years and Above by Sex and by Household Size, Census 2001 - India and States
+  - Households with number of aged persons 60 years and above by sex and household size - India and States
+### NEW: Houseless households by household size - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 70 datasets
+  - Houseless Households by Household Size, Census 2001 - India and States
+  - Houseless households by household size - India and States
+### NEW: Housing & Slums : Aurangabad  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Aurangabad | 2 old titles, 2 datasets
+  - Housing & Slums : AURANGABAD
+  - Housing & Slums: AURANGABAD
+### NEW: Housing & Slums : Bareilly  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Bareilly | 2 old titles, 2 datasets
+  - Housing & Slums : Bareilly
+  - Housing & Slums : Bareilly Smart City
+### NEW: Housing & Slums : Nagpur  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Nagpur | 2 old titles, 4 datasets
+  - Housing & Slums  :  Nagpur
+  - Housing & Slums : Nagpur
+### NEW: Housing & Slums : Tiruchirappalli  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Tiruchirapalli | 2 old titles, 5 datasets
+  - Housing & Slums Tiruchirappalli
+  - Housing & Slums:Tiruchirappalli
+### NEW: ITC Neighbourhood 2 : Kohima  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima | 2 old titles, 2 datasets
+  - D33_ITC_Neighbourhood_2_Kohima_2019
+  - ITC Neighbourhood 2 Kohima
+### NEW: ITC Neighbourhood 2 : Rourkela  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Odisha, Rourkela | 2 old titles, 2 datasets
+  - ITC Neighbourhood 2 : Rourkela
+  - ITC Neighbourhood 2 Rourkela
+### NEW: ITC Neighbourhood : Amaravati  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Andhra Pradesh, Amravati | 2 old titles, 2 datasets
+  - ITC Neighbourhood : Amaravati
+  - ITC Neighbourhood:Amaravati
+### NEW: ITC Neighbourhood : Davanagere  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Davangere | 2 old titles, 2 datasets
+  - ITC Neighbourhood : Davanagere
+  - ITC Neighbourhood Davanagere
+### NEW: ITC Neighbourhood : Gwalior  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Gwalior | 2 old titles, 2 datasets
+  - ITC Neighbourhood of Gwalior MP
+  - ITC Neighbourhood: Gwalior
+### NEW: ITC Neighbourhood : Indore  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Indore | 2 old titles, 2 datasets
+  - ITC : Neighbourhood : indore
+  - ITC Neighbourhood : indore
+### NEW: Import Export Classification, ITC HS Code And Import Policy  | owner: Ministry of Commerce and Industry, Department of Commerce | 2 old titles, 2 datasets
+  - Import Export Classification, ITC (HS) Code And Import Policy
+  - Import Export Classification, ITC HS Code And Import Policy
+### NEW: India Tourism Statistics  | owner: Ministry of Tourism | 2 old titles, 387 datasets
+  - India Tourism Statistics
+  - Tourism Statistics of India
+### NEW: Indian Petroleum and Natural Gas Statistics  | owner: Ministry of Petroleum and Natural Gas | 6 old titles, 447 datasets
+  - Indian Petroleum and Natural Gas Statistics  - 2016-17
+  - Indian Petroleum and Natural Gas Statistics - 2017-18
+  - Indian Petroleum and Natural Gas Statistics - 2018-19
+  - Indian Petroleum and Natural Gas Statistics - 2019-20
+  - Indian Petroleum and Natural Gas Statistics - 2020-21
+  - Indian Petroleum and Natural Gas Statistics - 2022-23
+### NEW: Industrial Investment Proposals Received From Industrial Undertakings  | owner: Ministry of Commerce and Industry, Department for Promotion of industry and Internal Trade | 2 old titles, 13 datasets
+  - State-wise Industrial Investment Proposals Received from Industrial Undertakings
+  - Year-wise Industrial Investment Proposals Received From Industrial Undertakings
+### NEW: Intersections : Agartala  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala | 2 old titles, 2 datasets
+  - Intersections Agartala
+  - Intersections- Agartala
+### NEW: Irrigation through supplementary sources under surface flow schemes  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise irrigation through supplementary sources under surface flow schemes
+  - State wise irrigation through supplementary sources under surface flow schemes
+### NEW: Irrigation through supplementary sources with dugwells  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise irrigation through supplementary sources with dugwells
+  - State wise irrigation through supplementary sources with dugwells
+### NEW: Juveniles apprehended under IPC Crimes by sex and age-group  | owner: Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB) | 2 old titles, 4 datasets
+  - Juveniles apprehended under IPC Crimes by sex and age-group
+  - State/UT-wise juveniles apprehended under IPC Crimes by sex and age-group
+### NEW: Juveniles apprehended under SLL Crimes By sex and age-group  | owner: Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB) | 2 old titles, 4 datasets
+  - Juveniles apprehended under SLL Crimes By sex and age-group
+  - State/UT-wise juveniles apprehended under SLL Crimes by sex and age-group
+### NEW: List of Lok Sabha Members  | owner: Lok Sabha Secretariat | 4 old titles, 4 datasets
+  - List of Lok Sabha Members (English)
+  - List of Lok Sabha Members (Hindi)
+  - State-wise List of Lok Sabha Members (English)
+  - State-wise List of Lok Sabha Members (Hindi)
+### NEW: List of Lok Sabha Members Resigned/ Died/ Ceased/ Retired  | owner: Lok Sabha Secretariat | 2 old titles, 2 datasets
+  - List of Lok Sabha Members Resigned/ Died/ Ceased/ Retired (English)
+  - List of Lok Sabha Members Resigned/ Died/ Ceased/ Retired (Hindi)
+### NEW: List of Rajya Sabha Members  | owner: Rajya Sabha | 4 old titles, 4 datasets
+  - List of Rajya Sabha Members (English)
+  - List of Rajya Sabha Members (Hindi)
+  - State-wise List of Rajya Sabha Members (English)
+  - State-wise List of Rajya Sabha Members (Hindi)
+### NEW: List of Rajya Sabha Members who have either Resigned/ Died/ Ceased/ Retired or have been elected to Lok Sabha  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - List of Rajya Sabha Members who have either Resigned/ Died/ Ceased/ Retired or have been elected to Lok Sabha (English)
+  - List of Rajya Sabha Members who have either Resigned/ Died/ Ceased/ Retired or have been elected to Lok Sabha (Hindi)
+### NEW: List of Starred and Unstarred Questions by Lok Sabha Members  | owner: Lok Sabha Secretariat | 2 old titles, 2 datasets
+  - List of Starred and Unstarred Questions by Lok Sabha Members (English)
+  - List of Starred and Unstarred Questions by Lok Sabha Members (Hindi)
+### NEW: List of Starred and Unstarred Questions by Rajya Sabha Members  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - List of Starred and Unstarred Questions by Rajya Sabha Members (English)
+  - List of Starred and Unstarred Questions by Rajya Sabha Members (Hindi)
+### NEW: Lok Sabha Daily List of Business  | owner: Lok Sabha Secretariat | 2 old titles, 2 datasets
+  - Lok Sabha Daily List of Business (English)
+  - Lok Sabha Daily List of Business (Hindi)
+### NEW: Lok Sabha Members Profile  | owner: Lok Sabha Secretariat | 2 old titles, 2 datasets
+  - Lok Sabha Members Profile (English)
+  - Lok Sabha Members Profile (Hindi)
+### NEW: Lok Sabha Members Strength by Party  | owner: Lok Sabha Secretariat | 2 old titles, 2 datasets
+  - Lok Sabha Members Strength by Party (English)
+  - Lok Sabha Members Strength by Party (Hindi)
+### NEW: Lok Sabha Parliamentary Bulletin Part I  | owner: Lok Sabha Secretariat | 2 old titles, 2 datasets
+  - Lok Sabha Parliamentary Bulletin Part I (English)
+  - Lok Sabha Parliamentary Bulletin Part I (Hindi)
+### NEW: Lok Sabha Parliamentary Bulletin Part II  | owner: Lok Sabha Secretariat | 2 old titles, 2 datasets
+  - Lok Sabha Parliamentary Bulletin Part II (English)
+  - Lok Sabha Parliamentary Bulletin Part II (Hindi)
+### NEW: Main Workers Classified by Age, Industrial Category and Sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 226 datasets
+  - Main Workers Classified by Age, Industrial Category and Sex, Census 2001 - India and States
+  - Main Workers Classified by Age, Industrial Category and Sex, Census 2011 - India and States
+### NEW: Main Workers Classified by Age, Industrial Category and Sex and Religious Community - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 72 datasets
+  - Main Workers Classified by Age, Industrial Category and Sex and Religious Community, Census 2001 - India and States
+  - Main Workers Classified by Age, Industrial Category and Sex and Religious Community, Census 2011 - India and States
+### NEW: Main Workers Classified by Industrial Category, Age and Sex (For Each Caste/Tribe Separately) - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 161 datasets
+  - Main Workers Classified by Industrial Category, Age and Sex (For Each Caste/Tribe Separately), Census 2001 - India and States
+  - Main Workers Classified by Industrial Category, Age and Sex (For Each Caste/Tribe Separately), Census 2011 - India and States
+### NEW: Main Workers Classified by Industrial Category, Educational Level and Sex (For Each Caste/Tribe Separately) - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 161 datasets
+  - Main Workers Classified by Industrial Category, Educational Level and Sex (For Each Caste/Tribe Separately), Census 2001 - India and States
+  - Main Workers Classified by Industrial Category, Educational Level and Sex (For Each Caste/Tribe Separately), Census 2011 - India and States
+### NEW: Main Workers Classified by Industrial Category, Educational Level and Sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 665 datasets
+  - Main Workers Classified by Industrial Category, Educational Level and Sex, Census 1991 - India and States
+  - Main Workers Classified by Industrial Category, Educational Level and Sex, Census 2001 - India and States
+### NEW: Main Workers by Educational Level, Age and Sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 100 datasets
+  - Main Workers by Educational Level, Age and Sex, Census 2001 - India and States
+  - Main Workers by Educational Level, Age and Sex, Census 2011 - India and States
+### NEW: Main Workers, Marginal Workers, Non-Workers and those Marginal Workers, Non-workers Seeking/ Available for Work Classified by Educational Level and Sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 227 datasets
+  - Main Workers, Marginal Workers, Non-Workers and Those Marginal Workers, Non-Workers Seeking/ Available for Work Classified by Educational Level and Sex, Census 2011 - India and States
+  - Main Workers, Marginal Workers, Non-Workers and those Marginal Workers, Non-workers Seeking/ Available for Work Classified by Educational Level and Sex, Census 2001 - India and States
+### NEW: Main workers, Marginal workers, Non-workers and those marginal workers, non-workers seeking/available for work classified by age and sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 3 old titles, 227 datasets
+  - Main Workers, Marginal Workers, Non-Workers and those Marginal Workers, Non-Workers Seeking/ Available for Work Classified by Age and Sex, Census 2001 - India and States
+  - Main Workers, Marginal Workers, Non-Workers and those Marginal Workers, Non-Workers Seeking/ Available for Work Classified by Age, Sex, Census 2001 - India and States
+  - Main workers, Marginal workers, Non-workers and those marginal workers, non-workers seeking/available for work classified by age and sex, Census 2011 - India and States
+### NEW: Marginal Workers Classified by Age, Industrial category and Sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 226 datasets
+  - Marginal Workers Classified by Age, Industrial Category and Sex, Census 2011 - India and States
+  - Marginal Workers Classified by Age, Industrial category and Sex, Census 2001 - India and States
+### NEW: Marginal Workers Classified by Industrial Category, Age and Sex (For Each Caste/Tribe Separately) - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 161 datasets
+  - Marginal Workers Classified by Industrial Category, Age and Sex (For Each Caste/Tribe Separately), Census 2001 - India and States
+  - Marginal Workers Classified by Industrial Category, Age and Sex (For Each Caste/Tribe Separately), Census 2011 - India and States
+### NEW: Marginal Workers Classified by Industrial Category, Educational Level and Sex (For Each Caste/Tribe Separately) - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 161 datasets
+  - Marginal Workers Classified by Industrial Category, Educational Level and Sex (For Each Caste/Tribe Separately), Census 2001 - India and States
+  - Marginal Workers Classified by Industrial Category, Educational Level and Sex (For Each Caste/Tribe Separately), Census 2011 - India and States
+### NEW: Marginal Workers Classified by Industrial Category, Educational Level and Sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 154 datasets
+  - Marginal Workers Classified by Industrial Category, Educational Level and Sex, Census 1991 - India and States
+  - Marginal Workers Classified by Industrial Category, Educational Level and Sex, Census 2001 - India and States
+### NEW: Marginal Workers and Non Workers Seeking/ Available for Work Classified by Educational Level, Age and Sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 72 datasets
+  - Marginal Workers and Non Workers Seeking/ Available for Work Classified by Educational Level, Age and Sex, Census 2001 - India and States
+  - Marginal Workers and Non Workers Seeking/ Available for Work Classified by Educational Level, Age and Sex, Census 2011 - India and States
+### NEW: Marginal Workers and Non-Workers Seeking/ Available for Work Classified by Educational Level, Age and Sex (For Each Caste/Tribe Separately) - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 123 datasets
+  - Marginal Workers and Non-Workers Seeking/ Available for Work Classified by Educational Level, Age and Sex (For Each Caste/Tribe Separately), Census 2001 - India and States
+  - Marginal Workers and Non-Workers Seeking/Available for Work Classified by Educational Level, Age and Sex (For Each Caste/Tribe Separately), Census 2011 - India and States
+### NEW: Marital Status by Religious Community and Sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 41 datasets
+  - Marital Status by Religious Community and Sex, Census 2001 - India and States
+  - Marital status by religious community and sex - India and States
+### NEW: Marital status by age and sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 326 datasets
+  - Marital Status by Age and Sex, Census 2001 - India and States
+  - Marital status by age and sex - India and States
+### NEW: Member-wise Special Mentions in Lok Sabha  | owner: Lok Sabha Secretariat | 2 old titles, 2 datasets
+  - Member-wise Special Mentions in Lok Sabha (English)
+  - Member-wise Special Mentions in Lok Sabha (Hindi)
+### NEW: Members of Rajya Sabha in Council of Ministers  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Members of Rajya Sabha in Council of Ministers (English)
+  - Members of Rajya Sabha in Council of Ministers (Hindi)
+### NEW: Meteorological Sub-division Wise Rainfall  | owner: Ministry of Statistics and Programme Implementation | 2 old titles, 3 datasets
+  - Meteorological Sub-division Wise Annual Rainfall
+  - Meteorological Sub-division Wise Monthly Rainfall
+### NEW: Month-wise Lok Sabha Members Birthday Feeds  | owner: Lok Sabha Secretariat | 24 old titles, 24 datasets
+  - Month-wise Lok Sabha Members Birthday Feeds for the Month of April (English)
+  - Month-wise Lok Sabha Members Birthday Feeds for the Month of April (Hindi)
+  - Month-wise Lok Sabha Members Birthday Feeds for the Month of August (English)
+  - Month-wise Lok Sabha Members Birthday Feeds for the Month of August (Hindi)
+  - Month-wise Lok Sabha Members Birthday Feeds for the Month of December (English)
+  - Month-wise Lok Sabha Members Birthday Feeds for the Month of December (Hindi)
+  - Month-wise Lok Sabha Members Birthday Feeds for the Month of February (English)
+  - Month-wise Lok Sabha Members Birthday Feeds for the Month of February (Hindi)
+  -    ... (13 more) ...
+  - Month-wise Lok Sabha Members Birthday Feeds for the Month of October (Hindi)
+  - Month-wise Lok Sabha Members Birthday Feeds for the Month of September (English)
+  - Month-wise Lok Sabha Members Birthday Feeds for the Month of September (Hindi)
+### NEW: Month-wise Rajya Sabha Members Birthday Feeds  | owner: Rajya Sabha | 24 old titles, 24 datasets
+  - Month wise Members Birthday Feeds for the Month of October (English)
+  - Month-wise Members Birthday Feeds for the Month of April (English)
+  - Month-wise Members Birthday Feeds for the Month of August (English)
+  - Month-wise Members Birthday Feeds for the Month of December (English)
+  - Month-wise Members Birthday Feeds for the Month of February (English)
+  - Month-wise Members Birthday Feeds for the Month of January (English)
+  - Month-wise Members Birthday Feeds for the Month of July (English)
+  - Month-wise Members Birthday Feeds for the Month of June (English)
+  -    ... (13 more) ...
+  - Month-wise Rajya Sabha Members Birthday Feeds for the Month of November (Hindi)
+  - Month-wise Rajya Sabha Members Birthday Feeds for the Month of October (Hindi)
+  - Month-wise Rajya Sabha Members Birthday Feeds for the Month of September (Hindi)
+### NEW: Mortality : Agartala  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala | 2 old titles, 2 datasets
+  - Mortality-Agartala
+  - Mortality_Agartala
+### NEW: Mortality Rate : Pimpri Chinchwad  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pimpri Chinchwad | 2 old titles, 4 datasets
+  - Mortality Rate
+  - Mortality Rate : Pimpri-Chinchwad
+### NEW: Mortality Rate : Salem  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Salem | 2 old titles, 2 datasets
+  - Mortality Rate : Salem
+  - Mortality Rate Salem
+### NEW: Mortality Rate : Thanjavur  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Thanjavur | 2 old titles, 2 datasets
+  - Mortality Rate Thanjavur
+  - Mortality Rate: Thanjavur
+### NEW: Motor Transport Statistics  | owner: Ministry of Road Transport and Highways | 17 old titles, 794 datasets
+  - Motor Transport Statistics: 1970-71
+  - Motor Transport Statistics: 1974-75
+  - Motor Transport Statistics: 1975-76
+  - Motor Transport Statistics: 1976-77 and 1977-78
+  - Motor Transport Statistics: 1979-80
+  - Motor Transport Statistics: 1980-81
+  - Motor Transport Statistics: 1983-84 and 1984-85
+  - Motor Transport Statistics: 1985-86 and 1986-87
+  -    ... (6 more) ...
+  - Motor Transport Statistics: 1997-1998
+  - Motor Transport Statistics: 1999-2000
+  - Motor Transport Statistics: 2001-2002
+### NEW: Natural Landscape : Atal Nagar  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chhattisgarh, Naya Raipur | 2 old titles, 2 datasets
+  - Natural Landscape : Atalnagar
+  - Natural Landscape Atalnagar
+### NEW: Natural Landscape : Kohima  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima | 2 old titles, 2 datasets
+  - D30 Natural Landscape:Kohima
+  - Natural Landscape Kohima	
+### NEW: Natural Landscape : Salem  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Salem | 2 old titles, 2 datasets
+  - Natural Landscape : Salem
+  - Natural Landscape Salem
+### NEW: No Of Vehicle Registration : Erode  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode | 2 old titles, 2 datasets
+  - D40 No Of Vehicles Registration Erode
+  - No Of Vehicle Registration : ERODE
+### NEW: Nominated Members of Lok Sabha  | owner: Lok Sabha Secretariat | 2 old titles, 2 datasets
+  - Nominated Members of Lok Sabha (English)
+  - Nominated Members of Lok Sabha (Hindi)
+### NEW: Nominated Members of Rajya Sabha  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Nominated Members of Rajya Sabha (English)
+  - Nominated Members of Rajya Sabha (Hindi)
+### NEW: Non Workers by Main Activity, Age and Sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 3 old titles, 683 datasets
+  - Non Workers by Main Activity, Age and Sex, Census 1991 - India and States
+  - Non-Workers by Main Activity, Age and Sex, Census 2001 - India and States
+  - Non-workers by main activity by age and sex, Census 2011 - India and States
+### NEW: Non Workers by Main Activity, Educational level and Sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 3 old titles, 550 datasets
+  - Non Workers by Main Activity, Educational level and Sex, Census 1991 - India and States
+  - Non-Workers by Main Activity, Educational Level and Sex, Census 2001 - India and States
+  - Non-Workers by Main Activity, Educational Level and Sex, Census 2011 - India and States
+### NEW: Normal Households by Household Size - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 3 old titles, 199 datasets
+  - Normal Households by Household Size, Census 2001 - India and States
+  - Normal households by household size
+  - Normal households by household size - India and States
+### NEW: Notifications for Rajya Sabha Committee Meetings  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Notifications for Rajya Sabha Committee Meetings (English)
+  - Notifications for Rajya Sabha Committee Meetings (Hindi)
+### NEW: Number of Newly Registered Motor Vehicles and Number of Registered Motor Vehicles  | owner: Ministry of Road Transport and Highways | 35 old titles, 177 datasets
+  - Number of Newly Registered Motor Vehicles and Number of Registered Motor Vehicles in Andaman and Nicobar Islands
+  - Number of Newly Registered Motor Vehicles and Number of Registered Motor Vehicles in Andhra Pradesh
+  - Number of Newly Registered Motor Vehicles and Number of Registered Motor Vehicles in Arunachal Pradesh
+  - Number of Newly Registered Motor Vehicles and Number of Registered Motor Vehicles in Assam
+  - Number of Newly Registered Motor Vehicles and Number of Registered Motor Vehicles in Bihar
+  - Number of Newly Registered Motor Vehicles and Number of Registered Motor Vehicles in Chandigarh
+  - Number of Newly Registered Motor Vehicles and Number of Registered Motor Vehicles in Chhattisgarh
+  - Number of Newly Registered Motor Vehicles and Number of Registered Motor Vehicles in Dadra and Nagar Haveli
+  -    ... (24 more) ...
+  - Number of Newly Registered Motor Vehicles and Number of Registered Motor Vehicles in Uttar Pradesh
+  - Number of Newly Registered Motor Vehicles and Number of Registered Motor Vehicles in Uttarakhand
+  - Number of Newly Registered Motor Vehicles and Number of Registered Motor Vehicles in West Bengal
+### NEW: Number of Seats and Lok Sabha Members by State  | owner: Lok Sabha Secretariat | 2 old titles, 2 datasets
+  - Number of Seats and Lok Sabha Members by State (English)
+  - Number of Seats and Lok Sabha Members by State (Hindi)
+### NEW: Number of Seats and Rajya Sabha Members by State  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Number of Seats and Rajya Sabha Members by State (English)
+  - Number of Seats and Rajya Sabha Members by State (Hindi)
+### NEW: Number of Telephones in India  | owner: NITI Aayog | 2 old titles, 2 datasets
+  - Number of Telephones in India - Year-wise
+  - State-Wise Number of Telephones in India
+### NEW: Occupational Classification of Main Workers and Marginal Workers other than Cultivators and Agricultural Labourers by Age and Sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 72 datasets
+  - Occupational Classification of Main Workers and Marginal Workers other than Cultivators and Agricultural Labourers by Age and Sex, Census 2001 - India and States
+  - Occupational Classification of Main Workers and Marginal Workers other than Cultivators and Agricultural Labourers by Age and Sex, Census 2011 - India and States
+### NEW: Occupational Classification of Main Workers and Marginal Workers other than Cultivators and Agricultural Labourers by Sex and Educational Level - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 72 datasets
+  - Occupational Classification of Main Workers and Marginal Workers other than Cultivators and Agricultural Labourers by Sex and Educational Level, Census 2001 - India and States
+  - Occupational Classification of Main Workers and Marginal Workers other than Cultivators and Agricultural Labourers by Sex and Educational Level, Census 2011 - India and States
+### NEW: Occupational Classification of Main Workers in Non-Households Industry, Trade, Business, Profession or Service by Class of Worker and Sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 99 datasets
+  - Occupational Classification of Main Workers in Non-Households Industry, Trade, Business, Profession or Service by Class of Worker and Sex, Census 2001 - India and States
+  - Occupational Classification of Main Workers in Non-Households Industry, Trade, Business, Profession or Service by Class of Worker and Sex, Census 2011 - India and States
+### NEW: Occupational Classification of Main Workers other than Cultivators and Agricultural Labourers by Sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 199 datasets
+  - Occupational Classification of Main Workers other than Cultivators and Agricultural Labourers by Sex, Census 2001 - India and States
+  - Occupational Classification of Main Workers other than Cultivators and Agricultural Labourers by Sex, Census 2011 - India and States
+### NEW: Ocean Information System  | owner: Ministry of Earth Sciences, Indian National Centre for Ocean Information Services (INCOIS) | 2 old titles, 2 datasets
+  - Ocean Data and Information System
+  - Ocean Information System
+### NEW: Officers of Rajya Sabha - Additional Secretaries and Joint Secretaries  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Officers of Rajya Sabha - Additional Secretaries and Joint Secretaries (English)
+  - Officers of Rajya Sabha - Additional Secretaries and Joint Secretaries (Hindi)
+### NEW: Open Spaces : Chandigarh  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh | 2 old titles, 2 datasets
+  - Open Spaces : Chandigarh
+  - Open Spaces in Chandigarh
+### NEW: Open Spaces : Kohima  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima | 2 old titles, 2 datasets
+  - Open Spaces Kohima
+  - OpenSpaces: Kohima
+### NEW: Open Spaces : Salem  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Salem | 2 old titles, 2 datasets
+  - Open Spaces : Salem
+  - Open Spaces Salem
+### NEW: Open Spaces : Thane  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Thane | 2 old titles, 3 datasets
+  - Open Spaces: Thane
+  - Open Spaces:Thane:2018-2019
+### NEW: Paper to be Laid on the Table - Rajya Sabha  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Paper to be Laid on the Table - Rajya Sabha (English)
+  - Paper to be Laid on the Table - Rajya Sabha (Hindi)
+### NEW: Party-wise List of Lok Sabha Members  | owner: Lok Sabha Secretariat | 2 old titles, 2 datasets
+  - Party-wise List of Lok Sabha Members (English)
+  - Party-wise List of Lok Sabha Members (Hindi)
+### NEW: Party-wise List of Rajya Sabha Members  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Party-wise List of Rajya Sabha Members (English)
+  - Party-wise List of Rajya Sabha Members (Hindi)
+### NEW: Population Ages 5-19 Attending Educational Institutions by Economic Activity Status and Sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 136 datasets
+  - Population Ages 5-19 Attending Educational Institutions by Economic Activity Status and Sex, Census 2001 - India and States
+  - Population ages 5-19 attending educational institutions by economic activity status and sex - India and States
+### NEW: Population Attending Educational Institution by Age, Sex and Type of Educational Institution - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 132 datasets
+  - Population Attending Educational Institution by Age, Sex and Type of Educational Institution, Census 2001 - India and States
+  - Population attending educational institution by age, sex and type of educational institution - India and States
+### NEW: Population attending educational institution by completed education level, age and sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 136 datasets
+  - Population Attending Educational Institution by Completed Education Level, Age and Sex, Census 2001 - India and States
+  - Population attending educational institution by completed education level, age and sex - India and States
+### NEW: Population by Mother Tongue - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 105 datasets
+  - Population by Mother Tongue, Census 2001 - India and States
+  - Population by Mother Tongue, Census 2011 - India and States
+### NEW: Population in five year age-group by Residence and Sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 298 datasets
+  - Population in Five Year Age-group by Residence and Sex, Census 2001 - India and States
+  - Population in five year age-group by Residence and Sex - India and States
+### NEW: Potential utilized through deep tubewells  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise potential utilized through deep tubewells
+  - State wise potential utilized through deep tubewells
+### NEW: Potential utilized through dugwells  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise potential utilized through dugwells
+  - State wise potential utilized through dugwells
+### NEW: Potential utilized through shallow tubewells  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise potential utilized through shallow tubewells
+  - State wise potential utilized through shallow tubewells
+### NEW: Potential utilized through surface lift schemes  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise potential utilized through surface lift schemes
+  - State wise potential utilized through surface lift schemes
+### NEW: Potential utilized under surface flow schemes  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise potential utilized under surface flow schemes
+  - State wise potential utilized under surface flow schemes
+### NEW: Primary Census Abstract - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 3 old titles, 726 datasets
+  - Primary Census Abstract
+  - Primary Census Abstract 2011 - India and States
+  - Primary Census Abstract, Census 2001 - India and States
+### NEW: Prison Statistics India (PSI)  | owner: Ministry of Home Affairs, Department of States, National Crime Records Bureau (NCRB) | 23 old titles, 1839 datasets
+  - Prison Statistics - 1995
+  - Prison Statistics - 1996
+  - Prison Statistics - 1997
+  - Prison Statistics - 1998
+  - Prison Statistics - 1999
+  - Prison Statistics - 2000
+  - Prison Statistics - 2007
+  - Prison Statistics - 2008
+  -    ... (12 more) ...
+  - Prison Statistics India (PSI) - 2021
+  - Prison Statistics India (PSI) - 2022
+  - Prison Statistics India (PSI) - 2023
+### NEW: Private Member Bills by Lok Sabha Members  | owner: Lok Sabha Secretariat | 2 old titles, 2 datasets
+  - Private Member Bills by Lok Sabha Members (English)
+  - Private Member Bills by Lok Sabha Members (Hindi)
+### NEW: Private Member Bills by Rajya Sabha Members  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Private Member Bills by Rajya Sabha Members (English)
+  - Private Member Bills by Rajya Sabha Members (Hindi)
+### NEW: Profile of Honorable Chairman of Rajya Sabha  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Profile of Honorable Chairman of Rajya Sabha (English)
+  - Profile of Honorable Chairman of Rajya Sabha (Hindi)
+### NEW: Profile of Honorable Deputy Chairman of Rajya Sabha  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Profile of Honorable Deputy Chairman of Rajya Sabha (English)
+  - Profile of Honorable Deputy Chairman of Rajya Sabha (Hindi)
+### NEW: Profile of Honorable Secretary General of Rajya Sabha  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Profile of Honorable Secretary General of Rajya Sabha (English)
+  - Profile of Honorable Secretary General of Rajya Sabha (Hindi)
+### NEW: Property Tax : Chandigarh  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh | 2 old titles, 3 datasets
+  - Property Tax : Chandigarh
+  - Property Tax in Chandigarh
+### NEW: Property Tax : Dharamshala  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Himachal Pradesh, Dharamshala | 2 old titles, 2 datasets
+  - Property Tax Dharamshala
+  - Property Tax: Dharamshala
+### NEW: Property Tax : Erode  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode | 2 old titles, 2 datasets
+  - D21 PROPERTY TAX ERODE
+  - Property Tax of Erode
+### NEW: Property Tax : Indore  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Indore | 2 old titles, 2 datasets
+  - Property Tax
+  - Property Tax : Indore
+### NEW: Property Tax : Pimpri Chinchwad  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pimpri Chinchwad | 2 old titles, 13 datasets
+  - Property Tax : Pimpri-Chinchwad
+  - Property Tax Pimpri Chinchwad
+### NEW: Provisional Calendar of Lok Sabha Sittings  | owner: Lok Sabha Secretariat | 2 old titles, 2 datasets
+  - Provisional Calendar of Lok Sabha Sittings (English)
+  - Provisional Calendar of Lok Sabha Sittings (Hindi)
+### NEW: Provisional Calendar of Rajya Sabha Sittings  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Provisional Calendar of Rajya Sabha Sittings (English)
+  - Provisional Calendar of Rajya Sabha Sittings (Hindi)
+### NEW: Public Amenities : Salem  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Salem | 2 old titles, 2 datasets
+  - Public Amenities : Salem
+  - Public Amenities Salem
+### NEW: Public Transport Access : Kakinada  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Andhra Pradesh, Kakinada | 2 old titles, 2 datasets
+  - Public Transport Access KAKINADA
+  - Public Transport Access Kakinada 2019
+### NEW: Public Transport Accessibility : Erode  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode | 2 old titles, 2 datasets
+  - D38 PUBLIC TRANSPORT ACCESSIBILITY ERODE
+  - Public Transport Accessibility : ERODE
+### NEW: Public Transport Accessibility : Warangal  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Telangana, Greater Warangal | 2 old titles, 2 datasets
+  - Public Transport Accessibility : WARANGAL
+  - Public Transport Accessibility : Warangal
+### NEW: Question Chart of Rajya Sabha  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Question Chart of Rajya Sabha (English)
+  - Question Chart of Rajya Sabha (Hindi)
+### NEW: Rajya Sabha Daily List of Business  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Rajya Sabha Daily List of Business (English)
+  - Rajya Sabha Daily List of Business (Hindi)
+### NEW: Rajya Sabha Member-wise Assurance  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Rajya Sabha Member-wise Assurance (English)
+  - Rajya Sabha Member-wise Assurance (Hindi)
+### NEW: Rajya Sabha Members Profile  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Rajya Sabha Members Profile (English)
+  - Rajya Sabha Members Profile (Hindi)
+### NEW: Rajya Sabha Members Strength by Party  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Rajya Sabha Members Strength by Party (English)
+  - Rajya Sabha Members Strength by Party (Hindi)
+### NEW: Rajya Sabha Parliamentary Bulletin Part I  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Rajya Sabha Parliamentary Bulletin Part I (Hindi)
+  - Rajya Sabha Parliamentary Bulletin Part-I (English)
+### NEW: Rajya Sabha Parliamentary Bulletin Part II  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Rajya Sabha Parliamentary Bulletin Part-II (English)
+  - Rajya Sabha Parliamentary Bulletin Part-II (Hindi)
+### NEW: Rajya Sabha RSS Feeds  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Rajya Sabha English RSS Feeds
+  - Rajya Sabha Hindi RSS Feeds
+### NEW: Rajya Sabha Special Mentions  | owner: Rajya Sabha | 34 old titles, 34 datasets
+  - Rajya Sabha Special Mentions For The Session 194
+  - Rajya Sabha Special Mentions For The Session 195
+  - Rajya Sabha Special Mentions For The Session 196
+  - Rajya Sabha Special Mentions For The Session 197
+  - Rajya Sabha Special Mentions For The Session 198
+  - Rajya Sabha Special Mentions For The Session 199
+  - Rajya Sabha Special Mentions For The Session 200
+  - Rajya Sabha Special Mentions For The Session 201
+  -    ... (23 more) ...
+  - Rajya Sabha Special Mentions For The Session 226
+  - Rajya Sabha Special Mentions For The Session 227
+  - Rajya Sabha Special Mentions For The Session 228
+### NEW: Religious community by age-group and sex - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 100 datasets
+  - Religious Community by Age-Group and Sex, Census 2001 - India and States
+  - Religious community by age-group and sex - India and States
+### NEW: Review of the Performance of State Road Transport Undertakings (SRTUs)  | owner: Ministry of Road Transport and Highways | 2 old titles, 19 datasets
+  - Review of the Performance of State Road Transport Undertakings (SRTUs) April,2016 - March, 2017
+  - Review of the Performance of State Road Transport Undertakings (SRTUs) for 2017-18 and 2018-19
+### NEW: Road Accidents in India  | owner: Ministry of Road Transport and Highways | 8 old titles, 494 datasets
+  - Road Accidents in India - 2017
+  - Road Accidents in India 2018
+  - Road Accidents in India 2019
+  - Road Accidents in India 2020
+  - Road Accidents in India 2021
+  - Road Accidents in India 2022
+  - Road Accidents in India 2023
+  - Road Accidents in India 2024
+### NEW: Road Transport Year Book  | owner: Ministry of Road Transport and Highways | 5 old titles, 270 datasets
+  - Road Transport Year Book 2016-17
+  - Road Transport Year Book 2017-18 & 2018-19
+  - Road Transport Year Book 2019-20
+  - Road Transport Year Book : 2013-14 and 2014-15
+  - Road Transport Year Book: 2015-16
+### NEW: Road safety : Chandigarh  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh | 2 old titles, 3 datasets
+  - Chandigarh: Road Safety
+  - Road safety Chandigarh
+### NEW: Roads : Chandigarh  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh | 2 old titles, 2 datasets
+  - Roads : Chandigarh
+  - Roads in Chandigarh
+### NEW: Roads : Dharamshala  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Himachal Pradesh, Dharamshala | 2 old titles, 2 datasets
+  - Roads Dharamshala
+  - Roads: Dharamshala
+### NEW: Roads : Erode  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode | 2 old titles, 2 datasets
+  - D23 ROADS ERODE
+  - Roads of Erode
+### NEW: Roads : Salem  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Salem | 2 old titles, 2 datasets
+  - Roads : Salem
+  - Roads Salem
+### NEW: School Education Institutions  | owner: Ministry of Education, Department of Higher Education | 2 old titles, 12 datasets
+  - Institutions - School education
+  - School education institutions
+### NEW: Sections of Rajya Sabha  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Sections of Rajya Sabha (English)
+  - Sections of Rajya Sabha (Hindi)
+### NEW: Seminars Held in National Institute of Biomedical Genomics  | owner: Ministry of Science and Technology, Department of Biotechnology, Government of India | 2 old titles, 2 datasets
+  - Seminars Held at National Institute of Biomedical Genomics 2011
+  - Seminars Held in National Institute of Biomedical Genomics
+### NEW: Shallow tubewells according to water distribution system  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise shallow tubewells according to water distribution system
+  - State wise shallow tubewells according to water distribution system
+### NEW: Shallow tubewells in the command of major/medium projects and supplementary irrigation  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise shallow tubewells in the command of major/medium projects and supplementary irrigation
+  - State wise shallow tubewells in the command of major/medium projects and supplementary irrigation
+### NEW: Single Year Age Returns by Residence, Sex and Literacy Status - India and States  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 2 old titles, 39 datasets
+  - Single Year Age Returns by Residence, Sex and Literacy Status, Census 2001 - India and States
+  - Single year age returns by residence, sex  and literacy status
+### NEW: Solid Waste Collection Equipment : Agartala  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala | 2 old titles, 2 datasets
+  - Solid Waste Collection Equipment Agartala
+  - Solid Waste Collection Equipment-Agartala
+### NEW: Solid Waste Management : Bareilly  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Bareilly | 3 old titles, 7 datasets
+  - Solid Waste Management : Bareilly
+  - Solid Waste Management for Bareilly
+  - Solid Waste Management:Bareilly
+### NEW: Solid Waste Management : Belagavi  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Belagavi | 2 old titles, 9 datasets
+  - Solid Waste Management  Belagavi
+  - Solid Waste Management Belagavi
+### NEW: Solid Waste Management : Chennai  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Chennai | 2 old titles, 12 datasets
+  - Solid Waste Management : Chennai
+  - Solid Waste Management for Chennai
+### NEW: Solid Waste Management : Madurai  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Madurai | 2 old titles, 2 datasets
+  - Solid Waste  Management - Madurai
+  - Solid Waste  Management : Madurai
+### NEW: Solid Waste Management : Nagpur  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Nagpur | 3 old titles, 7 datasets
+  - Solid Waste Management   :   Nagpur
+  - Solid Waste Management  :  Nagpur
+  - Solid Waste Management : Nagpur
+### NEW: Solid Waste Management : Shillong  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Meghalaya, Shillong | 2 old titles, 2 datasets
+  - Solid Waste Management Shillong
+  - Solid Waste Management shillong
+### NEW: Solid Waste Management Basic : Kohima  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Nagaland, Kohima | 2 old titles, 5 datasets
+  - D12_Solid_Waste_Management_Basic_Kohima
+  - Solid Waste Management Basic Kohima
+### NEW: Solid Waste Management Revenue : Madurai  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Madurai | 2 old titles, 2 datasets
+  - Solid Waste Management Revenue : Madurai
+  - Solid Waste Management Revenue Madurai
+### NEW: Solid Waste Processing : Chandigarh  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh | 2 old titles, 2 datasets
+  - Solid Waste Processing Data : Chandigarh
+  - Solid Waste Processing in Chandigarh
+### NEW: Solid Waste Processing Data : Pune  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Maharashtra, Pune | 2 old titles, 4 datasets
+  - Solid Waste Processing Data: Pune
+  - Solid Waste Processing Data:Pune
+### NEW: Special Mentions by Rajya Sabha Members  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Member wise Special Mentions in Rajya Sabha (English)
+  - Member-wise Special Mentions in Rajya Sabha (Hindi)
+### NEW: Statement of revenue earned by water works department : Guwahati  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Assam, Guwahati | 2 old titles, 2 datasets
+  - Statement of revenue earned by water works department-guwahati-2017-18
+  - Statement of revenue earned by water works department-guwahati-2019-2020
+### NEW: Status of Coverage under Rural Roads in Sample States and Districts - Based on Sample Survey  | owner: NITI Aayog | 2 old titles, 2 datasets
+  - Status of Coverage under Rural Roads in Sample Districts - Based on Sample Survey
+  - Status of Coverage under Rural Roads in Sample States - Based on Sample Survey
+### NEW: Status of Water Quality in India  | owner: Ministry of Environment, Forest and Climate Change, Central Pollution Control Board | 2 old titles, 86 datasets
+  - Status of Water Quality in India - 2008 and 2011
+  - Status of Water Quality in India - 2012
+### NEW: Street Lights : Bareilly  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Bareilly | 2 old titles, 2 datasets
+  - Street Lights : Bareilly
+  - Street Lights : Bareilly Smart City
+### NEW: Street Lights : Dharamshala  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Himachal Pradesh, Dharamshala | 2 old titles, 2 datasets
+  - Street Lights: Dharamshala
+  - StreetLights Dharamshala
+### NEW: Street Lights : Erode  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Erode | 2 old titles, 2 datasets
+  - D24 STREET LIGHTS ERODE
+  - Street Lights : ERODE
+### NEW: Street Lights : Kakinada  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Andhra Pradesh, Kakinada | 2 old titles, 2 datasets
+  - Street Lights Kakinada 2018
+  - street lights kakinada
+### NEW: Street Lights : Salem  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Salem | 2 old titles, 2 datasets
+  - Street Lights : Salem
+  - Street Lights Salem
+### NEW: Street Lights : Tiruchirappalli  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Tiruchirapalli | 2 old titles, 2 datasets
+  - Street Lights : Tiruchirappalli
+  - Street Lights:Tiruchirappalli
+### NEW: Supplementary Questions of Rajya Sabha Members  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Supplementary Questions of Rajya Sabha Members (English)
+  - Supplementary Questions of Rajya Sabha Members (Hindi)
+### NEW: Surface flow schemes according to the constraints  | owner: Ministry of Jal Shakti | 2 old titles, 4 datasets
+  - District wise surface flow schemes according to the constraints
+  - State wise surface flow schemes according to the constraints
+### NEW: Surface flow schemes according to water distribution system  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise surface flow schemes according to water distribution system
+  - State wise surface flow schemes according to water distribution system
+### NEW: Surface flow schemes average length of water conveyance channel  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise surface flow schemes average length of water conveyance channel
+  - State wise surface flow schemes average length of water conveyance channel
+### NEW: Surface flow schemes in the command of major/medium projects and supplementary irrigation  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise surface flow schemes in the command of major/medium projects and supplementary irrigation
+  - State wise surface flow schemes in the command of major/medium projects and supplementary irrigation
+### NEW: Surface flow schemes in the major/medium project command  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise surface flow schemes in the major/medium project command
+  - State wise surface flow schemes in the major/medium project command
+### NEW: Surface flow schemes- potential created and utilized through tanks  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise surface flow schemes- potential created and utilized through tanks
+  - State wise surface flow schemes- potential created and utilized through tanks
+### NEW: Surface lift schemes according to the constraints  | owner: Ministry of Jal Shakti | 2 old titles, 4 datasets
+  - District wise surface lift schemes according to the constraints
+  - State wise surface lift schemes according to the constraints
+### NEW: Surface lift schemes according to water distribution system  | owner: Ministry of Jal Shakti | 2 old titles, 6 datasets
+  - District wise surface lift schemes according to water distribution system
+  - State wise surface lift schemes according to water distribution system
+### NEW: Surface lift schemes in the command of major/medium projects and average pumping hours  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise surface lift schemes in the command of major/medium projects and average pumping hours
+  - State wise surface lift schemes in the command of major/medium projects and average pumping hours
+### NEW: Surface lift schemes in the command of major/medium projects and supplementary irrigation  | owner: Ministry of Jal Shakti | 2 old titles, 2 datasets
+  - District wise surface lift schemes in the command of major/medium projects and supplementary irrigation
+  - State wise surface lift schemes in the command of major/medium projects and supplementary irrigation
+### NEW: Traffic : Indore  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Indore | 2 old titles, 2 datasets
+  - Traffic : Indore
+  - Traffic:indore
+### NEW: Transportation : Bareilly  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Uttar Pradesh, Bareilly | 2 old titles, 2 datasets
+  - Transportation : Bareilly
+  - Transportation : Bareilly Smart City
+### NEW: Transportation : Panaji  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Goa, Panaji | 2 old titles, 2 datasets
+  - Transportation : Panaji
+  - Transportation:Panaji
+### NEW: Unemployment Rate : Kakinada  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Andhra Pradesh, Kakinada | 2 old titles, 2 datasets
+  - Unemployment Rate Kakinada 2018
+  - Unemployment rate in kakinada
+### NEW: Unemployment Rate : Udaipur  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Rajasthan, Udaipur | 2 old titles, 2 datasets
+  - Unemployment Rate: Udaipur 	
+  - UnemploymentRate: <udaipur> 2011	
+### NEW: Union Budget  | owner: Ministry of Finance, Department of Economic Affairs | 4 old titles, 51 datasets
+  - Union Budget 2022-23
+  - Union Budget 2023-24
+  - Union Budget: 2018-19
+  - Union Budget: 2021-22
+### NEW: Use Based Indices of All India Index of Industrial Production  | owner: Ministry of Statistics and Programme Implementation | 2 old titles, 5 datasets
+  - Use Based Annual Indices of all India Index of Industrial Production
+  - Use Based Monthly Indices for all India Index of Industrial Production
+### NEW: VAT & GST : Thanjavur  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Thanjavur | 2 old titles, 2 datasets
+  - VAT & GST Thanjavur
+  - VAT & GST: Thanjavur
+### NEW: VAT and GST Collection : Mangaluru  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Karnataka, Mangaluru | 2 old titles, 2 datasets
+  - VAT and GST Collection : MANGALURU
+  - VAT and GST Collection : Mangaluru
+### NEW: VAT and GST Collection : Sagar  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Madhya Pradesh, Sagar | 2 old titles, 2 datasets
+  - VAT and GST Collection : Sagar
+  - VAT& GST Collection: SAGAR
+### NEW: Varieties Released/notified (State release)  | owner: Ministry of Agriculture and Farmers Welfare, Department of Agricultural Research and Education (DARE) | 2 old titles, 2 datasets
+  - Varieties Released/notified (State release)
+  - Varieties released notified (State release)
+### NEW: Verbatim Debates of Lok Sabha  | owner: Lok Sabha Secretariat | 2 old titles, 2 datasets
+  - Verbatim Debates of Lok Sabha (English)
+  - Verbatim Debates of Lok Sabha (Hindi)
+### NEW: Verbatim Debates of Rajya Sabha  | owner: Rajya Sabha | 2 old titles, 2 datasets
+  - Verbatim Debates of Rajya Sabha (English)
+  - Verbatim Debates of Rajya Sabha (Hindi)
+### NEW: Village/Town-wise Primary Census Abstract  | owner: Ministry of Home Affairs, Department of Home, Registrar General and Census Commissioner, India | 34 old titles, 602 datasets
+  - Village/Town-wise Primary Census Abstract, 2011 - ANDAMAN & NICOBAR ISLANDS
+  - Village/Town-wise Primary Census Abstract, 2011 - ANDHRA PRADESH
+  - Village/Town-wise Primary Census Abstract, 2011 - ARUNACHAL PRADESH
+  - Village/Town-wise Primary Census Abstract, 2011 - ASSAM
+  - Village/Town-wise Primary Census Abstract, 2011 - BIHAR
+  - Village/Town-wise Primary Census Abstract, 2011 - CHANDIGARH
+  - Village/Town-wise Primary Census Abstract, 2011 - CHHATTISGARH
+  - Village/Town-wise Primary Census Abstract, 2011 - DADRA & NAGAR HAVELI
+  -    ... (23 more) ...
+  - Village/Town-wise Primary Census Abstract, 2011 - UTTAR PRADESH
+  - Village/Town-wise Primary Census Abstract, 2011 - UTTARAKHAND
+  - Village/Town-wise Primary Census Abstract, 2011 - WEST BENGAL
+### NEW: Wardwise Covid Beds : Chandigarh  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh | 2 old titles, 2 datasets
+  - Wardwise Covid Beds in Chandigarh
+  - Wardwise Covid beds in Chandigarh
+### NEW: Water : Aizawl  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Mizoram, Aizawl | 2 old titles, 2 datasets
+  - Water : Aizawl
+  - Water:Aizawl
+### NEW: Water : Madurai  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Madurai | 2 old titles, 3 datasets
+  - Water - Madurai
+  - Water : Madurai
+### NEW: Water : Tiruchirappalli  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tamil Nadu, Tiruchirapalli | 2 old titles, 2 datasets
+  - Water : Tiruchirappalli
+  - Water:Tiruchirappalli
+### NEW: Water Consumption : Chandigarh  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh | 2 old titles, 2 datasets
+  - Water Consumption : Chandigarh
+  - Water Consumption in Chandigarh
+### NEW: Water Quality in India  | owner: Ministry of Environment, Forest and Climate Change, Central Pollution Control Board | 2 old titles, 126 datasets
+  - Water Quality in India - 2013
+  - Water Quality in India - 2014
+### NEW: Water Supply : Warangal  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Telangana, Greater Warangal | 2 old titles, 2 datasets
+  - Water Supply : WARANGAL
+  - Water Supply : Warangal
+### NEW: Water Tax : Agartala  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Tripura, Agartala | 2 old titles, 2 datasets
+  - Water Tax-Agartala
+  - Water Tax_Agartala
+### NEW: Water Tax : Chandigarh  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Chandigarh | 2 old titles, 2 datasets
+  - Water Tax : Chandigarh
+  - Water Tax in Chandigarh
+### NEW: Water and Sanitation : Warangal  | owner: Ministry of Housing and Urban Affairs, Smart Cities Mission, Telangana, Greater Warangal | 2 old titles, 2 datasets
+  - Water and Sanitation : Warangal
+  - Water and Sanitation: WARANGAL
+### NEW: Wholesale Price Index  | owner: Ministry of Commerce and Industry, Department for Promotion of industry and Internal Trade | 2 old titles, 27 datasets
+  - Wholesale Price Index
+  - Wholesale Price Index - (Base Year 2004-05)
+### NEW: Yearly and Seasonal Frequency of Cyclones and Depressions  | owner: Ministry of Earth Sciences | 2 old titles, 42 datasets
+  - Annual and Seasonal Frequency of Cyclones and Depressions
+  - Yearly and Seasonal Frequency of Cyclones and Depressions

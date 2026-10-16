@@ -1,0 +1,214 @@
+id,new,reason,agent,cat,old,n,top,top_n,valid,known_id,sides_with_datasets,same_as_old
+C0004,Economy; Macro Economy,"establishment-age statistics, not governance",1,Age of Establishment : Kohima,Governance and Administration; Union/State Government Administration,2,Economy; Macro Economy,2,True,True,True,False
+C0011,Science and Technology; Research & Development,R&D proposals catalog; X Health does not fit,1,Area-wise Number of Research And Development Proposals Not Found Suitable,Health and Family welfare; Health,2,Science and Technology; Research & Development,2,True,True,True,False
+C0023,Science and Technology; Geo Technology,"ISRO satellite geoportal, not ecology",1,Bhuvan Geoportal of NRSC/ISRO,Environment and Forest; Ecology,1,Science and Technology; Research & Development,1,True,True,True,False
+C0026,Water Resources; Surface Water,"surface water boundaries, not water quality",1,Boundaries of Surface Water,Environment and Forest; Water Quality,1,Water Resources; Surface Water,1,True,True,True,False
+C0028,Urban; Development,open-space budget is urban; X was malformed (comma),1,Budget for Open spaces development : Saharanpur,"Economy, Finance",1,Urban; Development,1,True,True,True,False
+C0032,Urban; Development,"CCTV cameras are city facilities, not roads",1,CCTV Camera : Gangtok,Infrastructure; Roads,1,Urban; Development,1,True,True,True,False
+C0033,Health and Family welfare; Health,COVID-19 details are health data,1,COVID-19 Details : Surat,Urban; Development,2,Health and Family welfare; Health,1,True,True,True,False
+C0039,Urban; Development,"chain-link fencing is city infrastructure, not roads",1,Chain link fencing : Ujjain,Infrastructure; Roads,1,Urban; Development,1,True,True,True,False
+C0040,"Rural; Development, Urban; Development",non-farm household income; not roads,1,Change in Households Annual Income from Non-farm Activities in the Sample States - Based on Sample Survey,Infrastructure; Roads,1,"Rural; Development, Urban; Development",1,True,True,True,False
+C0042,Social Development; Children,"child assistance scheme, not internal security",1,"Children assisted under Project Assistance of ""National Foundation for Communal Harmony""",Home Affairs and Enforcement; Internal Security,1,Social Development; Children,1,True,True,True,False
+C0043,Governance and Administration; Local Government,"citizen facilitation centres, not family welfare",1,Citizen Facilitation Centers : Chandigarh,Health and Family welfare; Family Welfare,2,Governance and Administration; Local Government,1,True,True,True,False
+C0053,Census and Surveys; Census,city profile is census data; X mixed housing and employment,1,City Profile : Jammu,"Housing; Urban Housing, Labour and Employment; Employment",3,Census and Surveys; Census,2,True,True,True,False
+C0061,Water Resources; Ground Water,"ground water levels, not water quality",1,Classification of Ground Water Level by Districts in Tamil Nadu : SCR,Environment and Forest; Water Quality,2,Water Resources; Ground Water,2,True,True,True,False
+C0063,Water and Sanitation; Drinking Water,well usage; Economy does not fit,1,Classification of Usage of Wells by Districts in Tamil Nadu : SCR,Economy; Macro Economy,3,Water and Sanitation; Drinking Water,3,True,True,True,False
+C0069,Industries; Petroleum and Natural Gas,"petroleum commodity balance, not finance",1,Commodity Balance of Petroleum and Petroleum Products,Finance; Economy,1,Economy; Prices,1,True,True,False,False
+C0074,Urban; Development,"community facilities are urban, not housing",1,Community Facilities : Gwalior,Housing; Urban Housing,1,Urban; Development,1,True,True,True,False
+C0080,Urban; Development,"community facilities are urban, not housing",1,Community Facilities : Sagar,Housing; Urban Housing,6,Urban; Development,4,True,True,True,False
+C0082,Urban; Development,"community facilities, not macro economy",1,Community Facilities : Salem,Economy; Macro Economy,2,Urban; Development,1,True,True,True,False
+C0086,Urban; Development,"community facility is urban, not housing",1,Community Facility : Thane,Housing; Urban Housing,4,Urban; Development,2,True,True,True,False
+C0088,"Rural; Development, Urban; Development","poverty estimates, not women",1,Comparison Of Poverty Estimates Based On Uniform Recall Period,Social Development; Women,1,"Rural; Development, Urban; Development",1,True,True,True,False
+C0089,Governance and Administration; Union/State Government Administration,"state corporation building details, not enforcement",1,Completed Building Details of KSPH&IDCL,Home Affairs and Enforcement; Enforcement Organizations,2,Governance and Administration; Union/State Government Administration,2,True,True,True,False
+C0095,Information and Communications; Post,courier services are postal,1,Courier services : Kohima,Commerce; Trade promotion,1,Information and Communications; Post,1,True,True,True,False
+C0096,Home Affairs and Enforcement; Police,crime data,1,Crime : Karimnagar,Governance and Administration; Grievances,1,Home Affairs and Enforcement; Police,1,True,True,True,False
+C0098,Home Affairs and Enforcement; Police,"crime data, not grievances",1,Crime categorization : Chandigarh,Governance and Administration; Grievances,1,Home Affairs and Enforcement; Police,1,True,True,True,False
+C0099,Home Affairs and Enforcement; Police,"crime data, not grievances",1,Crimes : Agra,Governance and Administration; Grievances,1,Home Affairs and Enforcement; Police,1,True,True,True,False
+C0100,Home Affairs and Enforcement; Police,"crime data, not grievances",1,Crimes : Aizawl,Governance and Administration; Grievances,4,Home Affairs and Enforcement; Police,2,True,True,True,False
+C0101,Home Affairs and Enforcement; Police,"crime data, not grievances",1,Crimes : Chandigarh,Governance and Administration; Grievances,2,Home Affairs and Enforcement; Police,1,True,True,True,False
+C0102,Home Affairs and Enforcement; Police,"crime data, not grievances",1,Crimes : Erode,Governance and Administration; Grievances,1,Urban; Development,1,True,True,False,False
+C0103,Home Affairs and Enforcement; Police,"crime data, not grievances",1,Crimes : Gandhinagar,Governance and Administration; Grievances,1,Home Affairs and Enforcement; Police,1,True,True,True,False
+C0104,Home Affairs and Enforcement; Police,"crime data, not grievances",1,Crimes : Kavaratti,Governance and Administration; Grievances,1,Home Affairs and Enforcement; Police,1,True,True,True,False
+C0105,Home Affairs and Enforcement; Police,"crime data, not grievances",1,Crimes : New Town Kolkata,Governance and Administration; Grievances,1,Home Affairs and Enforcement; Police,1,True,True,True,False
+C0107,Home Affairs and Enforcement; Police,crime data; X Para Military Forces does not fit,1,Crimes : Salem,Defence; Para Military Forces,2,Governance and Administration; District Adminstration,1,True,True,False,False
+C0108,Home Affairs and Enforcement; Police,"crime data, not grievances",1,Crimes : Shillong,Governance and Administration; Grievances,1,Home Affairs and Enforcement; Police,1,True,True,True,False
+C0109,Home Affairs and Enforcement; Police,"crime data, not grievances",1,Crimes : Tiruppur,Governance and Administration; Grievances,1,Urban; Development,1,True,True,False,False
+C0112,Social Development; Children,crimes against children,1,Crimes against Children : Warangal,Urban; Development,1,Social Development; Children,1,True,True,True,False
+C0137,Transport; Water ways,"inland water transport ferries, not roads",1,Details Of Ferries Inland Water Transport In Karnataka,Infrastructure; Roads,5,Transport; Water ways,3,True,True,True,False
+C0138,Transport; Water ways,ferry service is water transport,1,Details Of Ferry Service Managed Departmentally Inland Water Transport In Karnataka,Infrastructure,5,Transport; Water ways,3,True,True,True,False
+C0150,Agriculture; Agricultural Produces,DHB storage facilities follow the topic,1,Dharmapuri District Hand Book 2017-18 : Storage Faculties,Economy; Macro Economy,1,Agriculture; Agricultural Produces,1,True,True,True,False
+C0169,Urban; Development,"digital availability, not grievances",1,Digital Availability : Muzaffarpur,Governance and Administration; Grievances,1,Urban; Development,1,True,True,True,False
+C0185,Science and Technology; Geo Technology,"DEM from satellite data, not ecology",1,Digital Elevation Model (DEM) generated from Cartosat-1 Satellite data for India,Environment and Forest; Ecology,2,Science and Technology; Earth Sciences,1,True,True,True,False
+C0186,Finance; Banking,"digital payments, not prices",1,Digital Payments : Agartala,Economy; Prices,1,Commerce; Trade promotion,1,True,True,False,False
+C0187,Finance; Banking,"digital payments, not prices",1,Digital Payments : Aizawl,Economy; Prices,1,Commerce; Trade promotion,1,True,True,False,False
+C0188,Finance; Banking,"digital payments, not prices",1,Digital Payments : Dharamshala,Economy; Prices,1,Commerce; Trade promotion,1,True,True,False,False
+C0189,Finance; Banking,"digital payments, not prices",1,Digital Payments : Jaipur,Economy; Prices,1,Commerce; Trade promotion,1,True,True,False,False
+C0190,Finance; Banking,"digital payments, not prices",1,Digital Payments : Kalyan Dombivli,Economy; Prices,2,Commerce; Trade promotion,1,True,True,False,False
+C0191,Finance; Banking,"digital payments, not prices",1,Digital Payments : Kohima,Economy; Prices,2,Information and Communications; Information and Technology,1,True,True,False,False
+C0192,Finance; Banking,"digital payments, not prices",1,Digital Payments : Madurai,Economy; Prices,1,Commerce; Trade promotion,1,True,True,False,False
+C0193,Finance; Banking,"digital payments, not prices",1,Digital Payments : Patna,Economy; Prices,1,Finance; Revenue,1,True,True,True,False
+C0194,Finance; Banking,"digital payments, not prices",1,Digital Payments : Rourkela,Economy; Prices,1,Commerce; Trade promotion,1,True,True,False,False
+C0195,Finance; Banking,"digital payments, not prices",1,Digital Payments : Salem,Economy; Prices,1,Commerce; Trade promotion,1,True,True,False,False
+C0196,Finance; Banking,"digital payments, not prices",1,Digital Payments : Tirupati,Economy; Prices,1,Commerce; Trade promotion,1,True,True,False,False
+C0197,Finance; Banking,"digital payments, not infrastructure",1,Digital Payments : Udaipur,Infrastructure,2,Economy; Prices,1,True,True,False,False
+C0198,Finance; Banking,"digital payments, not prices",1,Digital Payments : Varanasi,Economy; Prices,1,Commerce; Trade promotion,1,True,True,False,False
+C0199,Science and Technology; Earth Sciences,"seismotectonic atlas, not ecology",1,Digital Seismotectonic Atlas of India and its Environs,Environment and Forest; Ecology,1,Science and Technology; Earth Sciences,1,True,True,True,False
+C0201,Commerce; Import,import statistics,1,Direction of Imports: Imports by Regions and Countries (Rs. Cr.),Finance; Economy,1,Economy; Prices,1,True,True,False,False
+C0204,Infrastructure; Power,DISCOM is a power distribution company,1,Discom final : Ujjain,Governance and Administration; Union/State Government Administration,1,Health and Family welfare; Health,1,True,True,False,False
+C0208,Food; Public Distribution,DHB civil supplies follow the topic,1,District Hand Book : Civil Supplies,Governance and Administration; District Adminstration,175,Food; Public Distribution,122,True,True,True,False
+C0209,Science and Technology; Atmospheric Science,DHB climate and rainfall follow the topic,1,District Hand Book : Climate & Rainfall,Census and Surveys; Census,120,Environment and Forest; Water Quality,60,True,True,False,False
+C0210,Commerce; Companies,DHB co-operative societies follow the topic,1,District Hand Book : Co-Operative Societies,Governance and Administration; Local Government,10,Economy; Macro Economy,9,True,True,False,False
+C0211,Commerce; Companies,DHB co-operation follows the topic,1,District Hand Book : Co-operation,Governance and Administration; Local Government,29,Commerce; Companies,18,True,True,True,False
+C0212,Information and Communications; Telecom,DHB communication follows the topic,1,District Hand Book : Communication,Governance and Administration; District Adminstration,122,Information and Communications; Telecom,73,True,True,True,False
+C0214,Industries,DHB mining and quarrying; no mining sub-sector,1,District Hand Book : Mining and Quarrying,Economy; Macro Economy,66,Industries; Manufacturing,43,True,True,True,False
+C0215,Transport; Road Transport,DHB motor vehicles follow the topic,1,District Hand Book : Motor Vehicles,Economy; Prices,107,Transport; Road Transport,107,True,True,True,False
+C0216,Industries; Manufacturing,DHB quality control follows the datasets and topic,1,District Hand Book : Quality Control,Economy; Prices,18,Industries; Manufacturing,17,True,True,True,False
+C0217,Art and Culture; Heritage,DHB recreation and cultural services follow the topic,1,District Hand Book : Recreation and Cultural Services,Social Development; Children,79,Art and Culture; Heritage,73,True,True,True,False
+C0218,Industries; Manufacturing,DHB repair and service follows the datasets,1,District Hand Book : Repair and Service,Governance and Administration; District Adminstration,64,Industries; Manufacturing,51,True,True,True,False
+C0220,Science and Technology; Research & Development,DHB scientific research service follows the topic,1,District Hand Book : Scientific and Research Service,Census and Surveys; Census,27,Science and Technology; Research & Development,17,True,True,True,False
+C0222,Social Development,DHB social welfare follows the topic,1,District Hand Book : Social Welfare,Governance and Administration; District Adminstration,241,Social Development; Women,143,True,True,True,False
+C0223,Agriculture; Agricultural Produces,DHB storage facilities follow the topic,1,District Hand Book : Storage Facilities,Economy; Macro Economy,74,Agriculture; Agricultural Produces,44,True,True,True,False
+C0224,Commerce; Trade promotion,DHB trade and commerce follows the topic,1,District Hand Book : Trade and Commerce,Economy; Macro Economy,32,Commerce; Trade promotion,27,True,True,True,False
+C0225,Transport; Road Transport,DHB transport follows the topic,1,District Hand Book : Transport,Infrastructure; Roads,268,Transport; Road Transport,199,True,True,True,False
+C0226,Social Development,"DHB voluntary services follow the topic, not local government",1,District Hand Book : Voluntary Services,Governance and Administration; Local Government,38,Social Development; Women,28,True,True,True,False
+C0228,Commerce; Companies,"district co-operative societies, not local government",1,District level Cooperative Societies,Governance and Administration; Local Government,1,Commerce; Companies,1,True,True,True,False
+C0229,Food; Consumer Cooperatives,consumer co-operative stores,1,District wise Cooperative Consumer Stores in Madhya Pradesh,Commerce; Trade promotion,1,Food; Public Distribution,1,True,True,True,False
+C0240,Transport; Road Transport,bus trip earnings,1,Earnings Bus Trips : Kohima,Economy; Prices,1,Transport; Road Transport,1,True,True,True,False
+C0243,Governance and Administration; State Legislative,"Vidhan Sabha elections, not census",1,Election To The Vidhan Sabhas (State Legislative Assemblies),Census and Surveys; Census,6,Governance and Administration; State Legislative,4,True,True,True,False
+C0254,Infrastructure; Power,"general electricity, not renewable only",1,Electricity : Salem,Power and Energy; Renewable,2,Infrastructure; Power,1,True,True,True,False
+C0257,Infrastructure; Power,electricity; X was malformed (comma),1,Electricity : Thoothukudi,"Infrastructure, Power and Energy",1,Urban; Development,1,True,True,False,False
+C0263,Infrastructure; Power,"electricity consumption, not prices",1,Electricity Consumption : Kohima,Economy; Prices,1,Power and Energy; Renewable,1,True,True,False,False
+C0289,Rural; Development,MGNREGA financial outcomes; X mixed unrelated pairs,1,Financial Outcomes Under Mahatma Gandhi National Rural Employment Guarantee Act (NREGA),"Governance and Administration; Union/State Government Administration, Economy; Macro Economy",4,Rural; Development,3,True,True,True,False
+C0290,Water and Sanitation; Sanitation,Total Sanitation Campaign,1,Financial Progress Of The Total Sanitation Campaign In Eleventh Plan During Financial Years,"Rural; Development, Urban; Development",1,Water and Sanitation; Sanitation,1,True,True,True,False
+C0291,"Rural; Development, Urban; Development",national social assistance; X mixed women and family welfare,1,Financial and Physical Performance under the National Social Assistance Programme during 10th Five Year Plan,"Social Development; Women, Health and Family welfare; Family Welfare",1,"Rural; Development, Urban; Development",1,True,True,True,False
+C0293,Education; Elementary,school furniture,1,Furniture For Students : Ujjain,Housing; Urban Housing,1,Urban; Development,1,True,True,False,False
+C0301,Urban; Development,"urban population growth, not housing",1,Growth Of Urban Population,Housing; Urban Housing,1,Urban; Development,1,True,True,True,False
+C0302,Transport; Aviation,civil aviation; Finance dropped,1,Growth of Civil Aviation,"Transport; Aviation, Finance; Economy",1,Economy; Macro Economy,1,True,True,False,False
+C0305,"Rural; Development, Urban; Development","poverty headcount, not women",1,"Headcount Ratio and Number of Poor Persons Below Poverty Line in India (Combined, Rural and Urban Both)",Social Development; Women,1,"Rural; Development, Urban; Development",1,True,True,True,False
+C0306,"Rural; Development, Urban; Development","poverty headcount, not women",1,Headcount Ratio and Number of Poor Persons Below Poverty Line in Rural and Urban India,Social Development; Women,2,"Rural; Development, Urban; Development",2,True,True,True,False
+C0308,Governance and Administration; Union/State Government Administration,ministry-level catalog spanning many sectors,1,High Value Data Sets of MDoNER,"Agriculture; Crops, Art and Culture; Heritage, Education; Elementary, Health and Family welfare; Health, Infrastructure; Roads, Power and Energy; Renewable, Youth and Sports; Youth Affairs",4,Governance and Administration; Union/State Government Administration,2,True,True,True,False
+C0324,Science and Technology; Geo Technology,"satellite remote sensing images, not ecology",1,Hyper spectral Images from Remote Sensing Satellite IMS-1,Environment and Forest; Ecology,1,Science and Technology; Research & Development,1,True,True,True,False
+C0349,Science and Technology; Research & Development,scientist projects at a research institute,1,"Individual Scientist Projects with Institute of Bioresources and Sustainable Development, Imphal",Health and Family welfare; Health,1,Science and Technology; Research & Development,1,True,True,True,False
+C0351,Infrastructure; Roads,"infrastructure distribution, not housing",1,Infrastructure Distribution : Agartala,Housing; Urban Housing,1,Infrastructure; Roads,1,True,True,True,False
+C0352,Infrastructure; Roads,"infrastructure distribution, not housing",1,Infrastructure Distribution : Amritsar,Housing; Urban Housing,1,Census and Surveys; Census,1,True,True,False,False
+C0354,Infrastructure; Roads,"infrastructure distribution, not housing",1,Infrastructure Distribution : Jalandhar,Housing; Urban Housing,1,Infrastructure; Roads,1,True,True,True,False
+C0355,Infrastructure; Roads,"infrastructure distribution, not housing",1,Infrastructure Distribution : Saharanpur,Housing; Urban Housing,1,Infrastructure; Roads,1,True,True,True,False
+C0356,Infrastructure; Roads,"infrastructure distribution, not census",1,Infrastructure Distribution : Udaipur,Census and Surveys; Census,1,Infrastructure; Roads,1,True,True,True,False
+C0357,Infrastructure; Roads,"infrastructure distribution, not census listing",1,Infrastructure Distribution : Vadodara,Census; House listing and Housing Census,1,Infrastructure; Roads,1,True,True,True,False
+C0365,Water and Sanitation; Sanitation,"storm water drainage investment, not roads",1,Investment Requirement Estimates By High Powered Expert Committee (HPEC) - Water and Sanitation/Storm Water Drainage,Infrastructure; Roads,1,Water and Sanitation; Sanitation,1,True,True,True,False
+C0369,Governance and Administration; Grievances,complaint details,1,Janahita Complaints Details,Urban; Development,1,Governance and Administration; Grievances,1,True,True,True,False
+C0377,Urban; Development,"street lighting in city, not roads",1,Lighting in Streets Public Parks Gardens and Open Spaces : Chandigarh,Infrastructure; Roads,1,Urban; Development,1,True,True,True,False
+C0391,Finance; Banking,"bank branch listing, not governance",2,M.P. Apex Bank (MP Rajya Sahakari Bank) and their branches detail,Governance and Administration; Union/State Government Administration,1,Finance; Banking,1,True,True,True,False
+C0392,Industries; Manufacturing,MIDC industrial land rates,2,MIDC Land Rates 2024,Commerce; Trade promotion,1,Industries; Manufacturing,1,True,True,True,False
+C0397,Water and Sanitation; Sanitation,"storm water drains, not roads",2,Major Storm Water Drains : Ujjain,Infrastructure; Roads,1,Water and Sanitation; Sanitation,1,True,True,True,False
+C0403,Water Resources; Ground Water,"water levels, not water quality",2,Min max average Water Levels : Ujjain,Environment and Forest; Water Quality,1,Water Resources; Ground Water,1,True,True,True,False
+C0408,Health and Family welfare; Health,mortality rate is a health measure,2,Mortality Rate : Bilaspur,Urban; Development,1,Health and Family welfare; Health,1,True,True,True,False
+C0409,Health and Family welfare; Health,mortality rate is a health measure,2,Mortality Rate : Kota,Census and Surveys; Census,1,Health and Family welfare; Health,1,True,True,True,False
+C0410,Health and Family welfare; Health,mortality rate is a health measure,2,Mortality Rate : New Town Kolkata,Census and Surveys; Census,1,Health and Family welfare; Health,1,True,True,True,False
+C0411,Health and Family welfare; Health,mortality rate is a health measure,2,Mortality Rate : Visakhapatnam,Census and Surveys; Census,1,Health and Family welfare; Health,1,True,True,True,False
+C0412,"Rural; Development, Urban; Development",NSAP social pensions run by rural/urban development,2,National Social Assistance Programme (NSAP) Progress In The Eleventh Plan,"Social Development; Women, Labour and Employment; Employment",1,"Rural; Development, Urban; Development",1,True,True,True,False
+C0414,Environment and Forest; Natural Resources,natural features are environmental,2,Natural Features : Davanagere,Governance and Administration; Local Government,1,Environment and Forest; Natural Resources,1,True,True,True,False
+C0417,Environment and Forest; Ecology,natural landscape is ecology,2,Natural Landscape : Pimpri Chinchwad,Governance and Administration; Local Government,1,Environment and Forest; Ecology,1,True,True,True,False
+C0424,Transport; Road Transport,bus counts are transport,2,No. of Buses : Surat,Urban; Development,4,Transport; Road Transport,2,True,True,True,False
+C0427,Governance and Administration; Union/State Government Administration,"NLCPR is a cross-sector central fund, not roads/health",2,Non Lapsable Central Pool of Resources,"Infrastructure; Roads, Water Resources; Drinking Water, Health and Family welfare; Health",6,Governance and Administration; Union/State Government Administration,4,True,True,True,False
+C0438,Science and Technology; Marine Science,ocean wind stress is oceanography,2,Ocean Wind Stress,Environment and Forest; Ecology,1,Science and Technology; Earth Sciences,1,True,True,True,False
+C0439,Science and Technology; Marine Science,ocean wind stress curl is oceanography,2,Ocean Wind Stress Curl,Environment and Forest; Ecology,1,Science and Technology; Research & Development,1,True,True,True,False
+C0440,Science and Technology; Marine Science,ocean wind velocity is oceanography,2,Ocean Wind Velocity,Environment and Forest; Ecology,1,Science and Technology; Research & Development,1,True,True,True,False
+C0442,Commerce; Trade promotion,"online transactions are commerce, not prices",2,Online transactions,Economy; Prices,1,Commerce; Trade promotion,1,True,True,True,False
+C0444,Urban; Development,"city open spaces, not forest",2,Open Spaces : Agra,Environment and Forest; Forest Resources,1,Urban; Development,1,True,True,True,False
+C0450,Urban; Development,"city open spaces, not forest",2,Open Spaces : Jammu,Environment and Forest; Forest Resources,1,Urban; Development,1,True,True,True,False
+C0453,Urban; Development,"city open spaces, not forest",2,Open Spaces : New Town Kolkata,Environment and Forest; Forest,2,Urban; Development,2,True,True,True,False
+C0456,Urban; Development,"city open spaces, not forest",2,Open Spaces : Saharanpur,Environment and Forest; Forest Resources,1,Urban; Development,1,True,True,True,False
+C0457,Urban; Development,"city open spaces, not forest",2,Open Spaces : Thanjavur,Environment and Forest; Forest,1,Urban; Development,1,True,True,True,False
+C0458,Urban; Development,"city open spaces, not forest",2,Open Spaces : Tirunelveli,Environment and Forest; Forest Resources,2,Urban; Development,2,True,True,True,False
+C0460,Urban; Development,"city open spaces, not forest",2,Open Spaces : Visakhapatnam,Environment and Forest; Forest,1,Urban; Development,1,True,True,True,False
+C0461,Urban; Development,"city open spaces, not forest",2,Open spaces : Srinagar,Environment and Forest; Forest Resources,1,Urban; Development,1,True,True,True,False
+C0463,Transport; Road Transport,road transport operations,2,Operations of Road Transport,"Infrastructure; Roads, Finance; Economy",1,Economy; Macro Economy,1,True,True,False,False
+C0464,Urban; Development,"municipal citizen-service data, not roads",2,PCMC RTS Data,Infrastructure; Roads,1,Urban; Development,1,True,True,True,False
+C0471,Commerce; Export,leather export statistics,2,Percentage Share of Tamil Nadu in Leather Exports,Agriculture; Animal Husbandry,1,Industries; Food Processing,1,True,True,False,False
+C0474,"Rural; Development, Urban; Development","NSAP components, as C0412",2,Physical And Financial Progress of NSAP Components,"Social Development; Women, Health and Family welfare; Family Welfare",1,"Rural; Development, Urban; Development",1,True,True,True,False
+C0475,Water and Sanitation; Sanitation,Total Sanitation Campaign,2,Physical Progress Of The Total Sanitation Campaign In Eleventh Plan During Financial Year,Rural; Development,1,Water and Sanitation; Sanitation,1,True,True,True,False
+C0477,Rural; Development,MGNREGA rural employment,2,Physical outcomes under Mahatma Gandhi National Rural Employment Guarantee Act (NREGA),Governance and Administration; Union/State Government Administration,17,Rural; Development,17,True,True,True,False
+C0479,Home Affairs and Enforcement; Police,police station list,2,Police Station : Bhubaneswar,Governance and Administration; District Adminstration,2,Home Affairs and Enforcement; Police,2,True,True,True,False
+C0480,Home Affairs and Enforcement; Police,police station list,2,Police Station : Kohima,Governance and Administration; Local Government,1,Home Affairs and Enforcement; Police,1,True,True,True,False
+C0481,Home Affairs and Enforcement; Police,police station list,2,Police Station : Pune,Governance and Administration; District Adminstration,1,Home Affairs and Enforcement; Police,1,True,True,True,False
+C0482,Home Affairs and Enforcement; Police,police station list,2,Police Station Details : Tiruppur,Governance and Administration; District Adminstration,1,Home Affairs and Enforcement; Police,1,True,True,True,False
+C0483,Home Affairs and Enforcement; Police,police station list,2,Police Stations : Faridabad,Governance and Administration; District Adminstration,1,Home Affairs and Enforcement; Police,1,True,True,True,False
+C0484,Home Affairs and Enforcement; Police,police station list,2,Police stations : Bengaluru,Governance and Administration; District Adminstration,1,Home Affairs and Enforcement; Police,1,True,True,True,False
+C0485,Census and Surveys; Census,population counts,2,Population : Agartala,Urban; Development,1,Census and Surveys; Census,1,True,True,True,False
+C0488,Finance; Banking,PACS are rural credit cooperatives,2,Primary Agriculture Credit Cooperative Societies (PACS) in Madhya Pradesh,Agriculture; Agricultural Marketing,1,Finance; Revenue,1,True,True,True,False
+C0489,Education; Elementary,primary school list,2,Primary School of district : Ujjain,Governance and Administration; Local Government,1,Education; Elementary,1,True,True,True,False
+C0491,Agriculture; Animal Husbandry,livestock and fish production,2,Production of Major Livestock Products and Fish,Agriculture; Crops,1,"Economy; Prices, Finance; Economy, Finance; Revenue, Animal Husbandry; Fishery",1,True,True,False,False
+C0508,Finance; Revenue,property tax collection,2,Property Tax : Salem,Economy; Prices,2,Urban; Development,1,True,True,False,False
+C0511,Finance; Revenue,property tax DCB,2,Property Tax DCB : Madurai,Economy,1,Urban; Development,1,True,True,False,False
+C0531,Urban; Development,"public amenities, not roads",2,Public Amenities : Srinagar,Infrastructure; Roads,1,Urban; Development,1,True,True,True,False
+C0534,Urban; Development,public transport access is not housing,2,Public Transport Access : Solapur,Housing; Urban Housing,1,Urban; Development,1,True,True,True,False
+C0539,Water Resources; Surface Water,rainfall,2,Rainfall : Madurai,Water and Sanitation; Sanitation,1,Environment and Forest; Water Quality,1,True,True,False,False
+C0552,Social Development; Disabled,ramps for the disabled,2,Ramps for handycap in school : Ujjain,Housing; Urban Housing,1,Social Development; Disabled,1,True,True,True,False
+C0553,Urban; Development,city recreational parks,2,Recreational Parks : Ujjain,Travel and Tourism; Places,1,Urban; Development,1,True,True,True,False
+C0554,Home Affairs and Enforcement; Police,FIR records,2,Registered FIR : Chandigarh,Governance and Administration; Grievances,1,Home Affairs and Enforcement; Police,1,True,True,True,False
+C0562,Transport; Road Transport,road safety,2,Road Safety : Ahmedabad,Urban; Development,1,Transport; Road Transport,1,True,True,True,False
+C0565,Transport; Road Transport,road safety,2,Road Safety : Dharamshala,Governance and Administration; Local Government,1,Transport; Road Transport,1,True,True,True,False
+C0568,Transport; Road Transport,road safety,2,Road Safety : Tiruppur,Urban; Development,1,Transport; Road Transport,1,True,True,True,False
+C0573,Infrastructure; Roads,road works,2,Roads : Thoothukudi,Urban; Development,1,Infrastructure; Roads,1,True,True,True,False
+C0574,Infrastructure; Roads,road works,2,Roads : Tiruppur,Urban; Development,1,Infrastructure; Roads,1,True,True,True,False
+C0576,Transport; Road Transport,road safety,2,Roadsafety : Madurai,Governance and Administration; Local Government,1,Transport; Road Transport,1,True,True,True,False
+C0578,Governance and Administration; Pensions,pensioner data,2,SAMPANN Pensioner data,Governance and Administration; Union/State Government Administration,1,Information and Communications; Telecom,1,True,True,False,False
+C0582,Education; Elementary,school inspection,2,School Inspected : Ujjain,Governance and Administration; Local Government,1,Education; Elementary,1,True,True,True,False
+C0584,Water Resources; Surface Water,"rainfall, not census",2,Season Wise Rainfall occurred by Districts in Tamil Nadu: SCR,Census and Surveys; Census,15,Environment and Forest; Water Quality,12,True,True,False,False
+C0586,Education,education expenditure,2,Sector-Wise Expenditure on Education By Central And State Governments (Revenue Account),Science and Technology; Research & Development,2,Education; Elementary,1,True,True,True,False
+C0588,Social Development; Women,self help groups,2,Self Help Group : Ujjain,Governance and Administration; Local Government,1,Social Development; Women,1,True,True,True,False
+C0593,Commerce; Import,imports,2,Share and Percentage Growth/Change of Major Imports,Finance; Economy,1,Economy; Prices,1,True,True,False,False
+C0594,Education; Elementary,school,2,Shift School : Ujjain,Governance and Administration; Local Government,1,Education; Elementary,1,True,True,True,False
+C0596,Education; Elementary,classrooms in school,2,Single classroom in school : Ujjain,Governance and Administration; Union/State Government Administration,1,Education; Elementary,1,True,True,True,False
+C0599,Social Development; Children,children's social status,2,Social Status of Beneficiary Children - Based on Sample Survey,Education; Elementary,1,Social Development; Children,1,True,True,True,False
+C0604,Environment and Forest; Sanitation,solid waste collection vehicles,2,Solid Waste Collection Vehicle : Kavaratti,Infrastructure; Roads,1,Environment and Forest; Sanitation,1,True,True,True,False
+C0606,Environment and Forest; Sanitation,solid waste collection vehicle data,2,Solid Waste Collection Vehicle Data : Tumakuru,Infrastructure; Roads,1,Environment and Forest; Sanitation,1,True,True,True,False
+C0607,Environment and Forest; Sanitation,solid waste collection vehicles,2,Solid Waste Collection vehicle information : Gwalior,Infrastructure; Roads,1,Urban; Development,1,True,True,False,False
+C0611,Environment and Forest; Municipal Waste,solid waste disposal,2,Solid Waste Disposal : Warangal,Infrastructure; Roads,1,Urban; Development,1,True,True,False,False
+C0615,Environment and Forest; Municipal Waste,solid waste management,2,Solid Waste Management - Efficiency : Erode,Infrastructure; Roads,1,Urban; Development,1,True,True,False,False
+C0616,Environment and Forest; Sanitation,"solid waste management, not health",2,Solid Waste Management - Efficiency : Shivamogga,Health and Family welfare; Health,1,Environment and Forest; Sanitation,1,True,True,True,False
+C0617,Environment and Forest; Municipal Waste,solid waste management,2,Solid Waste Management - Efficiency : Tiruppur,Infrastructure; Roads,1,Urban; Development,1,True,True,False,False
+C0619,Environment and Forest; Municipal Waste,"solid waste management, not health",2,Solid Waste Management : Gwalior,Health and Family welfare; Health,1,Environment and Forest; Sanitation,1,True,True,True,False
+C0620,Environment and Forest; Municipal Waste,solid waste management,2,Solid Waste Management : Patna,Infrastructure; Roads,7,Urban; Development,7,True,True,False,False
+C0622,Environment and Forest; Municipal Waste,solid waste management,2,Solid Waste Management : Shillong,Infrastructure; Roads,2,Urban; Development,2,True,True,False,False
+C0623,Environment and Forest; Municipal Waste,solid waste management,2,Solid Waste Management : Shimla,Infrastructure; Roads,3,Urban; Development,3,True,True,False,False
+C0624,Environment and Forest; Municipal Waste,solid waste management,2,Solid Waste Management : Thoothukudi,Infrastructure; Roads,13,Urban; Development,13,True,True,False,False
+C0625,Environment and Forest; Municipal Waste,solid waste management,2,Solid Waste Management : Tiruchirappalli,Infrastructure; Roads,5,Urban; Development,5,True,True,False,False
+C0627,Environment and Forest; Municipal Waste,solid waste management,2,Solid Waste Management Basic : Erode,Infrastructure; Roads,1,Urban; Development,1,True,True,False,False
+C0629,Environment and Forest; Municipal Waste,solid waste management,2,Solid Waste Management Efficiency : Warangal,Infrastructure; Roads,1,Urban; Development,1,True,True,False,False
+C0633,Environment and Forest; Sanitation,"solid waste revenue, not health",2,Solid Waste Management-Revenue : Saharanpur,Health and Family welfare; Health,1,Environment and Forest; Sanitation,1,True,True,True,False
+C0641,Industries,DPIIT startup recognition is industrial policy,2,Startup Recognized by DPIIT,Economy; Macro Economy,1,Industries; Manufacturing,1,True,True,True,False
+C0642,Labour and Employment; Employment,agricultural wages,2,State Average of Agriculture Wages,Agriculture; Agricultural Research & Extension,1,Labour and Employment; Employment,1,True,True,True,False
+C0646,Science and Technology; Research & Development,R&D proposals,2,State-wise Number of Research And Development Proposals Not Found Suitable,Health and Family welfare; Health,2,Science and Technology; Research & Development,1,True,True,True,False
+C0651,Commerce; Companies,Statistical Hand Book on companies,2,Statistical Hand Book 2016 : Companies,Economy; Macro Economy,2,Industries; Manufacturing,1,True,True,False,False
+C0652,Food; Public Distribution,Statistical Hand Book on civil supplies,2,Statistical Hand Book : Civil Supplies,Economy; Prices,103,Food; Public Distribution,56,True,True,True,False
+C0653,Industries; Manufacturing,Statistical Hand Book on factories,2,Statistical Hand Book : Factories,Economy; Macro Economy,48,Labour and Employment; Employment,27,True,True,False,False
+C0654,Finance; Banking,Statistical Hand Book on institutional finance,2,Statistical Hand Book : Institutional Finance,Economy; Macro Economy,206,Finance; Economy,103,True,True,True,False
+C0655,Finance; Insurance,Statistical Hand Book on insurance,2,Statistical Hand Book : Insurance,Economy; Prices,23,Finance; Insurance,20,True,True,True,False
+C0656,Finance; Insurance,Statistical Hand Book on insurance,2,Statistical Hand Book : Insurance Operation in Tamil Nadu,Economy; Macro Economy,45,Finance; Insurance,40,True,True,True,False
+C0658,Judiciary,Statistical Hand Book on judicial administration,2,Statistical Hand Book : Judicial Administration,Governance and Administration; District Adminstration,36,Judiciary; High Court,31,True,True,True,False
+C0659,Governance and Administration; State Legislative,"state legislature, not Lok Sabha",2,Statistical Hand Book : Legislature & Election,Governance and Administration; Lok Sabha,48,Parliament Of india; Lok Sabha,25,True,True,False,False
+C0660,Information and Broadcasting; Broadcasting,recreation datasets are mostly broadcasting,2,Statistical Hand Book : Recreation,Social Development; Children,57,Information and Broadcasting; Broadcasting,53,True,True,True,False
+C0661,Transport; Road Transport,Statistical Hand Book on road and transport,2,Statistical Hand Book : Road and Transport,Infrastructure; Roads,138,Transport; Road Transport,95,True,True,True,False
+C0679,Urban; Development,street lights in city,2,Street Lights : Salem,Power and Energy; Renewable,2,Urban; Development,1,True,True,True,False
+C0693,Education; Elementary,student classroom ratio,2,Student classroom ratio : Ujjain,Governance and Administration; Local Government,1,Education; Elementary,1,True,True,True,False
+C0700,Education; Elementary,teacher data,2,Teacher data : Ujjain,Governance and Administration; Local Government,1,Education; Elementary,1,True,True,True,False
+C0701,Infrastructure; Power,RGGVY rural electrification,2,Technical/Operational/infrastructural Under RGGVY Scheme,Infrastructure,7,Power and Energy; Renewable,7,True,True,False,False
+C0703,Rural; Land Resources,land classification,2,Time Series Data Classification of Land in Tamil Nadu : SCR,Economy; Macro Economy,3,Rural; Land Resources,3,True,True,True,False
+C0704,Water Resources; Surface Water,rainfall,2,Time Series Data Rainfall by Seasons in Tamil Nadu : SCR,Agriculture; Crops,3,Environment and Forest; Water Quality,3,True,True,False,False
+C0705,Industries; Heavy,steel production,2,"Time Series Data on Production, Export, Import and Consumption of Finished Steel Items",Economy; Macro Economy,4,Industries; Heavy,4,True,True,True,False
+C0706,Social Development; Women,social welfare schemes,2,Tiruvallur District Handbook 2017-18 : Social Welfare Department Schemes,Governance and Administration; District Adminstration,1,Social Development; Women,1,True,True,True,False
+C0724,Water Resources; Ground Water,ground water level,2,Trend of Ground Water Level : Ujjain,Environment and Forest; Water Quality,1,Water Resources; Ground Water,1,True,True,True,False
+C0727,Labour and Employment; Employment,unemployment rate,2,Unemployment Rate : Gandhinagar,Economy; Prices,1,Labour and Employment; Employment,1,True,True,True,False
+C0732,Food; Public Distribution,foodgrain utilisation,2,Utilisation of Foodgrains - Based on Sample Survey,Education; Elementary,1,Food; Public Distribution,1,True,True,True,False
+C0733,Finance; Revenue,VAT and GST is tax revenue,2,VAT & GST : Aurangabad,Economy; Prices,1,Finance; Revenue,1,True,True,True,False
+C0734,Finance; Revenue,VAT and GST is tax revenue,2,VAT & GST : Erode,Urban; Development,1,Economy; Macro Economy,1,True,True,False,False
+C0735,Finance; Revenue,VAT and GST is tax revenue,2,VAT & GST : Varanasi,Economy; Prices,2,Commerce; Trade promotion,1,True,True,False,False
+C0736,Finance; Revenue,VAT and GST is tax revenue,2,VAT And GST : Ranchi,Economy; Prices,1,Finance; Revenue,1,True,True,True,False
+C0737,Finance; Revenue,VAT and GST is tax revenue,2,VAT and GST : Silvassa,Economy; Prices,1,Health and Family welfare; Health,1,True,True,False,False
+C0738,Finance; Revenue,VAT and GST is tax revenue,2,VAT and GST Collection : Sagar,Economy; Prices,2,Finance; Revenue,1,True,True,True,False
+C0740,Science and Technology; Research & Development,posts at a research institute,2,"Various Posts At National Institute of Animal Biotechnology, Hyderabad",Health and Family welfare; Family Welfare,1,Science and Technology; Research & Development,1,True,True,True,False
+C0748,Water and Sanitation; Drinking Water,water revenue from water supply,2,Water Revenue : Dahod,Economy; Prices,1,Water and Sanitation; Drinking Water,1,True,True,True,False
+C0762,Water and Sanitation; Drinking Water,water consumption,2,Water consumption : Rourkela,Health and Family welfare; Health,1,Water and Sanitation; Drinking Water,1,True,True,True,False
+C0765,Education; Elementary,students without classrooms,2,Without Classroom : Ujjain,Governance and Administration; Union/State Government Administration,1,Health and Family welfare; Health,1,True,True,False,False

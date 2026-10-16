@@ -1,0 +1,1155 @@
+C0001	Aaple Sarkar Seva Kendra in Beed District
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Information and Communications; Information and Technology  (1 of 1 datasets)
+C0002	Access To Household Amenities In Worst Performing States In Terms Of Toilet Facilities
+   catalog sector now: Rural; Development
+   its datasets say:   Water and Sanitation; Sanitation  (1 of 1 datasets)
+C0003	Accident : Ujjain
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Health and Family welfare; Health  (2 of 2 datasets)
+C0004	Age of Establishment : Kohima
+   catalog sector now: Governance and Administration; Union/State Government Administration
+   its datasets say:   Economy; Macro Economy  (2 of 2 datasets)
+C0005	Anganawadi Centres with Tap Water Supply under JJM
+   catalog sector now: Rural; Development
+   its datasets say:   Water and Sanitation; Drinking Water  (1 of 1 datasets)
+C0006	Annual Growth Rate of GDP by industry of origin at constant prices
+   catalog sector now: Finance; Economy
+   its datasets say:   Economy; Macro Economy  (1 of 1 datasets)
+C0007	Annual growth rate of Consumption Expenditure at constant prices
+   catalog sector now: Finance; Economy
+   its datasets say:   Economy; Prices  (1 of 1 datasets)
+C0008	Area / Population And Income Of G-20 Countries
+   catalog sector now: Economy; Macro Economy
+   its datasets say:   Census and Surveys; Census  (2 of 3 datasets)
+C0009	Area Bifurcation Data : Pune
+   catalog sector now: Urban; Development
+   its datasets say:   Census; Population Enumerator  (2 of 2 datasets)
+C0010	Area-wise Number of Ongoing Projects
+   catalog sector now: Science and Technology; Research & Development
+   its datasets say:   Health and Family welfare; Health  (3 of 4 datasets)
+C0011	Area-wise Number of Research And Development Proposals Not Found Suitable
+   catalog sector now: Health and Family welfare; Health
+   its datasets say:   Science and Technology; Research & Development  (2 of 2 datasets)
+C0012	Area-wise Ongoing Societal Development Projects
+   catalog sector now: Science and Technology; Research & Development
+   its datasets say:   Health and Family welfare; Health  (2 of 2 datasets)
+C0013	Artificial Insemination of Cattle and Buffaloes for the year 2020-21 in Karnataka
+   catalog sector now: Animal Husbandry
+   its datasets say:   Agriculture; Animal Husbandry  (1 of 1 datasets)
+C0014	Attendance of the Members of Rajya Sabha for the Session
+   catalog sector now: Parliament Of india; Rajya Sabha
+   its datasets say:   Governance and Administration; Rajya Sabha  (81 of 107 datasets)
+C0015	Auditorium : Madurai
+   catalog sector now: Travel and Tourism; Places
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0016	Availability and Functionality of Kitchen Sheds - Based on Sample Survey
+   catalog sector now: Education; Elementary
+   its datasets say:   Social Development; Women  (1 of 1 datasets)
+C0017	Average Daily Wage Rates For Male Agricultural Labour
+   catalog sector now: Labour and Employment; Employment
+   its datasets say:   Rural; Development  (1 of 1 datasets)
+C0018	BPL : Ujjain
+   catalog sector now: Governance and Administration; Union/State Government Administration
+   its datasets say:   Health and Family welfare; Family Welfare  (1 of 1 datasets)
+C0019	BWG Hotel : Ujjain
+   catalog sector now: Travel and Tourism; Lodging
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0020	Banking Offices
+   catalog sector now: Finance; Banking
+   its datasets say:   Commerce; Companies  (3 of 5 datasets)
+C0021	Banking Statistics in Gujarat
+   catalog sector now: Finance; Banking
+   its datasets say:   Economy; Prices  (2 of 3 datasets)
+C0022	Basic Road Statistics of India
+   catalog sector now: Infrastructure; Roads
+   its datasets say:   Transport; Road Transport  (164 of 325 datasets)
+C0023	Bhuvan Geoportal of NRSC/ISRO
+   catalog sector now: Environment and Forest; Ecology
+   its datasets say:   Science and Technology; Research & Development  (1 of 1 datasets)
+C0024	Birth Registration : Ahmedabad
+   catalog sector now: Urban; Development
+   its datasets say:   Governance and Administration; District Adminstration  (1 of 1 datasets)
+C0025	Birth and Death Certificate : Kohima
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Health and Family welfare; Health  (2 of 2 datasets)
+C0026	Boundaries of Surface Water
+   catalog sector now: Environment and Forest; Water Quality
+   its datasets say:   Water Resources; Surface Water  (1 of 1 datasets)
+C0027	Boundriwal : Ujjain
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Health and Family welfare; Health  (1 of 1 datasets)
+C0028	Budget for Open spaces development : Saharanpur
+   catalog sector now: Economy, Finance
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0029	Building Permission : Ujjain
+   catalog sector now: Housing; Urban Housing
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0030	Bus trips earning : Chandigarh
+   catalog sector now: Transport; Road Transport
+   its datasets say:   Travel and Tourism; Modes of Travel  (1 of 1 datasets)
+C0031	Buses : Dehradun
+   catalog sector now: Transport; Road Transport
+   its datasets say:   Travel and Tourism; Modes of Travel  (2 of 3 datasets)
+C0032	CCTV Camera : Gangtok
+   catalog sector now: Infrastructure; Roads
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0033	COVID-19 Details : Surat
+   catalog sector now: Urban; Development
+   its datasets say:   Health and Family welfare; Health  (1 of 2 datasets)
+C0034	Capital Formation at Constant Prices
+   catalog sector now: Finance
+   its datasets say:   Economy; Macro Economy  (2 of 3 datasets)
+C0035	Cast Wise Enrollment : Ujjain
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Social Development; Tribal  (1 of 1 datasets)
+C0036	Catalogue of Micro Data from National Sample Survey (NSS)
+   catalog sector now: Census and Surveys; Census
+   its datasets say:   Economy; Prices  (34 of 35 datasets)
+C0037	Category Wise Connection Details : Hubballi-Dharwad
+   catalog sector now: Water and Sanitation; Drinking Water
+   its datasets say:   Water Resources; Drinking Water  (1 of 1 datasets)
+C0038	Cesspool Revenue : Kohima
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Water and Sanitation; Sanitation  (3 of 3 datasets)
+C0039	Chain link fencing : Ujjain
+   catalog sector now: Infrastructure; Roads
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0040	Change in Households Annual Income from Non-farm Activities in the Sample States - Based on Sample Survey
+   catalog sector now: Infrastructure; Roads
+   its datasets say:   Rural; Development, Urban; Development  (1 of 1 datasets)
+C0041	Children Facilities Provision : Saharanpur
+   catalog sector now: Urban; Development
+   its datasets say:   Social Development; Children  (1 of 1 datasets)
+C0042	Children assisted under Project Assistance of "National Foundation for Communal Harmony"
+   catalog sector now: Home Affairs and Enforcement; Internal Security
+   its datasets say:   Social Development; Children  (1 of 1 datasets)
+C0043	Citizen Facilitation Centers : Chandigarh
+   catalog sector now: Health and Family welfare; Family Welfare
+   its datasets say:   Governance and Administration; Local Government  (1 of 2 datasets)
+C0044	Citizen Facilities : Gwalior
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0045	Citizen Facilities : Kota
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (2 of 2 datasets)
+C0046	Citizen Facilities : Ranchi
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0047	Citizen Facilities : Salem
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0048	Citizen Facilities : Tirunelveli
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (2 of 2 datasets)
+C0049	Citizen Facilities : Varanasi
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0050	City Profile : Agra
+   catalog sector now: Urban; Development
+   its datasets say:   Census and Surveys; Census  (1 of 1 datasets)
+C0051	City Profile : Aizawl
+   catalog sector now: Urban; Development
+   its datasets say:   Housing; Urban Housing  (2 of 4 datasets)
+C0052	City Profile : Coimbatore
+   catalog sector now: Census and Surveys; Census
+   its datasets say:   Urban; Development  (1 of 2 datasets)
+C0053	City Profile : Jammu
+   catalog sector now: Housing; Urban Housing, Labour and Employment; Employment
+   its datasets say:   Census and Surveys; Census  (2 of 3 datasets)
+C0054	City Profile : Kakinada
+   catalog sector now: Urban; Development
+   its datasets say:   Census and Surveys; Census  (1 of 1 datasets)
+C0055	City Profile : Karimnagar
+   catalog sector now: Urban; Development
+   its datasets say:   Census and Surveys; Census  (1 of 2 datasets)
+C0056	City Profile : Kavaratti
+   catalog sector now: Urban; Development
+   its datasets say:   Census and Surveys; Census  (1 of 1 datasets)
+C0057	City Profile : Port Blair
+   catalog sector now: Urban; Development
+   its datasets say:   Census and Surveys; Census  (1 of 2 datasets)
+C0058	City Profile : Sagar
+   catalog sector now: Urban; Development
+   its datasets say:   Environment and Forest; Ecology  (1 of 1 datasets)
+C0059	City Profile : Tirunelveli
+   catalog sector now: Urban; Development
+   its datasets say:   Infrastructure; Roads  (1 of 1 datasets)
+C0060	City Profile : Warangal
+   catalog sector now: Urban; Development
+   its datasets say:   Census; Population Enumerator  (1 of 2 datasets)
+C0061	Classification of Ground Water Level by Districts in Tamil Nadu : SCR
+   catalog sector now: Environment and Forest; Water Quality
+   its datasets say:   Water Resources; Ground Water  (2 of 2 datasets)
+C0062	Classification of Land by Districts in Tamil Nadu : SCR
+   catalog sector now: Agriculture; Crops
+   its datasets say:   Rural; Land Resources  (2 of 3 datasets)
+C0063	Classification of Usage of Wells by Districts in Tamil Nadu : SCR
+   catalog sector now: Economy; Macro Economy
+   its datasets say:   Water and Sanitation; Drinking Water  (3 of 3 datasets)
+C0064	Committed expenditure of the states (Salaries+pensions+Interest payments)
+   catalog sector now: Economy; Macro Economy
+   its datasets say:   Finance; Revenue  (1 of 1 datasets)
+C0065	Committee Meetings Schedule of Lok Sabha
+   catalog sector now: Parliament Of india; Lok Sabha
+   its datasets say:   Governance and Administration; Lok Sabha  (1 of 2 datasets)
+C0066	Committee Meetings Schedule of Rajya Sabha
+   catalog sector now: Parliament Of india; Rajya Sabha
+   its datasets say:   Governance and Administration; Rajya Sabha  (2 of 2 datasets)
+C0067	Committee Membership by Rajya Sabha Members
+   catalog sector now: Parliament Of india; Rajya Sabha
+   its datasets say:   Governance and Administration; Rajya Sabha  (2 of 2 datasets)
+C0068	Committee-wise Reports Presented to Rajya Sabha
+   catalog sector now: Parliament Of india; Rajya Sabha
+   its datasets say:   Governance and Administration; Rajya Sabha  (1 of 1 datasets)
+C0069	Commodity Balance of Petroleum and Petroleum Products
+   catalog sector now: Finance; Economy
+   its datasets say:   Economy; Prices  (1 of 1 datasets)
+C0070	Community Facilities : Amaravati
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Home Affairs and Enforcement; Police  (1 of 1 datasets)
+C0071	Community Facilities : Dahod
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0072	Community Facilities : Dharamshala
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0073	Community Facilities : Diu
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Health and Family welfare; Family Welfare  (1 of 1 datasets)
+C0074	Community Facilities : Gwalior
+   catalog sector now: Housing; Urban Housing
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0075	Community Facilities : Jammu
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0076	Community Facilities : Kohima
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (2 of 3 datasets)
+C0077	Community Facilities : Pasighat
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0078	Community Facilities : Ranchi
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0079	Community Facilities : Rourkela
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0080	Community Facilities : Sagar
+   catalog sector now: Housing; Urban Housing
+   its datasets say:   Urban; Development  (4 of 6 datasets)
+C0081	Community Facilities : Saharanpur
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0082	Community Facilities : Salem
+   catalog sector now: Economy; Macro Economy
+   its datasets say:   Urban; Development  (1 of 2 datasets)
+C0083	Community Facilities : Shivamogga
+   catalog sector now: Infrastructure
+   its datasets say:   Art and Culture; Heritage  (1 of 2 datasets)
+C0084	Community Facilities : Tumakuru
+   catalog sector now: Urban; Development
+   its datasets say:   Health and Family welfare; Family Welfare  (1 of 1 datasets)
+C0085	Community Facilities : Varanasi
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0086	Community Facility : Thane
+   catalog sector now: Housing; Urban Housing
+   its datasets say:   Urban; Development  (2 of 4 datasets)
+C0087	Community Hall Zone : Ujjain
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (2 of 2 datasets)
+C0088	Comparison Of Poverty Estimates Based On Uniform Recall Period
+   catalog sector now: Social Development; Women
+   its datasets say:   Rural; Development, Urban; Development  (1 of 1 datasets)
+C0089	Completed Building Details of KSPH&IDCL
+   catalog sector now: Home Affairs and Enforcement; Enforcement Organizations
+   its datasets say:   Governance and Administration; Union/State Government Administration  (2 of 2 datasets)
+C0090	Composition/Allocation Of Seats In The Rajya Sabha
+   catalog sector now: Governance and Administration; Rajya Sabha
+   its datasets say:   Parliament Of india; Rajya Sabha  (5 of 5 datasets)
+C0091	Conditions Of Roads : Kakinada
+   catalog sector now: Infrastructure; Roads
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0092	Connectivity : Kohima
+   catalog sector now: Infrastructure; Roads
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0093	Construction of Fish Seed Sector : Ujjain
+   catalog sector now: Agriculture; Fisheries
+   its datasets say:   Animal Husbandry; Fishery  (1 of 1 datasets)
+C0094	Conversion Opinion and Building Plan details
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Housing; Urban Housing  (1 of 1 datasets)
+C0095	Courier services : Kohima
+   catalog sector now: Commerce; Trade promotion
+   its datasets say:   Information and Communications; Post  (1 of 1 datasets)
+C0096	Crime : Karimnagar
+   catalog sector now: Governance and Administration; Grievances
+   its datasets say:   Home Affairs and Enforcement; Police  (1 of 1 datasets)
+C0097	Crime Statistics Thane Rural
+   catalog sector now: Home Affairs and Enforcement; Police
+   its datasets say:   Governance and Administration; Grievances  (1 of 1 datasets)
+C0098	Crime categorization : Chandigarh
+   catalog sector now: Governance and Administration; Grievances
+   its datasets say:   Home Affairs and Enforcement; Police  (1 of 1 datasets)
+C0099	Crimes : Agra
+   catalog sector now: Governance and Administration; Grievances
+   its datasets say:   Home Affairs and Enforcement; Police  (1 of 1 datasets)
+C0100	Crimes : Aizawl
+   catalog sector now: Governance and Administration; Grievances
+   its datasets say:   Home Affairs and Enforcement; Police  (2 of 4 datasets)
+C0101	Crimes : Chandigarh
+   catalog sector now: Governance and Administration; Grievances
+   its datasets say:   Home Affairs and Enforcement; Police  (1 of 2 datasets)
+C0102	Crimes : Erode
+   catalog sector now: Governance and Administration; Grievances
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0103	Crimes : Gandhinagar
+   catalog sector now: Governance and Administration; Grievances
+   its datasets say:   Home Affairs and Enforcement; Police  (1 of 1 datasets)
+C0104	Crimes : Kavaratti
+   catalog sector now: Governance and Administration; Grievances
+   its datasets say:   Home Affairs and Enforcement; Police  (1 of 1 datasets)
+C0105	Crimes : New Town Kolkata
+   catalog sector now: Governance and Administration; Grievances
+   its datasets say:   Home Affairs and Enforcement; Police  (1 of 1 datasets)
+C0106	Crimes : Sagar
+   catalog sector now: Governance and Administration; District Adminstration
+   its datasets say:   Home Affairs and Enforcement; Police  (1 of 2 datasets)
+C0107	Crimes : Salem
+   catalog sector now: Defence; Para Military Forces
+   its datasets say:   Governance and Administration; District Adminstration  (1 of 2 datasets)
+C0108	Crimes : Shillong
+   catalog sector now: Governance and Administration; Grievances
+   its datasets say:   Home Affairs and Enforcement; Police  (1 of 1 datasets)
+C0109	Crimes : Tiruppur
+   catalog sector now: Governance and Administration; Grievances
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0110	Crimes : Tumakuru
+   catalog sector now: Home Affairs and Enforcement; Police
+   its datasets say:   Governance and Administration; District Adminstration  (1 of 1 datasets)
+C0111	Crimes : Visakhapatnam
+   catalog sector now: Governance and Administration; District Adminstration
+   its datasets say:   Home Affairs and Enforcement; Police  (1 of 1 datasets)
+C0112	Crimes against Children : Warangal
+   catalog sector now: Urban; Development
+   its datasets say:   Social Development; Children  (1 of 1 datasets)
+C0113	Cultural Heritage : Ahmedabad
+   catalog sector now: Urban; Development
+   its datasets say:   Art and Culture; Heritage  (3 of 4 datasets)
+C0114	Cultural Heritage : Atal Nagar
+   catalog sector now: Travel and Tourism; Places
+   its datasets say:   Art and Culture; Heritage  (1 of 1 datasets)
+C0115	Cultural Heritage : Chandigarh
+   catalog sector now: Travel and Tourism; Places
+   its datasets say:   Art and Culture; Heritage  (1 of 1 datasets)
+C0116	Cultural Heritage : Lucknow
+   catalog sector now: Travel and Tourism; Places
+   its datasets say:   Art and Culture; Heritage  (1 of 1 datasets)
+C0117	Cultural Heritage : Pimpri Chinchwad
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Art and Culture; Heritage  (1 of 1 datasets)
+C0118	Cultural Heritage : Thanjavur
+   catalog sector now: Travel and Tourism; Places
+   its datasets say:   Art and Culture; Heritage  (1 of 1 datasets)
+C0119	Cultural Heritage : Tumakuru
+   catalog sector now: Travel and Tourism; Places
+   its datasets say:   Art and Culture; Heritage  (1 of 1 datasets)
+C0120	Current Members of Rajya Sabha
+   catalog sector now: Parliament Of india; Rajya Sabha
+   its datasets say:   Governance and Administration; Rajya Sabha  (2 of 2 datasets)
+C0121	D2D Collection Coverage : Saharanpur
+   catalog sector now: Environment and Forest; Sanitation
+   its datasets say:   Health and Family welfare; Health  (1 of 1 datasets)
+C0122	D2D Collection Coverage : Ujjain
+   catalog sector now: Environment and Forest; Sanitation
+   its datasets say:   Water and Sanitation; Sanitation  (1 of 1 datasets)
+C0123	Daily Birthday List of Lok Sabha Members
+   catalog sector now: Parliament Of india; Lok Sabha
+   its datasets say:   Governance and Administration; Lok Sabha  (2 of 2 datasets)
+C0124	Daily Birthday List of Rajya Sabha Members
+   catalog sector now: Parliament Of india; Rajya Sabha
+   its datasets say:   Governance and Administration; Rajya Sabha  (1 of 2 datasets)
+C0125	Daily List of Lok Sabha Unstarred Questions (English)
+   catalog sector now: Parliament Of india; Lok Sabha
+   its datasets say:   Governance and Administration; Lok Sabha  (1 of 1 datasets)
+C0126	Daily List of Rajya Sabha Starred Questions
+   catalog sector now: Parliament Of india; Rajya Sabha
+   its datasets say:   Governance and Administration; Rajya Sabha  (2 of 2 datasets)
+C0127	Daily List of Rajya Sabha Unstarred Questions
+   catalog sector now: Parliament Of india; Rajya Sabha
+   its datasets say:   Governance and Administration; Lok Sabha, Governance and Administration; Rajya Sabha  (1 of 2 datasets)
+C0128	Daily Market Prices of all Commodities in Meghalaya Markets for 2014
+   catalog sector now: Agriculture; Agricultural Produces
+   its datasets say:   Economy; Prices  (1 of 1 datasets)
+C0129	Daily Synopsis of Lok Sabha
+   catalog sector now: Parliament Of india; Lok Sabha
+   its datasets say:   Governance and Administration; Lok Sabha  (1 of 2 datasets)
+C0130	Daily Synopsis of Rajya Sabha
+   catalog sector now: Parliament Of india; Rajya Sabha
+   its datasets say:   Governance and Administration; Rajya Sabha  (2 of 2 datasets)
+C0131	Date-wise Committee Meetings of Rajya Sabha
+   catalog sector now: Parliament Of india; Rajya Sabha
+   its datasets say:   Governance and Administration; Lok Sabha, Governance and Administration; Rajya Sabha  (1 of 2 datasets)
+C0132	Demographic Profile : Faridabad
+   catalog sector now: Urban; Development
+   its datasets say:   Housing; Urban Housing  (1 of 1 datasets)
+C0133	Demographic Profile : Saharanpur
+   catalog sector now: Urban; Development
+   its datasets say:   Census and Surveys; Census  (1 of 1 datasets)
+C0134	Demographic Profile : Visakhapatnam
+   catalog sector now: Urban; Development
+   its datasets say:   Labour and Employment; Employment  (1 of 2 datasets)
+C0135	Demography 2 : Kohima
+   catalog sector now: Social Development; Tribal
+   its datasets say:   Census and Surveys; Census  (1 of 1 datasets)
+C0136	Dengue Serotyping, PCR with Direct RNA Sample in the Month of June 2013 at Rajiv Gandhi Centre for Biotechnology
+   catalog sector now: Science and Technology; Research & Development
+   its datasets say:   Health and Family welfare; Health  (1 of 1 datasets)
+C0137	Details Of Ferries Inland Water Transport In Karnataka
+   catalog sector now: Infrastructure; Roads
+   its datasets say:   Transport; Water ways  (3 of 5 datasets)
+C0138	Details Of Ferry Service Managed Departmentally Inland Water Transport In Karnataka
+   catalog sector now: Infrastructure
+   its datasets say:   Transport; Water ways  (3 of 5 datasets)
+C0139	Details of Adhoc Committees of Rajya Sabha
+   catalog sector now: Parliament Of india; Rajya Sabha
+   its datasets say:   Governance and Administration; Rajya Sabha  (2 of 2 datasets)
+C0140	Details of Department Related Parliamentary Standing Committees of Lok Sabha
+   catalog sector now: Parliament Of india; Lok Sabha
+   its datasets say:   Governance and Administration; Lok Sabha  (1 of 2 datasets)
+C0141	Details of Department Related to Parliamentary Standing Committees of Rajya Sabha
+   catalog sector now: Parliament Of india; Rajya Sabha
+   its datasets say:   Governance and Administration; Lok Sabha, Governance and Administration; Rajya Sabha  (1 of 2 datasets)
+C0142	Details of Incentives and Financial Assistance extended to MSME units in Karnataka as per Industrial Policy 2014-19
+   catalog sector now: Economy; Macro Economy
+   its datasets say:   Industries; Manufacturing  (1 of 1 datasets)
+C0143	Details of Joint Committees of Rajya Sabha
+   catalog sector now: Parliament Of india; Rajya Sabha
+   its datasets say:   Governance and Administration; Rajya Sabha  (2 of 2 datasets)
+C0144	Details of Lok Sabha Women Members
+   catalog sector now: Parliament Of india; Lok Sabha
+   its datasets say:   Governance and Administration; Lok Sabha  (1 of 2 datasets)
+C0145	Details of Programmes Conducted by Centre for Entrepreneurship Development of Karnataka
+   catalog sector now: Economy
+   its datasets say:   Health and Family welfare; Health  (2 of 3 datasets)
+C0146	Details of Rajya Sabha Women Members
+   catalog sector now: Parliament Of india; Rajya Sabha
+   its datasets say:   Governance and Administration; Rajya Sabha  (2 of 2 datasets)
+C0147	Details of Select Committees of Rajya Sabha
+   catalog sector now: Parliament Of india; Rajya Sabha
+   its datasets say:   Governance and Administration; Rajya Sabha  (2 of 2 datasets)
+C0148	Details of Standing Committees of Rajya Sabha
+   catalog sector now: Parliament Of india; Rajya Sabha
+   its datasets say:   Governance and Administration; Rajya Sabha  (2 of 2 datasets)
+C0149	Details of Water Supply (HSC) given for Corporations and Municipalities in Tamil Nadu
+   catalog sector now: Water and Sanitation; Drinking Water
+   its datasets say:   Governance and Administration; Local Government  (2 of 2 datasets)
+C0150	Dharmapuri District Hand Book 2017-18 : Storage Faculties
+   catalog sector now: Economy; Macro Economy
+   its datasets say:   Agriculture; Agricultural Produces  (1 of 1 datasets)
+C0151	Digital Access : Faridabad
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0152	Digital Access : Jalandhar
+   catalog sector now: Governance and Administration; Union/State Government Administration
+   its datasets say:   Information and Communications; Information and Technology  (1 of 1 datasets)
+C0153	Digital Access : Kohima
+   catalog sector now: Governance and Administration; Union/State Government Administration
+   its datasets say:   Information and Communications; Information and Technology  (1 of 1 datasets)
+C0154	Digital Availability : Agartala
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Information and Communications; Information and Technology  (1 of 1 datasets)
+C0155	Digital Availability : Agra
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Information and Communications; Information and Technology  (1 of 1 datasets)
+C0156	Digital Availability : Aizawl
+   catalog sector now: Governance and Administration; Union/State Government Administration
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0157	Digital Availability : Bareilly
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0158	Digital Availability : Coimbatore
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 2 datasets)
+C0159	Digital Availability : Dahod
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Information and Communications; Information and Technology  (1 of 1 datasets)
+C0160	Digital Availability : Dehradun
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Information and Communications; Information and Technology  (1 of 1 datasets)
+C0161	Digital Availability : Dharamshala
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Information and Communications; Information and Technology  (1 of 2 datasets)
+C0162	Digital Availability : Indore
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Finance; Revenue  (1 of 2 datasets)
+C0163	Digital Availability : Jaipur
+   catalog sector now: Governance and Administration; Union/State Government Administration
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0164	Digital Availability : Jhansi
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Information and Communications; Information and Technology  (1 of 1 datasets)
+C0165	Digital Availability : Kalyan Dombivli
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Information and Communications; Information and Technology  (1 of 2 datasets)
+C0166	Digital Availability : Karimnagar
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0167	Digital Availability : Madurai
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0168	Digital Availability : Moradabad
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Information and Communications; Information and Technology  (1 of 1 datasets)
+C0169	Digital Availability : Muzaffarpur
+   catalog sector now: Governance and Administration; Grievances
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0170	Digital Availability : NDMC
+   catalog sector now: Information and Communications; Information and Technology
+   its datasets say:   Urban; Development  (1 of 2 datasets)
+C0171	Digital Availability : Nagpur
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (2 of 2 datasets)
+C0172	Digital Availability : Namchi
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0173	Digital Availability : Pasighat
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Information and Communications; Information and Technology  (1 of 1 datasets)
+C0174	Digital Availability : Prayagraj
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0175	Digital Availability : Raipur
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Information and Communications; Information and Technology  (1 of 1 datasets)
+C0176	Digital Availability : Satna
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0177	Digital Availability : Silvassa
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Information and Communications; Information and Technology  (1 of 1 datasets)
+C0178	Digital Availability : Thanjavur
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0179	Digital Availability : Thiruvananthapuram
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Information and Communications; Information and Technology  (1 of 1 datasets)
+C0180	Digital Availability : Tirunelveli
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0181	Digital Availability : Tirupati
+   catalog sector now: Governance and Administration; Union/State Government Administration
+   its datasets say:   Information and Communications; Information and Technology  (1 of 1 datasets)
+C0182	Digital Availability : Varanasi
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Information and Communications; Information and Technology  (1 of 1 datasets)
+C0183	Digital Availability : Visakhapatnam
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Information and Communications; Information and Technology  (1 of 1 datasets)
+C0184	Digital Availability Reports : Erode
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (2 of 2 datasets)
+C0185	Digital Elevation Model (DEM) generated from Cartosat-1 Satellite data for India
+   catalog sector now: Environment and Forest; Ecology
+   its datasets say:   Science and Technology; Earth Sciences  (1 of 2 datasets)
+C0186	Digital Payments : Agartala
+   catalog sector now: Economy; Prices
+   its datasets say:   Commerce; Trade promotion  (1 of 1 datasets)
+C0187	Digital Payments : Aizawl
+   catalog sector now: Economy; Prices
+   its datasets say:   Commerce; Trade promotion  (1 of 1 datasets)
+C0188	Digital Payments : Dharamshala
+   catalog sector now: Economy; Prices
+   its datasets say:   Commerce; Trade promotion  (1 of 1 datasets)
+C0189	Digital Payments : Jaipur
+   catalog sector now: Economy; Prices
+   its datasets say:   Commerce; Trade promotion  (1 of 1 datasets)
+C0190	Digital Payments : Kalyan Dombivli
+   catalog sector now: Economy; Prices
+   its datasets say:   Commerce; Trade promotion  (1 of 2 datasets)
+C0191	Digital Payments : Kohima
+   catalog sector now: Economy; Prices
+   its datasets say:   Information and Communications; Information and Technology  (1 of 2 datasets)
+C0192	Digital Payments : Madurai
+   catalog sector now: Economy; Prices
+   its datasets say:   Commerce; Trade promotion  (1 of 1 datasets)
+C0193	Digital Payments : Patna
+   catalog sector now: Economy; Prices
+   its datasets say:   Finance; Revenue  (1 of 1 datasets)
+C0194	Digital Payments : Rourkela
+   catalog sector now: Economy; Prices
+   its datasets say:   Commerce; Trade promotion  (1 of 1 datasets)
+C0195	Digital Payments : Salem
+   catalog sector now: Economy; Prices
+   its datasets say:   Commerce; Trade promotion  (1 of 1 datasets)
+C0196	Digital Payments : Tirupati
+   catalog sector now: Economy; Prices
+   its datasets say:   Commerce; Trade promotion  (1 of 1 datasets)
+C0197	Digital Payments : Udaipur
+   catalog sector now: Infrastructure
+   its datasets say:   Economy; Prices  (1 of 2 datasets)
+C0198	Digital Payments : Varanasi
+   catalog sector now: Economy; Prices
+   its datasets say:   Commerce; Trade promotion  (1 of 1 datasets)
+C0199	Digital Seismotectonic Atlas of India and its Environs
+   catalog sector now: Environment and Forest; Ecology
+   its datasets say:   Science and Technology; Earth Sciences  (1 of 1 datasets)
+C0200	Digital availability : Rourkela
+   catalog sector now: Governance and Administration; Union/State Government Administration
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0201	Direction of Imports: Imports by Regions and Countries (Rs. Cr.)
+   catalog sector now: Finance; Economy
+   its datasets say:   Economy; Prices  (1 of 1 datasets)
+C0202	Directors and Joint Directors of various sections in Rajya Sabha
+   catalog sector now: Parliament Of india; Rajya Sabha
+   its datasets say:   Governance and Administration; Rajya Sabha  (2 of 2 datasets)
+C0203	Disaster : Kohima
+   catalog sector now: Environment and Forest; Natural Resources
+   its datasets say:   Governance and Administration; District Adminstration  (3 of 5 datasets)
+C0204	Discom final : Ujjain
+   catalog sector now: Governance and Administration; Union/State Government Administration
+   its datasets say:   Health and Family welfare; Health  (1 of 1 datasets)
+C0205	Diseases : Bilaspur
+   catalog sector now: Health and Family welfare; Health
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0206	Distribution of adverse fulfill teachers ratio : Ujjain
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Health and Family welfare; Health  (1 of 1 datasets)
+C0207	Distribution of persons of each sector of each State/UT over 12 classes of Monthly Per Capita Expenditure (URP)
+   catalog sector now: Economy; Prices
+   its datasets say:   Census and Surveys; Annual Health Survey  (1 of 2 datasets)
+C0208	District Hand Book : Civil Supplies
+   catalog sector now: Governance and Administration; District Adminstration
+   its datasets say:   Food; Public Distribution  (122 of 175 datasets)
+C0209	District Hand Book : Climate & Rainfall
+   catalog sector now: Census and Surveys; Census
+   its datasets say:   Environment and Forest; Water Quality  (60 of 120 datasets)
+C0210	District Hand Book : Co-Operative Societies
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Economy; Macro Economy  (9 of 10 datasets)
+C0211	District Hand Book : Co-operation
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Commerce; Companies  (18 of 29 datasets)
+C0212	District Hand Book : Communication
+   catalog sector now: Governance and Administration; District Adminstration
+   its datasets say:   Information and Communications; Telecom  (73 of 122 datasets)
+C0213	District Hand Book : Conservancy Services
+   catalog sector now: Environment and Forest; Sanitation
+   its datasets say:   Water and Sanitation; Sanitation  (5 of 8 datasets)
+C0214	District Hand Book : Mining and Quarrying
+   catalog sector now: Economy; Macro Economy
+   its datasets say:   Industries; Manufacturing  (43 of 66 datasets)
+C0215	District Hand Book : Motor Vehicles
+   catalog sector now: Economy; Prices
+   its datasets say:   Transport; Road Transport  (107 of 107 datasets)
+C0216	District Hand Book : Quality Control
+   catalog sector now: Economy; Prices
+   its datasets say:   Industries; Manufacturing  (17 of 18 datasets)
+C0217	District Hand Book : Recreation and Cultural Services
+   catalog sector now: Social Development; Children
+   its datasets say:   Art and Culture; Heritage  (73 of 79 datasets)
+C0218	District Hand Book : Repair and Service
+   catalog sector now: Governance and Administration; District Adminstration
+   its datasets say:   Industries; Manufacturing  (51 of 64 datasets)
+C0219	District Hand Book : Sanitary Services
+   catalog sector now: Environment and Forest; Sanitation
+   its datasets say:   Water and Sanitation; Sanitation  (53 of 68 datasets)
+C0220	District Hand Book : Scientific and Research Service
+   catalog sector now: Census and Surveys; Census
+   its datasets say:   Science and Technology; Research & Development  (17 of 27 datasets)
+C0221	District Hand Book : Scientific and Research Work
+   catalog sector now: Science and Technology; Research & Development
+   its datasets say:   Census and Surveys; Annual Health Survey  (1 of 2 datasets)
+C0222	District Hand Book : Social Welfare
+   catalog sector now: Governance and Administration; District Adminstration
+   its datasets say:   Social Development; Women  (143 of 241 datasets)
+C0223	District Hand Book : Storage Facilities
+   catalog sector now: Economy; Macro Economy
+   its datasets say:   Agriculture; Agricultural Produces  (44 of 74 datasets)
+C0224	District Hand Book : Trade and Commerce
+   catalog sector now: Economy; Macro Economy
+   its datasets say:   Commerce; Trade promotion  (27 of 32 datasets)
+C0225	District Hand Book : Transport
+   catalog sector now: Infrastructure; Roads
+   its datasets say:   Transport; Road Transport  (199 of 268 datasets)
+C0226	District Hand Book : Voluntary Services
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Social Development; Women  (28 of 38 datasets)
+C0227	District Wise Target of Adolescent Girls
+   catalog sector now: Social Development; Women
+   its datasets say:   Health and Family welfare; Family Welfare  (1 of 1 datasets)
+C0228	District level Cooperative Societies
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Commerce; Companies  (1 of 1 datasets)
+C0229	District wise Cooperative Consumer Stores in Madhya Pradesh
+   catalog sector now: Commerce; Trade promotion
+   its datasets say:   Food; Public Distribution  (1 of 1 datasets)
+C0230	District wise Farm Harvest Prices of Agricultural Commodities in Karnataka Rabi
+   catalog sector now: Economy; Prices
+   its datasets say:   Agriculture; Crops  (1 of 1 datasets)
+C0231	District-wise Artificial Insemination Development Centers in Punjab
+   catalog sector now: Agriculture; Animal Husbandry
+   its datasets say:   Animal Husbandry; Fishery  (4 of 7 datasets)
+C0232	District-wise Buffaloes in Punjab
+   catalog sector now: Agriculture; Animal Husbandry
+   its datasets say:   Animal Husbandry; Fishery  (17 of 32 datasets)
+C0233	District-wise Cross Breeds in Punjab
+   catalog sector now: Agriculture; Animal Husbandry
+   its datasets say:   Animal Husbandry; Fishery  (14 of 19 datasets)
+C0234	District-wise Horses and Ponies, Mules and Donkeys in Punjab
+   catalog sector now: Agriculture; Animal Husbandry
+   its datasets say:   Animal Husbandry; Fishery  (11 of 20 datasets)
+C0235	District-wise Pigs and Dogs in Punjab
+   catalog sector now: Agriculture; Animal Husbandry
+   its datasets say:   Animal Husbandry; Fishery  (11 of 21 datasets)
+C0236	District-wise Poultry in Punjab
+   catalog sector now: Agriculture; Animal Husbandry
+   its datasets say:   Animal Husbandry; Fishery  (7 of 12 datasets)
+C0237	District-wise Recognized Slaughter Houses and Animals Slaughtered there in Punjab
+   catalog sector now: Agriculture; Animal Husbandry
+   its datasets say:   Animal Husbandry; Fishery  (2 of 3 datasets)
+C0238	Division Wise Breakup of Staff Strength : Ujjain
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0239	Drinking water availability in school : Ujjain
+   catalog sector now: Water and Sanitation; Drinking Water
+   its datasets say:   Water Resources; Drinking Water  (1 of 1 datasets)
+C0240	Earnings Bus Trips : Kohima
+   catalog sector now: Economy; Prices
+   its datasets say:   Transport; Road Transport  (1 of 1 datasets)
+C0241	Economic Census
+   catalog sector now: Economy; Macro Economy
+   its datasets say:   Census and Surveys; Census  (1 of 1 datasets)
+C0242	Education Toilets : Madurai
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Water and Sanitation; Sanitation  (1 of 1 datasets)
+C0243	Election To The Vidhan Sabhas (State Legislative Assemblies)
+   catalog sector now: Census and Surveys; Census
+   its datasets say:   Governance and Administration; State Legislative  (4 of 6 datasets)
+C0244	Electricity : Agra
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Power and Energy; Renewable  (1 of 2 datasets)
+C0245	Electricity : Aizawl
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Power and Energy; Non Renewable  (2 of 4 datasets)
+C0246	Electricity : Atal Nagar
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Power and Energy; Non Renewable  (1 of 1 datasets)
+C0247	Electricity : Aurangabad
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0248	Electricity : Bilaspur
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0249	Electricity : Gwalior
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Power and Energy; Renewable  (1 of 1 datasets)
+C0250	Electricity : Jammu
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Power and Energy; Renewable  (1 of 1 datasets)
+C0251	Electricity : Kanpur
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Urban; Development  (3 of 3 datasets)
+C0252	Electricity : New Town Kolkata
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Urban; Development  (1 of 2 datasets)
+C0253	Electricity : Rourkela
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Power and Energy; Renewable  (1 of 1 datasets)
+C0254	Electricity : Salem
+   catalog sector now: Power and Energy; Renewable
+   its datasets say:   Infrastructure; Power  (1 of 2 datasets)
+C0255	Electricity : Silvassa
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Power and Energy; Renewable  (1 of 1 datasets)
+C0256	Electricity : Solapur
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Power and Energy; Non Renewable  (1 of 1 datasets)
+C0257	Electricity : Thoothukudi
+   catalog sector now: Infrastructure, Power and Energy
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0258	Electricity : Tirunelveli
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Power and Energy; Non Renewable  (1 of 1 datasets)
+C0259	Electricity : Tirupati
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Health and Family welfare; Health  (1 of 1 datasets)
+C0260	Electricity : Varanasi
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Power and Energy; Renewable  (1 of 1 datasets)
+C0261	Electricity : Visakhapatnam
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Power and Energy; Non Renewable  (1 of 1 datasets)
+C0262	Electricity : Warangal
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Power and Energy; Renewable  (1 of 1 datasets)
+C0263	Electricity Consumption : Kohima
+   catalog sector now: Economy; Prices
+   its datasets say:   Power and Energy; Renewable  (1 of 1 datasets)
+C0264	Electricity Consumption : Ujjain
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Power and Energy; Renewable  (1 of 1 datasets)
+C0265	Electricity Department : Sagar
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Power and Energy; Renewable  (2 of 4 datasets)
+C0266	Electricty : Bihar Sharif
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Power and Energy; Non Renewable  (1 of 1 datasets)
+C0267	Emergency Response : Pune
+   catalog sector now: Governance and Administration; Grievances
+   its datasets say:   Health and Family welfare; Health  (1 of 1 datasets)
+C0268	Employees of SWM : Ujjain
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0269	Employment by Sector - Industries
+   catalog sector now: Labour and Employment; Employment
+   its datasets say:   Industries; Manufacturing  (2 of 2 datasets)
+C0270	Employment exchanges Data
+   catalog sector now: Labour and Employment; Employment
+   its datasets say:   Economy; Prices  (2 of 2 datasets)
+C0271	Employment in Organised Sectors - Public and Private
+   catalog sector now: Labour and Employment; Employment
+   its datasets say:   Economy; Prices, Finance; Economy  (1 of 1 datasets)
+C0272	Employment in Public Sector and Private Sector
+   catalog sector now: Labour and Employment; Employment
+   its datasets say:   Economy; Macro Economy  (4 of 8 datasets)
+C0273	Energy : Kohima
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Power and Energy; Non Renewable  (1 of 1 datasets)
+C0274	Epayment available in Village Offices in Kerala
+   catalog sector now: Governance and Administration; Union/State Government Administration
+   its datasets say:   Health and Family welfare; Health  (1 of 1 datasets)
+C0275	Estimated Milk Egg Meat and Wool Production in Karnataka as per the Integrated Sample Survey for the year 2020-21
+   catalog sector now: Agriculture; Animal Husbandry
+   its datasets say:   Census and Surveys; Annual Health Survey  (1 of 1 datasets)
+C0276	Estimates Of Urban Transport Investments By High Powered Expert Committee (HPEC)
+   catalog sector now: Infrastructure; Roads
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0277	Evaluation of The Scheme - Rajiv Gandhi Grameen Vidyutikaran Yojana (RGGVY)
+   catalog sector now: Infrastructure; Power
+   its datasets say:   Power and Energy; Renewable  (8 of 9 datasets)
+C0278	Ex-Legal Cases : Ahmedabad
+   catalog sector now: Governance and Administration; Grievances
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0279	Exchange Rate of Rupee vis-a-vis Selected Currencies of the World
+   catalog sector now: Finance; Economy
+   its datasets say:   Economy; Prices  (4 of 6 datasets)
+C0280	Expenditure Incurred in Election to the Lok Sabha
+   catalog sector now: Governance and Administration; Lok Sabha
+   its datasets say:   Parliament Of india; Lok Sabha  (7 of 7 datasets)
+C0281	Expenditure of Zila Parishads in Punjab
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (3 of 6 datasets)
+C0282	Extra ULB Profile : Kohima
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0283	Female headed households by availability of bathing facility and type of drainage connectivity for waste water outlet
+   catalog sector now: Water and Sanitation; Sanitation
+   its datasets say:   Census and Surveys; Census  (83 of 99 datasets)
+C0284	Female headed households by availability of type of latrine facility
+   catalog sector now: Water and Sanitation; Sanitation
+   its datasets say:   Census and Surveys; Census  (93 of 99 datasets)
+C0285	Financial Health : Aizawl
+   catalog sector now: Economy; Macro Economy
+   its datasets say:   Health and Family welfare; Health  (1 of 1 datasets)
+C0286	Financial Health : Jaipur
+   catalog sector now: Economy; Macro Economy
+   its datasets say:   Health and Family welfare; Health  (1 of 1 datasets)
+C0287	Financial Health : Tirupati
+   catalog sector now: Economy; Macro Economy
+   its datasets say:   Health and Family welfare; Health  (1 of 1 datasets)
+C0288	Financial Health of the City : Kohima
+   catalog sector now: Economy; Macro Economy
+   its datasets say:   Urban; Development  (1 of 2 datasets)
+C0289	Financial Outcomes Under Mahatma Gandhi National Rural Employment Guarantee Act (NREGA)
+   catalog sector now: Governance and Administration; Union/State Government Administration, Economy; Macro Economy
+   its datasets say:   Rural; Development  (3 of 4 datasets)
+C0290	Financial Progress Of The Total Sanitation Campaign In Eleventh Plan During Financial Years
+   catalog sector now: Rural; Development, Urban; Development
+   its datasets say:   Water and Sanitation; Sanitation  (1 of 1 datasets)
+C0291	Financial and Physical Performance under the National Social Assistance Programme during 10th Five Year Plan
+   catalog sector now: Social Development; Women, Health and Family welfare; Family Welfare
+   its datasets say:   Rural; Development, Urban; Development  (1 of 1 datasets)
+C0292	Frequency of Milk Intake of beneficiary children at home - Based on Sample Survey
+   catalog sector now: Health and Family welfare; Family Welfare
+   its datasets say:   Education; Elementary  (1 of 1 datasets)
+C0293	Furniture For Students : Ujjain
+   catalog sector now: Housing; Urban Housing
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0294	Furniture for Teacher : Ujjain
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Education; Elementary  (1 of 1 datasets)
+C0295	Geographical info : Ujjain
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Water and Sanitation; Drinking Water  (1 of 1 datasets)
+C0296	Governance : Erode
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0297	Governance : Nagpur
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Parliament Of india; Lok Sabha  (1 of 2 datasets)
+C0298	Governance : Tiruppur
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0299	Government Assets : Pimpri Chinchwad
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (6 of 9 datasets)
+C0300	Gross Area Under Major Crops
+   catalog sector now: Agriculture; Crops
+   its datasets say:   Economy; Prices  (1 of 1 datasets)
+C0301	Growth Of Urban Population
+   catalog sector now: Housing; Urban Housing
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0302	Growth of Civil Aviation
+   catalog sector now: Transport; Aviation, Finance; Economy
+   its datasets say:   Economy; Macro Economy  (1 of 1 datasets)
+C0303	Growth of Postal Life Insurance And Rural Postal Life Insurance
+   catalog sector now: Finance; Insurance
+   its datasets say:   Industries; Insurance  (3 of 5 datasets)
+C0304	Head Master Required : Ujjain
+   catalog sector now: Governance and Administration; Union/State Government Administration
+   its datasets say:   Education; Elementary  (1 of 1 datasets)
+C0305	Headcount Ratio and Number of Poor Persons Below Poverty Line in India (Combined, Rural and Urban Both)
+   catalog sector now: Social Development; Women
+   its datasets say:   Rural; Development, Urban; Development  (1 of 1 datasets)
+C0306	Headcount Ratio and Number of Poor Persons Below Poverty Line in Rural and Urban India
+   catalog sector now: Social Development; Women
+   its datasets say:   Rural; Development, Urban; Development  (2 of 2 datasets)
+C0307	Health Infrastructure : Ranchi
+   catalog sector now: Health and Family welfare; Health
+   its datasets say:   Governance and Administration; Local Government  (1 of 2 datasets)
+C0308	High Value Data Sets of MDoNER
+   catalog sector now: Agriculture; Crops, Art and Culture; Heritage, Education; Elementary, Health and Family welfare; Health, Infrastructure; Roads, Power and Energy; Renewable, Youth and Sports; Youth Affairs
+   its datasets say:   Governance and Administration; Union/State Government Administration  (2 of 4 datasets)
+C0309	Hotels : Chandigarh
+   catalog sector now: Travel and Tourism; Lodging
+   its datasets say:   Industries; Tourism  (1 of 1 datasets)
+C0310	House less population : Ujjain
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Housing; Urban Housing  (1 of 1 datasets)
+C0311	Household Consumer Expenditure: National Sample Survey
+   catalog sector now: Economy; Prices
+   its datasets say:   Census and Surveys; Annual Health Survey  (11 of 14 datasets)
+C0312	Household Toilets Built under SBMG
+   catalog sector now: Rural; Development
+   its datasets say:   Water and Sanitation; Sanitation  (1 of 1 datasets)
+C0313	Households : Madurai
+   catalog sector now: Urban; Development
+   its datasets say:   Housing; Urban Housing  (1 of 1 datasets)
+C0314	Households by availability of bathing facility and type of drainage connectivity for waste water outlet
+   catalog sector now: Environment and Forest; Sanitation
+   its datasets say:   Census; House listing and Housing Census  (2 of 3 datasets)
+C0315	Households by availability of type of latrine facility
+   catalog sector now: Water and Sanitation; Sanitation
+   its datasets say:   Census; House listing and Housing Census  (3 of 3 datasets)
+C0316	Households by main source of drinking water and its location
+   catalog sector now: Water and Sanitation; Drinking Water
+   its datasets say:   Census; House listing and Housing Census  (2 of 3 datasets)
+C0317	Housing & Slums : Aurangabad
+   catalog sector now: Housing; Urban Housing
+   its datasets say:   Infrastructure; Roads  (1 of 2 datasets)
+C0318	Housing & Slums : Bareilly
+   catalog sector now: Housing; Urban Housing
+   its datasets say:   Census and Surveys; Socio-economic & Caste Census  (1 of 2 datasets)
+C0319	Housing & Slums : Pasighat
+   catalog sector now: Housing; Urban Housing
+   its datasets say:   Social Development; Women  (3 of 3 datasets)
+C0320	Housing & Slums : Thiruvananthapuram
+   catalog sector now: Housing; Urban Housing
+   its datasets say:   Census; House listing and Housing Census  (2 of 2 datasets)
+C0321	Housing Slum : Dahod
+   catalog sector now: Urban; Development
+   its datasets say:   Housing; Urban Housing  (1 of 1 datasets)
+C0322	Housing and Slum Population : Kakinada
+   catalog sector now: Housing; Urban Housing
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0323	Housing and Slum Population : Warangal
+   catalog sector now: Housing; Urban Housing
+   its datasets say:   Census; House listing and Housing Census  (1 of 1 datasets)
+C0324	Hyper spectral Images from Remote Sensing Satellite IMS-1
+   catalog sector now: Environment and Forest; Ecology
+   its datasets say:   Science and Technology; Research & Development  (1 of 1 datasets)
+C0325	ICCC : Kohima
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0326	ICCC : Raipur
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0327	INCENTIVES AND CONCESSIONS SANCTIONED UNDER AGRI POLICY
+   catalog sector now: Agriculture; Agricultural Marketing
+   its datasets say:   Industries; Small Scale  (4 of 4 datasets)
+C0328	ITC Neighbouhood 1 : Dharamshala
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0329	ITC Neighbourhood : 2 : Muzaffarpur
+   catalog sector now: Urban; Development
+   its datasets say:   Census; Population Enumerator  (1 of 1 datasets)
+C0330	ITC Neighbourhood : Amaravati
+   catalog sector now: Urban; Development, Transport; Road Transport
+   its datasets say:   Social Development; Children  (1 of 2 datasets)
+C0331	ITC Neighbourhood : Aurangabad
+   catalog sector now: Housing; Urban Housing
+   its datasets say:   Urban; Development  (1 of 2 datasets)
+C0332	ITC Neighbourhood : Davanagere
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Social Development; Women  (1 of 2 datasets)
+C0333	ITC Neighbourhood : Dharamshala
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0334	ITC Neighbourhood : Gwalior
+   catalog sector now: Urban; Development
+   its datasets say:   Information and Communications; Information and Technology  (1 of 2 datasets)
+C0335	ITC Neighbourhood : Hubballi-Dharwad
+   catalog sector now: Urban; Development
+   its datasets say:   Information and Communications; Information and Technology  (1 of 1 datasets)
+C0336	ITC Neighbourhood : Jhansi
+   catalog sector now: Urban; Development
+   its datasets say:   Social Development; Children  (1 of 1 datasets)
+C0337	ITC Neighbourhood : Kalyan Dombivli
+   catalog sector now: Urban; Development
+   its datasets say:   Information and Communications; Information and Technology  (10 of 13 datasets)
+C0338	ITCNeighbouhood 1 : Shivamogga
+   catalog sector now: Urban; Development
+   its datasets say:   Social Development; Children  (1 of 1 datasets)
+C0339	Implementation Agency-wise Utilization of Funds - Based on Sample Survey
+   catalog sector now: Economy; Macro Economy
+   its datasets say:   Labour and Employment; Employment  (1 of 1 datasets)
+C0340	Implementation Report Under Mahatma Gandhi National Rural Employment Guarantee Act (MNREGA)
+   catalog sector now: Labour and Employment; Employment
+   its datasets say:   Rural; Development  (11 of 11 datasets)
+C0341	Incidence of Livestock Diseases In India
+   catalog sector now: Agriculture; Animal Husbandry
+   its datasets say:   Animal Husbandry; Fishery  (1 of 2 datasets)
+C0342	Income and Expenditure of Red Cross Societies in Punjab
+   catalog sector now: Economy; Macro Economy
+   its datasets say:   Health and Family welfare; Health  (3 of 4 datasets)
+C0343	Index Number and Average rate of daily wages paid to certain categories of Agricultural Labourers by Districts in Tamil Nadu : SCR
+   catalog sector now: Economy; Prices
+   its datasets say:   Agriculture; Agricultural Research & Extension  (5 of 6 datasets)
+C0344	Index Numbers of Area under Principal Crops
+   catalog sector now: Agriculture; Crops, Finance; Economy
+   its datasets say:   Economy; Prices  (1 of 1 datasets)
+C0345	Index Numbers of Wholesale Prices
+   catalog sector now: Finance; Economy
+   its datasets say:   Economy; Prices  (1 of 1 datasets)
+C0346	Index Numbers of Wholesale Prices - Relative Prices of Manufactured and Agricultural Products
+   catalog sector now: Finance; Economy
+   its datasets say:   Economy; Prices  (1 of 1 datasets)
+C0347	Index Numbers of Wholesale Prices - Selected Commodities and Commodity Groups
+   catalog sector now: Finance; Economy
+   its datasets say:   Economy; Prices  (1 of 1 datasets)
+C0348	Index Numbers of Yield of Principal Crops
+   catalog sector now: Agriculture; Crops
+   its datasets say:   Economy; Prices  (1 of 1 datasets)
+C0349	Individual Scientist Projects with Institute of Bioresources and Sustainable Development, Imphal
+   catalog sector now: Health and Family welfare; Health
+   its datasets say:   Science and Technology; Research & Development  (1 of 1 datasets)
+C0350	Information on Development Authority : Guwahati
+   catalog sector now: Governance and Administration; Union/State Government Administration
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0351	Infrastructure Distribution : Agartala
+   catalog sector now: Housing; Urban Housing
+   its datasets say:   Infrastructure; Roads  (1 of 1 datasets)
+C0352	Infrastructure Distribution : Amritsar
+   catalog sector now: Housing; Urban Housing
+   its datasets say:   Census and Surveys; Census  (1 of 1 datasets)
+C0353	Infrastructure Distribution : Davanagere
+   catalog sector now: Infrastructure; Roads
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0354	Infrastructure Distribution : Jalandhar
+   catalog sector now: Housing; Urban Housing
+   its datasets say:   Infrastructure; Roads  (1 of 1 datasets)
+C0355	Infrastructure Distribution : Saharanpur
+   catalog sector now: Housing; Urban Housing
+   its datasets say:   Infrastructure; Roads  (1 of 1 datasets)
+C0356	Infrastructure Distribution : Udaipur
+   catalog sector now: Census and Surveys; Census
+   its datasets say:   Infrastructure; Roads  (1 of 1 datasets)
+C0357	Infrastructure Distribution : Vadodara
+   catalog sector now: Census; House listing and Housing Census
+   its datasets say:   Infrastructure; Roads  (1 of 1 datasets)
+C0358	Injuries & Fatalities : Pune
+   catalog sector now: Transport; Road Transport
+   its datasets say:   Health and Family welfare; Health  (2 of 3 datasets)
+C0359	Intersections : Agartala
+   catalog sector now: Infrastructure; Roads
+   its datasets say:   Urban; Development  (2 of 2 datasets)
+C0360	Intersections : Dahod
+   catalog sector now: Infrastructure; Roads
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0361	Intersections : Kavaratti
+   catalog sector now: Infrastructure; Roads
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0362	Intersections : Kohima
+   catalog sector now: Transport; Road Transport
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0363	Intersections : Tiruppur
+   catalog sector now: Infrastructure; Roads
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0364	Intersections : Warangal
+   catalog sector now: Infrastructure; Roads
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0365	Investment Requirement Estimates By High Powered Expert Committee (HPEC) - Water and Sanitation/Storm Water Drainage
+   catalog sector now: Infrastructure; Roads
+   its datasets say:   Water and Sanitation; Sanitation  (1 of 1 datasets)
+C0366	Investment and Consumption Expenditure as proportion of GDP at constant prices
+   catalog sector now: Finance
+   its datasets say:   Economy; Macro Economy  (1 of 1 datasets)
+C0367	Jalau Kasht Utpadan : Ujjain
+   catalog sector now: Urban; Development
+   its datasets say:   Industries; Manufacturing  (1 of 1 datasets)
+C0368	Jan Shikshak CRC Visits : Ujjain
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Health and Family welfare; Health  (1 of 1 datasets)
+C0369	Janahita Complaints Details
+   catalog sector now: Urban; Development
+   its datasets say:   Governance and Administration; Grievances  (1 of 1 datasets)
+C0370	Kanmai : Madurai
+   catalog sector now: Environment and Forest; Ecology
+   its datasets say:   Water and Sanitation; Drinking Water  (1 of 1 datasets)
+C0371	Kitchen Shed School : Ujjain
+   catalog sector now: Governance and Administration; Union/State Government Administration
+   its datasets say:   Health and Family welfare; Health  (1 of 1 datasets)
+C0372	Land Utilization
+   catalog sector now: Agriculture; Crops
+   its datasets say:   Environment and Forest; Natural Resources  (1 of 1 datasets)
+C0373	Landmark
+   catalog sector now: Travel and Tourism; Places
+   its datasets say:   Industries; Retail  (1 of 1 datasets)
+C0374	Landmarks GIS Data : Tiruchirappalli
+   catalog sector now: Governance and Administration; Local Government
+   its datasets say:   Art and Culture; Heritage  (1 of 1 datasets)
+C0375	Length of Roads : Shimla
+   catalog sector now: Infrastructure; Roads
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0376	Life Insurance Revenue Account of The Life Insurance Corporation of India
+   catalog sector now: Finance; Insurance
+   its datasets say:   Industries; Insurance  (2 of 4 datasets)
+C0377	Lighting in Streets Public Parks Gardens and Open Spaces : Chandigarh
+   catalog sector now: Infrastructure; Roads
+   its datasets say:   Urban; Development  (1 of 1 datasets)
+C0378	List of Lok Sabha Members
+   catalog sector now: Parliament Of india; Lok Sabha
+   its datasets say:   Governance and Administration; Lok Sabha  (3 of 4 datasets)
+C0379	List of Monthly Remuneration/ Pay Scale of Bioprocessing Unit Staff And System of Compensation
+   catalog sector now: Science and Technology; Research & Development
+   its datasets say:   Health and Family welfare; Health  (1 of 1 datasets)
+C0380	List of Monuments
+   catalog sector now: Travel and Tourism; Places
+   its datasets say:   Art and Culture; Monuments  (1 of 1 datasets)
+C0381	List of Rajya Sabha Members who have either Resigned/ Died/ Ceased/ Retired or have been elected to Lok Sabha
+   catalog sector now: Parliament Of india; Rajya Sabha
+   its datasets say:   Governance and Administration; Rajya Sabha  (2 of 2 datasets)
+C0382	List of Starred and Unstarred Questions by Lok Sabha Members
+   catalog sector now: Parliament Of india; Lok Sabha
+   its datasets say:   Governance and Administration; Lok Sabha  (1 of 2 datasets)
+C0383	Livelihood options in Central Himalaya
+   catalog sector now: Environment and Forest; Forest Resources
+   its datasets say:   Social Development; Tribal  (1 of 1 datasets)
+C0384	Livestock Population
+   catalog sector now: Agriculture; Animal Husbandry
+   its datasets say:   Animal Husbandry; Fishery  (1 of 1 datasets)
+C0385	Loans received and houses constructed by Punjab Urban Planning and Development Authority
+   catalog sector now: Housing; Urban Housing
+   its datasets say:   Commerce; Companies  (1 of 1 datasets)

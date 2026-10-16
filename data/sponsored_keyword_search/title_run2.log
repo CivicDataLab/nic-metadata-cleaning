@@ -1,0 +1,34 @@
+Could not read /media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/metadata.db (IO Error: Could not set lock on file "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/metadata.db": Conflicting lock is held in /usr/share/dbeaver-ce/jre/bin/java (PID 11143). See also https://duckdb.org/docs/stable/connect/concurrency); using sponsored_keyword_search_report.csv for the dataset list.
+11611 datasets, 106993 title queries (41439 distinct searches); 366 titles give no query.
+3144 searches to fetch.
+  search: 110/3144 in 15s, 0 failed
+  search: 228/3144 in 30s, 0 failed
+  search: 358/3144 in 45s, 0 failed
+  search: 516/3144 in 60s, 1 failed
+  search: 573/3144 in 75s, 1 failed
+  search: 701/3144 in 90s, 2 failed
+  search: 802/3144 in 106s, 2 failed
+  search: 849/3144 in 121s, 2 failed
+  search: 969/3144 in 136s, 3 failed
+  search: 1080/3144 in 151s, 3 failed
+  search: 1280/3144 in 166s, 3 failed
+  search: 1495/3144 in 181s, 3 failed
+  search: 1707/3144 in 196s, 3 failed
+  search: 1920/3144 in 211s, 3 failed
+  search: 1986/3144 in 226s, 3 failed
+  search: 2042/3144 in 242s, 3 failed
+  search: 2116/3144 in 257s, 3 failed
+  search: 2211/3144 in 272s, 3 failed
+  search: 2414/3144 in 287s, 3 failed
+  search: 2560/3144 in 302s, 3 failed
+  search: 2756/3144 in 317s, 3 failed
+  search: 2884/3144 in 332s, 3 failed
+  search: 2948/3144 in 348s, 3 failed
+  search: 2987/3144 in 363s, 5 failed
+  search: 3144/3144 in 378s, 5 failed
+  failed: ('main', '&ps') - search for '&ps' (main) failed: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  failed: ('smartcities', '&ss') - search for '&ss' (smartcities) failed: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  failed: ('main', '& time') - search for '& Time' (main) failed: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  failed: ('main', '&id') - search for '&id' (main) failed: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  failed: ('main', '&ss') - search for '&ss' (main) failed: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+5 searches failed; nothing written. Re-run to retry them (finished ones are cached).

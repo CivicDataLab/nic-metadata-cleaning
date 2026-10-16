@@ -1,0 +1,25 @@
+2026-07-03 11:53:30,770 : INFO - 46 requested | 15 already in results | 31 to submit | out=../matched_sheet_nids_llm_output.csv
+2026-07-03 11:53:55,493 : INFO - Loaded 31 source rows for 31 nid(s)
+2026-07-03 11:53:55,836 : INFO - Wrote 31 requests to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_requests_20260703_115355_nidsfile.jsonl
+2026-07-03 11:55:18,854 : INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2026-07-03 11:55:18,934 : INFO - Uploaded batch_requests_20260703_115355_nidsfile.jsonl → file_id=file-LG5Pc9qC1yAqZcru4XDcfe
+2026-07-03 11:55:22,008 : INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2026-07-03 11:55:22,012 : INFO - Batch submitted - batch_id=batch_6a47a328ebcc8190945afb4a14b07364  status=validating
+2026-07-03 11:55:22,012 : INFO - Submitted batch(es): ['batch_6a47a328ebcc8190945afb4a14b07364'] — polling...
+2026-07-03 11:55:22,487 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6a47a328ebcc8190945afb4a14b07364 "HTTP/1.1 200 OK"
+2026-07-03 11:55:22,520 : INFO - [batch_6a47a328ebcc8190945afb4a14b07364] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-07-03 11:56:23,009 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6a47a328ebcc8190945afb4a14b07364 "HTTP/1.1 200 OK"
+2026-07-03 11:56:23,011 : INFO - [batch_6a47a328ebcc8190945afb4a14b07364] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-07-03 11:57:23,707 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6a47a328ebcc8190945afb4a14b07364 "HTTP/1.1 200 OK"
+2026-07-03 11:57:23,714 : INFO - [batch_6a47a328ebcc8190945afb4a14b07364] status=in_progress error_file_id=None total=31  completed=23  failed=0
+2026-07-03 11:58:24,400 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6a47a328ebcc8190945afb4a14b07364 "HTTP/1.1 200 OK"
+2026-07-03 11:58:24,401 : INFO - [batch_6a47a328ebcc8190945afb4a14b07364] status=completed error_file_id=None total=31  completed=31  failed=0
+2026-07-03 11:58:25,200 : INFO - HTTP Request: GET https://api.openai.com/v1/files/file-Gn9JXT2oN86Db5ESuaTGgH/content "HTTP/1.1 200 OK"
+2026-07-03 11:58:25,903 : INFO - Parsed 31 result(s) from output file
+2026-07-03 11:58:25,904 : INFO - Raw output saved to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/batch_output_batch_6a47a328ebcc8190945afb4a14b07364.jsonl
+2026-07-03 11:58:26,961 : INFO - Appended 31 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/text_generation/llm_keyword_results.csv
+2026-07-03 11:58:32,240 : INFO - Appended 31 rows to /home/aakash/NIC/Newfolder/nic-metadata-cleaning/transformation/metadata.db::llm_keyword_results (total: 541)
+2026-07-03 11:58:32,340 : INFO - Wrote 46 deduped rows to ../matched_sheet_nids_llm_output.csv
+2026-07-03 11:58:32,347 : INFO - Done. 46 rows in ../matched_sheet_nids_llm_output.csv
+
+Output CSV -> ../matched_sheet_nids_llm_output.csv (46 rows)

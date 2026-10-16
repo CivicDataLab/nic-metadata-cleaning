@@ -1,0 +1,24 @@
+id	new_catalog_title	reason
+487	District Central Cooperative Bank branches with IFSC	Remove stray space-hyphen
+538	District wise Soyabean Production in Madhya Pradesh	Capitalize Pradesh
+570	Madhya Pradesh - Driving Licence Details Year Wise (2011-2014)	Space before parenthesis
+571	Madhya Pradesh - Issue Permit Details Year Wise (2011-2014)	Space before parenthesis
+572	Madhya Pradesh Lerner Licence Year Wise (2011-2014)	Space before parenthesis
+573	Madhya Pradesh New Vehicle Registration Year Wise (2011-2014)	Space before parenthesis
+578	Property Tax Recovery Campaign of all Municipal Councils and Town Panchayats in Maharashtra	Fix spelling: Maharshtra
+628	Mining Department, Maharashtra	Fix spelling: Maharshtra
+662	Rainfall Data for Parbhani Maharashtra	Fix spelling: Mahrashtra
+667	Rainfall Data of Latur District, Maharashtra	Fix spelling: Maharahstra
+680	SQAAF District Wise Self Evaluation Status of Maharashtra	Acronym in capitals: Sqaaf → SQAAF
+720	Ayush Hospitals and Bed Strength and Dispensaries in India	Replace & with and
+789	State Wide Area Network (SWAN) Point of Presence (PoP)	Fix typo: Poin → Point
+834	Net Exported Solar Power - Summary Batch I	Add spaces around dash
+835	Net Exported Solar Power - Summary Batch II	Add spaces around dash
+836	Net Exported Solar Power - Summary Migration	Add spaces around dash
+837	Net Exported Solar Power - Summary Phase I, RPSSGP	Add spaces around dash
+838	Net Exported Solar Power - Summary RPSSGP	Add spaces around dash
+1013	Newspapers, periodicals and books published in Punjab	Space after comma
+1021	Number of Unemployed Educated and Uneducated applicants in Punjab	Remove hyphens, fix typo, capitalize
+1022	Number of Unemployed Skilled and Unskilled applicants in Punjab	Remove hyphens, fix typo, capitalize
+1090	Towns, shops, commercial establishments, hotels and restaurants and persons employed therein	Spaces after commas
+1104	Wages paid to agricultural and skilled labourers (Men) in Punjab	Space before paren, capitalize

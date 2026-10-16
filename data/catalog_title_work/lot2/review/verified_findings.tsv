@@ -1,0 +1,17 @@
+kind	old_title	new_name	issue	suggested
+BAD_NAME	Property Tax MC Shimla (2013-2018)	Property Tax MC - ( : Shimla	stray '- (' left after dropping the period	Property Tax MC : Shimla
+BAD_NAME	Solid Waste Management of Muzaffarpur City.	Solid Waste Management - . : Muzaffarpur	stray '- .'	Solid Waste Management : Muzaffarpur
+BAD_NAME	Electricity of Muzaffarpur City.	Electricity - . : Muzaffarpur	stray '- .'	Electricity : Muzaffarpur
+BAD_NAME	Schools Established Since 1994 of Ujjain	Schools Established Since : Ujjain	year lost, 'Since' dangles	Schools Established Since 1994 : Ujjain
+BAD_NAME	VAT & GST from 2014-15 to 2017-18 : Tiruchirappalli	VAT & GST from : Tiruchirappalli	'from' dangles	VAT & GST : Tiruchirappalli
+BAD_NAME	Crimes from 2014-15 to 2017-18 : Tiruchirappalli	Crimes from : Tiruchirappalli	'from' dangles	Crimes : Tiruchirappalli
+BAD_NAME	SWM Year-2018 of Ujjain	SWM Year : Ujjain	leftover 'Year'	SWM : Ujjain
+BAD_NAME	SOLID WASTE MANAGEMENT EFFICIENCY IN RANCHI 2019 DATA	Solid Waste Management Efficiency - Data : Ranchi	stray '-'	Solid Waste Management Efficiency : Ranchi
+BAD_NAME	Public Toilets Data of Ranchi City as per Swachhta Survekshan 2019	Public Toilets Data - as per Swachhta Survekshan : Ranchi	stray '-'	Public Toilets Data as per Swachhta Survekshan : Ranchi
+BAD_NAME	Solid Waste Management : Management	Solid Waste Management : Management : Mangaluru	doubled 'Management' segment	Solid Waste Management : Mangaluru
+BAD_NAME	BudgetforOpenspacesdevelopment:<udaipur> 2011	Budgetfor Openspacesdevelopment : Udaipur	words still run together	Budget for Open Spaces Development : Udaipur
+BAD_NAME	Itanagar Smart City HouseHolds	House Holds : Itanagar	split word	Households : Itanagar
+BAD_NAME	COVID 19 Naya Raipur	COVID 19 : Atal Nagar	publisher says Naya Raipur	COVID 19 : Naya Raipur
+BAD_NAME	test catalog : city name	Test catalog : city name : Pune	placeholder catalog in the source given a real city	review with owner
+REVIEW_MERGE	Ocean Data and Information System	Ocean Information System	different wording, 1 dataset each; low confidence	keep separate unless same series
+REVIEW_MERGE	Forest Cover Andaman and Nicobar Islands; District wise forest cover	Forest Cover	1-UT and 71-dataset district catalog under national/state name; low confidence	confirm table structure

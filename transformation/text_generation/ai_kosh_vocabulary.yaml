@@ -1,0 +1,258 @@
+# =============================================================================
+# AIKosh Keyword Vocabulary  —  multi-sector AIKosh resource catalogue
+# =============================================================================
+# Controlled keyword list used by `ai_kosh_assign_keywords.py` to tag the
+# datasets in `AIKosh_ResourceCatalogMappingWithdata.gov.in_withResouceNID.xlsx`.
+#
+# This corpus spans ~20 sectors (health, education, water/irrigation,
+# environment, agriculture, livestock, transport, energy, finance, ...), so the
+# rules below are broad. Maintain by hand: add patterns + keywords, re-run the
+# script, the `keywords` column updates.
+#
+# Design rules (enforced in code where noted):
+#   * Keywords describe ONLY the indicator / subject of the dataset — WHAT the
+#     data is about. Not where (no state names), not when (no year / month /
+#     periodicity), not scope phrases ("state-wise", "district-wise").
+#   * Every keyword is 1 or 2 words. Longer entries are rejected at load time.
+#   * Plain words only. Acronyms (UDISE, PMGSY, NAMP, ...) are translated to a
+#     layman term ("school data", "rural roads") rather than emitted raw.
+#
+# How a rule works:
+#   - `patterns` : list of case-insensitive regex. If ANY matches the dataset's
+#                  combined text (dataset_name + Catalog + short_description),
+#                  the rule fires and its keywords are added.
+#   - `keywords` : 1-2 word controlled keywords added when the rule fires.
+# Patterns match on WORDS, never on dash characters (the source has mangled
+# en-dashes), and avoid "<x>-wise" scope fragments.
+# =============================================================================
+
+limits:
+  max_keywords: 8
+
+rules:
+
+  # ----------------------------------------------------------------- HEALTH ---
+  - category: hmis_item_wise
+    patterns: ['item[- ]?wise', '\bhmis\b', 'health management information',
+               'data item comparison']
+    keywords: [health, health report, hmis]
+  - category: annual_health_survey
+    patterns: ['annual health survey', '\bahs\b']
+    keywords: [health, health survey]
+  - category: cab_survey
+    patterns: ['clinical, anthropometric', 'anthropometric', 'bio-?chemical',
+               '\bcab\b survey', '\bcab\b']
+    keywords: [health, nutrition, health survey]
+  - category: nfhs
+    patterns: ['\bnfhs\b', 'national family health survey', 'family health survey']
+    keywords: [health, health survey, family health]
+  - category: dlhs
+    patterns: ['\bdlhs\b', 'district level household survey']
+    keywords: [health, health survey]
+  - category: maternal_child
+    patterns: ['maternal', 'pregnan', 'antenatal', 'institutional deliver',
+               'childbirth', 'newborn', 'new ?born', 'infant', 'child health']
+    keywords: [maternal health, child health]
+  - category: immunisation
+    patterns: ['immunis', 'immuniz', 'vaccinat', '\bbcg\b', 'polio', 'measles',
+               'pentavalent']
+    keywords: [immunisation, vaccination, child health]
+  - category: family_planning
+    patterns: ['family planning', 'contracept', 'steril[iy]s', 'tubectomy',
+               'vasectomy']
+    keywords: [family planning, health]
+  - category: diseases
+    patterns: ['tuberculosis', '\btb\b', 'malaria', '\bhiv\b', '\baids\b',
+               'dengue', 'diarrh', 'anaemia', 'anemia', 'diabet', 'hypertension']
+    keywords: [disease, health]
+  - category: hospital_facility
+    patterns: ['hospital', 'primary health centre', 'community health centre',
+               'sub-?centre', '\bphc\b', '\bchc\b', 'dispensar',
+               'health facilit', 'public facilit', 'performing public',
+               'delivery report', 'ethics committee']
+    keywords: [health facility, health]
+  - category: ayush
+    patterns: ['ayush', 'ayurved', 'homeopath', 'unani', 'siddha']
+    keywords: [ayush, health]
+
+  # -------------------------------------------------------------- EDUCATION ---
+  - category: school_education
+    patterns: ['udise', 'school', 'enrol', 'student', 'literacy']
+    keywords: [education, school data]
+  - category: teacher
+    patterns: ['teacher']
+    keywords: [education, teacher data]
+  - category: higher_education
+    patterns: ['college', 'university', 'higher education', '\baishe\b']
+    keywords: [education, higher education]
+  - category: skill_development
+    patterns: ['skill development', 'vocational', 'training programme',
+               'apprentice']
+    keywords: [skills, training]
+
+  # ------------------------------------------------------------ ENVIRONMENT ---
+  - category: air_quality
+    patterns: ['air quality', 'ambient air', 'particulate matter', '\bnamp\b',
+               'air pollut']
+    keywords: [air quality, pollution]
+  - category: water_quality
+    patterns: ['water quality', 'river water', 'pollut.*water']
+    keywords: [water quality, pollution]
+  - category: forest_land
+    patterns: ['forest', 'wasteland', 'land use', 'land cover', 'wildlife',
+               'biodiversity']
+    keywords: [forest, land use]
+  - category: climate_weather
+    patterns: ['rainfall', 'meteorolog', '\bimd\b', 'climate', 'temperature',
+               'monsoon']
+    keywords: [rainfall, weather]
+
+  # ----------------------------------------------------- WATER & IRRIGATION ---
+  - category: minor_irrigation
+    patterns: ['minor irrigation', 'irrigation census', 'irrigation scheme']
+    keywords: [irrigation, water]
+  - category: tubewell
+    patterns: ['tubewell', 'tube well', 'borewell', 'dug ?well', 'lift scheme',
+               'surface flow', 'ground ?water', 'command area', 'watershed',
+               'pmksy']
+    keywords: [groundwater, irrigation]
+  - category: sanitation
+    patterns: ['sanitation', 'toilet', 'open defecation', 'swachh']
+    keywords: [sanitation, water]
+  - category: drinking_water
+    patterns: ['drinking water', 'jal jeevan', 'tap connection', 'water suppl',
+               'water bodies', 'water body']
+    keywords: [drinking water, water]
+
+  # ------------------------------------------------------------ AGRICULTURE ---
+  - category: crops
+    patterns: ['\bcrop', 'production.*yield', 'area.*production', 'cultivat',
+               'plantation', 'horticultur', 'foodgrain', 'agricultur']
+    keywords: [agriculture, crops]
+  - category: rural_development
+    patterns: ['mission antyodaya', 'village amenit', 'rural road',
+               'gram sadak', 'pmgsy', 'rural development', 'mgnrega', 'nrega',
+               'panchayat', 'soil moisture', 'evapotranspiration', 'soil health']
+    keywords: [rural development, village data]
+  - category: land_holding
+    patterns: ['land holding', 'land holder', 'operational holding', 'hectare']
+    keywords: [land holding, agriculture]
+
+  # --------------------------------------------------- LIVESTOCK & FISHERIES --
+  - category: livestock
+    patterns: ['livestock', 'cattle', 'buffalo', '\bgoat', 'sheep', '\bcow',
+               'poultry', 'animal husbandry', '\bpig', '\bhorse', 'egg production',
+               'wool production', 'meat production']
+    keywords: [livestock, animal data]
+  - category: dairy
+    patterns: ['milk production', '\bdairy\b', 'milk yield']
+    keywords: [dairy, milk production]
+  - category: fisheries
+    patterns: ['fisher', 'aquacultur', 'fish production', 'marine',
+               'matsya sampada', '\bmatsya\b']
+    keywords: [fisheries, fish data]
+
+  # -------------------------------------------------- COMMERCE & ENTERPRISE ---
+  - category: msme
+    patterns: ['\bmsme\b', 'udyog aadhaar', 'micro.*small.*medium', 'enterprise']
+    keywords: [msme, enterprises]
+  - category: banking_finance
+    patterns: ['\bbank', 'deposit', 'credit', 'financial data', 'insurance',
+               'public sector bank']
+    keywords: [banking, finance]
+  - category: budget_expenditure
+    patterns: ['budget', 'expenditure', 'plan outlay', 'disinvestment',
+               'receipts', 'fiscal', 'subsid', 'public debt', 'external assistance',
+               'disbursement', 'public account']
+    keywords: [budget, public finance]
+  - category: trade
+    patterns: ['\bimport', '\bexport', 'commodit', 'principal commod', '\bport\b',
+               'foreign trade']
+    keywords: [trade, imports]
+  - category: industry_production
+    patterns: ['industrial production', '\biip\b', 'startup', 'patent',
+               'company master', 'registrar of compan', 'industrial', 'factories',
+               '\bnic\b 2-digit', 'state domestic product', 'per capita.*product']
+    keywords: [industry, production index]
+
+  # ---------------------------------------------------------------- ENERGY ----
+  - category: power_supply
+    patterns: ['power supply', 'peak demand', 'peak met', 'electricity',
+               'power generation', 'energy consumption']
+    keywords: [power, electricity]
+  - category: lpg_fuel
+    patterns: ['\bpmuy\b', '\blpg\b', '\bdbtl\b', 'cooking gas', 'kerosene',
+               'petroleum product']
+    keywords: [lpg, fuel]
+  - category: renewable
+    patterns: ['renewable', 'solar', 'wind energy', 'biogas', 'hydro']
+    keywords: [renewable energy, power]
+
+  # -------------------------------------------------------------- TRANSPORT ---
+  - category: road_accidents
+    patterns: ['road accident', 'accidents classified', 'persons killed',
+               'traffic violation', 'fatalit', 'traffic control']
+    keywords: [road accidents, road safety]
+  - category: vehicles
+    patterns: ['registered.*vehicle', 'transport vehicle', 'motor vehicle',
+               'vehicle.*use']
+    keywords: [vehicles, transport]
+  - category: aviation
+    patterns: ['airline', 'air traffic', 'passengers.*freight', 'aircraft',
+               'aviation', 'flight', 'airport', 'airsewa']
+    keywords: [aviation, air traffic]
+  - category: public_transport
+    patterns: ['\bsrtu', '\bstu\b', 'psrtu', 'road transport undertaking',
+               'road transport corporation', 'state transport', 'public transport',
+               'bus servic']
+    keywords: [public transport, transport]
+  - category: railways
+    patterns: ['railway', '\btrain\b', 'rail traffic']
+    keywords: [railways, transport]
+
+  # ----------------------------------------------- CHEMICALS, MINING, FOOD ---
+  - category: fertiliser
+    patterns: ['fertili[sz]er', '\burea\b', '\bnpk\b', '\bdap\b', '\bmop\b',
+               'nitrogen.*phosphorus']
+    keywords: [fertiliser, chemicals]
+  - category: chemicals_petrochem
+    patterns: ['petrochemical', 'chemicals', 'production of major chemical']
+    keywords: [chemicals, production]
+  - category: mining_minerals
+    patterns: ['mineral', 'mining', '\bore\b', 'coal', 'quarry']
+    keywords: [mining, minerals]
+  - category: commodity_prices
+    patterns: ['retail price', 'wholesale price', 'price of', 'consumer price',
+               '\bcpi\b']
+    keywords: [prices, commodity prices]
+
+  # ------------------------------------------------- GOVERNANCE & ECONOMY ----
+  - category: crime_safety
+    patterns: ['accidental death', 'fire accident', 'forces of nature',
+               'casualt', 'crime', 'suicide']
+    keywords: [accidents, safety]
+  - category: census_population
+    # Bare 'population' is intentionally excluded: it appears in many unrelated
+    # descriptions (livestock population, target population) and mis-tags them.
+    patterns: ['population census', '\bcensus\b', 'demograph', 'sex ratio',
+               'aadhaar', 'crude birth', 'crude death', 'fertility rate']
+    keywords: [population, census]
+  - category: governance_digital
+    patterns: ['etaal', 'etransaction', 'bharatnet', 'digital', 'e-?governance',
+               'service ready']
+    keywords: [governance, digital services]
+  - category: government_administration
+    patterns: ['legislative assembly', 'rajya sabha', 'lok sabha', 'parliament',
+               'council of ministers', 'notary', '\bcag\b', 'audit report',
+               'local government directory', '\blgd\b', 'municipalit', 'ward ',
+               'government employee', 'civil servant', 'property card',
+               'iap district']
+    keywords: [governance, administration]
+  - category: economy_accounts
+    patterns: ['national account', 'gdp', 'gross domestic', 'economic',
+               'at a glance']
+    keywords: [economy, statistics]
+  - category: telecom
+    patterns: ['telephone', 'telecom', 'mobile', 'broadband', 'subscriber',
+               'teledensity', 'pincode', 'pin code']
+    keywords: [telecom, communications]

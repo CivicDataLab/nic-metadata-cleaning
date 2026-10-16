@@ -1,0 +1,99 @@
+C0004	Economy; Macro Economy	establishment-age statistics, not governance
+C0011	Science and Technology; Research & Development	R&D proposals catalog; X Health does not fit
+C0023	Science and Technology; Geo Technology	ISRO satellite geoportal, not ecology
+C0026	Water Resources; Surface Water	surface water boundaries, not water quality
+C0028	Urban; Development	open-space budget is urban; X was malformed (comma)
+C0032	Urban; Development	CCTV cameras are city facilities, not roads
+C0033	Health and Family welfare; Health	COVID-19 details are health data
+C0039	Urban; Development	chain-link fencing is city infrastructure, not roads
+C0040	Rural; Development, Urban; Development	non-farm household income; not roads
+C0042	Social Development; Children	child assistance scheme, not internal security
+C0043	Governance and Administration; Local Government	citizen facilitation centres, not family welfare
+C0053	Census and Surveys; Census	city profile is census data; X mixed housing and employment
+C0061	Water Resources; Ground Water	ground water levels, not water quality
+C0063	Water and Sanitation; Drinking Water	well usage; Economy does not fit
+C0069	Industries; Petroleum and Natural Gas	petroleum commodity balance, not finance
+C0074	Urban; Development	community facilities are urban, not housing
+C0080	Urban; Development	community facilities are urban, not housing
+C0082	Urban; Development	community facilities, not macro economy
+C0086	Urban; Development	community facility is urban, not housing
+C0088	Rural; Development, Urban; Development	poverty estimates, not women
+C0089	Governance and Administration; Union/State Government Administration	state corporation building details, not enforcement
+C0095	Information and Communications; Post	courier services are postal
+C0096	Home Affairs and Enforcement; Police	crime data
+C0098	Home Affairs and Enforcement; Police	crime data, not grievances
+C0099	Home Affairs and Enforcement; Police	crime data, not grievances
+C0100	Home Affairs and Enforcement; Police	crime data, not grievances
+C0101	Home Affairs and Enforcement; Police	crime data, not grievances
+C0102	Home Affairs and Enforcement; Police	crime data, not grievances
+C0103	Home Affairs and Enforcement; Police	crime data, not grievances
+C0104	Home Affairs and Enforcement; Police	crime data, not grievances
+C0105	Home Affairs and Enforcement; Police	crime data, not grievances
+C0107	Home Affairs and Enforcement; Police	crime data; X Para Military Forces does not fit
+C0108	Home Affairs and Enforcement; Police	crime data, not grievances
+C0109	Home Affairs and Enforcement; Police	crime data, not grievances
+C0112	Social Development; Children	crimes against children
+C0137	Transport; Water ways	inland water transport ferries, not roads
+C0138	Transport; Water ways	ferry service is water transport
+C0150	Agriculture; Agricultural Produces	DHB storage facilities follow the topic
+C0169	Urban; Development	digital availability, not grievances
+C0185	Science and Technology; Geo Technology	DEM from satellite data, not ecology
+C0186	Finance; Banking	digital payments, not prices
+C0187	Finance; Banking	digital payments, not prices
+C0188	Finance; Banking	digital payments, not prices
+C0189	Finance; Banking	digital payments, not prices
+C0190	Finance; Banking	digital payments, not prices
+C0191	Finance; Banking	digital payments, not prices
+C0192	Finance; Banking	digital payments, not prices
+C0193	Finance; Banking	digital payments, not prices
+C0194	Finance; Banking	digital payments, not prices
+C0195	Finance; Banking	digital payments, not prices
+C0196	Finance; Banking	digital payments, not prices
+C0197	Finance; Banking	digital payments, not infrastructure
+C0198	Finance; Banking	digital payments, not prices
+C0199	Science and Technology; Earth Sciences	seismotectonic atlas, not ecology
+C0201	Commerce; Import	import statistics
+C0204	Infrastructure; Power	DISCOM is a power distribution company
+C0208	Food; Public Distribution	DHB civil supplies follow the topic
+C0209	Science and Technology; Atmospheric Science	DHB climate and rainfall follow the topic
+C0210	Commerce; Companies	DHB co-operative societies follow the topic
+C0211	Commerce; Companies	DHB co-operation follows the topic
+C0212	Information and Communications; Telecom	DHB communication follows the topic
+C0214	Industries	DHB mining and quarrying; no mining sub-sector
+C0215	Transport; Road Transport	DHB motor vehicles follow the topic
+C0216	Industries; Manufacturing	DHB quality control follows the datasets and topic
+C0217	Art and Culture; Heritage	DHB recreation and cultural services follow the topic
+C0218	Industries; Manufacturing	DHB repair and service follows the datasets
+C0220	Science and Technology; Research & Development	DHB scientific research service follows the topic
+C0222	Social Development	DHB social welfare follows the topic
+C0223	Agriculture; Agricultural Produces	DHB storage facilities follow the topic
+C0224	Commerce; Trade promotion	DHB trade and commerce follows the topic
+C0225	Transport; Road Transport	DHB transport follows the topic
+C0226	Social Development	DHB voluntary services follow the topic, not local government
+C0228	Commerce; Companies	district co-operative societies, not local government
+C0229	Food; Consumer Cooperatives	consumer co-operative stores
+C0240	Transport; Road Transport	bus trip earnings
+C0243	Governance and Administration; State Legislative	Vidhan Sabha elections, not census
+C0254	Infrastructure; Power	general electricity, not renewable only
+C0257	Infrastructure; Power	electricity; X was malformed (comma)
+C0263	Infrastructure; Power	electricity consumption, not prices
+C0289	Rural; Development	MGNREGA financial outcomes; X mixed unrelated pairs
+C0290	Water and Sanitation; Sanitation	Total Sanitation Campaign
+C0291	Rural; Development, Urban; Development	national social assistance; X mixed women and family welfare
+C0293	Education; Elementary	school furniture
+C0301	Urban; Development	urban population growth, not housing
+C0302	Transport; Aviation	civil aviation; Finance dropped
+C0305	Rural; Development, Urban; Development	poverty headcount, not women
+C0306	Rural; Development, Urban; Development	poverty headcount, not women
+C0308	Governance and Administration; Union/State Government Administration	ministry-level catalog spanning many sectors
+C0324	Science and Technology; Geo Technology	satellite remote sensing images, not ecology
+C0349	Science and Technology; Research & Development	scientist projects at a research institute
+C0351	Infrastructure; Roads	infrastructure distribution, not housing
+C0352	Infrastructure; Roads	infrastructure distribution, not housing
+C0354	Infrastructure; Roads	infrastructure distribution, not housing
+C0355	Infrastructure; Roads	infrastructure distribution, not housing
+C0356	Infrastructure; Roads	infrastructure distribution, not census
+C0357	Infrastructure; Roads	infrastructure distribution, not census listing
+C0365	Water and Sanitation; Sanitation	storm water drainage investment, not roads
+C0369	Governance and Administration; Grievances	complaint details
+C0377	Urban; Development	street lighting in city, not roads

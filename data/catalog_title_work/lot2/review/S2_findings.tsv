@@ -1,0 +1,10 @@
+kind	old_title	new_title	reason	suggested_name
+FRAGMENT	Schools Established Since 1994 of Ujjain	Schools Established Since : Ujjain	Year removed leaves dangling "Since"	Schools Established Since 1994 : Ujjain
+FRAGMENT	VAT & GST from 2014-15 to 2017-18 : Tiruchirappalli	VAT & GST from : Tiruchirappalli	Period removed leaves dangling "from"	VAT & GST : Tiruchirappalli
+FRAGMENT	PropertyTax MC Shimla (2013-2018)	Property Tax MC - ( : Shimla	Stray "- (" fragment left after year removal	Property Tax MC : Shimla
+FRAGMENT	SWM Year-2018 of Ujjain	SWM Year : Ujjain	"Year" left as fragment after year dropped	SWM : Ujjain
+OTHER	Solid Waste Management of Muzaffarpur City.	Solid Waste Management - . : Muzaffarpur	Stray punctuation "- ." introduced	Solid Waste Management : Muzaffarpur
+OTHER	SOLID WASTE MANAGEMENT EFFICIENCY IN RANCHI 2019 DATA	Solid Waste Management Efficiency - Data : Ranchi	Stray "- " left before "Data" after year removal	Solid Waste Management Efficiency Data : Ranchi
+OTHER	Public Toilets Data of Ranchi City as per Swachhta Survekshan  2019	Public Toilets Data - as per Swachhta Survekshan : Ranchi	Stray "-" introduced; survey year 2019 distinguishes the survey edition	Public Toilets Data as per Swachhta Survekshan 2019 : Ranchi
+WRONG_PLACE	Solid Waste Management : Management	Solid Waste Management : Management : Mangaluru	Old title has no place; duplicated "Management" segment left in; city unsupported by title (verify source)	Solid Waste Management : Mangaluru
+OTHER	test catalog : city name	Test catalog : city name : Pune	Placeholder/test catalog given a real city and a malformed triple name	(verify; likely exclude or keep as is)

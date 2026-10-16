@@ -3,26 +3,114 @@
 pip
 /venv
 
-scripts/__pycache__/
+# Python caches
+__pycache__/
+*.pyc
 
-/data/first_batch_datasets
-/data/first_batch_downloads
+# Claude Code local settings and exported research notes
+.claude/
+/compass_artifact_*.md
+
+# Office / WPS lock files
+.~*
+~$*
+
+# Local caches, backups, pickles and database files
+.cache/
+*.bak
+*.pkl
 *.db
-
-/transformation/token.json
-
+*.ducklake
+*.ducklake.wal
+/data/row_count_cache_*.csv
+*_cache.jsonl
 /transformation/metadata.db
 /transformation/token.json
-pii_test/__pycache__
-# Lot 3 downloaded files
+
+# Downloaded dataset files
+/data/first_batch_datasets
+/data/first_batch_downloads
+/data/final_batch_downloads/
+/data/aikosh_missing_downloads/
 lot3_downloads/
+
+# Backups and PII test samples
+/data/backups/
+/pii_test/pii-test-sample-files/pii-test-sample/
+/pii_test/pii-test-sample-files/pii-test-sample.zip
+
+# Captcha images rewritten on every download run
+/scripts/captcha.jpeg
+upscaled.png
 
 # Files over 100MB (GitHub push limit)
 /data/direct_merged/combined_household_houselist_information_under_annual_health_survey.csv
 /data/direct_merged/annual_health_survey_woman_schedule_section_i.csv
-/data/aikosh_missing_downloads/9b8eaebe-8934-4093-b33d-7d0814aae554.csv
-/transformation/metadata.db.*.bak
 /pii_test/pii-test-sample-files/pii-test-sample/pii-present/Combined Household Houselist Information under Annual Health Survey in Tehri Garhwal, Uttarakhand.csv
 /transformation/text_generation/llm_keyword_results.csv
-
 /transformation/vertical_merge_groups.csv
+/dcat_all_lots.xlsx
+/dcat_all_lots_old_new.csv
+/dcat_all_lots_old_new.xlsx
+/dublin_core_all_lots.xlsx
+/dublin_core_all_lots_old_new.csv
+/dublin_core_all_lots_old_new.xlsx
+/hvd_scoring/hvd_scores_all.csv
+/hvd_scoring/hvd_scores_v2.csv
+
+# Generated exports and data files over 10MB (kept local)
+/data/per_lot_sheets/
+/aikosh_db_resource_updated.csv
+/data/Record Count for Lot 1 datasets by merge method.xlsx
+/data/Record Count for Lot 2 datasets by merge method - non-mergeable datasets.csv
+/data/Record Count for all datasets under Curate.xlsx
+/data/archival_remaining/dataset_signatures_remaining.csv
+/data/archival_remaining/dublin_core_remaining_.csv
+/data/collection_work/cal/packs/table_index.tsv
+/data/collection_work/packs/table_index.tsv
+/data/dcat_transformed/dcat_catalog_all_lots.xlsx
+/data/dublin_core_transformed/dublin_catalog_all_lots.xlsx
+/data/hmis_itemwise_state_level_merged.csv
+/data/hmis_itemwise_state_level_merged_collections/Item-wise_Cumulative_HMIS_report_at_State_level_from_financial_year_2008-09_to_2013-14.csv
+/data/hmis_itemwise_state_level_merged_collections/Item-wise_Cumulative_HMIS_report_at_State_level_from_financial_year_2017-18_to_2019-20.csv
+/data/hmis_itemwise_state_level_merged_collections/Item-wise_Monthly_HMIS_report_at_State_level_from_financial_year_2008-09_to_2013-14.csv
+/data/hmis_itemwise_state_level_merged_collections/Item-wise_Monthly_HMIS_report_at_State_level_from_financial_year_2017-18_to_2019-20.csv
+/data/hmis_itemwise_subdistrict_merged/hmis_itemwise_subdistrict_assam_cumulative_Apr-2009-10_to_Mar-2016-17.csv
+/data/hmis_itemwise_subdistrict_merged/hmis_itemwise_subdistrict_assam_cumulative_Apr-2017-18_to_Jun-2020-21.csv
+/data/hmis_itemwise_subdistrict_merged/hmis_itemwise_subdistrict_assam_monthly_Apr-2009-10_to_Mar-2016-17.csv
+/data/hmis_itemwise_subdistrict_merged/hmis_itemwise_subdistrict_assam_monthly_Apr-2017-18_to_Jun-2020-21.csv
+/data/hmis_itemwise_subdistrict_merged/hmis_itemwise_subdistrict_odisha_cumulative_Apr-2017-18_to_Jun-2020-21.csv
+/data/hmis_itemwise_subdistrict_merged/hmis_itemwise_subdistrict_odisha_cumulative_Sep-2011-12_to_Mar-2016-17.csv
+/data/hmis_itemwise_subdistrict_merged/hmis_itemwise_subdistrict_odisha_monthly_Apr-2017-18_to_Jun-2020-21.csv
+/data/hmis_itemwise_subdistrict_merged/hmis_itemwise_subdistrict_odisha_monthly_Sep-2011-12_to_Mar-2016-17.csv
+/data/hvd_score_test.csv
+/data/sector_format_audit_rows.csv
+/data/spatial_extract_cache.jsonl
+/data/sponsored_keyword_search/title_search_cache.jsonl
+/dcat_catalog_all_lots_old_new.csv
+/dcat_lot3.xlsx
+/dcat_metadata.xlsx
+/dcat_remaining.xlsx
+/dublin_catalog_all_lots_old_new.csv
+/dublin_core_Lot1.xlsx
+/dublin_core_lot3.xlsx
+/dublin_core_metadata.xlsx
+/dublin_core_remaining.xlsx
+/hvd_scoring/High value Dataset Scoring on all datasets - with state department.xlsx
+/hvd_scoring/High value Dataset Scoring on all datasets.xlsx
+/hvd_scoring/hvd_lot2.csv
+/hvd_scoring/hvd_scores_api.csv
+/hvd_scoring/hvd_scores_collections.csv
+/hvd_scoring/hvd_scores_dublin_core_metadata.csv
+/hvd_scoring/hvd_scores_dublin_core_remaining_20260915.csv
+/hvd_scoring/updated HVD scoring script.zip
+/hvd_scoring/updated HVD scoring script/dublin_core_metadata.xlsx
+/lot3_keywords.xlsx
+/remaining_raw_datasets.xlsx
+/transformation/education_collections.csv
+/transformation/home_affairs_collections.csv
+/transformation/lot1_hvd.csv
+/transformation/rajya_sabha_collections.csv
+/transformation/text_generation/controlled_keyword_assignments.csv
+/transformation/undownloadable_meta_snapshot.parquet
+/transformation/utils/backfill_snapshot_dublin_core_remaining_20260818_095928.csv

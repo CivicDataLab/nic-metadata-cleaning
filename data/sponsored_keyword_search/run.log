@@ -1,0 +1,14 @@
+11611 datasets with sponsored keywords (273 on smartcities.data.gov.in), 1185 keyword searches, 23158 dataset x keyword checks.
+Pass 1 (match): 0 batches to fetch.
+Pass 2 (rank): 0 keyword searches to fetch.
+
+sponsored_keyword_search over 11611 datasets:
+  first         104    0.9%
+  top 10        695    6.0%
+  found        3606   31.1%
+  not found    7206   62.1%
+Per dataset x keyword (23158): not found 18019, result 3489, grouped 740, beyond 478, hidden 432
+42 keyword searches return no results at all: Arunachal Pradesh (smartcities), FTE, ITA, KPI, Karnataka (smartcities), MoPNG, SC (smartcities), SCM (smartcities), ST (smartcities), STP (smartcities), Uttar Pradesh (smartcities), WMS, agROClimatic, agroecology, airtraffic, anomaly, biodiesel, chromite, climatology, consulate ...
+uuid disagreements on nid matches: 0
+Report: /media/aak/246AF1266AF0F580/nic-metadata-cleaning/data/sponsored_keyword_search/sponsored_keyword_search_report.csv
+Wrote dublin_core_remaining.sponsored_keyword_search on 11611 rows (106110 left NULL).

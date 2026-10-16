@@ -1,0 +1,16 @@
+merge_method,old datasets,new datasets,old catalogs,new catalogs,datasets with row_count,datasets without row_count,total rows,collections missing a member's count
+curate,17809,400,281,190,17809,0,18706827,0
+direct,18426,47,60,28,18425,1,34777876,1
+change_in_header,16584,651,318,130,16584,0,3674122,0
+non-mergeable,57923,57923,6563,5907,,,,
+to be removed,829,0,215,163,,,,
+TOTAL,111571,59021,6858,6085,52818,1,57158825,1
+
+Notes
+"Source: dublin_core_remaining (lot 2), one sheet per merge_method. Left out: 'no header' and 'failed to download' (3,477 and 1,370 datasets, none downloaded) and 'unverified' (1,303 downloaded datasets whose collection has a member that failed to download)."
+"New Dataset Title = Collection; datasets without one (non-mergeable, to be removed) show new_title."
+"Year, Month, Financial_Year, Quarter, State: the stored columns (NA = empty). District: taken from the title ('... for X District of Y') where merge_add_columns names district. Other merge_add_columns dimensions (airline, jail_type, ...) have no stored value."
+"Row counts are only for the datasets that get merged (curate, direct, change_in_header); the non-mergeable and to be removed sheets list the datasets without counts."
+"row_count = data rows in the downloaded file after one header row, blank rows skipped. csv: records as parsed, so quoted line breaks do not add rows; xls: first non-empty sheet; json: record count. Files that are not tables, or were never downloaded, have no count - see row_count_note."
+collection_total_row_count = sum of row_count over the collection's datasets that have a count; it is merged down the collection's rows.
+"old/new catalogs are distinct counts, so TOTAL is counted over all rows, not summed."

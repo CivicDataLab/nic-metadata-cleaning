@@ -1,0 +1,726 @@
+== OWNER: (no publisher)
+[1] new = old: AgroStack Gadchiroli Maharashtra
+[2] new = old: Daily Rainfall Data for Ahilyanagar City (Ahmadnagar) Maharashtra
+[3] new = old: Vehicle Statistics
+
+== OWNER: Andhra Pradesh / Agriculture and Marketing Department, Andhra Pradesh
+[4] new = old: APMARKFED RBK Wise Procurement Details
+[5] new = old: APMARKFED Season Wise Procurement Details
+
+== OWNER: Andhra Pradesh / Information Technology and Communications Department, Andhra Pradesh
+[6] new = old: AP State Public Grievance Redressal and Monitoring Mechanism
+
+== OWNER: Assam / Finance Department, Assam
+[7] new = old: Assam Public Procurement Data
+
+== OWNER: Chhattisgarh / Food, Civil Supplies and Consumer Protection Department, Chhattisgarh
+[8] new = old: Details of Paddy Procurement centres in Chhattisgarh
+[9] new = old: Details of registered rice mills in Chhattisgarh
+[10] new = old: Fair Price Shops in Chhattisgarh
+
+== OWNER: Chhattisgarh / Panchayat and Rural Development Department, Chhattisgarh
+[11] new = old: Ground Water Development in Chhattisgarh
+[12] new = old: Irrigation Potential Development in Chhattisgarh
+
+== OWNER: Comptroller And Auditor General of India(CAG)
+[13] new = old: CAG Local Bodies Audit Reports
+[14] new = old: CAG State Audit Reports
+[15] new = old: CAG Union Audit Reports
+[16] new = old: Capital Expenditure
+[17] new = old: Capital Receipts
+[18] new = old: Loans And Advances Disbursements
+[19] new = old: Loans And Advances Receipts
+[20] new = old: Plan Expenditure
+[21] new = old: Public Account Disbursements
+[22] new = old: Public Account Receipts
+[23] new = old: Public Debt Disbursements
+[24] new = old: Public Debt Receipts
+[25] new = old: Revenue Expenditure
+[26] new = old: Revenue Receipts
+[27] new = old: Total Expenditure And Disbursements
+[28] new = old: Total Receipts
+
+== OWNER: Delhi (NCT) / Education Department, Delhi
+[29] new = old: Delhi Government School Details
+
+== OWNER: Delhi (NCT) / Health and Family Welfare Department, Delhi
+[30] new = old: OPD Registration Data
+
+== OWNER: Department of Atomic Energy
+[31] new = old: GCNEP Special Courses
+[32] new = old: Patient treatment statistics Tata Memorial Centre, Mumbai
+
+== OWNER: Department of Minor Irrigation
+[33] new = old: 6th Minor Irrigation Census Data
+
+== OWNER: Department of Space
+[34] new = old: Albedo derived from Oceansat-2 Ocean Color Monitor (OCM)
+[35] new = old: Bhuvan Android Apps
+[36] new = old: Bhuvan Applications
+[37] new = old: Bhuvan Geoportal of NRSC/ISRO
+[38] new = old: Digital Elevation Model (DEM) generated from Cartosat-1 Satellite data for India
+[39] new = old: Hyper spectral Images from Remote Sensing Satellite IMS-1
+[40] new = old: LISS III data download : Indian Remote Sensing Satellite Resourcesat-1
+[41] new = old: Model Derived Depth of 26C Isotherm
+[42] new = old: Model Derived Tropical Cyclone Heat Potential
+[43] new = old: Normalized Difference Vegetation Index (NDVI) derived from Oceansat-2 Ocean Color Monitor (OCM)
+[44] new = old: Ocean Heat Content
+[45] new = old: Ocean Wind Stress
+[46] new = old: Ocean Wind Stress Curl
+[47] new = old: Ocean Wind Velocity
+[48] new = old: The Advanced Wide Field Sensor (AWiFS): Indian Remote Sensing Satellite Resourcesat-2
+[49] new = old: Tropical Cyclone Heat Potential
+[50] new = old: Vegetation Fraction derived from Oceansat-2 Ocean Color Monitor (OCM)
+[51] new = old: Water Bodies Fraction
+
+== OWNER: Election Commission of India
+[52] new = old: General Election to Lok Sabha 2024 - Statistical Reports Data
+
+== OWNER: Gujarat / General Administration Department, Gujarat
+[53] new = old: Animal Husbandry and Dairying Statistics in Gujarat State
+[54] new = old: Annual Estimates of GSDP, NSDP and Per Capita Income of Gujarat
+[55] new = old: Annual Survey of Industries Results of Gujarat
+[56] new = old: Area, Production and Yield of Major crops of Gujarat State
+[57] new = old: Banking Statistics in Gujarat
+[58] new = old: Consumer Price Indices (CPI) of Gujarat
+[59] new = old: District-wise Figures At a Glance as per Census - Gujarat
+[60] new = old: Livestock Census in Gujarat State
+[61] new = old: Railway Route Length in Gujarat
+[62] new = old: Rainfall In Gujarat
+[63] new = old: State Transport Bus Depot of Gujarat
+[64] new = old: Statistics Related to Fishing and allied activities
+
+== OWNER: Gujarat / Surat Municipal Corporation
+[65] new = old: Surat Citizen Centric Services
+
+== OWNER: Haryana / Economic and Statistical Analysis Department, Haryana
+[66] new = old: Area and population - Haryana Statistical Abstract
+[67] new = old: Education Indicators - Haryana Statistical Abstract
+[68] new = old: Electricity and power - Haryana Statistical Abstract
+[69] new = old: Environment statistics (climate) - Haryana Statistical Abstract
+[70] new = old: Health and family welfare Indicators - Haryana Statistical Abstract
+[71] new = old: Industries Indicators - Haryana Statistical Abstract
+[72] new = old: Social security and social defence (police, crime and sudharghar) - Haryana Statistical Abstract
+[73] new = old: Social welfare services - Haryana Statistical Abstract
+[74] new = old: Vital statistics - Haryana Statistical Abstract
+
+== OWNER: Himachal Pradesh / Economics and Statistics Department, Himachal Pradesh
+[75] new = old: Himachal Pradesh State Abstract - Agriculture
+[76] new = old: Himachal Pradesh State Abstract - Education
+[77] new = old: Himachal Pradesh State Abstract - Food and Supply
+[78] new = old: Himachal Pradesh State Abstract - Health
+[79] new = old: Himachal Pradesh State Abstract - Horticulture
+[80] new = old: Himachal Pradesh State Abstract - Industry and Mining
+[81] new = old: Himachal Pradesh State Abstract - Labour and Employment
+[82] new = old: Himachal Pradesh State Abstract - Police and Crime
+[83] new = old: HImachal Pradesh State Abstract - Power
+[84] new = old: Himachal Pradesh State Abstract - Tourism
+
+== OWNER: Jharkhand / Gumla
+[85] new = old: Gram Sampati Gumla
+
+== OWNER: Karnataka
+[86] new = old: Ayush Services
+[87] new = old: District Wise GOK Sanctioned list of Post Matric and Merit Cum Means Scholarship
+[88] new = old: Karnataka Agricultural Market Data
+[89] new = old: State Medical Blacklisted Drugs Details
+
+== OWNER: Karnataka / Agricultural Marketing Department, Karnataka
+[90] new = old: List of APMCs
+
+== OWNER: Karnataka / Agriculture Department, Karnataka
+[91] new = old: Agricultural Technology Management Agency (ATMA)
+[92] new = old: Agriculture Dealer License Report
+[93] new = old: Agriculture Inputs
+[94] new = old: Budget Allocation
+[95] new_catalog_title: Crop Survey of Karnataka
+      old_catalog_title (2):
+        - Crop Survey of Bagalkot District of Karnataka
+        - Crop Survey of Belagavi District of Karnataka
+[96] new_catalog_title: Crop Survey of Karnataka For Kharif Season
+      old_catalog_title (111 in all, 6 shown):
+        - Crop Survey of BANGALORE URBAN District of Karnataka For Kharif Season 2021-2022
+        - Crop Survey of Chamarajanagara District of Karnataka For Kharif Season 2019-2020
+        - Crop Survey of Davanagere District of Karnataka For Kharif Season 2021-2022
+        - Crop Survey of Koppal District of Karnataka For Kharif Season 2020-21
+        - Crop Survey of UDUPI District of Karnataka For Kharif Season 2018-19
+        - Crop Survey of mandya District of Karnataka For Kharif Season 2021-2022
+[97] new_catalog_title: Crop Survey of Karnataka For Rabi Season
+      old_catalog_title (54 in all, 6 shown):
+        - Crop Survey of BANGALORE URBAN District of Karnataka For Rabi Season 2019-2020
+        - Crop Survey of Bidar District of Karnataka For Rabi Season 2021-22
+        - Crop Survey of Davanagere District of Karnataka For Rabi Season 2019-20
+        - Crop Survey of Ramanagara District of Karnataka For Rabi Season 2019-2020
+        - Crop Survey of Vijayapura District of Karnataka For Rabi Season 2019-20
+        - Crop Survey of mandya District of Karnataka For Rabi Season 2021-2022
+[98] new_catalog_title: Crop Survey of Karnataka For Summer Season
+      old_catalog_title (36 in all, 6 shown):
+        - : Crop Survey of Shimoga District of Karnataka For Summer Season 2019-2020
+        - Crop Survey of Chamarajanagara District of Karnataka For Summer Season 2020-2021
+        - Crop Survey of Davanagere District of Karnataka For Summer Season 2020-2021
+        - Crop Survey of Ramanagara District of Karnataka For Summer Season 2020-2021
+        - Crop Survey of Yadagir District of Karnataka For Summer Season 2020-21
+        - Crop Survey of mandya District of Karnataka For Summer Season 2020-2021
+[99] new = old: District Wise Machinery Wise Farm Mechanization Beneficiaries
+[100] new = old: District Wise Micro Irrigation Beneficiaries
+[101] new = old: District Wise Number of Beneficiaries of Agro Processing
+[102] new = old: Karnataka State District Wise Seed Distribution 2021-22
+[103] new = old: Locations of Raita Samparka Kendra in Karnataka
+[104] new = old: National Food Security Mission Districtwise Beneficiaries 2020-21
+[105] new = old: Pesticide Manufacturers in Karnataka
+[106] new = old: PM-KISAN
+[107] new = old: PRADHAN MANTRI FASAL BIMA YOJANA
+[108] new = old: Vehicle Permit Details
+
+== OWNER: Karnataka / Animal Husbandry and Fisheries Department, Karnataka
+[109] new = old: Artifical Insemination of Cattle and Buffaloes for tfor the year 2020-21 in Karnataka
+[110] new = old: Contact Details
+[111] new = old: Distress Relief Fund for Fishermen
+[112] new = old: Estimated Milk Egg Meat and Wool Production in Karnatakaas per the Integarted Sample survey for the year 2020-21
+[113] new = old: Fish Farm Details
+[114] new = old: Fisheries Office Contact Details
+[115] new = old: Fisheries Statistical Information
+[116] new = old: Fisheries_Water_Resource
+[117] new = old: Pradhan Mantri Matsya Sampada Yojana Beneficiary Details
+[118] new = old: Subsidy on Electricity Used by Fisheries Ice Plants in Karnataka
+[119] new = old: Vaccination of Animals in Karnataka for the year 2020-21
+
+== OWNER: Karnataka / Backward Classes Department, Karnataka
+[120] new = old: Kranthi Veera Sangolli Rayanna Work details
+[121] new = old: Scholarship Details
+
+== OWNER: Karnataka / Co-operative Department, Karnataka
+[122] new = old: Registrar of Cooperative Societies - List of Societies (KSC Act 1959)
+
+== OWNER: Karnataka / Commercial Taxes Department, Karnataka
+[123] new = old: Registration Data
+[124] new = old: Tax Collection Details
+
+== OWNER: Karnataka / Department of Archeology, Museums and Heritage
+[125] new = old: Department Publications
+[126] new = old: List of Monuments
+[127] new = old: List of Museums
+
+== OWNER: Karnataka / Department of Higher Education, Karnataka
+[128] new = old: Information on Karnataka University
+[129] new = old: Karnataka University Data
+
+== OWNER: Karnataka / Department of Horticulture
+[130] new = old: Category Wise Area Production Details
+[131] new = old: Karnataka Wine Education WEAT Scholar Details
+
+== OWNER: Karnataka / Department of Industries and Commerce
+[132] new = old: EXPORT STATISTICS OF KARNATAKA
+[133] new = old: Handlooms and Textiles Investment Nuthana Javeli Neethi Scheme
+[134] new = old: Handlooms and Textiles Unit Wise Loan Waiver Scheme Details 2021
+[135] new = old: INCENTIVES AND CONCESSIONS SANCTIONED UNDER AGRI POLICY
+[136] new = old: INCENTIVES AND CONCESSIONS SANCTIONED UNDER INDUSTRIAL POLICY
+[137] new = old: Karnataka Udyam Registration Number of Units and Employment Details
+[138] new = old: KILT- ADMISSION DETAILS 2015 - 2022
+[139] new = old: Matching Wages Received by the Corporation
+[140] new = old: Number of Karnataka Coir Centers in the State
+[141] new = old: Short Term Skill Training Admissions 2017 to 2021
+[142] new = old: Statement of Production & Sales
+[143] new = old: Statement of Production and Sales of Paints and Allied Products
+[144] new = old: The Mysore Electrical Limited Production and Sales Details
+
+== OWNER: Karnataka / Department of Minor Irrigation
+[145] new = old: MINOR IRRIGATION SUB BASIN
+
+== OWNER: Karnataka / Department of Personnel and Administrative Reforms, Karnataka
+[146] new = old: Admin Boundary
+[147] new = old: Forest
+[148] new = old: HealthGISAssets
+[149] new = old: Landmark
+[150] new = old: List of Grama One centers details.
+[151] new = old: List of Karnataka one centers address and contact details
+[152] new = old: List of Services offered through Karnataka One center
+[153] new = old: List of Sevasindhu Services
+[154] new = old: ManagementBoundary
+[155] new = old: Sakala District Wise Applications Details
+[156] new = old: Settlement
+[157] new = old: ThemesSpatialData
+[158] new = old: Transport GIS Dataset
+[159] new = old: UtilityGIS
+[160] new = old: WaterBody
+
+== OWNER: Karnataka / Department of Skill Development Entrepreneurship and Livelihood
+[161] new = old: Course wise student enrollment DEC-2021 in Karnataka German Technical Training Institute
+[162] new = old: Details of Programmes Conducted by Centre for Entrepreneurship Development of Karnataka
+[163] new = old: District Male Female Count DEC-2021 in Karnataka German Technical Training Institute
+[164] new = old: Gender wise trained candidates financial year wise in Karnataka Skill Development Corporation
+[165] new = old: Government Tool Room and Training Centre Count of Students Passed
+[166] new = old: GTTC Centre of Excellence
+[167] new = old: GTTC Centres Data
+[168] new = old: GTTC Certificate Courses data
+[169] new = old: GTTC Diploma Courses Data
+[170] new = old: GTTC Manufacturing Services Data
+[171] new = old: GTTC MTech Course Data
+[172] new = old: GTTC Post Diploma Course Data
+[173] new = old: GTTC Short Term Courses
+[174] new = old: List of Academy in Karnataka German Technical Training Institute
+[175] new = old: List of Centers Karnataka German Technical Training Institute
+[176] new = old: List of Courses fees Karnataka German Technical Training Institute
+[177] new = old: List of Courses Karnataka German Technical Training Institute
+[178] new = old: List of District wise Training Provider in Karnataka Skill Development Corporation
+[179] new = old: List of Enrollment for Karnataka German Technical Training Institute
+[180] new = old: List of job role in Karnataka skill Development Center
+[181] new = old: List of Placement Karnataka German Technical Training Institute
+[182] new = old: List of training center in Karnataka skill development center
+[183] new = old: Location Wise Student Data in Karnataka German Technical Training Institute
+[184] new = old: Ongoing training district wise training center with job role wise for financial year 2021-22 in Karnataka Skill Development Corporation
+[185] new = old: Ongoing Training Job roles for Financial Year 2021-22 in Karnataka skill Development Corporation
+[186] new = old: Registered Student List in Karnataka Skill Development Center
+[187] new = old: Sanjeevini KSLPS Key Performance Indicator
+[188] new = old: Sector wise Student enrolled for the month of Dec-2021 in Karnataka German Technical Training Institute
+[189] new = old: Trained candidates Financial year wise in Karnataka Skill Development Corporation
+
+== OWNER: Karnataka / Department of Tourism
+[190] new = old: DETAILS OF MUSEUMS IN KARNATAKA
+[191] new = old: KARNATAKA DARSHAN PROJECT UNDER SCSP & TSP ACT
+[192] new = old: Karnataka Exhibition Authority Details
+[193] new = old: Pravasi Taxi scheme progress report
+[194] new = old: TOURISTS FOOTFALLS INTO KARNATAKA
+
+== OWNER: Karnataka / Ecology and Environment Department, Karnataka
+[195] new = old: Abstract details of revenue released and details of cashew plantation district wise
+[196] new = old: Details of cashew plantations handed over dated 05-04-1993 under equity coming under Shimoga Territorial Division
+[197] new = old: Details of cashew plantations Kumta Division
+[198] new = old: Division wise sales revenue -1993
+[199] new = old: Equity Cashew Plantation List for Kundapur District
+[200] new = old: Equity Cashew Plantation List for Puttur District
+[201] new = old: Revenue released and lease rent calculated in Mangalore division
+
+== OWNER: Karnataka / Education Department, Karnataka
+[202] new = old: Karnataka Printing Details
+
+== OWNER: Karnataka / Energy Department, Karnataka
+[203] new = old: AUGMENTATION OF STATIONS
+[204] new = old: Category wise Installations and Consumption
+[205] new = old: Data of CESC, Mysuru for FY 2025-26
+[206] new = old: Data of Installed Capacity, Generation and Dam Level
+[207] new = old: Details of Electrical Accidents in ESCOMs
+[208] new = old: Details of High Tension (HT) Lines
+[209] new = old: Details of Low Tension (LT) Lines
+[210] new = old: Electrical Inspectorate
+[211] new = old: Electrical Licenses or Permits or Approvals
+[212] new = old: Karnataka Power Transmission Corporation Limited Progress of Augmentation of Stations
+[213] new = old: Karnataka Power Transmission Corporation Limited Progress of New Stations Commissioned Details
+[214] new = old: Karnataka Power Transmission Corporation Limited Progress of New Transmission Lines Commissioned
+[215] new = old: New Stations Commissioned
+[216] new = old: Progress of Solar Water Pump sets
+[217] new = old: RE Progress Report
+[218] new = old: Renewable Energy Details
+[219] new = old: Transmission Lines Commissioned
+
+== OWNER: Karnataka / Finance Department, Karnataka
+[220] new = old: Asset Liability Monitoring
+[221] new_catalog_title: Branch Wise Operational Performance year
+      old_catalog_title (2):
+        - Branch Wise Operational Performance year 2016-2021
+        - Branchwise Operational Performance 2021-2022
+[222] new = old: Consolidated Report of Directorate and Subordinate Offices
+[223] new = old: DISTRICTWISE AND YEARWISE SALE OFBEER
+[224] new = old: DISTRICTWISE AND YEARWISE SALE OFINDIAN MADE LIQUOR
+[225] new = old: Fiscal Policy Institute Training Details
+[226] new = old: Industry Wise Sanctions for the year 2021-2022
+[227] new = old: Industry Wise Sanctions from the year 2016-2021
+[228] new = old: Insurance Claims Files Disposal Details
+[229] new = old: Karnataka State Beverages Corporation Limited Purchase Value in Lakh Rupees for FY 2017-21
+[230] new = old: Karnataka State Beverages Corporation Limited Sales Quantity in Crore Carton Boxes for FY 2017-2021
+[231] new = old: Karnataka State Beverages Corporation Limited Sales Quantity in Lakh Carton Boxes for FY 2017-21
+[232] new = old: Karnataka State Beverages Corporation Limited Sales Value in Crore Rupees for FY 2017-21
+[233] new = old: Karnataka State Beverages Corporation Limited Sales Value in Lakh Rupees for FY 2017-21
+[234] new = old: Karnataka State Beverages Corporation Purchase Quantity in Crore Carton Boxes FY 2017-2021
+[235] new = old: Karnataka State Beverages Corporation Purchase Quantity in Lakh Carton Boxes FY 2017-21
+[236] new = old: Karnataka State Beverages Corporation Purchase Value in Crore Rupees for FY 2017-21
+[237] new = old: Local Body Pensions
+[238] new = old: Number of Excise Licences Details in the State
+[239] new = old: Progress Report of Directorate and Subordinate Offices related to Death Claims
+[240] new = old: Progress Report of Directorate and Subordinate Offices related to Loan Claims
+[241] new = old: Progress Report of Directorate and Subordinate offices related to Maturity Claims
+[242] new = old: Progress Report of Directorate and Subordinate Offices related to New Business Claims
+[243] new = old: Progress Report of Directorate and Subordinate Offices Related to Surrender Value Claims
+[244] new = old: Size Wise Sanctions from the Year 2016-2021
+[245] new = old: Size-wise sanction for the Financial Year 2021-2022
+[246] new = old: Small Saving Agency
+
+== OWNER: Karnataka / Food, Civil Supplies and Consumer Affairs Department, Karnataka
+[247] new = old: State and District Commissions Details
+[248] new = old: State and District Commissions Statistics
+
+== OWNER: Karnataka / Forest Department, Karnataka
+[249] new = old: ASSETS OF KARNATAKA FOREST DEPARTMENT
+[250] new = old: Noise Levels Measured at Monitoring Stations of Bangalore
+[251] new = old: Water quality of lakes/tanks in Bangalore Urban and Rural Districts
+[252] new = old: Water quality of lakes/tanks located in other than Bangalore urban and Bangalore Rural districts of Karnataka.
+
+== OWNER: Karnataka / Health and Family Welfare Department, Karnataka
+[253] new = old: AYUSH Beneficiaries
+[254] new = old: AYUSH Educational Institutions
+[255] new = old: AYUSH Services
+[256] new = old: Controlling Authority
+[257] new = old: Cosmetic Manufacturers and License Holders in Karnataka
+[258] new = old: Details of Staff Position under Ayush Department
+[259] new = old: District Wise Comprehensive Abortion Care (CAC) Hospitals In Karnataka
+[260] new = old: District Wise Number of Mental Health Patients
+[261] new = old: Health Management Information System
+[262] new = old: Karnataka State Medical Supplies Corporation Limited (KSMSCL) Warehouse Details
+[263] new = old: Number of Practitioners Registered
+[264] new = old: Reproductive and Child Heath Implementation Coverage
+
+== OWNER: Karnataka / Home Department, Karnataka
+[265] new = old: Civil Defence Strength
+[266] new = old: Completed Building Details of KSPH&IDCL
+[267] new = old: CRIME REVEIW FOR THE YEAR 2025
+[268] new_catalog_title: CRIME REVIEW
+      old_catalog_title (3):
+        - CRIME REVIEW FOR THE YEAR 2023
+        - CRIME REVIEW FOR THE YEAR 2024
+        - CRIME REVIEW FOR THE YEAR 2026
+[269] new_catalog_title: CRIME REVIEW REPORT
+      old_catalog_title (2):
+        - CRIME REVIEW REPORT 2021
+        - CRIME REVIEW REPORT 2022
+[270] new = old: Deployment Of Home Guards To Other Department
+[271] new = old: Deployment Of Home Guards To Police Department
+[272] new = old: Details of various Prison institutions across Karnataka State.
+[273] new = old: FIRE STATION DETAILS
+[274] new = old: Fire Vehicles Details in Chief Fire Offices in Karnataka
+[275] new_catalog_title: Home Guards Actual Strength
+      old_catalog_title (4):
+        - Home Guards Actual Strength 2021
+        - Home Guards Actual Strength 2022
+        - Home Guards Actual Strength for the year 2023
+        - Home Guards Actual Strength for the year 2024
+[276] new = old: Home Guards Training
+[277] new = old: Karnataka Sainik Welfare Count of Ex-Service Men
+[278] new = old: Karnataka State Prisons Contact Details.
+[279] new = old: List of Prisons in Karnataka State
+[280] new = old: Police Infrastructure Budget Scheme Details
+[281] new = old: Prisons and Correctional Services Population Details
+[282] new = old: Scholarship details of sainik welfare
+[283] new = old: VEHICLE DETAILS OF KARNATAKA STATE FIRE AND EMERGENCY SERVICE DEPARTMENT
+
+== OWNER: Karnataka / Housing Department, Karnataka
+[284] new = old: Demand Survey Applications Received for Karnataka Housing Board from 2006 till 2021
+[285] new = old: Karnataka Slum Development Board
+[286] new = old: RAJIV GANDHI HOUSING CORPORATION LIMITED Nov-2021
+[287] new = old: SUVARNA KARNATAKA COMPLETED PROJECTS KHB FROM 2009 TO 2018
+[288] new = old: Year Wise Completed Projects From 2003 To 2019 Under 100 Housing Project Scheme
+
+== OWNER: Karnataka / Industries and Commerce Department, Karnataka
+[289] new = old: Details of Clusters Implemented in Karnataka under MSE-CDP Government of India Scheme
+[290] new = old: Details of Incentives and Financial Assistance extended to MSME units in Karnataka as per Industrial Policy 2014-19
+[291] new_catalog_title: Details of Karnataka Udyam Registration FY
+      old_catalog_title (2):
+        - Details of Karnataka Udyam Registration 2023 to 2025
+        - Details of Karnataka Udyam Registration FY 2026-27
+[292] new = old: INCENTIVES & FINANCIAL ASSISTANCE TO LARGE & MEGA INDUSTRIES DURING 2020-21
+[293] new = old: INCENTIVES TO LARGE & MEGA INDUSTRIES 2021-22
+[294] new = old: Karnataka Udyog Mitra - State Level Single Window Approval for Industries
+[295] new = old: VAT/SGST LOAN RELEASES OF THE YEAR 2021-22
+
+== OWNER: Karnataka / Infrastructure Development Department, Karnataka
+[296] new = old: Annual Expenditure Total Plan And Non-Plan Comparison With Last 2 Years Figures
+[297] new = old: Commodity Wise Details of Import Export And Value Of Cargo Handled At Minor Ports Of Karnataka
+[298] new = old: Details Of Ferries Inland Water Transport In Karnataka
+[299] new = old: Details Of Ferry Service Managed Departmentally Inland Water Transport In Karnataka
+[300] new = old: Details Of Ferry Service Managed Through Public Auction
+[301] new = old: Details of Sanction Staff Strength of Department of Ports & Inland Water Transport
+[302] new = old: Expenditure Incurred Under The Head Of Account Capital Outlay On Ports And Light Houses And Anti Sea Erosion Projects
+[303] new = old: Head of Account wise Budget Expenditure
+[304] new = old: Passenger Traffic Handled At Ports In Karnataka
+[305] new = old: Revenue Earned By Other Departments Connected To Shipping / Port Activities At Karwar And Belekeri Port
+[306] new = old: Statement Showing The Imports and Exports Made and Landing and Shipping Fees Collected at Each Port In Karnataka
+[307] new = old: Statement Showing The Number And Tonnage Of Sailing Vessels / Steamers / Foreign / Coastal Entered And Cleared And Port Dues Collected At Each Port In Karnataka State
+[308] new = old: Statement Showing The Port Wise Receipts And Charges
+[309] new = old: Statement Showing The Receipts And Charges Under The Head Of Account 1051 Ports & Light Houses And 1052 Shipping And 3051 Ports & Light Houses In Respect Of Karnataka Ports
+[310] new = old: Statement Showing The Revenue And Expenditure Of Inland Water Transport
+[311] new = old: Statement Showing The Revenue Receipts And Charges In Respect Of Inland Water Transport Branch Of The Ports and Inland Water Transport Department
+
+== OWNER: Karnataka / Kannada and Culture Department, Karnataka
+[312] new = old: Digital Library eBooks Status
+[313] new = old: Financial Aid/Dhanasahaya
+[314] new = old: Janapada academy
+[315] new = old: Kanaka Adhyana Kendra
+[316] new = old: Karnataka Arebashe Academy
+[317] new = old: Karnataka Bayalata Academy
+[318] new = old: Karnataka Shilpakala Academy
+[319] new = old: Karnataka_ State_Rangamandira_Details
+[320] new = old: Karnataka_Rajyotsava_awardees_list
+[321] new = old: Karntaka Nataka Academy
+[322] new = old: Konkani Sahithya Academy
+[323] new = old: Kuvempu Bhasha Bharathi
+[324] new = old: Nataka Academy Book Publications
+[325] new = old: Pustaka Pradhikara
+[326] new = old: Sahitya Academy
+[327] new = old: Yakshagana Academy
+
+== OWNER: Karnataka / Labour Department, Karnataka
+[328] new = old: Boiler Repairer Detail
+[329] new = old: District wise and size wise registered Factories
+[330] new = old: District wise No of Registered Factories In Karnataka
+[331] new = old: District wise Registered & Deleted Industries
+[332] new = old: District wise Registered Boilers
+[333] new = old: District wise Registered Major Industries
+[334] new = old: Employees State Insurance Scheme Medical Service
+[335] new = old: ESTABLISHMENT-1
+[336] new = old: Number of Boiler Manufacturer
+
+== OWNER: Karnataka / Law and Justice Department, Karnataka
+[337] new = old: Case Type Wise Filing abstract in the month of December 2023 in High Court Of Karnataka Bengaluru
+[338] new = old: Case Type Wise Instituted Cases in the High Court of Karnataka
+[339] new = old: Cases Disposed of senior citizen
+[340] new = old: Cases filed by the Senior Citizen in the High Court of Karnataka
+[341] new = old: Cases Filed By the women Litigants in High Court of Karnataka
+[342] new = old: Cases Instituted by senior citizen from January to April 2023 in High Court Of Karnataka , Bengaluru
+[343] new = old: Cases Instituted from January to March 2023 in High Court Of Karnataka , Bengaluru
+[344] new = old: Cases Instituted from January to March 2023 in High Court Of Karnataka ,Dharwad
+[345] new = old: Cases Instituted from January to March 2023 in High Court Of Karnataka ,Kalaburagi
+[346] new_catalog_title: Cases instituted in the High Court OF Karnataka
+      old_catalog_title (2):
+        - Cases instituted in the High Court OF Karnataka
+        - Cases instituted in the year 2022 in High Court of Karnataka
+[347] new = old: Cases_Instituted_fromJanuarytoOctober2023inHighCourtOfKarnataka_Bengaluru
+[348] new = old: Disposed cases filed by the women litigants in the High Court of Karnataka
+[349] new = old: Disposed Cases from January to October 2023 in High Court Of Karnataka , Bengaluru
+[350] new = old: Filing Abstract 2024
+[351] new = old: Karnataka State Law University Government and Private Colleges
+[352] new = old: Karnataka State Legal Services Authority
+[353] new = old: Karnataka State Legal Services Authority Legal Aid Beneficiary
+[354] new = old: Karnataka State Legal Services Authority National Lok Adalat
+[355] new = old: Karnataka State Legal Services Authority Year Wise Victim Compensation Provided
+[356] new = old: Model Legislative Assembly Competition
+[357] new_catalog_title: Verified Opinion List
+      old_catalog_title (11 in all, 6 shown):
+        - Verified Opinion List for the year 2021 April
+        - Verified Opinion List for the year 2021 December
+        - Verified Opinion List for the year 2021 July
+        - Verified Opinion List for the year 2021 March
+        - Verified Opinion List for the year 2021 October
+        - Verified Opinion List for the year 2022 March
+
+== OWNER: Karnataka / Planning and Statistics Department, Karnataka
+[358] new = old: Consumer Price Index
+[359] new = old: District wise Farm Harvest Prices of Agricultural Commodities in Karnataka Kharif
+[360] new = old: District wise Farm Harvest Prices of Agricultural Commodities in Karnataka Rabi
+[361] new = old: District wise Farm Harvest Prices of Agricultural Commodities in Karnataka Summer Annual
+[362] new = old: District wise Hobli Level and Gram Panchayat level Average Yield Data for Rabi Season 2010
+[363] new = old: District wise Hobli Level and Gram Panchayat level Average Yield Data for Summer Season 2010
+[364] new = old: District-wise Annual Rainfall in Karnataka
+[365] new = old: Final Estimates of Area, Production and Yield of Principal crops in Karnataka 2021_22
+[366] new_catalog_title: Grama Panchayat Level Average Yield Data for Kharif Season
+      old_catalog_title (3):
+        - Grama Panchayat Level Average Yield Data for Kharif Season 2016-17
+        - Grama Panchayat Level Average Yield Data for Kharif Season 2017-18
+        - Grama Panchayat Level Average Yield Data for Kharif Season 2018-19
+[367] new_catalog_title: Grama Panchayat Level Average Yield Data for Rabi Season
+      old_catalog_title (3):
+        - Grama Panchayat Level Average Yield Data for Rabi Season 2016-17
+        - Grama Panchayat Level Average Yield Data for Rabi Season 2017-18
+        - Grama Panchayat Level Average Yield Data for Rabi Season 2018-19
+[368] new_catalog_title: Grama Panchayat Level Average Yield Data for Summer Season
+      old_catalog_title (2):
+        - Grama Panchayat Level Average Yield Data for Summer Season 2016-17
+        - Grama Panchayat Level Average Yield Data for Summer Season 2018-19
+[369] new = old: Gross State Domestic Product at Constant 2011_12 Prices
+[370] new = old: Gross State Domestic Product at Current Prices
+[371] new = old: Hobli Grama Panchayat Level Average Yield Data for Summer Season 2017-18
+[372] new_catalog_title: Hobli Level Average Yield Data for Kharif Season
+      old_catalog_title (5):
+        - District wise Hobli Level Average Yield Data for Kharif Season 2006
+        - District wise Hobli Level Average Yield Data for Kharif Season 2007
+        - District wise Hobli Level Average Yield Data for Kharif Season 2008
+        - District wise Hobli Level Average Yield Data for Kharif Season 2009
+        - District wise Hobli Level Average Yield Data for Kharif Season 2010
+[373] new_catalog_title: Hobli Level Average Yield Data for Rabi Season
+      old_catalog_title (5):
+        - District wise Hobli Level Average Yield Data for Rabi Season 2006
+        - District wise Hobli Level Average Yield Data for Rabi Season 2007
+        - District wise Hobli Level Average Yield Data for Rabi Season 2008
+        - District wise Hobli Level Average Yield Data for Rabi Season 2009
+        - District wise Hobli Level Average Yield Data for Rabi Season 2010
+[374] new_catalog_title: Hobli Level Average Yield Data for Summer Season
+      old_catalog_title (5):
+        - District wise Hobli Level Average Yield Data for Summer Season 2006
+        - District wise Hobli Level Average Yield Data for Summer Season 2007
+        - District wise Hobli Level Average Yield Data for Summer Season 2008
+        - District wise Hobli Level Average Yield Data for Summer Season 2009
+        - District wise Hobli Level Average Yield Data for Summer Season 2010
+[375] new = old: Index of Industrial Production Quarterly and Annual Report 2019 - 20
+[376] new_catalog_title: Karnataka At A Glance
+      old_catalog_title (4):
+        - Karnataka At A Glance 2018 19
+        - Karnataka At A Glance 2021
+        - Karnataka at a Glance_2019_20
+        - Karnataka at a glance 2021-22
+[377] new = old: Net State Domestic Product at Constant 2011-12 Prices
+[378] new = old: Net State Domestic Product at Current Prices
+[379] new = old: REPORT ON MEDICAL CERTIFICATION OF CAUSE OF DEATH 2020
+[380] new = old: Rural Retail Price Index
+[381] new = old: State Average of Agriculture Wages
+[382] new = old: Urban Retail Price Index
+[383] new = old: Wholesale Price Index
+
+== OWNER: Karnataka / Public Instruction Department, Karnataka
+[384] new = old: District Wise School Enrollment Details
+[385] new_catalog_title: School Details : Karnataka
+      old_catalog_title (1):
+        - School Details
+
+== OWNER: Karnataka / Public Works Department, Karnataka
+[386] new = old: Road Statistics of Karnataka State
+
+== OWNER: Karnataka / Revenue Department, Karnataka
+[387] new = old: List of A and B Grade Temples in Karnataka
+
+== OWNER: Karnataka / Rural Development and Panchayat Raj Department, Karnataka
+[388] new = old: Active Job Cards Holder under MGNREGS
+[389] new = old: Active Workers under MGNREGS
+[390] new = old: Anganawadi Centres with Tap Water Supply under JJM
+[391] new = old: Central Finance Grants Allocation
+[392] new = old: Community Sanitary Complex Built under SBMG
+[393] new = old: Demand, Collection and Balance Details
+[394] new = old: Expenditure on Wages under MGNREGS
+[395] new = old: Gram Panchayat Elected Representatives Details
+[396] new = old: Household Toilets Built under SBMG
+[397] new = old: Household with Tap Water Supply under Jal Jeevan Mission
+[398] new = old: Job Cards Registered under MGNREGS
+[399] new = old: No of ongoing works under MGNREGS
+[400] new = old: Open Defecation Free Plus Villages under SBMG
+[401] new = old: Person days generated under MGNREGS
+[402] new = old: Rural Development and Panchayat Raj
+[403] new = old: Schools with Tap Water Supply under Jal Jeevan Mission
+[404] new = old: Solid Waste Management Operational Gram Panchayats under SBMG
+[405] new = old: Taluk Panchayat Elected Representatives Details
+[406] new = old: Total Expenditure under MGNREGS
+[407] new = old: Total Workers under MGNREGS
+[408] new = old: Zilla Panchayat Elected Representatives Details
+
+== OWNER: Karnataka / Sericulture Department, Karnataka
+[409] new = old: District wise Cocoon Production in Karnataka
+[410] new = old: District Wise Mulberry Area in Karnataka
+[411] new = old: District wise Rearing Houses with subsidy 2015-2021
+[412] new = old: District wise Sericulturists in Karnataka
+[413] new = old: District wise Silk Reelers in Karnataka
+
+== OWNER: Karnataka / Transport Department, Karnataka
+[414] new = old: Conductor Licence Details
+[415] new = old: Details of Truck Terminals
+[416] new = old: Division-wise Contact Details - KKRTC
+[417] new = old: Driving Licence Details
+[418] new = old: history of key indicators
+[419] new = old: HUMAN RESOURCES in KSRTC
+[420] new_catalog_title: Infrastructure of KSRTC
+      old_catalog_title (2):
+        - Infrastructure of KSRTC
+        - Infrastructure of KSRTC-2026
+[421] new = old: KSRTC Operational results statistics
+[422] new = old: NWKRTC division wise route details
+[423] new = old: NWKRTC Yearwise Information
+[424] new = old: Transport Services Offered by KSRTC
+[425] new = old: Vehicle Registration Details For The FY 2021 - 2022
+[426] new = old: Year Wise Performance of Bangalore Metropolitan Transport Corporation (BMTC)
+
+== OWNER: Karnataka / Urban Development Department, Karnataka
+[427] new = old: Conversion Opinion and Building Plan details
+[428] new = old: Jalanidhi District Wise Tap Connection Details
+[429] new = old: Janahita Complaints Details
+[430] new = old: Trade License Details
+[431] new_catalog_title: Water consumption data
+      old_catalog_title (2):
+        - Water Consumption Data-2026
+        - Water consumption data
+
+== OWNER: Karnataka / Water Resources Department, Karnataka
+[432] new = old: Barrages,weirs details under Karnataka Neeravari Nigam Limited
+[433] new = old: Details of Major Dams Reservoir Coming Under the Jurisdiction of Cauvery Neeravari Nigam Limited
+[434] new = old: Irrigation projects under VJNL
+[435] new = old: Major and Medium Irrigation Projects under Karnataka Neeravari Nigam Limited
+
+== OWNER: Karnataka / Watershed Development Department, Karnataka
+[436] new = old: PMKSY WDC 2.0 treatable area
+[437] new = old: Reward Treatable area
+[438] new = old: Scheme Wise Expenditure Details
+
+== OWNER: Karnataka / Woman and Child Development Department, Karnataka
+[439] new = old: Details of Children Home under ICPS
+[440] new = old: Details of schemes under ICPS
+[441] new = old: District Wise Target of Adolescent Girls
+[442] new = old: Karnataka Development Program of WCD Schemes
+[443] new = old: Karnataka State Senior citizen card Report
+[444] new = old: Nutrition Report
+[445] new = old: Pradhan Mantri Matru Vandana Scheme
+[446] new = old: State Unique Disability Identity (UDID) Monthly Data
+
+== OWNER: Karnataka / Youth Services and Sports Department, Karnataka
+[447] new = old: Encouragement Fund provided for SC-ST Students
+[448] new = old: Hostel facilities provided to sports students
+[449] new = old: Sports Authority of Karnataka
+
+== OWNER: Karnataka Labour Welfare Board
+[450] new_catalog_title: Details of schemes under Karnataka Labour Welfare Board
+      old_catalog_title (2):
+        - Details of schemes under Karnataka Labour Welfare Board
+        - Details of schemes under Karnataka Labour Welfare Board for the Year 2025-26
+
+== OWNER: Karnataka Power Corporation Limited
+[451] new = old: Energy Generation ( Gross) in Million Units (MU) by KPCL Projects for the year 2026-27
+
+== OWNER: Karnataka State Human Rights Commission
+[452] new = old: STATEMENT SHOWING DISTRICT WISE REGISTERED, DISPOSALS AND PENDENCY OF COMPLAINTS
+
+== OWNER: Karnataka State Legal Services Authority
+[453] new = old: District Level Lok adalat Report
+[454] new = old: High Court Benches Lok adalat Report
+
+== OWNER: Karnataka, Department of Minority Welfare
+[455] new = old: District Wise GOK Sanctioned list of Post Matric and Merit Cum Means Scholarship
+[456] new = old: Moraraji Desai Residential Schools and Colleges run by Directorate of Minoritites
+[457] new = old: Number of students applied for scholarship under National Scholarship Portal Ministry of Minority Affairs GOI - 2020-21
+
+== OWNER: Kerala
+[458] new = old: Consumer Price Index Numbers for Agricultural Labourers and Industrial Workers - Kerala
+[459] new = old: Crime cases
+[460] new = old: Districts under KSRTC zonal offices
+[461] new = old: Employment Exchanges in Kerala
+[462] new = old: Government Veterinary Hospitals of Kerala
+[463] new = old: Keltron
+[464] new = old: Kerala Road Accidents
+[465] new = old: KERALA TALUK SUPPLY OFFICES LIST
+[466] new = old: List of Head Quarter Management Officers
+[467] new = old: Marriage Assistance to Differently Abled Women and to Daughters of Differently Abled in Kollam District in Kerala in the Year 2017-2018
+[468] new = old: Plan Expenditure of Local bodies -Kerala
+[469] new = old: Property Tax -Demand and Collection Statement of Gramapanchayats for the FY2018-19
+
+== OWNER: Kerala / Agriculture Department, Kerala
+[470] new = old: Agriculture Departrment - PMKISAN
+
+== OWNER: Kerala / Election Department, Kerala
+[471] new = old: Block Panchayats in Kerala
+[472] new = old: District Panchayats in Kerala
+[473] new = old: List of Kerala Grama Panchayath
+[474] new = old: Poling Stations in Kerala
+[475] new = old: Urban bodies in Kerala
+
+== OWNER: Kerala / Information Technology Department, Kerala
+[476] new = old: Akshaya Centres in Kerala
+
+== OWNER: Kerala / Labour, Employment and Training and Rehabilitation Department, Kerala
+[477] new = old: District Wise Statistics of Registrants in Employment Exchanges of Kerala
+[478] new = old: Educational wise Break up of jobseekers registered with Employment Exchanges in Kerala
+
+== OWNER: Kerala / Revenue and Land Reforms Department, Kerala
+[479] new = old: Active thandapper list in villages of kerala
+[480] new = old: Epayment available in Village Offices in Kerala
+[481] new = old: Kerala Taluk wise Villages List
+[482] new = old: Online transactions
+
+== OWNER: Kerala / Transport Department, Kerala
+[483] new = old: Kerala Driving License Statistics
+[484] new = old: Kerala Vehicle Registration Statistics
+[485] new = old: Motor Vehicles Department in Kerala
+
+== OWNER: Kerala State IT Mission (KSITM)
+[486] new = old: Kerala Public WiFi Location List

@@ -1,0 +1,770 @@
+id,cat,old,n,top,top_n
+C0001,Aaple Sarkar Seva Kendra in Beed District,Governance and Administration; Local Government,1,Information and Communications; Information and Technology,1
+C0002,Access To Household Amenities In Worst Performing States In Terms Of Toilet Facilities,Rural; Development,1,Water and Sanitation; Sanitation,1
+C0003,Accident : Ujjain,Governance and Administration; Local Government,2,Health and Family welfare; Health,2
+C0004,Age of Establishment : Kohima,Governance and Administration; Union/State Government Administration,2,Economy; Macro Economy,2
+C0005,Anganawadi Centres with Tap Water Supply under JJM,Rural; Development,1,Water and Sanitation; Drinking Water,1
+C0006,Annual Growth Rate of GDP by industry of origin at constant prices,Finance; Economy,1,Economy; Macro Economy,1
+C0007,Annual growth rate of Consumption Expenditure at constant prices,Finance; Economy,1,Economy; Prices,1
+C0008,Area / Population And Income Of G-20 Countries,Economy; Macro Economy,3,Census and Surveys; Census,2
+C0009,Area Bifurcation Data : Pune,Urban; Development,2,Census; Population Enumerator,2
+C0010,Area-wise Number of Ongoing Projects,Science and Technology; Research & Development,4,Health and Family welfare; Health,3
+C0011,Area-wise Number of Research And Development Proposals Not Found Suitable,Health and Family welfare; Health,2,Science and Technology; Research & Development,2
+C0012,Area-wise Ongoing Societal Development Projects,Science and Technology; Research & Development,2,Health and Family welfare; Health,2
+C0013,Artificial Insemination of Cattle and Buffaloes for the year 2020-21 in Karnataka,Animal Husbandry,1,Agriculture; Animal Husbandry,1
+C0014,Attendance of the Members of Rajya Sabha for the Session,Parliament Of india; Rajya Sabha,107,Governance and Administration; Rajya Sabha,81
+C0015,Auditorium : Madurai,Travel and Tourism; Places,1,Urban; Development,1
+C0016,Availability and Functionality of Kitchen Sheds - Based on Sample Survey,Education; Elementary,1,Social Development; Women,1
+C0017,Average Daily Wage Rates For Male Agricultural Labour,Labour and Employment; Employment,1,Rural; Development,1
+C0018,BPL : Ujjain,Governance and Administration; Union/State Government Administration,1,Health and Family welfare; Family Welfare,1
+C0019,BWG Hotel : Ujjain,Travel and Tourism; Lodging,1,Urban; Development,1
+C0020,Banking Offices,Finance; Banking,5,Commerce; Companies,3
+C0021,Banking Statistics in Gujarat,Finance; Banking,3,Economy; Prices,2
+C0022,Basic Road Statistics of India,Infrastructure; Roads,325,Transport; Road Transport,164
+C0023,Bhuvan Geoportal of NRSC/ISRO,Environment and Forest; Ecology,1,Science and Technology; Research & Development,1
+C0024,Birth Registration : Ahmedabad,Urban; Development,1,Governance and Administration; District Adminstration,1
+C0025,Birth and Death Certificate : Kohima,Governance and Administration; Local Government,2,Health and Family welfare; Health,2
+C0026,Boundaries of Surface Water,Environment and Forest; Water Quality,1,Water Resources; Surface Water,1
+C0027,Boundriwal : Ujjain,Governance and Administration; Local Government,1,Health and Family welfare; Health,1
+C0028,Budget for Open spaces development : Saharanpur,"Economy, Finance",1,Urban; Development,1
+C0029,Building Permission : Ujjain,Housing; Urban Housing,1,Urban; Development,1
+C0030,Bus trips earning : Chandigarh,Transport; Road Transport,1,Travel and Tourism; Modes of Travel,1
+C0031,Buses : Dehradun,Transport; Road Transport,3,Travel and Tourism; Modes of Travel,2
+C0032,CCTV Camera : Gangtok,Infrastructure; Roads,1,Urban; Development,1
+C0033,COVID-19 Details : Surat,Urban; Development,2,Health and Family welfare; Health,1
+C0034,Capital Formation at Constant Prices,Finance,3,Economy; Macro Economy,2
+C0035,Cast Wise Enrollment : Ujjain,Governance and Administration; Local Government,1,Social Development; Tribal,1
+C0036,Catalogue of Micro Data from National Sample Survey (NSS),Census and Surveys; Census,35,Economy; Prices,34
+C0037,Category Wise Connection Details : Hubballi-Dharwad,Water and Sanitation; Drinking Water,1,Water Resources; Drinking Water,1
+C0038,Cesspool Revenue : Kohima,Governance and Administration; Local Government,3,Water and Sanitation; Sanitation,3
+C0039,Chain link fencing : Ujjain,Infrastructure; Roads,1,Urban; Development,1
+C0040,Change in Households Annual Income from Non-farm Activities in the Sample States - Based on Sample Survey,Infrastructure; Roads,1,"Rural; Development, Urban; Development",1
+C0041,Children Facilities Provision : Saharanpur,Urban; Development,1,Social Development; Children,1
+C0042,"Children assisted under Project Assistance of ""National Foundation for Communal Harmony""",Home Affairs and Enforcement; Internal Security,1,Social Development; Children,1
+C0043,Citizen Facilitation Centers : Chandigarh,Health and Family welfare; Family Welfare,2,Governance and Administration; Local Government,1
+C0044,Citizen Facilities : Gwalior,Governance and Administration; Local Government,1,Urban; Development,1
+C0045,Citizen Facilities : Kota,Governance and Administration; Local Government,2,Urban; Development,2
+C0046,Citizen Facilities : Ranchi,Governance and Administration; Local Government,1,Urban; Development,1
+C0047,Citizen Facilities : Salem,Governance and Administration; Local Government,1,Urban; Development,1
+C0048,Citizen Facilities : Tirunelveli,Governance and Administration; Local Government,2,Urban; Development,2
+C0049,Citizen Facilities : Varanasi,Governance and Administration; Local Government,1,Urban; Development,1
+C0050,City Profile : Agra,Urban; Development,1,Census and Surveys; Census,1
+C0051,City Profile : Aizawl,Urban; Development,4,Housing; Urban Housing,2
+C0052,City Profile : Coimbatore,Census and Surveys; Census,2,Urban; Development,1
+C0053,City Profile : Jammu,"Housing; Urban Housing, Labour and Employment; Employment",3,Census and Surveys; Census,2
+C0054,City Profile : Kakinada,Urban; Development,1,Census and Surveys; Census,1
+C0055,City Profile : Karimnagar,Urban; Development,2,Census and Surveys; Census,1
+C0056,City Profile : Kavaratti,Urban; Development,1,Census and Surveys; Census,1
+C0057,City Profile : Port Blair,Urban; Development,2,Census and Surveys; Census,1
+C0058,City Profile : Sagar,Urban; Development,1,Environment and Forest; Ecology,1
+C0059,City Profile : Tirunelveli,Urban; Development,1,Infrastructure; Roads,1
+C0060,City Profile : Warangal,Urban; Development,2,Census; Population Enumerator,1
+C0061,Classification of Ground Water Level by Districts in Tamil Nadu : SCR,Environment and Forest; Water Quality,2,Water Resources; Ground Water,2
+C0062,Classification of Land by Districts in Tamil Nadu : SCR,Agriculture; Crops,3,Rural; Land Resources,2
+C0063,Classification of Usage of Wells by Districts in Tamil Nadu : SCR,Economy; Macro Economy,3,Water and Sanitation; Drinking Water,3
+C0064,Committed expenditure of the states (Salaries+pensions+Interest payments),Economy; Macro Economy,1,Finance; Revenue,1
+C0065,Committee Meetings Schedule of Lok Sabha,Parliament Of india; Lok Sabha,2,Governance and Administration; Lok Sabha,1
+C0066,Committee Meetings Schedule of Rajya Sabha,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0067,Committee Membership by Rajya Sabha Members,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0068,Committee-wise Reports Presented to Rajya Sabha,Parliament Of india; Rajya Sabha,1,Governance and Administration; Rajya Sabha,1
+C0069,Commodity Balance of Petroleum and Petroleum Products,Finance; Economy,1,Economy; Prices,1
+C0070,Community Facilities : Amaravati,Governance and Administration; Local Government,1,Home Affairs and Enforcement; Police,1
+C0071,Community Facilities : Dahod,Governance and Administration; Local Government,1,Urban; Development,1
+C0072,Community Facilities : Dharamshala,Governance and Administration; Local Government,1,Urban; Development,1
+C0073,Community Facilities : Diu,Governance and Administration; Local Government,1,Health and Family welfare; Family Welfare,1
+C0074,Community Facilities : Gwalior,Housing; Urban Housing,1,Urban; Development,1
+C0075,Community Facilities : Jammu,Governance and Administration; Local Government,1,Urban; Development,1
+C0076,Community Facilities : Kohima,Governance and Administration; Local Government,3,Urban; Development,2
+C0077,Community Facilities : Pasighat,Governance and Administration; Local Government,1,Urban; Development,1
+C0078,Community Facilities : Ranchi,Governance and Administration; Local Government,1,Urban; Development,1
+C0079,Community Facilities : Rourkela,Governance and Administration; Local Government,1,Urban; Development,1
+C0080,Community Facilities : Sagar,Housing; Urban Housing,6,Urban; Development,4
+C0081,Community Facilities : Saharanpur,Governance and Administration; Local Government,1,Urban; Development,1
+C0082,Community Facilities : Salem,Economy; Macro Economy,2,Urban; Development,1
+C0083,Community Facilities : Shivamogga,Infrastructure,2,Art and Culture; Heritage,1
+C0084,Community Facilities : Tumakuru,Urban; Development,1,Health and Family welfare; Family Welfare,1
+C0085,Community Facilities : Varanasi,Governance and Administration; Local Government,1,Urban; Development,1
+C0086,Community Facility : Thane,Housing; Urban Housing,4,Urban; Development,2
+C0087,Community Hall Zone : Ujjain,Governance and Administration; Local Government,2,Urban; Development,2
+C0088,Comparison Of Poverty Estimates Based On Uniform Recall Period,Social Development; Women,1,"Rural; Development, Urban; Development",1
+C0089,Completed Building Details of KSPH&IDCL,Home Affairs and Enforcement; Enforcement Organizations,2,Governance and Administration; Union/State Government Administration,2
+C0090,Composition/Allocation Of Seats In The Rajya Sabha,Governance and Administration; Rajya Sabha,5,Parliament Of india; Rajya Sabha,5
+C0091,Conditions Of Roads : Kakinada,Infrastructure; Roads,1,Urban; Development,1
+C0092,Connectivity : Kohima,Infrastructure; Roads,1,Urban; Development,1
+C0093,Construction of Fish Seed Sector : Ujjain,Agriculture; Fisheries,1,Animal Husbandry; Fishery,1
+C0094,Conversion Opinion and Building Plan details,Governance and Administration; Local Government,1,Housing; Urban Housing,1
+C0095,Courier services : Kohima,Commerce; Trade promotion,1,Information and Communications; Post,1
+C0096,Crime : Karimnagar,Governance and Administration; Grievances,1,Home Affairs and Enforcement; Police,1
+C0097,Crime Statistics Thane Rural,Home Affairs and Enforcement; Police,1,Governance and Administration; Grievances,1
+C0098,Crime categorization : Chandigarh,Governance and Administration; Grievances,1,Home Affairs and Enforcement; Police,1
+C0099,Crimes : Agra,Governance and Administration; Grievances,1,Home Affairs and Enforcement; Police,1
+C0100,Crimes : Aizawl,Governance and Administration; Grievances,4,Home Affairs and Enforcement; Police,2
+C0101,Crimes : Chandigarh,Governance and Administration; Grievances,2,Home Affairs and Enforcement; Police,1
+C0102,Crimes : Erode,Governance and Administration; Grievances,1,Urban; Development,1
+C0103,Crimes : Gandhinagar,Governance and Administration; Grievances,1,Home Affairs and Enforcement; Police,1
+C0104,Crimes : Kavaratti,Governance and Administration; Grievances,1,Home Affairs and Enforcement; Police,1
+C0105,Crimes : New Town Kolkata,Governance and Administration; Grievances,1,Home Affairs and Enforcement; Police,1
+C0106,Crimes : Sagar,Governance and Administration; District Adminstration,2,Home Affairs and Enforcement; Police,1
+C0107,Crimes : Salem,Defence; Para Military Forces,2,Governance and Administration; District Adminstration,1
+C0108,Crimes : Shillong,Governance and Administration; Grievances,1,Home Affairs and Enforcement; Police,1
+C0109,Crimes : Tiruppur,Governance and Administration; Grievances,1,Urban; Development,1
+C0110,Crimes : Tumakuru,Home Affairs and Enforcement; Police,1,Governance and Administration; District Adminstration,1
+C0111,Crimes : Visakhapatnam,Governance and Administration; District Adminstration,1,Home Affairs and Enforcement; Police,1
+C0112,Crimes against Children : Warangal,Urban; Development,1,Social Development; Children,1
+C0113,Cultural Heritage : Ahmedabad,Urban; Development,4,Art and Culture; Heritage,3
+C0114,Cultural Heritage : Atal Nagar,Travel and Tourism; Places,1,Art and Culture; Heritage,1
+C0115,Cultural Heritage : Chandigarh,Travel and Tourism; Places,1,Art and Culture; Heritage,1
+C0116,Cultural Heritage : Lucknow,Travel and Tourism; Places,1,Art and Culture; Heritage,1
+C0117,Cultural Heritage : Pimpri Chinchwad,Governance and Administration; Local Government,1,Art and Culture; Heritage,1
+C0118,Cultural Heritage : Thanjavur,Travel and Tourism; Places,1,Art and Culture; Heritage,1
+C0119,Cultural Heritage : Tumakuru,Travel and Tourism; Places,1,Art and Culture; Heritage,1
+C0120,Current Members of Rajya Sabha,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0121,D2D Collection Coverage : Saharanpur,Environment and Forest; Sanitation,1,Health and Family welfare; Health,1
+C0122,D2D Collection Coverage : Ujjain,Environment and Forest; Sanitation,1,Water and Sanitation; Sanitation,1
+C0123,Daily Birthday List of Lok Sabha Members,Parliament Of india; Lok Sabha,2,Governance and Administration; Lok Sabha,2
+C0124,Daily Birthday List of Rajya Sabha Members,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,1
+C0125,Daily List of Lok Sabha Unstarred Questions (English),Parliament Of india; Lok Sabha,1,Governance and Administration; Lok Sabha,1
+C0126,Daily List of Rajya Sabha Starred Questions,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0127,Daily List of Rajya Sabha Unstarred Questions,Parliament Of india; Rajya Sabha,2,"Governance and Administration; Lok Sabha, Governance and Administration; Rajya Sabha",1
+C0128,Daily Market Prices of all Commodities in Meghalaya Markets for 2014,Agriculture; Agricultural Produces,1,Economy; Prices,1
+C0129,Daily Synopsis of Lok Sabha,Parliament Of india; Lok Sabha,2,Governance and Administration; Lok Sabha,1
+C0130,Daily Synopsis of Rajya Sabha,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0131,Date-wise Committee Meetings of Rajya Sabha,Parliament Of india; Rajya Sabha,2,"Governance and Administration; Lok Sabha, Governance and Administration; Rajya Sabha",1
+C0132,Demographic Profile : Faridabad,Urban; Development,1,Housing; Urban Housing,1
+C0133,Demographic Profile : Saharanpur,Urban; Development,1,Census and Surveys; Census,1
+C0134,Demographic Profile : Visakhapatnam,Urban; Development,2,Labour and Employment; Employment,1
+C0135,Demography 2 : Kohima,Social Development; Tribal,1,Census and Surveys; Census,1
+C0136,"Dengue Serotyping, PCR with Direct RNA Sample in the Month of June 2013 at Rajiv Gandhi Centre for Biotechnology",Science and Technology; Research & Development,1,Health and Family welfare; Health,1
+C0137,Details Of Ferries Inland Water Transport In Karnataka,Infrastructure; Roads,5,Transport; Water ways,3
+C0138,Details Of Ferry Service Managed Departmentally Inland Water Transport In Karnataka,Infrastructure,5,Transport; Water ways,3
+C0139,Details of Adhoc Committees of Rajya Sabha,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0140,Details of Department Related Parliamentary Standing Committees of Lok Sabha,Parliament Of india; Lok Sabha,2,Governance and Administration; Lok Sabha,1
+C0141,Details of Department Related to Parliamentary Standing Committees of Rajya Sabha,Parliament Of india; Rajya Sabha,2,"Governance and Administration; Lok Sabha, Governance and Administration; Rajya Sabha",1
+C0142,Details of Incentives and Financial Assistance extended to MSME units in Karnataka as per Industrial Policy 2014-19,Economy; Macro Economy,1,Industries; Manufacturing,1
+C0143,Details of Joint Committees of Rajya Sabha,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0144,Details of Lok Sabha Women Members,Parliament Of india; Lok Sabha,2,Governance and Administration; Lok Sabha,1
+C0145,Details of Programmes Conducted by Centre for Entrepreneurship Development of Karnataka,Economy,3,Health and Family welfare; Health,2
+C0146,Details of Rajya Sabha Women Members,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0147,Details of Select Committees of Rajya Sabha,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0148,Details of Standing Committees of Rajya Sabha,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0149,Details of Water Supply (HSC) given for Corporations and Municipalities in Tamil Nadu,Water and Sanitation; Drinking Water,2,Governance and Administration; Local Government,2
+C0150,Dharmapuri District Hand Book 2017-18 : Storage Faculties,Economy; Macro Economy,1,Agriculture; Agricultural Produces,1
+C0151,Digital Access : Faridabad,Governance and Administration; Local Government,1,Urban; Development,1
+C0152,Digital Access : Jalandhar,Governance and Administration; Union/State Government Administration,1,Information and Communications; Information and Technology,1
+C0153,Digital Access : Kohima,Governance and Administration; Union/State Government Administration,1,Information and Communications; Information and Technology,1
+C0154,Digital Availability : Agartala,Governance and Administration; Local Government,1,Information and Communications; Information and Technology,1
+C0155,Digital Availability : Agra,Governance and Administration; Local Government,1,Information and Communications; Information and Technology,1
+C0156,Digital Availability : Aizawl,Governance and Administration; Union/State Government Administration,1,Urban; Development,1
+C0157,Digital Availability : Bareilly,Governance and Administration; Local Government,1,Urban; Development,1
+C0158,Digital Availability : Coimbatore,Governance and Administration; Local Government,2,Urban; Development,1
+C0159,Digital Availability : Dahod,Governance and Administration; Local Government,1,Information and Communications; Information and Technology,1
+C0160,Digital Availability : Dehradun,Governance and Administration; Local Government,1,Information and Communications; Information and Technology,1
+C0161,Digital Availability : Dharamshala,Governance and Administration; Local Government,2,Information and Communications; Information and Technology,1
+C0162,Digital Availability : Indore,Governance and Administration; Local Government,2,Finance; Revenue,1
+C0163,Digital Availability : Jaipur,Governance and Administration; Union/State Government Administration,1,Urban; Development,1
+C0164,Digital Availability : Jhansi,Governance and Administration; Local Government,1,Information and Communications; Information and Technology,1
+C0165,Digital Availability : Kalyan Dombivli,Governance and Administration; Local Government,2,Information and Communications; Information and Technology,1
+C0166,Digital Availability : Karimnagar,Governance and Administration; Local Government,1,Urban; Development,1
+C0167,Digital Availability : Madurai,Governance and Administration; Local Government,1,Urban; Development,1
+C0168,Digital Availability : Moradabad,Governance and Administration; Local Government,1,Information and Communications; Information and Technology,1
+C0169,Digital Availability : Muzaffarpur,Governance and Administration; Grievances,1,Urban; Development,1
+C0170,Digital Availability : NDMC,Information and Communications; Information and Technology,2,Urban; Development,1
+C0171,Digital Availability : Nagpur,Governance and Administration; Local Government,2,Urban; Development,2
+C0172,Digital Availability : Namchi,Governance and Administration; Local Government,1,Urban; Development,1
+C0173,Digital Availability : Pasighat,Governance and Administration; Local Government,1,Information and Communications; Information and Technology,1
+C0174,Digital Availability : Prayagraj,Governance and Administration; Local Government,1,Urban; Development,1
+C0175,Digital Availability : Raipur,Governance and Administration; Local Government,1,Information and Communications; Information and Technology,1
+C0176,Digital Availability : Satna,Governance and Administration; Local Government,1,Urban; Development,1
+C0177,Digital Availability : Silvassa,Governance and Administration; Local Government,1,Information and Communications; Information and Technology,1
+C0178,Digital Availability : Thanjavur,Governance and Administration; Local Government,1,Urban; Development,1
+C0179,Digital Availability : Thiruvananthapuram,Governance and Administration; Local Government,1,Information and Communications; Information and Technology,1
+C0180,Digital Availability : Tirunelveli,Governance and Administration; Local Government,1,Urban; Development,1
+C0181,Digital Availability : Tirupati,Governance and Administration; Union/State Government Administration,1,Information and Communications; Information and Technology,1
+C0182,Digital Availability : Varanasi,Governance and Administration; Local Government,1,Information and Communications; Information and Technology,1
+C0183,Digital Availability : Visakhapatnam,Governance and Administration; Local Government,1,Information and Communications; Information and Technology,1
+C0184,Digital Availability Reports : Erode,Governance and Administration; Local Government,2,Urban; Development,2
+C0185,Digital Elevation Model (DEM) generated from Cartosat-1 Satellite data for India,Environment and Forest; Ecology,2,Science and Technology; Earth Sciences,1
+C0186,Digital Payments : Agartala,Economy; Prices,1,Commerce; Trade promotion,1
+C0187,Digital Payments : Aizawl,Economy; Prices,1,Commerce; Trade promotion,1
+C0188,Digital Payments : Dharamshala,Economy; Prices,1,Commerce; Trade promotion,1
+C0189,Digital Payments : Jaipur,Economy; Prices,1,Commerce; Trade promotion,1
+C0190,Digital Payments : Kalyan Dombivli,Economy; Prices,2,Commerce; Trade promotion,1
+C0191,Digital Payments : Kohima,Economy; Prices,2,Information and Communications; Information and Technology,1
+C0192,Digital Payments : Madurai,Economy; Prices,1,Commerce; Trade promotion,1
+C0193,Digital Payments : Patna,Economy; Prices,1,Finance; Revenue,1
+C0194,Digital Payments : Rourkela,Economy; Prices,1,Commerce; Trade promotion,1
+C0195,Digital Payments : Salem,Economy; Prices,1,Commerce; Trade promotion,1
+C0196,Digital Payments : Tirupati,Economy; Prices,1,Commerce; Trade promotion,1
+C0197,Digital Payments : Udaipur,Infrastructure,2,Economy; Prices,1
+C0198,Digital Payments : Varanasi,Economy; Prices,1,Commerce; Trade promotion,1
+C0199,Digital Seismotectonic Atlas of India and its Environs,Environment and Forest; Ecology,1,Science and Technology; Earth Sciences,1
+C0200,Digital availability : Rourkela,Governance and Administration; Union/State Government Administration,1,Urban; Development,1
+C0201,Direction of Imports: Imports by Regions and Countries (Rs. Cr.),Finance; Economy,1,Economy; Prices,1
+C0202,Directors and Joint Directors of various sections in Rajya Sabha,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0203,Disaster : Kohima,Environment and Forest; Natural Resources,5,Governance and Administration; District Adminstration,3
+C0204,Discom final : Ujjain,Governance and Administration; Union/State Government Administration,1,Health and Family welfare; Health,1
+C0205,Diseases : Bilaspur,Health and Family welfare; Health,1,Urban; Development,1
+C0206,Distribution of adverse fulfill teachers ratio : Ujjain,Governance and Administration; Local Government,1,Health and Family welfare; Health,1
+C0207,Distribution of persons of each sector of each State/UT over 12 classes of Monthly Per Capita Expenditure (URP),Economy; Prices,2,Census and Surveys; Annual Health Survey,1
+C0208,District Hand Book : Civil Supplies,Governance and Administration; District Adminstration,175,Food; Public Distribution,122
+C0209,District Hand Book : Climate & Rainfall,Census and Surveys; Census,120,Environment and Forest; Water Quality,60
+C0210,District Hand Book : Co-Operative Societies,Governance and Administration; Local Government,10,Economy; Macro Economy,9
+C0211,District Hand Book : Co-operation,Governance and Administration; Local Government,29,Commerce; Companies,18
+C0212,District Hand Book : Communication,Governance and Administration; District Adminstration,122,Information and Communications; Telecom,73
+C0213,District Hand Book : Conservancy Services,Environment and Forest; Sanitation,8,Water and Sanitation; Sanitation,5
+C0214,District Hand Book : Mining and Quarrying,Economy; Macro Economy,66,Industries; Manufacturing,43
+C0215,District Hand Book : Motor Vehicles,Economy; Prices,107,Transport; Road Transport,107
+C0216,District Hand Book : Quality Control,Economy; Prices,18,Industries; Manufacturing,17
+C0217,District Hand Book : Recreation and Cultural Services,Social Development; Children,79,Art and Culture; Heritage,73
+C0218,District Hand Book : Repair and Service,Governance and Administration; District Adminstration,64,Industries; Manufacturing,51
+C0219,District Hand Book : Sanitary Services,Environment and Forest; Sanitation,68,Water and Sanitation; Sanitation,53
+C0220,District Hand Book : Scientific and Research Service,Census and Surveys; Census,27,Science and Technology; Research & Development,17
+C0221,District Hand Book : Scientific and Research Work,Science and Technology; Research & Development,2,Census and Surveys; Annual Health Survey,1
+C0222,District Hand Book : Social Welfare,Governance and Administration; District Adminstration,241,Social Development; Women,143
+C0223,District Hand Book : Storage Facilities,Economy; Macro Economy,74,Agriculture; Agricultural Produces,44
+C0224,District Hand Book : Trade and Commerce,Economy; Macro Economy,32,Commerce; Trade promotion,27
+C0225,District Hand Book : Transport,Infrastructure; Roads,268,Transport; Road Transport,199
+C0226,District Hand Book : Voluntary Services,Governance and Administration; Local Government,38,Social Development; Women,28
+C0227,District Wise Target of Adolescent Girls,Social Development; Women,1,Health and Family welfare; Family Welfare,1
+C0228,District level Cooperative Societies,Governance and Administration; Local Government,1,Commerce; Companies,1
+C0229,District wise Cooperative Consumer Stores in Madhya Pradesh,Commerce; Trade promotion,1,Food; Public Distribution,1
+C0230,District wise Farm Harvest Prices of Agricultural Commodities in Karnataka Rabi,Economy; Prices,1,Agriculture; Crops,1
+C0231,District-wise Artificial Insemination Development Centers in Punjab,Agriculture; Animal Husbandry,7,Animal Husbandry; Fishery,4
+C0232,District-wise Buffaloes in Punjab,Agriculture; Animal Husbandry,32,Animal Husbandry; Fishery,17
+C0233,District-wise Cross Breeds in Punjab,Agriculture; Animal Husbandry,19,Animal Husbandry; Fishery,14
+C0234,"District-wise Horses and Ponies, Mules and Donkeys in Punjab",Agriculture; Animal Husbandry,20,Animal Husbandry; Fishery,11
+C0235,District-wise Pigs and Dogs in Punjab,Agriculture; Animal Husbandry,21,Animal Husbandry; Fishery,11
+C0236,District-wise Poultry in Punjab,Agriculture; Animal Husbandry,12,Animal Husbandry; Fishery,7
+C0237,District-wise Recognized Slaughter Houses and Animals Slaughtered there in Punjab,Agriculture; Animal Husbandry,3,Animal Husbandry; Fishery,2
+C0238,Division Wise Breakup of Staff Strength : Ujjain,Governance and Administration; Local Government,1,Urban; Development,1
+C0239,Drinking water availability in school : Ujjain,Water and Sanitation; Drinking Water,1,Water Resources; Drinking Water,1
+C0240,Earnings Bus Trips : Kohima,Economy; Prices,1,Transport; Road Transport,1
+C0241,Economic Census,Economy; Macro Economy,1,Census and Surveys; Census,1
+C0242,Education Toilets : Madurai,Governance and Administration; Local Government,1,Water and Sanitation; Sanitation,1
+C0243,Election To The Vidhan Sabhas (State Legislative Assemblies),Census and Surveys; Census,6,Governance and Administration; State Legislative,4
+C0244,Electricity : Agra,Infrastructure; Power,2,Power and Energy; Renewable,1
+C0245,Electricity : Aizawl,Infrastructure; Power,4,Power and Energy; Non Renewable,2
+C0246,Electricity : Atal Nagar,Infrastructure; Power,1,Power and Energy; Non Renewable,1
+C0247,Electricity : Aurangabad,Infrastructure; Power,1,Urban; Development,1
+C0248,Electricity : Bilaspur,Infrastructure; Power,1,Urban; Development,1
+C0249,Electricity : Gwalior,Infrastructure; Power,1,Power and Energy; Renewable,1
+C0250,Electricity : Jammu,Infrastructure; Power,1,Power and Energy; Renewable,1
+C0251,Electricity : Kanpur,Infrastructure; Power,3,Urban; Development,3
+C0252,Electricity : New Town Kolkata,Infrastructure; Power,2,Urban; Development,1
+C0253,Electricity : Rourkela,Infrastructure; Power,1,Power and Energy; Renewable,1
+C0254,Electricity : Salem,Power and Energy; Renewable,2,Infrastructure; Power,1
+C0255,Electricity : Silvassa,Infrastructure; Power,1,Power and Energy; Renewable,1
+C0256,Electricity : Solapur,Infrastructure; Power,1,Power and Energy; Non Renewable,1
+C0257,Electricity : Thoothukudi,"Infrastructure, Power and Energy",1,Urban; Development,1
+C0258,Electricity : Tirunelveli,Infrastructure; Power,1,Power and Energy; Non Renewable,1
+C0259,Electricity : Tirupati,Infrastructure; Power,1,Health and Family welfare; Health,1
+C0260,Electricity : Varanasi,Infrastructure; Power,1,Power and Energy; Renewable,1
+C0261,Electricity : Visakhapatnam,Infrastructure; Power,1,Power and Energy; Non Renewable,1
+C0262,Electricity : Warangal,Infrastructure; Power,1,Power and Energy; Renewable,1
+C0263,Electricity Consumption : Kohima,Economy; Prices,1,Power and Energy; Renewable,1
+C0264,Electricity Consumption : Ujjain,Infrastructure; Power,1,Power and Energy; Renewable,1
+C0265,Electricity Department : Sagar,Infrastructure; Power,4,Power and Energy; Renewable,2
+C0266,Electricty : Bihar Sharif,Infrastructure; Power,1,Power and Energy; Non Renewable,1
+C0267,Emergency Response : Pune,Governance and Administration; Grievances,1,Health and Family welfare; Health,1
+C0268,Employees of SWM : Ujjain,Governance and Administration; Local Government,1,Urban; Development,1
+C0269,Employment by Sector - Industries,Labour and Employment; Employment,2,Industries; Manufacturing,2
+C0270,Employment exchanges Data,Labour and Employment; Employment,2,Economy; Prices,2
+C0271,Employment in Organised Sectors - Public and Private,Labour and Employment; Employment,1,"Economy; Prices, Finance; Economy",1
+C0272,Employment in Public Sector and Private Sector,Labour and Employment; Employment,8,Economy; Macro Economy,4
+C0273,Energy : Kohima,Infrastructure; Power,1,Power and Energy; Non Renewable,1
+C0274,Epayment available in Village Offices in Kerala,Governance and Administration; Union/State Government Administration,1,Health and Family welfare; Health,1
+C0275,Estimated Milk Egg Meat and Wool Production in Karnataka as per the Integrated Sample Survey for the year 2020-21,Agriculture; Animal Husbandry,1,Census and Surveys; Annual Health Survey,1
+C0276,Estimates Of Urban Transport Investments By High Powered Expert Committee (HPEC),Infrastructure; Roads,1,Urban; Development,1
+C0277,Evaluation of The Scheme - Rajiv Gandhi Grameen Vidyutikaran Yojana (RGGVY),Infrastructure; Power,9,Power and Energy; Renewable,8
+C0278,Ex-Legal Cases : Ahmedabad,Governance and Administration; Grievances,1,Urban; Development,1
+C0279,Exchange Rate of Rupee vis-a-vis Selected Currencies of the World,Finance; Economy,6,Economy; Prices,4
+C0280,Expenditure Incurred in Election to the Lok Sabha,Governance and Administration; Lok Sabha,7,Parliament Of india; Lok Sabha,7
+C0281,Expenditure of Zila Parishads in Punjab,Governance and Administration; Local Government,6,Urban; Development,3
+C0282,Extra ULB Profile : Kohima,Governance and Administration; Local Government,1,Urban; Development,1
+C0283,Female headed households by availability of bathing facility and type of drainage connectivity for waste water outlet,Water and Sanitation; Sanitation,99,Census and Surveys; Census,83
+C0284,Female headed households by availability of type of latrine facility,Water and Sanitation; Sanitation,99,Census and Surveys; Census,93
+C0285,Financial Health : Aizawl,Economy; Macro Economy,1,Health and Family welfare; Health,1
+C0286,Financial Health : Jaipur,Economy; Macro Economy,1,Health and Family welfare; Health,1
+C0287,Financial Health : Tirupati,Economy; Macro Economy,1,Health and Family welfare; Health,1
+C0288,Financial Health of the City : Kohima,Economy; Macro Economy,2,Urban; Development,1
+C0289,Financial Outcomes Under Mahatma Gandhi National Rural Employment Guarantee Act (NREGA),"Governance and Administration; Union/State Government Administration, Economy; Macro Economy",4,Rural; Development,3
+C0290,Financial Progress Of The Total Sanitation Campaign In Eleventh Plan During Financial Years,"Rural; Development, Urban; Development",1,Water and Sanitation; Sanitation,1
+C0291,Financial and Physical Performance under the National Social Assistance Programme during 10th Five Year Plan,"Social Development; Women, Health and Family welfare; Family Welfare",1,"Rural; Development, Urban; Development",1
+C0292,Frequency of Milk Intake of beneficiary children at home - Based on Sample Survey,Health and Family welfare; Family Welfare,1,Education; Elementary,1
+C0293,Furniture For Students : Ujjain,Housing; Urban Housing,1,Urban; Development,1
+C0294,Furniture for Teacher : Ujjain,Governance and Administration; Local Government,1,Education; Elementary,1
+C0295,Geographical info : Ujjain,Governance and Administration; Local Government,1,Water and Sanitation; Drinking Water,1
+C0296,Governance : Erode,Governance and Administration; Local Government,1,Urban; Development,1
+C0297,Governance : Nagpur,Governance and Administration; Local Government,2,Parliament Of india; Lok Sabha,1
+C0298,Governance : Tiruppur,Governance and Administration; Local Government,1,Urban; Development,1
+C0299,Government Assets : Pimpri Chinchwad,Governance and Administration; Local Government,9,Urban; Development,6
+C0300,Gross Area Under Major Crops,Agriculture; Crops,1,Economy; Prices,1
+C0301,Growth Of Urban Population,Housing; Urban Housing,1,Urban; Development,1
+C0302,Growth of Civil Aviation,"Transport; Aviation, Finance; Economy",1,Economy; Macro Economy,1
+C0303,Growth of Postal Life Insurance And Rural Postal Life Insurance,Finance; Insurance,5,Industries; Insurance,3
+C0304,Head Master Required : Ujjain,Governance and Administration; Union/State Government Administration,1,Education; Elementary,1
+C0305,"Headcount Ratio and Number of Poor Persons Below Poverty Line in India (Combined, Rural and Urban Both)",Social Development; Women,1,"Rural; Development, Urban; Development",1
+C0306,Headcount Ratio and Number of Poor Persons Below Poverty Line in Rural and Urban India,Social Development; Women,2,"Rural; Development, Urban; Development",2
+C0307,Health Infrastructure : Ranchi,Health and Family welfare; Health,2,Governance and Administration; Local Government,1
+C0308,High Value Data Sets of MDoNER,"Agriculture; Crops, Art and Culture; Heritage, Education; Elementary, Health and Family welfare; Health, Infrastructure; Roads, Power and Energy; Renewable, Youth and Sports; Youth Affairs",4,Governance and Administration; Union/State Government Administration,2
+C0309,Hotels : Chandigarh,Travel and Tourism; Lodging,1,Industries; Tourism,1
+C0310,House less population : Ujjain,Governance and Administration; Local Government,1,Housing; Urban Housing,1
+C0311,Household Consumer Expenditure: National Sample Survey,Economy; Prices,14,Census and Surveys; Annual Health Survey,11
+C0312,Household Toilets Built under SBMG,Rural; Development,1,Water and Sanitation; Sanitation,1
+C0313,Households : Madurai,Urban; Development,1,Housing; Urban Housing,1
+C0314,Households by availability of bathing facility and type of drainage connectivity for waste water outlet,Environment and Forest; Sanitation,3,Census; House listing and Housing Census,2
+C0315,Households by availability of type of latrine facility,Water and Sanitation; Sanitation,3,Census; House listing and Housing Census,3
+C0316,Households by main source of drinking water and its location,Water and Sanitation; Drinking Water,3,Census; House listing and Housing Census,2
+C0317,Housing & Slums : Aurangabad,Housing; Urban Housing,2,Infrastructure; Roads,1
+C0318,Housing & Slums : Bareilly,Housing; Urban Housing,2,Census and Surveys; Socio-economic & Caste Census,1
+C0319,Housing & Slums : Pasighat,Housing; Urban Housing,3,Social Development; Women,3
+C0320,Housing & Slums : Thiruvananthapuram,Housing; Urban Housing,2,Census; House listing and Housing Census,2
+C0321,Housing Slum : Dahod,Urban; Development,1,Housing; Urban Housing,1
+C0322,Housing and Slum Population : Kakinada,Housing; Urban Housing,1,Urban; Development,1
+C0323,Housing and Slum Population : Warangal,Housing; Urban Housing,1,Census; House listing and Housing Census,1
+C0324,Hyper spectral Images from Remote Sensing Satellite IMS-1,Environment and Forest; Ecology,1,Science and Technology; Research & Development,1
+C0325,ICCC : Kohima,Governance and Administration; Local Government,1,Urban; Development,1
+C0326,ICCC : Raipur,Governance and Administration; Local Government,1,Urban; Development,1
+C0327,INCENTIVES AND CONCESSIONS SANCTIONED UNDER AGRI POLICY,Agriculture; Agricultural Marketing,4,Industries; Small Scale,4
+C0328,ITC Neighbouhood 1 : Dharamshala,Governance and Administration; Local Government,1,Urban; Development,1
+C0329,ITC Neighbourhood : 2 : Muzaffarpur,Urban; Development,1,Census; Population Enumerator,1
+C0330,ITC Neighbourhood : Amaravati,"Urban; Development, Transport; Road Transport",2,Social Development; Children,1
+C0331,ITC Neighbourhood : Aurangabad,Housing; Urban Housing,2,Urban; Development,1
+C0332,ITC Neighbourhood : Davanagere,Governance and Administration; Local Government,2,Social Development; Women,1
+C0333,ITC Neighbourhood : Dharamshala,Governance and Administration; Local Government,1,Urban; Development,1
+C0334,ITC Neighbourhood : Gwalior,Urban; Development,2,Information and Communications; Information and Technology,1
+C0335,ITC Neighbourhood : Hubballi-Dharwad,Urban; Development,1,Information and Communications; Information and Technology,1
+C0336,ITC Neighbourhood : Jhansi,Urban; Development,1,Social Development; Children,1
+C0337,ITC Neighbourhood : Kalyan Dombivli,Urban; Development,13,Information and Communications; Information and Technology,10
+C0338,ITCNeighbouhood 1 : Shivamogga,Urban; Development,1,Social Development; Children,1
+C0339,Implementation Agency-wise Utilization of Funds - Based on Sample Survey,Economy; Macro Economy,1,Labour and Employment; Employment,1
+C0340,Implementation Report Under Mahatma Gandhi National Rural Employment Guarantee Act (MNREGA),Labour and Employment; Employment,11,Rural; Development,11
+C0341,Incidence of Livestock Diseases In India,Agriculture; Animal Husbandry,2,Animal Husbandry; Fishery,1
+C0342,Income and Expenditure of Red Cross Societies in Punjab,Economy; Macro Economy,4,Health and Family welfare; Health,3
+C0343,Index Number and Average rate of daily wages paid to certain categories of Agricultural Labourers by Districts in Tamil Nadu : SCR,Economy; Prices,6,Agriculture; Agricultural Research & Extension,5
+C0344,Index Numbers of Area under Principal Crops,"Agriculture; Crops, Finance; Economy",1,Economy; Prices,1
+C0345,Index Numbers of Wholesale Prices,Finance; Economy,1,Economy; Prices,1
+C0346,Index Numbers of Wholesale Prices - Relative Prices of Manufactured and Agricultural Products,Finance; Economy,1,Economy; Prices,1
+C0347,Index Numbers of Wholesale Prices - Selected Commodities and Commodity Groups,Finance; Economy,1,Economy; Prices,1
+C0348,Index Numbers of Yield of Principal Crops,Agriculture; Crops,1,Economy; Prices,1
+C0349,"Individual Scientist Projects with Institute of Bioresources and Sustainable Development, Imphal",Health and Family welfare; Health,1,Science and Technology; Research & Development,1
+C0350,Information on Development Authority : Guwahati,Governance and Administration; Union/State Government Administration,1,Urban; Development,1
+C0351,Infrastructure Distribution : Agartala,Housing; Urban Housing,1,Infrastructure; Roads,1
+C0352,Infrastructure Distribution : Amritsar,Housing; Urban Housing,1,Census and Surveys; Census,1
+C0353,Infrastructure Distribution : Davanagere,Infrastructure; Roads,1,Urban; Development,1
+C0354,Infrastructure Distribution : Jalandhar,Housing; Urban Housing,1,Infrastructure; Roads,1
+C0355,Infrastructure Distribution : Saharanpur,Housing; Urban Housing,1,Infrastructure; Roads,1
+C0356,Infrastructure Distribution : Udaipur,Census and Surveys; Census,1,Infrastructure; Roads,1
+C0357,Infrastructure Distribution : Vadodara,Census; House listing and Housing Census,1,Infrastructure; Roads,1
+C0358,Injuries & Fatalities : Pune,Transport; Road Transport,3,Health and Family welfare; Health,2
+C0359,Intersections : Agartala,Infrastructure; Roads,2,Urban; Development,2
+C0360,Intersections : Dahod,Infrastructure; Roads,1,Urban; Development,1
+C0361,Intersections : Kavaratti,Infrastructure; Roads,1,Urban; Development,1
+C0362,Intersections : Kohima,Transport; Road Transport,1,Urban; Development,1
+C0363,Intersections : Tiruppur,Infrastructure; Roads,1,Urban; Development,1
+C0364,Intersections : Warangal,Infrastructure; Roads,1,Urban; Development,1
+C0365,Investment Requirement Estimates By High Powered Expert Committee (HPEC) - Water and Sanitation/Storm Water Drainage,Infrastructure; Roads,1,Water and Sanitation; Sanitation,1
+C0366,Investment and Consumption Expenditure as proportion of GDP at constant prices,Finance,1,Economy; Macro Economy,1
+C0367,Jalau Kasht Utpadan : Ujjain,Urban; Development,1,Industries; Manufacturing,1
+C0368,Jan Shikshak CRC Visits : Ujjain,Governance and Administration; Local Government,1,Health and Family welfare; Health,1
+C0369,Janahita Complaints Details,Urban; Development,1,Governance and Administration; Grievances,1
+C0370,Kanmai : Madurai,Environment and Forest; Ecology,1,Water and Sanitation; Drinking Water,1
+C0371,Kitchen Shed School : Ujjain,Governance and Administration; Union/State Government Administration,1,Health and Family welfare; Health,1
+C0372,Land Utilization,Agriculture; Crops,1,Environment and Forest; Natural Resources,1
+C0373,Landmark,Travel and Tourism; Places,1,Industries; Retail,1
+C0374,Landmarks GIS Data : Tiruchirappalli,Governance and Administration; Local Government,1,Art and Culture; Heritage,1
+C0375,Length of Roads : Shimla,Infrastructure; Roads,1,Urban; Development,1
+C0376,Life Insurance Revenue Account of The Life Insurance Corporation of India,Finance; Insurance,4,Industries; Insurance,2
+C0377,Lighting in Streets Public Parks Gardens and Open Spaces : Chandigarh,Infrastructure; Roads,1,Urban; Development,1
+C0378,List of Lok Sabha Members,Parliament Of india; Lok Sabha,4,Governance and Administration; Lok Sabha,3
+C0379,List of Monthly Remuneration/ Pay Scale of Bioprocessing Unit Staff And System of Compensation,Science and Technology; Research & Development,1,Health and Family welfare; Health,1
+C0380,List of Monuments,Travel and Tourism; Places,1,Art and Culture; Monuments,1
+C0381,List of Rajya Sabha Members who have either Resigned/ Died/ Ceased/ Retired or have been elected to Lok Sabha,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0382,List of Starred and Unstarred Questions by Lok Sabha Members,Parliament Of india; Lok Sabha,2,Governance and Administration; Lok Sabha,1
+C0383,Livelihood options in Central Himalaya,Environment and Forest; Forest Resources,1,Social Development; Tribal,1
+C0384,Livestock Population,Agriculture; Animal Husbandry,1,Animal Husbandry; Fishery,1
+C0385,Loans received and houses constructed by Punjab Urban Planning and Development Authority,Housing; Urban Housing,1,Commerce; Companies,1
+C0386,Location of Copper deposits in India and its salient features,Environment and Forest; Natural Resources,1,Industries; Heavy,1
+C0387,Location of Iron Ore deposits in India and its Salient Features,Environment and Forest; Natural Resources,1,Industries; Heavy,1
+C0388,Lok Sabha Members Profile,Parliament Of india; Lok Sabha,2,Governance and Administration; Lok Sabha,1
+C0389,Lok Sabha Parliamentary Bulletin Part I,Parliament Of india; Lok Sabha,2,Governance and Administration; Lok Sabha,2
+C0390,Lok Sabha Private Bills,Parliament Of india; Lok Sabha,1,Governance and Administration; Lok Sabha,1
+C0391,M.P. Apex Bank (MP Rajya Sahakari Bank) and their branches detail,Governance and Administration; Union/State Government Administration,1,Finance; Banking,1
+C0392,MIDC Land Rates 2024,Commerce; Trade promotion,1,Industries; Manufacturing,1
+C0393,MP Head Office level Cooperative Societies,Agriculture; Agricultural Marketing,1,Commerce; Companies,1
+C0394,MSDE - Pradhan Mantri Kaushal Vikas Yojana (PMKVY),Labour and Employment; Employment,1,Industries; Manufacturing,1
+C0395,Maharashtra Industrial Development Corporation (MIDC) Water Supply Scheme,Water and Sanitation; Drinking Water,3,Industries; Heavy,2
+C0396,Maharashtra State administrative Juridiction,Governance and Administration; District Adminstration,1,"Rural; Land Resources, Urban; Development",1
+C0397,Major Storm Water Drains : Ujjain,Infrastructure; Roads,1,Water and Sanitation; Sanitation,1
+C0398,ManagementBoundary,Governance and Administration; District Adminstration,8,Water Resources; Surface Water,4
+C0399,Marriage Hall Details : Tiruppur,Governance and Administration; Local Government,1,Urban; Development,1
+C0400,MeitY Startup Hub,Information and Communications; Information and Technology,1,Information and Broadcasting; Broadcasting,1
+C0401,Member-wise Special Mentions in Lok Sabha,Parliament Of india; Lok Sabha,2,Governance and Administration; Lok Sabha,2
+C0402,Members of Rajya Sabha in Council of Ministers,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0403,Min max average Water Levels : Ujjain,Environment and Forest; Water Quality,1,Water Resources; Ground Water,1
+C0404,Minor Irrigation Sub Basin,Water Resources; Surface Water,1,Agriculture; Irrigation,1
+C0405,Model Derived Depth of 26C Isotherm,Science and Technology; Atmospheric Science,1,Environment and Forest; Water Quality,1
+C0406,Month-wise Rajya Sabha Members Birthday Feeds,Parliament Of india; Rajya Sabha,24,Governance and Administration; Rajya Sabha,12
+C0407,Mortality Rate,Health and Family welfare; Health,3,Census and Surveys; Sample Registration System,2
+C0408,Mortality Rate : Bilaspur,Urban; Development,1,Health and Family welfare; Health,1
+C0409,Mortality Rate : Kota,Census and Surveys; Census,1,Health and Family welfare; Health,1
+C0410,Mortality Rate : New Town Kolkata,Census and Surveys; Census,1,Health and Family welfare; Health,1
+C0411,Mortality Rate : Visakhapatnam,Census and Surveys; Census,1,Health and Family welfare; Health,1
+C0412,National Social Assistance Programme (NSAP) Progress In The Eleventh Plan,"Social Development; Women, Labour and Employment; Employment",1,"Rural; Development, Urban; Development",1
+C0413,Natural Features : Ahmedabad,Environment and Forest; Ecology,1,Urban; Development,1
+C0414,Natural Features : Davanagere,Governance and Administration; Local Government,1,Environment and Forest; Natural Resources,1
+C0415,Natural Landscape : Bilaspur,Environment and Forest; Ecology,1,Urban; Development,1
+C0416,Natural Landscape : Kohima,Environment and Forest; Ecology,2,Water Resources; Surface Water,1
+C0417,Natural Landscape : Pimpri Chinchwad,Governance and Administration; Local Government,1,Environment and Forest; Ecology,1
+C0418,Natural Landscape : Salem,Travel and Tourism; Places,2,Environment and Forest; Ecology,1
+C0419,Net Availability of Cereals and Pulses,"Agriculture; Crops, Finance; Economy",1,Economy; Prices,1
+C0420,"Net Availability, Procurement and Public Distribution of Foodgrains",Food; Public Distribution,1,"Economy; Prices, Finance; Revenue",1
+C0421,Net State Domestic Product at Constant Prices,Finance; Economy,295,Economy; Macro Economy,259
+C0422,"Network Projects with Institute of Bioresources and Sustainable Development, Imphal",Science and Technology; Research & Development,1,Health and Family welfare; Health,1
+C0423,No of Houses and Slum population : Srinagar,Housing; Urban Housing,2,Census; Population Enumerator,2
+C0424,No. of Buses : Surat,Urban; Development,4,Transport; Road Transport,2
+C0425,Nominated Members of Lok Sabha,Parliament Of india; Lok Sabha,2,Governance and Administration; Lok Sabha,1
+C0426,Nominated Members of Rajya Sabha,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0427,Non Lapsable Central Pool of Resources,"Infrastructure; Roads, Water Resources; Drinking Water, Health and Family welfare; Health",6,Governance and Administration; Union/State Government Administration,4
+C0428,Non Notified Slum Area : Madurai,Housing; Urban Housing,1,Urban; Development,1
+C0429,Notifications for Rajya Sabha Committee Meetings,Parliament Of india; Rajya Sabha,2,"Governance and Administration; Lok Sabha, Governance and Administration; Rajya Sabha",2
+C0430,"Number of Enterprises and Persons usually working in Punjab (Rural & Urban) of 1980,1998,2005 and 2013)",Economy; Macro Economy,2,Labour and Employment; Employment,1
+C0431,Number of Masonry and Non-masonry Dug-cum-bore and Open wells by Districts in Tamil Nadu : SCR,Agriculture; Irrigation,2,Water and Sanitation; Drinking Water,1
+C0432,"Number of Non-agricultural Establishment and persons usually working as in Economic Census (1977,1980, 1990,1998,2005 and 2013) in Punjab",Economy; Macro Economy,1,Census and Surveys; Census,1
+C0433,Number of Seats and Rajya Sabha Members by State,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,1
+C0434,Number of Sittings Held in Each Session of Lok Sabha,Parliament Of india; Lok Sabha,1,Governance and Administration; Lok Sabha,1
+C0435,Number of Starred Questions Answered Orally by Minister Concerned in Each Session of Lok Sabha,Parliament Of india; Lok Sabha,1,Governance and Administration; Lok Sabha,1
+C0436,Number of Visitors Passes Issued on any Single Day in Each Session of Lok Sabha,Parliament Of india; Lok Sabha,1,Governance and Administration; Lok Sabha,1
+C0437,Number of workers : Chandigarh,Labour and Employment; Employment,1,Census and Surveys; Census,1
+C0438,Ocean Wind Stress,Environment and Forest; Ecology,1,Science and Technology; Earth Sciences,1
+C0439,Ocean Wind Stress Curl,Environment and Forest; Ecology,1,Science and Technology; Research & Development,1
+C0440,Ocean Wind Velocity,Environment and Forest; Ecology,1,Science and Technology; Research & Development,1
+C0441,Officers of Rajya Sabha - Additional Secretaries and Joint Secretaries,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0442,Online transactions,Economy; Prices,1,Commerce; Trade promotion,1
+C0443,Oorani : Madurai,Environment and Forest; Ecology,1,Urban; Development,1
+C0444,Open Spaces : Agra,Environment and Forest; Forest Resources,1,Urban; Development,1
+C0445,Open Spaces : Aizawl,Environment and Forest; Ecology,2,Urban; Development,1
+C0446,Open Spaces : Coimbatore,Environment and Forest; Ecology,2,Urban; Development,2
+C0447,Open Spaces : Dahod,Environment and Forest; Ecology,1,Urban; Development,1
+C0448,Open Spaces : Dehradun,Environment and Forest; Ecology,1,Urban; Development,1
+C0449,Open Spaces : Jalandhar,Environment and Forest; Ecology,1,Urban; Development,1
+C0450,Open Spaces : Jammu,Environment and Forest; Forest Resources,1,Urban; Development,1
+C0451,Open Spaces : Karimnagar,Environment and Forest; Ecology,1,Urban; Development,1
+C0452,Open Spaces : Kohima,Environment and Forest; Ecology,2,Urban; Development,2
+C0453,Open Spaces : New Town Kolkata,Environment and Forest; Forest,2,Urban; Development,2
+C0454,Open Spaces : Port Blair,Environment and Forest; Ecology,1,Urban; Development,1
+C0455,Open Spaces : Raipur,Environment and Forest; Natural Resources,2,Urban; Development,1
+C0456,Open Spaces : Saharanpur,Environment and Forest; Forest Resources,1,Urban; Development,1
+C0457,Open Spaces : Thanjavur,Environment and Forest; Forest,1,Urban; Development,1
+C0458,Open Spaces : Tirunelveli,Environment and Forest; Forest Resources,2,Urban; Development,2
+C0459,Open Spaces : Tumakuru,Environment and Forest; Ecology,1,Urban; Development,1
+C0460,Open Spaces : Visakhapatnam,Environment and Forest; Forest,1,Urban; Development,1
+C0461,Open spaces : Srinagar,Environment and Forest; Forest Resources,1,Urban; Development,1
+C0462,Openspace : Madurai,Environment and Forest; Ecology,1,Urban; Development,1
+C0463,Operations of Road Transport,"Infrastructure; Roads, Finance; Economy",1,Economy; Macro Economy,1
+C0464,PCMC RTS Data,Infrastructure; Roads,1,Urban; Development,1
+C0465,Panchayat Awards Data,Rural; Panchayati Raj,1,Governance and Administration; Local Government,1
+C0466,Panchayat Finance,Rural; Panchayati Raj,1,Governance and Administration; Local Government,1
+C0467,Paper to be Laid on the Table - Rajya Sabha,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0468,Parking Locations : Agra,Infrastructure; Roads,1,Urban; Development,1
+C0469,Parking Lots : Agartala,Infrastructure; Roads,1,Urban; Development,1
+C0470,Party-wise List of Rajya Sabha Members,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0471,Percentage Share of Tamil Nadu in Leather Exports,Agriculture; Animal Husbandry,1,Industries; Food Processing,1
+C0472,Performance Of Indian Bureau Of Mines During Eleventh Five Year Plan,Industries,1,Economy; Macro Economy,1
+C0473,Ph.D. Degrees Awarded By National Centre For Cell Science,Science and Technology; Research & Development,1,Health and Family welfare; Health,1
+C0474,Physical And Financial Progress of NSAP Components,"Social Development; Women, Health and Family welfare; Family Welfare",1,"Rural; Development, Urban; Development",1
+C0475,Physical Progress Of The Total Sanitation Campaign In Eleventh Plan During Financial Year,Rural; Development,1,Water and Sanitation; Sanitation,1
+C0476,"Physical and Financial Progress under Pardhan Mantri Gram Sadak Yojna (PMGSY), Swarnajayanti Gram Swarozgar Yojana (SGSY) and Bharat Nirman",Infrastructure; Roads,9,Rural; Development,9
+C0477,Physical outcomes under Mahatma Gandhi National Rural Employment Guarantee Act (NREGA),Governance and Administration; Union/State Government Administration,17,Rural; Development,17
+C0478,Plan Outlay And Expenditure In Centre and States/UTs,Economy; Macro Economy,2,Census and Surveys; Annual Health Survey,2
+C0479,Police Station : Bhubaneswar,Governance and Administration; District Adminstration,2,Home Affairs and Enforcement; Police,2
+C0480,Police Station : Kohima,Governance and Administration; Local Government,1,Home Affairs and Enforcement; Police,1
+C0481,Police Station : Pune,Governance and Administration; District Adminstration,1,Home Affairs and Enforcement; Police,1
+C0482,Police Station Details : Tiruppur,Governance and Administration; District Adminstration,1,Home Affairs and Enforcement; Police,1
+C0483,Police Stations : Faridabad,Governance and Administration; District Adminstration,1,Home Affairs and Enforcement; Police,1
+C0484,Police stations : Bengaluru,Governance and Administration; District Adminstration,1,Home Affairs and Enforcement; Police,1
+C0485,Population : Agartala,Urban; Development,1,Census and Surveys; Census,1
+C0486,Population Segregation : Ujjain,Governance and Administration; Local Government,1,Census and Surveys; Census,1
+C0487,Post Office Life Insurance Fund Account,Finance; Insurance,5,Industries; Insurance,5
+C0488,Primary Agriculture Credit Cooperative Societies (PACS) in Madhya Pradesh,Agriculture; Agricultural Marketing,1,Finance; Revenue,1
+C0489,Primary School of district : Ujjain,Governance and Administration; Local Government,1,Education; Elementary,1
+C0490,Private Member Bills by Rajya Sabha Members,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,1
+C0491,Production of Major Livestock Products and Fish,Agriculture; Crops,1,"Economy; Prices, Finance; Economy, Finance; Revenue, Animal Husbandry; Fishery",1
+C0492,Production of Raw Silk and Silk Yarn,Industries; Textiles,8,Textiles; Sericulture,7
+C0493,"Production, Imports and Consumption of Fertilizers",Agriculture; Fertilizers,1,"Economy; Prices, Finance; Revenue",1
+C0494,Profile : Muzaffarpur,Governance and Administration; Local Government,1,Census and Surveys; Census,1
+C0495,Profile of Honorable Chairman of Rajya Sabha,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,1
+C0496,Profile of Honorable Deputy Chairman of Rajya Sabha,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0497,Profile of Honorable Secretary General of Rajya Sabha,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0498,Profiles of Scientific Support Personnel in National Institute of Biomedical Genomics Project-Linked 2012,Science and Technology; Research & Development,1,Health and Family welfare; Health,1
+C0499,Property Tax : Agartala,Governance and Administration; Local Government,1,Urban; Development,1
+C0500,Property Tax : Agra,Governance and Administration; Local Government,1,Urban; Development,1
+C0501,Property Tax : Aizawl,Governance and Administration; Union/State Government Administration,1,Urban; Development,1
+C0502,Property Tax : Dehradun,Governance and Administration; Union/State Government Administration,1,Urban; Development,1
+C0503,Property Tax : Erode,Finance; Revenue,2,Urban; Development,1
+C0504,Property Tax : Karimnagar,Governance and Administration; Local Government,1,Urban; Development,1
+C0505,Property Tax : Kavaratti,Governance and Administration; Union/State Government Administration,1,Urban; Development,1
+C0506,Property Tax : Nagpur,Governance and Administration; Union/State Government Administration,2,Urban; Development,2
+C0507,Property Tax : New Town Kolkata,Governance and Administration; Union/State Government Administration,1,Urban; Development,1
+C0508,Property Tax : Salem,Economy; Prices,2,Urban; Development,1
+C0509,Property Tax : Silvassa,Governance and Administration; Union/State Government Administration,1,Urban; Development,1
+C0510,Property Tax : Visakhapatnam,Governance and Administration; Union/State Government Administration,1,Urban; Development,1
+C0511,Property Tax DCB : Madurai,Economy,1,Urban; Development,1
+C0512,Property Tax Recovery Campaign of all Municipal Councils and Town Panchayats in Maharashtra,Governance and Administration; Local Government,1,Urban; Development,1
+C0513,Provisional Calendar of Lok Sabha Sittings,Parliament Of india; Lok Sabha,2,Governance and Administration; Lok Sabha,2
+C0514,Provisional Calendar of Rajya Sabha Sittings,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0515,Public Amenities : Agartala,Governance and Administration; Local Government,1,Urban; Development,1
+C0516,Public Amenities : Bareilly,Governance and Administration; Local Government,1,Urban; Development,1
+C0517,Public Amenities : Bihar Sharif,Governance and Administration; Local Government,1,Urban; Development,1
+C0518,Public Amenities : Coimbatore,Governance and Administration; Local Government,1,Urban; Development,1
+C0519,Public Amenities : Dahod,Governance and Administration; Local Government,1,Urban; Development,1
+C0520,Public Amenities : Dharamshala,Governance and Administration; Local Government,1,Urban; Development,1
+C0521,Public Amenities : Indore,Governance and Administration; Local Government,1,Urban; Development,1
+C0522,Public Amenities : Jabalpur,Governance and Administration; Local Government,1,Urban; Development,1
+C0523,Public Amenities : Karimnagar,Governance and Administration; Local Government,1,Urban; Development,1
+C0524,Public Amenities : Kohima,Governance and Administration; Local Government,1,Urban; Development,1
+C0525,Public Amenities : Kota,Urban; Development,1,"Social Development; Children, Social Development; Disabled, Education; Higher Education, Education; Secondary",1
+C0526,Public Amenities : Madurai,Governance and Administration; Local Government,1,Urban; Development,1
+C0527,Public Amenities : Nagpur,Governance and Administration; Local Government,1,Urban; Development,1
+C0528,Public Amenities : New Town Kolkata,Governance and Administration; Local Government,1,Urban; Development,1
+C0529,Public Amenities : Saharanpur,Governance and Administration; Local Government,1,Urban; Development,1
+C0530,Public Amenities : Salem,Water and Sanitation; Drinking Water,2,Urban; Development,1
+C0531,Public Amenities : Srinagar,Infrastructure; Roads,1,Urban; Development,1
+C0532,Public Amenities : Thanjavur,Governance and Administration; Local Government,1,Urban; Development,1
+C0533,Public Amenities : Tirunelveli,Governance and Administration; Local Government,1,Urban; Development,1
+C0534,Public Transport Access : Solapur,Housing; Urban Housing,1,Urban; Development,1
+C0535,"Published Quadrangle Geological map of Degree Sheet 41A, 41B, 41E, 41F, 41G, 41I, 41J, 41K, 41L, 41M, 41N, 41O and 41P",Science and Technology; Earth Sciences,1,Environment and Forest; Forest Resources,1
+C0536,Pune Division District wise Rainfall,Water Resources; Surface Water,1,Water and Sanitation; Drinking Water,1
+C0537,Quantity of Fish Catch By Disposition,Agriculture; Fisheries,2,Animal Husbandry; Fishery,1
+C0538,RAMP-Maharashtra,Governance and Administration; Local Government,1,Industries; Small Scale,1
+C0539,Rainfall : Madurai,Water and Sanitation; Sanitation,1,Environment and Forest; Water Quality,1
+C0540,Rajya Sabha Daily List of Business,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,1
+C0541,Rajya Sabha Government Assurances,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,1
+C0542,Rajya Sabha Government Bills,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0543,Rajya Sabha Member-wise Assurance,Parliament Of india; Rajya Sabha,2,"Governance and Administration; Lok Sabha, Governance and Administration; Rajya Sabha",1
+C0544,Rajya Sabha Members Profile,Parliament Of india; Rajya Sabha,2,"Governance and Administration; Lok Sabha, Governance and Administration; Rajya Sabha",1
+C0545,Rajya Sabha Members Strength by Party,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,1
+C0546,Rajya Sabha Parliamentary Bulletin Part I,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0547,Rajya Sabha Parliamentary Bulletin Part II,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0548,Rajya Sabha Private Bills,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,1
+C0549,Rajya Sabha Special Mentions,Parliament Of india; Rajya Sabha,34,Governance and Administration; Rajya Sabha,21
+C0550,Rajya Sabha Supplementary Questions,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,1
+C0551,Ramanathapuram District Hand Book 2017-18 : Khadi Krafts,Art and Culture; Handicrafts,2,Industries; Cottage,1
+C0552,Ramps for handycap in school : Ujjain,Housing; Urban Housing,1,Social Development; Disabled,1
+C0553,Recreational Parks : Ujjain,Travel and Tourism; Places,1,Urban; Development,1
+C0554,Registered FIR : Chandigarh,Governance and Administration; Grievances,1,Home Affairs and Enforcement; Police,1
+C0555,Religious places : Ujjain,Travel and Tourism; Places,1,Art and Culture; Heritage,1
+C0556,Residential Certificates Issued : Kohima,Governance and Administration; Local Government,3,Housing; Urban Housing,3
+C0557,Resource Centres at Block Level Sanctioned Under Capacity Building Component of BRGF And RGSY,Governance and Administration; Local Government,3,Rural; Development,2
+C0558,Restaurants : Chandigarh,Food,1,Industries; Food Processing,1
+C0559,Revenue Account Of Railways in Respect Of Which Government Is Financially Responsible,Economy; Macro Economy,4,Transport; Railways,4
+C0560,Revenue Earning Goods Traffic on Indian Railways - Traffic Originating,Finance; Economy,1,Economy; Macro Economy,1
+C0561,Revenue Earning Goods Traffic on Indian Railways: Goods Carried,Finance; Economy,1,Economy; Prices,1
+C0562,Road Safety : Ahmedabad,Urban; Development,1,Transport; Road Transport,1
+C0563,Road Safety : Bilaspur,Infrastructure; Roads,1,Urban; Development,1
+C0564,Road Safety : Chennai,Transport; Road Transport,1,Health and Family welfare; Health,1
+C0565,Road Safety : Dharamshala,Governance and Administration; Local Government,1,Transport; Road Transport,1
+C0566,Road Safety : Karimnagar,Transport; Road Transport,1,Health and Family welfare; Health,1
+C0567,Road Safety : Tirunelveli,Transport; Road Transport,1,Health and Family welfare; Health,1
+C0568,Road Safety : Tiruppur,Urban; Development,1,Transport; Road Transport,1
+C0569,Road Statistics of Karnataka State,Infrastructure; Roads,1,Transport; Road Transport,1
+C0570,Road safety : Chandigarh,Infrastructure; Roads,3,Health and Family welfare; Health,2
+C0571,Roads : Bilaspur,Infrastructure; Roads,1,Urban; Development,1
+C0572,Roads : Surat,Infrastructure; Roads,4,Urban; Development,3
+C0573,Roads : Thoothukudi,Urban; Development,1,Infrastructure; Roads,1
+C0574,Roads : Tiruppur,Urban; Development,1,Infrastructure; Roads,1
+C0575,Roads : Warangal,Infrastructure; Roads,1,Urban; Development,1
+C0576,Roadsafety : Madurai,Governance and Administration; Local Government,1,Transport; Road Transport,1
+C0577,Roadside Drainage : Kohima,Infrastructure; Roads,1,Urban; Development,1
+C0578,SAMPANN Pensioner data,Governance and Administration; Union/State Government Administration,1,Information and Communications; Telecom,1
+C0579,Sample Study for Rajiv Gandhi Grameen Vidyutikaran Yojana (RGGVY),Infrastructure; Power,2,Power and Energy; Renewable,1
+C0580,Sanjeevini KSLPS Key Performance Indicator,Social Development; Women,1,Health and Family welfare; Health,1
+C0581,School Having Functional Toilet for girls : Ujjain,Governance and Administration; Local Government,1,Water and Sanitation; Sanitation,1
+C0582,School Inspected : Ujjain,Governance and Administration; Local Government,1,Education; Elementary,1
+C0583,Schools having Toilet : Ujjain,Governance and Administration; Local Government,1,Water and Sanitation; Sanitation,1
+C0584,Season Wise Rainfall occurred by Districts in Tamil Nadu: SCR,Census and Surveys; Census,15,Environment and Forest; Water Quality,12
+C0585,Sections of Rajya Sabha,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,1
+C0586,Sector-Wise Expenditure on Education By Central And State Governments (Revenue Account),Science and Technology; Research & Development,2,Education; Elementary,1
+C0587,Selected Indicators of Human Development for Major States in India,Health and Family welfare; Health,1,Economy; Macro Economy,1
+C0588,Self Help Group : Ujjain,Governance and Administration; Local Government,1,Social Development; Women,1
+C0589,Seminars Held in National Institute of Biomedical Genomics,Science and Technology; Research & Development,2,Health and Family welfare; Health,1
+C0590,Session wise Statistical Information relating to Questions in Rajya Sabha,Parliament Of india; Rajya Sabha,1425,Governance and Administration; Rajya Sabha,965
+C0591,Session wise details of Disposal of Notices of Starred and Unstarred Questions of Rajya Sabha,Parliament Of india; Rajya Sabha,1,Governance and Administration; Rajya Sabha,1
+C0592,Session-wise Notices of Starred and Unstarred Questions of Rajya Sabha Received for Each Date After Issue of the Bulletin for Commencement of the Session,Parliament Of india; Rajya Sabha,1,"Governance and Administration; Lok Sabha, Governance and Administration; Rajya Sabha",1
+C0593,Share and Percentage Growth/Change of Major Imports,Finance; Economy,1,Economy; Prices,1
+C0594,Shift School : Ujjain,Governance and Administration; Local Government,1,Education; Elementary,1
+C0595,Signalized Intersections : Pune,Infrastructure; Roads,1,Transport; Road Transport,1
+C0596,Single classroom in school : Ujjain,Governance and Administration; Union/State Government Administration,1,Education; Elementary,1
+C0597,Sittings Hours and Time Lost Due to Disruptions or Forced Adjournments in Each Session of Lok Sabha,Parliament Of india; Lok Sabha,1,Governance and Administration; Lok Sabha,1
+C0598,Small Medium Irrigation Plan : Ujjain,Infrastructure; Dams,1,Water Resources; Drinking Water,1
+C0599,Social Status of Beneficiary Children - Based on Sample Survey,Education; Elementary,1,Social Development; Children,1
+C0600,Solid Waste Collection Equipment : Itanagar,Water and Sanitation; Sanitation,1,Environment and Forest; Sanitation,1
+C0601,Solid Waste Collection Equipment : Satna,Environment and Forest; Sanitation,1,Health and Family welfare; Health,1
+C0602,Solid Waste Collection Vehicle : Dahod,Environment and Forest; Sanitation,1,Urban; Development,1
+C0603,Solid Waste Collection Vehicle : Itanagar,Environment and Forest; Sanitation,1,Urban; Development,1
+C0604,Solid Waste Collection Vehicle : Kavaratti,Infrastructure; Roads,1,Environment and Forest; Sanitation,1
+C0605,Solid Waste Collection Vehicle : Satna,Environment and Forest; Sanitation,1,Health and Family welfare; Health,1
+C0606,Solid Waste Collection Vehicle Data : Tumakuru,Infrastructure; Roads,1,Environment and Forest; Sanitation,1
+C0607,Solid Waste Collection vehicle information : Gwalior,Infrastructure; Roads,1,Urban; Development,1
+C0608,Solid Waste D2D Collection Revenue : Dharamshala,Governance and Administration; Union/State Government Administration,1,Environment and Forest; Sanitation,1
+C0609,Solid Waste D2D Collection Revenue : Satna,Environment and Forest; Sanitation,1,Health and Family welfare; Health,1
+C0610,Solid Waste D2D collection Revenue : Itanagar,Environment and Forest; Sanitation,1,Urban; Development,1
+C0611,Solid Waste Disposal : Warangal,Infrastructure; Roads,1,Urban; Development,1
+C0612,Solid Waste Disposal Data : Saharanpur,Environment and Forest; Sanitation,1,Health and Family welfare; Health,1
+C0613,Solid Waste Door To Door Collection Revenue : Warangal,Environment and Forest; Sanitation,1,Urban; Development,1
+C0614,Solid Waste Management - Basic : Shivamogga,Environment and Forest; Municipal Waste,1,Health and Family welfare; Health,1
+C0615,Solid Waste Management - Efficiency : Erode,Infrastructure; Roads,1,Urban; Development,1
+C0616,Solid Waste Management - Efficiency : Shivamogga,Health and Family welfare; Health,1,Environment and Forest; Sanitation,1
+C0617,Solid Waste Management - Efficiency : Tiruppur,Infrastructure; Roads,1,Urban; Development,1
+C0618,Solid Waste Management : Aurangabad,Water and Sanitation; Sanitation,9,Urban; Development,9
+C0619,Solid Waste Management : Gwalior,Health and Family welfare; Health,1,Environment and Forest; Sanitation,1
+C0620,Solid Waste Management : Patna,Infrastructure; Roads,7,Urban; Development,7
+C0621,Solid Waste Management : Salem,Environment and Forest; Sanitation,7,Economy; Macro Economy,4
+C0622,Solid Waste Management : Shillong,Infrastructure; Roads,2,Urban; Development,2
+C0623,Solid Waste Management : Shimla,Infrastructure; Roads,3,Urban; Development,3
+C0624,Solid Waste Management : Thoothukudi,Infrastructure; Roads,13,Urban; Development,13
+C0625,Solid Waste Management : Tiruchirappalli,Infrastructure; Roads,5,Urban; Development,5
+C0626,Solid Waste Management : Vellore,Environment and Forest; Municipal Waste,1,Census; House listing and Housing Census,1
+C0627,Solid Waste Management Basic : Erode,Infrastructure; Roads,1,Urban; Development,1
+C0628,Solid Waste Management Disposal Data : Ranchi,Governance and Administration; Local Government,2,Water and Sanitation; Sanitation,1
+C0629,Solid Waste Management Efficiency : Warangal,Infrastructure; Roads,1,Urban; Development,1
+C0630,Solid Waste Management Revenue : Shivamogga,Environment and Forest; Municipal Waste,1,Health and Family welfare; Health,1
+C0631,Solid Waste Management-Efficiency : Saharanpur,Environment and Forest; Sanitation,1,Health and Family welfare; Health,1
+C0632,Solid Waste Management-Efficiency : Satna,Environment and Forest; Sanitation,1,Health and Family welfare; Health,1
+C0633,Solid Waste Management-Revenue : Saharanpur,Health and Family welfare; Health,1,Environment and Forest; Sanitation,1
+C0634,Solid Waste Processing : Bhopal,Environment and Forest; Municipal Waste,1,Urban; Development,1
+C0635,Solid Waste Processing : Ranchi,Governance and Administration; Local Government,2,Water and Sanitation; Sanitation,1
+C0636,Solid Waste Processing : Shivamogga,Environment and Forest; Municipal Waste,1,Health and Family welfare; Health,1
+C0637,Solid Waste Segregation : Shivamogga,Environment and Forest; Municipal Waste,1,Health and Family welfare; Health,1
+C0638,Solid Waste Ward wise Seggeration Data : Saharanpur,Environment and Forest; Sanitation,1,Health and Family welfare; Health,1
+C0639,Special Bus Service : Kohima,Transport; Road Transport,1,Urban; Development,1
+C0640,Special Mentions by Rajya Sabha Members,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,2
+C0641,Startup Recognized by DPIIT,Economy; Macro Economy,1,Industries; Manufacturing,1
+C0642,State Average of Agriculture Wages,Agriculture; Agricultural Research & Extension,1,Labour and Employment; Employment,1
+C0643,"State Industries Working days, Off days, Incident in Madhya Pradesh",Labour and Employment; Unorganized Sector Workers,1,Industries; Manufacturing,1
+C0644,State Unique Disability Identity (UDID) Monthly Data,Social Development; Disabled,3,Health and Family welfare; Health,2
+C0645,State-wise Number of Projects Received,Science and Technology; Research & Development,1,Health and Family welfare; Health,1
+C0646,State-wise Number of Research And Development Proposals Not Found Suitable,Health and Family welfare; Health,2,Science and Technology; Research & Development,1
+C0647,State-wise Number of Societal Development Proposals Not Found Suitable,Science and Technology; Research & Development,2,Health and Family welfare; Family Welfare,1
+C0648,State-wise Ongoing Projects,Science and Technology; Research & Development,4,Health and Family welfare; Health,4
+C0649,State-wise Ongoing Societal Development Projects,Science and Technology; Research & Development,1,Health and Family welfare; Health,1
+C0650,State-wise total area under wastelands during 2008-09 vis-a-vis 2005-06,Rural; Land Resources,1,Environment and Forest; Forest Resources,1
+C0651,Statistical Hand Book 2016 : Companies,Economy; Macro Economy,2,Industries; Manufacturing,1
+C0652,Statistical Hand Book : Civil Supplies,Economy; Prices,103,Food; Public Distribution,56
+C0653,Statistical Hand Book : Factories,Economy; Macro Economy,48,Labour and Employment; Employment,27
+C0654,Statistical Hand Book : Institutional Finance,Economy; Macro Economy,206,Finance; Economy,103
+C0655,Statistical Hand Book : Insurance,Economy; Prices,23,Finance; Insurance,20
+C0656,Statistical Hand Book : Insurance Operation in Tamil Nadu,Economy; Macro Economy,45,Finance; Insurance,40
+C0657,Statistical Hand Book : Irrigation,Water Resources; Surface Water,64,Agriculture; Irrigation,38
+C0658,Statistical Hand Book : Judicial Administration,Governance and Administration; District Adminstration,36,Judiciary; High Court,31
+C0659,Statistical Hand Book : Legislature & Election,Governance and Administration; Lok Sabha,48,Parliament Of india; Lok Sabha,25
+C0660,Statistical Hand Book : Recreation,Social Development; Children,57,Information and Broadcasting; Broadcasting,53
+C0661,Statistical Hand Book : Road and Transport,Infrastructure; Roads,138,Transport; Road Transport,95
+C0662,Statistical Hand Book : State Finance,Economy; Macro Economy,72,Finance; Revenue,46
+C0663,Statistics regarding Panchayats in Punjab,Governance and Administration; Local Government,9,Urban; Development,5
+C0664,Stray Cattle and Dogs (Livestock Census),Agriculture; Animal Husbandry,35,Animal Husbandry; Fishery,26
+C0665,Street Light : Agartala,Infrastructure; Roads,1,Urban; Development,1
+C0666,Street Light : Kanpur,Infrastructure; Roads,1,Urban; Development,1
+C0667,Street Light : Silvassa,Infrastructure; Roads,1,Urban; Development,1
+C0668,Street Light : Tumakuru,Infrastructure; Roads,1,Urban; Development,1
+C0669,Street Lights : Aizawl,Infrastructure; Roads,1,Urban; Development,1
+C0670,Street Lights : Bilaspur,Infrastructure; Roads,1,Urban; Development,1
+C0671,Street Lights : Dahod,Infrastructure; Roads,1,Urban; Development,1
+C0672,Street Lights : Davanagere,Infrastructure; Roads,1,Urban; Development,1
+C0673,Street Lights : Faridabad,Infrastructure; Roads,1,Urban; Development,1
+C0674,Street Lights : Jammu,Infrastructure; Roads,1,Urban; Development,1
+C0675,Street Lights : Kalyan Dombivli,Infrastructure; Roads,2,Urban; Development,2
+C0676,Street Lights : Karimnagar,Infrastructure; Roads,1,Urban; Development,1
+C0677,Street Lights : New Town Kolkata,Infrastructure; Roads,1,Urban; Development,1
+C0678,Street Lights : Patna,Infrastructure; Roads,1,Urban; Development,1
+C0679,Street Lights : Salem,Power and Energy; Renewable,2,Urban; Development,1
+C0680,Street Lights : Satna,Infrastructure; Roads,1,Urban; Development,1
+C0681,Street Lights : Thiruvananthapuram,Infrastructure; Roads,1,Urban; Development,1
+C0682,Street Lights : Thoothukudi,Infrastructure; Roads,3,Urban; Development,3
+C0683,Street Lights : Tirupati,Infrastructure; Roads,1,Urban; Development,1
+C0684,Street Lights : Varanasi,Infrastructure; Roads,1,Urban; Development,1
+C0685,Street Lights : Visakhapatnam,Infrastructure; Roads,1,Urban; Development,1
+C0686,Street Lights : Warangal,Infrastructure; Roads,1,Urban; Development,1
+C0687,Street Lights Data : Jaipur,Infrastructure; Roads,1,Urban; Development,1
+C0688,Street Lights information : Guwahati,Infrastructure; Roads,1,Urban; Development,1
+C0689,Street Lights information : Gwalior,Infrastructure; Roads,1,Urban; Development,1
+C0690,Street Parking : Kohima,Infrastructure; Roads,2,Urban; Development,2
+C0691,Street Vendors Day NULM : Kohima,Governance and Administration; Local Government,1,Urban; Development,1
+C0692,Street lights : Coimbatore,Infrastructure; Roads,1,Urban; Development,1
+C0693,Student classroom ratio : Ujjain,Governance and Administration; Local Government,1,Education; Elementary,1
+C0694,Sugar Development Fund,Economy; Macro Economy,1,Industries; Manufacturing,1
+C0695,Supplementary Questions of Lok Sabha Members (English),Parliament Of india; Lok Sabha,1,Governance and Administration; Lok Sabha,1
+C0696,Supplementary Questions of Rajya Sabha Members,Parliament Of india; Rajya Sabha,2,Governance and Administration; Rajya Sabha,1
+C0697,Supply Water Consumer : Ranchi,Governance and Administration; Local Government,1,Water and Sanitation; Drinking Water,1
+C0698,Sustainable Development Goals National Indicator Framework,Governance and Administration; Constitution,2,Social Development; Women,2
+C0699,Tanks : Madurai,Environment and Forest; Ecology,1,Water and Sanitation; Drinking Water,1
+C0700,Teacher data : Ujjain,Governance and Administration; Local Government,1,Education; Elementary,1
+C0701,Technical/Operational/infrastructural Under RGGVY Scheme,Infrastructure,7,Power and Energy; Renewable,7
+C0702,Time Lost Due to Disruptions or Forced Interruptions in Sessions of Lok Sabha,Parliament Of india; Lok Sabha,1,Governance and Administration; Lok Sabha,1
+C0703,Time Series Data Classification of Land in Tamil Nadu : SCR,Economy; Macro Economy,3,Rural; Land Resources,3
+C0704,Time Series Data Rainfall by Seasons in Tamil Nadu : SCR,Agriculture; Crops,3,Environment and Forest; Water Quality,3
+C0705,"Time Series Data on Production, Export, Import and Consumption of Finished Steel Items",Economy; Macro Economy,4,Industries; Heavy,4
+C0706,Tiruvallur District Handbook 2017-18 : Social Welfare Department Schemes,Governance and Administration; District Adminstration,1,Social Development; Women,1
+C0707,Tiruvallur District Handbook 2017-18 : Srilankan Refugee Camps,Governance and Administration; District Adminstration,1,Social Development; Minority,1
+C0708,Tiruvallur District Handbook 2017-18 : TAHDCO Schemes,Governance and Administration; Union/State Government Administration,1,Housing; Urban Housing,1
+C0709,Total Connection capacity of WTP : Guwahati,Water and Sanitation; Drinking Water,1,Water Resources; Drinking Water,1
+C0710,Total Number of Recognised Educational Institutions in India (Provisional),Education; Elementary,1,Finance; Economy,1
+C0711,Traffic : Bareilly,Infrastructure; Roads,1,Transport; Road Transport,1
+C0712,Traffic : Bilaspur,Infrastructure; Roads,1,Urban; Development,1
+C0713,Traffic : Coimbatore,Infrastructure; Roads,3,Transport; Road Transport,3
+C0714,Traffic : Nagpur,Infrastructure; Roads,1,Transport; Road Transport,1
+C0715,Traffic : New Town Kolkata,Infrastructure; Roads,1,Transport; Road Transport,1
+C0716,Traffic : Shillong,Infrastructure; Roads,1,Transport; Road Transport,1
+C0717,Traffic : Solapur,Infrastructure; Roads,1,Transport; Road Transport,1
+C0718,Traffic : Tirunelveli,Infrastructure; Roads,1,Transport; Road Transport,1
+C0719,Traffic : Tirupati,Infrastructure; Roads,1,Transport; Road Transport,1
+C0720,Traffic : Varanasi,Infrastructure; Roads,1,Transport; Road Transport,1
+C0721,Traffic : Visakhapatnam,Infrastructure; Roads,1,Transport; Road Transport,1
+C0722,Traffic Lights : Bengaluru,Infrastructure; Roads,1,Urban; Development,1
+C0723,Traffic Signalized Intersections : Chandigarh,Infrastructure; Roads,1,Transport; Road Transport,1
+C0724,Trend of Ground Water Level : Ujjain,Environment and Forest; Water Quality,1,Water Resources; Ground Water,1
+C0725,Trends In Nominal And Real Effective Exchange Rate of Rupee - Trade Based Weights,Finance; Economy,6,Economy; Prices,4
+C0726,"Twinning Projects with Institute of Bioresources and Sustainable Development, Imphal",Science and Technology; Research & Development,1,Health and Family welfare; Health,1
+C0727,Unemployment Rate : Gandhinagar,Economy; Prices,1,Labour and Employment; Employment,1
+C0728,Unemployment Rate : Solapur,Labour and Employment; Employment,1,Census; Population Enumerator,1
+C0729,Unstarred Questions Admitted in Each Session of Lok Sabha,Parliament Of india; Lok Sabha,1,Governance and Administration; Lok Sabha,1
+C0730,Urban bodies in Kerala,Governance and Administration; Local Government,2,Urban; Development,2
+C0731,Urination Vulnerable Points : Ujjain,Environment and Forest; Sanitation,1,Health and Family welfare; Health,1
+C0732,Utilisation of Foodgrains - Based on Sample Survey,Education; Elementary,1,Food; Public Distribution,1
+C0733,VAT & GST : Aurangabad,Economy; Prices,1,Finance; Revenue,1
+C0734,VAT & GST : Erode,Urban; Development,1,Economy; Macro Economy,1
+C0735,VAT & GST : Varanasi,Economy; Prices,2,Commerce; Trade promotion,1
+C0736,VAT And GST : Ranchi,Economy; Prices,1,Finance; Revenue,1
+C0737,VAT and GST : Silvassa,Economy; Prices,1,Health and Family welfare; Health,1
+C0738,VAT and GST Collection : Sagar,Economy; Prices,2,Finance; Revenue,1
+C0739,Vanmandal : Ujjain,Environment and Forest; Forest Resources,1,Urban; Development,1
+C0740,"Various Posts At National Institute of Animal Biotechnology, Hyderabad",Health and Family welfare; Family Welfare,1,Science and Technology; Research & Development,1
+C0741,Vellore District Hand Book 2017-18 : Special Schemes,Governance and Administration; District Adminstration,2,Census and Surveys; Annual Health Survey,1
+C0742,Verbatim Debates of Rajya Sabha,Parliament Of india; Rajya Sabha,2,"Governance and Administration; Lok Sabha, Governance and Administration; Rajya Sabha",1
+C0743,Visitors Arrival in India,Industries; Tourism,7,Travel and Tourism; Places,5
+C0744,Wards and Zones : Ujjain,Governance and Administration; Local Government,1,Urban; Development,1
+C0745,Water : Thanjavur,Water and Sanitation; Drinking Water,1,Water Resources; Drinking Water,1
+C0746,Water Consumption : Pune,Water and Sanitation; Drinking Water,1,Water Resources; Drinking Water,1
+C0747,Water Consumption : Ujjain,Water and Sanitation; Drinking Water,1,Water Resources; Drinking Water,1
+C0748,Water Revenue : Dahod,Economy; Prices,1,Water and Sanitation; Drinking Water,1
+C0749,Water Revenue Data : Atal Nagar,Water and Sanitation; Drinking Water,1,Water Resources; Drinking Water,1
+C0750,Water Revenue Data : Pune,Water and Sanitation; Drinking Water,3,Water Resources; Drinking Water,2
+C0751,Water Revenue Data : Surat,Urban; Development,10,Water and Sanitation; Drinking Water,8
+C0752,Water Supply : Davanagere,Urban; Development,1,Water and Sanitation; Drinking Water,1
+C0753,Water Supply : Tiruppur,Water and Sanitation; Drinking Water,1,Urban; Development,1
+C0754,Water Tax : Chandigarh,Finance; Revenue,2,Water and Sanitation; Drinking Water,1
+C0755,Water Tax : Karnal,Governance and Administration; Union/State Government Administration,2,Water and Sanitation; Drinking Water,2
+C0756,Water Tax : Kavaratti,Water Resources; Drinking Water,1,Water and Sanitation; Drinking Water,1
+C0757,Water Tax : Lucknow,Urban; Development,1,Water and Sanitation; Drinking Water,1
+C0758,Water Tax : Shillong,Governance and Administration; Union/State Government Administration,1,Water and Sanitation; Sanitation,1
+C0759,Water Tax : Thoothukudi,Urban; Development,1,Water and Sanitation; Sanitation,1
+C0760,Water Tax : Visakhapatnam,Water and Sanitation; Drinking Water,1,Water Resources; Drinking Water,1
+C0761,Water Tax DCB : Madurai,Governance and Administration; Union/State Government Administration,1,Water and Sanitation; Sanitation,1
+C0762,Water consumption : Rourkela,Health and Family welfare; Health,1,Water and Sanitation; Drinking Water,1
+C0763,Weight measurement of sample children (Quick Evaluation Study),Health and Family welfare; Health,8,Census and Surveys; Annual Health Survey,6
+C0764,Wholesale Prices for Certain Agricultural Commodities by Districts in Tamil Nadu : SCR,Economy; Prices,6,Agriculture; Crops,3
+C0765,Without Classroom : Ujjain,Governance and Administration; Union/State Government Administration,1,Health and Family welfare; Health,1
+C0766,Women Helpline Telephone : Kohima,Governance and Administration; Grievances,1,Social Development; Women,1
+C0767,Work Participation Rate : Kohima,Labour and Employment; Employment,1,Census and Surveys; Annual Health Survey,1
+C0768,Yearwise Consumer Price Index Number for the Working Class in Punjab,Economy; Prices,2,Food; Consumer Affairs,1
+C0769,Yield per Hectare of Major Crops,Agriculture; Crops,1,Economy; Prices,1

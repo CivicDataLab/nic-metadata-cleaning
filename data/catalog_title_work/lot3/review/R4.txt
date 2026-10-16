@@ -1,0 +1,738 @@
+== OWNER: Tamil Nadu / Planning, Development and Special Initiatives Department
+[1342] new_catalog_title: District Hand Book : Public Health
+      old_catalog_title (37 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Public Health
+        - Erode District Hand Book 2017-18 : Public Health
+        - Krishnagiri District Handbook 2017-18 : Public Health
+        - Salem District Hand Book 2018-19 : Public Health
+        - Tirunelveli District Hand Book 2018-19 : Public Health
+        - Virudhunagar District Hand Book 2017-18 : Public Health
+[1343] new_catalog_title: District Hand Book : Quality Control
+      old_catalog_title (18 in all, 6 shown):
+        - Dindigul District Hand Book 2017-18 : Quality Control
+        - Krishnagiri District Handbook 2017-18 : Quality Control
+        - Nilgiris District Hand Book 2018-19 : Quality Control
+        - Theni District Hand Book 2017-18 : Quality Control
+        - Tiruppur District Hand Book 2017-18 : Quality Control
+        - Virudhunagar District Hand Book 2017-18 : Quality Control
+[1344] new_catalog_title: District Hand Book : Recreation and Cultural Services
+      old_catalog_title (38 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Recreation and Cultural Services
+        - Erode District Hand Book 2017-18 : Recreation and Cultural Services
+        - Madurai District Hand Book 2017-18 : Recreation and Cultural Services
+        - Ramanathapuram District Hand Book 2017-18 : Reception and Cultural Services
+        - Tirunelveli District Hand Book 2017-18 : Recreation and Cultural Services
+        - Virudhunagar District Hand Book 2017-18 : Recreation and Cultural Services
+[1345] new_catalog_title: District Hand Book : Registration
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Registration
+        - Erode District Hand Book 2018-19 : Registration
+        - Madurai District Hand Book 2017-18 : Registration
+        - Salem District Hand Book 2017-18 : Registration
+        - Tirunelveli District Hand Book 2017-18 : Registration
+        - Virudhunagar District Hand Book 2017-18 : Registration
+[1346] new_catalog_title: District Hand Book : Repair and Services
+      old_catalog_title (36 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Repair and Service
+        - Erode District Hand Book 2017-18 : Repair and Service
+        - Krishnagiri District Hand Book 2017-18 : Repair and Service
+        - Ramanathapuram District Hand Book 2017-18 : Repair and Service
+        - Tiruchirappalli District Hand Book 2017-18 : Repair and Service
+        - Virudhunagar District Hand Book 2017-18 : Repair and Service
+[1347] new_catalog_title: District Hand Book : Restaurants and Hotels
+      old_catalog_title (38 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Restaurants and Hotels
+        - Erode District Hand Book 2017-18 : Restaurants and Hotels
+        - Madurai District Hand Book 2017-18 : Restaurants and Hotels
+        - Ramanathapuram District Hand Book 2017-18 : Restaurants and Hotels
+        - Tirunelveli District Hand Book 2017-18 : Restaurants and Hotels
+        - Virudhunagar District Hand Book 2017-18 : Restaurants and Hotels
+[1348] new_catalog_title: District Hand Book : Sanitary Services
+      old_catalog_title (33 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Sanitary Services
+        - Erode District Hand Book 2018-19 : Sanitary Services
+        - Nilgiris District Hand Book 2018-19 : Sanitary Services
+        - Sivaganga District Hand Book 2017-18 : Sanitary Services
+        - Tiruppur District Hand Book 2017-18 : Sanitary Services
+        - Virudhunagar District Hand Book 2017-18 : Sanitary Services
+[1349] new_catalog_title: District Hand Book : Scientific and Research Service
+      old_catalog_title (27 in all, 6 shown):
+        - Chennai District Hand Book 2017-18 : Scientific and Research Services
+        - Kancheepuram District Hand Book 2017-18 : Scientific and Research Service
+        - Nagapattinam District Hand Book 2017-18 : Scientific and Research Service
+        - Salem District Hand Book 2018-19 : Scientific and Research Service
+        - Tirunelveli District Hand Book 2018-19 : Scientific and Research Service
+        - Virudhunagar District Hand Book 2017-18 : Scientific and Research Services
+[1350] new_catalog_title: District Hand Book : Scientific and Research Work
+      old_catalog_title (2):
+        - Thanjavur District Hand Book 2017-18 : Scientific and Research Work
+        - Theni District Hand Book 2017-18 : Scientific and Research Work
+[1351] new_catalog_title: District Hand Book : Social Welfare
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Social Welfare
+        - Erode District Hand Book 2018-19 : Social Welfare
+        - Madurai District Hand Book 2017-18 : Social Welfare
+        - Salem District Hand Book 2017-18 : Social Welfare
+        - Tirunelveli District Hand Book 2017-18 : Social Welfare
+        - Virudhunagar District Hand Book 2017-18 : Social Welfare
+[1352] new_catalog_title: District Hand Book : Storage Facilities
+      old_catalog_title (37 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Storage Facilities
+        - Erode District Hand Book 2018-19 : Storage Facilities
+        - Madurai District Hand Book 2017-18 : Storage Facilities
+        - Salem District Hand Book 2018-19 : Storage Facilities
+        - Tirunelveli District Hand Book 2018-19 : Storage Facilities
+        - Virudhunagar District Hand Book 2017-18 : Storage Facilities
+[1353] new_catalog_title: District Hand Book : Textiles
+      old_catalog_title (28 in all, 6 shown):
+        - Coimbatore District Hand Book 2017-18 : Textiles
+        - Erode District Hand Book 2017-18 : Textiles
+        - Krishnagiri District Hand Book 2017-18 : Textiles
+        - Ramanathapuram District Hand Book 2017-18 : Textiles
+        - Tirunelveli District Hand Book 2017-18 : Textiles
+        - Virudhunagar District Hand Book 2017-18 : Textiles
+[1354] new_catalog_title: District Hand Book : Tourism
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Tourism
+        - Erode District Hand Book 2018-19 : Tourism
+        - Madurai District Hand Book 2017-18 : Tourism
+        - Salem District Hand Book 2017-18 : Tourism
+        - Tirunelveli District Hand Book 2017-18 : Tourism
+        - Virudhunagar District Hand Book 2017-18 : Tourism
+[1355] new_catalog_title: District Hand Book : Trade and Commerce
+      old_catalog_title (31 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Trade and Commerce
+        - Erode District Hand Book 2017-18 : Trade and Commerce
+        - Karur District Hand Book 2018-19 : Trade and Commerce
+        - Salem District Hand Book 2018-19 : Trade and Commerce
+        - Tirunelveli District Hand Book 2018-19 : Trade and Commerce
+        - Virudhunagar District Hand Book 2017-18 : Trade and Commerce
+[1356] new_catalog_title: District Hand Book : Transport
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Transport
+        - Erode District Hand Book 2018-19 : Transport
+        - Madurai District Hand Book 2017-18 : Transport
+        - Salem District Hand Book 2017-18 : Transport
+        - Tirunelveli District Hand Book 2017-18 : Transport
+        - Virudhunagar District Hand Book 2017-18 : Transport
+[1357] new_catalog_title: District Hand Book : Vital Statistics
+      old_catalog_title (37 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Vital Statistics
+        - Erode District Hand Book 2017-18 : Vital Statistics
+        - Krishnagiri District Handbook 2017-18 : Vital Statistics
+        - Salem District Hand Book 2017-18 : Vital Statistics
+        - Tirunelveli District Hand Book 2017-18 : Vital Statistics
+        - Virudhunagar District Hand Book 2017-18 : Vital Statistics
+[1358] new_catalog_title: District Hand Book : Voluntary Services
+      old_catalog_title (34 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Voluntary Services
+        - Erode District Hand Book 2017-18 : Voluntary Services
+        - Karur District Hand Book 2018-19 : Voluntary Services
+        - Pudukkottai District Hand Book 2017-18 : Voluntary Services
+        - Tiruchirappalli District Hand Book 2017-18 : Voluntary Services
+        - Virudhunagar District Hand Book 2017-18 : Voluntary Services
+[1359] new_catalog_title: District Hand Book : Water Work and Supply
+      old_catalog_title (39 in all, 6 shown):
+        - Ariyalur District Hand Book 2017-18 : Water Work and Supply
+        - Erode District Hand Book 2018-19 : Water Work and Supply
+        - Madurai District Hand Book 2017-18 : Water Work and Supply
+        - Salem District Hand Book 2017-18 : Water Works and Supply
+        - Tirunelveli District Hand Book 2017-18 : Water Works and Supply
+        - Virudhunagar District Hand Book 2017-18 : Water Work and Supply
+[1360] new_catalog_title: Forecast Calendar for various Crops in Tamil Nadu: SCR
+      old_catalog_title (3):
+        - Forecast Calendar for various Crops in Tamil Nadu: SCR 2016-17
+        - Forecast Calendar for various Crops in Tamil Nadu: SCR 2017-18
+        - Forecast Calendar for various Crops in Tamil Nadu: SCR 2018-19
+[1361] new_catalog_title: Glossory of Botanical, English and Tamil names for Crops in Tamil Nadu : SCR
+      old_catalog_title (2):
+        - Glossory of Botanical, English and Tamil names for Crops in Tamil Nadu : SCR 2016-17
+        - Glossory of Botanical, English and Tamil names for Crops in Tamil Nadu : SCR 2017-18
+[1362] new_catalog_title: Index Number and Average rate of daily wages paid to certain categories of Agricultural Labourers by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Index Number and Average rate of daily wages paid to certain categories of Agricultural Labourers by Districts in Tamil Nadu : SCR 2016-17
+        - Index Number and Average rate of daily wages paid to certain categories of Agricultural Labourers by Districts in Tamil Nadu : SCR 2017-18
+        - Index Number and Average rate of daily wages paid to certain categories of Agricultural Labourers by Districts in Tamil Nadu : SCR 2018-19
+[1363] new = old: Karur District Hand Book 2017-18 : Khadi and Village Industries
+[1364] new = old: No.of Masonry and Non-masonry Dug-cum-bore and Open wells by Districts in Tamil Nadu : SCR 2016-17
+[1365] new_catalog_title: Normal Area of Principal Crops by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Normal Area of Principal Crops by Districts in Tamil Nadu : SCR 2016-17
+        - Normal Area of Principal Crops by Districts in Tamil Nadu : SCR 2018-19
+        - Normal Area of Principle Crops by Districts in Tamil Nadu : SCR 2017-18
+[1366] new_catalog_title: Normal Outturn of Principal Crops (Cereals) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Normal Outturn of Principal Crops (Cereals) by Districts in Tamil Nadu : SCR 2016-17
+        - Normal Outturn of Principal Crops (Cereals) by Districts in Tamil Nadu : SCR 2017-18
+        - Normal Outturn of Principal Crops (Cereals) by Districts in Tamil Nadu : SCR 2018-19
+[1367] new_catalog_title: Normal Outturn of Principal Crops (Cotton) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Normal Outturn of Principal Crops (Cotton) by Districts in Tamil Nadu : SCR 2016-17
+        - Normal Outturn of Principal Crops (Cotton) by Districts in Tamil Nadu : SCR 2017-18
+        - Normal Outturn of Principal Crops (Cotton) by Districts in Tamil Nadu : SCR 2018-19
+[1368] new_catalog_title: Normal Outturn of Principal Crops (Fruits) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Normal Outturn of Principal Crops (Fruits) by Districts in Tamil Nadu : SCR 2016-17
+        - Normal Outturn of Principal Crops (Fruits) by Districts in Tamil Nadu : SCR 2017-18
+        - Normal Outturn of Principal Crops (Fruits) by Districts in Tamil Nadu : SCR 2018-19
+[1369] new_catalog_title: Normal Outturn of Principal Crops (Oil Seeds) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Normal Outturn of Principal Crops (Oil Seeds) by Districts in Tamil Nadu : SCR 2016-17
+        - Normal Outturn of Principal Crops (Oil Seeds) by Districts in Tamil Nadu : SCR 2017-18
+        - Normal Outturn of Principal Crops (Oil Seeds) by Districts in Tamil Nadu : SCR 2018-19
+[1370] new_catalog_title: Normal Outturn of Principal Crops (Pulses) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Normal Outturn of Principal Crops (Pulses) by Districts in Tamil Nadu : SCR 2016-17
+        - Normal Outturn of Principal Crops (Pulses) by Districts in Tamil Nadu : SCR 2017-18
+        - Normal Outturn of Principal Crops (Pulses) by Districts in Tamil Nadu : SCR 2018-19
+[1371] new_catalog_title: Normal Outturn of Principal Crops (Spices & Condiments) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Normal Outturn of Principal Crops (Spices & Condiments) by Districts in Tamil Nadu : SCR 2016-17
+        - Normal Outturn of Principal Crops (Spices and Condiments) by Districts in Tamil Nadu : SCR 2017-18
+        - Normal Outturn of Principal Crops (Spices and Condiments) by Districts in Tamil Nadu : SCR 2018-19
+[1372] new_catalog_title: Normal Outturn of Principal Crops (Sugarcane) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Normal Outturn of Principal Crops (Sugar Cane) by Districts in Tamil Nadu : SCR 2016-17
+        - Normal Outturn of Principal Crops (Sugarcane) by Districts in Tamil Nadu : SCR 2017-18
+        - Normal Outturn of Principal Crops (Sugarcane) by Districts in Tamil Nadu : SCR 2018-19
+[1373] new_catalog_title: Normal Outturn of Principal Crops (Tobacco) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Normal Outturn of Principal Crops (Tobacco) by Districts in Tamil Nadu : SCR 2016-17
+        - Normal Outturn of Principal Crops (Tobacco) by Districts in Tamil Nadu : SCR 2017-18
+        - Normal Outturn of Principal Crops (Tobacco) by Districts in Tamil Nadu : SCR 2018-19
+[1374] new_catalog_title: Normal Outturn of Principal Crops (Total Food Grains) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Normal Outturn of Principal Crops (Total Food Grains) by Districts in Tamil Nadu : SCR 2016-17
+        - Normal Outturn of Principal Crops (Total Food Grains) by Districts in Tamil Nadu : SCR 2017-18
+        - Normal Outturn of Principal Crops (Total Food Grains) by Districts in Tamil Nadu : SCR 2018-19
+[1375] new_catalog_title: Normal Outturn of Principal Crops (Vegetables) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Normal Outturn of Principal Crops (Vegetables) by Districts in Tamil Nadu : SCR 2016-17
+        - Normal Outturn of Principal Crops (Vegetables) by Districts in Tamil Nadu : SCR 2017-18
+        - Normal Outturn of Principal Crops (Vegetables) by Districts in Tamil Nadu : SCR 2018-19
+[1376] new_catalog_title: Number and various Sources of Irrigation by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Number and various Sources of Irrigation by Districts in Tamil Nadu : SCR 2016-17
+        - Number and various Sources of Irrigation by Districts in Tamil Nadu : SCR 2017-18
+        - Number and various Sources of Irrigation by Districts in Tamil Nadu : SCR 2018-19
+[1377] new_catalog_title: Number of Masonry and Non-masonry Dug-cum-bore and Open wells by Districts in Tamil Nadu : SCR
+      old_catalog_title (2):
+        - Number of Masonry and Non-masonry Dug-cum-bore and Open wells by Districts in Tamil Nadu : SCR 2017-18
+        - Number of Masonry and Non-masonry Dug-cum-bore and Open wells by Districts in Tamil Nadu : SCR 2018-19
+[1378] new_catalog_title: Peak Sowing and Harvesting Seasons for various Crops by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Peak Sowing and Harvesting Seasons for various Crops by Districts in Tamil Nadu : SCR 2016-17
+        - Peak Sowing and Harvesting Seasons for various Crops by Districts in Tamil Nadu : SCR 2017-18
+        - Peak Sowing and Harvesting Seasons for various Crops by Districts in Tamil Nadu : SCR 2018-19
+[1379] new_catalog_title: Percentage Contribution of Net Area Irrigated by each source to the Net Area Irrigated by all Sources by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Percentage Contribution of Net Area Irrigated by each source to the Net Area Irrigated by all Sources by Districts in Tamil Nadu : SCR 2016-17
+        - Percentage Contribution of Net Area Irrigated by each source to the Net Area Irrigated by all Sources by Districts in Tamil Nadu : SCR 2017-18
+        - Percentage Contribution of Net Area Irrigated by each source to the Net Area Irrigated by all Sources by Districts in Tamil Nadu : SCR 2018-19
+[1380] new_catalog_title: Percentage of Area under Important Crops to Gross Sown Area by Districts in Tamil Nadu
+      old_catalog_title (3):
+        - Percentage of Area under Important Crops to Gross Sown Area by Districts in Tamil Nadu 2016-17
+        - Percentage of Area under Important Crops to Gross Sown Area by Districts in Tamil Nadu : SCR 2017-18
+        - Percentage of Area under Important Crops to Gross Sown Area by Districts in Tamil Nadu : SCR 2018-19
+[1381] new_catalog_title: Production of Principal Crops (Cereals) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Production of Principal Crops (Cereals) by Districts in Tamil Nadu : SCR 2016-17
+        - Production of Principal Crops (Cereals) by Districts in Tamil Nadu : SCR 2017-18
+        - Production of Principal Crops (Cereals) by Districts in Tamil Nadu : SCR 2018-19
+[1382] new_catalog_title: Production of Principal Crops (Coconut) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Production of Principal Crops (Coconut) by Districts in Tamil Nadu : SCR 2016-17
+        - Production of Principal Crops (Coconut) by Districts in Tamil Nadu : SCR 2017-18
+        - Production of Principal Crops (Coconut) by Districts in Tamil Nadu : SCR 2018-19
+[1383] new_catalog_title: Production of Principal Crops (Cotton) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Production of Principal Crops (Cotton) by Districts in Tamil Nadu : SCR 2016-17
+        - Production of Principal Crops (Cotton) by Districts in Tamil Nadu : SCR 2017-18
+        - Production of Principal Crops (Cotton) by Districts in Tamil Nadu : SCR 2018-19
+[1384] new_catalog_title: Production of Principal Crops (Fruits) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Production of Principal Crops (Fruits) by Districts in Tamil Nadu : SCR 2016-17
+        - Production of Principal Crops (Fruits) by Districts in Tamil Nadu : SCR 2017-18
+        - Production of Principal Crops (Fruits) by Districts in Tamil Nadu : SCR 2018-19
+[1385] new_catalog_title: Production of Principal Crops (Oil Seeds) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Production of Principal Crops (Oil Seeds) by Districts in Tamil Nadu : SCR 2016-17
+        - Production of Principal Crops (Oil Seeds) by Districts in Tamil Nadu : SCR 2017-18
+        - Production of Principal Crops (Oil Seeds) by Districts in Tamil Nadu : SCR 2018-19
+[1386] new_catalog_title: Production of Principal Crops (Pulses) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Production of Principal Crops (Pulses) by Districts in Tamil Nadu : SCR 2016-17
+        - Production of Principal Crops (Pulses) by Districts in Tamil Nadu : SCR 2017-18
+        - Production of Principal Crops (Pulses) by Districts in Tamil Nadu : SCR 2018-19
+[1387] new_catalog_title: Production of Principal Crops (Spices & Condiments) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Production of Principal Crops (Spices & Condiments) by Districts in Tamil Nadu : SCR 2016-17
+        - Production of Principal Crops (Spices and Condiments) by Districts in Tamil Nadu : SCR 2017-18
+        - Production of Principal Crops (Spices and Condiments) by Districts in Tamil Nadu : SCR 2018-19
+[1388] new_catalog_title: Production of Principal Crops (SugarCane) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Production of Principal Crops (Sugar Cane) by Districts in Tamil Nadu : SCR 2016-17
+        - Production of Principal Crops (SugarCane) by Districts in Tamil Nadu : SCR 2018-19
+        - Production of Principal Crops (Sugarcane) by Districts in Tamil Nadu : SCR 2017-18
+[1389] new_catalog_title: Production of Principal Crops (Tobacco) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Production of Principal Crops (Tobacco) by Districts in Tamil Nadu : SCR 2016-17
+        - Production of Principal Crops (Tobacco) by Districts in Tamil Nadu : SCR 2017-18
+        - Production of Principal Crops (Tobacco) by Districts in Tamil Nadu : SCR 2018-19
+[1390] new_catalog_title: Production of Principal Crops (Total Food Grains) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Production of Principal Crops (Total Food Grains) by Districts in Tamil Nadu : SCR 2016-17
+        - Production of Principal Crops (Total Food Grains) by Districts in Tamil Nadu : SCR 2017-18
+        - Production of Principal Crops (Total Food Grains) by Districts in Tamil Nadu : SCR 2018-19
+[1391] new_catalog_title: Production of Principal Crops (Vegetables) by Districts in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Production of Principal Crops (Vegetables) by Districts in Tamil Nadu : SCR 2016-17
+        - Production of Principal Crops (Vegetables) by Districts in Tamil Nadu : SCR 2017-18
+        - Production of Principal Crops (Vegetables) by Districts in Tamil Nadu : SCR 2018-19
+[1392] new = old: Ramanathapuram District Hand Book 2017-18 : Khadi Krafts
+[1393] new_catalog_title: Season Wise Rainfall occurred by Districts in Tamil Nadu: SCR
+      old_catalog_title (3):
+        - Season Wise Rainfall occurred by Districts in Tamil Nadu: SCR 2016-17
+        - Season-Wise Rainfall occurred by Districts in Tamil Nadu: SCR 2017-18
+        - Season-Wise Rainfall occurred by Districts in Tamil Nadu: SCR 2018-19
+[1394] new_catalog_title: Statistical Hand Book - Factories
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Factories
+        - Statistical Hand Book 2011 : Factories
+        - Statistical Hand Book 2013 : Factories
+        - Statistical Hand Book 2016 : Factories
+        - Statistical Hand Book 2018 : Factories
+        - Statistical Hand Book 2020 : Factories
+[1395] new = old: Statistical Hand Book 2016 : Cooperation
+[1396] new = old: Statistical Hand Book 2016: Companies
+[1397] new_catalog_title: Statistical Hand Book : Adi Dravidar and Tribal Welfare
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Adi-Dravidar and Tribal Welfare
+        - Statistical Hand Book 2011 : Adi-Dravidar and Tribal Welfare
+        - Statistical Hand Book 2013 : Adi-Dravidar and Tribal Welfare
+        - Statistical Hand Book 2016 : Adi Dravidar and Tribal Welfare
+        - Statistical Hand Book 2018 : Adi Dravidar and Tribal Welfare
+        - Statistical Hand Book 2020 : Adi Dravidar and Tribal Welfare
+[1398] new_catalog_title: Statistical Hand Book : Agriculture
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Agriculture
+        - Statistical Hand Book 2011 : Agriculture
+        - Statistical Hand Book 2013 : Agriculture
+        - Statistical Hand Book 2016 : Agriculture
+        - Statistical Hand Book 2018 : Agriculture
+        - Statistical Hand Book 2020 : Agriculture
+[1399] new_catalog_title: Statistical Hand Book : Animal Husbandry
+      old_catalog_title (10 in all, 6 shown):
+        - Statistical Hand Book 2009 : Animal Husbandry
+        - Statistical Hand Book 2011 : Animal Husbandry
+        - Statistical Hand Book 2013 : Animal Husbandry
+        - Statistical Hand Book 2015 : Animal Husbandry
+        - Statistical Hand Book 2017 : Animal Husbandry
+        - Statistical Hand Book 2020 : Animal Husbandry
+[1400] new_catalog_title: Statistical Hand Book : Area and Population
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Area and Population
+        - Statistical Hand Book 2011 : Area and Population
+        - Statistical Hand Book 2013 : Area and Population
+        - Statistical Hand Book 2016 : Area and population
+        - Statistical Hand Book 2018 : Area and Population
+        - Statistical Hand Book 2020 : Area and Population
+[1401] new_catalog_title: Statistical Hand Book : Civil Supplies
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Civil Supplies
+        - Statistical Hand Book 2011 : Civil Supplies
+        - Statistical Hand Book 2013 : Civil Supplies
+        - Statistical Hand Book 2016 : Civil Supplies
+        - Statistical Hand Book 2018 : Civil Supplies
+        - Statistical Hand Book 2020 : Civil Supplies
+[1402] new_catalog_title: Statistical Hand Book : Climate and Rainfall
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Climates and Rainfall
+        - Statistical Hand Book 2011 : Climate and Rainfall
+        - Statistical Hand Book 2013 : Climate and Rainfall
+        - Statistical Hand Book 2016 : Climate and Rainfall
+        - Statistical Hand Book 2018 : Climate and Rainfall
+        - Statistical Hand Book 2020 : Climate and Rainfall
+[1403] new_catalog_title: Statistical Hand Book : Co-operation
+      old_catalog_title (10 in all, 6 shown):
+        - Statistical Hand Book 2009 : Co-Operation
+        - Statistical Hand Book 2011 : Co-Operation
+        - Statistical Hand Book 2013 : Co-Operation
+        - Statistical Hand Book 2014 : Co-Operation
+        - Statistical Hand Book 2018 : Co-Operation
+        - Statistical Hand Book 2020 : Co-Operation
+[1404] new_catalog_title: Statistical Hand Book : Commercial Tax
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Commercial Tax
+        - Statistical Hand Book 2011 : Commercial Tax
+        - Statistical Hand Book 2013 : Commercial Taxes
+        - Statistical Hand Book 2016 : Commercial Tax
+        - Statistical Hand Book 2018 : Commercial Taxes
+        - Statistical Hand Book 2020 : Commercial Tax
+[1405] new_catalog_title: Statistical Hand Book : Communication
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Communication
+        - Statistical Hand Book 2011 : Communication
+        - Statistical Hand Book 2013 : Communication
+        - Statistical Hand Book 2016 : Communications
+        - Statistical Hand Book 2018 : Communication
+        - Statistical Hand Book 2020 : Communication
+[1406] new_catalog_title: Statistical Hand Book : Community Development
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Community Development
+        - Statistical Hand Book 2011 : Community Development
+        - Statistical Hand Book 2013 : Community Development
+        - Statistical Hand Book 2016 : Community Development
+        - Statistical Hand Book 2018 : Community Development
+        - Statistical Hand Book 2020 : Community Development
+[1407] new_catalog_title: Statistical Hand Book : Companies Limited by Shares
+      old_catalog_title (11 in all, 6 shown):
+        - Statistical Hand Book 2009 : Companies Limited by Shares
+        - Statistical Hand Book 2011 : Companies Limited by Shares
+        - Statistical Hand Book 2013 : Companies Limited by Shares
+        - Statistical Hand Book 2015 : Companies Limited by Shares
+        - Statistical Hand Book 2018 : Companies Limited by Shares
+        - Statistical Hand Book 2020 : Companies Limited by Shares
+[1408] new_catalog_title: Statistical Hand Book : Education
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Education
+        - Statistical Hand Book 2011 : Education
+        - Statistical Hand Book 2013 : Education
+        - Statistical Hand Book 2016 : Education
+        - Statistical Hand Book 2018 : Education
+        - Statistical Hand Book 2020 : Education
+[1409] new_catalog_title: Statistical Hand Book : Electricity
+      old_catalog_title (11 in all, 6 shown):
+        - Statistical Hand Book 2009 : Electricity
+        - Statistical Hand Book 2011 : Electricity
+        - Statistical Hand Book 2013 : Electricity
+        - Statistical Hand Book 2016 : Electricity
+        - Statistical Hand Book 2019 : Electricity
+        - Statistical hand Book 2015 : Electricity
+[1410] new_catalog_title: Statistical Hand Book : Employment
+      old_catalog_title (11 in all, 6 shown):
+        - Statistical Hand Book 2009 : Employment
+        - Statistical Hand Book 2011 : Employment
+        - Statistical Hand Book 2013 : Employment
+        - Statistical Hand Book 2016 : Employment
+        - Statistical Hand Book 2018 : Employment
+        - Statistical Hand Book 2020 : Employment
+[1411] new_catalog_title: Statistical Hand Book : Environment
+      old_catalog_title (11 in all, 6 shown):
+        - Statistical Hand Book 2009 : Environment
+        - Statistical Hand Book 2011 : Environment
+        - Statistical Hand Book 2013 : Environment
+        - Statistical Hand Book 2016 : Environment
+        - Statistical Hand Book 2018 : Environment
+        - Statistical Hand Book 2020 : Environment
+[1412] new_catalog_title: Statistical Hand Book : Family Welfare
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Family Welfare
+        - Statistical Hand Book 2011 : Family Welfare
+        - Statistical Hand Book 2013 : Family Welfare
+        - Statistical Hand Book 2016 : Family Welfare
+        - Statistical Hand Book 2018 : Family Welfare
+        - Statistical Hand Book 2020: Family Welfare
+[1413] new_catalog_title: Statistical Hand Book : Fisheries
+      old_catalog_title (11 in all, 6 shown):
+        - Statistical Hand Book 2009 : Fisheries
+        - Statistical Hand Book 2011 : Fisheries
+        - Statistical Hand Book 2013 : Fisheries
+        - Statistical Hand Book 2015 : Fisheries
+        - Statistical Hand Book 2018 : Fisheries
+        - Statistical Hand Book 2020 : Fisheries
+[1414] new_catalog_title: Statistical Hand Book : Five Year Plan
+      old_catalog_title (10 in all, 6 shown):
+        - Statistical Hand Book 2009 : Five Year Plan
+        - Statistical Hand Book 2011 : Five Year Plan
+        - Statistical Hand Book 2013 : Five Year Plan
+        - Statistical Hand Book 2014 : Five Year Plan
+        - Statistical Hand Book 2018 : Five Year Plan
+        - Statistical Hand Book 2020 : Five year plan
+[1415] new_catalog_title: Statistical Hand Book : Foreign Trade
+      old_catalog_title (4):
+        - Statistical Hand Book 2009 : Foreign Trade
+        - Statistical Hand Book 2010 : Foreign Trade
+        - Statistical Hand Book 2011 : Foreign Trade
+        - Statistical Hand Book 2012 : Foreign Trade
+[1416] new_catalog_title: Statistical Hand Book : Forests
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Forests
+        - Statistical Hand Book 2011 : Forests
+        - Statistical Hand Book 2013 : Forests
+        - Statistical Hand Book 2016 : Forest
+        - Statistical Hand Book 2018 : Forests
+        - Statistical Hand Book 2020 : Forest
+[1417] new_catalog_title: Statistical Hand Book : Housing & Building Activity
+      old_catalog_title (10 in all, 6 shown):
+        - Statistical Hand Book 2009 : Housing & Building Activity
+        - Statistical Hand Book 2011 : Housing and Building Activity
+        - Statistical Hand Book 2013 : Housing and Building Activity
+        - Statistical Hand Book 2014 : Housing and Building Activity
+        - Statistical Hand Book 2018 : Housing and Building Activity
+        - Statistical Hand Book 2020 : Housing and Building Activity
+[1418] new_catalog_title: Statistical Hand Book : Income Tax
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Income Tax
+        - Statistical Hand Book 2011 : Income Tax
+        - Statistical Hand Book 2013 : Income Tax
+        - Statistical Hand Book 2016 : Income Tax
+        - Statistical Hand Book 2018 : Income Tax
+        - Statistical Hand Book 2020 : Income Tax
+[1419] new_catalog_title: Statistical Hand Book : Industries
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Industries
+        - Statistical Hand Book 2011 : Industries
+        - Statistical Hand Book 2013 : Industries
+        - Statistical Hand Book 2016 : Industries
+        - Statistical Hand Book 2018 : Industries
+        - Statistical Hand Book 2020 : Industries
+[1420] new_catalog_title: Statistical Hand Book : Institutional Finance
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Institutional Finance
+        - Statistical Hand Book 2011 : Institutional Finance
+        - Statistical Hand Book 2013 : Institutional Finance
+        - Statistical Hand Book 2016 : Institutional Finance
+        - Statistical Hand Book 2018 : Institutional Finance
+        - Statistical Hand Book 2020 : Institutional Finance
+[1421] new_catalog_title: Statistical Hand Book : Insurance
+      old_catalog_title (3):
+        - Statistical Hand Book 2013 : Insurance
+        - Statistical Hand Book 2016 : Insurance
+        - Statistical Hand Book 2018 : Insurance
+[1422] new_catalog_title: Statistical Hand Book : Insurance Operation in Tamil Nadu
+      old_catalog_title (8 in all, 6 shown):
+        - Statistical Hand Book 2009 : Insurance Operations in Tamil Nadu
+        - Statistical Hand Book 2010 : Insurance Operations in Tamil Nadu
+        - Statistical Hand Book 2012 : Insurance Operations in Tamil Nadu
+        - Statistical Hand Book 2014 : Insurance Operation in Tamil Nadu
+        - Statistical Hand Book 2019 : Insurance Operations in Tamil Nadu
+        - Statistical Hand Book 2020 : Insurance Operation in Tamil Nadu
+[1423] new_catalog_title: Statistical Hand Book : Irrigation
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Irrigation
+        - Statistical Hand Book 2011 : Irrigation
+        - Statistical Hand Book 2013 : Irrigation
+        - Statistical Hand Book 2016 : Irrigation
+        - Statistical Hand Book 2018 : Irrigation
+        - Statistical Hand Book 2020 : Irrigation
+[1424] new_catalog_title: Statistical Hand Book : Judicial Administration
+      old_catalog_title (11 in all, 6 shown):
+        - Statistical Hand Book 2009 : Judicial Administration
+        - Statistical Hand Book 2011 : Judicial Administration
+        - Statistical Hand Book 2013 : Judicial Administration
+        - Statistical Hand Book 2016 : Judicial Administration
+        - Statistical Hand Book 2018 : Judicial Administration
+        - Statistical Hand Book 2020 : Judicial Administration
+[1425] new_catalog_title: Statistical Hand Book : Legislature & Election
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Legislature & Election
+        - Statistical Hand Book 2011 : Legislature and Election
+        - Statistical Hand Book 2013 : Legislature and Election
+        - Statistical Hand Book 2016 : Legislature and Elections
+        - Statistical Hand Book 2018 : Legislature and Election
+        - Statistical Hand Book 2020 : Legislature and Election
+[1426] new_catalog_title: Statistical Hand Book : Local Bodies
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Local Bodies
+        - Statistical Hand Book 2011 : Local Bodies
+        - Statistical Hand Book 2013 : Local Bodies
+        - Statistical Hand Book 2016 : Local Bodies
+        - Statistical Hand Book 2018 : Local Bodies
+        - Statistical Hand Book 2020 : Local Bodies
+[1427] new_catalog_title: Statistical Hand Book : Medical and Health
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Medical and Health
+        - Statistical Hand Book 2011 : Medical and Health
+        - Statistical Hand Book 2013 : Medical and Health
+        - Statistical Hand Book 2016 : Medical and Health
+        - Statistical Hand Book 2018 : Medical and Health
+        - Statistical Hand Book 2020 : Medical and Health
+[1428] new_catalog_title: Statistical Hand Book : Police and Prisons
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Police and Prisions
+        - Statistical Hand Book 2011 : Police and Prison
+        - Statistical Hand Book 2013 : Police and Prison
+        - Statistical Hand Book 2016 : Police and Prisons
+        - Statistical Hand Book 2018 : Police and Prison
+        - Statistical Hand Book 2020 : Police and Prison
+[1429] new_catalog_title: Statistical Hand Book : Price Indices
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Price Indices
+        - Statistical Hand Book 2011 : Price Indices
+        - Statistical Hand Book 2013 : Price Indices
+        - Statistical Hand Book 2016 : Price Indices
+        - Statistical Hand Book 2018 : Price Indices
+        - Statistical Hand Book 2020 : Price Indices
+[1430] new_catalog_title: Statistical Hand Book : Recreation
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Recreation
+        - Statistical Hand Book 2011 : Recreation
+        - Statistical Hand Book 2013 : Recreation
+        - Statistical Hand Book 2016 : Recreation
+        - Statistical Hand Book 2018 : Recreation
+        - Statistical Hand Book 2020 : Recreation
+[1431] new_catalog_title: Statistical Hand Book : Registration
+      old_catalog_title (11 in all, 6 shown):
+        - Statistical Hand Book 2009 : Registration
+        - Statistical Hand Book 2011 : Registration
+        - Statistical Hand Book 2013 : Registration
+        - Statistical Hand Book 2016 : Registration
+        - Statistical Hand Book 2018 : Registration
+        - Statistical Hand Book 2020 : Registration
+[1432] new_catalog_title: Statistical Hand Book : Road and Transport
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Road & Transport
+        - Statistical Hand Book 2011 : Road and Transport
+        - Statistical Hand Book 2013 : Road and Transport
+        - Statistical Hand Book 2016 : Road and Transport
+        - Statistical Hand Book 2018 : Road and Transport
+        - Statistical Hand Book 2020 : Road and Transport
+[1433] new_catalog_title: Statistical Hand Book : Rural Water Supply
+      old_catalog_title (11 in all, 6 shown):
+        - Statistical Hand Book 2009 : Rural Water Supply
+        - Statistical Hand Book 2011 : Rural Water Supply
+        - Statistical Hand Book 2013 : Rural Water Supply
+        - Statistical Hand Book 2017 : Rural Water Supply
+        - Statistical Hand Book 2019 : Rural Water Supply
+        - Statistical hand Book 2015 : Rural Water Supply
+[1434] new_catalog_title: Statistical Hand Book : Social Welfare
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : Social Welfare
+        - Statistical Hand Book 2011 : Social Welfare
+        - Statistical Hand Book 2013 : Social Welfare
+        - Statistical Hand Book 2016 : Social Welfare
+        - Statistical Hand Book 2018 : Social Welfare
+        - Statistical Hand Book 2020 : Social Welfare
+[1435] new_catalog_title: Statistical Hand Book : State Excise
+      old_catalog_title (11 in all, 6 shown):
+        - Statistical Hand BOOK 2014 : State Excise
+        - Statistical Hand Book 2010 : State Excise
+        - Statistical Hand Book 2012 : State Excise
+        - Statistical Hand Book 2016 : State Excise
+        - Statistical Hand Book 2018 : State Excise
+        - Statistical Hand Book 2020 : State Excise
+[1436] new_catalog_title: Statistical Hand Book : State Finance
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : State Finance
+        - Statistical Hand Book 2011 : State Finance
+        - Statistical Hand Book 2013 : State Finance
+        - Statistical Hand Book 2016 : State Finance
+        - Statistical Hand Book 2018 : State Finance
+        - Statistical Hand Book 2020 : State Finance
+[1437] new_catalog_title: Statistical Hand Book : State Income
+      old_catalog_title (12 in all, 6 shown):
+        - Statistical Hand Book 2009 : State Income
+        - Statistical Hand Book 2011 : State Income
+        - Statistical Hand Book 2013 : State Income
+        - Statistical Hand Book 2016 : State Income
+        - Statistical Hand Book 2018 : State Income
+        - Statistical Hand Book 2020 : State Income
+[1438] new_catalog_title: Statistical Hand Book : Tourism
+      old_catalog_title (11 in all, 6 shown):
+        - Statistical Hand Book 2009 : Tourism
+        - Statistical Hand Book 2011 : Tourism
+        - Statistical Hand Book 2013 : Tourism
+        - Statistical Hand Book 2016 : Tourism
+        - Statistical Hand Book 2018 : Tourism
+        - Statistical Hand Book 2020 : Tourism
+[1439] new_catalog_title: Statistical Hand Book : Vital Statistics
+      old_catalog_title (11 in all, 6 shown):
+        - Statistical Hand Book 2009 : Vital Statistics
+        - Statistical Hand Book 2011 : Vital Statistics
+        - Statistical Hand Book 2013 : Vital Statistics
+        - Statistical Hand Book 2015 : Vital Statistics
+        - Statistical Hand Book 2018 : Vital Statistics
+        - Statistical Hand Book 2020 : Vital Statistics
+[1440] new = old: Statistical HandBook 2015 : Co-Operation
+[1441] new = old: Statistical HandBook 2015 : Employment
+[1442] new = old: Statistical HandBook 2015 : Housing and Building Activity
+[1443] new = old: Statistical HandBook 2015 : Insurance
+[1444] new = old: Statistical HandBook 2015 : Judicial Administration
+[1445] new = old: Statistical HandBook 2015 : Registration
+[1446] new = old: Statistical HandBook 2015 : State Excise
+[1447] new = old: Statistical Handbook 2016 : Fisheries
+[1448] new = old: Statistical Handbook 2016 : Housing and building
+[1449] new = old: Statistical Handbook 2016 : Rural water supply
+[1450] new = old: Statistical Handbook 2016 : Vital Statistics
+[1451] new = old: Statistical HandBook 2018 : Electricity
+[1452] new_catalog_title: Statistical Handbook : Five Year Plan
+      old_catalog_title (2):
+        - Statistical HandBook 2015 : Five Year Plans
+        - Statistical Handbook 2016 : Five Year Plan
+[1453] new_catalog_title: Statistical HandBook: Animal Husbandry
+      old_catalog_title (2):
+        - Statistical HandBook 2014: Animal Husbandry
+        - Statistical HandBook 2018 : Animal Husbandry
+[1454] new = old: Statisticial Hand Book 2014 : Environment
+[1455] new = old: Statisticial Hand Book 2014 : Tourism
+[1456] new = old: Statistics of Tamil Nadu as on 24/08/2021 (Source: Media Bulletin dated 24.08.2021)
+[1457] new_catalog_title: Tamil Nadu at a Glance
+      old_catalog_title (3):
+        - Tamil Nadu at a Glance 2019 (TNGLANCE2019)
+        - Tamil Nadu at a Glance 2020 (TNGLANCE2020)
+        - Tamil Nadu at a Glance 2021 (TNGLANCE2021)
+[1458] new = old: Tamil Nadu Innovation Initiatives (TANII)
+[1459] new = old: Theni District Hand Book 2017-18 : Employment
+[1460] new_catalog_title: Time Series Data Area, Production and Yield Rate of Principal Crops in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Time Series Data - Area, Production and Yield Rate of Principal Crops in Tamil Nadu : SCR 2016-17
+        - Time Series Data - Area, Production and Yield Rate of Principal Crops in Tamil Nadu : SCR 2017-18
+        - Time Series Data Area, Production and Yield Rate of Principal Crops in Tamil Nadu : SCR 2018-19
+[1461] new_catalog_title: Time Series Data Classification of Land in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Time Series Data Classification of Land in Tamil Nadu : SCR 2017-18
+        - Time Series Data Classification of Land in Tamil Nadu : SCR 2018-19
+        - Time Series Data- Classification of Land in Tamil Nadu : SCR 2016-17
+[1462] new_catalog_title: Time Series Data Rainfall by Seasons in Tamil Nadu : SCR
+      old_catalog_title (3):
+        - Time Series Data Rainfall by Seasons in Tamil Nadu : SCR 2017-18
+        - Time Series Data Rainfall by Seasons in Tamil Nadu : SCR 2018-19
+        - Time Series Data-Rainfall by Seasons in Tamil Nadu : SCR 2016-17
+[1463] new = old: Tiruvallur District Handbook 2017-18 : Differently Abled Welfare Schemes
+[1464] new = old: Tiruvallur District Handbook 2017-18 : Social Welfare Department Schemes
+[1465] new = old: Tiruvallur District Handbook 2017-18 : Srilankan Refugee Camps
+[1466] new = old: Tiruvallur District Handbook 2017-18 : TAHDCO Schemes
+[1467] new = old: Vellore District Hand Book 2017-18 : Special Schemes
+[1468] new_catalog_title: Wholesale Prices for Certain Agricultural Commodities by Districts in Tamil Nadu: SCR
+      old_catalog_title (3):
+        - Wholesale Prices for Certain Agricultural Commodities by Districts in Tamil Nadu : SCR 2017-18
+        - Wholesale Prices for Certain Agricultural Commodities by Districts in Tamil Nadu : SCR 2018-19
+        - Wholesale Prices for Certain Agricultural Commodities by Districts in Tamil Nadu: SCR 2016-17
+
+== OWNER: Tamil Nadu / Public Works Department
+[1469] new = old: Contact details of Ex-servicemen Welfare Offices in Tamil Nadu
+[1470] new = old: Details of Dams in Tamil Nadu
+[1471] new = old: Details of River Basins and Sub Basins in Tamil Nadu
+[1472] new = old: Number of beneficiaries under Amalgamated Fund through Ex-servicemen Welfare Directorate in Tamil Nadu from 2014-15 to 2018-19
+[1473] new = old: Number of beneficiaries under Tamil Nadu Ex-services Personnel Fund through Ex-servicemen Welfare Directorate in Tamil Nadu from 2014-15 to 2018-19
+[1474] new = old: Population Census Report of Ex-Servicemen in Tamil Nadu as on 06.12.2019
+[1475] new = old: Region-wise Details of Tanks in Tamil Nadu
+
+== OWNER: Tamil Nadu / Rural Development and Panchayat Raj Department
+[1476] new = old: Details of Blocks, Habitations and Village Panchayats in Tamil Nadu
+
+== OWNER: Tamil Nadu / School Education Department
+[1477] new = old: Details of Beneficiaries under Saakshar Bharat Programme-Karkkum Bharatham Thittam by Districts in Tamil Nadu
+[1478] new = old: Details of the Public Libraries in Tamil Nadu
+[1479] new = old: Samagra Shiksha Abhiyan (SSA), Tamil Nadu : Statistics on Schools, Students and Teachers
+
+== OWNER: Tamil Nadu / Social Welfare and Nutritious Meal Programme Department
+[1480] new = old: District wise Number of Beneficiaries benefited through Anganwadi Centres under ICDS in Tamil Nadu during 2018-19
+[1481] new = old: Social Welfare Officers and Old Age Homes in Tamilnadu
+
+== OWNER: Tamil Nadu / Tourism, Culture and Religious Endowments Department
+[1482] new = old: All Art Educational Institutions in Tamil nadu
+
+== OWNER: Tamil Nadu / Transport Department
+[1483] new = old: Contact details of Deputy Managers, Branch Mangers / Assistant Managers(Operation) of various Depots of SETC
+[1484] new = old: SETC Bus Routes, Services and Timings
+[1485] new = old: Tamil Nadu State Transport Corporation (TNSTC), Salem: Location of Depots
+
+== OWNER: Tamil Nadu / Youth Welfare and Sports Development Department
+[1486] new = old: Hostel wise Student Strength Details under Sports Development Authority of Tamil Nadu (SDAT) in 2017-18
+[1487] new = old: Hostels list under Sports Development Authority of Tamil Nadu (SDAT) in 2017-18
+[1488] new = old: Sports Infrastructure Facilities available under Sports Development Authority of Tamil Nadu (SDAT) in 2017-18
+
+== OWNER: Tripura / Planning and Statistics Department, Tripura
+[1489] new = old: Tripura Electoral Statistics

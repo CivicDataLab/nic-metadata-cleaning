@@ -1,0 +1,154 @@
+id,unit,rows
+U001,Economy; Revenue,609
+U002,Animal Husbandry; Animal Husbandry,249
+U003,Environment and Forest; Air Quality,161
+U004,Water and Sanitation; Water Quality,109
+U005,Fisheries; Fishery,94
+U006,Power and Energy; Power,60
+U007,Energy; Non Renewable,50
+U008,Industries; Handloom,50
+U009,Industries; Mining,50
+U010,Energy; Renewable,37
+U011,Transport; Roads,32
+U012,Land Resources; Land Resources,26
+U013,Animal Husbandry; Dairying,23
+U014,Social Development; Youth Affairs,22
+U015,Industries; Sericulture,19
+U016,Industries; Mining and Quarrying,16
+U017,Petroleum and Natural Gas; Petroleum and Natural Gas,15
+U018,Industries; Employment,13
+U019,Industries; Fertilizers,11
+U020,Fisheries; Fisheries,10
+U021,Industries; Statistics,9
+U022,Industries; Handicrafts,8
+U023,Commerce; Consumer Affairs,7
+U024,Animal Husbandry; Health,6
+U025,Industries; Fisheries,5
+U026,Industries; Handlooms,5
+U027,Water Resources; Water Quality,5
+U028,Defence; Defence Products,4
+U029,Governance and Administration; Enforcement Organizations,4
+U030,Industries; Research & Development,4
+U031,Infrastructure; Power and Energy,4
+U032,Police; Enforcement Organizations,4
+U033,Power and Energy; Petroleum and Natural Gas,4
+U034,Rural; Rural Development,4
+U035,Rural; Rural Housing,4
+U036,Social Development; Health,4
+U037,Tourism; Tourism,4
+U038,Agriculture; Family Welfare,3
+U039,Animal Husbandry; Crops,3
+U040,Animal Husbandry; Poultry Development,3
+U041,Art and Culture; Museums,3
+U042,Commerce; Revenue,3
+U043,Economy; Employment,3
+U044,Energy; Petroleum and Natural Gas,3
+U045,Energy; Power and Energy,3
+U046,Environment and Forest; Wetlands,3
+U047,Mining,3
+U048,Statistics,3
+U049,Agriculture; Fodder Crops,2
+U050,Agriculture; Health,2
+U051,Agriculture; Public Distribution,2
+U052,All#6853411,1
+U053,All#603899990,1
+U054,Animal Husbandry; Poultry,2
+U055,Census; Census,2
+U056,Energy and Power; Petroleum and Natural Gas,2
+U057,Energy; Power,2
+U058,Environment and Forest; Soil and Water Conservation,2
+U059,Environment and Forest; Wet life,2
+U060,Food; Food Processing,2
+U061,Industries; Dairying,2
+U062,Industries; Entrepreneurship Development,2
+U063,Industries; Trade promotion,2
+U064,Power; Renewable,2
+U065,Revenue; Revenue,2
+U066,Rural: Development,2
+U067,Rural >> Statistics,2
+U068,Tourism; Lodging,2
+U069,Tourism; Places,2
+U070,Transport; Port Employment,2
+U071,Transport; Ports,2
+U072,Travel and Tourism; Tourism,2
+U073,Dairying; Dairying,1
+U074,Horticulture; Horticulture,1
+U075,Agriculture; Fishery,1
+U076,Agriculture; Fodder,1
+U077,Agriculture; Fodder Development,1
+U078,Agriculture; Oil Seed Production,1
+U079,Agriculture; Oilseeds and Oil Palm,1
+U080,Sericulture; Sericulture,1
+U081,Agriculture; Statistics,1
+U082,Animal Husbandry; Animal Health,1
+U083,Animal Husbandry; Animal Welfare,1
+U084,Commerce; Agricultural Marketing,1
+U085,Commerce; Corporate governance,1
+U086,Commerce; Retail,1
+U087,Culture; Heritage,1
+U088,Defence; Research and Development,1
+U089,Development; Urban,1
+U090,Development; Rural,1
+U091,Energy and Family welfare; Health,1
+U092,Environment and Forest; Air Pollution,1
+U093,Environment and Forest; Research & Development,1
+U094,Environment; Ecology,1
+U095,Food; Agricultural Produces,1
+U096,Food; Fisheries,1
+U097,Health and Family welfare >> Statistics,1
+U098,Health and Family welfare; Residential Air Pollution,1
+U099,Health and Family welfare; Sanitation,1
+U100,Health and Family welfare; Women,1
+U101,Housing; Drinking Water,1
+U102,Industries; Agricultural Produces,1
+U103,Industries; Animal Husbandry,1
+U104,Industries; Coal,1
+U105,Industries; Coal India Limited (CIL),1
+U106,Industries; Companies,1
+U107,Industries; Cotton,1
+U108,Industries; Electronics Manufacturing,1
+U109,Industries; Entrepreneurship,1
+U110,Industries; Entrepreneurship Development Programme (EDP),1
+U111,Industries; Handloom and Handicrafts,1
+U112,Industries; Handloom and Powerloom,1
+U113,Industries; Handloom and Textiles,1
+U114,Industries; Industrial Infrastructure Upgradation Scheme,1
+U115,Industries; Infrastructure Development,1
+U116,Industries >> Small and Medium Enterprises,1
+U117,Industries; Mining Accidents,1
+U118,Industries; Mining and Mineral Development,1
+U119,Industries; Non Renewable,1
+U120,Industries; Skill Development,1
+U121,Industries; Skill India Mission (SIM),1
+U122,Industries; Tea,1
+U123,Industries; Telecommunications,1
+U124,Industries; Textile,1
+U125,Industries; Textile Workers Rehabilitation Fund Scheme,1
+U126,Industries; Vocational Training,1
+U127,Information and Communications; Broadcasting,1
+U128,Information and Communications; Print Media,1
+U129,Infrastructure; Irrigation,1
+U130,Infrastructure; Water Quality,1
+U131,Infrastructure; Infrastructure,1
+U132,Infrastructure; Ports,1
+U133,Infrastructure; Railways,1
+U134,Infrastructure >> Skill Development,1
+U135,Labour and Employment; Enforcement Organizations,1
+U136,Land Resources; Land Records,1
+U137,Parliament Of india; State Legislative,1
+U138,Petroleum and Natural Gas; LNG Terminals,1
+U139,Petroleum and Natural Gas; LPG Distributors,1
+U140,Petroleum and Natural Gas; Pipelines,1
+U141,Places; Places,1
+U142,Police; Police,1
+U143,Power; Power,1
+U144,Urban; Urban Housing,1
+U145,Science and Technology >> Mining,1
+U146,Social Development; Elderly,1
+U147,Transport; Air Transport,1
+U148,Transport; Airfares,1
+U149,Transport; Sea Transport,1
+U150,Water Resources; Irrigation,1
+U151,Transport; Modes of Travel,1
+U152,Irrigation; Irrigation,1
+U153,Water and Sanitation; Ground Water,1

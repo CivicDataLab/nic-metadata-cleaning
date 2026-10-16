@@ -8,8 +8,10 @@
 
 # pip install pandas sentence-transformers faiss-cpu rapidfuzz tqdm networkx
 
+import os
 import re
 import gc
+import argparse
 import faiss
 import numpy as np
 import pandas as pd
@@ -23,17 +25,65 @@ from sentence_transformers import SentenceTransformer
 # CONFIG
 # ============================================================
 
-INPUT_FILE = "dataset_signatures.csv"
+DEFAULT_INPUT_FILE = "dataset_signatures.csv"
 
-RELATION_OUTPUT = "dataset_relations.csv"
+DEFAULT_RELATION_OUTPUT = "dataset_relations.csv"
 
-CANONICAL_OUTPUT = "canonical_datasets.csv"
+DEFAULT_CANONICAL_OUTPUT = "canonical_datasets.csv"
 
-TOP_K = 5
+DEFAULT_TOP_K = 5
 
-SIM_THRESHOLD = 0.84
+DEFAULT_SIM_THRESHOLD = 0.84
 
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+
+
+def parse_args():
+
+    parser = argparse.ArgumentParser(
+        description="Detect duplicate / longitudinal / related dataset families from title signatures."
+    )
+
+    parser.add_argument(
+        "--input",
+        default=DEFAULT_INPUT_FILE,
+        help="Signature CSV produced by signature.py."
+    )
+
+    parser.add_argument(
+        "--relations-output",
+        default=DEFAULT_RELATION_OUTPUT,
+        help="Where to write the pairwise relations CSV."
+    )
+
+    parser.add_argument(
+        "--canonical-output",
+        default=DEFAULT_CANONICAL_OUTPUT,
+        help="Where to write the canonical-group CSV."
+    )
+
+    parser.add_argument(
+        "--top-k",
+        type=int,
+        default=DEFAULT_TOP_K,
+        help="Neighbours retrieved per dataset. Raise it when families are larger than TOP_K."
+    )
+
+    parser.add_argument(
+        "--sim-threshold",
+        type=float,
+        default=DEFAULT_SIM_THRESHOLD,
+        help="Minimum cosine similarity for a neighbour to be considered."
+    )
+
+    parser.add_argument(
+        "--embeddings-cache",
+        default=None,
+        help="Optional .npy path. Reused if it matches the input row count, "
+             "written otherwise -- lets a re-run at a different --top-k skip the embedding pass."
+    )
+
+    return parser.parse_args()
 
 # ============================================================
 # REGEX
@@ -317,9 +367,29 @@ def embedding_text(row):
 
 if __name__ == "__main__":
 
+    args = parse_args()
+
+    INPUT_FILE = args.input
+
+    RELATION_OUTPUT = args.relations_output
+
+    CANONICAL_OUTPUT = args.canonical_output
+
+    TOP_K = args.top_k
+
+    SIM_THRESHOLD = args.sim_threshold
+
+    EMBEDDINGS_CACHE = args.embeddings_cache
+
     print("\n===================================")
     print("SAFE 200K PIPELINE STARTING")
     print("===================================\n")
+
+    print(f"Input          : {INPUT_FILE}")
+    print(f"Relations out  : {RELATION_OUTPUT}")
+    print(f"Canonical out  : {CANONICAL_OUTPUT}")
+    print(f"TOP_K          : {TOP_K}")
+    print(f"SIM_THRESHOLD  : {SIM_THRESHOLD}")
 
     # ========================================================
     # LOAD DATA
@@ -344,47 +414,76 @@ if __name__ == "__main__":
     print(f"Datasets loaded: {len(df)}")
 
     # ========================================================
-    # MODEL
-    # ========================================================
-
-    print("\nLoading embedding model...")
-
-    model = SentenceTransformer(
-        MODEL_NAME
-    )
-
-    # ========================================================
     # EMBEDDINGS
+    # --------------------------------------------------------
+    # Reuse the cache only when its row count matches the
+    # input; a stale cache would silently pair the wrong
+    # vectors with the wrong nids.
     # ========================================================
 
-    print("\nGenerating embeddings...")
+    embeddings = None
 
-    texts = [
+    if EMBEDDINGS_CACHE and os.path.exists(EMBEDDINGS_CACHE):
 
-        embedding_text(r)
+        cached = np.load(EMBEDDINGS_CACHE)
 
-        for _, r in df.iterrows()
-    ]
+        if cached.shape[0] == len(df):
 
-    embeddings = model.encode(
+            print(f"\nReusing cached embeddings: {EMBEDDINGS_CACHE} {cached.shape}")
 
-        texts,
+            embeddings = cached.astype(np.float32)
 
-        batch_size=64,
+        else:
 
-        normalize_embeddings=True,
+            print(
+                f"\nIgnoring cache {EMBEDDINGS_CACHE}: "
+                f"{cached.shape[0]} rows vs {len(df)} in input."
+            )
 
-        show_progress_bar=True
-    )
+        del cached
 
-    embeddings = np.array(
-        embeddings,
-        dtype=np.float32
-    )
+    if embeddings is None:
 
-    # free memory
-    del texts
-    gc.collect()
+        print("\nLoading embedding model...")
+
+        model = SentenceTransformer(
+            MODEL_NAME
+        )
+
+        print("\nGenerating embeddings...")
+
+        texts = [
+
+            embedding_text(r)
+
+            for _, r in df.iterrows()
+        ]
+
+        embeddings = model.encode(
+
+            texts,
+
+            batch_size=64,
+
+            normalize_embeddings=True,
+
+            show_progress_bar=True
+        )
+
+        embeddings = np.array(
+            embeddings,
+            dtype=np.float32
+        )
+
+        # free memory
+        del texts
+        gc.collect()
+
+        if EMBEDDINGS_CACHE:
+
+            np.save(EMBEDDINGS_CACHE, embeddings)
+
+            print(f"Cached embeddings -> {EMBEDDINGS_CACHE}")
 
     # ========================================================
     # FAISS
@@ -410,6 +509,32 @@ if __name__ == "__main__":
 
         TOP_K
     )
+
+    # ========================================================
+    # TOP_K SATURATION
+    # --------------------------------------------------------
+    # A row is "saturated" when every neighbour returned still
+    # clears SIM_THRESHOLD, i.e. TOP_K -- not similarity -- is
+    # what cut the family short. A high rate means the family
+    # sizes exceed TOP_K and recall is being truncated.
+    # ========================================================
+
+    above = (similarities >= SIM_THRESHOLD).sum(axis=1)
+
+    saturated = int((above >= TOP_K).sum())
+
+    print(
+        f"\nTOP_K saturation: {saturated}/{len(df)} rows "
+        f"({100.0 * saturated / max(len(df), 1):.2f}%) returned "
+        f"{TOP_K}/{TOP_K} neighbours above the threshold."
+    )
+
+    if saturated > 0.02 * len(df):
+
+        print(
+            "  -> TOP_K is truncating recall for these rows; "
+            "consider re-running with a larger --top-k."
+        )
 
     # ========================================================
     # CLEANUP
@@ -674,6 +799,14 @@ if __name__ == "__main__":
 
     canonical_rows = []
 
+    # nid -> title, built once. The previous
+    # df[df["nid"] == nid] inside the loop below was a full
+    # table scan per member per component.
+
+    nid_to_title = dict(
+        zip(df["nid"], df["title"])
+    )
+
     components = list(
         nx.connected_components(G)
     )
@@ -692,11 +825,9 @@ if __name__ == "__main__":
 
         for nid in component:
 
-            r = df[
-                df["nid"] == nid
-            ].iloc[0]
-
-            title = str(r["title"])
+            title = str(
+                nid_to_title[nid]
+            )
 
             years = extract_years(title)
 

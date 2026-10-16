@@ -1,0 +1,56 @@
+nid,Title,uuid,reason
+2970001,Flight Schedule,b71db183-2d15-4f61-9cee-7de3c83561a1,in_db_no_headers
+2970061,AirSewa - Airport Services Data,93710e81-db2b-4f95-9223-89156dfd8bc9,in_db_no_headers
+3084841,State-wise India's GDP from Agriculture on yearly basis,ccf9fad3-34fd-4355-bd64-050d8283b930,in_db_no_headers
+3087721,State-wise Total number of persons employed for all broad activities taken together by sector and type of establishment on yearly basis,68db9248-5dc2-46f2-b884-5985b533ea81,in_db_no_headers
+355501,Registrars of Companies (RoC)-wise Company Master Data,4dbe5667-7b6b-41d7-82af-211562424d9a,in_db_no_headers
+3995441,Voice Call Quality Customer Experience till last month,98e76922-ab13-474e-9bce-78942583cd0e,in_db_no_headers
+4898201,Month-wise All India Crowdsourced Mobile Data Speed Measurement,ade6e644-91b8-4d27-97ba-e8c42c48f278,in_db_no_headers
+602939089,Village-wise Self Help Group (SHG) and Members Count,d4206736-a28b-4552-8900-7e0c23c707ac,in_db_no_headers
+603072177,Variety-wise Daily Market Prices Data of Commodity,35985678-0d79-46b4-9ed6-6f13308a1d24,in_db_no_headers
+603074430,List of MSME Registered Units under UDYAM,8b68ae56-84cf-4728-a0a6-1be11028dea7,in_db_no_headers
+603137753,Kisan Call Centre (KCC) - Transcripts of farmers queries & answers,cef25fe2-9231-4128-8aec-2c948fedd43f,in_db_no_headers
+603663754,Daily FCI Stock Position of the Commodity,60eed46c-190a-45e1-9807-c5b37f960fff,in_db_no_headers
+6690674,MSME Bihar - List of Registered Units under Udyog Aadhaar Memorandum,f14027a0-ca4a-4911-b4e5-5a00d17e0140,in_db_no_headers
+6690676,List of MSME Registered Units under Udyog Aadhaar Memorandum - Gujarat,408e1f52-5c06-426f-b090-da1a45063551,in_db_no_headers
+6690677,List of MSME Registered Units under Udyog Aadhaar Memorandum - Haryana,97a54964-c92e-45a5-b377-2410df89a11a,in_db_no_headers
+6690681,List of MSME Registered Units under Udyog Aadhaar Memorandum - Jharkhand,470d74ee-ba1a-4ce8-aeb9-f11b00116a5e,in_db_no_headers
+6690682,List of MSME Registered Units under Udyog Aadhaar Memorandum - Karnataka,ec1d4f75-c000-4053-b9d2-cd5e58a25385,in_db_no_headers
+6690683,List of MSME Registered Units under Udyog Aadhaar Memorandum - Kerala,f5f251a1-951b-422f-95ab-3b593e2c57d5,in_db_no_headers
+6690684,List of MSME Registered Units under Udyog Aadhaar Memorandum - Madhya Pradesh,55321bb2-233c-4996-8ddf-8e69c8e98c26,in_db_no_headers
+6690690,List of MSME Registered Units under Udyog Aadhaar Memorandum - Odisha,9d196ae8-d923-4266-ad23-fefb157d200d,in_db_no_headers
+6690691,List of MSME Registered Units under Udyog Aadhaar Memorandum - Punjab,c4740b04-65e4-4295-8b95-b6a9b030b6a6,in_db_no_headers
+6690693,MSME Rajasthan - List of Registered Units under Udyog Aadhaar Memorandum,7964d703-46b2-46c8-919b-fb5b1280c42c,in_db_no_headers
+6690695,List of MSME Registered Units under Udyog Aadhaar Memorandum - Tamil Nadu,925e9f0e-47b7-42fe-96ab-dde92686be46,in_db_no_headers
+6690696,List of MSME Registered Units under Udyog Aadhaar Memorandum - Telangana,ce820e7f-7319-4380-9d75-48b42dbb75cc,in_db_no_headers
+6690698,List of MSME Registered Units under Udyog Aadhaar Memorandum - Uttar Pradesh,93f761f4-0db2-48f6-a9a8-990c2c1bb250,in_db_no_headers
+6690701,List of MSME Registered Units under Udyog Aadhaar Memorandum - West Bengal,d71ca878-c9d8-445c-ba52-7fddc33c794b,in_db_no_headers
+6690706,List of MSME Registered Units under Udyog Aadhaar Memorandum - Delhi,c48bbb48-cd34-4752-930f-84a96dc150cf,in_db_no_headers
+7076928,Daily data of Soil Moisture,4554a3c8-74e3-4f93-8727-8fd92161e345,in_db_no_headers
+7077059,Daily data of reservoir level of Central Water Commission (CWC),1fc2148c-fc41-46f5-a364-bdc03f77053f,in_db_no_headers
+7255240,Daily Sub-basin-wise Rainfall Data,da428447-700a-41e9-a56a-d7855ffb672f,in_db_no_headers
+7258237,Locations of National Hydrology Projects (NHPs) RTDAS Stations,a45eb99a-e44d-4b3a-a97b-af4e3ceeea40,in_db_no_headers
+7564658,Physical and Financial Progress of Surface Minor Irrigation (PMKSY-SMI) Scheme as on date,8d2ef9e1-6621-4a63-aeab-596226171398,in_db_no_headers
+7564675,"Physical and Financial Progress of Repair, Renovation and Restoration of Water Bodies (PMKSY-RRR) Scheme as on date",45cd018f-6565-45a3-90a7-a1491d8842b8,in_db_no_headers
+7707170,Physical Progress Status of Computerization / Digitization of Land Records of KERALA as on previous month,13a04237-db29-43a4-8d87-8a70f03e43a9,in_db_no_headers
+86088,Authorization of External Assistance by Source (US $ Mn.),385f45fa-e23e-4cb5-8dde-a8313d1797b2,in_db_no_headers
+87087,Digital Seismotectonic Atlas of India and its Environs,1f8b7765-81bd-4e6d-bb56-948f8af314b6,in_db_no_headers
+87095,Direction of Imports: Imports by Regions and Countries (Rs. Cr.),64b6f813-6572-483b-b4da-9941e7e331ca,in_db_no_headers
+87884,"Exports, Imports and Trade Balance (Us $ Mn.)",ef11b44a-89f0-4681-9a46-1174eef9f4e1,in_db_no_headers
+87978,Foreign Exchange Reserves (US $ Mn.),fa7f5806-8632-4644-9d4e-7731e3a8a416,in_db_no_headers
+88604,Index Numbers of Yield of Principal Crops,78cff964-045e-4907-8604-533ddaa072cf,in_db_no_headers
+88628,India's External Debt Outstanding (US $ Mn.),c2f5b3a8-d1bb-4ce1-9a8b-0824f59faae6,in_db_no_headers
+90785,Revenue Earning Goods Traffic on Indian Railways: Goods Carried,efe499a8-1905-4a9f-935e-1697e63a8916,in_db_no_headers
+90919,Share and Percentage Change of Major Exports,b769aef4-4c3c-4d8b-a81b-66923bbe879c,in_db_no_headers
+90921,Share and Percentage Growth/Change of Major Imports,2518aa09-6e0c-4281-b123-3d1538afcb65,in_db_no_headers
+3287301,NIN Health Faclities with Geo Code and additional parameters (updated till last month),0dfebd78-bac4-44be-9291-025a983323f4,not_in_db
+3287321,Blood Bank Directory (updated till last month),fced6df9-a360-4e08-8ca0-f283fc74ce15,not_in_db
+513961,Weekly data on Passport Related Services,08b7b568-0290-4d4e-bbf2-4195a6972fe1,not_in_db
+603491108,Senior/Young Artist Scheme Data,39d6a65e-c91a-4972-ad31-4ff99ae9c33c,not_in_db
+603750134,Aadhaar Demographic Monthly Update Data,19eac040-0b94-49fa-b239-4f2fd8677d53,not_in_db
+603750139,Aadhaar Biometric Monthly Update Data,65454dab-1517-40a3-ac1d-47d4dfe6891c,not_in_db
+603773102,National eTransaction Count - eTaal,3b703c15-a41e-4545-82e5-4b743a7f62d8,not_in_db
+7166957,Local Government Directory (LGD) - Local Bodies,1a6c26ed-d67c-40ea-aa20-d38d35f341a5,not_in_db
+7215982,Drone Flown Villages,e2edbd3f-de22-4ed3-a96e-a1ca28603a9a,not_in_db
+7247865,Local Government Directory (LGD) - Villages with PIN Codes,f17a1608-5f10-4610-bb50-a63c80d83974,not_in_db
+7839915,District-wise Demographic Data of Unorganised Workers registered on eShram as on Previous Day,1d4d1c5a-feea-423b-be4f-c3636fdd1d82,not_in_db

@@ -1,0 +1,3 @@
+kind	new_name	old_titles_affected	reason	suggested_fix
+BAD_MERGE	Ocean Information System	Ocean Data and Information System	Different title wording (Data and Information System vs Information System); not a year/state/language variant, so likely a different catalog (low confidence, 2 datasets)	Keep separate unless dataset contents are confirmed identical series
+PARTIAL	Forest Cover	Forest Cover Andaman and Nicobar Islands; District wise forest cover	Single-UT and district-level titles merged with national/state tables; acceptable as state/district variants only if same table structure (low confidence)	Verify table structure; otherwise split the A&N Islands title

@@ -1,0 +1,155 @@
+2026-10-08 13:46:29,845 : INFO - Loaded 12100 catalog rows -> 7465 merged catalogs (50 rows with no new_catalog_title skipped)
+2026-10-08 13:46:30,066 : INFO - Skipping 6004 catalogs already generated (1461 pending)
+2026-10-08 13:46:30,067 : INFO - Split 1461 catalogs into 4 chunk(s) of up to 390
+2026-10-08 13:46:30,067 : INFO - Submitting chunk 1/4 (390 catalogs) — window 1
+2026-10-08 13:46:30,244 : INFO - Wrote 390 requests to /media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/text_generation/catalog_batch_requests_20261008_134630_chunk1.jsonl
+2026-10-08 13:47:01,278 : INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2026-10-08 13:47:01,284 : INFO - Uploaded catalog_batch_requests_20261008_134630_chunk1.jsonl → file_id=file-J4PN5ta8GMWu9QBAVWr98V
+2026-10-08 13:47:04,021 : INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2026-10-08 13:47:04,380 : INFO - Batch submitted - batch_id=batch_6ac7517efda8819083901dc6c3ea3992  status=validating
+2026-10-08 13:47:04,380 : INFO - Submitting chunk 2/4 (390 catalogs) — window 1
+2026-10-08 13:47:04,568 : INFO - Wrote 390 requests to /media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/text_generation/catalog_batch_requests_20261008_134704_chunk2.jsonl
+2026-10-08 13:47:20,190 : INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2026-10-08 13:47:20,193 : INFO - Uploaded catalog_batch_requests_20261008_134704_chunk2.jsonl → file_id=file-T3MHqHzbiNpSuL6pwhcpLG
+2026-10-08 13:47:20,729 : INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2026-10-08 13:47:20,731 : INFO - Batch submitted - batch_id=batch_6ac75191537c81908cc1953c7498a8a4  status=validating
+2026-10-08 13:47:20,731 : INFO - Window 1: polling ['batch_6ac7517efda8819083901dc6c3ea3992', 'batch_6ac75191537c81908cc1953c7498a8a4']
+2026-10-08 13:47:21,139 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6ac7517efda8819083901dc6c3ea3992 "HTTP/1.1 200 OK"
+2026-10-08 13:47:21,140 : INFO - [batch_6ac7517efda8819083901dc6c3ea3992] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-10-08 13:47:21,261 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6ac75191537c81908cc1953c7498a8a4 "HTTP/1.1 200 OK"
+2026-10-08 13:47:21,263 : INFO - [batch_6ac75191537c81908cc1953c7498a8a4] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-10-08 13:48:21,799 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6ac75191537c81908cc1953c7498a8a4 "HTTP/1.1 200 OK"
+2026-10-08 13:48:21,800 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6ac7517efda8819083901dc6c3ea3992 "HTTP/1.1 200 OK"
+2026-10-08 13:48:21,803 : INFO - [batch_6ac75191537c81908cc1953c7498a8a4] status=in_progress error_file_id=None total=390  completed=161  failed=0
+2026-10-08 13:48:21,804 : INFO - [batch_6ac7517efda8819083901dc6c3ea3992] status=in_progress error_file_id=None total=390  completed=0  failed=0
+2026-10-08 13:49:22,888 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6ac75191537c81908cc1953c7498a8a4 "HTTP/1.1 200 OK"
+2026-10-08 13:49:22,892 : INFO - [batch_6ac75191537c81908cc1953c7498a8a4] status=in_progress error_file_id=None total=390  completed=389  failed=0
+2026-10-08 13:49:23,123 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6ac7517efda8819083901dc6c3ea3992 "HTTP/1.1 200 OK"
+2026-10-08 13:49:23,126 : INFO - [batch_6ac7517efda8819083901dc6c3ea3992] status=in_progress error_file_id=None total=390  completed=138  failed=0
+2026-10-08 13:50:23,470 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6ac75191537c81908cc1953c7498a8a4 "HTTP/1.1 200 OK"
+2026-10-08 13:50:23,473 : INFO - [batch_6ac75191537c81908cc1953c7498a8a4] status=completed error_file_id=None total=390  completed=390  failed=0
+2026-10-08 13:50:23,620 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6ac7517efda8819083901dc6c3ea3992 "HTTP/1.1 200 OK"
+2026-10-08 13:50:23,625 : INFO - [batch_6ac7517efda8819083901dc6c3ea3992] status=completed error_file_id=None total=390  completed=390  failed=0
+2026-10-08 13:50:24,477 : INFO - HTTP Request: GET https://api.openai.com/v1/files/file-9h1JZzaEf2nVLB86j8ivvw/content "HTTP/1.1 200 OK"
+2026-10-08 13:50:26,127 : INFO - Parsed 390 result(s) from output file
+2026-10-08 13:50:26,134 : INFO - Raw output saved to /media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/text_generation/catalog_batch_output_batch_6ac7517efda8819083901dc6c3ea3992.jsonl
+2026-10-08 13:50:27,141 : INFO - HTTP Request: GET https://api.openai.com/v1/files/file-8mG48YnTmTjw5f44vGUrpm/content "HTTP/1.1 200 OK"
+2026-10-08 13:50:28,673 : INFO - Parsed 390 result(s) from output file
+2026-10-08 13:50:29,025 : INFO - Raw output saved to /media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/text_generation/catalog_batch_output_batch_6ac75191537c81908cc1953c7498a8a4.jsonl
+2026-10-08 13:50:29,477 : INFO - Appended 780 rows to /media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/text_generation/remaining_catalog_llm_results.csv
+2026-10-08 13:50:30,571 : INFO - Updated 3454 remaining_catalog rows across 780 catalogs
+2026-10-08 13:50:30,572 : INFO - Window 1/2 done. 780/1461 catalogs saved so far.
+2026-10-08 13:50:30,573 : INFO - Submitting chunk 3/4 (390 catalogs) — window 2
+2026-10-08 13:50:30,777 : INFO - Wrote 390 requests to /media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/text_generation/catalog_batch_requests_20261008_135030_chunk3.jsonl
+2026-10-08 13:50:36,738 : INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2026-10-08 13:50:36,740 : INFO - Uploaded catalog_batch_requests_20261008_135030_chunk3.jsonl → file_id=file-WWLjDVYgQThHhVigj1awoR
+2026-10-08 13:50:37,292 : INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2026-10-08 13:50:37,295 : INFO - Batch submitted - batch_id=batch_6ac75255e4448190bbb01b8c0762f34d  status=validating
+2026-10-08 13:50:37,296 : INFO - Submitting chunk 4/4 (291 catalogs) — window 2
+2026-10-08 13:50:37,485 : INFO - Wrote 291 requests to /media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/text_generation/catalog_batch_requests_20261008_135037_chunk4.jsonl
+2026-10-08 13:50:41,661 : INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2026-10-08 13:50:41,665 : INFO - Uploaded catalog_batch_requests_20261008_135037_chunk4.jsonl → file_id=file-8LfQydFycN5NG4rvqsoW7h
+2026-10-08 13:50:42,322 : INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2026-10-08 13:50:42,325 : INFO - Batch submitted - batch_id=batch_6ac7525af5e48190a622d19c748cf51f  status=validating
+2026-10-08 13:50:42,326 : INFO - Window 2: polling ['batch_6ac75255e4448190bbb01b8c0762f34d', 'batch_6ac7525af5e48190a622d19c748cf51f']
+2026-10-08 13:50:42,736 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6ac75255e4448190bbb01b8c0762f34d "HTTP/1.1 200 OK"
+2026-10-08 13:50:42,740 : INFO - [batch_6ac75255e4448190bbb01b8c0762f34d] status=in_progress error_file_id=None total=390  completed=0  failed=0
+2026-10-08 13:50:42,856 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6ac7525af5e48190a622d19c748cf51f "HTTP/1.1 200 OK"
+2026-10-08 13:50:42,860 : INFO - [batch_6ac7525af5e48190a622d19c748cf51f] status=validating error_file_id=None total=0  completed=0  failed=0
+2026-10-08 13:51:44,928 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6ac7525af5e48190a622d19c748cf51f "HTTP/1.1 200 OK"
+2026-10-08 13:51:44,931 : INFO - [batch_6ac7525af5e48190a622d19c748cf51f] status=in_progress error_file_id=None total=291  completed=258  failed=0
+2026-10-08 13:51:45,381 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6ac75255e4448190bbb01b8c0762f34d "HTTP/1.1 200 OK"
+2026-10-08 13:51:45,384 : INFO - [batch_6ac75255e4448190bbb01b8c0762f34d] status=in_progress error_file_id=None total=390  completed=38  failed=0
+2026-10-08 13:52:45,472 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6ac7525af5e48190a622d19c748cf51f "HTTP/1.1 200 OK"
+2026-10-08 13:52:45,476 : INFO - [batch_6ac7525af5e48190a622d19c748cf51f] status=in_progress error_file_id=None total=291  completed=288  failed=0
+2026-10-08 13:52:45,981 : INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6ac75255e4448190bbb01b8c0762f34d "HTTP/1.1 200 OK"
+2026-10-08 13:52:45,984 : INFO - [batch_6ac75255e4448190bbb01b8c0762f34d] status=in_progress error_file_id=None total=390  completed=387  failed=0
+2026-10-08 14:17:10,698 : INFO - Retrying request to /batches/batch_6ac7525af5e48190a622d19c748cf51f in 0.467046 seconds
+2026-10-08 14:17:11,166 : INFO - Retrying request to /batches/batch_6ac7525af5e48190a622d19c748cf51f in 0.872348 seconds
+2026-10-08 14:17:11,205 : INFO - Retrying request to /batches/batch_6ac75255e4448190bbb01b8c0762f34d in 0.439482 seconds
+2026-10-08 14:17:11,646 : INFO - Retrying request to /batches/batch_6ac75255e4448190bbb01b8c0762f34d in 0.891042 seconds
+Traceback (most recent call last):
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/venv/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/venv/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/venv/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/venv/lib/python3.12/site-packages/httpcore/_backends/sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1005, in request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/venv/lib/python3.12/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/venv/lib/python3.12/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/venv/lib/python3.12/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/venv/lib/python3.12/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/llm_catalog_classifier_remaining.py", line 948, in <module>
+    batch_ids = run_batch_job(args.db, limit=args.limit, offset=args.offset,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/llm_catalog_classifier_remaining.py", line 900, in run_batch_job
+    completed = _retry_failed_batches(poll_all_batches(window_ids))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/llm_catalog_classifier_remaining.py", line 681, in poll_all_batches
+    results[future_to_id[future]] = future.result()
+                                    ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/transformation/llm_catalog_classifier_remaining.py", line 663, in poll_batch
+    batch = client.batches.retrieve(batch_id)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/venv/lib/python3.12/site-packages/openai/resources/batches.py", line 156, in retrieve
+    return self._get(
+           ^^^^^^^^^^
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1228, in get
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/aak/246AF1266AF0F580/nic-metadata-cleaning/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1037, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.

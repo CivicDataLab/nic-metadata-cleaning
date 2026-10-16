@@ -1,0 +1,205 @@
+new_catalog_title,old_sector,new_sector,datasets_say,datasets,reason
+Age of Establishment : Kohima,Governance and Administration; Union/State Government Administration,Economy; Macro Economy,Economy; Macro Economy,2,"establishment-age statistics, not governance"
+Area-wise Number of Research And Development Proposals Not Found Suitable,Health and Family welfare; Health,Science and Technology; Research & Development,Science and Technology; Research & Development,2,R&D proposals catalog; X Health does not fit
+Bhuvan Geoportal of NRSC/ISRO,Environment and Forest; Ecology,Science and Technology; Geo Technology,Science and Technology; Research & Development,1,"ISRO satellite geoportal, not ecology"
+Boundaries of Surface Water,Environment and Forest; Water Quality,Water Resources; Surface Water,Water Resources; Surface Water,1,"surface water boundaries, not water quality"
+Budget for Open spaces development : Saharanpur,"Economy, Finance",Urban; Development,Urban; Development,1,open-space budget is urban; X was malformed (comma)
+CCTV Camera : Gangtok,Infrastructure; Roads,Urban; Development,Urban; Development,1,"CCTV cameras are city facilities, not roads"
+COVID-19 Details : Surat,Urban; Development,Health and Family welfare; Health,Health and Family welfare; Health,2,COVID-19 details are health data
+Chain link fencing : Ujjain,Infrastructure; Roads,Urban; Development,Urban; Development,1,"chain-link fencing is city infrastructure, not roads"
+Change in Households Annual Income from Non-farm Activities in the Sample States - Based on Sample Survey,Infrastructure; Roads,"Rural; Development, Urban; Development","Rural; Development, Urban; Development",1,non-farm household income; not roads
+"Children assisted under Project Assistance of ""National Foundation for Communal Harmony""",Home Affairs and Enforcement; Internal Security,Social Development; Children,Social Development; Children,1,"child assistance scheme, not internal security"
+Citizen Facilitation Centers : Chandigarh,Health and Family welfare; Family Welfare,Governance and Administration; Local Government,Governance and Administration; Local Government,2,"citizen facilitation centres, not family welfare"
+City Profile : Jammu,"Housing; Urban Housing, Labour and Employment; Employment",Census and Surveys; Census,Census and Surveys; Census,3,city profile is census data; X mixed housing and employment
+Classification of Ground Water Level by Districts in Tamil Nadu : SCR,Environment and Forest; Water Quality,Water Resources; Ground Water,Water Resources; Ground Water,2,"ground water levels, not water quality"
+Classification of Usage of Wells by Districts in Tamil Nadu : SCR,Economy; Macro Economy,Water and Sanitation; Drinking Water,Water and Sanitation; Drinking Water,3,well usage; Economy does not fit
+Commodity Balance of Petroleum and Petroleum Products,Finance; Economy,Industries; Petroleum and Natural Gas,Economy; Prices,1,"petroleum commodity balance, not finance"
+Community Facilities : Gwalior,Housing; Urban Housing,Urban; Development,Urban; Development,1,"community facilities are urban, not housing"
+Community Facilities : Sagar,Housing; Urban Housing,Urban; Development,Urban; Development,6,"community facilities are urban, not housing"
+Community Facilities : Salem,Economy; Macro Economy,Urban; Development,Urban; Development,2,"community facilities, not macro economy"
+Community Facility : Thane,Housing; Urban Housing,Urban; Development,Urban; Development,4,"community facility is urban, not housing"
+Comparison Of Poverty Estimates Based On Uniform Recall Period,Social Development; Women,"Rural; Development, Urban; Development","Rural; Development, Urban; Development",1,"poverty estimates, not women"
+Courier services : Kohima,Commerce; Trade promotion,Information and Communications; Post,Information and Communications; Post,1,courier services are postal
+Crime : Karimnagar,Governance and Administration; Grievances,Home Affairs and Enforcement; Police,Home Affairs and Enforcement; Police,1,crime data
+Crime categorization : Chandigarh,Governance and Administration; Grievances,Home Affairs and Enforcement; Police,Home Affairs and Enforcement; Police,1,"crime data, not grievances"
+Crimes : Agra,Governance and Administration; Grievances,Home Affairs and Enforcement; Police,Home Affairs and Enforcement; Police,1,"crime data, not grievances"
+Crimes : Aizawl,Governance and Administration; Grievances,Home Affairs and Enforcement; Police,Home Affairs and Enforcement; Police,4,"crime data, not grievances"
+Crimes : Chandigarh,Governance and Administration; Grievances,Home Affairs and Enforcement; Police,Home Affairs and Enforcement; Police,2,"crime data, not grievances"
+Crimes : Erode,Governance and Administration; Grievances,Home Affairs and Enforcement; Police,Urban; Development,1,"crime data, not grievances"
+Crimes : Gandhinagar,Governance and Administration; Grievances,Home Affairs and Enforcement; Police,Home Affairs and Enforcement; Police,1,"crime data, not grievances"
+Crimes : Kavaratti,Governance and Administration; Grievances,Home Affairs and Enforcement; Police,Home Affairs and Enforcement; Police,1,"crime data, not grievances"
+Crimes : New Town Kolkata,Governance and Administration; Grievances,Home Affairs and Enforcement; Police,Home Affairs and Enforcement; Police,1,"crime data, not grievances"
+Crimes : Salem,Defence; Para Military Forces,Home Affairs and Enforcement; Police,Governance and Administration; District Adminstration,2,crime data; X Para Military Forces does not fit
+Crimes : Shillong,Governance and Administration; Grievances,Home Affairs and Enforcement; Police,Home Affairs and Enforcement; Police,1,"crime data, not grievances"
+Crimes : Tiruppur,Governance and Administration; Grievances,Home Affairs and Enforcement; Police,Urban; Development,1,"crime data, not grievances"
+Crimes against Children : Warangal,Urban; Development,Social Development; Children,Social Development; Children,1,crimes against children
+Details Of Ferries Inland Water Transport In Karnataka,Infrastructure; Roads,Transport; Water ways,Transport; Water ways,5,"inland water transport ferries, not roads"
+Details Of Ferry Service Managed Departmentally Inland Water Transport In Karnataka,Infrastructure,Transport; Water ways,Transport; Water ways,5,ferry service is water transport
+Dharmapuri District Hand Book 2017-18 : Storage Faculties,Economy; Macro Economy,Agriculture; Agricultural Produces,Agriculture; Agricultural Produces,1,DHB storage facilities follow the topic
+Digital Availability : Muzaffarpur,Governance and Administration; Grievances,Urban; Development,Urban; Development,1,"digital availability, not grievances"
+Digital Elevation Model (DEM) generated from Cartosat-1 Satellite data for India,Environment and Forest; Ecology,Science and Technology; Geo Technology,Science and Technology; Earth Sciences,2,"DEM from satellite data, not ecology"
+Digital Payments : Agartala,Economy; Prices,Finance; Banking,Commerce; Trade promotion,1,"digital payments, not prices"
+Digital Payments : Aizawl,Economy; Prices,Finance; Banking,Commerce; Trade promotion,1,"digital payments, not prices"
+Digital Payments : Dharamshala,Economy; Prices,Finance; Banking,Commerce; Trade promotion,1,"digital payments, not prices"
+Digital Payments : Jaipur,Economy; Prices,Finance; Banking,Commerce; Trade promotion,1,"digital payments, not prices"
+Digital Payments : Kalyan Dombivli,Economy; Prices,Finance; Banking,Commerce; Trade promotion,2,"digital payments, not prices"
+Digital Payments : Kohima,Economy; Prices,Finance; Banking,Information and Communications; Information and Technology,2,"digital payments, not prices"
+Digital Payments : Madurai,Economy; Prices,Finance; Banking,Commerce; Trade promotion,1,"digital payments, not prices"
+Digital Payments : Patna,Economy; Prices,Finance; Banking,Finance; Revenue,1,"digital payments, not prices"
+Digital Payments : Rourkela,Economy; Prices,Finance; Banking,Commerce; Trade promotion,1,"digital payments, not prices"
+Digital Payments : Salem,Economy; Prices,Finance; Banking,Commerce; Trade promotion,1,"digital payments, not prices"
+Digital Payments : Tirupati,Economy; Prices,Finance; Banking,Commerce; Trade promotion,1,"digital payments, not prices"
+Digital Payments : Udaipur,Infrastructure,Finance; Banking,Economy; Prices,2,"digital payments, not infrastructure"
+Digital Payments : Varanasi,Economy; Prices,Finance; Banking,Commerce; Trade promotion,1,"digital payments, not prices"
+Digital Seismotectonic Atlas of India and its Environs,Environment and Forest; Ecology,Science and Technology; Earth Sciences,Science and Technology; Earth Sciences,1,"seismotectonic atlas, not ecology"
+Direction of Imports: Imports by Regions and Countries (Rs. Cr.),Finance; Economy,Commerce; Import,Economy; Prices,1,import statistics
+Discom final : Ujjain,Governance and Administration; Union/State Government Administration,Infrastructure; Power,Health and Family welfare; Health,1,DISCOM is a power distribution company
+District Hand Book : Civil Supplies,Governance and Administration; District Adminstration,Food; Public Distribution,Food; Public Distribution,175,DHB civil supplies follow the topic
+District Hand Book : Climate & Rainfall,Census and Surveys; Census,Science and Technology; Atmospheric Science,Environment and Forest; Water Quality,120,DHB climate and rainfall follow the topic
+District Hand Book : Co-Operative Societies,Governance and Administration; Local Government,Commerce; Companies,Economy; Macro Economy,10,DHB co-operative societies follow the topic
+District Hand Book : Co-operation,Governance and Administration; Local Government,Commerce; Companies,Commerce; Companies,29,DHB co-operation follows the topic
+District Hand Book : Communication,Governance and Administration; District Adminstration,Information and Communications; Telecom,Information and Communications; Telecom,122,DHB communication follows the topic
+District Hand Book : Mining and Quarrying,Economy; Macro Economy,Industries,Industries; Manufacturing,66,DHB mining and quarrying; no mining sub-sector
+District Hand Book : Motor Vehicles,Economy; Prices,Transport; Road Transport,Transport; Road Transport,107,DHB motor vehicles follow the topic
+District Hand Book : Quality Control,Economy; Prices,Industries; Manufacturing,Industries; Manufacturing,18,DHB quality control follows the datasets and topic
+District Hand Book : Recreation and Cultural Services,Social Development; Children,Art and Culture; Heritage,Art and Culture; Heritage,79,DHB recreation and cultural services follow the topic
+District Hand Book : Repair and Service,Governance and Administration; District Adminstration,Industries; Manufacturing,Industries; Manufacturing,64,DHB repair and service follows the datasets
+District Hand Book : Scientific and Research Service,Census and Surveys; Census,Science and Technology; Research & Development,Science and Technology; Research & Development,27,DHB scientific research service follows the topic
+District Hand Book : Social Welfare,Governance and Administration; District Adminstration,Social Development,Social Development; Women,241,DHB social welfare follows the topic
+District Hand Book : Storage Facilities,Economy; Macro Economy,Agriculture; Agricultural Produces,Agriculture; Agricultural Produces,74,DHB storage facilities follow the topic
+District Hand Book : Trade and Commerce,Economy; Macro Economy,Commerce; Trade promotion,Commerce; Trade promotion,32,DHB trade and commerce follows the topic
+District Hand Book : Transport,Infrastructure; Roads,Transport; Road Transport,Transport; Road Transport,268,DHB transport follows the topic
+District Hand Book : Voluntary Services,Governance and Administration; Local Government,Social Development,Social Development; Women,38,"DHB voluntary services follow the topic, not local government"
+District level Cooperative Societies,Governance and Administration; Local Government,Commerce; Companies,Commerce; Companies,1,"district co-operative societies, not local government"
+District wise Cooperative Consumer Stores in Madhya Pradesh,Commerce; Trade promotion,Food; Consumer Cooperatives,Food; Public Distribution,1,consumer co-operative stores
+Earnings Bus Trips : Kohima,Economy; Prices,Transport; Road Transport,Transport; Road Transport,1,bus trip earnings
+Election To The Vidhan Sabhas (State Legislative Assemblies),Census and Surveys; Census,Governance and Administration; State Legislative,Governance and Administration; State Legislative,6,"Vidhan Sabha elections, not census"
+Electricity : Salem,Power and Energy; Renewable,Infrastructure; Power,Infrastructure; Power,2,"general electricity, not renewable only"
+Electricity : Thoothukudi,"Infrastructure, Power and Energy",Infrastructure; Power,Urban; Development,1,electricity; X was malformed (comma)
+Electricity Consumption : Kohima,Economy; Prices,Infrastructure; Power,Power and Energy; Renewable,1,"electricity consumption, not prices"
+Financial Outcomes Under Mahatma Gandhi National Rural Employment Guarantee Act (NREGA),"Governance and Administration; Union/State Government Administration, Economy; Macro Economy",Rural; Development,Rural; Development,4,MGNREGA financial outcomes; X mixed unrelated pairs
+Financial Progress Of The Total Sanitation Campaign In Eleventh Plan During Financial Years,"Rural; Development, Urban; Development",Water and Sanitation; Sanitation,Water and Sanitation; Sanitation,1,Total Sanitation Campaign
+Furniture For Students : Ujjain,Housing; Urban Housing,Education; Elementary,Urban; Development,1,school furniture
+Growth Of Urban Population,Housing; Urban Housing,Urban; Development,Urban; Development,1,"urban population growth, not housing"
+"Headcount Ratio and Number of Poor Persons Below Poverty Line in India (Combined, Rural and Urban Both)",Social Development; Women,"Rural; Development, Urban; Development","Rural; Development, Urban; Development",1,"poverty headcount, not women"
+Headcount Ratio and Number of Poor Persons Below Poverty Line in Rural and Urban India,Social Development; Women,"Rural; Development, Urban; Development","Rural; Development, Urban; Development",2,"poverty headcount, not women"
+High Value Data Sets of MDoNER,"Agriculture; Crops, Art and Culture; Heritage, Education; Elementary, Health and Family welfare; Health, Infrastructure; Roads, Power and Energy; Renewable, Youth and Sports; Youth Affairs",Governance and Administration; Union/State Government Administration,Governance and Administration; Union/State Government Administration,4,ministry-level catalog spanning many sectors
+Hyper spectral Images from Remote Sensing Satellite IMS-1,Environment and Forest; Ecology,Science and Technology; Geo Technology,Science and Technology; Research & Development,1,"satellite remote sensing images, not ecology"
+"Individual Scientist Projects with Institute of Bioresources and Sustainable Development, Imphal",Health and Family welfare; Health,Science and Technology; Research & Development,Science and Technology; Research & Development,1,scientist projects at a research institute
+Infrastructure Distribution : Agartala,Housing; Urban Housing,Infrastructure; Roads,Infrastructure; Roads,1,"infrastructure distribution, not housing"
+Infrastructure Distribution : Amritsar,Housing; Urban Housing,Infrastructure; Roads,Census and Surveys; Census,1,"infrastructure distribution, not housing"
+Infrastructure Distribution : Jalandhar,Housing; Urban Housing,Infrastructure; Roads,Infrastructure; Roads,1,"infrastructure distribution, not housing"
+Infrastructure Distribution : Saharanpur,Housing; Urban Housing,Infrastructure; Roads,Infrastructure; Roads,1,"infrastructure distribution, not housing"
+Infrastructure Distribution : Udaipur,Census and Surveys; Census,Infrastructure; Roads,Infrastructure; Roads,1,"infrastructure distribution, not census"
+Infrastructure Distribution : Vadodara,Census; House listing and Housing Census,Infrastructure; Roads,Infrastructure; Roads,1,"infrastructure distribution, not census listing"
+Janahita Complaints Details,Urban; Development,Governance and Administration; Grievances,Governance and Administration; Grievances,1,complaint details
+Lighting in Streets Public Parks Gardens and Open Spaces : Chandigarh,Infrastructure; Roads,Urban; Development,Urban; Development,1,"street lighting in city, not roads"
+M.P. Apex Bank (MP Rajya Sahakari Bank) and their branches detail,Governance and Administration; Union/State Government Administration,Finance; Banking,Finance; Banking,1,"bank branch listing, not governance"
+MIDC Land Rates 2024,Commerce; Trade promotion,Industries; Manufacturing,Industries; Manufacturing,1,MIDC industrial land rates
+Major Storm Water Drains : Ujjain,Infrastructure; Roads,Water and Sanitation; Sanitation,Water and Sanitation; Sanitation,1,"storm water drains, not roads"
+Min max average Water Levels : Ujjain,Environment and Forest; Water Quality,Water Resources; Ground Water,Water Resources; Ground Water,1,"water levels, not water quality"
+Mortality Rate : Bilaspur,Urban; Development,Health and Family welfare; Health,Health and Family welfare; Health,1,mortality rate is a health measure
+Mortality Rate : Kota,Census and Surveys; Census,Health and Family welfare; Health,Health and Family welfare; Health,1,mortality rate is a health measure
+Mortality Rate : New Town Kolkata,Census and Surveys; Census,Health and Family welfare; Health,Health and Family welfare; Health,1,mortality rate is a health measure
+Mortality Rate : Visakhapatnam,Census and Surveys; Census,Health and Family welfare; Health,Health and Family welfare; Health,1,mortality rate is a health measure
+Natural Features : Davanagere,Governance and Administration; Local Government,Environment and Forest; Natural Resources,Environment and Forest; Natural Resources,1,natural features are environmental
+Natural Landscape : Pimpri Chinchwad,Governance and Administration; Local Government,Environment and Forest; Ecology,Environment and Forest; Ecology,1,natural landscape is ecology
+No. of Buses : Surat,Urban; Development,Transport; Road Transport,Transport; Road Transport,4,bus counts are transport
+Non Lapsable Central Pool of Resources,"Infrastructure; Roads, Water Resources; Drinking Water, Health and Family welfare; Health",Governance and Administration; Union/State Government Administration,Governance and Administration; Union/State Government Administration,6,"NLCPR is a cross-sector central fund, not roads/health"
+Ocean Wind Stress,Environment and Forest; Ecology,Science and Technology; Marine Science,Science and Technology; Earth Sciences,1,ocean wind stress is oceanography
+Ocean Wind Stress Curl,Environment and Forest; Ecology,Science and Technology; Marine Science,Science and Technology; Research & Development,1,ocean wind stress curl is oceanography
+Ocean Wind Velocity,Environment and Forest; Ecology,Science and Technology; Marine Science,Science and Technology; Research & Development,1,ocean wind velocity is oceanography
+Online transactions,Economy; Prices,Commerce; Trade promotion,Commerce; Trade promotion,1,"online transactions are commerce, not prices"
+Open Spaces : Agra,Environment and Forest; Forest Resources,Urban; Development,Urban; Development,1,"city open spaces, not forest"
+Open Spaces : Jammu,Environment and Forest; Forest Resources,Urban; Development,Urban; Development,1,"city open spaces, not forest"
+Open Spaces : New Town Kolkata,Environment and Forest; Forest,Urban; Development,Urban; Development,2,"city open spaces, not forest"
+Open Spaces : Saharanpur,Environment and Forest; Forest Resources,Urban; Development,Urban; Development,1,"city open spaces, not forest"
+Open Spaces : Thanjavur,Environment and Forest; Forest,Urban; Development,Urban; Development,1,"city open spaces, not forest"
+Open Spaces : Tirunelveli,Environment and Forest; Forest Resources,Urban; Development,Urban; Development,2,"city open spaces, not forest"
+Open Spaces : Visakhapatnam,Environment and Forest; Forest,Urban; Development,Urban; Development,1,"city open spaces, not forest"
+Open spaces : Srinagar,Environment and Forest; Forest Resources,Urban; Development,Urban; Development,1,"city open spaces, not forest"
+Operations of Road Transport,"Infrastructure; Roads, Finance; Economy",Transport; Road Transport,Economy; Macro Economy,1,road transport operations
+PCMC RTS Data,Infrastructure; Roads,Urban; Development,Urban; Development,1,"municipal citizen-service data, not roads"
+Percentage Share of Tamil Nadu in Leather Exports,Agriculture; Animal Husbandry,Commerce; Export,Industries; Food Processing,1,leather export statistics
+Physical Progress Of The Total Sanitation Campaign In Eleventh Plan During Financial Year,Rural; Development,Water and Sanitation; Sanitation,Water and Sanitation; Sanitation,1,Total Sanitation Campaign
+Physical outcomes under Mahatma Gandhi National Rural Employment Guarantee Act (NREGA),Governance and Administration; Union/State Government Administration,Rural; Development,Rural; Development,17,MGNREGA rural employment
+Police Station : Bhubaneswar,Governance and Administration; District Adminstration,Home Affairs and Enforcement; Police,Home Affairs and Enforcement; Police,2,police station list
+Police Station : Kohima,Governance and Administration; Local Government,Home Affairs and Enforcement; Police,Home Affairs and Enforcement; Police,1,police station list
+Police Station : Pune,Governance and Administration; District Adminstration,Home Affairs and Enforcement; Police,Home Affairs and Enforcement; Police,1,police station list
+Police Station Details : Tiruppur,Governance and Administration; District Adminstration,Home Affairs and Enforcement; Police,Home Affairs and Enforcement; Police,1,police station list
+Police Stations : Faridabad,Governance and Administration; District Adminstration,Home Affairs and Enforcement; Police,Home Affairs and Enforcement; Police,1,police station list
+Police stations : Bengaluru,Governance and Administration; District Adminstration,Home Affairs and Enforcement; Police,Home Affairs and Enforcement; Police,1,police station list
+Population : Agartala,Urban; Development,Census and Surveys; Census,Census and Surveys; Census,1,population counts
+Primary Agriculture Credit Cooperative Societies (PACS) in Madhya Pradesh,Agriculture; Agricultural Marketing,Finance; Banking,Finance; Revenue,1,PACS are rural credit cooperatives
+Primary School of district : Ujjain,Governance and Administration; Local Government,Education; Elementary,Education; Elementary,1,primary school list
+Production of Major Livestock Products and Fish,Agriculture; Crops,Agriculture; Animal Husbandry,"Economy; Prices, Finance; Economy, Finance; Revenue, Animal Husbandry; Fishery",1,livestock and fish production
+Property Tax : Salem,Economy; Prices,Finance; Revenue,Urban; Development,2,property tax collection
+Property Tax DCB : Madurai,Economy,Finance; Revenue,Urban; Development,1,property tax DCB
+Public Amenities : Srinagar,Infrastructure; Roads,Urban; Development,Urban; Development,1,"public amenities, not roads"
+Public Transport Access : Solapur,Housing; Urban Housing,Urban; Development,Urban; Development,1,public transport access is not housing
+Rainfall : Madurai,Water and Sanitation; Sanitation,Science and Technology; Atmospheric Science,Environment and Forest; Water Quality,1,rainfall
+Ramps for handycap in school : Ujjain,Housing; Urban Housing,Social Development; Disabled,Social Development; Disabled,1,ramps for the disabled
+Recreational Parks : Ujjain,Travel and Tourism; Places,Urban; Development,Urban; Development,1,city recreational parks
+Registered FIR : Chandigarh,Governance and Administration; Grievances,Home Affairs and Enforcement; Police,Home Affairs and Enforcement; Police,1,FIR records
+Road Safety : Ahmedabad,Urban; Development,Transport; Road Transport,Transport; Road Transport,1,road safety
+Road Safety : Dharamshala,Governance and Administration; Local Government,Transport; Road Transport,Transport; Road Transport,1,road safety
+Road Safety : Tiruppur,Urban; Development,Transport; Road Transport,Transport; Road Transport,1,road safety
+Roads : Thoothukudi,Urban; Development,Infrastructure; Roads,Infrastructure; Roads,1,road works
+Roads : Tiruppur,Urban; Development,Infrastructure; Roads,Infrastructure; Roads,1,road works
+Roadsafety : Madurai,Governance and Administration; Local Government,Transport; Road Transport,Transport; Road Transport,1,road safety
+SAMPANN Pensioner data,Governance and Administration; Union/State Government Administration,Governance and Administration; Pensions,Information and Communications; Telecom,1,pensioner data
+School Inspected : Ujjain,Governance and Administration; Local Government,Education; Elementary,Education; Elementary,1,school inspection
+Season Wise Rainfall occurred by Districts in Tamil Nadu: SCR,Census and Surveys; Census,Science and Technology; Atmospheric Science,Environment and Forest; Water Quality,15,"rainfall, not census"
+Sector-Wise Expenditure on Education By Central And State Governments (Revenue Account),Science and Technology; Research & Development,Education,Education; Elementary,2,education expenditure
+Self Help Group : Ujjain,Governance and Administration; Local Government,Social Development; Women,Social Development; Women,1,self help groups
+Share and Percentage Growth/Change of Major Imports,Finance; Economy,Commerce; Import,Economy; Prices,1,imports
+Shift School : Ujjain,Governance and Administration; Local Government,Education; Elementary,Education; Elementary,1,school
+Single classroom in school : Ujjain,Governance and Administration; Union/State Government Administration,Education; Elementary,Education; Elementary,1,classrooms in school
+Solid Waste Collection Vehicle : Kavaratti,Infrastructure; Roads,Environment and Forest; Municipal Waste,Environment and Forest; Sanitation,1,solid waste collection vehicles
+Solid Waste Collection Vehicle Data : Tumakuru,Infrastructure; Roads,Environment and Forest; Municipal Waste,Environment and Forest; Sanitation,1,solid waste collection vehicle data
+Solid Waste Collection vehicle information : Gwalior,Infrastructure; Roads,Environment and Forest; Municipal Waste,Urban; Development,1,solid waste collection vehicles
+Solid Waste Disposal : Warangal,Infrastructure; Roads,Environment and Forest; Municipal Waste,Urban; Development,1,solid waste disposal
+Solid Waste Management - Efficiency : Erode,Infrastructure; Roads,Environment and Forest; Municipal Waste,Urban; Development,1,solid waste management
+Solid Waste Management - Efficiency : Shivamogga,Health and Family welfare; Health,Environment and Forest; Municipal Waste,Environment and Forest; Sanitation,1,"solid waste management, not health"
+Solid Waste Management - Efficiency : Tiruppur,Infrastructure; Roads,Environment and Forest; Municipal Waste,Urban; Development,1,solid waste management
+Solid Waste Management : Gwalior,Health and Family welfare; Health,Environment and Forest; Municipal Waste,Environment and Forest; Sanitation,1,"solid waste management, not health"
+Solid Waste Management : Patna,Infrastructure; Roads,Environment and Forest; Municipal Waste,Urban; Development,7,solid waste management
+Solid Waste Management : Shillong,Infrastructure; Roads,Environment and Forest; Municipal Waste,Urban; Development,2,solid waste management
+Solid Waste Management : Shimla,Infrastructure; Roads,Environment and Forest; Municipal Waste,Urban; Development,3,solid waste management
+Solid Waste Management : Thoothukudi,Infrastructure; Roads,Environment and Forest; Municipal Waste,Urban; Development,13,solid waste management
+Solid Waste Management : Tiruchirappalli,Infrastructure; Roads,Environment and Forest; Municipal Waste,Urban; Development,5,solid waste management
+Solid Waste Management Basic : Erode,Infrastructure; Roads,Environment and Forest; Municipal Waste,Urban; Development,1,solid waste management
+Solid Waste Management Efficiency : Warangal,Infrastructure; Roads,Environment and Forest; Municipal Waste,Urban; Development,1,solid waste management
+Solid Waste Management-Revenue : Saharanpur,Health and Family welfare; Health,Environment and Forest; Municipal Waste,Environment and Forest; Sanitation,1,"solid waste revenue, not health"
+Startup Recognized by DPIIT,Economy; Macro Economy,Industries,Industries; Manufacturing,1,DPIIT startup recognition is industrial policy
+State Average of Agriculture Wages,Agriculture; Agricultural Research & Extension,Labour and Employment; Employment,Labour and Employment; Employment,1,agricultural wages
+State-wise Number of Research And Development Proposals Not Found Suitable,Health and Family welfare; Health,Science and Technology; Research & Development,Science and Technology; Research & Development,2,R&D proposals
+Statistical Hand Book 2016 : Companies,Economy; Macro Economy,Commerce; Companies,Industries; Manufacturing,2,Statistical Hand Book on companies
+Statistical Hand Book : Civil Supplies,Economy; Prices,Food; Public Distribution,Food; Public Distribution,103,Statistical Hand Book on civil supplies
+Statistical Hand Book : Factories,Economy; Macro Economy,Industries; Manufacturing,Labour and Employment; Employment,48,Statistical Hand Book on factories
+Statistical Hand Book : Institutional Finance,Economy; Macro Economy,Finance; Banking,Finance; Economy,206,Statistical Hand Book on institutional finance
+Statistical Hand Book : Insurance,Economy; Prices,Finance; Insurance,Finance; Insurance,23,Statistical Hand Book on insurance
+Statistical Hand Book : Insurance Operation in Tamil Nadu,Economy; Macro Economy,Finance; Insurance,Finance; Insurance,45,Statistical Hand Book on insurance
+Statistical Hand Book : Judicial Administration,Governance and Administration; District Adminstration,Judiciary,Judiciary; High Court,36,Statistical Hand Book on judicial administration
+Statistical Hand Book : Recreation,Social Development; Children,Information and Broadcasting; Broadcasting,Information and Broadcasting; Broadcasting,57,recreation datasets are mostly broadcasting
+Statistical Hand Book : Road and Transport,Infrastructure; Roads,Transport; Road Transport,Transport; Road Transport,138,Statistical Hand Book on road and transport
+Street Lights : Salem,Power and Energy; Renewable,Urban; Development,Urban; Development,2,street lights in city
+Student classroom ratio : Ujjain,Governance and Administration; Local Government,Education; Elementary,Education; Elementary,1,student classroom ratio
+Teacher data : Ujjain,Governance and Administration; Local Government,Education; Elementary,Education; Elementary,1,teacher data
+Technical/Operational/infrastructural Under RGGVY Scheme,Infrastructure,Infrastructure; Power,Power and Energy; Renewable,7,RGGVY rural electrification
+Time Series Data Classification of Land in Tamil Nadu : SCR,Economy; Macro Economy,Rural; Land Resources,Rural; Land Resources,3,land classification
+Time Series Data Rainfall by Seasons in Tamil Nadu : SCR,Agriculture; Crops,Science and Technology; Atmospheric Science,Environment and Forest; Water Quality,3,rainfall
+"Time Series Data on Production, Export, Import and Consumption of Finished Steel Items",Economy; Macro Economy,Industries; Heavy,Industries; Heavy,4,steel production
+Tiruvallur District Handbook 2017-18 : Social Welfare Department Schemes,Governance and Administration; District Adminstration,Social Development; Women,Social Development; Women,1,social welfare schemes
+Trend of Ground Water Level : Ujjain,Environment and Forest; Water Quality,Water Resources; Ground Water,Water Resources; Ground Water,1,ground water level
+Unemployment Rate : Gandhinagar,Economy; Prices,Labour and Employment; Employment,Labour and Employment; Employment,1,unemployment rate
+VAT & GST : Aurangabad,Economy; Prices,Finance; Revenue,Finance; Revenue,1,VAT and GST is tax revenue
+VAT & GST : Erode,Urban; Development,Finance; Revenue,Economy; Macro Economy,1,VAT and GST is tax revenue
+VAT & GST : Varanasi,Economy; Prices,Finance; Revenue,Commerce; Trade promotion,2,VAT and GST is tax revenue
+VAT And GST : Ranchi,Economy; Prices,Finance; Revenue,Finance; Revenue,1,VAT and GST is tax revenue
+VAT and GST : Silvassa,Economy; Prices,Finance; Revenue,Health and Family welfare; Health,1,VAT and GST is tax revenue
+VAT and GST Collection : Sagar,Economy; Prices,Finance; Revenue,Finance; Revenue,2,VAT and GST is tax revenue
+"Various Posts At National Institute of Animal Biotechnology, Hyderabad",Health and Family welfare; Family Welfare,Science and Technology; Research & Development,Science and Technology; Research & Development,1,posts at a research institute
+Water Revenue : Dahod,Economy; Prices,Water and Sanitation; Drinking Water,Water and Sanitation; Drinking Water,1,water revenue from water supply
+Water consumption : Rourkela,Health and Family welfare; Health,Water and Sanitation; Drinking Water,Water and Sanitation; Drinking Water,1,water consumption
+Without Classroom : Ujjain,Governance and Administration; Union/State Government Administration,Education; Elementary,Health and Family welfare; Health,1,students without classrooms

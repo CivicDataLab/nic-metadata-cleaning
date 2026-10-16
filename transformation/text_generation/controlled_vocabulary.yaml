@@ -1,0 +1,649 @@
+# =============================================================================
+# Controlled Keyword Vocabulary  —  data.gov.in health / HMIS datasets
+# =============================================================================
+# This is the curated, controlled list of keywords used to tag datasets for
+# search.  It is maintained by hand by the curation team — add patterns and
+# keywords here, re-run `assign_controlled_keywords.py`, and the search facets
+# update.  Keep it small and clean: that bounded set is the whole point.
+#
+# Two tiers (matching data.gov.in's Subject[keyword] / Subject[sponsored_keyword]):
+#   * generic    -> simple, layman words a non-expert would actually type
+#                   ("survey", "health centre", "monthly report").
+#   * sponsored  -> precise / specific values ("tuberculosis", "Delhi", "HMIS",
+#                   "Auxiliary Nurse Midwife").
+#
+# How a rule works:
+#   - `patterns`  : list of case-insensitive regex; if ANY matches the dataset's
+#                   combined text (title + collection + catalog title + sector),
+#                   the rule fires.
+#   - `generic`   : generic keywords added to Subject[keyword] when it fires.
+#   - `sponsored` : specific keywords added to Subject[sponsored_keyword].
+# Layman rule: jargon (ANM, PHC, IUCD) lives only in `sponsored`; the plain-English
+# word ("health worker", "health centre", "contraceptive") goes in `generic`.
+# =============================================================================
+
+limits:
+  generic_max: 4
+  sponsored_max: 2
+
+# Baseline tags applied to every Ministry of Health & Family Welfare dataset
+# (the corpus is ~100% MoHFW). Guarantees a non-empty, consistent floor so even
+# a topic-less "Item-wise report for <district> of <state>" row is findable.
+baseline:
+  generic: []
+  # No baseline sponsored keyword: sponsored tags must be dataset-specific
+  # (states, survey names, age ranges, conditions), not a blanket label.
+  sponsored: []
+
+rules:
+
+  # ------------------------------------------------------------------ TOPIC --
+  # The sponsored tier is per-dataset SPECIFIC: rules are split fine enough that
+  # the matched concept (C-section, polio, condom) becomes the keyword, not a
+  # coarse bucket. The generic tier stays broad/layman.
+
+   # --- Maternal health (broad + specific procedures) ---
+- facet: topic
+  category: maternal_general
+  patterns: ['maternal', 'health', 'pregnan', 'obstetric', 'motherhood']
+  generic:   [pregnancy, mother, childbirth, women]
+  sponsored: [maternal, obstetric, maternity, reproductive]
+- facet: topic
+  category: allopathic
+  patterns: ['allopathic']
+  generic:   [medicine, doctor, hospital, treatment]
+  sponsored: [allopathic, opd, treatment, attendance]
+
+- facet: topic
+  category: antenatal_care
+  # NB: bare 'anaemia' is intentionally NOT here — it mistagged child-anaemia
+  # datasets as antenatal. Pregnant-women anaemia still matches via \bifa\b /
+  # 'pregnant women given'. General anaemia has its own rule below.
+  patterns: ['ante[ -]?natal', '\banc\b', 'tetanus toxoid', '\btt\d', '\bifa\b',
+             'pregnant women given']
+  generic:   [pregnancy, checkup, mother, clinic]
+  sponsored: [antenatal, anc, prenatal, ifa]
+
+- facet: topic
+  category: institutional_delivery
+  patterns: ['institutional deliver', 'deliveries conducted', 'deliver.*at facility']
+  generic:   [hospital, delivery, birth, mother]
+  sponsored: [institutional, facility, obstetric, childbirth]
+
+- facet: topic
+  category: home_delivery
+  patterns: ['home deliver']
+  generic:   [home, delivery, birth, mother]
+  sponsored: [domiciliary, childbirth, maternal, delivery]
+
+- facet: topic
+  category: c_section
+  patterns: ['c-?section', 'caesarean', 'cesarean']
+  generic:   [surgery, delivery, birth, hospital]
+  sponsored: [caesarean, cesarean, csection, obstetric]
+
+- facet: topic
+  category: maternal_mortality
+  patterns: ['maternal mortality', '\bmmr\b']
+  generic:   [mother, death, childbirth, mortality]
+  sponsored: [mmr, maternal, mortality, obstetric]
+
+ # --- Child health & immunisation (broad + specific vaccines) ---
+- facet: topic
+  category: child_health_general
+  patterns: ['child health', 'new ?born', 'neo ?natal', '\binfant\b',
+             'breast ?feed', 'paediatric', 'pediatric', 'child survival']
+  generic:   [child, baby, health, newborn]
+  sponsored: [paediatric, neonatal, infant, newborn]
+
+- facet: topic
+  category: immunisation_general
+  patterns: ['immunis', 'immuniz', 'vaccinat', '\bvaccine\b']
+  generic:   [vaccine, vaccination, child, protection]
+  sponsored: [immunisation, vaccination, coverage, immunization]
+
+- facet: topic
+  category: vaccine_bcg
+  patterns: ['\bbcg\b', 'bacillus calmette']
+  generic:   [vaccine, tuberculosis, baby, protection]
+  sponsored: [bcg, tuberculosis, immunisation, neonatal]
+
+- facet: topic
+  category: vaccine_dpt
+  patterns: ['\bdpt\b', 'diphtheria', 'pentavalent', '\bdt\b']
+  generic:   [vaccine, child, protection, injection]
+  sponsored: [dpt, pentavalent, diphtheria, immunisation]
+
+- facet: topic
+  category: vaccine_polio
+  patterns: ['polio', '\bopv\b']
+  generic:   [polio, vaccine, drops, child]
+  sponsored: [opv, poliomyelitis, immunisation, vaccination]
+
+- facet: topic
+  category: vaccine_measles
+  patterns: ['measles']
+  generic:   [measles, vaccine, child, protection]
+  sponsored: [measles, immunisation, vaccination, mr]
+
+- facet: topic
+  category: vaccine_rotavirus
+  patterns: ['\brotavirus\b', 'rota vaccine']
+  generic:   [diarrhea, vaccine, baby, child]
+  sponsored: [rotavirus, immunisation, gastroenteritis, vaccination]
+
+- facet: topic
+  category: vitamin_a
+  patterns: ['vitamin a']
+  generic:   [vitamin, child, nutrition, dose]
+  sponsored: [vitamina, supplementation, dose, nutrition]
+- facet: topic
+  category: vaccine_pentavalent
+  patterns: ['pentavalent']
+  generic:   [vaccine, child, injection, protection]
+  sponsored: [pentavalent, vaccination, immunisation, dose]
+- facet: topic
+  category: vaccine_tt
+  patterns: ['tetanus toxoid', '\btt\b']
+  generic:   [vaccine, tetanus, injection, protection]
+  sponsored: [tt, tetanus, vaccination, immunisation]
+- facet: topic
+  category: operation
+  patterns: ['operation major', 'operation minor', 'operation']
+  generic:   [operation, surgery, hospital, treatment]
+  sponsored: [operation, major, minor, surgical]
+
+# --- Family planning (broad + specific methods) ---
+- facet: topic
+  category: family_planning_general
+  patterns: ['family planning', 'contracept']
+  generic:   [family, pregnancy, birth, contraception]
+  sponsored: [contraceptive, fertility, reproductive]
+
+- facet: topic
+  category: sterilisation
+  patterns: ['steril[iy]s', 'vasectomy', 'tubectomy']
+  generic:   [operation, surgery, birth, family]
+  sponsored: [sterilisation, vasectomy, tubectomy, contraception]
+
+- facet: topic
+  category: iucd
+  patterns: ['\biud\b', '\biucd\b', 'intra ?uterine']
+  generic:   [device, pregnancy, contraception, birth]
+  sponsored: [iucd, iud, intrauterine, copper]
+
+- facet: topic
+  category: condom
+  patterns: ['condom']
+  generic:   [condom, protection, pregnancy, family]
+  sponsored: [contraceptive, prophylactic, distribution, barrier]
+
+- facet: topic
+  category: oral_pill
+  patterns: ['oral pill', '\bocp\b']
+  generic:   [pill, pregnancy, contraception, medicine]
+  sponsored: [ocp, contraceptive, hormonal, oral]
+
+# --- Diseases / morbidity (long tail; specific name = the keyword) ---
+- facet: topic
+  category: tuberculosis
+  patterns: ['tuberculosis', '\btb\b', 'rntcp', '\bntep\b']
+  generic:   [tuberculosis, tb, cough, lungs]
+  sponsored: [tb, ntep, treatment, screening]
+
+- facet: topic
+  category: malaria
+  patterns: ['malaria']
+  generic:   [malaria, fever, mosquito, bites]
+  sponsored: [malaria, mosquito, testing, cases]
+
+- facet: topic
+  category: hiv_aids
+  patterns: ['\bhiv\b', '\baids\b', '\bnacp\b']
+  generic:   [hiv, aids, virus, infection]
+  sponsored: [nacp, hiv, testing, treatment]
+
+- facet: topic
+  category: reproductive_child_health
+  patterns: ['reproductive', '\brch\b', 'adolescent']
+  generic:   [child, mother, health, pregnancy]
+  sponsored: [rch, maternal, child, adolescent]
+
+# --- Specific conditions reported in survey datasets (NFHS / DLHS / AHS). ---
+- facet: topic
+  category: acute_respiratory_infection
+  patterns: ['acute respiratory', 'respiratory infection', '\bari\b']
+  generic:   [breathing, cough, lungs, infection]
+  sponsored: [ari, respiratory, infection, treatment]
+
+- facet: topic
+  category: asthma
+  patterns: ['asthma']
+  generic:   [asthma, breathing, lungs, inhaler]
+  sponsored: [asthma, respiratory, treatment, chronic]
+
+- facet: topic
+  category: diabetes
+  patterns: ['diabet']
+  generic:   [diabetes, sugar, blood, insulin]
+  sponsored: [diabetes, screening, treatment, blood]
+
+- facet: topic
+  category: hypertension
+  patterns: ['hypertension', 'blood pressure']
+  generic:   [pressure, blood, heart, hypertension]
+  sponsored: [hypertension, bp, screening, treatment]
+
+- facet: topic
+  category: goitre_thyroid
+  patterns: ['goitre', 'goiter', 'thyroid']
+  generic:   [thyroid, neck, swelling, goitre]
+  sponsored: [thyroid, goitre, iodine, treatment]
+
+- facet: topic
+  category: diarrhoea
+  patterns: ['diarrh']
+  generic:   [diarrhea, stomach, loose, dehydration]
+  sponsored: [diarrhoea, treatment, dehydration, cases]
+
+- facet: topic
+  category: anaemia
+  patterns: ['anaemia', 'anemia']
+  generic:   [anaemia, blood, iron, weakness]
+  sponsored: [anaemia, iron, haemoglobin, treatment]
+
+- facet: topic
+  category: nutritional_status
+  patterns: ['nutritional status', 'malnutri', 'underweight', 'stunting',
+             'wasting', 'low birth weight', 'body mass index', '\bbmi\b']
+  generic:   [nutrition, growth, weight, children]
+  sponsored: [malnutrition, stunting, wasting, underweight]
+
+- facet: topic
+  category: micronutrient
+  patterns: ['micronutrient', 'iron-?folic', '\bifa\b', 'iodine', 'iodis[ae]d salt']
+  generic:   [vitamin, iron, nutrition, iodine]
+  sponsored: [ifa, supplement, iron, iodine]
+
+- facet: topic
+  category: stillbirth
+  patterns: ['still ?birth']
+  generic:   [stillbirth, pregnancy, baby, birth]
+  sponsored: [stillbirth, pregnancy, delivery, mortality]
+
+- facet: topic
+  category: substance_use
+  patterns: ['tobacco', '\balcohol', 'smoking']
+  generic:   [tobacco, alcohol, smoking, addiction]
+  sponsored: [tobacco, alcohol, smoking, prevention]
+
+- facet: topic
+  category: gender_violence
+  patterns: ['gender ?based violence', 'domestic violence', 'women empowerment',
+             'gender based']
+  generic:   [violence, women, abuse, safety]
+  sponsored: [domestic, violence, women, protection]
+
+- facet: topic
+  category: vital_statistics
+  patterns: ['birth rate', 'death rate', 'crude birth', 'crude death',
+             'fertility', '\bcbr\b', '\btfr\b', 'sex ratio', 'mortality rate',
+             '\bimr\b', '\bmmr\b', 'demographic', 'population density',
+             'growth rate', 'life expectancy']
+  generic:   [population, birth, death, fertility]
+  sponsored: [mortality, birthrate, deathrate, census]
+
+- facet: topic
+  category: health_workforce
+  patterns: ['health worker', '\banm\b', '\basha\b', '\blhv\b', '\bmpw\b',
+             'nursing', 'pharmacist', 'radiographer', 'lab(oratory)? technician',
+             'surgeon', 'obstetrician', 'gynaecolog', 'specialist', 'doctor',
+             'physician', 'para ?medical', 'manpower', 'staffing', 'staff ',
+             'vacancy', 'shortfall', 'health assistant']
+  generic:   [doctor, nurse, worker, hospital]
+  sponsored: [asha, anm, staffing, vacancy]
+
+- facet: topic
+  category: health_infrastructure
+  patterns: ['infrastructure', 'building position', 'establishment of',
+             'facilities at', 'facilities available', 'beds', 'training centre',
+             'mobile medical unit', 'radial distance', 'area covered',
+             'availability of health cent',
+             'health cent(?:re|er)s? director', 'facilit(?:y|ies) director']
+  generic:   [hospital, clinic, beds, facilities]
+  sponsored: [facility, hospital, infrastructure, healthcare]
+
+- facet: topic
+  category: outpatient
+  patterns: ['out ?patient', '\bopd\b', 'allopathic - outpatient', 'ayush - outpatient']
+  generic:   [hospital, herbal, patient,ayush]
+  sponsored: [opd,medicine,ayurveda clinic, consultation]
+
+- facet: topic
+  category: inpatient
+  patterns: ['in ?patient', '\bipd\b']
+  generic:   [hospital, admission, patient, ward]
+  sponsored: [ipd, inpatient, admission, hospital]
+
+- facet: topic
+  category: surgery
+  patterns: ['operation major', 'operation minor', 'anaesthesia', 'surger', 'surgical']
+  generic:   [surgery, operation, hospital, treatment]
+  sponsored: [surgery, operation, anaesthesia, procedure]
+
+- facet: topic
+  category: ayush
+  patterns: ['ayush', 'ayurved', 'homeopath', 'unani', 'siddha']
+  generic:   [ayush, ayurveda, herbal, medicine]
+  sponsored: [ayush, homeopathy, unani, siddha]
+
+- facet: topic
+  category: nutrition_survey
+  patterns: ['clinical, anthropometric', 'anthropometric', 'bio-?chemical', '\bcab\b',
+             'nutrition']
+  generic:   [nutrition, diet, health, survey]
+  sponsored: [nutrition, survey, growth, assessment]
+
+# --- Demography long-tail ---
+- facet: topic
+  category: life_expectancy
+  patterns: ['expectation of life', 'life expectancy', 'life at birth']
+  generic:   [life, age, years, expectancy]
+  sponsored: [expectancy, lifespan, population, mortality]
+- facet: topic
+  category: attendance
+  patterns: ['attendance']
+  generic:   [visit, patient, hospital, clinic]
+  sponsored: [attendance, opd, ipd, reporting]
+
+- facet: topic
+  category: birth_order
+  patterns: ['birth order', 'order of birth', 'births by order', 'order of births']
+  generic:   [birth, child, family, order]
+  sponsored: [birth, parity, family, fertility]
+
+- facet: topic
+  category: population_projection
+  patterns: ['projected population', 'population projection', 'projected level',
+             'population characteristics']
+  generic:   [population, future, growth, forecast]
+  sponsored: [projection, population, forecast, census]
+
+- facet: topic
+  category: causes_of_death
+  patterns: ['causes? of death', 'death distribution', 'major cause',
+             'cause-?wise death', 'top \d+ causes']
+  generic:   [death, disease, causes, mortality]
+  sponsored: [mortality, causes, deaths, records]
+
+- facet: topic
+  category: age_at_marriage
+  patterns: ['age at marriage', 'early marriage', 'child marriage',
+             'marriage before', 'age at first marriage']
+  generic:   [marriage, age, women, child]
+  sponsored: [marriage, child, women, age]
+
+- facet: topic
+  category: ailment_morbidity
+  patterns: ['\bailment', '\bailing\b', 'morbidity', 'treated on medical advice',
+             'spells of ailment']
+  generic:   [illness, disease, treatment, sickness]
+  sponsored: [morbidity, illness, treatment, cases]
+
+- facet: topic
+  category: elderly_ageing
+  patterns: ['\belderly\b', 'ageing', '\baging\b', '\blasi\b',
+             'longitudinal ageing', 'old age']
+  generic:   [elderly, ageing, seniors, oldage]
+  sponsored: [elderly, ageing, lasi, care]
+# --- Health system: education, scheme, financing, sanitation ---
+- facet: topic
+  category: medical_education
+  patterns: ['medical college', '\bmbbs\b', 'medical seats', 'nursing college',
+             'medical education', 'pg seats', 'admission capacity']
+  generic:   [doctor, college, nursing, admission]
+  sponsored: [mbbs, medical, seats, education]
+
+- facet: topic
+  category: health_mission
+  patterns: ['\bnrhm\b', '\bnhm\b', 'national health mission',
+             'national rural health mission', 'high priority district']
+  generic:   [health, scheme, mission, services]
+  sponsored: [nhm, nrhm, mission, healthcare]
+
+- facet: topic
+  category: health_financing
+  patterns: ['\bexpenditure\b', 'budget estimate', 'revised estimate',
+             'financial allocation', 'health financing']
+  generic:   [budget, money, spending, funding]
+  sponsored: [budget, allocation, expenditure, financing]
+
+- facet: topic
+  category: water_sanitation
+  patterns: ['drinking water', '\blatrine', 'sanitation', '\btoilet',
+             'open defecation', 'safe water']
+  generic:   [water, toilet, drinking, hygiene]
+  sponsored: [sanitation, latrine, supply, swachh]
+# -------------------------------------------------------------- DATA TYPE --
+- facet: topic
+  category: performance
+  patterns: ['performance related', 'performance of', 'range-wise performance']
+  generic:   [performance, progress, report, results]
+  sponsored: [performance, indicators, monitoring, reporting]
+- facet: data_type
+  category: hmis
+  patterns: ['\bhmis\b', 'health management information', 'item-wise report',
+             'item wise', 'data item comparison', 'range-wise performance',
+             'facility reporting', 'facility master']
+  generic:   [hmis, report, records, facility,clinic,service]
+  sponsored: [hmis, facility, reporting, dashboard]
+
+- facet: data_type
+  category: survey
+  patterns: ['survey', 'estimates of']
+  generic:   [survey, sample, census]
+  sponsored: [survey, nfhs, dlhs, ahs]
+# ------------------------------------------------------------- SURVEY NAME --
+- facet: survey
+  category: nfhs
+  patterns: ['\bnfhs\b', 'national family health survey']
+  generic:   [nfhs, survey, family, health]
+  sponsored: [nfhs, national, family, health]
+
+- facet: survey
+  category: dlhs
+  patterns: ['\bdlhs\b', 'district level household survey']
+  generic:   [dlhs, survey, district, health]
+  sponsored: [dlhs, household, district, survey]
+
+- facet: survey
+  category: ahs
+  patterns: ['\bahs\b', 'annual health survey']
+  generic:   [ahs, survey, annual, health]
+  sponsored: [ahs, annual, health, survey]
+
+- facet: survey
+  category: srs
+  patterns: ['\bsrs\b', 'sample registration system', 'sample registration']
+  generic:   [srs, survey, birth, death]
+  sponsored: [srs, registration, birth, death]
+
+- facet: survey
+  category: ces
+  patterns: ['\bces\b', 'coverage evaluation survey']
+  generic:   [ces, survey, coverage, vaccine]
+  sponsored: [ces, coverage, evaluation, survey]
+
+- facet: survey
+  category: rsoc
+  patterns: ['\brsoc\b', 'rapid survey on children']
+  generic:   [rsoc, survey, child, health]
+  sponsored: [rsoc, rapid, child, survey]
+
+- facet: survey
+  category: census
+  patterns: ['\bcensus\b']
+  generic:   [census, population, survey, people]
+  sponsored: [census, population, household, census]
+
+- facet: survey
+  category: nss
+  patterns: ['\bnss\b', 'national sample survey']
+  generic:   [nss, survey, sample, household]
+  sponsored: [nss, national, sample, survey]
+# ------------------------------------------------------------- DATA TYPE --
+- facet: data_type
+  category: indicators
+  patterns: ['indicator', 'key hmis indicators', 'performance of', 'performance related',
+             'performance on']
+  generic:   [indicator, performance, report, ranking]
+  sponsored: [indicator, scorecard, performance, hmis]
+
+- facet: data_type
+  category: comparison
+  patterns: ['comparison', 'classification of', 'at a glance']
+  generic:   [comparison, ranking, report, data]
+  sponsored: [comparison, ranking, benchmark, analysis]
+
+# --------------------------------------------------------------- FACILITY --
+- facet: topic
+  category: public_facility
+  patterns: ['public facilit']
+  generic:   [hospital, clinic, facility, government]
+  sponsored: [facility, public, healthcare, reporting]
+- facet: facility
+  category: phc
+  patterns: ['primary health centre', 'primary health center', '\bphc\b',
+             'primary health care']
+  generic:   [clinic, hospital, healthcare, village]
+  sponsored: [phc, primary, healthcare, centre]
+
+- facet: facility
+  category: chc
+  patterns: ['community health centre', 'community health center', '\bchc\b']
+  generic:   [hospital, clinic, healthcare, community]
+  sponsored: [chc, community, healthcare, centre]
+
+- facet: facility
+  category: sub_centre
+  patterns: ['sub-?centre', 'sub-?center', 'sub centre']
+  generic:   [clinic, village, healthcare, centre]
+  sponsored: [subcentre, healthcare, village, facility]
+
+- facet: facility
+  category: hospital
+  patterns: ['hospital', 'district hospital', 'sub divisional hospital',
+             'sub-district hospital']
+  generic:   [hospital, doctor, treatment, healthcare]
+  sponsored: [hospital, district, government, facility]
+
+- facet: time
+  category: monthly
+  patterns: ['monthly', 'month-wise', 'month wise']
+  generic:   [monthly]
+  sponsored: [monthly]
+
+- facet: time
+  category: annual
+  patterns: ['annual', 'yearly', 'year-wise', 'year wise']
+  generic:   [annual, yearly]
+  sponsored: [annual, yearly]
+
+- facet: time
+  category: quarterly
+  patterns: ['quarterly', 'quarter-wise', 'quarter wise']
+  generic:   [quarterly]
+  sponsored: [quarterly]
+# ------------------------------------------------------------ POPULATION ---
+- facet: population
+  category: women
+  patterns: ['\bwomen\b', 'female', 'mother', 'pregnant']
+  generic:   [women, mother, female, pregnancy]
+  sponsored: [women, maternal, female, pregnancy]
+
+- facet: population
+  category: children
+  patterns: ['\bchild\b', 'children', 'infant', 'new ?born', 'paediatric']
+  generic:   [children, child, baby, kids]
+  sponsored: [children, infant, newborn, under5]
+
+- facet: population
+  category: rural
+  patterns: ['\brural\b', 'village']
+  generic:   [rural, village, countryside, remote]
+  sponsored: [rural, village, habitation, population]
+
+- facet: population
+  category: tribal
+  patterns: ['tribal']
+  generic:   [tribal, tribe, adivasi, community]
+  sponsored: [tribal, st, scheduled, population]
+  # # ------------------------------------------------------- GEOGRAPHY: scope --
+  # - facet: geo_scope
+  #   category: state_wise
+  #   patterns: ['state/?\s?ut[\s/-]?wise', 'state and ut wise', 'state-wise', 'state wise']
+  #   generic:   [state-wise, by, state]
+  #   sponsored: [state-wise, health, data, state, comparison]
+
+  # - facet: geo_scope
+  #   category: district_level
+  #   patterns: ['district[- ]?wise', 'district data item', 'item-wise report for .+ of ',
+  #              'district level', 'district report']
+  #   generic:   [district-level, by, district]
+  #   sponsored: [district, health, data, district-wise, report]
+
+  # - facet: geo_scope
+  #   category: sub_district
+  #   patterns: ['sub[- ]?district', 'block[- ]?wise']
+  #   generic:   [sub-district, block, level]
+  #   sponsored: [block-level, data, sub-district, health]
+
+  # - facet: geo_scope
+  #   category: national
+  #   patterns: ['all india', '\bindia\b']
+  #   generic:   [india, national]
+  #   sponsored: [all, india, national, health, data]
+
+# -----------------------------------------------------------------------------
+# Geography: controlled list of States & Union Territories.
+# Detected as `... of <State> ...` or `<State>-wise ...` in titles.
+# Canonical spelling -> regex variants. Canonical name -> sponsored keyword.
+# -----------------------------------------------------------------------------
+states:
+  Andhra Pradesh:        ['andhra pradesh']
+  Arunachal Pradesh:     ['arunachal pradesh']
+  Assam:                 ['\bassam\b']
+  Bihar:                 ['\bbihar\b']
+  Chhattisgarh:          ['chhattisgarh', 'chattisgarh']
+  Goa:                   ['\bgoa\b']
+  Gujarat:               ['\bgujarat\b']
+  Haryana:               ['\bharyana\b']
+  Himachal Pradesh:      ['himachal pradesh']
+  Jharkhand:             ['jharkhand']
+  Karnataka:             ['karnataka']
+  Kerala:                ['\bkerala\b']
+  Madhya Pradesh:        ['madhya pradesh']
+  Maharashtra:           ['maharashtra']
+  Manipur:               ['\bmanipur\b']
+  Meghalaya:             ['meghalaya']
+  Mizoram:               ['mizoram']
+  Nagaland:              ['nagaland']
+  Odisha:                ['odisha', 'orissa']
+  Punjab:                ['\bpunjab\b']
+  Rajasthan:             ['rajasthan']
+  Sikkim:                ['\bsikkim\b']
+  Tamil Nadu:            ['tamil nadu', 'tamilnadu']
+  Telangana:             ['telangana']
+  Tripura:               ['tripura']
+  Uttar Pradesh:         ['uttar pradesh']
+  Uttarakhand:           ['uttarakhand', 'uttaranchal']
+  West Bengal:           ['west bengal']
+  Andaman and Nicobar Islands: ['andaman', 'nicobar']
+  Chandigarh:            ['chandigarh']
+  # '\bdaman\b' (not 'daman') so it does not match the substring in "Andaman".
+  Dadra and Nagar Haveli and Daman and Diu: ['dadra', 'nagar haveli', '\bdaman\b', '\bdiu\b']
+  Delhi:                 ['\bdelhi\b', '\bnct\b']
+  Jammu and Kashmir:     ['jammu', 'kashmir']
+  Ladakh:                ['\bladakh\b']
+  Lakshadweep:           ['lakshadweep']
+  Puducherry:            ['puducherry', 'pondicherry']

@@ -1,0 +1,7 @@
+897 collections (22922 rows), sampled 2691; non-mergeable searched 500; 5808 distinct searches.
+4389 searches to fetch (1419 cached).
+  search: 51/4389 in 15s, 0 failed
+  search: 136/4389 in 30s, 0 failed
+  search: 193/4389 in 46s, 0 failed
+  search: 234/4389 in 61s, 0 failed
+  search: 330/4389 in 76s, 0 failed
