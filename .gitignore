@@ -2,9 +2,7 @@
 .venv
 pip
 /venv
-pii_test/SCRIPT_UPDATE_PLAN.md
 scripts/__pycache__/
-pii_test/FP_ANALYSIS_ROUND2.md
 
 /data/first_batch_datasets
 /data/first_batch_downloads
@@ -12,7 +10,6 @@ pii_test/FP_ANALYSIS_ROUND2.md
 *.bak
 transformation/metadata.db.bak-20260806
 /transformation/token.json
-pii_test/DETECTION_IMPROVEMENT_PLAN.md
 /data/lot3_downloads
 /data/lot3_s3_downloads/
 # KCC transcripts (extracted folder + source zip, 579MB) -- over GitHub's 100MB limit
@@ -32,9 +29,14 @@ pii_test/pii_service/*.pid
 pii_test/pii_service/*.sock
 # Labelled PII test sample from S3 (pii-test-sample.zip) -- real PII, 671MB
 /data/backups
-pii_test/FP_ANALYSIS_ROUND3.md
 
 /data/archival_remaining/
 /transformation/metadata.db.bak-prescan-20260901-143828
 /transformation/metadata.db.bak-premerge-095958
-/transformation/metadata.db.bak-lot3coverage-20260928_111750
+/transformation/metadata.db.bak-lot3coverage-20260928_111750# PII run outputs: detected values, sample values and judge reasoning -- never commit
+/pii_test/lot2/
+/pii_test/lot3/
+/pii_test/results_excel/
+# KCC full-scan logs and per-worker summaries (run output)
+/pii_test/kcc/full/
+pii_test/**/__pycache__/

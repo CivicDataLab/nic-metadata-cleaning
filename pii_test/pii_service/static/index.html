@@ -49,10 +49,13 @@
   td.cls { white-space:nowrap; font-weight:600; }
   .t-present { color:var(--present); } .t-undecided { color:var(--undecided); }
   .t-permissible { color:var(--permissible); } .t-false_positive { color:var(--clean); }
+  .redaction { margin:.75rem 0 0; font-size:.92rem; }
+  .redaction:empty { display:none; }
   .meta { color:var(--mut); font-size:.85rem; margin:.5rem 0 0; word-break:break-all; }
   .links a { display:inline-block; margin:.25rem 1.25rem 0 0; color:var(--accent);
          font-weight:600; text-decoration:none; font-size:.92rem; }
   .links a:hover { text-decoration:underline; }
+  .links a[hidden] { display:none; }
   @media (max-width:560px) { .row { flex-direction:column; align-items:stretch; }
          button { margin-left:0; } table { font-size:.82rem; } }
 </style>
@@ -60,14 +63,16 @@
 <body>
 <main>
   <h1>PII Check</h1>
-  <p class="sub">Upload a CSV to find out whether it holds personal data. It is
-    scanned for names, phone numbers, IDs and the like; rules, then an LLM
-    judge, decide whether what was found is really personal data and whether
-    it may be published. Describing the dataset helps them decide.</p>
+  <p class="sub">Upload a CSV, JSON, Excel or PDF file to find out whether it holds
+    personal data. It is scanned for names, phone numbers, IDs and the like;
+    rules, then an LLM judge, decide whether what was found is really personal
+    data and whether it may be published. Describing the dataset helps them
+    decide. You can also ask for a copy with the personal data replaced
+    (not yet for PDFs, whose scanned pages are read by OCR).</p>
 
   <form id="form">
-    <label for="file">CSV file (max 100&nbsp;MB)</label>
-    <input type="file" id="file" accept=".csv" required>
+    <label for="file">File: CSV, JSON, Excel or PDF (max 100&nbsp;MB)</label>
+    <input type="file" id="file" accept=".csv,.json,.xlsx,.xls,.pdf" required>
 
     <label for="title">Dataset title <span class="opt">(optional)</span></label>
     <input type="text" id="title" maxlength="500"
@@ -84,6 +89,7 @@
         <input type="number" id="maxrows" min="1" max="50000" value="50000">
       </div>
       <label class="check"><input type="checkbox" id="llm" checked> Use the LLM judge</label>
+      <label class="check"><input type="checkbox" id="redact"> Make a redacted copy</label>
       <button id="go" type="submit">Check</button>
     </div>
     <p id="status"></p>
@@ -94,7 +100,10 @@
     <p id="message"></p>
     <div id="warnings"></div>
     <table id="columns"></table>
+    <p id="redaction" class="redaction"></p>
     <div class="links">
+      <a id="dl-redacted" download hidden>redacted.csv</a>
+      <a id="dl-results" download>results.csv</a>
       <a id="dl-columns" download>columns.csv</a>
       <a id="dl-result" download>result.json</a>
       <a id="dl-det" download>detections.csv</a>
@@ -109,7 +118,9 @@ const $ = id => document.getElementById(id);
 const form = $("form"), status_ = $("status"), result = $("result");
 const LABELS = { present:"PII present", undecided:"Needs review", permissible:"Permissible",
                  false_positive:"No PII", no_pii_found:"No PII" };
-const STAGES = { scanning:"Scanning", tier1:"Applying rules", tier3:"LLM judge" };
+const STAGES = { converting:"Reading the file", scanning:"Scanning", tier1:"Applying rules",
+                 tier3:"LLM judge", redacting:"Redacting" };
+const UNITS = { converting:"pages", tier3:"columns", redacting:"cells searched" };
 let timer = null;
 
 form.addEventListener("submit", async ev => {
@@ -125,6 +136,7 @@ form.addEventListener("submit", async ev => {
   body.append("catalog_title", $("catalog").value);
   body.append("description", $("desc").value);
   body.append("llm", $("llm").checked ? "true" : "false");
+  body.append("redact", $("redact").checked ? "true" : "false");
 
   try {
     status_.textContent = "Uploading…";
@@ -151,7 +163,8 @@ function poll(runId, started) {
         ? "Queued — position " + job.queue_position
         : "Queued — models are still loading (about a minute)";
     } else if (job.status === "running") {
-      const p = job.progress ? " " + job.progress.done + "/" + job.progress.total + " columns" : "";
+      const p = job.progress ? " " + job.progress.done.toLocaleString() + "/" +
+        job.progress.total.toLocaleString() + " " + (UNITS[job.stage] || "") : "";
       status_.textContent = (STAGES[job.stage] || "Working") + "…" + p + " (" + secs + "s)";
     } else if (job.status === "error") {
       fail(job.error);
@@ -180,11 +193,21 @@ function render(runId, r) {
     : "";
 
   const base = "/jobs/" + runId + "/files/";
+  const red = r.redaction;
+  $("redaction").textContent = !red ? "" : "Redacted copy: " + red.message +
+    (red.columns ? " " + red.columns.map(c => c.column + " (" +
+      (c.method === "whole_column" ? "every filled cell" : "flagged values") + ")").join(", ") + "." : "");
+  $("dl-redacted").hidden = !(red && red.status === "done");
+  $("dl-redacted").href = base + "redacted.csv";
+  $("dl-results").href = base + "results.csv";
   $("dl-columns").href = base + "columns.csv";
   $("dl-result").href = base + "result.json";
   $("dl-det").href = base + "detections.csv";
-  $("meta").textContent = "Run " + r.run_id + " · " + r.rows_scanned.toLocaleString() +
-    " rows scanned · " + (r.s3_folder ? "stored at " + r.s3_folder
+  const checked = r.pdf
+    ? r.pdf.pages_checked + " of " + r.pdf.pages + " pages checked" +
+      (r.pdf.pages_ocr ? " (" + r.pdf.pages_ocr + " by OCR)" : "")
+    : r.rows_scanned.toLocaleString() + " rows scanned";
+  $("meta").textContent = "Run " + r.run_id + " · " + checked + " · " + (r.s3_folder ? "stored at " + r.s3_folder
                                       : "not stored in S3 (" + (r.s3_error || "unknown") + ")");
   result.style.display = "block";
 }

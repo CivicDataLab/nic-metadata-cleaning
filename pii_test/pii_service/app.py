@@ -1,8 +1,8 @@
 """
-FastAPI front end for the PII API: upload a CSV (plus, optionally, what the
-dataset is), get back whether it holds personal data -- detection, Tier 1
-rules and the Tier 3 LLM judge, via api_pipeline. See
-pii_test/PII_SERVICE_PLAN.md.
+FastAPI front end for the PII API: upload a CSV, JSON, Excel or PDF file (plus,
+optionally, what the dataset is), get back whether it holds personal data --
+detection, Tier 1 rules and the Tier 3 LLM judge, via api_pipeline -- and, on
+request, a redacted copy. See pii_test/README.md, section 13.
 
 Writes nothing to DuckDB. Each run lives in jobs/<run_id>/ next to this file
 until the TTL sweep, and is uploaded to its own S3 folder (storage.py) as
@@ -40,6 +40,7 @@ import scanner  # noqa: E402  -- must come before anything that logs
 scanner.configure_logging()
 
 import api_pipeline  # noqa: E402
+import convert  # noqa: E402
 import storage  # noqa: E402
 
 SERVICE_DIR = scanner.SERVICE_DIR
@@ -71,7 +72,8 @@ class Job:
     size: int
     created: float
     status: str = "queued"         # queued | running | done | error
-    stage: str | None = None       # scanning | tier1 | tier3 while running
+    redact: bool = False           # also write the redacted copy
+    stage: str | None = None       # converting | scanning | tier1 | tier3 | redacting
     progress: dict | None = None   # {"done", "total"} during tier3
     error: str | None = None
     result: dict | None = None
@@ -134,7 +136,8 @@ def _write_request(job, **extra):
         "size_bytes": job.size,
         "submitted_at": _utc(job.created).isoformat(),
         "metadata": job.meta,
-        "options": {"llm": job.llm, "max_rows": job.max_rows},
+        "options": {"llm": job.llm, "max_rows": job.max_rows,
+                    "redact": job.redact},
         **extra,
     }
     with open(os.path.join(job.dir, "request.json"), "w", encoding="utf-8") as fh:
@@ -157,12 +160,14 @@ def _process_job(job):
     started, timings = time.time(), {}
     try:
         logging.info(f"run {job.id}: {job.filename!r}, {job.size:,} bytes, "
-                     f"llm={job.llm}, max_rows={job.max_rows}")
+                     f"llm={job.llm}, redact={job.redact}, max_rows={job.max_rows}")
         try:
             result = api_pipeline.run(
                 job.input_path, job.dir, job.meta, run_id=job.id,
                 scan=scanner.scan_one, max_rows=job.max_rows, llm=job.llm,
-                progress=progress, timings=timings, s3_folder=s3_folder)
+                redact=job.redact, find_values=scanner.find_values,
+                scan_text=scanner.scan_text, progress=progress,
+                timings=timings, s3_folder=s3_folder)
         except Exception as exc:                        # noqa: BLE001
             logging.exception(f"run {job.id}: failed")
             result = api_pipeline.error_result(
@@ -289,10 +294,11 @@ async def scan(file: UploadFile,
                title: str = Form(""),
                catalog_title: str = Form(""),
                description: str = Form(""),
-               llm: bool = Form(True)):
+               llm: bool = Form(True),
+               redact: bool = Form(False)):
     name = _SAFE_NAME_RE.sub("_", os.path.basename(file.filename or ""))
-    if not name.lower().endswith(".csv"):
-        raise HTTPException(400, "Only .csv files are accepted")
+    if not convert.accepted(name):
+        raise HTTPException(400, convert.NOT_ACCEPTED)
     meta = {"title": _field(title, "title", MAX_TITLE_CHARS),
             "catalog_title": _field(catalog_title, "catalog_title", MAX_TITLE_CHARS),
             "description": _field(description, "description", MAX_DESCRIPTION_CHARS)}
@@ -301,7 +307,7 @@ async def scan(file: UploadFile,
     created = time.time()
     run_id = f"{_utc(created):%Y%m%dT%H%M%SZ}_{uuidlib.uuid4().hex}"
     job = Job(id=run_id, filename=name, max_rows=max_rows, meta=meta, llm=llm,
-              size=0, created=created)
+              redact=redact, size=0, created=created)
     os.makedirs(os.path.dirname(job.input_path), exist_ok=True)
     try:
         with open(job.input_path, "wb") as out:
@@ -360,7 +366,7 @@ async def job_summary(job_id: str):
 
 
 def main():
-    """Dev entry point. Production runs under gunicorn -- see README."""
+    """Dev entry point. Production runs under gunicorn -- see pii_test/README.md, section 13."""
     parser = argparse.ArgumentParser(description="PII scan web service.")
     parser.add_argument("--host", default="127.0.0.1",
                         help="Bind address (0.0.0.0 once nginx fronts it)")

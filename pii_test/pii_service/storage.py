@@ -33,12 +33,16 @@ PII service runs -- written by pii_test/pii_service (the upload API).
 
 One folder per run: <YYYY-MM-DD>/<run_id>/, run_id = <UTC time>_<random hex>.
 
-  input/<file>.csv     the uploaded file, as received (contains PII)
-  request.json         title / catalog title / description sent with it, options
-  result.json          final class, one-line message, flagged columns
-  columns.csv          the flagged columns as a table
-  detail/              detections, Tier 1 rows, Tier 3 verdicts, final rows
-  run.log              that run's log (no cell values)
+  input/<file>            the uploaded file, as received (contains PII)
+  converted/<name>.csv    the table scanned, when the upload was not one: JSON,
+                          a text file named as Excel, a PDF's text (one row a line)
+  request.json            title / catalog title / description sent with it, options
+  result.json             final class, one-line message, flagged columns
+  columns.csv             the flagged columns as a table
+  results.csv             every detection with Tier 1's and the judge's verdict
+  redacted.csv            only when redaction was requested and succeeded
+  detail/                 detections, Tier 1 rows, Tier 3 verdicts, final rows
+  run.log                 that run's log (no cell values)
 
 Unrelated to pii-results/ and pii-results-lot2/, which hold the corpus scans.
 """
