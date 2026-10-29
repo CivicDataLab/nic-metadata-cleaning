@@ -33,7 +33,8 @@ pii_test/pii_service/*.sock
 /data/archival_remaining/
 /transformation/metadata.db.bak-prescan-20260901-143828
 /transformation/metadata.db.bak-premerge-095958
-/transformation/metadata.db.bak-lot3coverage-20260928_111750# PII run outputs: detected values, sample values and judge reasoning -- never commit
+/transformation/metadata.db.bak-lot3coverage-20260928_111750
+# PII run outputs: detected values, sample values and judge reasoning -- never commit
 /pii_test/lot2/
 /pii_test/lot3/
 /pii_test/results_excel/
@@ -70,3 +71,17 @@ pii_test/**/__pycache__/
 /data/lot2_downloads/c7a9d786-6923-4189-b5d6-fe88db9f1dfc.csv
 /data/lot2_downloads/e9fd4bab-aaf0-4d4d-a055-56c619441380.csv
 /data/lot2_downloads/eceade07-51f4-4563-95ac-1399caae7013.csv
+
+# Real personal data: test samples, run outputs and run logs. Removed from the
+# whole git history on 2026-10-29 -- never commit these again.
+/pii_test/pii-test-sample/
+/pii_test/pii-test-sample-files/
+/pii_test/pii-test-sample-100-datasets/
+/pii_test/kcc/classification/
+/pii_test/kcc/*.log
+/pii_test/EDA/*.csv
+/pii_test/rescan_sample_detections.csv
+/pii_test/*.log
+/data/pii_test_sample/
+/data/pii_sample_results/
+pii_test/**/__pycache__/
