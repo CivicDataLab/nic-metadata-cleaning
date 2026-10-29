@@ -114,3 +114,17 @@ upscaled.png
 /transformation/text_generation/controlled_keyword_assignments.csv
 /transformation/undownloadable_meta_snapshot.parquet
 /transformation/utils/backfill_snapshot_dublin_core_remaining_20260818_095928.csv
+
+# Real personal data: test samples, run outputs and run logs. Removed from the
+# whole git history on 2026-10-29 -- never commit these again.
+/pii_test/pii-test-sample/
+/pii_test/pii-test-sample-files/
+/pii_test/pii-test-sample-100-datasets/
+/pii_test/kcc/classification/
+/pii_test/kcc/*.log
+/pii_test/EDA/*.csv
+/pii_test/rescan_sample_detections.csv
+/pii_test/*.log
+/data/pii_test_sample/
+/data/pii_sample_results/
+pii_test/**/__pycache__/
