@@ -7,8 +7,8 @@ addresses, Aadhaar, PAN and PM-KISAN farmer registration numbers. It has two par
   Call Centre transcripts). It scans each file, classifies every flagged column and can write
   redacted copies.
 - **The PII API** (`pii_service/`) lets anyone upload a CSV, JSON, Excel or PDF file and get the
-  same answer back. Every run is stored in S3. User docs: [USER_GUIDE.md](pii_service/USER_GUIDE.md)
-  (walkthrough) and [API.md](pii_service/API.md) (full reference).
+  same answer back. Every run is stored in S3. User docs: [pii_service/README.md](pii_service/README.md)
+  (a walkthrough, then the full API reference).
 
 Detailed results are in two reports in this folder:
 [PII_RESULTS_LOTS_1_2_3.md](PII_RESULTS_LOTS_1_2_3.md) (technical, with the source of every
@@ -41,7 +41,7 @@ column headers do.
 
 ## 1. Status
 
-As of 2026-10-16:
+As of 2026-10-29:
 
 | Part | State |
 |---|---|
@@ -55,6 +55,7 @@ As of 2026-10-16:
 | Lots 2 and 3 | Scanned and classified, and the verdicts reviewed on 2026-10-12 |
 | KCC | Every row scanned on 2026-10-09; **not classified yet** |
 | PII API | Deployed on this host behind nginx and an ngrok tunnel |
+| Merged scripts (`pipeline/`) | Built on 2026-10-29 and checked against the old scripts; **not signed off**. See [pipeline/README.md](pipeline/README.md) |
 
 ## 2. How it works
 
@@ -174,18 +175,29 @@ These are the final counts after the review of 2026-10-12. The full breakdown is
 | KCC | `run_kcc_scan.py` | First-250-rows scan, one state at a time, resumable |
 | | `run_kcc_full_scan.py` | Scan of every row, staged as state-year folders, several workers |
 | | `kcc_public_contact_override.py` | Stopgap: moves KCC columns from `present` to `permissible` when every phone number in them is a public contact |
-| Vocabularies | `build_gazetteer.py` | Rejection gazetteers (place names and value families) |
-| | `build_frequency_blocklist.py` | Cross-dataset frequency counts |
-| | `build_public_office_gazetteer.py` | Office-holder allow-list |
 | Review and export | `build_final_review.py` | The 2026-10-12 review decisions -> `final_review/` |
 | | `export_results_excel.py` | Workbooks per class -> `results_excel/` |
 | | `export_pii_test_timestamps.py` | Per-dataset test timestamp and flags for lots 2 and 3 |
-| | `export_detections_lot2.py` | Slices of `pii_detections_lot2` as CSV or parquet |
 | Redaction | `generate_redacted.py` | Presidio-anonymised copies of `present` columns |
-| Measurement | `evaluate_filters.py` | Replays stored lot 2 detections through the current filters; writes the label template |
-| | `rescan_sample.py` | Re-scans a sample of lot 2 end to end; writes CSV only |
-| | `reset_lot2_run.py` | **Destructive**: clears the lot 2 scan tables (baselines first); does nothing without `--confirm` |
-| History | `pii-pipeline-prototype.py`, `pii-test-sample-files/` | The first prototype and its notebook; not used by the pipeline |
+| History | `pii-test-sample-files/` | The first prototype's notebook; not used by the pipeline |
+
+Eight scripts that were not part of the pipeline were removed on 2026-10-29: the vocabulary
+builders (`build_gazetteer.py`, `build_frequency_blocklist.py`,
+`build_public_office_gazetteer.py`), the measurement scripts (`evaluate_filters.py`,
+`rescan_sample.py`, `reset_lot2_run.py`), `export_detections_lot2.py` and the first prototype
+`pii-pipeline-prototype.py`. Their outputs (`gazetteer/`, `labels.csv`) stay where they are,
+because the filters read them. To get a script back, take it from git:
+
+```bash
+git show f149890:pii_test/build_gazetteer.py > pii_test/build_gazetteer.py
+```
+
+### The merged scripts (`pipeline/`, under verification)
+
+The same pipeline in eight files, built beside the scripts above, which stay untouched until
+it is signed off. `pii_service/` still imports the old modules. The files, how to run them,
+the old-to-new command map and how each was checked are in
+[pipeline/README.md](pipeline/README.md).
 
 ### Data and outputs
 
@@ -193,7 +205,7 @@ Folders marked **PII** hold real detected values, sample values or judge reasoni
 people. Keep them on this server or a reviewer's own machine, and do not pass them on.
 
 - **Already in git:** `pii-test-sample/`, `EDA/` and `kcc/classification/`.
-- **Gitignored:** `lot2/`, `lot3/` and `results_excel/`.
+- **Gitignored:** `lot2/`, `lot3/`, `results_excel/` and `pipeline/out/`.
 
 | Path | Contents |
 |---|---|
@@ -207,6 +219,7 @@ people. Keep them on this server or a reviewer's own machine, and do not pass th
 | `EDA/` **PII** | Exploration scripts, lot 1 re-scan extracts, Tier 3 audit files (`tier3_prewrite_pii_column_class.csv` reverts the Tier 3 write exactly; `tier3_penalty_compare.csv`) |
 | `pii_s3.log`, `pii_s3_lot2.log` | Scan logs for lots 1 and 2 (column names only, no cell values) |
 | `pii_service/` | The API (see [section 13](#13-the-pii-api)) |
+| `pipeline/out/` **PII** | Test outputs of `pipeline/run.py` and `pipeline/report.py`, including copies of the `results_excel/` workbooks |
 
 Outside this folder:
 
@@ -246,9 +259,7 @@ Run everything from the repo root with the repo's `.venv`. Scripts put `pii_test
   write nothing to `metadata.db` or S3. Only these do:
   - `run_pii_s3.py --batch` / `--iterate` / `--lot2`;
   - `pii_classify.py --write` and `pii_tier3.py --write`;
-  - `reset_lot2_run.py --confirm`;
-  - `generate_redacted.py` in its default S3 mode;
-  - `export_detections_lot2.py --upload`.
+  - `generate_redacted.py` in its default S3 mode.
 
 Self-tests (no GPU, no server, no S3):
 
@@ -256,6 +267,7 @@ Self-tests (no GPU, no server, no S3):
 .venv/bin/python pii_test/pii_filters.py           # filter self-tests; exits non-zero on failure
 .venv/bin/python pii_test/pii_classify.py --test   # Tier 1 rules
 .venv/bin/python pii_test/pii_tier3.py --test      # Tier 3 prompt and parser; no judge needed
+.venv/bin/python pii_test/pipeline/selftest.py     # the same checks for pipeline/
 .venv/bin/python -m unittest discover -s pii_test/pii_service/tests -v
 ```
 
@@ -372,15 +384,21 @@ each batch.
 .venv/bin/python pii_test/pii_classify.py --db transformation/metadata.db --write   # Tier 1 -> pii_column_class
 .venv/bin/python pii_test/pii_classify.py --csv SCAN_DIR --out classes.csv          # Tier 1 over a --path scan
 .venv/bin/python pii_test/pii_tier3.py --db transformation/metadata.db --write      # Tier 3 on the undecided rows
-.venv/bin/python pii_test/build_gazetteer.py --all-families --stats
-.venv/bin/python pii_test/build_frequency_blocklist.py --stats
-.venv/bin/python pii_test/build_public_office_gazetteer.py --all
 .venv/bin/python pii_test/build_final_review.py
 .venv/bin/python pii_test/export_results_excel.py --lot1-snapshot PATH/lot1_snapshot.parquet
 ```
 
 `pii_classify.py --write` and `pii_tier3.py --write` need the DuckDB lock, so they exit if a
 scan holds it.
+
+The vocabulary builders were removed on 2026-10-29 (see [section 4](#4-folder-layout)). To
+rebuild a list, restore its builder from git first, then run it as before:
+
+```bash
+git show f149890:pii_test/build_gazetteer.py > pii_test/build_gazetteer.py
+.venv/bin/python pii_test/build_gazetteer.py --all-families --stats
+# likewise build_frequency_blocklist.py --stats, build_public_office_gazetteer.py --all
+```
 
 ## 7. Detection: the scan and its filters
 
@@ -544,7 +562,8 @@ n_detections, pii_class, rule_id, tier, evidence_json, ...`), rolled up by the v
 ## 9. Vocabularies and the office-holder allow-list
 
 Everything under `gazetteer/` is generated by script, never hand-edited. Change the script and
-re-run it.
+re-run it. The builders are no longer in the tree; [section 6](#standalone-tiers-and-vocabularies)
+shows how to restore one from git.
 
 ### Rejection lists
 
@@ -682,7 +701,7 @@ or `permissible` in lots 2 and 3 (852 in all) was read again:
 - title, all headers, each flagged column with sample values;
 - the cells themselves where that did not settle it.
 
-**The review was done by Claude**, the AI assistant working on the project. No second reviewer
+**The review was done by the AI assistant** working on the project. No second reviewer
 has checked it. It works per dataset and column, not per value, so a kept column can still hold
 single false values.
 
@@ -730,10 +749,9 @@ returns a redacted copy. Every run is stored in its own S3 folder.
 
 **Using it:**
 
-- [pii_service/USER_GUIDE.md](pii_service/USER_GUIDE.md) is the walkthrough for people outside
-  the team: the web page, a minimal client, how to describe a dataset and how to read the
-  answer.
-- [pii_service/API.md](pii_service/API.md) is the full reference: endpoints, fields, the
+- [pii_service/README.md](pii_service/README.md) has the user docs in two parts. Part 1 is the
+  walkthrough for people outside the team: the web page, a minimal client, how to describe a
+  dataset and how to read the answer. Part 2 is the full reference: endpoints, fields, the
   result object, errors, limits and data handling.
 - `GET /docs` serves FastAPI's interactive docs, generated from the code.
 
@@ -968,7 +986,7 @@ curl -s 127.0.0.1:4040/api/tunnels | grep -o 'https://[^"]*'     # the public UR
 - **Inspector off.** `--inspect=false` stops ngrok's local inspector from keeping uploaded
   files in memory.
 - **Browser warning.** On a free account, browsers get ngrok's warning page once. API clients
-  are not affected; see API.md.
+  are not affected; see [pii_service/README.md](pii_service/README.md#base-url-and-access).
 - **Polling.** Fast polling of the public address from this box gets TLS refused for about a
   minute. Use keep-alive with a 2 s interval, or `localhost`.
 
@@ -1049,7 +1067,8 @@ Tier 3 plumbing are the real modules.
 8. Persist `rows_scanned` and full header rows in `run_pii_s3.py`. Today the sibling headers
    come from columns that produced a detection, so a clean quasi-identifier column is
    invisible.
-9. Rebuild `cross_dataset_common.txt` from a clean re-scan. It still holds subword fragments
+9. Rebuild `cross_dataset_common.txt` from a clean re-scan (restore `build_frequency_blocklist.py`
+   from git first, see section 6). It still holds subword fragments
    from before the aggregation fix, and one Devanagari entry in the old shattered form. Both
    are inert.
 10. Not yet addressed:

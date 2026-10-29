@@ -60,7 +60,7 @@ The check had three steps:
    468 it put in the first group, 58 belong there. So on 12 October 2026, all 852 datasets it
    had put in the first two groups in lots 2 and 3 were read again, one at a time: the title,
    the column headings, the flagged values, and the full table where that was not enough.
-   This reading was done by Claude, the AI assistant working on the project. No second
+   This reading was done by the AI assistant working on the project. No second
    reviewer has checked it.
 
 The three groups:

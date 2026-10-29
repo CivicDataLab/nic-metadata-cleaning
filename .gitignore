@@ -37,6 +37,36 @@ pii_test/pii_service/*.sock
 /pii_test/lot2/
 /pii_test/lot3/
 /pii_test/results_excel/
+/pii_test/pipeline/out/
 # KCC full-scan logs and per-worker summaries (run output)
 /pii_test/kcc/full/
 pii_test/**/__pycache__/
+
+# Files over 100 MB (GitHub refuses them): lot 2 downloads, which are not otherwise ignored
+/data/lot2_downloads/0059d51b-e702-4050-a0ea-7dcbae8b2c92.csv
+/data/lot2_downloads/006a9b0e-5cad-400b-b98f-e098e3be5152.csv
+/data/lot2_downloads/0771b6a5-c277-4d12-82f0-4cc267594b8c.csv
+/data/lot2_downloads/1b6de019-39df-45c3-a27b-dc1d70b44ce4.csv
+/data/lot2_downloads/1c5187cc-a334-48fa-9076-648b1544e7d0.csv
+/data/lot2_downloads/2aa8a348-5763-45bd-b843-90eb1df885f0.csv
+/data/lot2_downloads/2c4ee41f-4912-4789-b29e-77eafb5fe2b4.csv
+/data/lot2_downloads/304c4dc5-b06a-4a59-8057-f3968ea9f628.csv
+/data/lot2_downloads/3a33376a-5f51-4ebb-b760-e31efc72b4ba.csv
+/data/lot2_downloads/479adba6-450c-41c3-aa12-7d3d941b2cb2.csv
+/data/lot2_downloads/55f37ec2-9cbb-4c4c-82f7-24446fd75075.csv
+/data/lot2_downloads/56fbafe3-9831-4b38-bf8e-98c8bde24aa3.csv
+/data/lot2_downloads/5ef87067-3b97-43d7-8b22-6432b55f2fe8.csv
+/data/lot2_downloads/686b6d68-504b-42eb-b6f4-fd12c1d49984.csv
+/data/lot2_downloads/6ed43d2b-f979-4df1-94ce-3915479af573.csv
+/data/lot2_downloads/80e76f99-f81d-4fed-8c42-b8cc1d2ee3d2.csv
+/data/lot2_downloads/946c7f54-d956-4823-95ff-ec4242ca66a0.csv
+/data/lot2_downloads/9a8f35eb-0531-4a5e-9abb-74ebf6e3cde4.csv
+/data/lot2_downloads/9b8eaebe-8934-4093-b33d-7d0814aae554.csv
+/data/lot2_downloads/b4cefcdf-9a59-49b3-993b-26bec99d7086.csv
+/data/lot2_downloads/c2aef1be-c339-4070-b9be-4b3ff23773c4.csv
+/data/lot2_downloads/c32d8fa8-1615-4995-9e52-90b76a705573.csv
+/data/lot2_downloads/c5b87743-7396-4dc1-9bec-136d88ebc051.csv
+/data/lot2_downloads/c5ec76a5-e3da-4d8a-b49e-eb8c2ddc5a99.csv
+/data/lot2_downloads/c7a9d786-6923-4189-b5d6-fe88db9f1dfc.csv
+/data/lot2_downloads/e9fd4bab-aaf0-4d4d-a055-56c619441380.csv
+/data/lot2_downloads/eceade07-51f4-4563-95ac-1399caae7013.csv

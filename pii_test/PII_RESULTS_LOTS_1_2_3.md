@@ -125,7 +125,7 @@ What the scan reads in each file:
 ### The final result and the review behind it
 
 The pipeline's verdicts over-call, so on 2026-10-12 they were checked one by one. The checking
-was done by Claude, the AI assistant working on the project, not by a human reviewer:
+was done by the AI assistant working on the project, not by a human reviewer:
 
 - **What was read.** Every dataset the pipeline judged `present` (231 files in lot 2, 237 rows
   in lot 3) or `permissible` (256 and 128): the title, all headers, each flagged column with a
